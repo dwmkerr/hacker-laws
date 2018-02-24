@@ -22,3 +22,11 @@ See also: 'The Spotify Model'.
 The Unix Philosophy is that software components should be small, and focused on doing one specific thing well. This can make it easier to build systems by composing together small, simple, well defined units, rather than using large, complex, multi-purpose programs.
 
 Modern practices like 'Microservice Architecture' can be thought of as an application of this law, where services are small, focused and do one specific thing, allowing complex behaviour to be composed from simple building blocks.
+
+## ⭐The Spotify Model
+
+[The Spotify Model on Spotify Labs](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)
+
+The Spotify Model is an an approach to team and organisation structure which has been popularised by 'Spotify'. In this model, teams are organised around features, rather than technologies.
+
+The Spotify Model also popularises the concepts of Tribes, Guilds, Chapters, which are other components of their organisation structure.

@@ -8,7 +8,7 @@ Laws, Theories, Patterns and Ideas that all developers should know about!
 * [Introduction](#introduction)
 * [The Laws](#the-laws)
     * [⭐⭐ Conway's Law](#-conways-law)
-* [Hofstadter's Law](#hofstadters-law)
+* [⭐Hofstadter's Law](#hofstadters-law)
     * [⭐⭐⭐ The Unix Philosophy](#-the-unix-philosophy)
     * [⭐The Spotify Model](#the-spotify-model)
 
@@ -33,7 +33,7 @@ This law suggests that the technical boundaries of a system will reflect the str
 
 See also: 'The Spotify Model'.
 
-## Hofstadter's Law
+## ⭐ Hofstadter's Law
 
 [Hofstadter's Law on Wikipedia](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
 

@@ -8,6 +8,7 @@ Laws, Theories, Patterns and Ideas that all developers should know about!
 * [Introduction](#introduction)
 * [The Laws](#the-laws)
     * [⭐⭐ Conway's Law](#-conways-law)
+* [Hofstadter's Law](#hofstadters-law)
     * [⭐⭐⭐ The Unix Philosophy](#-the-unix-philosophy)
     * [⭐The Spotify Model](#the-spotify-model)
 
@@ -31,6 +32,14 @@ And here we go!
 This law suggests that the technical boundaries of a system will reflect the structure of the organisation. It is commonly referred to when looking at organisation improvements, Conway's Law suggests that if an organisation is structured into many small, disconnected units, the software it produces will be. If an organisation is built more around 'verticals' which are orientated around features or services, the software systems will also reflect this.
 
 See also: 'The Spotify Model'.
+
+## Hofstadter's Law
+
+[Hofstadter's Law on Wikipedia](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
+
+> It always takes longer than you expect, even when you take into account Hofstadter's Law.
+
+You might hear this law referred to when looking at estimates for how long something will take. It seems a truism in software development that we tend to not be very good at accurately estimating how long something will take to deliver.
 
 ### ⭐⭐⭐ The Unix Philosophy
 

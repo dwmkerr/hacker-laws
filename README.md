@@ -9,6 +9,7 @@ Laws, Theories, Patterns and Ideas that all developers should know about!
 * [The Laws](#the-laws)
     * [⭐⭐ Conway's Law](#-conways-law)
     * [⭐ Hofstadter's Law](#-hofstadters-law)
+    * [⭐⭐ The Law of Conservation of Complexity (Tessler's Law)](#-the-law-of-conservation-of-complexity-tesslers-law)
     * [⭐⭐⭐ The Unix Philosophy](#-the-unix-philosophy)
     * [⭐The Spotify Model](#the-spotify-model)
 
@@ -40,6 +41,16 @@ See also: 'The Spotify Model'.
 > It always takes longer than you expect, even when you take into account Hofstadter's Law.
 
 You might hear this law referred to when looking at estimates for how long something will take. It seems a truism in software development that we tend to not be very good at accurately estimating how long something will take to deliver.
+
+### ⭐⭐ The Law of Conservation of Complexity (Tessler's Law)
+
+[The Law of Conservation of Complexity on Wikipedia](https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity)
+
+This law states that there is a certain amount of complexity in a system which cannot be eliminated - it is intrinsic.
+
+One way to think of this is that there is a certain amount of inherent complexity. You can 'move it around', by restructuring code, but you cannot eliminate it. One interesting angle is that even by making the overall system less complex, you potentially just shift the eliminated complexity _to the user_ - forcing them to behave in a more complex way.
+
+Another way to think of the law is this. Some complexity in a system is 'inadvertent'. It is complexity because something is poorly structured, obtuse, or doesn't effectively model a certain problem well. This can be reduced (or eliminated). However, some complexity is 'intrinsic' - is is a consequence of the complexity of the problem being solved. This complexity can be moved, but not eliminated.
 
 ### ⭐⭐⭐ The Unix Philosophy
 

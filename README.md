@@ -9,7 +9,7 @@ Laws, Theories, Patterns and Ideas that all developers should know about!
 * [The Laws](#the-laws)
     * [⭐⭐ Conway's Law](#-conways-law)
     * [⭐ Hofstadter's Law](#-hofstadters-law)
-    * [⭐⭐ The Law of Conservation of Complexity (Tessler's Law)](#-the-law-of-conservation-of-complexity-tesslers-law)
+    * [⭐⭐ The Law of Conservation of Complexity (Tesler's Law)](#-the-law-of-conservation-of-complexity-teslers-law)
     * [⭐⭐⭐ The Unix Philosophy](#-the-unix-philosophy)
     * [⭐The Spotify Model](#the-spotify-model)
 
@@ -42,7 +42,7 @@ See also: 'The Spotify Model'.
 
 You might hear this law referred to when looking at estimates for how long something will take. It seems a truism in software development that we tend to not be very good at accurately estimating how long something will take to deliver.
 
-### ⭐⭐ The Law of Conservation of Complexity (Tessler's Law)
+### ⭐⭐ The Law of Conservation of Complexity (Tesler's Law)
 
 [The Law of Conservation of Complexity on Wikipedia](https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity)
 

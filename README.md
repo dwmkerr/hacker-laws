@@ -46,11 +46,11 @@ You might hear this law referred to when looking at estimates for how long somet
 
 [The Law of Conservation of Complexity on Wikipedia](https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity)
 
-This law states that there is a certain amount of complexity in a system which cannot be eliminated - it is intrinsic.
+This law states that there is a certain amount of complexity in a system which cannot be reduced.
 
-One way to think of this is that there is a certain amount of inherent complexity. You can 'move it around', by restructuring code, but you cannot eliminate it. One interesting angle is that even by making the overall system less complex, you potentially just shift the eliminated complexity _to the user_ - forcing them to behave in a more complex way.
+Some complexity in a system is 'inadvertent'. It is a consequence of poor structure, mistakes, or just bad modeling of a problem to solve. Inadvertent complexity can be reduced (or eliminated). However, some complexity is 'intrinsic' - is is a consequence of the complexity inherent in the problem being solved. This complexity can be moved, but not eliminated.
 
-Another way to think of the law is this. Some complexity in a system is 'inadvertent'. It is complexity because something is poorly structured, obtuse, or doesn't effectively model a certain problem well. This can be reduced (or eliminated). However, some complexity is 'intrinsic' - is is a consequence of the complexity of the problem being solved. This complexity can be moved, but not eliminated.
+One interesting element to this law is the suggestion that even by simplifying the entire system, the intrinsic complexity is not reduced, it is _moved to the user_, who must behave in a more complex way.
 
 ### ⭐⭐⭐ The Unix Philosophy
 

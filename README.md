@@ -10,6 +10,7 @@ Laws, Theories, Patterns and Ideas that all developers should know about!
     * [⭐⭐ Conway's Law](#-conways-law)
     * [⭐ Hofstadter's Law](#-hofstadters-law)
     * [⭐⭐ The Law of Conservation of Complexity (Tesler's Law)](#-the-law-of-conservation-of-complexity-teslers-law)
+    * [⭐⭐ The Robustness Principle (Postel's Law)](#-the-robustness-principle-postels-law)
     * [⭐⭐⭐ The Unix Philosophy](#-the-unix-philosophy)
     * [⭐The Spotify Model](#the-spotify-model)
 
@@ -51,6 +52,16 @@ This law states that there is a certain amount of complexity in a system which c
 Some complexity in a system is 'inadvertent'. It is a consequence of poor structure, mistakes, or just bad modeling of a problem to solve. Inadvertent complexity can be reduced (or eliminated). However, some complexity is 'intrinsic' - is is a consequence of the complexity inherent in the problem being solved. This complexity can be moved, but not eliminated.
 
 One interesting element to this law is the suggestion that even by simplifying the entire system, the intrinsic complexity is not reduced, it is _moved to the user_, who must behave in a more complex way.
+
+### ⭐⭐ The Robustness Principle (Postel's Law)
+
+[The Robustness Principle on Wikipedia](https://en.wikipedia.org/wiki/Robustness_principle)
+
+> Be conservative in what you do, be liberal in what you accept from others.
+
+Often applied in server application development, this principle states that what you send to others should be as minimal and conformant as possible, but you should be aim to allow non-conformant input if it can be processed.
+
+The goal of this principle is to build systems which are robust, as they can handle poorly formed input if the intent can still be understood. However, there are potentially security implications of accepting malformed input, particularly if the processing of such input is not well tested.
 
 ### ⭐⭐⭐ The Unix Philosophy
 

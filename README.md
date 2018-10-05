@@ -2,7 +2,6 @@
 
 Laws, Theories, Patterns and Ideas that all developers should know about!
 
-
 <!-- vim-markdown-toc GFM -->
 
 * [Introduction](#introduction)
@@ -10,6 +9,7 @@ Laws, Theories, Patterns and Ideas that all developers should know about!
     * [⭐⭐ Conway's Law](#-conways-law)
     * [⭐ Hofstadter's Law](#-hofstadters-law)
     * [⭐⭐ The Law of Conservation of Complexity (Tesler's Law)](#-the-law-of-conservation-of-complexity-teslers-law)
+    * [⭐⭐ The Robustness Principle (Postel's Law)](#-the-robustness-principle-postels-law)
     * [⭐⭐⭐ The Unix Philosophy](#-the-unix-philosophy)
     * [⭐The Spotify Model](#the-spotify-model)
 
@@ -20,6 +20,8 @@ Laws, Theories, Patterns and Ideas that all developers should know about!
 There are lots of laws which people discuss when talking about development. This repository is a reference and overview of some of the most common ones. Please share and submit PRs!
 
 I have tried to use a star rating for how 'important' a law is. The more stars, the more likely you are to hear the law referred to, and therefore the more potentially useful it is to know about it. Of course this is highly subjective, I am open to other suggestions.
+
+❗: This repo contains an explanation of some laws, principles and patterns, but does not _advocate_ for any of them. Whether they should be applied will always be a matter of debate, and greatly dependent on what you are working on.
 
 ## The Laws
 
@@ -51,6 +53,16 @@ This law states that there is a certain amount of complexity in a system which c
 Some complexity in a system is 'inadvertent'. It is a consequence of poor structure, mistakes, or just bad modeling of a problem to solve. Inadvertent complexity can be reduced (or eliminated). However, some complexity is 'intrinsic' - is is a consequence of the complexity inherent in the problem being solved. This complexity can be moved, but not eliminated.
 
 One interesting element to this law is the suggestion that even by simplifying the entire system, the intrinsic complexity is not reduced, it is _moved to the user_, who must behave in a more complex way.
+
+### ⭐⭐ The Robustness Principle (Postel's Law)
+
+[The Robustness Principle on Wikipedia](https://en.wikipedia.org/wiki/Robustness_principle)
+
+> Be conservative in what you do, be liberal in what you accept from others.
+
+Often applied in server application development, this principle states that what you send to others should be as minimal and conformant as possible, but you should be aim to allow non-conformant input if it can be processed.
+
+The goal of this principle is to build systems which are robust, as they can handle poorly formed input if the intent can still be understood. However, there are potentially security implications of accepting malformed input, particularly if the processing of such input is not well tested.
 
 ### ⭐⭐⭐ The Unix Philosophy
 

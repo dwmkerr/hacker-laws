@@ -2,7 +2,6 @@
 
 Laws, Theories, Patterns and Ideas that all developers should know about!
 
-
 <!-- vim-markdown-toc GFM -->
 
 * [Introduction](#introduction)
@@ -21,6 +20,8 @@ Laws, Theories, Patterns and Ideas that all developers should know about!
 There are lots of laws which people discuss when talking about development. This repository is a reference and overview of some of the most common ones. Please share and submit PRs!
 
 I have tried to use a star rating for how 'important' a law is. The more stars, the more likely you are to hear the law referred to, and therefore the more potentially useful it is to know about it. Of course this is highly subjective, I am open to other suggestions.
+
+❗: This repo contains an explanation of some laws, principles and patterns, but does not _advocate_ for any of them. Whether they should be applied will always be a matter of debate, and greatly dependent on what you are working on.
 
 ## The Laws
 

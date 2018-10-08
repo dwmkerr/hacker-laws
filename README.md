@@ -1,5 +1,4 @@
-# hacker-laws
-
+# hacker-laws 
 Laws, Theories, Patterns and Ideas that all developers should know about!
 
 <!-- vim-markdown-toc GFM -->
@@ -9,6 +8,7 @@ Laws, Theories, Patterns and Ideas that all developers should know about!
     * [⭐⭐ Conway's Law](#-conways-law)
     * [⭐ Hofstadter's Law](#-hofstadters-law)
     * [⭐⭐ The Law of Conservation of Complexity (Tesler's Law)](#-the-law-of-conservation-of-complexity-teslers-law)
+    * [⭐The Law of Triviality](#the-law-of-triviality)
     * [⭐⭐ The Robustness Principle (Postel's Law)](#-the-robustness-principle-postels-law)
     * [⭐⭐⭐ The Unix Philosophy](#-the-unix-philosophy)
     * [⭐The Spotify Model](#the-spotify-model)
@@ -53,6 +53,16 @@ This law states that there is a certain amount of complexity in a system which c
 Some complexity in a system is 'inadvertent'. It is a consequence of poor structure, mistakes, or just bad modeling of a problem to solve. Inadvertent complexity can be reduced (or eliminated). However, some complexity is 'intrinsic' as a consequence of the complexity inherent in the problem being solved. This complexity can be moved, but not eliminated.
 
 One interesting element to this law is the suggestion that even by simplifying the entire system, the intrinsic complexity is not reduced, it is _moved to the user_, who must behave in a more complex way.
+
+### ⭐The Law of Triviality
+
+[The Law of Triviality on Wikipedia](https://en.wikipedia.org/wiki/Law_of_triviality)
+
+This law suggests that managers will give far more time and attention to trivial or cosmetic issues rather than serious and substantial ones.
+
+The common fictional example used is that of a committee approving plans for nuclear power plant, who spend the majority of their time discussing the structure of the bike shed, rather than the far more important design for the power plant itself. It can be difficult to give valuable input on discussions about very large, complex topics without a high degree of subject matter expertise or preparation. However, people want to be seen to be contributing valuable input. Hence a tendency to focus too much time on small details, which can be reasoned about easily, but are not necessarily of particular importance.
+
+The fictional example above led to the usage of the term 'Bike Shedding' as an expression for wasting time on trivial details.
 
 ### ⭐⭐ The Robustness Principle (Postel's Law)
 

@@ -1,4 +1,7 @@
 # hacker-laws 
+
+[![GuardRails badge](https://badges.production.guardrails.io/dwmkerr/hacker-laws.svg)](https://www.guardrails.io)
+
 Laws, Theories, Patterns and Ideas that all developers should know about!
 
 <!-- vim-markdown-toc GFM -->

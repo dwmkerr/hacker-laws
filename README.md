@@ -14,7 +14,7 @@ Laws, Theories, Patterns and Ideas that all developers should know about!
 * [Principles](#principles)
     * [⭐⭐ The Robustness Principle (Postel's Law)](#-the-robustness-principle-postels-law)
     * [⭐⭐ The Single Responsibility Principle](#-the-single-responsibility-principle)
-* [⭐⭐ The Open/Closed Principle](#-the-openclosed-principle)
+    * [⭐⭐ The Open/Closed Principle](#-the-openclosed-principle)
 
 <!-- vim-markdown-toc -->
 

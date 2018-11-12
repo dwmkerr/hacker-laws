@@ -13,8 +13,13 @@ Laws, Theories, Patterns and Ideas that all developers should know about!
     * [The Spotify Model](#the-spotify-model)
 * [Principles](#principles)
     * [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
+    * [SOLID](#solid)
     * [The Single Responsibility Principle](#the-single-responsibility-principle)
     * [The Open/Closed Principle](#the-openclosed-principle)
+    * [The Liskov Substitution Principle](#the-liskov-substitution-principle)
+    * [The Interface Segregation Principle](#the-interface-segregation-principle)
+    * [The Dependency Inversion Principle](#the-dependency-inversion-principle)
+* [TODO](#todo)
 
 <!-- vim-markdown-toc -->
 
@@ -94,26 +99,40 @@ Often applied in server application development, this principle states that what
 
 The goal of this principle is to build systems which are robust, as they can handle poorly formed input if the intent can still be understood. However, there are potentially security implications of accepting malformed input, particularly if the processing of such input is not well tested.
 
+### SOLID
+
+This is an acronym, which refers to:
+
+* S: [The Single Responsibility Principle](#the-single-responsibility-principle)
+* O: [The Open/Closed Principle](#the-openclosed-principle)
+* L: [The Liskov Substitution Principle](#the-liskov-substitution-principle)
+* I: [The Interface Segregation Principle](#the-interface-segregation-principle)
+* D: [The Dependency Inversion Principle](#the-dependency-inversion-principle)
+
+These are key principles in [Object-Oriented Programming](#todo). Design principles such as these should be able to aid developers build more maintainable systems.
+
 ### The Single Responsibility Principle
 
 [The Single Responsibility Principle on Wikipedia](https://en.wikipedia.org/wiki/Single_responsibility_principle)
 
 > Every module or class should have a single responsibility only.
 
-The first of the '[SOLID]()' principles. This principle suggests that modules or classes should do one thing and one thing only. In more practical terms, this means that a single, small change to a feature of a program should require a change in one component only. For example, changing how a password is validated for complexity should require a change in only one part of the program.
+The first of the '[SOLID](#solid)' principles. This principle suggests that modules or classes should do one thing and one thing only. In more practical terms, this means that a single, small change to a feature of a program should require a change in one component only. For example, changing how a password is validated for complexity should require a change in only one part of the program.
 
 Theoretically this should make code more robust, and easier to change. Knowing that a component which is being changed has a single responsibility only means that _testing_ that change should be easier. Using the earlier example, changing the password complexity component should only be able to affect the features which relate to password complexity. It can be much more difficult to reason about the impact of a change to a component which has many responsibilities.
 
 See also:
 
-- [Object-Orientated Programming](TODO)
-- [SOLID](TODO)
+- [Object-Orientated Programming](#todo)
+- [SOLID](#solid)
 
 ### The Open/Closed Principle
 
+[The Open/Closed Principle on Wikipedia](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
+
 > Entities should be open for extension and closed for modification.
 
-The second of the '[SOLID](TODO)' principles. This principle states that entities (which could be classes, modules, functions and so on) should be able to have their behaviour _extended_, but that their _existing_ behaviour should not be able to be modified.
+The second of the '[SOLID](#solid)' principles. This principle states that entities (which could be classes, modules, functions and so on) should be able to have their behaviour _extended_, but that their _existing_ behaviour should not be able to be modified.
 
 As a hypothetical example, imagine a module which is able to turn a Markdown document into HTML. If the module could be extended to handle a newly proposed markdown feature, without modifying the module internals, then it would be open for extension. If the module could _not_ be modified by a consumer so that how existing Markdown features are handled, then it would be _closed_ for modification.
 
@@ -121,5 +140,64 @@ This principle has particular relevance for object-oriented programming, where w
 
 See also:
 
-- [Object-Orientated Programming](TODO)
-- [SOLID](TODO)
+- [Object-Orientated Programming](#todo)
+- [SOLID](#solid)
+
+### The Liskov Substitution Principle
+
+[The Liskov Substitution Principle on Wikipedia](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
+
+> It should be possible to replace a type with a subtype, without breaking the system.
+
+The third of the '[SOLID](#solid)' principles. This principle states that if a component relies on a type, then it should be able to use subtypes of that type, without the system failing or having to know the details of what that subtype is.
+
+As an example, imagine we have a method which reads an XML document from a structure which represents a file. If the method uses a base type 'file', then anything which derives from 'file' should be able to be used in the function. If 'file' supports seeking in reverse, and the xml parser uses that function, but the derived type 'network file' fails when reserve seeking is attempted, then the 'network file' would be violating the principle.
+
+This principle has particular relevance for object-orientated programming, where type hierarchies must be modelled carefully to avoid confusing users of a system.
+
+See also:
+
+- [Object-Orientated Programming](#todo)
+- [SOLID](#solid)
+
+### The Interface Segregation Principle
+
+[The Interface Segregation Principle on Wikipedia](https://en.wikipedia.org/wiki/Interface_segregation_principle)
+
+> No client should be forced to depend on methods it does not use.
+
+The fourth of the '[SOLID](#solid)' principles. This principle states that consumers of a component should not depend on functions of that component which it doesn't actually use.
+
+As an example, imagine we have a method which reads an XML document from structure which represents a file. It only needs to read bytes, move forwards or move backwards in the file. If this method needs to be updated because an unrelated feature of the file structure changes (such as an update to the permissions model used to represent file security), then the principle has been invalidated. It would be better for the file to implement a 'seekable-stream' interface, and for the XML reader to use that.
+
+This principle has particular relevance for object-orientated programming, where interfaces, hierarchies and abstract types are used to [minimise the coupling](#todo) between different components. [Duck typing](#todo) is a methodology which enforces this principle by eliminating explicit interfaces.
+
+See also:
+
+- [Object-Orientated Programming](#todo)
+- [SOLID](#solid)
+- [Duck Typing](#todo)
+- [Decoupling](#todo)
+
+### The Dependency Inversion Principle
+
+[The Dependency Inversion Principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
+
+> High level modules should not be dependent on low-level implementations.
+
+The fifth of the '[SOLID](#solid)' principles. This principle states that higher level orchestrating components should not have to know the details of their dependencies.
+
+As an example, imagine we have a program which read metadata from a website. We would assume that the main component would have to know about a component to download the webpage content, then a component which can read the metadata. If we were to take dependency inversion into account, the main component would depend only on an abstract component which can fetch byte data, and then an abstract component which would be able to read metadata from a byte stream. The main component would not know about TCP/IP, HTTP, HTML, etc.
+
+This principle is complex, as it can seem to 'invert' the expected dependencies of a system (hence the name). In practice, it also means that a separate orchestrating component must ensure the correct implementations of abstract types are used (e.g. in the previous example, _something_ must still provide the metadata reader component a HTTP file downloader and HTML meta tag reader). This then touches on patterns such as [Inversion of Control](#todo) and [Dependency Injection](#todo).
+
+See also:
+
+- [Object-Orientated Programming](#todo)
+- [SOLID](#solid)
+- [Inversion of Control](#todo)
+- [Dependency Injection](#todo)
+
+## TODO
+
+Hi! If you land here, you've clicked on a link to a topic I've not written up yet. Feel free to [Raise an Issue](https://github.com/dwmkerr/hacker-laws/issues) requesting more details, or [Open a Pull Request](https://github.com/dwmkerr/hacker-laws/pulls) to submit your proposed definition of the topic.

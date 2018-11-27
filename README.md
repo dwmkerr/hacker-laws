@@ -1,5 +1,6 @@
 # hacker-laws
-Laws, Theories, Patterns and Ideas that all developers should know about!
+
+Laws, Theories, Principles and Patterns that developers will find useful.
 
 <!-- vim-markdown-toc GFM -->
 

@@ -152,7 +152,7 @@ See also:
 
 The third of the '[SOLID](#solid)' principles. This principle states that if a component relies on a type, then it should be able to use subtypes of that type, without the system failing or having to know the details of what that subtype is.
 
-As an example, imagine we have a method which reads an XML document from a structure which represents a file. If the method uses a base type 'file', then anything which derives from 'file' should be able to be used in the function. If 'file' supports seeking in reverse, and the xml parser uses that function, but the derived type 'network file' fails when reserve seeking is attempted, then the 'network file' would be violating the principle.
+As an example, imagine we have a method which reads an XML document from a structure which represents a file. If the method uses a base type 'file', then anything which derives from 'file' should be able to be used in the function. If 'file' supports seeking in reverse, and the xml parser uses that function, but the derived type 'network file' fails when reverse seeking is attempted, then the 'network file' would be violating the principle.
 
 This principle has particular relevance for object-orientated programming, where type hierarchies must be modelled carefully to avoid confusing users of a system.
 

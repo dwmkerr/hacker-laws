@@ -6,6 +6,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
 
 * [Introduction](#introduction)
 * [Laws](#laws)
+    * [Brooks's Law](#brookss-law)
     * [Conway's Law](#conways-law)
     * [Hofstadter's Law](#hofstadters-law)
     * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
@@ -33,6 +34,20 @@ There are lots of laws which people discuss when talking about development. This
 ## Laws
 
 And here we go!
+
+### Brooks's Law
+
+[Brooks's Law on Wikipedia](https://en.m.wikipedia.org/wiki/Brooks%27s_law)
+
+> Adding human resources to a late software development project makes it later.
+
+This law suggests that in many cases, attempting to accelerate the delivery of a project which is already late, by adding more people, will make the delivery even later. Brooks is clear that this is an over-simplification, however the general reasoning is that given the ramp up time of new resources and the communication overheads, in the immediate short-term velocity decreases. Also, many tasks may not be divisible, i.e. easily distributed between more resources, meaning the potential velocity increase is also lower.
+
+The common phrase in delivery "Nine women can't make a baby in one month" relates to Brooks's Law, in particular the fact that some kinds of work are not divisible or parallelisable.
+
+See also:
+
+- [Death March](#todo)
 
 ### Conway's Law
 

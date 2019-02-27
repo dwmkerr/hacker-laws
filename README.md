@@ -107,6 +107,7 @@ The Spotify Model also popularises the concepts of Tribes, Guilds, Chapters, whi
 [Wadler's Law on wiki.haskell.org](https://wiki.haskell.org/Wadler's_Law)
 
 > In any language design, the total time spent discussing a feature in this list is proportional to two raised to the power of its position.
+> 
 > 0. Semantics
 > 1. Syntax
 > 2. Lexical syntax

@@ -13,6 +13,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [The Law of Triviality](#the-law-of-triviality)
     * [The Unix Philosophy](#the-unix-philosophy)
     * [The Spotify Model](#the-spotify-model)
+    * [Wadler's Law](#wadlers-law)
 * [Principles](#principles)
     * [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
     * [SOLID](#solid)
@@ -100,6 +101,25 @@ Modern practices like 'Microservice Architecture' can be thought of as an applic
 The Spotify Model is an approach to team and organisation structure which has been popularised by 'Spotify'. In this model, teams are organised around features, rather than technologies.
 
 The Spotify Model also popularises the concepts of Tribes, Guilds, Chapters, which are other components of their organisation structure.
+
+### Wadler's Law
+
+[Wadler's Law on wiki.haskell.org](https://wiki.haskell.org/Wadler's_Law)
+
+> In any language design, the total time spent discussing a feature in this list is proportional to two raised to the power of its position.
+> 
+> 0. Semantics
+> 1. Syntax
+> 2. Lexical syntax
+> 3. Lexical syntax of comments
+> 
+> (In short, for every hour spent on semantics, 8 hours will be spent on the syntax of comments).
+
+Similar to [The Law of Triviality](#the-law-of-triviality), Wadler's Law states what when designing a language, the amount of time spent on language structures is disproportionately high in comparison to the importance of those features.
+
+See also:
+
+- [The Law of Triviality](#the-law-of-triviality)
 
 ## Principles
 

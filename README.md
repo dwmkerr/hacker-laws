@@ -112,6 +112,7 @@ The Spotify Model also popularises the concepts of Tribes, Guilds, Chapters, whi
 > 1. Syntax
 > 2. Lexical syntax
 > 3. Lexical syntax of comments
+> 
 > (In short, for every hour spent on semantics, 8 hours will be spent on the syntax of comments).
 
 Similar to [The Law of Triviality](#the-law-of-triviality), Wadler's Law states what when designing a language, the amount of time spent on language structures is disproportionately high in comparison to the importance of those features.

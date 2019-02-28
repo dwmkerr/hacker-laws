@@ -9,6 +9,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [Brooks's Law](#brookss-law)
     * [Conway's Law](#conways-law)
     * [Hofstadter's Law](#hofstadters-law)
+    * [Parkinson's Law](#parkinsons-law)
     * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
     * [The Law of Triviality](#the-law-of-triviality)
     * [The Unix Philosophy](#the-unix-philosophy)
@@ -65,6 +66,20 @@ See also: 'The Spotify Model'.
 > It always takes longer than you expect, even when you take into account Hofstadter's Law.
 
 You might hear this law referred to when looking at estimates for how long something will take. It seems a truism in software development that we tend to not be very good at accurately estimating how long something will take to deliver.
+
+### Parkinson's Law
+
+[Parkinson's Law on Wikipedia](https://en.wikipedia.org/wiki/Parkinson%27s_law)
+
+> Work expands so as to fill the time available for its completion.
+
+In it's original context, this Law was based on studies of bureaucracies. It may be pessimistically applied to software development initiatives, the theory being that teams will be inefficient until deadlines near, then rush to complete work by the deadline, thus making the actual deadline somewhat arbitrary.
+
+If this law were combined with [Hofstadter's Law](#hofstadters-law), an even more pessimistic viewpoint is reached - work will expand to fill the time available for it's completion and *still take longer than expected*.
+
+See also:
+
+- [Hofstadter's Law](#hofstadters-law)
 
 ### The Law of Conservation of Complexity (Tesler's Law)
 

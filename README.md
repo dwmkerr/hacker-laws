@@ -8,6 +8,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
 * [Laws](#laws)
     * [Brooks's Law](#brookss-law)
     * [Conway's Law](#conways-law)
+    * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
     * [Hofstadter's Law](#hofstadters-law)
     * [Parkinson's Law](#parkinsons-law)
     * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
@@ -58,6 +59,22 @@ See also:
 This law suggests that the technical boundaries of a system will reflect the structure of the organisation. It is commonly referred to when looking at organisation improvements, Conway's Law suggests that if an organisation is structured into many small, disconnected units, the software it produces will be. If an organisation is built more around 'verticals' which are orientated around features or services, the software systems will also reflect this.
 
 See also: 'The Spotify Model'.
+
+### The Hype Cycle & Amara's Law
+
+[The Hype Cycle on Wikipedia](https://en.wikipedia.org/wiki/Hype_cycle)
+
+> We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.
+>
+> (Roy Amara)
+
+The Hype Cycle is a visual representation of the excitement and development of technology over time, originally produced by Gartner. It is best shown with a visual:
+
+![The Hype Cycle](./images/gartner_hype_cycle.svg)
+
+By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051
+
+In short, this cycle suggests that there is typically a burst of excitement around new technology and the potential impact. Teams often jump into these technologies quickly, and sometimes due to the immaturity of the technology of limited practical applications, find themselves disillusioned with the results. After a certain amount of time, the real-world capabilities of the technology increase, and teams can finally become productive. Roy Amara's quote sums this up most succinctly - "We tend to overestimate the effect of a technology in the short run and underestimate in the long run".
 
 ### Hofstadter's Law
 

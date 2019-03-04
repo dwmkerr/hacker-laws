@@ -72,7 +72,7 @@ The Hype Cycle is a visual representation of the excitement and development of t
 
 ![The Hype Cycle](./images/gartner_hype_cycle.png)
 
-*(By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
+*(Image Reference: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
 
 In short, this cycle suggests that there is typically a burst of excitement around new technology and the potential impact. Teams often jump into these technologies quickly, and sometimes due to the immaturity of the technology of limited practical applications, find themselves disillusioned with the results. After a certain amount of time, the real-world capabilities of the technology increase, and teams can finally become productive. Roy Amara's quote sums this up most succinctly - "We tend to overestimate the effect of a technology in the short run and underestimate in the long run".
 

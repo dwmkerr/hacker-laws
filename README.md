@@ -70,7 +70,7 @@ See also: 'The Spotify Model'.
 
 The Hype Cycle is a visual representation of the excitement and development of technology over time, originally produced by Gartner. It is best shown with a visual:
 
-![The Hype Cycle](./images/gartner_hype_cycle.svg)
+![The Hype Cycle](./images/gartner_hype_cycle.png)
 
 By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051
 

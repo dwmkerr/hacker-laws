@@ -11,6 +11,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [Conway's Law](#conways-law)
     * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
     * [Hofstadter's Law](#hofstadters-law)
+    * [Moore's Law](#moores-law)
     * [Parkinson's Law](#parkinsons-law)
     * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
     * [The Law of Triviality](#the-law-of-triviality)
@@ -107,6 +108,14 @@ In short, this cycle suggests that there is typically a burst of excitement arou
 > It always takes longer than you expect, even when you take into account Hofstadter's Law.
 
 You might hear this law referred to when looking at estimates for how long something will take. It seems a truism in software development that we tend to not be very good at accurately estimating how long something will take to deliver.
+
+### Moore's Law
+
+[Moore's Law on Wikipedia](https://en.wikipedia.org/wiki/Moore%27s_law)
+
+> The number of transistors in an integrated circuit doubles approximately every two years.
+
+Often used to illustrate the sheer speed at which semiconductor and chip technology has improved, Moore's prediction has proven to be highly accurate over from the 1970s to the late 2000s. In more recent years, the trend has changed slightly, partly due to [physical limitations on the degree to which components can be miniaturised](https://en.wikipedia.org/wiki/Quantum_tunnelling). However, advancements in parallelisation, and potentially revolutionary changes in semi-conductor technology and quantum computing may mean that Moore's Law could continue to hold true for decades to come.
 
 ### Parkinson's Law
 

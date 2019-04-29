@@ -117,7 +117,7 @@ In short, this cycle suggests that there is typically a burst of excitement arou
 
 > With a sufficient number of users of an API,
 > it does not matter what you promise in the contract:
-> all observable behaviors of your system
+> all observable behaviours of your system
 > will be depended on by somebody.
 >
 > (Hyrum Wright)

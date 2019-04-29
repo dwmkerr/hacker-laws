@@ -9,8 +9,9 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [Amdahl's Law](#amdahls-law)
     * [Brooks's Law](#brookss-law)
     * [Conway's Law](#conways-law)
-    * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
     * [Hofstadter's Law](#hofstadters-law)
+    * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
+    * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
     * [Moore's Law](#moores-law)
     * [Parkinson's Law](#parkinsons-law)
     * [Putt's Law](#putts-law)
@@ -86,6 +87,14 @@ This law suggests that the technical boundaries of a system will reflect the str
 
 See also: 'The Spotify Model'.
 
+### Hofstadter's Law
+
+[Hofstadter's Law on Wikipedia](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
+
+> It always takes longer than you expect, even when you take into account Hofstadter's Law.
+
+You might hear this law referred to when looking at estimates for how long something will take. It seems a truism in software development that we tend to not be very good at accurately estimating how long something will take to deliver.
+
 ### The Hype Cycle & Amara's Law
 
 [The Hype Cycle on Wikipedia](https://en.wikipedia.org/wiki/Hype_cycle)
@@ -102,13 +111,22 @@ The Hype Cycle is a visual representation of the excitement and development of t
 
 In short, this cycle suggests that there is typically a burst of excitement around new technology and its potential impact. Teams often jump into these technologies quickly, and sometimes fund themselves disappointed with the results. This might be because the technology is not yet mature enough, or real-world applications are not yet fully realised. After a certain amount of time, the capabilities of the technology increase and practical opportunities to use it increase, and teams can finally become productive. Roy Amara's quote sums this up most succinctly - "We tend to overestimate the effect of a technology in the short run and underestimate in the long run".
 
-### Hofstadter's Law
+### Hyrum's Law (The Law of Implicit Interfaces)
 
-[Hofstadter's Law on Wikipedia](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
+[Hyrum's Law Online](http://www.hyrumslaw.com/)
 
-> It always takes longer than you expect, even when you take into account Hofstadter's Law.
+> With a sufficient number of users of an API,
+> it does not matter what you promise in the contract:
+> all observable behaviors of your system
+> will be depended on by somebody.
+>
+> (Hyrum Wright)
 
-You might hear this law referred to when looking at estimates for how long something will take. It seems a truism in software development that we tend to not be very good at accurately estimating how long something will take to deliver.
+Hyrum's Law states that when you have a _large enough number of consumers_ of an API, all behaviours of the API (even those not defined as part of a public contract) will eventually come to be depended on by someone. A trivial examples may be non-functional elements such as the response time of an API. A more subtle example might be consumers who are relying on applying a regex to an error message to determine the *type* of error of an API. Even if the public contract of the API states nothing about the contents of the message, indicating users should use an associated error code, _some_ users may use the message, and changing the message essentially breaks the API for those users.
+
+See also:
+
+- [The Law of Leaky Abstractions](#TODO)
 
 ### Moore's Law
 

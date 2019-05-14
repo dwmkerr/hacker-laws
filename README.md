@@ -375,9 +375,17 @@ Rules can be the governing power behind serviceabilty of systems or general obse
 
 Greenspuns tenth rule states the opinion that systems can be built and extended using common lisp and any attempt to build such a system in any other language would be a partial implementation of lisp.
 
-Another interpretation to this rule would be an advice to not implement a domain specific language (DSL) interpreter in the application, instead depend on the excellent extensibility features of lisp as a scripting language. 
+Another interpretation to this rule would be an advice to not implement a domain specific language (DSL) interpreter in the application, instead depend on the excellent extensibility features of lisp as a scripting language.
 
+## Theorems.
 
+Theorems are verivied truths proved by reasoning based on self-evident truths (postulates) or facts.
+
+### CAP Theorem / Brewer's theorem.
+
+> The CAP theorem states that in the presence of a network partition, one has to choose between consistency and availability.
+
+		
 ## TODO
 
 Hi! If you land here, you've clicked on a link to a topic I've not written up yet, sorry about this - this is work in progress!

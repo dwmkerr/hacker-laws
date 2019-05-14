@@ -29,6 +29,8 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [The Liskov Substitution Principle](#the-liskov-substitution-principle)
     * [The Interface Segregation Principle](#the-interface-segregation-principle)
     * [The Dependency Inversion Principle](#the-dependency-inversion-principle)
+* [Rules](#rules)
+    * [Greenspun's Tenth Rule](#greenspuns-tenth-rule)
 * [TODO](#todo)
 
 <!-- vim-markdown-toc -->
@@ -362,6 +364,19 @@ See also:
 - [SOLID](#solid)
 - [Inversion of Control](#todo)
 - [Dependency Injection](#todo)
+
+## Rules
+
+Rules can be the governing power behind serviceabilty of systems or general observations/opinions on systems thinking.
+
+### Greenspun's Tenth Rule.
+
+> Any sufficiently complicated C or Fortran program contains an ad-hoc, informally-specified, bug-ridden, slow implementation of half of Common Lisp.
+
+Greenspuns tenth rule states the opinion that systems can be built and extended using common lisp and any attempt to build such a system in any other language would be a partial implementation of lisp.
+
+Another interpretation to this rule would be an advice to not implement a domain specific language (DSL) interpreter in the application, instead depend on the excellent extensibility features of lisp as a scripting language. 
+
 
 ## TODO
 

@@ -9,6 +9,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [Amdahl's Law](#amdahls-law)
     * [Brooks's Law](#brookss-law)
     * [Conway's Law](#conways-law)
+    * [Hanlon's Razor](#hanlons-razor)
     * [Hofstadter's Law](#hofstadters-law)
     * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
     * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
@@ -89,6 +90,16 @@ This law suggests that the technical boundaries of a system will reflect the str
 See also:
 
 - [The Spotify Model](#the-spotify-model)
+
+### Hanlon's Razor
+
+[Hanlon's Razor on Wikipedia](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
+
+> "Never attribute to malice that which is adequately explained by stupidity." 
+>
+> -Robert J. Hanlon
+
+This principle suggests that actions resulting in a negative outcome were not a result of ill will. Instead the negative outcome is more likely attributed to those actions and/or the impact being not fully understood.
 
 ### Hofstadter's Law
 

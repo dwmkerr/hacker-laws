@@ -170,7 +170,7 @@ However, it should be stressed that Laws such as this are vast generalisations a
 
 See also:
 
-- [The Peter Principe](#TODO)
+- [The Peter Principle](#TODO)
 - [Dilbert's Law](#TODO).
 
 

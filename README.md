@@ -164,13 +164,13 @@ Putt's Law is often followed by Putt's Corollary:
 
 > Every technical hierarchy, in time, develops a competence inversion.
 
-These statements suggest that due to various selection criteria and trends in how groups organise, there will be a number of skilled people at working levels of a technical organisations, and a number of people in managerial roles who are not aware of the complexities and challenges of the work they are managing. This can be due to phenomena such as [The Peter Principle](#TODO) or [The Dilbert Principle](#the-dilbert-principle).
+These statements suggest that due to various selection criteria and trends in how groups organise, there will be a number of skilled people at working levels of a technical organisations, and a number of people in managerial roles who are not aware of the complexities and challenges of the work they are managing. This can be due to phenomena such as [The Peter Principle](#the-peter-principle) or [The Dilbert Principle](#the-dilbert-principle).
 
 However, it should be stressed that Laws such as this are vast generalisations and may apply to _some_ types of organisations, and not apply to others.
 
 See also:
 
-- [The Peter Principe](#TODO)
+- [The Peter Principle](#the-peter-principle)
 - [The Dilbert Principle](#the-dilbert-principle)
 
 
@@ -273,7 +273,15 @@ The goal of this principle is to build systems which are robust, as they can han
 
 > Companies tend to systematically promote incompetent employees to management to get them out of the workflow.
 
-The Dilbert principle is a concept in management developed by Scott Adams, creator of the comic strip Dilbert. The Dilbert principle is inspired by the Peter principle, which holds that employees are promoted based on success in their current position until they reach their "level of incompetence" and are no longer promoted. Under the Dilbert principle, employees who were never competent are promoted to management to limit the damage they can do. Adams first explained the principle in a 1995 Wall Street Journal article, and expanded upon it in his 1996 business book The Dilbert Principle.
+The Dilbert principle is a concept in management developed by Scott Adams, creator of the comic strip Dilbert. The Dilbert principle is inspired by [The Peter Principle](#the-peter-principle), which holds that employees are promoted based on success in their current position until they reach their "level of incompetence" and are no longer promoted. Under the Dilbert principle, employees who were never competent are promoted to management to limit the damage they can do. Adams first explained the principle in a 1995 Wall Street Journal article, and expanded upon it in his 1996 business book The Dilbert Principle.
+
+### The Peter Principle
+
+[The Peter Principle on Wikipedia](https://en.wikipedia.org/wiki/Peter_principle)
+
+> People in a hierarchy tend to rise to their "level of incompetence".
+
+The Peter principle is a concept in management developed by Laurence J. Peter, which observes that people in a hierarchy tend to rise to their "level of incompetence". In other words, an employee is promoted based on their success in previous jobs until they reach a level at which they are no longer competent, as skills in one job do not necessarily translate to another. The concept was elucidated in the 1969 book The Peter Principle by Peter and Raymond Hull.
 
 ### SOLID
 

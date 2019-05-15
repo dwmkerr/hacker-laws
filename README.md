@@ -130,6 +130,7 @@ Hyrum's Law states that when you have a _large enough number of consumers_ of an
 See also:
 
 - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
+- [XKCD 1172](https://xkcd.com/1172/)
 
 ### Moore's Law
 

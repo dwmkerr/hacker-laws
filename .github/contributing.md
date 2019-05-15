@@ -11,6 +11,7 @@ The goal of this project is to have a set of _concise_ definitions to laws, prin
 Some other tips:
 
 - It is fine to include laws which are humorous or not serious.
+- If a law does not obviously apply to development or coding, include a paragraph explaining the relevance to technologists.
 - Don't worry about managing the table of contents, I can generate it.
 - Feel free to include images, but aim to keep it down to one image per law.
 - Be careful not to copy-and-paste content (unless it is explicitly quoted), as it might violate copyright.

@@ -97,7 +97,7 @@ See also:
 
 > "Never attribute to malice that which is adequately explained by stupidity."
 
-This principal suggests that actions resulting in a negative outcome were not a result of ill will. Instead the negative outcome is more likely attributed to those actions and/or the impact being not fully understood.
+This principle suggests that actions resulting in a negative outcome were not a result of ill will. Instead the negative outcome is more likely attributed to those actions and/or the impact being not fully understood.
 
 ### Hofstadter's Law
 

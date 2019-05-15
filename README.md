@@ -9,6 +9,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [Amdahl's Law](#amdahls-law)
     * [Brooks's Law](#brookss-law)
     * [Conway's Law](#conways-law)
+    * [Hanlon's Razor](#hanlons-razor)
     * [Hofstadter's Law](#hofstadters-law)
     * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
     * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
@@ -90,11 +91,23 @@ See also:
 
 - [The Spotify Model](#the-spotify-model)
 
+### Hanlon's Razor
+
+[Hanlon's Razor on Wikipedia](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
+
+> Never attribute to malice that which is adequately explained by stupidity.
+>
+> Robert J. Hanlon
+
+This principle suggests that actions resulting in a negative outcome were not a result of ill will. Instead the negative outcome is more likely attributed to those actions and/or the impact being not fully understood.
+
 ### Hofstadter's Law
 
 [Hofstadter's Law on Wikipedia](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
 
 > It always takes longer than you expect, even when you take into account Hofstadter's Law.
+>
+> Douglas Hofstadter
 
 You might hear this law referred to when looking at estimates for how long something will take. It seems a truism in software development that we tend to not be very good at accurately estimating how long something will take to deliver.
 
@@ -130,6 +143,7 @@ Hyrum's Law states that when you have a _large enough number of consumers_ of an
 See also:
 
 - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
+- [XKCD 1172](https://xkcd.com/1172/)
 
 ### Moore's Law
 
@@ -145,9 +159,9 @@ Often used to illustrate the sheer speed at which semiconductor and chip technol
 
 > Work expands so as to fill the time available for its completion.
 
-In it's original context, this Law was based on studies of bureaucracies. It may be pessimistically applied to software development initiatives, the theory being that teams will be inefficient until deadlines near, then rush to complete work by the deadline, thus making the actual deadline somewhat arbitrary.
+In its original context, this Law was based on studies of bureaucracies. It may be pessimistically applied to software development initiatives, the theory being that teams will be inefficient until deadlines near, then rush to complete work by the deadline, thus making the actual deadline somewhat arbitrary.
 
-If this law were combined with [Hofstadter's Law](#hofstadters-law), an even more pessimistic viewpoint is reached - work will expand to fill the time available for it's the completion and *still take longer than expected*.
+If this law were combined with [Hofstadter's Law](#hofstadters-law), an even more pessimistic viewpoint is reached - work will expand to fill the time available for its completion and *still take longer than expected*.
 
 See also:
 
@@ -169,7 +183,7 @@ However, it should be stressed that Laws such as this are vast generalisations a
 
 See also:
 
-- [The Peter Principe](#TODO)
+- [The Peter Principle](#TODO)
 - [Dilbert's Law](#TODO).
 
 

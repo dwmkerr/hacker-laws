@@ -11,7 +11,6 @@
 ------------------------------------------------------------------------
 
 ## :bookmark_tabs: &nbsp; Table of Contents &nbsp; :bookmark_tabs:
-<br>
 
 <!-- vim-markdown-toc GFM -->
 

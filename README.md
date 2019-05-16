@@ -108,7 +108,7 @@ See also:
 
 ------------------------------------------------------------------------
 
-### Conway's Law
+###### Conway's Law
 ### :no_entry_sign: &nbsp; Conway's Law &nbsp; :no_entry_sign:
 
 [Conway's Law on Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)

@@ -48,6 +48,7 @@
 ------------------------------------------------------------------------
 
 ## :book: &nbsp; Introduction &nbsp; :book:
+## Introduction
 
 There are lots of laws which people discuss when talking about development. <br>
 This repository is a reference and overview of some of the ***most common*** ones. <br>

@@ -1,10 +1,16 @@
+------------------------------------------------------------------------
+
 # :scroll: &nbsp; Hacker-Laws &nbsp; :scroll:
+
+------------------------------------------------------------------------
 
 *Laws, Theories, Principles and Patterns that developers will find useful.*
 
 [中文 / Chinese Version](https://github.com/nusr/hacker-laws-zh) - Thanks to [Steve Yu](https://github.com/nusr)!
 
-## Table of Contents
+------------------------------------------------------------------------
+
+## :bookmark_tabs: &nbsp; Table of Contents &nbsp; :bookmark_tabs:
 <br>
 
 <!-- vim-markdown-toc GFM -->
@@ -39,15 +45,21 @@
 
 <!-- vim-markdown-toc -->
 
+------------------------------------------------------------------------
+
 ## Introduction
 
-There are lots of laws which people discuss when talking about development. This repository is a reference and overview of some of the most common ones. Please share and submit PRs!
+There are lots of laws which people discuss when talking about development. <br>
+This repository is a reference and overview of some of the ***most common*** ones. <br>
+Please share and submit PRs! <br>
 
-❗: This repo contains an explanation of some laws, principles and patterns, but does not _advocate_ for any of them. Whether they should be applied will always be a matter of debate, and greatly dependent on what you are working on.
+:warning: ***This repo contains an explanation of some laws, principles and patterns, but does not _advocate_ for any of them. Whether they should be applied will always be a matter of debate, and greatly dependent on what you are working on.*** :warning:
+
+------------------------------------------------------------------------
 
 ## Laws
 
-And here we go!
+*And here we go!*
 
 ### Amdahl's Law
 

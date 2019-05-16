@@ -65,7 +65,8 @@ Please share and submit PRs! <br>
 
 ------------------------------------------------------------------------
 
-### Amdahl's Law 
+###### Amdahl's Law 
+### :nut_and_bolt: &nbsp; Amdahl's Law &nbsp; :nut_and_bolt:
 
 [Amdahl's Law on Wikipedia](https://en.wikipedia.org/wiki/Amdahl%27s_law)
 
@@ -90,7 +91,8 @@ See also:
 
 ------------------------------------------------------------------------
 
-### Brooks's Law
+###### Brooks's Law
+### :crown: &nbsp; Brooks's Law &nbsp; :crown:
 
 [Brooks's Law on Wikipedia](https://en.m.wikipedia.org/wiki/Brooks%27s_law)
 
@@ -107,6 +109,7 @@ See also:
 ------------------------------------------------------------------------
 
 ### Conway's Law
+### :no_entry_sign: &nbsp; Conway's Law &nbsp; :no_entry_sign:
 
 [Conway's Law on Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 
@@ -118,7 +121,8 @@ See also:
 
 ------------------------------------------------------------------------
 
-### Hanlon's Razor
+###### Hanlon's Razor
+### :mag: &nbsp; Hanlon's Razor &nbsp; :mag:
 
 [Hanlon's Razor on Wikipedia](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
 
@@ -130,7 +134,8 @@ This principle suggests that actions resulting in a negative outcome were not a 
 
 ------------------------------------------------------------------------
 
-### Hofstadter's Law
+###### Hofstadter's Law
+### :watch: &nbsp; Hofstadter's Law &nbsp; :watch:
 
 [Hofstadter's Law on Wikipedia](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
 
@@ -142,7 +147,8 @@ You might hear this law referred to when looking at estimates for how long somet
 
 ------------------------------------------------------------------------
 
-### The Hype Cycle & Amara's Law
+###### The Hype Cycle & Amara's Law
+### :disappointed: &nbsp; The Hype Cycle & Amara's Law &nbsp; :disappointed:
 
 [The Hype Cycle on Wikipedia](https://en.wikipedia.org/wiki/Hype_cycle)
 
@@ -160,7 +166,8 @@ In short, this cycle suggests that there is typically a burst of excitement arou
 
 ------------------------------------------------------------------------
 
-### Hyrum's Law (The Law of Implicit Interfaces)
+###### Hyrum's Law (The Law of Implicit Interfaces)
+### :fish: &nbsp; Hyrum's Law (The Law of Implicit Interfaces) &nbsp; :fish:
 
 [Hyrum's Law Online](http://www.hyrumslaw.com/)
 
@@ -180,7 +187,8 @@ See also:
 
 ------------------------------------------------------------------------
 
-### Moore's Law
+###### Moore's Law
+### :chart_with_upwards_trend: &nbsp; Moore's Law &nbsp; :chart_with_upwards_trend:
 
 [Moore's Law on Wikipedia](https://en.wikipedia.org/wiki/Moore%27s_law)
 
@@ -190,7 +198,8 @@ Often used to illustrate the sheer speed at which semiconductor and chip technol
 
 ------------------------------------------------------------------------
 
-### Parkinson's Law
+###### Parkinson's Law
+### :alarm_clock: &nbsp; Parkinson's Law &nbsp; :alarm_clock:
 
 [Parkinson's Law on Wikipedia](https://en.wikipedia.org/wiki/Parkinson%27s_law)
 
@@ -206,7 +215,8 @@ See also:
 
 ------------------------------------------------------------------------
 
-### Putt's Law
+###### Putt's Law
+### :top: &nbsp; Putt's Law &nbsp; :top:
 
 [Putt's Law on Wikipedia](https://en.wikipedia.org/wiki/Putt%27s_Law_and_the_Successful_Technocrat)
 

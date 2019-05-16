@@ -2,6 +2,8 @@
 
 Laws, Theories, Principles and Patterns that developers will find useful.
 
+🇨🇳 [Hacker Laws in Chinese](https://github.com/nusr/hacker-laws-zh) - Thanks [Steve Yu](https://github.com/nusr)
+
 <!-- vim-markdown-toc GFM -->
 
 * [Introduction](#introduction)

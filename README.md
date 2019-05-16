@@ -47,8 +47,8 @@
 
 ------------------------------------------------------------------------
 
-## :book: &nbsp; Introduction &nbsp; :book:
 ###### Introduction
+## :book: &nbsp; Introduction &nbsp; :book:
 
 There are lots of laws which people discuss when talking about development. <br>
 This repository is a reference and overview of some of the ***most common*** ones. <br>
@@ -58,8 +58,8 @@ Please share and submit PRs! <br>
 
 ------------------------------------------------------------------------
 
-## :pencil: &nbsp; Laws &nbsp; :pencil:
 ###### Laws
+## :pencil: &nbsp; Laws &nbsp; :pencil:
 
 *And here we go!*
 
@@ -318,8 +318,8 @@ See also:
 
 ------------------------------------------------------------------------
 
-## :books: &nbsp; Principles &nbsp; :books:
 ###### Principles
+## :books: &nbsp; Principles &nbsp; :books:
 
 Principles are generally more likely to be guidelines relating to design.
 
@@ -448,8 +448,8 @@ See also:
 
 ------------------------------------------------------------------------
 
-## :point_right: &nbsp; TODO &nbsp; :point_left:
 ###### TODO
+## :point_right: &nbsp; TODO &nbsp; :point_left:
 
 Hi! If you land here, you've clicked on a link to a topic I've not written up yet, sorry about this - this is work in progress!
 

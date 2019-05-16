@@ -57,7 +57,7 @@ Please share and submit PRs! <br>
 
 ------------------------------------------------------------------------
 
-## <u> :pencil: &nbsp; Laws &nbsp; :pencil: </u>
+## <span style="text-decoration:underline"> :pencil: &nbsp; Laws &nbsp; :pencil: </span>
 
 *And here we go!*
 

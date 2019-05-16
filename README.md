@@ -6,6 +6,9 @@
 
 ## Table of Contents
 <br>
+
+<!-- vim-markdown-toc GFM -->
+
 * [Introduction](#introduction)
 * [Laws](#laws)
     * [Amdahl's Law](#amdahls-law)
@@ -33,6 +36,8 @@
     * [The Interface Segregation Principle](#the-interface-segregation-principle)
     * [The Dependency Inversion Principle](#the-dependency-inversion-principle)
 * [TODO](#todo)
+
+<!-- vim-markdown-toc -->
 
 ## Introduction
 

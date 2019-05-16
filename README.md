@@ -1,3 +1,4 @@
+
 ------------------------------------------------------------------------
 
 # :scroll: &nbsp; Hacker-Laws &nbsp; :scroll:
@@ -52,15 +53,17 @@ There are lots of laws which people discuss when talking about development. <br>
 This repository is a reference and overview of some of the ***most common*** ones. <br>
 Please share and submit PRs! <br>
 
-:warning: ***This repo contains an explanation of some laws, principles and patterns, but does not _advocate_ for any of them. Whether they should be applied will always be a matter of debate, and greatly dependent on what you are working on.*** :warning:
+:warning: &nbsp; ***This repo contains an explanation of some laws, principles and patterns, but does not _advocate_ for any of them. Whether they should be applied will always be a matter of debate, and greatly dependent on what you are working on.*** &nbsp; :warning:
 
 ------------------------------------------------------------------------
 
-## Laws
+## :pencil: &nbsp; Laws &nbsp; :pencil:
 
 *And here we go!*
 
-### Amdahl's Law
+------------------------------------------------------------------------
+
+### Amdahl's Law 
 
 [Amdahl's Law on Wikipedia](https://en.wikipedia.org/wiki/Amdahl%27s_law)
 
@@ -83,6 +86,8 @@ See also:
 - [Brooks's Law](#brookss-law)
 - [Moore's Law](#moores-law)
 
+------------------------------------------------------------------------
+
 ### Brooks's Law
 
 [Brooks's Law on Wikipedia](https://en.m.wikipedia.org/wiki/Brooks%27s_law)
@@ -97,6 +102,8 @@ See also:
 
 - [Death March](#todo)
 
+------------------------------------------------------------------------
+
 ### Conway's Law
 
 [Conway's Law on Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
@@ -106,6 +113,8 @@ This law suggests that the technical boundaries of a system will reflect the str
 See also:
 
 - [The Spotify Model](#the-spotify-model)
+
+------------------------------------------------------------------------
 
 ### Hanlon's Razor
 
@@ -117,6 +126,8 @@ See also:
 
 This principle suggests that actions resulting in a negative outcome were not a result of ill will. Instead the negative outcome is more likely attributed to those actions and/or the impact being not fully understood.
 
+------------------------------------------------------------------------
+
 ### Hofstadter's Law
 
 [Hofstadter's Law on Wikipedia](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
@@ -126,6 +137,8 @@ This principle suggests that actions resulting in a negative outcome were not a 
 > Douglas Hofstadter
 
 You might hear this law referred to when looking at estimates for how long something will take. It seems a truism in software development that we tend to not be very good at accurately estimating how long something will take to deliver.
+
+------------------------------------------------------------------------
 
 ### The Hype Cycle & Amara's Law
 
@@ -142,6 +155,8 @@ The Hype Cycle is a visual representation of the excitement and development of t
 *(Image Reference: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
 
 In short, this cycle suggests that there is typically a burst of excitement around new technology and its potential impact. Teams often jump into these technologies quickly, and sometimes find themselves disappointed with the results. This might be because the technology is not yet mature enough, or real-world applications are not yet fully realised. After a certain amount of time, the capabilities of the technology increase and practical opportunities to use it increase, and teams can finally become productive. Roy Amara's quote sums this up most succinctly - "We tend to overestimate the effect of a technology in the short run and underestimate in the long run".
+
+------------------------------------------------------------------------
 
 ### Hyrum's Law (The Law of Implicit Interfaces)
 
@@ -161,6 +176,8 @@ See also:
 - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
 - [XKCD 1172](https://xkcd.com/1172/)
 
+------------------------------------------------------------------------
+
 ### Moore's Law
 
 [Moore's Law on Wikipedia](https://en.wikipedia.org/wiki/Moore%27s_law)
@@ -168,6 +185,8 @@ See also:
 > The number of transistors in an integrated circuit doubles approximately every two years.
 
 Often used to illustrate the sheer speed at which semiconductor and chip technology has improved, Moore's prediction has proven to be highly accurate over from the 1970s to the late 2000s. In more recent years, the trend has changed slightly, partly due to [physical limitations on the degree to which components can be miniaturised](https://en.wikipedia.org/wiki/Quantum_tunnelling). However, advancements in parallelisation, and potentially revolutionary changes in semiconductor technology and quantum computing may mean that Moore's Law could continue to hold true for decades to come.
+
+------------------------------------------------------------------------
 
 ### Parkinson's Law
 
@@ -182,6 +201,8 @@ If this law were combined with [Hofstadter's Law](#hofstadters-law), an even mor
 See also:
 
 - [Hofstadter's Law](#hofstadters-law)
+
+------------------------------------------------------------------------
 
 ### Putt's Law
 
@@ -202,6 +223,7 @@ See also:
 - [The Peter Principle](#TODO)
 - [Dilbert's Law](#TODO).
 
+------------------------------------------------------------------------
 
 ### The Law of Conservation of Complexity (Tesler's Law)
 
@@ -212,6 +234,8 @@ This law states that there is a certain amount of complexity in a system which c
 Some complexity in a system is 'inadvertent'. It is a consequence of poor structure, mistakes, or just bad modeling of a problem to solve. Inadvertent complexity can be reduced (or eliminated). However, some complexity is 'intrinsic' as a consequence of the complexity inherent in the problem being solved. This complexity can be moved, but not eliminated.
 
 One interesting element to this law is the suggestion that even by simplifying the entire system, the intrinsic complexity is not reduced, it is _moved to the user_, who must behave in a more complex way.
+
+------------------------------------------------------------------------
 
 ### The Law of Leaky Abstractions
 
@@ -237,6 +261,8 @@ Real-world examples:
 
 - [Photoshop Slow Startup](https://forums.adobe.com/thread/376152) - an issue I encountered in the past. Photoshop would be slow to startup, sometimes taking minutes. It seems the issue was that on startup it reads some information about the current default printer. However, if that printer is actually a network printer, this could take an extremely long time. The _abstraction_ of a network printer being presented to the system similar to a local printer caused an issue for users in poor connectivity situations.
 
+------------------------------------------------------------------------
+
 ### The Law of Triviality
 
 [The Law of Triviality on Wikipedia](https://en.wikipedia.org/wiki/Law_of_triviality)
@@ -247,6 +273,8 @@ The common fictional example used is that of a committee approving plans for nuc
 
 The fictional example above led to the usage of the term 'Bike Shedding' as an expression for wasting time on trivial details.
 
+------------------------------------------------------------------------
+
 ### The Unix Philosophy
 
 [The Unix Philosophy on Wikipedia](https://en.wikipedia.org/wiki/Unix_philosophy)
@@ -255,6 +283,8 @@ The Unix Philosophy is that software components should be small, and focused on 
 
 Modern practices like 'Microservice Architecture' can be thought of as an application of this law, where services are small, focused and do one specific thing, allowing complex behaviour to be composed of simple building blocks.
 
+------------------------------------------------------------------------
+
 ### The Spotify Model
 
 [The Spotify Model on Spotify Labs](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)
@@ -262,6 +292,8 @@ Modern practices like 'Microservice Architecture' can be thought of as an applic
 The Spotify Model is an approach to team and organisation structure which has been popularised by 'Spotify'. In this model, teams are organised around features, rather than technologies.
 
 The Spotify Model also popularises the concepts of Tribes, Guilds, Chapters, which are other components of their organisation structure.
+
+------------------------------------------------------------------------
 
 ### Wadler's Law
 
@@ -282,9 +314,13 @@ See also:
 
 - [The Law of Triviality](#the-law-of-triviality)
 
-## Principles
+------------------------------------------------------------------------
+
+## :books: &nbsp; Principles &nbsp; :books:
 
 Principles are generally more likely to be guidelines relating to design.
+
+------------------------------------------------------------------------
 
 ### The Robustness Principle (Postel's Law)
 
@@ -295,6 +331,8 @@ Principles are generally more likely to be guidelines relating to design.
 Often applied in server application development, this principle states that what you send to others should be as minimal and conformant as possible, but you should be aim to allow non-conformant input if it can be processed.
 
 The goal of this principle is to build systems which are robust, as they can handle poorly formed input if the intent can still be understood. However, there are potentially security implications of accepting malformed input, particularly if the processing of such input is not well tested.
+
+------------------------------------------------------------------------
 
 ### SOLID
 
@@ -307,6 +345,8 @@ This is an acronym, which refers to:
 * D: [The Dependency Inversion Principle](#the-dependency-inversion-principle)
 
 These are key principles in [Object-Oriented Programming](#todo). Design principles such as these should be able to aid developers build more maintainable systems.
+
+------------------------------------------------------------------------
 
 ### The Single Responsibility Principle
 
@@ -322,6 +362,8 @@ See also:
 
 - [Object-Orientated Programming](#todo)
 - [SOLID](#solid)
+
+------------------------------------------------------------------------
 
 ### The Open/Closed Principle
 
@@ -340,6 +382,8 @@ See also:
 - [Object-Orientated Programming](#todo)
 - [SOLID](#solid)
 
+------------------------------------------------------------------------
+
 ### The Liskov Substitution Principle
 
 [The Liskov Substitution Principle on Wikipedia](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
@@ -356,6 +400,8 @@ See also:
 
 - [Object-Orientated Programming](#todo)
 - [SOLID](#solid)
+
+------------------------------------------------------------------------
 
 ### The Interface Segregation Principle
 
@@ -376,6 +422,8 @@ See also:
 - [Duck Typing](#todo)
 - [Decoupling](#todo)
 
+------------------------------------------------------------------------
+
 ### The Dependency Inversion Principle
 
 [The Dependency Inversion Principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
@@ -395,8 +443,13 @@ See also:
 - [Inversion of Control](#todo)
 - [Dependency Injection](#todo)
 
+------------------------------------------------------------------------
+
 ## TODO
 
 Hi! If you land here, you've clicked on a link to a topic I've not written up yet, sorry about this - this is work in progress!
 
 Feel free to [Raise an Issue](https://github.com/dwmkerr/hacker-laws/issues) requesting more details, or [Open a Pull Request](https://github.com/dwmkerr/hacker-laws/pulls) to submit your proposed definition of the topic.
+
+------------------------------------------------------------------------
+

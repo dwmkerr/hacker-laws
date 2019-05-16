@@ -6,7 +6,7 @@
 
 ## Laws Introduced
 <br>
-**[Laws](#laws)**
+__**Laws**__
    • [Amdahl's Law](#amdahls-law) <br>
    • [Brooks's Law](#brookss-law) <br>
    • [Conway's Law](#conways-law) <br>
@@ -24,7 +24,7 @@
    • [The Spotify Model](#the-spotify-model)
    • [Wadler's Law](#wadlers-law)
  <br>
-**[Principles](#principles)**
+__**Principles**__
     • [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
     • [SOLID](#solid)
     • [The Single Responsibility Principle](#the-single-responsibility-principle)

@@ -4,37 +4,35 @@
 
 [中文 / Chinese Version](https://github.com/nusr/hacker-laws-zh) - Thanks to [Steve Yu](https://github.com/nusr)!
 
-## Laws Introduced
+## Table of Contents
 <br>
-__**Laws**__
-   • [Amdahl's Law](#amdahls-law) <br>
-   • [Brooks's Law](#brookss-law) <br>
-   • [Conway's Law](#conways-law) <br>
-   • [Hanlon's Razor](#hanlons-razor) <br>
-   • [Hofstadter's Law](#hofstadters-law) <br>
-   • [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law) <br>
-   • [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
-   • [Moore's Law](#moores-law)
-   • [Parkinson's Law](#parkinsons-law)
-   • [Putt's Law](#putts-law)
-   • [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
-   • [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
-   • [The Law of Triviality](#the-law-of-triviality)
-   • [The Unix Philosophy](#the-unix-philosophy)
-   • [The Spotify Model](#the-spotify-model)
-   • [Wadler's Law](#wadlers-law)
- <br>
-__**Principles**__
-    • [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
-    • [SOLID](#solid)
-    • [The Single Responsibility Principle](#the-single-responsibility-principle)
-    • [The Open/Closed Principle](#the-openclosed-principle)
-    • [The Liskov Substitution Principle](#the-liskov-substitution-principle)
-    • [The Interface Segregation Principle](#the-interface-segregation-principle)
-    • [The Dependency Inversion Principle](#the-dependency-inversion-principle)
+* [Introduction](#introduction)
+* [Laws](#laws)
+    * [Amdahl's Law](#amdahls-law)
+    * [Brooks's Law](#brookss-law)
+    * [Conway's Law](#conways-law)
+    * [Hanlon's Razor](#hanlons-razor)
+    * [Hofstadter's Law](#hofstadters-law)
+    * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
+    * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
+    * [Moore's Law](#moores-law)
+    * [Parkinson's Law](#parkinsons-law)
+    * [Putt's Law](#putts-law)
+    * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
+    * [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
+    * [The Law of Triviality](#the-law-of-triviality)
+    * [The Unix Philosophy](#the-unix-philosophy)
+    * [The Spotify Model](#the-spotify-model)
+    * [Wadler's Law](#wadlers-law)
+* [Principles](#principles)
+    * [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
+    * [SOLID](#solid)
+    * [The Single Responsibility Principle](#the-single-responsibility-principle)
+    * [The Open/Closed Principle](#the-openclosed-principle)
+    * [The Liskov Substitution Principle](#the-liskov-substitution-principle)
+    * [The Interface Segregation Principle](#the-interface-segregation-principle)
+    * [The Dependency Inversion Principle](#the-dependency-inversion-principle)
 * [TODO](#todo)
-
-<!-- vim-markdown-toc -->
 
 ## Introduction
 

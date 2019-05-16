@@ -1,12 +1,13 @@
-# 💻📖 hacker-laws
+# :scroll: &nbsp; Hacker-Laws &nbsp; :scroll:
 
-Laws, Theories, Principles and Patterns that developers will find useful.
+*Laws, Theories, Principles and Patterns that developers will find useful.*
 
-🇨🇳 [中文 / Chinese Version](https://github.com/nusr/hacker-laws-zh) - thanks [Steve Yu](https://github.com/nusr)!
+[中文 / Chinese Version](https://github.com/nusr/hacker-laws-zh) - Thanks to [Steve Yu](https://github.com/nusr)!
 
 <!-- vim-markdown-toc GFM -->
 
-* [Introduction](#introduction)
+## Introduction)
+<br>
 * [Laws](#laws)
     * [Amdahl's Law](#amdahls-law)
     * [Brooks's Law](#brookss-law)

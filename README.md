@@ -47,7 +47,7 @@
 
 ------------------------------------------------------------------------
 
-## :book: Introduction :book:
+## :book: &nbsp; Introduction &nbsp; :book:
 
 There are lots of laws which people discuss when talking about development. <br>
 This repository is a reference and overview of some of the ***most common*** ones. <br>
@@ -445,7 +445,7 @@ See also:
 
 ------------------------------------------------------------------------
 
-## :point_right: TODO :point_left:
+## :point_right: &nbsp; TODO &nbsp; :point_left:
 
 Hi! If you land here, you've clicked on a link to a topic I've not written up yet, sorry about this - this is work in progress!
 

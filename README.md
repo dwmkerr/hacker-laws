@@ -7,7 +7,7 @@
 
 *Laws, Theories, Principles and Patterns that developers will find useful.*
 
-[中文 / Chinese Version](https://github.com/nusr/hacker-laws-zh) - Thanks to [Steve Yu](https://github.com/nusr)!
+:cn: [中文 / Chinese Version](https://github.com/nusr/hacker-laws-zh) - Thanks to [Steve Yu](https://github.com/nusr)! :cn:
 
 ------------------------------------------------------------------------
 

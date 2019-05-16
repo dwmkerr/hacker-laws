@@ -15,8 +15,8 @@
 
 <!-- vim-markdown-toc GFM -->
 
-* [Introduction](#.)
-* [Laws](#..)
+* [Introduction](#Introduction)
+* [Laws](#Laws)
     * [Amdahl's Law](#amdahls-law)
     * [Brooks's Law](#brookss-law)
     * [Conway's Law](#conways-law)
@@ -33,7 +33,7 @@
     * [The Unix Philosophy](#the-unix-philosophy)
     * [The Spotify Model](#the-spotify-model)
     * [Wadler's Law](#wadlers-law)
-* [Principles](#...)
+* [Principles](#Principles)
     * [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
     * [SOLID](#solid)
     * [The Single Responsibility Principle](#the-single-responsibility-principle)
@@ -41,14 +41,14 @@
     * [The Liskov Substitution Principle](#the-liskov-substitution-principle)
     * [The Interface Segregation Principle](#the-interface-segregation-principle)
     * [The Dependency Inversion Principle](#the-dependency-inversion-principle)
-* [TODO](#....)
+* [TODO](#TODO)
 
 <!-- vim-markdown-toc -->
 
 ------------------------------------------------------------------------
 
 ## :book: &nbsp; Introduction &nbsp; :book:
-###### .
+###### Introduction
 
 There are lots of laws which people discuss when talking about development. <br>
 This repository is a reference and overview of some of the ***most common*** ones. <br>
@@ -59,7 +59,7 @@ Please share and submit PRs! <br>
 ------------------------------------------------------------------------
 
 ## :pencil: &nbsp; Laws &nbsp; :pencil:
-###### ..
+###### Laws
 
 *And here we go!*
 
@@ -319,7 +319,7 @@ See also:
 ------------------------------------------------------------------------
 
 ## :books: &nbsp; Principles &nbsp; :books:
-###### ...
+###### Principles
 
 Principles are generally more likely to be guidelines relating to design.
 

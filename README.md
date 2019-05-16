@@ -237,7 +237,8 @@ See also:
 
 ------------------------------------------------------------------------
 
-### The Law of Conservation of Complexity (Tesler's Law)
+###### The Law of Conservation of Complexity (Tesler's Law)
+### :twisted_rightwards_arrows: &nbsp; The Law of Conservation of Complexity (Tesler's Law) &nbsp; :twisted_rightwards_arrows:
 
 [The Law of Conservation of Complexity on Wikipedia](https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity)
 
@@ -249,7 +250,8 @@ One interesting element to this law is the suggestion that even by simplifying t
 
 ------------------------------------------------------------------------
 
-### The Law of Leaky Abstractions
+###### The Law of Leaky Abstractions
+### :potable_water: &nbsp; The Law of Leaky Abstractions &nbsp; :potable_water:
 
 [The Law of Leaky Abstractions on Joel on Software](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
 
@@ -275,7 +277,8 @@ Real-world examples:
 
 ------------------------------------------------------------------------
 
-### The Law of Triviality
+###### The Law of Triviality
+### :eyes: &nbsp; The Law of Triviality &nbsp; :eyes:
 
 [The Law of Triviality on Wikipedia](https://en.wikipedia.org/wiki/Law_of_triviality)
 
@@ -287,7 +290,8 @@ The fictional example above led to the usage of the term 'Bike Shedding' as an e
 
 ------------------------------------------------------------------------
 
-### The Unix Philosophy
+###### The Unix Philosophy
+### :pushpin: &nbsp; The Unix Philosophy &nbsp; :pushpin:
 
 [The Unix Philosophy on Wikipedia](https://en.wikipedia.org/wiki/Unix_philosophy)
 
@@ -297,7 +301,8 @@ Modern practices like 'Microservice Architecture' can be thought of as an applic
 
 ------------------------------------------------------------------------
 
-### The Spotify Model
+###### The Spotify Model
+### :bookmark: &nbsp; The Spotify Model &nbsp; :bookmark:
 
 [The Spotify Model on Spotify Labs](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)
 
@@ -307,7 +312,8 @@ The Spotify Model also popularises the concepts of Tribes, Guilds, Chapters, whi
 
 ------------------------------------------------------------------------
 
-### Wadler's Law
+###### Wadler's Law
+### :1234: &nbsp; Wadler's Law &nbsp; :1234:
 
 [Wadler's Law on wiki.haskell.org](https://wiki.haskell.org/Wadler's_Law)
 
@@ -335,7 +341,8 @@ Principles are generally more likely to be guidelines relating to design.
 
 ------------------------------------------------------------------------
 
-### The Robustness Principle (Postel's Law)
+###### The Robustness Principle (Postel's Law)
+### :passport_control: &nbsp; The Robustness Principle (Postel's Law) &nbsp; :passport_control:
 
 [The Robustness Principle on Wikipedia](https://en.wikipedia.org/wiki/Robustness_principle)
 
@@ -347,7 +354,8 @@ The goal of this principle is to build systems which are robust, as they can han
 
 ------------------------------------------------------------------------
 
-### SOLID
+###### SOLID
+### :black_square_button: &nbsp; SOLID &nbsp; :black_square_button:
 
 This is an acronym, which refers to:
 
@@ -361,7 +369,8 @@ These are key principles in [Object-Oriented Programming](#todo). Design princip
 
 ------------------------------------------------------------------------
 
-### The Single Responsibility Principle
+###### The Single Responsibility Principle
+### :eight_spoked_asterisk: &nbsp; The Single Responsibility Principle &nbsp; :eight_spoked_asterisk:
 
 [The Single Responsibility Principle on Wikipedia](https://en.wikipedia.org/wiki/Single_responsibility_principle)
 
@@ -378,7 +387,8 @@ See also:
 
 ------------------------------------------------------------------------
 
-### The Open/Closed Principle
+###### The Open/Closed Principle
+### :curly_loop: &nbsp; The Open/Closed Principle &nbsp; :curly_loop:
 
 [The Open/Closed Principle on Wikipedia](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
 
@@ -397,7 +407,8 @@ See also:
 
 ------------------------------------------------------------------------
 
-### The Liskov Substitution Principle
+###### The Liskov Substitution Principle
+### :registered: &nbsp; The Liskov Substitution Principle &nbsp; :registered:
 
 [The Liskov Substitution Principle on Wikipedia](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
 
@@ -416,7 +427,8 @@ See also:
 
 ------------------------------------------------------------------------
 
-### The Interface Segregation Principle
+###### The Interface Segregation Principle
+### :heavy_check_mark: &nbsp; The Interface Segregation Principle &nbsp; :heavy_check_mark:
 
 [The Interface Segregation Principle on Wikipedia](https://en.wikipedia.org/wiki/Interface_segregation_principle)
 
@@ -437,7 +449,8 @@ See also:
 
 ------------------------------------------------------------------------
 
-### The Dependency Inversion Principle
+###### The Dependency Inversion Principle
+### :link: &nbsp; The Dependency Inversion Principle &nbsp; :link:
 
 [The Dependency Inversion Principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
 

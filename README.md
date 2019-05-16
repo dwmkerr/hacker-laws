@@ -15,8 +15,7 @@
 
 <!-- vim-markdown-toc GFM -->
 
-* [Table of Contents](#:bookmark_tabs: &nbsp; Table of Contents &nbsp; :bookmark_tabs:
-)
+* [Introduction](#introduction)
 * [Laws](#laws)
     * [Amdahl's Law](#amdahls-law)
     * [Brooks's Law](#brookss-law)

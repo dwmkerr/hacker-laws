@@ -6,13 +6,13 @@
 
 ## Laws Introduced
 <br>
-• [Laws](#laws)
-   • [Amdahl's Law](#amdahls-law)
-   • [Brooks's Law](#brookss-law)
-   • [Conway's Law](#conways-law)
-   • [Hanlon's Razor](#hanlons-razor)
-   • [Hofstadter's Law](#hofstadters-law)
-   • [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
+**[Laws](#laws)**
+   • [Amdahl's Law](#amdahls-law) <br>
+   • [Brooks's Law](#brookss-law) <br>
+   • [Conway's Law](#conways-law) <br>
+   • [Hanlon's Razor](#hanlons-razor) <br>
+   • [Hofstadter's Law](#hofstadters-law) <br>
+   • [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law) <br>
    • [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
    • [Moore's Law](#moores-law)
    • [Parkinson's Law](#parkinsons-law)
@@ -24,14 +24,14 @@
    • [The Spotify Model](#the-spotify-model)
    • [Wadler's Law](#wadlers-law)
  <br>
-• [Principles](#principles)
-    * [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
-    * [SOLID](#solid)
-    * [The Single Responsibility Principle](#the-single-responsibility-principle)
-    * [The Open/Closed Principle](#the-openclosed-principle)
-    * [The Liskov Substitution Principle](#the-liskov-substitution-principle)
-    * [The Interface Segregation Principle](#the-interface-segregation-principle)
-    * [The Dependency Inversion Principle](#the-dependency-inversion-principle)
+**[Principles](#principles)**
+    • [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
+    • [SOLID](#solid)
+    • [The Single Responsibility Principle](#the-single-responsibility-principle)
+    • [The Open/Closed Principle](#the-openclosed-principle)
+    • [The Liskov Substitution Principle](#the-liskov-substitution-principle)
+    • [The Interface Segregation Principle](#the-interface-segregation-principle)
+    • [The Dependency Inversion Principle](#the-dependency-inversion-principle)
 * [TODO](#todo)
 
 <!-- vim-markdown-toc -->

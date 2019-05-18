@@ -306,7 +306,7 @@ Theoretically, this should make the code more robust, and easier to change. Know
 
 See also:
 
-- [Object-Orientated Programming](#todo)
+- [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
 
 ### The Open/Closed Principle
@@ -323,7 +323,7 @@ This principle has particular relevance for object-oriented programming, where w
 
 See also:
 
-- [Object-Orientated Programming](#todo)
+- [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
 
 ### The Liskov Substitution Principle
@@ -336,11 +336,11 @@ The third of the '[SOLID](#solid)' principles. This principle states that if a c
 
 As an example, imagine we have a method which reads an XML document from a structure which represents a file. If the method uses a base type 'file', then anything which derives from 'file' should be able to be used in the function. If 'file' supports seeking in reverse, and the XML parser uses that function, but the derived type 'network file' fails when reverse seeking is attempted, then the 'network file' would be violating the principle.
 
-This principle has particular relevance for object-orientated programming, where type hierarchies must be modeled carefully to avoid confusing users of a system.
+This principle has particular relevance for object-oriented programming, where type hierarchies must be modeled carefully to avoid confusing users of a system.
 
 See also:
 
-- [Object-Orientated Programming](#todo)
+- [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
 
 ### The Interface Segregation Principle
@@ -353,11 +353,11 @@ The fourth of the '[SOLID](#solid)' principles. This principle states that consu
 
 As an example, imagine we have a method which reads an XML document from a structure which represents a file. It only needs to read bytes, move forwards or move backwards in the file. If this method needs to be updated because an unrelated feature of the file structure changes (such as an update to the permissions model used to represent file security), then the principle has been invalidated. It would be better for the file to implement a 'seekable-stream' interface, and for the XML reader to use that.
 
-This principle has particular relevance for object-orientated programming, where interfaces, hierarchies and abstract types are used to [minimise the coupling](#todo) between different components. [Duck typing](#todo) is a methodology which enforces this principle by eliminating explicit interfaces.
+This principle has particular relevance for object-oriented programming, where interfaces, hierarchies and abstract types are used to [minimise the coupling](#todo) between different components. [Duck typing](#todo) is a methodology which enforces this principle by eliminating explicit interfaces.
 
 See also:
 
-- [Object-Orientated Programming](#todo)
+- [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
 - [Duck Typing](#todo)
 - [Decoupling](#todo)
@@ -376,7 +376,7 @@ This principle is complex, as it can seem to 'invert' the expected dependencies 
 
 See also:
 
-- [Object-Orientated Programming](#todo)
+- [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
 - [Inversion of Control](#todo)
 - [Dependency Injection](#todo)

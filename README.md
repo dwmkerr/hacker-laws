@@ -16,6 +16,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
     * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
     * [Moore's Law](#moores-law)
+    * [Pareto principle](#pareto-principle)
     * [Parkinson's Law](#parkinsons-law)
     * [Putt's Law](#putts-law)
     * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)

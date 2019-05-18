@@ -155,6 +155,25 @@ See also:
 
 Often used to illustrate the sheer speed at which semiconductor and chip technology has improved, Moore's prediction has proven to be highly accurate over from the 1970s to the late 2000s. In more recent years, the trend has changed slightly, partly due to [physical limitations on the degree to which components can be miniaturised](https://en.wikipedia.org/wiki/Quantum_tunnelling). However, advancements in parallelisation, and potentially revolutionary changes in semiconductor technology and quantum computing may mean that Moore's Law could continue to hold true for decades to come.
 
+### Pareto principle
+
+[Pareto principle on Wikipedia](https://en.wikipedia.org/wiki/Pareto_principle)
+
+>Most things in life are not distributed evenly.
+
+The Pareto Principle helps you realize that the majority of results come from a minority of inputs: 
+ - 80% of a certain piece of software can be written in 20% of the total allocated time (conversely, the hardest 20% of the code takes 80% of the time)
+- 20% of the effort produce 80% of the result
+- 20% of the work create 80% of the revenue
+- 20% of the bugs cause 80% of the crashes
+- 20% of the features cause 80% of the usage
+
+In the 1940s American-Romanian engineer Dr. Joseph Juran, who is widely credited with being the father of quality control, [began to apply the Pareto principle to quality issues](https://en.wikipedia.org/wiki/Joseph_M._Juran).
+
+Real-world example:
+
+In 2002 Microsoft reported that by fixing the top 20% of the most-reported bugs, 80% of the related errors and crashes in windows and office would become eliminated.
+
 ### Parkinson's Law
 
 [Parkinson's Law on Wikipedia](https://en.wikipedia.org/wiki/Parkinson%27s_law)

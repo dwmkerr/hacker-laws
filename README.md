@@ -32,6 +32,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [The Liskov Substitution Principle](#the-liskov-substitution-principle)
     * [The Interface Segregation Principle](#the-interface-segregation-principle)
     * [The Dependency Inversion Principle](#the-dependency-inversion-principle)
+* [Reading List](#reading-list)
 * [TODO](#todo)
 
 <!-- vim-markdown-toc -->
@@ -79,9 +80,12 @@ This law suggests that in many cases, attempting to accelerate the delivery of a
 
 The common phrase in delivery "Nine women can't make a baby in one month" relates to Brooks's Law, in particular, the fact that some kinds of work are not divisible or parallelisable.
 
+This is a central theme of the book '[The Mythical Man Month](#reading-list)'.
+
 See also:
 
 - [Death March](#todo)
+- [Reading List: The Mythical Man Month](#reading-list)
 
 ### Conway's Law
 
@@ -381,8 +385,14 @@ See also:
 - [Inversion of Control](#todo)
 - [Dependency Injection](#todo)
 
+## Reading List
+
+If you have found these concepts interesting, you may enjoy the following books.
+
+- [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks's Law](#brookss-law) is a central theme of the book.
+
 ## TODO
 
 Hi! If you land here, you've clicked on a link to a topic I've not written up yet, sorry about this - this is work in progress!
 
-Feel free to [Raise an Issue](https://github.com/dwmkerr/hacker-laws/issues) requesting more details, or [Open a Pull Request](https://github.com/dwmkerr/hacker-laws/pulls) to submit your proposed definition of the topic.
+Feel free to [Raise an Issue](https://github.com/dwmkerr/hacker-laws/issues) requesting more details, or [Open a Pull Request](https://github.com/dwmkerr/hacker-laws/pulls) to submit your proposed definition of the topic. 

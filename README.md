@@ -306,7 +306,7 @@ Theoretically, this should make the code more robust, and easier to change. Know
 
 See also:
 
-- [Object-oriented Programming](#todo)
+- [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
 
 ### The Open/Closed Principle
@@ -323,7 +323,7 @@ This principle has particular relevance for object-oriented programming, where w
 
 See also:
 
-- [Object-oriented Programming](#todo)
+- [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
 
 ### The Liskov Substitution Principle
@@ -340,7 +340,7 @@ This principle has particular relevance for object-oriented programming, where t
 
 See also:
 
-- [Object-oriented Programming](#todo)
+- [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
 
 ### The Interface Segregation Principle
@@ -357,7 +357,7 @@ This principle has particular relevance for object-oriented programming, where i
 
 See also:
 
-- [Object-oriented Programming](#todo)
+- [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
 - [Duck Typing](#todo)
 - [Decoupling](#todo)
@@ -376,7 +376,7 @@ This principle is complex, as it can seem to 'invert' the expected dependencies 
 
 See also:
 
-- [Object-oriented Programming](#todo)
+- [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
 - [Inversion of Control](#todo)
 - [Dependency Injection](#todo)

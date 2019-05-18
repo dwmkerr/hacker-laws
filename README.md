@@ -17,6 +17,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
     * [Moore's Law](#moores-law)
     * [Parkinson's Law](#parkinsons-law)
+    * [Premature Optimization Effect](#premature-optimization-effect)
     * [Putt's Law](#putts-law)
     * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
     * [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
@@ -172,6 +173,18 @@ If this law were combined with [Hofstadter's Law](#hofstadters-law), an even mor
 See also:
 
 - [Hofstadter's Law](#hofstadters-law)
+
+### Premature Optimization Effect
+
+[Source](http://wiki.c2.com/?PrematureOptimization)
+
+> Premature optimization is the root of all evil.
+>
+> Donald Knuth
+
+In Donald Knuth's paper [Structured Programming With Go To Statements](http://wiki.c2.com/?StructuredProgrammingWithGoToStatements), he wrote: "Programmers waste enormous amounts of time thinking about, or worrying about, the speed of noncritical parts of their programs, and these attempts at efficiency actually have a strong negative impact when debugging and maintenance are considered. We should forget about small efficiencies, say about 97% of the time: **premature optimization is the root of all evil**. Yet we should not pass up our opportunities in that critical 3%."
+
+However, _Premature Optimization_ can be defined (in less loaded terms) as optimizing before we know that we need to.
 
 ### Putt's Law
 

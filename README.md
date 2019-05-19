@@ -2,7 +2,7 @@
 
 Laws, Theories, Principles and Patterns that developers will find useful.
 
-🇨🇳 [中文 / Chinese Version](https://github.com/nusr/hacker-laws-zh) - thanks [Steve Yu](https://github.com/nusr)!
+🇨🇳 [中文 / Chinese Version](https://github.com/nusr/hacker-laws-zh) - thanks [Steve Xu](https://github.com/nusr)!
 
 <!-- vim-markdown-toc GFM -->
 
@@ -116,6 +116,12 @@ This principle suggests that actions resulting in a negative outcome were not a 
 > Douglas Hofstadter
 
 You might hear this law referred to when looking at estimates for how long something will take. It seems a truism in software development that we tend to not be very good at accurately estimating how long something will take to deliver.
+
+This is from the book '[Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)'.
+
+See also:
+
+- [Reading List: Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)
 
 ### The Hype Cycle & Amara's Law
 
@@ -390,6 +396,7 @@ See also:
 If you have found these concepts interesting, you may enjoy the following books.
 
 - [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks's Law](#brookss-law) is a central theme of the book.
+- [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - This book is difficult to classify. [Hofstadter's Law](#hofstadters-law) is from the book.
 
 ## TODO
 

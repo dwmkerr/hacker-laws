@@ -273,7 +273,7 @@ The goal of this principle is to build systems which are robust, as they can han
 
 > Companies tend to systematically promote incompetent employees to management to get them out of the workflow.
 
-The Dilbert principle is a concept in management developed by Scott Adams, creator of the comic strip Dilbert. The Dilbert principle is inspired by [The Peter Principle](#the-peter-principle), which holds that employees are promoted based on success in their current position until they reach their "level of incompetence" and are no longer promoted. Under the Dilbert principle, employees who were never competent are promoted to management to limit the damage they can do. Adams first explained the principle in a 1995 Wall Street Journal article, and expanded upon it in his 1996 business book The Dilbert Principle.
+A management concept developed by Scott Adams (creator of the Dilbert comic strip), the Dilbert Principle is inspired by [The Peter Principle](#the-peter-principle). Under the Dilbert Principle, employees who were never competent are promoted to management in order to limit the damage they can do. Adams first explained the principle in a 1995 Wall Street Journal article, and expanded upon it in his 1996 business book, The Dilbert Principle.
 
 ### The Peter Principle
 
@@ -281,7 +281,7 @@ The Dilbert principle is a concept in management developed by Scott Adams, creat
 
 > People in a hierarchy tend to rise to their "level of incompetence".
 
-The Peter principle is a concept in management developed by Laurence J. Peter, which observes that people in a hierarchy tend to rise to their "level of incompetence". In other words, an employee is promoted based on their success in previous jobs until they reach a level at which they are no longer competent, as skills in one job do not necessarily translate to another. The concept was elucidated in the 1969 book The Peter Principle by Peter and Raymond Hull.
+A management concept developed by Laurence J. Peter, the Peter Principle observes that people in a hierarchy tend to rise until they reach their "level of incompetence". In other words, employees are promoted (based on their success in previous jobs) until they reach a level at which they are no longer competent - as skills in one job do not necessarily translate to another. The concept was explained in the book The Peter Principle, which Peter co-authored with Raymond Hull in 1969.
 
 ### SOLID
 

@@ -2,14 +2,14 @@
 
 Laws, Theories, Principles and Patterns that developers will find useful.
 
-🇨🇳 [中文 / Chinese Version](https://github.com/nusr/hacker-laws-zh) - thanks [Steve Yu](https://github.com/nusr)!
+🇨🇳 [中文 / Chinese Version](https://github.com/nusr/hacker-laws-zh) - thanks [Steve Xu](https://github.com/nusr)!
 
 <!-- vim-markdown-toc GFM -->
 
 * [Introduction](#introduction)
 * [Laws](#laws)
     * [Amdahl's Law](#amdahls-law)
-    * [Brooks's Law](#brookss-law)
+    * [Brooks' Law](#brookss-law)
     * [Conway's Law](#conways-law)
     * [Hanlon's Razor](#hanlons-razor)
     * [Hofstadter's Law](#hofstadters-law)
@@ -33,6 +33,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [The Interface Segregation Principle](#the-interface-segregation-principle)
     * [The Dependency Inversion Principle](#the-dependency-inversion-principle)
     * [The DRY Principle](#the-dry-principle)
+* [Reading List](#reading-list)
 * [TODO](#todo)
 
 <!-- vim-markdown-toc -->
@@ -67,22 +68,25 @@ As [Moore's Law](#moores-law) slows, and the acceleration of individual processo
 
 See also:
 
-- [Brooks's Law](#brookss-law)
+- [Brooks' Law](#brookss-law)
 - [Moore's Law](#moores-law)
 
-### Brooks's Law
+### Brooks' Law
 
-[Brooks's Law on Wikipedia](https://en.m.wikipedia.org/wiki/Brooks%27s_law)
+[Brooks' Law on Wikipedia](https://en.m.wikipedia.org/wiki/Brooks%27s_law)
 
 > Adding human resources to a late software development project makes it later.
 
 This law suggests that in many cases, attempting to accelerate the delivery of a project which is already late, by adding more people, will make the delivery even later. Brooks is clear that this is an over-simplification, however, the general reasoning is that given the ramp up time of new resources and the communication overheads, in the immediate short-term velocity decreases. Also, many tasks may not be divisible, i.e. easily distributed between more resources, meaning the potential velocity increase is also lower.
 
-The common phrase in delivery "Nine women can't make a baby in one month" relates to Brooks's Law, in particular, the fact that some kinds of work are not divisible or parallelisable.
+The common phrase in delivery "Nine women can't make a baby in one month" relates to Brooks' Law, in particular, the fact that some kinds of work are not divisible or parallelisable.
+
+This is a central theme of the book '[The Mythical Man Month](#reading-list)'.
 
 See also:
 
 - [Death March](#todo)
+- [Reading List: The Mythical Man Month](#reading-list)
 
 ### Conway's Law
 
@@ -113,6 +117,12 @@ This principle suggests that actions resulting in a negative outcome were not a 
 > Douglas Hofstadter
 
 You might hear this law referred to when looking at estimates for how long something will take. It seems a truism in software development that we tend to not be very good at accurately estimating how long something will take to deliver.
+
+This is from the book '[Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)'.
+
+See also:
+
+- [Reading List: Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)
 
 ### The Hype Cycle & Amara's Law
 
@@ -307,7 +317,7 @@ Theoretically, this should make the code more robust, and easier to change. Know
 
 See also:
 
-- [Object-Orientated Programming](#todo)
+- [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
 
 ### The Open/Closed Principle
@@ -324,7 +334,7 @@ This principle has particular relevance for object-oriented programming, where w
 
 See also:
 
-- [Object-Orientated Programming](#todo)
+- [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
 
 ### The Liskov Substitution Principle
@@ -337,11 +347,11 @@ The third of the '[SOLID](#solid)' principles. This principle states that if a c
 
 As an example, imagine we have a method which reads an XML document from a structure which represents a file. If the method uses a base type 'file', then anything which derives from 'file' should be able to be used in the function. If 'file' supports seeking in reverse, and the XML parser uses that function, but the derived type 'network file' fails when reverse seeking is attempted, then the 'network file' would be violating the principle.
 
-This principle has particular relevance for object-orientated programming, where type hierarchies must be modeled carefully to avoid confusing users of a system.
+This principle has particular relevance for object-oriented programming, where type hierarchies must be modeled carefully to avoid confusing users of a system.
 
 See also:
 
-- [Object-Orientated Programming](#todo)
+- [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
 
 ### The Interface Segregation Principle
@@ -354,11 +364,11 @@ The fourth of the '[SOLID](#solid)' principles. This principle states that consu
 
 As an example, imagine we have a method which reads an XML document from a structure which represents a file. It only needs to read bytes, move forwards or move backwards in the file. If this method needs to be updated because an unrelated feature of the file structure changes (such as an update to the permissions model used to represent file security), then the principle has been invalidated. It would be better for the file to implement a 'seekable-stream' interface, and for the XML reader to use that.
 
-This principle has particular relevance for object-orientated programming, where interfaces, hierarchies and abstract types are used to [minimise the coupling](#todo) between different components. [Duck typing](#todo) is a methodology which enforces this principle by eliminating explicit interfaces.
+This principle has particular relevance for object-oriented programming, where interfaces, hierarchies and abstract types are used to [minimise the coupling](#todo) between different components. [Duck typing](#todo) is a methodology which enforces this principle by eliminating explicit interfaces.
 
 See also:
 
-- [Object-Orientated Programming](#todo)
+- [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
 - [Duck Typing](#todo)
 - [Decoupling](#todo)
@@ -377,7 +387,7 @@ This principle is complex, as it can seem to 'invert' the expected dependencies 
 
 See also:
 
-- [Object-Orientated Programming](#todo)
+- [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
 - [Inversion of Control](#todo)
 - [Dependency Injection](#todo)
@@ -398,9 +408,15 @@ See also:
 
 - [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 
+## Reading List
+
+If you have found these concepts interesting, you may enjoy the following books.
+
+- [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks's Law](#brookss-law) is a central theme of the book.
+- [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - This book is difficult to classify. [Hofstadter's Law](#hofstadters-law) is from the book.
 
 ## TODO
 
 Hi! If you land here, you've clicked on a link to a topic I've not written up yet, sorry about this - this is work in progress!
 
-Feel free to [Raise an Issue](https://github.com/dwmkerr/hacker-laws/issues) requesting more details, or [Open a Pull Request](https://github.com/dwmkerr/hacker-laws/pulls) to submit your proposed definition of the topic.
+Feel free to [Raise an Issue](https://github.com/dwmkerr/hacker-laws/issues) requesting more details, or [Open a Pull Request](https://github.com/dwmkerr/hacker-laws/pulls) to submit your proposed definition of the topic. 

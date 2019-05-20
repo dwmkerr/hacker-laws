@@ -388,28 +388,15 @@ See also:
 
 > Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
 
-DRY is an acronym for _Don't Repeat Yourself_. This principle aims to help developers reducing the repetition of code and keep the information in a single place.
+DRY is an acronym for _Don't Repeat Yourself_. This principle aims to help developers reducing the repetition of code and keep the information in a single place and was cited in 1999 by Andrew Hunt and Dave Thomas in the book [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 
 > The opposite of DRY would be _WET_ (Write Everything Twice or We Enjoy Typing).
 
-The principle is easy to understand and can be used with any other methodology, design pattern and/or language. It was cited in 1999 by Andrew Hunt and Dave Thomas in the book [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer).
+In practice, if you have the same piece of information in two (or more) different places, you can use DRY to merge them into a single one and reuse it wherever you want/need.
 
-In practice, if you have the same piece of code/information in two (or more) different places, you can use the DRY Principle to merge those pieces into a single one and reuse it wherever you want/need. The DRY principle can be used for codes, documentations, schemas, build systems...
+See also:
 
-Besides avoiding the repetition, DRY help developers to deliver maintainable, readable and reusable code. It also helps developers to keep the testing step easier - in this specific case, DRY keep unit and integration tests simple. Because if the code isn't repeated, you just need to test it a single time.
-
-In a real-world application, we can translate the use of DRY with this code:
-
-```js
-// check if user is logged in
-function isUserLoggedIn() {
-  const user = context.getUser();
-
-  return typeof user.id !== null;
-}
-```
-
-In the example above, to check if the user is logged in we can import this function to anywhere and get the result - without DRY, you would write it every time you need to know if the user is logged in.
+- [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 
 
 ## TODO

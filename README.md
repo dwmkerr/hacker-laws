@@ -9,14 +9,13 @@ Laws, Theories, Principles and Patterns that developers will find useful.
 * [Introduction](#introduction)
 * [Laws](#laws)
     * [Amdahl's Law](#amdahls-law)
-    * [Brooks' Law](#brookss-law)
+    * [Brooks' Law](#brooks-law)
     * [Conway's Law](#conways-law)
     * [Hanlon's Razor](#hanlons-razor)
     * [Hofstadter's Law](#hofstadters-law)
     * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
     * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
     * [Moore's Law](#moores-law)
-    * [Pareto principle](#pareto-principle)
     * [Parkinson's Law](#parkinsons-law)
     * [Putt's Law](#putts-law)
     * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
@@ -26,6 +25,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [The Spotify Model](#the-spotify-model)
     * [Wadler's Law](#wadlers-law)
 * [Principles](#principles)
+    * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
     * [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
     * [SOLID](#solid)
     * [The Single Responsibility Principle](#the-single-responsibility-principle)
@@ -167,25 +167,6 @@ See also:
 
 Often used to illustrate the sheer speed at which semiconductor and chip technology has improved, Moore's prediction has proven to be highly accurate over from the 1970s to the late 2000s. In more recent years, the trend has changed slightly, partly due to [physical limitations on the degree to which components can be miniaturised](https://en.wikipedia.org/wiki/Quantum_tunnelling). However, advancements in parallelisation, and potentially revolutionary changes in semiconductor technology and quantum computing may mean that Moore's Law could continue to hold true for decades to come.
 
-### Pareto principle
-
-[Pareto principle on Wikipedia](https://en.wikipedia.org/wiki/Pareto_principle)
-
->Most things in life are not distributed evenly.
-
-The Pareto Principle helps you realize that the majority of results come from a minority of inputs: 
- - 80% of a certain piece of software can be written in 20% of the total allocated time (conversely, the hardest 20% of the code takes 80% of the time)
-- 20% of the effort produce 80% of the result
-- 20% of the work create 80% of the revenue
-- 20% of the bugs cause 80% of the crashes
-- 20% of the features cause 80% of the usage
-
-In the 1940s American-Romanian engineer Dr. Joseph Juran, who is widely credited with being the father of quality control, [began to apply the Pareto principle to quality issues](https://en.wikipedia.org/wiki/Joseph_M._Juran).
-
-Real-world example:
-
-In 2002 Microsoft reported that by fixing the top 20% of the most-reported bugs, 80% of the related errors and crashes in windows and office would become eliminated.
-
 ### Parkinson's Law
 
 [Parkinson's Law on Wikipedia](https://en.wikipedia.org/wiki/Parkinson%27s_law)
@@ -302,6 +283,28 @@ See also:
 ## Principles
 
 Principles are generally more likely to be guidelines relating to design.
+
+### The Pareto Principle (The 80/20 Rule)
+
+[The Pareto Principle on Wikipedia](https://en.wikipedia.org/wiki/Pareto_principle)
+
+> Most things in life are not distributed evenly.
+
+The Pareto Principle suggests that in some cases, the majority of results come from a minority of inputs:
+
+- 80% of a certain piece of software can be written in 20% of the total allocated time (conversely, the hardest 20% of the code takes 80% of the time)
+- 20% of the effort produces 80% of the result
+- 20% of the work creates 80% of the revenue
+- 20% of the bugs cause 80% of the crashes
+- 20% of the features cause 80% of the usage
+
+In the 1940s American-Romanian engineer Dr. Joseph Juran, who is widely credited with being the father of quality control, [began to apply the Pareto principle to quality issues](https://en.wikipedia.org/wiki/Joseph_M._Juran).
+
+This principle is also known as: The 80/20 Rule, The Law of the Vital Few and The Principle of Factor Sparsity.
+
+Real-world examples:
+
+- In 2002 Microsoft reported that by fixing the top 20% of the most-reported bugs, 80% of the related errors and crashes in windows and office would become eliminated ([Reference](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)).
 
 ### The Robustness Principle (Postel's Law)
 

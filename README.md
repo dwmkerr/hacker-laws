@@ -4,6 +4,8 @@ Laws, Theories, Principles and Patterns that developers will find useful.
 
 🇨🇳 [中文 / Chinese Version](https://github.com/nusr/hacker-laws-zh) - thanks [Steve Xu](https://github.com/nusr)!
 
+🇷🇺 [Russian Version](https://github.com/pavelpy/hacker-laws-ru) - thanks [Pavel K](https://github.com/pavelpy)!
+
 <!-- vim-markdown-toc GFM -->
 
 * [Introduction](#introduction)
@@ -69,7 +71,7 @@ As [Moore's Law](#moores-law) slows, and the acceleration of individual processo
 
 See also:
 
-- [Brooks' Law](#brookss-law)
+- [Brooks' Law](#brooks-law)
 - [Moore's Law](#moores-law)
 
 ### Brooks' Law
@@ -398,7 +400,7 @@ See also:
 
 ### The Dependency Inversion Principle
 
-[The Dependency Inversion Principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
+[The Dependency Inversion Principle on Wikipedia](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
 
 > High-level modules should not be dependent on low-level implementations.
 
@@ -435,7 +437,7 @@ See also:
 
 If you have found these concepts interesting, you may enjoy the following books.
 
-- [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks's Law](#brookss-law) is a central theme of the book.
+- [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks's Law](#brooks-law) is a central theme of the book.
 - [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - This book is difficult to classify. [Hofstadter's Law](#hofstadters-law) is from the book.
 
 ## TODO

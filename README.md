@@ -10,7 +10,6 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [Brooks's Law](#brookss-law)
     * [Conway's Law](#conways-law)
     * [Hofstadter's Law](#hofstadters-law)
-    * [Hutber's Law](#hutbers-law)
     * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
     * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
     * [Moore's Law](#moores-law)

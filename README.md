@@ -24,7 +24,7 @@
     * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
     * [Закон дырявых абстракций](#закон-дырявых-абстракций)
     * [Закон тривиальности](#закон-тривиальности)
-    * [The Unix Philosophy](#the-unix-philosophy)
+    * [Философия Unix](#философия-unix)
     * [модель Спотифай](#модель-cпотифай)
     * [Wadler's Law](#wadlers-law)
 * [Principles](#principles)
@@ -278,13 +278,15 @@ Real-world examples:
 
 ---
 
-### The Unix Philosophy
+### Философия Unix
 
-[The Unix Philosophy on Wikipedia](https://en.wikipedia.org/wiki/Unix_philosophy)
+[Философия Unix в Википедии](https://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D0%BB%D0%BE%D1%81%D0%BE%D1%84%D0%B8%D1%8F_Unix)
 
-The Unix Philosophy is that software components should be small, and focused on doing one specific thing well. This can make it easier to build systems by composing together small, simple, well-defined units, rather than using large, complex, multi-purpose programs.
+Философия Unix заключается в том, что компонент программного обеспечения должен быть небольшого размера и сфокусирован на идеальном исполнении одной специфичной задачи. Это может упростить создание систем путем компановки небольших, простых, четко определенных модулей, а не путём использования больших, сложных, многоцелевых программ.
 
-Modern practices like 'Microservice Architecture' can be thought of as an application of this law, where services are small, focused and do one specific thing, allowing complex behaviour to be composed of simple building blocks.
+Современные практики, такие как «Архитектура Микросервисов», могут рассматриваться как применение этого закона. Сервисы небольшие, сфокусированы на одной специфичной задаче, что позволяет создать сложное поведение путём составления простых строительных блоков.
+
+---
 
 ### The Spotify Model
 

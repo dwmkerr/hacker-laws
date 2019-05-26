@@ -14,7 +14,7 @@
     * [Закон Амдала](#закон-амдала)
     * [Закон Брукса](#закон-брукса)
     * [Закон Конвея](#закон-конвея)
-    * [Hanlon's Razor](#hanlons-razor)
+    * [Бритва Хэнлона](#бритва-хэнлона)
     * [Hofstadter's Law](#hofstadters-law)
     * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
     * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
@@ -110,15 +110,17 @@
 
 ---
 
-### Hanlon's Razor
+### Бритва Хэнлона
 
-[Hanlon's Razor on Wikipedia](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
+[Бритва Хэнлона в Википедии](https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%B8%D1%82%D0%B2%D0%B0_%D0%A5%D1%8D%D0%BD%D0%BB%D0%BE%D0%BD%D0%B0)
 
-> Never attribute to malice that which is adequately explained by stupidity.
+> Никогда не объясняйте злостью то, что адекватно объясняется глупостью.
 >
-> Robert J. Hanlon
+> Роберт Джей Хэнлон
 
-This principle suggests that actions resulting in a negative outcome were not a result of ill will. Instead the negative outcome is more likely attributed to those actions and/or the impact being not fully understood.
+Этот принцип предполагает, что действие, приведшее к негативному результату, не является результатом злого умысла. В замен этого негативный результат скорее связан с тем, что это самое действие и/или его последствия были не до конца ясны.
+
+---
 
 ### Hofstadter's Law
 

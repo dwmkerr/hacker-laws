@@ -2,16 +2,17 @@
 
 Законы, теории, принципы и модели, полезные для разработчиков.
 
-🇺🇸 [English Version / Версия на Английском](https://github.com/dwmkerr/hacker-laws) - оригинальная версия о [Dave Kerr](https://github.com/dwmkerr).
+- 🇺🇸 [English Version / Версия на Английском](https://github.com/dwmkerr/hacker-laws) - оригинальная версия о [Dave Kerr](https://github.com/dwmkerr).
+- 🇨🇳 [中文 / Версия на Китайском](https://github.com/nusr/hacker-laws-zh) - спасибо [Steve Xu](https://github.com/nusr)!
 
-🇨🇳 [中文 / Версия на Китайском](https://github.com/nusr/hacker-laws-zh) - спасибо [Steve Xu](https://github.com/nusr)!
+---
 
 <!-- vim-markdown-toc GFM -->
 
 * [Вступление](#вступление)
 * [Законы](#законы)
     * [Закон Амдала](#закон-амдала)
-    * [Brooks' Law](#brooks-law)
+    * [Закон Брукса](#закон-брукса)
     * [Conway's Law](#conways-law)
     * [Hanlon's Razor](#hanlons-razor)
     * [Hofstadter's Law](#hofstadters-law)
@@ -40,6 +41,8 @@
 * [TODO](#todo)
 
 <!-- vim-markdown-toc -->
+
+---
 
 ## Вступление
 
@@ -74,22 +77,24 @@
 - [Закон Брукса](#закон-брукса)
 - [Закон Мура](#закон-мура)
 
-### Brooks' Law
+-----
 
-[Brooks' Law on Wikipedia](https://en.m.wikipedia.org/wiki/Brooks%27s_law)
+### Закон Брукса aka. Мифический человеко-месяц
 
-> Adding human resources to a late software development project makes it later.
+[Закон Брукса в Википедии](https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%D0%BE-%D0%BC%D0%B5%D1%81%D1%8F%D1%86#%D0%97%D0%B0%D0%BA%D0%BE%D0%BD_%D0%91%D1%80%D1%83%D0%BA%D1%81%D0%B0)
 
-This law suggests that in many cases, attempting to accelerate the delivery of a project which is already late, by adding more people, will make the delivery even later. Brooks is clear that this is an over-simplification, however, the general reasoning is that given the ramp up time of new resources and the communication overheads, in the immediate short-term velocity decreases. Also, many tasks may not be divisible, i.e. easily distributed between more resources, meaning the potential velocity increase is also lower.
+> Если проект не укладывается в сроки, то добавление рабочей силы задержит его ещё больше
 
-The common phrase in delivery "Nine women can't make a baby in one month" relates to Brooks' Law, in particular, the fact that some kinds of work are not divisible or parallelisable.
+Этот закон предполагает, что во многих случаях, попытка ускорить сдачу проекта, неукладывающегося в сроки, путём добавления людей в команду приведёт к ещё более позднему сроку сдачи. Брукс поясняет, что это излишнее упрощение, однако основное рассуждение заключается в том, что с учётом роста рабочего времени программистов и издержек коммуникации, в краткосрочной перспективе скорость значительно снижается.
 
-This is a central theme of the book '[The Mythical Man Month](#reading-list)'.
+Распространённое выражение «Девять женщин не могут выосить ребёнка за один месяц» отсылает нас как раз к закону Брука. В частности, к тому факту, что некоторые виды работ не могут быть поделены на части и запараллелены.
 
-See also:
+Эта мысль является центральной темой книги «[The Mythical Man Month](#список-литературы)».
+
+Читайте также:
 
 - [Death March](#todo)
-- [Reading List: The Mythical Man Month](#reading-list)
+- [Список литературы: The Mythical Man Month](#список-литературы)
 
 ### Conway's Law
 
@@ -433,10 +438,12 @@ See also:
 
 - [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 
-## Reading List
+## Список литературы
 
-If you have found these concepts interesting, you may enjoy the following books.
+Если вас заинтересовали перечисленные концепции, то вам могут понравиться следующие материалы:
 
+- [Закон Амдала](http://ssd.sscc.ru/en/content/%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD-%D0%B0%D0%BC%D0%B4%D0%B0%D0%BB%D0%B0), Supercomputer Software Department
+- [Закон Амдала](https://medium.com/german-gorelkin/amdahls-law-79a8edb040e2), Герман Горелкин, 11 декабря 2018
 - [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks's Law](#brookss-law) is a central theme of the book.
 - [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - This book is difficult to classify. [Hofstadter's Law](#hofstadters-law) is from the book.
 

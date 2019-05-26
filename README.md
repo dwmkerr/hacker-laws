@@ -28,7 +28,7 @@
     * [Модель Спотифай](#модель-спотифай)
     * [Wadler's Law](#wadlers-law)
 * [Принципы](#принципы)
-    * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
+    * [Принцип Парето (Правило 80/20)](#принцип-парето-правило-8020)
     * [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
     * [SOLID](#solid)
     * [The Single Responsibility Principle](#the-single-responsibility-principle)
@@ -327,27 +327,28 @@ See also:
 
 Принципы больше похожи на гайдлайны для дизайна системы.
 
-### The Pareto Principle (The 80/20 Rule)
+### Принцип Парето (Правило 80/20)
 
-[The Pareto Principle on Wikipedia](https://en.wikipedia.org/wiki/Pareto_principle)
+[Принцип Парето в Википедии](https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD_%D0%9F%D0%B0%D1%80%D0%B5%D1%82%D0%BE)
 
-> Most things in life are not distributed evenly.
+> Большинство вещей в жизни распределяются неравномерно.
 
-The Pareto Principle suggests that in some cases, the majority of results come from a minority of inputs:
+Принцип Парето предполагает, что в некоторых случаях основной результат достигается небольшими ресурсами:
 
-- 80% of a certain piece of software can be written in 20% of the total allocated time (conversely, the hardest 20% of the code takes 80% of the time)
-- 20% of the effort produces 80% of the result
-- 20% of the work creates 80% of the revenue
-- 20% of the bugs cause 80% of the crashes
-- 20% of the features cause 80% of the usage
+- 80% от общего объёма кода при разработке программного обеспечения пишется за 20% от выделяемого времени (и напротив, самые сложные 20% кода отнимают 80% времени)
+- 20% усилий дают 80% результата
+- 20% работы обеспечивают 80% дохода
+- 20% багов приводят к 80% поломок
 
-In the 1940s American-Romanian engineer Dr. Joseph Juran, who is widely credited with being the father of quality control, [began to apply the Pareto principle to quality issues](https://en.wikipedia.org/wiki/Joseph_M._Juran).
+В 1940-х американо-румынский инженер доктор Джозеф Юран, которому приписывают создание контроля качества, [начал применять принцип Парето в вопросах качества](https://en.wikipedia.org/wiki/Joseph_M._Juran).
 
-This principle is also known as: The 80/20 Rule, The Law of the Vital Few and The Principle of Factor Sparsity.
+Этот принцип также известен как правило 80/20.  
 
-Real-world examples:
+Примеры из реальной жизни:
 
-- In 2002 Microsoft reported that by fixing the top 20% of the most-reported bugs, 80% of the related errors and crashes in windows and office would become eliminated ([Reference](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)).
+- В 2002 Майкрософт сообщила, что после исправления 20% багов, о которых сообщалось чаще всего, 80% связанных ошибок и поломок в Windows и MS Office просто пропадёт ([Источник](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)).
+
+---
 
 ### The Robustness Principle (Postel's Law)
 

@@ -3,6 +3,7 @@
 Законы, теории, принципы и модели, полезные для разработчиков.
 
 🇺🇸 [English Version / Версия на Английском](https://github.com/dwmkerr/hacker-laws) - оригинальная версия о [Dave Kerr](https://github.com/dwmkerr).
+
 🇨🇳 [中文 / Версия на Китайском](https://github.com/nusr/hacker-laws-zh) - спасибо [Steve Xu](https://github.com/nusr)!
 
 <!-- vim-markdown-toc GFM -->

@@ -16,7 +16,7 @@
     * [Закон Конвея](#закон-конвея)
     * [Бритва Хэнлона](#бритва-хэнлона)
     * [Закон Хофштадтера](#закон-хофштадтера)
-    * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
+    * [Цикл хайпа и закон Амара](#цикл-хайпа-и-закон-амара)
     * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
     * [Moore's Law](#moores-law)
     * [Parkinson's Law](#parkinsons-law)

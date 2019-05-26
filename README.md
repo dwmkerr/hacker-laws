@@ -25,7 +25,7 @@
     * [Закон дырявых абстракций](#закон-дырявых-абстракций)
     * [Закон тривиальности](#закон-тривиальности)
     * [Философия Unix](#философия-unix)
-    * [модель Спотифай](#модель-cпотифай)
+    * [Модель Спотифай](#модель-cпотифай)
     * [Wadler's Law](#wadlers-law)
 * [Principles](#principles)
     * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
@@ -288,13 +288,15 @@ Real-world examples:
 
 ---
 
-### The Spotify Model
+### Модель Спотифай
 
-[The Spotify Model on Spotify Labs](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)
+[Модель Спотифай в Википедии](https://ru.wikipedia.org/wiki/Spotify_Model)
 
-The Spotify Model is an approach to team and organisation structure which has been popularised by 'Spotify'. In this model, teams are organised around features, rather than technologies.
+Модель Спотифай это подход к организации команды и структуре компании, которая была популяризирована компанией-разработчиком Spotify. В этой модели команды организованы вокруг функций, а не технологий.
 
-The Spotify Model also popularises the concepts of Tribes, Guilds, Chapters, which are other components of their organisation structure.
+Модель Спотифай также популяризирует концепты Племён, Гильдий и Отделов, которые являются компонентами их организационной структуры.
+
+---
 
 ### Wadler's Law
 

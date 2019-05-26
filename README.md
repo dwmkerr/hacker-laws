@@ -18,7 +18,7 @@
     * [Закон Хофштадтера](#закон-хофштадтера)
     * [Цикл хайпа и закон Амара](#цикл-хайпа-и-закон-амара)
     * [Закон Хайрама (Закон неявных интерфейсов)](#закон-хайрама-закон-неявных-интерфейсов)
-    * [Moore's Law](#moores-law)
+    * [Закон Мура](#закон-мура)
     * [Parkinson's Law](#parkinsons-law)
     * [Putt's Law](#putts-law)
     * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
@@ -180,13 +180,15 @@ The Hype Cycle is a visual representation of the excitement and development of t
 
 ---
 
-### Moore's Law
+### Закон Мура
 
-[Moore's Law on Wikipedia](https://en.wikipedia.org/wiki/Moore%27s_law)
+[Закон Мура в Википедии](https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD_%D0%9C%D1%83%D1%80%D0%B0)
 
-> The number of transistors in an integrated circuit doubles approximately every two years.
+> Количество транзисторов в интегральной схеме удваивается примерно каждые два года
 
-Often used to illustrate the sheer speed at which semiconductor and chip technology has improved, Moore's prediction has proven to be highly accurate over from the 1970s to the late 2000s. In more recent years, the trend has changed slightly, partly due to [physical limitations on the degree to which components can be miniaturised](https://en.wikipedia.org/wiki/Quantum_tunnelling). However, advancements in parallelisation, and potentially revolutionary changes in semiconductor technology and quantum computing may mean that Moore's Law could continue to hold true for decades to come.
+Часто используемый для иллюстрации стремительной скорости, с которой улучшаются технологии производства полупроводников и чипов, прогноз Мура был очень точен на отрезке с 1970 по 2000. В последние годы эта тенденция немного изменилась, в частности из-за [физических ограничений на степень миниатюризации компонентов](https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D0%BD%D0%BD%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82). И тем не менее, достижения в области распараллеливания и потенциальные революционные изменения в технологии полупроводников, а также квантовые компьютеры могут означать, что закон Мура останеться актуальным на протяжении следующих десятелетий.
+
+---
 
 ### Parkinson's Law
 

@@ -25,9 +25,9 @@
     * [Закон дырявых абстракций](#закон-дырявых-абстракций)
     * [Закон тривиальности](#закон-тривиальности)
     * [Философия Unix](#философия-unix)
-    * [Модель Спотифай](#модель-cпотифай)
+    * [Модель Спотифай](#модель-спотифай)
     * [Wadler's Law](#wadlers-law)
-* [Principles](#principles)
+* [Принципы](#принципы)
     * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
     * [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
     * [SOLID](#solid)
@@ -296,6 +296,10 @@ Real-world examples:
 
 Модель Спотифай также популяризирует концепты Племён, Гильдий и Отделов, которые являются компонентами их организационной структуры.
 
+Читайте также:
+
+- [Spotify engineering culture](#список-литературы)
+
 ---
 
 ### Wadler's Law
@@ -317,9 +321,11 @@ See also:
 
 - [The Law of Triviality](#the-law-of-triviality)
 
-## Principles
+---
 
-Principles are generally more likely to be guidelines relating to design.
+## Принципы
+
+Принципы больше похожи на гайдлайны для дизайна системы.
 
 ### The Pareto Principle (The 80/20 Rule)
 
@@ -476,6 +482,7 @@ See also:
 - [Закон Амдала](https://medium.com/german-gorelkin/amdahls-law-79a8edb040e2), Герман Горелкин, 11 декабря 2018
 - [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks's Law](#brookss-law) is a central theme of the book.
 - [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - This book is difficult to classify. [Hofstadter's Law](#hofstadters-law) is from the book.
+- [Spotify engineering culture](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)
 
 ## TODO
 

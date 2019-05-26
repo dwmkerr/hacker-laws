@@ -1,14 +1,15 @@
 # 💻📖 hacker-laws
 
-Laws, Theories, Principles and Patterns that developers will find useful.
+Законы, теории, принципы и модели, полезные для разработчиков.
 
-🇨🇳 [中文 / Chinese Version](https://github.com/nusr/hacker-laws-zh) - thanks [Steve Xu](https://github.com/nusr)!
+🇺🇸 [English Version / Версия на Английском](https://github.com/dwmkerr/hacker-laws) - оригинальная версия о [Dave Kerr](https://github.com/dwmkerr).
+🇨🇳 [中文 / Версия на Китайском](https://github.com/nusr/hacker-laws-zh) - спасибо [Steve Xu](https://github.com/nusr)!
 
 <!-- vim-markdown-toc GFM -->
 
-* [Introduction](#introduction)
-* [Laws](#laws)
-    * [Amdahl's Law](#amdahls-law)
+* [Вступление](#вступление)
+* [Законы](#законы)
+    * [Закон Амдала](#закон-амдала)
     * [Brooks' Law](#brooks-law)
     * [Conway's Law](#conways-law)
     * [Hanlon's Razor](#hanlons-razor)
@@ -39,38 +40,38 @@ Laws, Theories, Principles and Patterns that developers will find useful.
 
 <!-- vim-markdown-toc -->
 
-## Introduction
+## Вступление
 
-There are lots of laws which people discuss when talking about development. This repository is a reference and overview of some of the most common ones. Please share and submit PRs!
+Существует много законов, которые люди обсуждают, говоря о разработке. Этот репозиторий собрал в себе ссылки и обзоры наиболее распространённых. Пожалуйста, делитесь им и присылайте PR'ы!
 
-❗: This repo contains an explanation of some laws, principles and patterns, but does not _advocate_ for any of them. Whether they should be applied will always be a matter of debate, and greatly dependent on what you are working on.
+❗: В этом репозитории содержатся объяснения некоторых законов, принципов и паттернов, но не _агитирует_ ни за один из них. Вопрос о том, стоит ли их применять, всегда будет предметом споров и в значительной степени ответ на него зависит от того, над чем вы работаете.
 
-## Laws
+## Законы
 
-And here we go!
+Ну, поехали!
 
-### Amdahl's Law
+### Закон Амдала
 
-[Amdahl's Law on Wikipedia](https://en.wikipedia.org/wiki/Amdahl%27s_law)
+[Закон Амдала в Википедии](https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD_%D0%90%D0%BC%D0%B4%D0%B0%D0%BB%D0%B0)
 
-> Amdahl's Law is a formula which shows the _potential speedup_ of a computational task which can be achieved by increasing the resources of a system. Normally used in parallel computing, it can predict the actual benefit of increasing the number of processors, which is limited by the parallelisability of the program.
+> Закон Амдала это формула, которая показывает потенциал увеличения скорости вычислительных задачь, которого можно достичь путём увеличения ресурсов системы. Обычно используемый в параллельных вычислениях, он может предсказать фактическое преимущество увеличения числа процессоров, которое ограничено распараллеливанием программы. 
 
-Best illustrated with an example. If a program is made up of two parts, part A, which must be executed by a single processor, and part B, which can be parallelised, then we see that adding multiple processors to the system executing the program can only have a limited benefit. It can potentially greatly improve the speed of part B - but the speed of part A will remain unchanged.
+Лучше всего привести пример. Если программа состоит из двух частей, части А, которая должна выполняться одним процессором, и части Б, которая может выполняться параллельно, тогда мы увидим, что добавление нескольких процессоров в систему, может иметь ограниченное преимущество. Это потенциально может ускорить выполнение части Б, но скорость выполнения части А останется неизменной.
 
-The diagram below shows some examples of potential improvements in speed:
+Диаграмма ниже показывает несколько примеров потенциального увеличения скорости:
 
-![Diagram: Amdahl's Law](./images/amdahls_law.png)
+![Диаграмма: Закон Амдала](./images/amdahls_law.png)
 
-*(Image Reference: By Daniels220 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
+*(Источник изображения: авторство Daniels220 из Английской Википедии, Creative Commons Attribution-Share Alike 3.0 Unported, [https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg](https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg))*
 
-As can be seen, even a program which is 50% parallelisable will benefit very little beyond 10 processing units, whereas a program which is 95% parallelisable can still achieve significant speed improvements with over a thousand processing units.
+Как можно видеть, программа с возможностью распараллеливания на 50% принесет очень мало пользы, всего 10 процессорных единиц, тогда как программа с возможностью распараллеливания на 95% может привести к значительному улучшению скорости на более чем тысячу процессорных единиц.
 
-As [Moore's Law](#moores-law) slows, and the acceleration of individual processor speed slows, parallelisation is key to improving performance. Graphics programming is an excellent example - with modern Shader based computing, individual pixels or fragments can be rendered in parallel - this is why modern graphics cards often have many thousands of processing cores (GPUs or Shader Units).
+В то время как [Закон Мура](#закон-мура) замедляется, а скорость отдельных процессоров уменьшается, распараллеливание является ключом к повышению производительности. Графическое программирование является отличным примером — с современными вычислениями на основе шейдеров отдельные пиксели или фрагменты могут отображаться параллельно — вот почему современные графические карты часто имеют много тысяч процессорных ядер (графических процессоров или шейдерных блоков).
 
-See also:
+Читайте также:
 
-- [Brooks' Law](#brookss-law)
-- [Moore's Law](#moores-law)
+- [Закон Брукса](#закон-брукса)
+- [Закон Мура](#закон-мура)
 
 ### Brooks' Law
 

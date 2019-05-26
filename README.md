@@ -15,7 +15,7 @@
     * [Закон Брукса](#закон-брукса)
     * [Закон Конвея](#закон-конвея)
     * [Бритва Хэнлона](#бритва-хэнлона)
-    * [Hofstadter's Law](#hofstadters-law)
+    * [Закон Хофштадтера](#закон-хофштадтера)
     * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
     * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
     * [Moore's Law](#moores-law)
@@ -66,7 +66,7 @@
 
 ![Диаграмма: Закон Амдала](./images/amdahls_law.png)
 
-*(Источник изображения: авторство Daniels220 из Английской Википедии, Creative Commons Attribution-Share Alike 3.0 Unported, [https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg](https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg))*
+*(Источник изображения: авторство Daniels220, взято из Английской Википедии, Creative Commons Attribution-Share Alike 3.0 Unported, [https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg](https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg))*
 
 Как можно видеть, программа с возможностью распараллеливания на 50% принесет очень мало пользы, всего 10 процессорных единиц, тогда как программа с возможностью распараллеливания на 95% может привести к значительному улучшению скорости на более чем тысячу процессорных единиц.
 
@@ -122,37 +122,43 @@
 
 ---
 
-### Hofstadter's Law
+### Закон Хофштадтера
 
-[Hofstadter's Law on Wikipedia](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
+[Закон Хофштадтера в Википедии](https://ru.wikipedia.org/wiki/%D0%A5%D0%BE%D1%84%D1%88%D1%82%D0%B0%D0%B4%D1%82%D0%B5%D1%80,_%D0%94%D1%83%D0%B3%D0%BB%D0%B0%D1%81#%D0%97%D0%B0%D0%BA%D0%BE%D0%BD_%D0%A5%D0%BE%D1%84%D1%88%D1%82%D0%B0%D0%B4%D1%82%D0%B5%D1%80%D0%B0)
 
-> It always takes longer than you expect, even when you take into account Hofstadter's Law.
+> Любое дело всегда длится дольше, чем ожидается, даже если учесть закон Хофштадтера.
 >
-> Douglas Hofstadter
+> Дуглас Хофштадтер
 
-You might hear this law referred to when looking at estimates for how long something will take. It seems a truism in software development that we tend to not be very good at accurately estimating how long something will take to deliver.
+Кто-нибудь мог ссылаться на этот закон, глядя на оценку сроков выполнения чего-либо. Кажется трюизмом, что мы не очень хороши в оценке сроков разработки. 
 
-This is from the book '[Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)'.
+Из книги «[Gödel, Escher, Bach: An Eternal Golden Braid](#список-литературы)».
 
-See also:
+Читайте также:
 
 - [Reading List: Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)
 
-### The Hype Cycle & Amara's Law
+---
 
-[The Hype Cycle on Wikipedia](https://en.wikipedia.org/wiki/Hype_cycle)
+### Цикл хайпа и закон Амара
 
-> We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.
+[Цикл хайпа в Википедии](https://ru.wikipedia.org/wiki/Gartner#%D0%A6%D0%B8%D0%BA%D0%BB_%D1%85%D0%B0%D0%B9%D0%BF%D0%B0)
+
+> Мы склонны переоценивать эффект от технологии в краткосрочной перспективе и недооценивать эффект в долгосрочной перспективе.
 >
-> (Roy Amara)
+> Рой Амара
 
 The Hype Cycle is a visual representation of the excitement and development of technology over time, originally produced by Gartner. It is best shown with a visual:
 
-![The Hype Cycle](./images/gartner_hype_cycle.png)
+Цикл хайпа является визуализацией кривых волнения и развития технологии во времени. Впервые был представлен команией Gartner. Лучше показать на примере:
 
-*(Image Reference: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
+![Цикл хайпа](./images/gartner_hype_cycle.png)
 
-In short, this cycle suggests that there is typically a burst of excitement around new technology and its potential impact. Teams often jump into these technologies quickly, and sometimes find themselves disappointed with the results. This might be because the technology is not yet mature enough, or real-world applications are not yet fully realised. After a certain amount of time, the capabilities of the technology increase and practical opportunities to use it increase, and teams can finally become productive. Roy Amara's quote sums this up most succinctly - "We tend to overestimate the effect of a technology in the short run and underestimate in the long run".
+*(Источник изображения: авторство Jeremykemp, взято из Английской Википедии, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
+
+Если коротко, этот цикл предполагает что вкруг новой технологии обычно наблюдается взрыв ажиотажа относительно её потенциального воздействия. Команды часто поспешно _прыгают с головой_ в эту новую технологию, но в итоге оказываются разочаровываются результатом. Это может быть связанно с тем, что технология ещё не достаточно развита или приложения в реальном мире ещё не до конца реализованы. По прошествии времени возможности технологии возрастают и практическая польза от неё увеличивается. Что позволяет командам продуктивно использовать эту технологию. Рой Амара сформулировал это наиболее ёмко: «Мы склонны переоценивать эффект от технологии в краткосрочной перспективе и недооценивать эффект в долгосрочной перспективе».
+
+---
 
 ### Hyrum's Law (The Law of Implicit Interfaces)
 

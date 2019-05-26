@@ -23,7 +23,7 @@
     * [Putt's Law](#putts-law)
     * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
     * [Закон дырявых абстракций](#закон-дырявых-абстракций)
-    * [The Law of Triviality](#the-law-of-triviality)
+    * [Закон тривиальности](#закон-тривиальности)
     * [The Unix Philosophy](#the-unix-philosophy)
     * [модель Спотифай](#модель-cпотифай)
     * [Wadler's Law](#wadlers-law)
@@ -200,7 +200,7 @@ The Hype Cycle is a visual representation of the excitement and development of t
 
 Если этот закон совместить с [законом Хофштадтера](#закон-хофштадтера), то картина окажется ещё более пессимистичной — работа заполнит всё отведённое на неё время и **всё равно займёт больше времени, чем ожидалось**.
 
-See also:
+Читайте также:
 
 - [законом Хофштадтера](#закон-хофштадтера)
 
@@ -225,6 +225,8 @@ See also:
 - [The Peter Principle](#TODO)
 - [Dilbert's Law](#TODO).
 
+---
+
 
 ### The Law of Conservation of Complexity (Tesler's Law)
 
@@ -235,6 +237,8 @@ This law states that there is a certain amount of complexity in a system which c
 Some complexity in a system is 'inadvertent'. It is a consequence of poor structure, mistakes, or just bad modeling of a problem to solve. Inadvertent complexity can be reduced (or eliminated). However, some complexity is 'intrinsic' as a consequence of the complexity inherent in the problem being solved. This complexity can be moved, but not eliminated.
 
 One interesting element to this law is the suggestion that even by simplifying the entire system, the intrinsic complexity is not reduced, it is _moved to the user_, who must behave in a more complex way.
+
+---
 
 ### Закон дырявых абстракций
 
@@ -260,15 +264,19 @@ Real-world examples:
 
 - [Photoshop Slow Startup](https://forums.adobe.com/thread/376152) - an issue I encountered in the past. Photoshop would be slow to startup, sometimes taking minutes. It seems the issue was that on startup it reads some information about the current default printer. However, if that printer is actually a network printer, this could take an extremely long time. The _abstraction_ of a network printer being presented to the system similar to a local printer caused an issue for users in poor connectivity situations.
 
-### The Law of Triviality
+---
 
-[The Law of Triviality on Wikipedia](https://en.wikipedia.org/wiki/Law_of_triviality)
+### Закон тривиальности
 
-This law suggests that groups will give far more time and attention to trivial or cosmetic issues rather than serious and substantial ones.
+[Закон тривиальности в Википедии](https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD_%D1%82%D1%80%D0%B8%D0%B2%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8)
 
-The common fictional example used is that of a committee approving plans for nuclear power plant, who spend the majority of their time discussing the structure of the bike shed, rather than the far more important design for the power plant itself. It can be difficult to give valuable input on discussions about very large, complex topics without a high degree of subject matter expertise or preparation. However, people want to be seen to be contributing valuable input. Hence a tendency to focus too much time on small details, which can be reasoned about easily, but are not necessarily of particular importance.
+Этот закон предполагает, что группы будут тратить больше времени на тривиальные или компетические задачи нежели на серьёзные и существенные.
 
-The fictional example above led to the usage of the term 'Bike Shedding' as an expression for wasting time on trivial details.
+В качестве вымышленного примера приводится вымышленный комитет, работа которого заключалась в согласовании проекта атомной электростанции. Члены комитета проводит большую часть своего времени за обсуждением структуры велосипедного навеса, а не гораздо более важного проекта самой электростанции. Бывает трудно внести ценный вклад в дискуссию об очень больших и сложных темах без высокой степени предметной экспертизы или подготовки. Тем не менее, люди хотят вносить ценный вклад. Отсюда возникает тенденция уделять слишком много времени мелким деталям, которые легко обосновываются, но не обязательно имеют особое значение.
+
+Вымышленный пример, приведенный выше, привел к использованию термина «эффект велосипедного сарая» в качестве выражения для траты времени на тривиальные детали.
+
+---
 
 ### The Unix Philosophy
 

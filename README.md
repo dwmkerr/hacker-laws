@@ -13,7 +13,7 @@
 * [Законы](#законы)
     * [Закон Амдала](#закон-амдала)
     * [Закон Брукса](#закон-брукса)
-    * [Conway's Law](#conways-law)
+    * [Закон Конвея](закон-конвея)
     * [Hanlon's Razor](#hanlons-razor)
     * [Hofstadter's Law](#hofstadters-law)
     * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
@@ -25,7 +25,7 @@
     * [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
     * [The Law of Triviality](#the-law-of-triviality)
     * [The Unix Philosophy](#the-unix-philosophy)
-    * [The Spotify Model](#the-spotify-model)
+    * [модель Спотифай](#модель-cпотифай)
     * [Wadler's Law](#wadlers-law)
 * [Principles](#principles)
     * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
@@ -37,7 +37,7 @@
     * [The Interface Segregation Principle](#the-interface-segregation-principle)
     * [The Dependency Inversion Principle](#the-dependency-inversion-principle)
     * [The DRY Principle](#the-dry-principle)
-* [Reading List](#reading-list)
+* [Список литературы](#список-литературы)
 * [TODO](#todo)
 
 <!-- vim-markdown-toc -->
@@ -96,15 +96,19 @@
 - [Death March](#todo)
 - [Список литературы: The Mythical Man Month](#список-литературы)
 
-### Conway's Law
+---
 
-[Conway's Law on Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
+### Закон Конвея
 
-This law suggests that the technical boundaries of a system will reflect the structure of the organisation. It is commonly referred to when looking at organisation improvements, Conway's Law suggests that if an organisation is structured into many small, disconnected units, the software it produces will be. If an organisation is built more around 'verticals' which are orientated around features or services, the software systems will also reflect this.
+[Закон Конвея в Википедии](https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD_%D0%9A%D0%BE%D0%BD%D0%B2%D0%B5%D1%8F)
 
-See also:
+Этот закон предполагает, что технические рамки системы будут отражать структуру организации. Этот закон обычно упоминают в контексте улучшения организации. Закон Конвея предполагает, что если органиазция разделена на небольшие отдельные команды, то и программное обеспечение будет разделено подобным образом. Если организация выстроенна вокруг «вертикалей», которые ориентированны на улучшение и сервис, то система программного обеспечения будет отражать это.
 
-- [The Spotify Model](#the-spotify-model)
+Читайте также:
+
+- [модель Спотифай](#модель-спотифай)
+
+---
 
 ### Hanlon's Razor
 

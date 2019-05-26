@@ -13,7 +13,7 @@
 * [Законы](#законы)
     * [Закон Амдала](#закон-амдала)
     * [Закон Брукса](#закон-брукса)
-    * [Закон Конвея](закон-конвея)
+    * [Закон Конвея](#закон-конвея)
     * [Hanlon's Razor](#hanlons-razor)
     * [Hofstadter's Law](#hofstadters-law)
     * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)

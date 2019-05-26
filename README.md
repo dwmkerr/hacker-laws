@@ -17,12 +17,12 @@
     * [Бритва Хэнлона](#бритва-хэнлона)
     * [Закон Хофштадтера](#закон-хофштадтера)
     * [Цикл хайпа и закон Амара](#цикл-хайпа-и-закон-амара)
-    * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
+    * [Закон Хайрама (Закон неявных интерфейсов)](#закон-хайрама-закон-неявных-интерфейсов)
     * [Moore's Law](#moores-law)
     * [Parkinson's Law](#parkinsons-law)
     * [Putt's Law](#putts-law)
     * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
-    * [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
+    * [Закон дырявых абстракций](#закон-дырявых-абстракций)
     * [The Law of Triviality](#the-law-of-triviality)
     * [The Unix Philosophy](#the-unix-philosophy)
     * [модель Спотифай](#модель-cпотифай)
@@ -136,7 +136,7 @@
 
 Читайте также:
 
-- [Reading List: Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)
+- [Список литературы: Gödel, Escher, Bach: An Eternal Golden Braid](#список-литературы)
 
 ---
 
@@ -160,23 +160,25 @@ The Hype Cycle is a visual representation of the excitement and development of t
 
 ---
 
-### Hyrum's Law (The Law of Implicit Interfaces)
+### Закон Хайрама (Закон неявных интерфейсов)
 
-[Hyrum's Law Online](http://www.hyrumslaw.com/)
+[Закон Хайрама онлайн](http://www.hyrumslaw.com/)
 
-> With a sufficient number of users of an API,
-> it does not matter what you promise in the contract:
-> all observable behaviours of your system
-> will be depended on by somebody.
+> При достаточном количестве пользователей API
+> не имеет особого значения что вы пишите в документации:
+> любые наблюдаемые варианты поведения вашей системы
+> будут на кого-то влиять.
 >
-> (Hyrum Wright)
+> Хайрам Райт
 
-Hyrum's Law states that when you have a _large enough number of consumers_ of an API, all behaviours of the API (even those not defined as part of a public contract) will eventually come to be depended on by someone. A trivial example may be non-functional elements such as the response time of an API. A more subtle example might be consumers who are relying on applying a regex to an error message to determine the *type* of error of an API. Even if the public contract of the API states nothing about the contents of the message, indicating users should use an associated error code, _some_ users may use the message, and changing the message essentially breaks the API for those users.
+Закон Хайрама гласит, что когда у вас есть _достаточно большое количество пользователей_ API, любое действия этого API (даже неопределеные в рамках публичной документации) в конечном итоге повлияют на кого-то. Тривиальный пример: нефункциональный элемент, такой, как время ответа API. Менее значительный пример: пользователи, которые опираются на использование регулярных выражений при определении *типа* ошибки API. Даже если публичная документация API не говорит ничего о тексте сообщения ошибки, явно указывая, что нужно смотреть на код ошибки, _некоторые_ пользователи могут использовать текст сообщения и изменение этого текста приводит к поломке API у таких юзеров.
 
-See also:
+Читайте также:
 
-- [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
+- [Закон дырявых абстракций](#закон-дырявых-абстракций)
 - [XKCD 1172](https://xkcd.com/1172/)
+
+---
 
 ### Moore's Law
 
@@ -230,7 +232,7 @@ Some complexity in a system is 'inadvertent'. It is a consequence of poor struct
 
 One interesting element to this law is the suggestion that even by simplifying the entire system, the intrinsic complexity is not reduced, it is _moved to the user_, who must behave in a more complex way.
 
-### The Law of Leaky Abstractions
+### Закон дырявых абстракций
 
 [The Law of Leaky Abstractions on Joel on Software](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
 

@@ -34,6 +34,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [The Interface Segregation Principle](#the-interface-segregation-principle)
     * [The Dependency Inversion Principle](#the-dependency-inversion-principle)
     * [The DRY Principle](#the-dry-principle)
+    * [YAGNI](#yagni)
 * [Reading List](#reading-list)
 * [TODO](#todo)
 
@@ -430,6 +431,16 @@ In practice, if you have the same piece of information in two (or more) differen
 See also:
 
 - [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+
+### YAGNI
+
+This is an acronym for _**Y**ou **A**ren't **G**onna **N**eed **I**t_
+
+This Extreme Programming (XP) principle tells developers that they should only implement functionality that is required for the immediate present and avoid attempts to predict the future by implementing functionality that won't be used immediately, rather implement it only when deemed necessary.
+
+Some of the issues a developer can be faced with in a project that does not respect this principle are:
+* Unnecessary increase of the overall codebase size with unused code;
+* Time and productivity wasted on functionality that brings no value
 
 ## Reading List
 

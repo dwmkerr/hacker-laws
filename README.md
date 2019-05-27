@@ -436,11 +436,15 @@ See also:
 
 This is an acronym for _**Y**ou **A**ren't **G**onna **N**eed **I**t_
 
+> "Always implement things when you actually need them, never when you just foresee that you need them." - _[Ron Jeffries](https://twitter.com/RonJeffries) (XP co-founder and author of the book "Extreme Programming Installed")_
+
 This Extreme Programming (XP) principle tells developers that they should only implement functionality that is required for the immediate present and avoid attempts to predict the future by implementing functionality that won't be used immediately, rather implement it only when deemed necessary.
 
 Some of the issues a developer can be faced with in a project that does not respect this principle are:
 * Unnecessary increase of the overall codebase size with unused code;
 * Time and productivity wasted on functionality that brings no value
+
+_[Check YAGNI article on Wikipedia](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)_
 
 ## Reading List
 

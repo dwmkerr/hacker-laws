@@ -362,97 +362,104 @@ The goal of this principle is to build systems which are robust, as they can han
 
 ### SOLID
 
-This is an acronym, which refers to:
+Это акроним, который расшифровывается следующим образом:
 
-* S: [The Single Responsibility Principle](#the-single-responsibility-principle)
-* O: [The Open/Closed Principle](#the-openclosed-principle)
-* L: [The Liskov Substitution Principle](#the-liskov-substitution-principle)
-* I: [The Interface Segregation Principle](#the-interface-segregation-principle)
-* D: [The Dependency Inversion Principle](#the-dependency-inversion-principle)
+* S: [Принцип единственной ответственности](#принцип-единственной-ответственности)
+* O: [Принцип открытости/закрытости](#принци-открытостизакрытости)
+* L: [Принцип подстановки Барбары Лисков](#принцип-подстановки-барбары-лисков)
+* I: [Принцип разделения интерфейса](#принцип-разделения-интерфейса)
+* D: [Принцип инверсии зависимостей](#принцип-инверсии-зависимостей)
 
-These are key principles in [Object-Oriented Programming](#todo). Design principles such as these should be able to aid developers build more maintainable systems.
+Это ключевые принципы [Объектно-ориентированного программирования](#todo). Такие принципы проектирования должны помочь разработчикам создавать более простые в поддержке и обслуживании системы.
 
-### The Single Responsibility Principle
+### Принцип единственной ответственности
 
-[The Single Responsibility Principle on Wikipedia](https://en.wikipedia.org/wiki/Single_responsibility_principle)
+[Принцип единственной ответственности в Википедии](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF_%D0%B5%D0%B4%D0%B8%D0%BD%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9_%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8)
 
-> Every module or class should have a single responsibility only.
+> Каждый модуль или класс должен иметь одну единственную ответственность. 
 
-The first of the '[SOLID](#solid)' principles. This principle suggests that modules or classes should do one thing and one thing only. In more practical terms, this means that a single, small change to a feature of a program should require a change in one component only. For example, changing how a password is validated for complexity should require a change in only one part of the program.
+Первый из пяти принципов [SOLID](#solid). Этот принцип гласит, что модуль или класс должен делать всего одну вещь. В практическом смысле это означает, что одно маленькое изменение при доработке программы должно требовать изменения только в одном компоненте. Например, изменение в механизме проверки сложности пароля должно потребовать изменения только в одной части программы.
 
-Theoretically, this should make the code more robust, and easier to change. Knowing that a component which is being changed has a single responsibility only means that _testing_ that change should be easier. Using the earlier example, changing the password complexity component should only be able to affect the features which relate to password complexity. It can be much more difficult to reason about the impact of a change to a component which has many responsibilities.
+Теоретически это должно делать код более надёжным и простым для изменений. Знание, что изменённый компонент несёт на себе единственную ответственность, означает, что _тестирование_ этого изменения будет простым. Возвращаясь к предыдущему примеру, изменения в компоненте проверки сложности пароля должны повлиять только на часть программы, отвечающую за проверку пароля. Гораздо сложнее рассуждать о влиянии изменения в компоненте, у которого сразу несколько функций.
 
-See also:
+Читайте также: 
 
-- [Object-Oriented Programming](#todo)
+- [Объектно-ориентированное программирование](#todo)
 - [SOLID](#solid)
 
-### The Open/Closed Principle
+### Принцип открытости/закрытости
 
-[The Open/Closed Principle on Wikipedia](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
+[Принцип открытости/закрытости в Википедии](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF_%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%BE%D1%81%D1%82%D0%B8/%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D0%BE%D1%81%D1%82%D0%B8)
 
-> Entities should be open for extension and closed for modification.
+> Сущности должны быть открыты для расширения, но закрыты для изменения.
 
-The second of the '[SOLID](#solid)' principles. This principle states that entities (which could be classes, modules, functions and so on) should be able to have their behaviour _extended_, but that their _existing_ behaviour should not be able to be modified.
+Второй из пяти принципов [SOLID](#solid). Этот принцип говорит, что сущности (классы, модули, функции и прочее) должны быть должны иметь возможность _расширять_ своё поведение, но их существующее поведение не должно _изменяться_.
 
-As a hypothetical example, imagine a module which is able to turn a Markdown document into HTML. If the module could be extended to handle a newly proposed markdown feature, without modifying the module internals, then it would be open for extension. If the module could _not_ be modified by a consumer so that how existing Markdown features are handled, then it would be _closed_ for modification.
+В качестве гипотетического пример представьте модуль, который превращает разметку Markdown в HTML-документ. Если можно добавить в модуль обработку новых возможностей Markdown без изменения основного поведения модуля, то он будет считаться открытым для расширения. Если пользователь _не_ может изменить в модуле стандартную обработку синтаксиса Markdown, то такой модуль будет считаться _закрытым_ для изменений.
 
 This principle has particular relevance for object-oriented programming, where we may design objects to be easily extended, but would avoid designing objects which can have their existing behaviour changed in unexpected ways.
 
-See also:
+Этот принцип имеет особое значение для объектно-ориентированного программирования, в рамках которого мы можем создавать модули, простые в расширении, но должны избегать создания объектов, поведение которых меняется неожиданным образом.
+
+Читайте также: 
 
 - [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
 
-### The Liskov Substitution Principle
+### Принцип подстановки Барбары Лисков
 
-[The Liskov Substitution Principle on Wikipedia](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
+[Принцип подстановки Барбары Лисков в Википедии](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF_%D0%BF%D0%BE%D0%B4%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B8_%D0%91%D0%B0%D1%80%D0%B1%D0%B0%D1%80%D1%8B_%D0%9B%D0%B8%D1%81%D0%BA%D0%BE%D0%B2)
 
-> It should be possible to replace a type with a subtype, without breaking the system.
+> Должна быть возможность заменить тип на подтип без поломки системы.
 
-The third of the '[SOLID](#solid)' principles. This principle states that if a component relies on a type, then it should be able to use subtypes of that type, without the system failing or having to know the details of what that subtype is.
+_(от редактора)_
+> Наследующий класс должен дополнять, а не замещать поведение базового класса.
 
-As an example, imagine we have a method which reads an XML document from a structure which represents a file. If the method uses a base type 'file', then anything which derives from 'file' should be able to be used in the function. If 'file' supports seeking in reverse, and the XML parser uses that function, but the derived type 'network file' fails when reverse seeking is attempted, then the 'network file' would be violating the principle.
+Третий из пяти принципов [SOLID](#solid). Этот принцип указывает, что если компонент зависит от определённого типа, то должна быть возможность использовать продтип этого типа (производную от типа) без поломки всей системы или необходимости знат детали того, что это за подтип.
 
-This principle has particular relevance for object-oriented programming, where type hierarchies must be modeled carefully to avoid confusing users of a system.
+В качестве примера представьте, что у нас есть метод, который читает XML-документ из файла. Если метод ипользует в качестве основы тип 'file', то мы должны иметь возможность использовать в функции и любое производное от 'file'. Если 'file' поддерживает поиск в обратном порядке, а парсер XML использует эту возможность, и при этом подтип 'network file' выдаёт ошибку при попытке поиска в обратном порядке, тогда подтип 'network file' нарушает описываемый принцип.
 
-See also:
+Этот принцип имеет особое значение для объектно-ориентированного программирования, где иерархия типов должна проектироваться аккуратно, чтобы не запутать пользователей системы.
 
-- [Object-Oriented Programming](#todo)
-- [SOLID](#solid)
-
-### The Interface Segregation Principle
-
-[The Interface Segregation Principle on Wikipedia](https://en.wikipedia.org/wiki/Interface_segregation_principle)
-
-> No client should be forced to depend on methods it does not use.
-
-The fourth of the '[SOLID](#solid)' principles. This principle states that consumers of a component should not depend on functions of that component which it doesn't actually use.
-
-As an example, imagine we have a method which reads an XML document from a structure which represents a file. It only needs to read bytes, move forwards or move backwards in the file. If this method needs to be updated because an unrelated feature of the file structure changes (such as an update to the permissions model used to represent file security), then the principle has been invalidated. It would be better for the file to implement a 'seekable-stream' interface, and for the XML reader to use that.
-
-This principle has particular relevance for object-oriented programming, where interfaces, hierarchies and abstract types are used to [minimise the coupling](#todo) between different components. [Duck typing](#todo) is a methodology which enforces this principle by eliminating explicit interfaces.
-
-See also:
+Читайте также: 
 
 - [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
-- [Duck Typing](#todo)
-- [Decoupling](#todo)
 
-### The Dependency Inversion Principle
+### Принцип разделения интерфейса
 
-[The Dependency Inversion Principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
+[Принцип разделения интерфейса в Википедии](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF_%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%D0%B0)
 
-> High-level modules should not be dependent on low-level implementations.
+> Программные сущности не должны зависеть от методов, которые они не используют.
 
-The fifth of the '[SOLID](#solid)' principles. This principle states that higher level orchestrating components should not have to know the details of their dependencies.
+Четвёртый из пяти принципов [SOLID](#solid). Этот принцип говорит что клиенты компонента, не должны зависеть от функций этого самого компонента, которые они не используют непосредственно.
 
-As an example, imagine we have a program which read metadata from a website. We would assume that the main component would have to know about a component to download the webpage content, then a component which can read the metadata. If we were to take dependency inversion into account, the main component would depend only on an abstract component which can fetch byte data, and then an abstract component which would be able to read metadata from a byte stream. The main component would not know about TCP/IP, HTTP, HTML, etc.
+Например, представьте, что у нас есть компонент, читающий XML из файла. Он должен только читать байты, двигаясь вперёт или назад по файлу. Если этот метод потребуется изменить потому что в файловую структуру внесены несвязанные с ним изменения (например, обновление системы безопасности для доступа к файлу), тогда принцип был нарушен. 
+
+Этот принцип особо актуален для объектно-ориентированного программирования, где интерфейсы, иерархии и абстрактные типы должны стремиться к минимизации [зацепления](#todo) между разными компонентами. [Утиная типизация](#todo) — методология, которая обеспечивает соблюдение этого принципа при помощи исключения явных интерфейсов.
+
+Читайте также:
+
+- [Object-Oriented Programming](#todo)
+- [SOLID](#solid)
+- [Утиная типизация](#todo)
+- [Зацепление](#todo)
+
+### Принцип инверсии зависимостей
+
+[Принцип инверсии зависимостей в Википедии](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF_%D0%B8%D0%BD%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8_%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B5%D0%B9)
+
+> Высокоуровневые модули не должны зависеть от низкоуровневой реализации.
+
+Пятый из принципов [SOLID](#solid). Из этого принципа следует, что высший уровень управляющих компонентов не должен знать о деталях реализации зависимостей.
+
+В качестве примера представьте, что у нас есть программа, которая считывает мета-данные с сайта. Мы предполагаем, что главный компонент должен знать о компоненте, занимающемся скачиванием контента с сайта, а затем и о компоненте, считывающем мета-данные. Если мы примем во внимание инверсию зависимостей, то основной компонент будет зависеть только от абстрактного компонента, который может извлекать байтовые данные, а затем от абстрактного компонента, который мог бы считывать метаданные из байтового потока. Основной компонент не будет знать о TCP/IP, HTTP, HTML и прочем.
 
 This principle is complex, as it can seem to 'invert' the expected dependencies of a system (hence the name). In practice, it also means that a separate orchestrating component must ensure the correct implementations of abstract types are used (e.g. in the previous example, _something_ must still provide the metadata reader component a HTTP file downloader and HTML meta tag reader). This then touches on patterns such as [Inversion of Control](#todo) and [Dependency Injection](#todo).
 
-See also:
+Этот принцип сложный. Может показаться, что он «инвертирует» вероятные зависимости системы (отсюда и название). На практике это также означает, что отдельный управляющий компонент должен гарантировать, что используются правильные реализации абстрактных типов (например, в предыдущем примере _нечто_ должно по-прежнему предоставлять компоненту чтения метаданных загрузчик файлов HTTP и средство чтения метатегов HTML). Это также касается таких шаблонов, как [Инверсия управления](#todo) и [Внедрение зависимости](#todo).
+
+Читайте также:
 
 - [Object-Oriented Programming](#todo)
 - [SOLID](#solid)

@@ -403,7 +403,7 @@ This principle has particular relevance for object-oriented programming, where w
 
 Читайте также: 
 
-- [Object-Oriented Programming](#todo)
+- [Объектно-ориентированное программирование](#todo)
 - [SOLID](#solid)
 
 ### Принцип подстановки Барбары Лисков
@@ -423,7 +423,7 @@ _(от редактора)_
 
 Читайте также: 
 
-- [Object-Oriented Programming](#todo)
+- [Объектно-ориентированное программирование](#todo)
 - [SOLID](#solid)
 
 ### Принцип разделения интерфейса
@@ -440,7 +440,7 @@ _(от редактора)_
 
 Читайте также:
 
-- [Object-Oriented Programming](#todo)
+- [Объектно-ориентированное программирование](#todo)
 - [SOLID](#solid)
 - [Утиная типизация](#todo)
 - [Зацепление](#todo)
@@ -461,7 +461,7 @@ This principle is complex, as it can seem to 'invert' the expected dependencies 
 
 Читайте также:
 
-- [Object-Oriented Programming](#todo)
+- [Объектно-ориентированное программирование](#todo)
 - [SOLID](#solid)
 - [Inversion of Control](#todo)
 - [Dependency Injection](#todo)

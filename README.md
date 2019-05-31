@@ -512,9 +512,11 @@ DRY это акроним от фразы _Don't Repeat Yourself_ («Не пов
 
 Не стесняйтесь [заводить issue](https://github.com/solarrust/hacker-laws/issues) с пожеланиями или [присылайте Pull Request](https://github.com/solarrust/hacker-laws/pulls) со своими правками или новыми темами. 
 
-## Contributors
+---
 
-Большое спасибо этим прекрасным любдям ([что значат emoji?](https://allcontributors.org/docs/en/emoji-key)):
+## Они внесли свой вклад
+
+Большое спасибо этим прекрасным людям ([что значат emoji?](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->

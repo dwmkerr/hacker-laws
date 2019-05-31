@@ -514,12 +514,10 @@ DRY это акроним от фразы _Don't Repeat Yourself_ («Не пов
 
 ## Contributors
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Большое спасибо этим прекрасным любдям ([что значат emoji?](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
 <table><tr><td align="center"><a href="https://aceof.github.io/"><img src="https://avatars2.githubusercontent.com/u/16652418?v=4" width="100px;" alt="Alexandr Kizilow"/><br /><sub><b>Alexandr Kizilow</b></sub></a><br /><a href="#content-ACEof" title="Content">🖋</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

@@ -1,4 +1,5 @@
 # 💻📖 hacker-laws
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 Законы, теории, принципы и модели, которые полезно знать разработчикам.
 
@@ -510,3 +511,15 @@ DRY это акроним от фразы _Don't Repeat Yourself_ («Не пов
 Привет! Если вы это читате, то вы перешли по ссылке на статью, которая ещё не написала. Простите за это! Я работаю над этим.
 
 Не стесняйтесь [заводить issue](https://github.com/solarrust/hacker-laws/issues) с пожеланиями или [присылайте Pull Request](https://github.com/solarrust/hacker-laws/pulls) со своими правками или новыми темами. 
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table><tr><td align="center"><a href="https://aceof.github.io/"><img src="https://avatars2.githubusercontent.com/u/16652418?v=4" width="100px;" alt="Alexandr Kizilow"/><br /><sub><b>Alexandr Kizilow</b></sub></a><br /><a href="#content-ACEof" title="Content">🖋</a></td></tr></table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

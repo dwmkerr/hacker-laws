@@ -31,12 +31,12 @@
     * [Принцип Парето (Правило 80/20)](#принцип-парето-правило-8020)
     * [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
     * [SOLID](#solid)
-    * [The Single Responsibility Principle](#the-single-responsibility-principle)
-    * [The Open/Closed Principle](#the-openclosed-principle)
-    * [The Liskov Substitution Principle](#the-liskov-substitution-principle)
-    * [The Interface Segregation Principle](#the-interface-segregation-principle)
-    * [The Dependency Inversion Principle](#the-dependency-inversion-principle)
-    * [The DRY Principle](#the-dry-principle)
+    * [Принцип единственной ответственности](#принцип-единственной-ответственности)
+    * [Принцип открытости/закрытости](#принцип-открытостизакрытости)
+    * [Принцип подстановки Лисков](#принцип-подстановки-Лисков)
+    * [Принцип разделения интерфейса](#принцип-разделения-интерфейса)
+    * [Принцип инверсии зависимостей](#принцип-инверсии-зависимостей)
+    * [Принцип DRY](#принцип-dry)
 * [Список литературы](#список-литературы)
 * [TODO](#todo)
 
@@ -410,7 +410,7 @@ The goal of this principle is to build systems which are robust, as they can han
 
 ---
 
-### Принцип подстановки Барбары Лисков
+### Принцип подстановки Лисков
 
 [Принцип подстановки Барбары Лисков в Википедии](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF_%D0%BF%D0%BE%D0%B4%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B8_%D0%91%D0%B0%D1%80%D0%B1%D0%B0%D1%80%D1%8B_%D0%9B%D0%B8%D1%81%D0%BA%D0%BE%D0%B2)
 

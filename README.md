@@ -258,7 +258,7 @@ The article describing the law suggests that an over-reliance on abstractions, c
 
 See also:
 
-- [Hyrum's Law](#hyrums-law-the-law-of-implicit-interfaces)
+- [Закон Хайрама (Закон неявных интерфейсов)](#закон-хайрама-закон-неявных-интерфейсов)
 
 Real-world examples:
 
@@ -298,7 +298,7 @@ Real-world examples:
 
 Читайте также:
 
-- [Spotify engineering culture](#список-литературы)
+- [Список литературы: Spotify engineering culture](#список-литературы)
 
 ---
 
@@ -319,7 +319,7 @@ Similar to [The Law of Triviality](#the-law-of-triviality), Wadler's Law states 
 
 See also:
 
-- [The Law of Triviality](#the-law-of-triviality)
+- [Закон тривиальности](#закон-тривиальности)
 
 ---
 
@@ -360,6 +360,8 @@ Often applied in server application development, this principle states that what
 
 The goal of this principle is to build systems which are robust, as they can handle poorly formed input if the intent can still be understood. However, there are potentially security implications of accepting malformed input, particularly if the processing of such input is not well tested.
 
+---
+
 ### SOLID
 
 Это акроним, который расшифровывается следующим образом:
@@ -387,6 +389,8 @@ The goal of this principle is to build systems which are robust, as they can han
 - [Объектно-ориентированное программирование](#todo)
 - [SOLID](#solid)
 
+---
+
 ### Принцип открытости/закрытости
 
 [Принцип открытости/закрытости в Википедии](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF_%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%BE%D1%81%D1%82%D0%B8/%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D0%BE%D1%81%D1%82%D0%B8)
@@ -403,6 +407,8 @@ The goal of this principle is to build systems which are robust, as they can han
 
 - [Объектно-ориентированное программирование](#todo)
 - [SOLID](#solid)
+
+---
 
 ### Принцип подстановки Барбары Лисков
 
@@ -424,6 +430,8 @@ _(от редактора)_
 - [Объектно-ориентированное программирование](#todo)
 - [SOLID](#solid)
 
+---
+
 ### Принцип разделения интерфейса
 
 [Принцип разделения интерфейса в Википедии](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF_%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%D0%B0)
@@ -442,6 +450,8 @@ _(от редактора)_
 - [SOLID](#solid)
 - [Утиная типизация](#todo)
 - [Зацепление](#todo)
+
+---
 
 ### Принцип инверсии зависимостей
 
@@ -462,21 +472,25 @@ _(от редактора)_
 - [Inversion of Control](#todo)
 - [Dependency Injection](#todo)
 
-### The DRY Principle
+---
 
-[The DRY Principle on Wikipedia](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+### Принцип DRY
 
-> Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
+[Принцип DRY в Википедии](https://ru.wikipedia.org/wiki/Don%E2%80%99t_repeat_yourself)
 
-DRY is an acronym for _Don't Repeat Yourself_. This principle aims to help developers reducing the repetition of code and keep the information in a single place and was cited in 1999 by Andrew Hunt and Dave Thomas in the book [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+> Каждая часть знания должна иметь единственное, непротиворечивое и авторитетное представление в рамках системы
 
-> The opposite of DRY would be _WET_ (Write Everything Twice or We Enjoy Typing).
+DRY это акроним от фразы _Don't Repeat Yourself_ («Не повторяй себя»). Этот принцип призван помочь разработчикам избежать повторений в коде и хранить информацию в одном месте. Был впервые описан в 1999 году в книге [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer) Эндрю Ханта и Дейва Томаса.
 
-In practice, if you have the same piece of information in two (or more) different places, you can use DRY to merge them into a single one and reuse it wherever you want/need.
+> Принципу DRY полностью противоположен принцип _WET_ — Write Everything Twice или We Enjoy Typing (Пиши всё дважды или Мы любим печатать).
 
-See also:
+На практике если у вас есть два одинаковых куска кода в двух (или более) местах, то вы можете воспользоваться принципом DRY и объединить их в один, реиспользуя там, где он необходим.
 
-- [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+Читайте также:
+
+- [Список литературы: The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+
+---
 
 ## Список литературы
 
@@ -484,12 +498,15 @@ See also:
 
 - [Закон Амдала](http://ssd.sscc.ru/en/content/%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD-%D0%B0%D0%BC%D0%B4%D0%B0%D0%BB%D0%B0), Supercomputer Software Department
 - [Закон Амдала](https://medium.com/german-gorelkin/amdahls-law-79a8edb040e2), Герман Горелкин, 11 декабря 2018
-- [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks's Law](#brookss-law) is a central theme of the book.
-- [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - This book is difficult to classify. [Hofstadter's Law](#hofstadters-law) is from the book.
+- [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - Классический труд о разработке ПО. [Закон Брукса](#закон-брукса) в центре повествования.
+- [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - Эту книгу сложно классифицировать. [Закон Хофштадтера](#закон-хофштадтера) описан именно в этой книге.
 - [Spotify engineering culture](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)
+- [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+
+---
 
 ## TODO
 
-Hi! If you land here, you've clicked on a link to a topic I've not written up yet, sorry about this - this is work in progress!
+Привет! Если вы это читате, то вы перешли по ссылке на статью, которая ещё не написала. Простите за это! Я работаю над этим.
 
-Feel free to [Raise an Issue](https://github.com/dwmkerr/hacker-laws/issues) requesting more details, or [Open a Pull Request](https://github.com/dwmkerr/hacker-laws/pulls) to submit your proposed definition of the topic. 
+Не стесняйтесь [заводить issue](https://github.com/solarrust/hacker-laws/issues) с пожеланиями или [присылайте Pull Request](https://github.com/solarrust/hacker-laws/pulls) со своими правками или новыми темами. 

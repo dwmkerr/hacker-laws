@@ -2,8 +2,8 @@
 
 Laws, Theories, Principles and Patterns that developers will find useful.
 
-🇨🇳 [中文 / Chinese Version](https://github.com/nusr/hacker-laws-zh) - thanks [Steve Xu](https://github.com/nusr)!
-🇰🇷 [한국어 / Korean Version](https://github.com/codeanddonuts/hacker-laws-kr) - thanks [Doughnut](https://github.com/codeanddonuts)!
+- 🇨🇳 [中文 / Chinese Version](https://github.com/nusr/hacker-laws-zh) - thanks [Steve Xu](https://github.com/nusr)!
+- 🇰🇷 [한국어 / Korean Version](https://github.com/codeanddonuts/hacker-laws-kr) - thanks [Doughnut](https://github.com/codeanddonuts)!
 
 ---
 

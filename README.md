@@ -1,7 +1,7 @@
 # 💻📖 hacker-laws
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#они-внесли-свой-вклад)
 
-Законы, теории, принципы и модели, которые полезно знать разработчикам.
+Законы, теории, принципы и модели, которые полезно знать разработчику.
 
 - 🇺🇸 [English Version / Версия на Английском](https://github.com/dwmkerr/hacker-laws) - оригинальная версия о [Dave Kerr](https://github.com/dwmkerr).
 - 🇨🇳 [中文 / Версия на Китайском](https://github.com/nusr/hacker-laws-zh) - спасибо [Steve Xu](https://github.com/nusr)!

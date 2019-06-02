@@ -73,7 +73,7 @@ As [Moore's Law](#moores-law) slows, and the acceleration of individual processo
 
 See also:
 
-- [Brooks' Law](#brookss-law)
+- [Brooks' Law](#brooks-law)
 - [Moore's Law](#moores-law)
 
 ### Brooks' Law
@@ -451,7 +451,7 @@ See also:
 
 If you have found these concepts interesting, you may enjoy the following books.
 
-- [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks's Law](#brookss-law) is a central theme of the book.
+- [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks' Law](#brooks-law) is a central theme of the book.
 - [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - This book is difficult to classify. [Hofstadter's Law](#hofstadters-law) is from the book.
 
 ## TODO

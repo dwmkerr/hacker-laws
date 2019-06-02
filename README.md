@@ -5,6 +5,7 @@
 
 - 🇺🇸 [English Version / Версия на Английском](https://github.com/dwmkerr/hacker-laws) - оригинальная версия о [Dave Kerr](https://github.com/dwmkerr).
 - 🇨🇳 [中文 / Версия на Китайском](https://github.com/nusr/hacker-laws-zh) - спасибо [Steve Xu](https://github.com/nusr)!
+- 🇰🇷 [한국어 / Версия на Корейском](https://github.com/codeanddonuts/hacker-laws-kr) - спасибо [Doughnut](https://github.com/codeanddonuts)!
 
 ---
 
@@ -15,6 +16,7 @@
     * [Закон Амдала](#закон-амдала)
     * [Закон Брукса](#закон-брукса)
     * [Закон Конвея](#закон-конвея)
+    * [Dunbar's Number](#dunbars-number)
     * [Бритва Хэнлона](#бритва-хэнлона)
     * [Закон Хофштадтера](#закон-хофштадтера)
     * [Цикл хайпа и закон Амара](#цикл-хайпа-и-закон-амара)
@@ -74,7 +76,6 @@
 В то время как [Закон Мура](#закон-мура) замедляется, а скорость отдельных процессоров уменьшается, распараллеливание является ключом к повышению производительности. Графическое программирование является отличным примером — с современными вычислениями на основе шейдеров отдельные пиксели или фрагменты могут отображаться параллельно — вот почему современные графические карты часто имеют много тысяч процессорных ядер (графических процессоров или шейдерных блоков).
 
 Читайте также:
-
 - [Закон Брукса](#закон-брукса)
 - [Закон Мура](#закон-мура)
 
@@ -110,6 +111,18 @@
 - [модель Спотифай](#модель-спотифай)
 
 ---
+
+### Dunbar's Number
+
+[Dunbar's Number on Wikipedia](https://en.wikipedia.org/wiki/Dunbar%27s_number)
+
+"Dunbar's number is a suggested cognitive limit to the number of people with whom one can maintain stable social relationships— relationships in which an individual knows who each person is and how each person relates to every other person." There is some disagreement to the exact number. "... [Dunbar] proposed that humans can comfortably maintain only 150 stable relationships." He put the number into a more social context, "the number of people you would not feel embarrassed about joining uninvited for a drink if you happened to bump into them in a bar." Estimates for the number generally lay between 100 and 250.
+
+Like stable relationships between individuals, a developer's relationship with a codebase takes effort to maintain. When faced with large complicated projects, or ownership of many projects we lean on convention, policy, and modeled procedure to scale. Dunbar's number is not only important to keep in mind as an office grows, but also when setting the scope for team efforts or deciding when a system should invest in tooling to assist in modeling and automating logistical overhead. Putting the number into an engineering context, it is the number of projects (or normalized complexity of a single project) for which you would feel confident in joining an on-call rotation to support.
+
+See also:
+
+- [Conway's Law](#conways-law)
 
 ### Бритва Хэнлона
 
@@ -503,8 +516,6 @@ DRY это акроним от фразы _Don't Repeat Yourself_ («Не пов
 - [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - Эту книгу сложно классифицировать. [Закон Хофштадтера](#закон-хофштадтера) описан именно в этой книге.
 - [Spotify engineering culture](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)
 - [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
-
----
 
 ## TODO
 

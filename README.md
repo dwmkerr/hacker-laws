@@ -532,6 +532,6 @@ DRY это акроним от фразы _Don't Repeat Yourself_ («Не пов
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-<table><tr><td align="center"><a href="https://aceof.github.io/"><img src="https://avatars2.githubusercontent.com/u/16652418?v=4" width="100px;" alt="Alexandr Kizilow"/><br /><sub><b>Alexandr Kizilow</b></sub></a><br /><a href="#content-ACEof" title="Content">🖋</a></td></tr></table>
+<table><tr><td align="center"><a href="https://aceof.github.io/"><img src="https://avatars2.githubusercontent.com/u/16652418?v=4" width="100px;" alt="Alexandr Kizilow"/><br /><sub><b>Alexandr Kizilow</b></sub></a><br /><a href="#content-ACEof" title="Content">🖋</a></td><td align="center"><a href="https://github.com/natashta"><img src="https://avatars1.githubusercontent.com/u/15847929?v=4" width="100px;" alt="Natalia Ryzhova"/><br /><sub><b>Natalia Ryzhova</b></sub></a><br /><a href="#content-natashta" title="Content">🖋</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->

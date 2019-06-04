@@ -23,7 +23,7 @@
     * [Закон Хайрама (Закон неявных интерфейсов)](#закон-хайрама-закон-неявных-интерфейсов)
     * [Закон Мура](#закон-мура)
     * [Закон Паркинсона](#закон-паркинсона)
-    * [Putt's Law](#putts-law)
+    * [Закон Путта](#закон-путта)
     * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
     * [Закон дырявых абстракций](#закон-дырявых-абстракций)
     * [Закон тривиальности](#закон-тривиальности)
@@ -122,7 +122,7 @@ Like stable relationships between individuals, a developer's relationship with a
 
 See also:
 
-- [Conway's Law](#conways-law)
+- [Закон Конвея](#закон-конвея)
 
 ### Бритва Хэнлона
 
@@ -216,28 +216,28 @@ The Hype Cycle is a visual representation of the excitement and development of t
 
 Читайте также:
 
-- [законом Хофштадтера](#закон-хофштадтера)
+- [Законом Хофштадтера](#закон-хофштадтера)
 
 ---
 
-### Putt's Law
+### Закон Путта
 
-[Putt's Law on Wikipedia](https://en.wikipedia.org/wiki/Putt%27s_Law_and_the_Successful_Technocrat)
+[Закон Путта в Википедии](https://en.wikipedia.org/wiki/Putt%27s_Law_and_the_Successful_Technocrat)
 
-> Technology is dominated by two types of people, those who understand what they do not manage and those who manage what they do not understand.
+> В технологиях доминируют два типа людей: те, кто понимает, что им не удается, и те, кто управляет тем, что они не понимают.
 
-Putt's Law is often followed by Putt's Corollary:
+Закон Путта часто сопровождается следствием Путта:
 
-> Every technical hierarchy, in time, develops a competence inversion.
+> Каждая техническая иерархия со временем развивает инверсию компетенций.
 
-These statements suggest that due to various selection criteria and trends in how groups organise, there will be a number of skilled people at working levels of a technical organisations, and a number of people in managerial roles who are not aware of the complexities and challenges of the work they are managing. This can be due to phenomena such as [The Peter Principle](#TODO) or [Dilbert's Law](#TODO).
+Из этого закона следует, что из-за разницы в критериях отбора и тенденциях в процессах организации групп, на разных рабочих уровнях технических организаций будет некоторое число высококвалифицированных людей и людей, занимающих руководящие позиции, которые не будут понимать сложности и пролемы той работы, которой занимаются. Это можно связать с [Принципом Парето](#принцип-парето-правило-8020) и [Законом Дилберта](#TODO).
 
-However, it should be stressed that Laws such as this are vast generalisations and may apply to _some_ types of organisations, and not apply to others.
+Впрочем, стоит подчеркнуть, что подобные законы являются обобщениями и могут применяться лишь к организациям _некоторых_ типов и не применяться к другим.
 
-See also:
+Читайте также:
 
-- [The Peter Principle](#TODO)
-- [Dilbert's Law](#TODO).
+- [Принцип Парето](#принцип-парето-правило-8020)
+- [Закон Дилберта](#TODO).
 
 ---
 

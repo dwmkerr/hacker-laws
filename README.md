@@ -24,7 +24,7 @@
     * [Закон Мура](#закон-мура)
     * [Закон Паркинсона](#закон-паркинсона)
     * [Закон Путта](#закон-путта)
-    * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
+    * [Закон сохранения сложности (закон Теслера)](#закон-сохранения-сложности-закон-теслера))
     * [Закон дырявых абстракций](#закон-дырявых-абстракций)
     * [Закон тривиальности](#закон-тривиальности)
     * [Философия Unix](#философия-unix)
@@ -162,8 +162,6 @@ See also:
 >
 > Рой Амара
 
-The Hype Cycle is a visual representation of the excitement and development of technology over time, originally produced by Gartner. It is best shown with a visual:
-
 Цикл хайпа является визуализацией кривых волнения и развития технологии во времени. Впервые был представлен команией Gartner. Лучше показать на примере:
 
 ![Цикл хайпа](./images/gartner_hype_cycle.png)
@@ -242,15 +240,15 @@ The Hype Cycle is a visual representation of the excitement and development of t
 ---
 
 
-### The Law of Conservation of Complexity (Tesler's Law)
+### Закон сохранения сложности (закон Теслера)
 
-[The Law of Conservation of Complexity on Wikipedia](https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity)
+[Закон сохранения сложности в Википедии](https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity)
 
-This law states that there is a certain amount of complexity in a system which cannot be reduced.
+Закон гласит, что в системе существует определённый уровень сложности, который невозможно уменьшить.
 
-Some complexity in a system is 'inadvertent'. It is a consequence of poor structure, mistakes, or just bad modeling of a problem to solve. Inadvertent complexity can be reduced (or eliminated). However, some complexity is 'intrinsic' as a consequence of the complexity inherent in the problem being solved. This complexity can be moved, but not eliminated.
+В системе изначально существует «непреднамеренная» сложность. Это следствие плохой структуры, ошибок или плохого моделирования решения проблемы. Непреднамеренная сложность может быть уменьшена (или полностью устранена). Однако определённая сложность является «естественной» и связана со сложностью решаемой проблемы. Этот вид сложности может перемещаться, но её нельзя устранить полностью. 
 
-One interesting element to this law is the suggestion that even by simplifying the entire system, the intrinsic complexity is not reduced, it is _moved to the user_, who must behave in a more complex way.
+Одна интересная особенность этого закона: предполагается, что даже при упрощении всей системы целиком, естественная сложность не уменьшается, а _перекладывается на плечи пользователя_. Из-за этого усложнается поведение, ожидаемое от пользователя.
 
 ---
 

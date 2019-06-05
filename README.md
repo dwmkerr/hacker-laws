@@ -25,7 +25,7 @@
     * [Закон Паркинсона](#закон-паркинсона)
     * [Закон Путта](#закон-путта)
     * [Закон сохранения сложности (закон Теслера)](#закон-сохранения-сложности-закон-теслера))
-    * [Закон дырявых абстракций](#закон-дырявых-абстракций)
+    * [Закон негерметичных абстракций](#закон-негерметичных-абстракций)
     * [Закон тривиальности](#закон-тривиальности)
     * [Философия Unix](#философия-unix)
     * [Модель Спотифай](#модель-спотифай)
@@ -252,29 +252,29 @@ See also:
 
 ---
 
-### Закон дырявых абстракций
+### Закон негерметичных абстракций
 
-[The Law of Leaky Abstractions on Joel on Software](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
+[Закон негерметичных абстракций в Википедии](https://en.wikipedia.org/wiki/Leaky_abstraction)
 
-> All non-trivial abstractions, to some degree, are leaky.
->
-> (Joel Spolsky)
+> Все нетривиальные абстракции, в какой-то степени, негерметичны.
+> 
+>  Джоэл Спольски
 
-This law states that abstractions, which are generally used in computing to simplify working with complicated systems, will in certain situations 'leak' elements of the underlying system, this making the abstraction behave in an unexpected way.
+Этот закон гласит, что абстракции, используемые в некоторых случаях для упрощения сложных систем, в некоторых случаях могут «вытекать» из элементов базовой системы. Это заставляет абстракцию вести себя неожиданным образом.
 
-An example might be loading a file and reading its contents. The file system APIs are an _abstraction_ of the lower level kernel systems, which are themselves an abstraction over the physical processes relating to changing data on a magnetic platter (or flash memory for an SSD). In most cases, the abstraction of treating a file like a stream of binary data will work. However, for a magnetic drive, reading data sequentially will be *significantly* faster than random access (due to increased overhead of page faults), but for an SSD drive, this overhead will not be present. Underlying details will need to be understood to deal with this case (for example, database index files are structured to reduce the overhead of random access), the abstraction 'leaks' implementation details the developer may need to be aware of.
+Примером может служить процесс загрузки файла и чтение его содержимого. API файловой системы является _абстракцией_ низкоуровневых систем ядра, которые в свою очередь являются абстракциями над физическими процессами изменения данных на диске (или флеш-памяти SSD). В большинстве случаев абстракция обработки файла в виде потока двоичных данных будет работать. Однако для магнитного накопителя последовательное чтение данных будет *значительно* быстрее чем рандомный доступ (из-за увеличения количества служебных ошибок). Но в случае с SSD-диском такие издержки отсутствуют. Для понимания этого примера потребуется разобраться с основами. Например, каталоги файлов в базе данных структурированы таким образом, чтобы снизить издержки при рандомном доступе. «Утечки» абстракций должны быть предусмотренным разработчиком при реализации.
 
-The example above can become more complex when _more_ abstractions are introduced. The Linux operating system allows files to be accessed over a network but represented locally as 'normal' files. This abstraction will 'leak' if there are network failures. If a developer treats these files as 'normal' files, without considering the fact that they may be subject to network latency and failures, the solutions will be buggy.
+Пример выше становится тем сложнее, чем _больше_ абстракций вводится. Linux позволяет получать доступ к файлам по сети, но локально представлена в виде «нормальных» файлов. Эта абстракция «протечёт», если в сети произойдёт сбой. Если разработчик будет рассматривать файлы как «нормальные» при работе через сеть, не предусмотрев возможность сбоев и задержек, его решения будут в корне неверны.
 
-The article describing the law suggests that an over-reliance on abstractions, combined with a poor understanding of the underlying processes, actually makes dealing with the problem at hand _more_ complex in some cases.
+В статье, описывающей данный закон, говорится, что исходная проблема потенциально _усложняется_ в случаях черезмерной зависимости от абстракций и плохого понимания основных процессов.
 
-See also:
+Читайте также:
 
 - [Закон Хайрама (Закон неявных интерфейсов)](#закон-хайрама-закон-неявных-интерфейсов)
 
-Real-world examples:
+Реальный пример:
 
-- [Photoshop Slow Startup](https://forums.adobe.com/thread/376152) - an issue I encountered in the past. Photoshop would be slow to startup, sometimes taking minutes. It seems the issue was that on startup it reads some information about the current default printer. However, if that printer is actually a network printer, this could take an extremely long time. The _abstraction_ of a network printer being presented to the system similar to a local printer caused an issue for users in poor connectivity situations.
+- [Медленный запуск Photoshop](https://forums.adobe.com/thread/376152) - проблема, с которой я столкнулся. Photoshop медленно запускался, иногда это занимало несколько минут. Похоже, проблема была в том, что при запуске программа считывала информацию о дефолтном принтере. Если принтер был сетевым, то этот процесс мог занимать неприлично много времени. Абстракция работы с сетевым принтером была той же, что для работы с локальным принтером. Не был предусмотрен сценарий ситуации с плохим качеством подключения у клиента.  
 
 ---
 

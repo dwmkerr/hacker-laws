@@ -24,7 +24,7 @@
     * [Закон Мура](#закон-мура)
     * [Закон Паркинсона](#закон-паркинсона)
     * [Закон Путта](#закон-путта)
-    * [Закон сохранения сложности (закон Теслера)](#закон-сохранения-сложности-закон-теслера))
+    * [Закон сохранения сложности (закон Теслера)](#закон-сохранения-сложности-закон-теслера)
     * [Закон негерметичных абстракций](#закон-негерметичных-абстракций)
     * [Закон тривиальности](#закон-тривиальности)
     * [Философия Unix](#философия-unix)
@@ -32,7 +32,7 @@
     * [Закон Вадлера](#закон-вадлера)
 * [Принципы](#принципы)
     * [Принцип Парето (Правило 80/20)](#принцип-парето-правило-8020)
-    * [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
+    * [Принцип устойчивости (Закон Постела)](#принцип-устойчивости-закон-постела)
     * [SOLID](#solid)
     * [Принцип единственной ответственности](#принцип-единственной-ответственности)
     * [Принцип открытости/закрытости](#принцип-открытостизакрытости)
@@ -362,15 +362,15 @@ See also:
 
 ---
 
-### The Robustness Principle (Postel's Law)
+### Принцип устойчивости (Закон Постела)
 
-[The Robustness Principle on Wikipedia](https://en.wikipedia.org/wiki/Robustness_principle)
+[Принцип устойчивости в Википедии](https://en.wikipedia.org/wiki/Robustness_principle)
 
-> Be conservative in what you do, be liberal in what you accept from others.
+> Будьте консервативны в том, что вы делаете и либеральны в том, что принимаете от других.
 
-Often applied in server application development, this principle states that what you send to others should be as minimal and conformant as possible, but you should be aim to allow non-conformant input if it can be processed.
+Этот принцип часто применяется при разработке серверных приложений. То, что вы посылаете другим, должно быть минималистичным и совместимым на сколько это возможно. Но вы должны предусмотреть обработку несовместимого ввода. 
 
-The goal of this principle is to build systems which are robust, as they can handle poorly formed input if the intent can still be understood. However, there are potentially security implications of accepting malformed input, particularly if the processing of such input is not well tested.
+Целью этого принципа является построение прочных систем, которые могут обработать плохо форматированный ввод, если смысл этого ввода понятен. Впрочем, приём неправильного ввода имеет потенциальные последствия для безопасности. Особенно если процесс обработки такого ввода плохо протестирован.  
 
 ---
 

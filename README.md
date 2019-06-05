@@ -16,7 +16,7 @@
     * [Закон Амдала](#закон-амдала)
     * [Закон Брукса](#закон-брукса)
     * [Закон Конвея](#закон-конвея)
-    * [Dunbar's Number](#dunbars-number)
+    * [Число Данбара](#число-данбара)
     * [Бритва Хэнлона](#бритва-хэнлона)
     * [Закон Хофштадтера](#закон-хофштадтера)
     * [Цикл хайпа и закон Амара](#цикл-хайпа-и-закон-амара)
@@ -112,15 +112,18 @@
 
 ---
 
-### Dunbar's Number
+### Число Данбара
 
-[Dunbar's Number on Wikipedia](https://en.wikipedia.org/wiki/Dunbar%27s_number)
+[Число Данбара в Википедии](https://ru.wikipedia.org/wiki/%D0%A7%D0%B8%D1%81%D0%BB%D0%BE_%D0%94%D0%B0%D0%BD%D0%B1%D0%B0%D1%80%D0%B0)
 
-"Dunbar's number is a suggested cognitive limit to the number of people with whom one can maintain stable social relationships— relationships in which an individual knows who each person is and how each person relates to every other person." There is some disagreement to the exact number. "... [Dunbar] proposed that humans can comfortably maintain only 150 stable relationships." He put the number into a more social context, "the number of people you would not feel embarrassed about joining uninvited for a drink if you happened to bump into them in a bar." Estimates for the number generally lay between 100 and 250.
+> Число Данбара — ограничение на количество постоянных социальных связей, которые человек может поддерживать. О каждом человека, включёном в это число связей, вы точно можете сказать, кто это и как он связан с другими людьми. 
+> Вокруг точного числа ведутся споры.
 
-Like stable relationships between individuals, a developer's relationship with a codebase takes effort to maintain. When faced with large complicated projects, or ownership of many projects we lean on convention, policy, and modeled procedure to scale. Dunbar's number is not only important to keep in mind as an office grows, but also when setting the scope for team efforts or deciding when a system should invest in tooling to assist in modeling and automating logistical overhead. Putting the number into an engineering context, it is the number of projects (or normalized complexity of a single project) for which you would feel confident in joining an on-call rotation to support.
+Данбар предполагал, что человек может комфортно поддерживать только 150 стабильных связей. Он описал жизненную ситуацию, которая поможет определить число таких связей в вашей жизни: количество людей, которые не смутят вас своим появлением и кому вы будете рады в качестве собудыльника, если случайно столкнётесь в баре. Приблизительно число будет лежать где-то в промежутке между 100 и 250.
 
-See also:
+Подобно отношениям между людьми, отношения разработчика с кодовой базой требуют усилий для поддержания. Когда мы сталкиваемся с большим проектом или занимаемся ведением нескольких проектов, мы опираемся на соглашения, политику и смоделированную процедуру масштабирования. Число Данбара важно принимать во внимание не только в вопросах роста офиса, но и при определении размера команды или для принятия решения о том, в какой момент структура должна инвестировать в инструментарий для поддержки и автоматизации логистических издержек. В контексте работы инженера число указывает на количество проектов (или на усреднённую сложность одного проекта), которые вы можете уверенно поддерживать единовременно.
+
+Читайте также:
 
 - [Закон Конвея](#закон-конвея)
 

@@ -29,7 +29,7 @@
     * [Закон тривиальности](#закон-тривиальности)
     * [Философия Unix](#философия-unix)
     * [Модель Спотифай](#модель-спотифай)
-    * [Wadler's Law](#wadlers-law)
+    * [Закон Вадлера](#закон-вадлера)
 * [Принципы](#принципы)
     * [Принцип Парето (Правило 80/20)](#принцип-парето-правило-8020)
     * [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
@@ -314,22 +314,22 @@ See also:
 
 ---
 
-### Wadler's Law
+### Закон Вадлера
 
-[Wadler's Law on wiki.haskell.org](https://wiki.haskell.org/Wadler's_Law)
+[Закон Вадлера на wiki.haskell.org](https://wiki.haskell.org/Wadler's_Law)
 
-> In any language design, the total time spent discussing a feature in this list is proportional to two raised to the power of its position.
+> В любой конструкции языка время, затрачиваемое на обсуждение функции из этого списка, пропорционально двойке, возведённой в степень позиции в списке.
 > 
-> 0. Semantics
-> 1. Syntax
-> 2. Lexical syntax
-> 3. Lexical syntax of comments
+> 0. Семантика
+> 1. Синтаксис
+> 2. Лексический синтаксис
+> 3. Лексический синтаксис комментариев
 > 
-> (In short, for every hour spent on semantics, 8 hours will be spent on the syntax of comments).
+> (Короче говоря, на каждый час, потраченный на семантику, придётся 8 часов обсуждения синтаксиса комментариев).
 
-Similar to [The Law of Triviality](#the-law-of-triviality), Wadler's Law states what when designing a language, the amount of time spent on language structures is disproportionately high in comparison to the importance of those features.
+Аналогично [Закону тривиальности](#закон-тривиальности) закон Вадлера гласит, что при проектировании языка время, потраченное на структурные особенности, непропорционально велико в сравнении с важностью этих функций. 
 
-See also:
+Читайте также:
 
 - [Закон тривиальности](#закон-тривиальности)
 

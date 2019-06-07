@@ -415,7 +415,7 @@ See also:
 
 ### The Dependency Inversion Principle
 
-[The Dependency Inversion Principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
+[The Dependency Inversion Principle on Wikipedia](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
 
 > High-level modules should not be dependent on low-level implementations.
 

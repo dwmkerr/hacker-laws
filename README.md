@@ -453,7 +453,7 @@ See also:
 
 [YAGNI on Wikipedia](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
 
-This is an acronym for _**Y**ou **A**ren't **G**onna **N**eed **I**t_
+This is an acronym for _**Y**ou **A**ren't **G**onna **N**eed **I**t_.
 
 > Always implement things when you actually need them, never when you just foresee that you need them.
 >

@@ -451,22 +451,28 @@ See also:
 
 ### YAGNI
 
+[YAGNI on Wikipedia](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
+
 This is an acronym for _**Y**ou **A**ren't **G**onna **N**eed **I**t_
 
-> "Always implement things when you actually need them, never when you just foresee that you need them." - _[Ron Jeffries](https://twitter.com/RonJeffries) (XP co-founder and author of the book "Extreme Programming Installed")_
+> Always implement things when you actually need them, never when you just foresee that you need them.
+>
+> ([Ron Jeffries](https://twitter.com/RonJeffries)) (XP co-founder and author of the book "Extreme Programming Installed")
 
-This Extreme Programming (XP) principle tells developers that they should only implement functionality that is required for the immediate present and avoid attempts to predict the future by implementing functionality that won't be used immediately, rather implement it only when deemed necessary.
+This _Extreme Programming_ (XP) principle suggests developers should only implement functionality that is needed for the immediate requirements, and avoid attempts to predict the future by implementing functionality that might be needed later.
 
-Some of the issues a developer can be faced with in a project that does not respect this principle are:
-* Unnecessary increase of the overall codebase size with unused code;
-* Time and productivity wasted on functionality that brings no value
+Adhering to this principle should reduce the amount of unused code in the codebase, and avoid time and effort being wasted on functionality that brings no value.
 
-_[Check YAGNI article on Wikipedia](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)_
+See also:
+
+- [Reading List: Extreme Programming Installed](#reading-list)
+
 
 ## Reading List
 
 If you have found these concepts interesting, you may enjoy the following books.
 
+- [Extreme Programming Installed - Ron Jeffries, Ann Anderson, Chet Hendrikson](https://www.goodreads.com/en/book/show/67834) - Covers the core principles of Extreme Programming.
 - [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks' Law](#brooks-law) is a central theme of the book.
 - [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - This book is difficult to classify. [Hofstadter's Law](#hofstadters-law) is from the book.
 

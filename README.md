@@ -24,6 +24,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [The Unix Philosophy](#the-unix-philosophy)
     * [The Spotify Model](#the-spotify-model)
     * [Wadler's Law](#wadlers-law)
+    * [Murphy's Law](#murphys-law)
 * [Principles](#principles)
     * [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
     * [SOLID](#solid)
@@ -278,6 +279,17 @@ Similar to [The Law of Triviality](#the-law-of-triviality), Wadler's Law states 
 See also:
 
 - [The Law of Triviality](#the-law-of-triviality)
+
+### Murphy's Law
+
+[Murphy's Law on Wikipedia](https://en.wikipedia.org/wiki/Murphy%27s_law)
+
+> Anything that can go wrong will go wrong.
+
+Related to [Edward A. Murphy, Jr](https://en.wikipedia.org/wiki/Edward_A._Murphy_Jr.), the _Murphy's Law_ states that if a thing can go wrong, it'll go wrong.
+
+Even though it's a funny joke among developers, sometimes things go crazy when developing, testing or even when in production.
+
 
 ## Principles
 

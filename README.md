@@ -72,16 +72,16 @@ O diagrama abaixo mostra alguns exemplos de melhoria na velocidade:
 
 *(Image Reference: By Daniels220 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 
-Como pode-se perceber, mesmo um programa que teve metade da sua implementação de forma paralela, o benefício é menos de 10 _processing units_. Porém, um programa 95% paralelo, o ganho pode passar de 1000 _processing units_.
+Como pode-se perceber, mesmo um programa que teve metade da sua implementação de forma paralela, o benefício é menos de 10 _processing units_. Porém, um programa 95% paralelo, o ganho pode passar de 20 _processing units_.
 
-As [Moore's Law](#moores-law) slows, and the acceleration of individual processor speed slows, parallelisation is key to improving performance. Graphics programming is an excellent example - with modern Shader based computing, individual pixels or fragments can be rendered in parallel - this is why modern graphics cards often have many thousands of processing cores (GPUs or Shader Units).
+As [Lei de Moore](#lei-de-moore) slows, and the acceleration of individual processor speed slows, parallelisation is key to improving performance. Graphics programming is an excellent example - with modern Shader based computing, individual pixels or fragments can be rendered in parallel - this is why modern graphics cards often have many thousands of processing cores (GPUs or Shader Units).
 
-See also:
+Veja Também:
 
-- [Brooks' Law](#brooks-law)
-- [Moore's Law](#moores-law)
+- [Brooks' Law](#lei-de-brook)
+- [Moore's Law](#lei-de-moore)
 
-### Brooks' Law
+### Lei de Brook
 
 [Brooks' Law on Wikipedia](https://en.m.wikipedia.org/wiki/Brooks%27s_law)
 

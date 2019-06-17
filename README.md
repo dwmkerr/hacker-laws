@@ -249,7 +249,7 @@ One interesting element to this law is the suggestion that even by simplifying t
 
 > All non-trivial abstractions, to some degree, are leaky.
 >
-> [(Joel Spolsky)](https://twitter.com/spolsky)
+> ([Joel Spolsky](https://twitter.com/spolsky))
 
 This law states that abstractions, which are generally used in computing to simplify working with complicated systems, will in certain situations 'leak' elements of the underlying system, this making the abstraction behave in an unexpected way.
 

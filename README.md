@@ -19,7 +19,7 @@ Leis, Teorias, Principios e Padrões que desenvolvedores acham úteis.
     * [Numero de Dunbar](#lei-de-dunbar)
     * [Navalha de Hanlon](#lei-de-hanlon)
     * [Lei do Hofstadter](#lei-de-hofstadter)
-    * [O ciclo hype & Lei de Amara](#o-ciclo-hype-e-lei-de-amara)
+    * [O ciclo Hype & Lei de Amara](#o-ciclo-hype-e-lei-de-amara)
     * [Lei de Hyrum(A lei de interfaces implicitas)](#lei-de-hyrum-interfaces-implicitas)
     * [Lei de Moore](#lei-de-moore)
     * [Leo de Parkinson](#lei-de-parkinson)
@@ -143,16 +143,15 @@ Você já deve ter ouvido sobre essa lei quando se fala em estimar tempo para fa
 This is from the book '[Gödel, Escher, Bach: An Eternal Golden Braid](#lista-de-livros)'.
 
 
-### The Hype Cycle & Amara's Law
+### O Ciclo Hype & Lei de Amara
 
-[The Hype Cycle on Wikipedia](https://en.wikipedia.org/wiki/Hype_cycle)
+[The ciclo Hype on Wikipedia](https://en.wikipedia.org/wiki/Hype_cycle)
 
-> We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.
+>Nós tendemos a superestimar os efeitos da tecnologia em curto prazo e subestimar os efeitos a longo prazo.
 >
-> (Roy Amara)
+> Roy Amara
 
-The Hype Cycle is a visual representation of the excitement and development of technology over time, originally produced by Gartner. It is best shown with a visual:
-
+O Ciclo Hype é uma representação visual da empolgação e desenvolvimento da tecnologia ao longo do tempo, originalmente produzida por Gartner.
 ![The Hype Cycle](./images/gartner_hype_cycle.png)
 
 *(Image Reference: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*

@@ -41,7 +41,7 @@ Leis, Teorias, Principios e Padrões que desenvolvedores acham úteis.
     * [O Princípio da Inversão de Dependência](#principio-da-inversão-de-dependências)
     * [O princípio DRY](#principio-dry)
     * [YAGNI](#yagni)
-* [Livros Recomendados](#livros-recomendados)
+* [Livros Recomendados](#lista-de-livros)
 * [Em progresso](#em-progresso)
 
 <!-- vim-markdown-toc -->
@@ -74,41 +74,36 @@ O diagrama abaixo mostra alguns exemplos de melhoria na velocidade:
 
 Como pode-se perceber, mesmo um programa que teve metade da sua implementação de forma paralela, o benefício é menos de 10 _processing units_. Porém, um programa 95% paralelo, o ganho pode passar de 20 _processing units_.
 
-As [Lei de Moore](#lei-de-moore) slows, and the acceleration of individual processor speed slows, parallelisation is key to improving performance. Graphics programming is an excellent example - with modern Shader based computing, individual pixels or fragments can be rendered in parallel - this is why modern graphics cards often have many thousands of processing cores (GPUs or Shader Units).
-
-Veja Também:
-
-- [Brooks' Law](#lei-de-brook)
-- [Moore's Law](#lei-de-moore)
-
 ### Lei de Brook
 
-[Brooks' Law on Wikipedia](https://en.m.wikipedia.org/wiki/Brooks%27s_law)
+[Lei de Brooks na Wikipeia](https://en.wikipedia.org/wiki/Brooks%27s_law)
 
-> Adding human resources to a late software development project makes it later.
 
-This law suggests that in many cases, attempting to accelerate the delivery of a project which is already late, by adding more people, will make the delivery even later. Brooks is clear that this is an over-simplification, however, the general reasoning is that given the ramp up time of new resources and the communication overheads, in the immediate short-term velocity decreases. Also, many tasks may not be divisible, i.e. easily distributed between more resources, meaning the potential velocity increase is also lower.
+> Adicionar recursos humanos em um projeto, de desenvolvimento de sotware, atrasado, faz ficar ainda mais atrasado. 
 
-The common phrase in delivery "Nine women can't make a baby in one month" relates to Brooks' Law, in particular, the fact that some kinds of work are not divisible or parallelisable.
+Essa lei sugere que em muitos casos, na tentativa de acelerar uma entrega, que já está atrasada, adcionando mais pessoas atrasa ainda mais essa entrega. Brooke assume que essa afirmação é uma generalização excessiva, entretanto, o principal motivo para isso acontecer é dado pelo simples fato de adicionar pessoas requer um gasto com comunicação e construção de novos recursos para a equipe suportar novos membros. Logo, a curto prazo esse investimento não tem um retorno. Também existem tarefas que não podem ser dividias, portanto adicionar mais pessoas não vai fazer ela ser concluida mais rápido. 
 
-This is a central theme of the book '[The Mythical Man Month](#reading-list)'.
+"Nove mulheres não podem parir uma criança em um mês" e "Dois pilotos não fazem o carro ir mais rápido" são frases relacionadas a Lei de Brooke, principalmente porque algumas tarefas nao podem ser divididas.
 
-See also:
 
-- [Death March](#todo)
-- [Reading List: The Mythical Man Month](#reading-list)
+Esse é um tema central do livro'[The Mythical Man Month](#lista-de-livros)'.
 
-### Conway's Law
+Veja também:
 
-[Conway's Law on Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
+- [Death March](#em-progresso)
+- [Livro: The Mythical Man Month](#lista-de-livros)
 
-This law suggests that the technical boundaries of a system will reflect the structure of the organisation. It is commonly referred to when looking at organisation improvements, Conway's Law suggests that if an organisation is structured into many small, disconnected units, the software it produces will be. If an organisation is built more around 'verticals' which are orientated around features or services, the software systems will also reflect this.
+### Lei de Conway
 
-See also:
+[Lei de Conway na wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 
-- [The Spotify Model](#the-spotify-model)
+Essa lei sugere que limites técnicos de um sistema refletirão na estrutura da organização. Se uma organização é estruturada em pequenos setores, desconexas unidades, o sofware que ela produz sera assim também. Se uma organização é construida de forma vertical, em torno de funcionalidades e serviços, terá reflexo disso dentro do sistema.
 
-### Dunbar's Number
+Veja também:
+
+- [Modelo do Spotify](#modelo-spotify)
+
+### Número de Dunbar
 
 [Dunbar's Number on Wikipedia](https://en.wikipedia.org/wiki/Dunbar%27s_number)
 
@@ -471,7 +466,7 @@ See also:
 - [Reading List: Extreme Programming Installed](#reading-list)
 
 
-## Reading List
+## Lista de Livros
 
 If you have found these concepts interesting, you may enjoy the following books.
 

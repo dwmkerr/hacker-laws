@@ -1,6 +1,6 @@
 # 💻📖 hacker-laws
 
-Laws, Theories, Principles and Patterns that developers will find useful.
+Leis, Teorias, Principios e Padrões que desenvolvedores acham úteis.
 
 - 🇨🇳 [中文 / Versão Chinesa ](https://github.com/nusr/hacker-laws-zh) - Obrigado [Steve Xu](https://github.com/nusr)!
 - 🇰🇷 [한국어 / Versão Koreana](https://github.com/codeanddonuts/hacker-laws-kr) - Obrigado [Doughnut](https://github.com/codeanddonuts)!
@@ -13,14 +13,14 @@ Laws, Theories, Principles and Patterns that developers will find useful.
 
 * [Introdução](#introduction)
 * [Leis](#laws)
-    * [Lei do Amdahl](#amdahls-law)
-    * [Lei do Brooks](#brooks-law)
-    * [Lei do Conway](#conways-law)
+    * [Lei de Amdahl](#amdahls-law)
+    * [Lei de Brooks](#brooks-law)
+    * [Lei de Conway](#conways-law)
     * [Numero de Dunbar](#dunbars-number)
     * [Navalha de Hanlon](#hanlons-razor)
     * [Lei do Hofstadter](#hofstadters-law)
-    * [O ciclo hype & Lei da Amara](#the-hype-cycle--amaras-law)
-    * [Lei do Hyrum(A lei de interfaces implicitas)](#hyrums-law-the-law-of-implicit-interfaces)
+    * [O ciclo hype & Lei de Amara](#the-hype-cycle--amaras-law)
+    * [Lei de Hyrum(A lei de interfaces implicitas)](#hyrums-law-the-law-of-implicit-interfaces)
     * [Lei de Moore](#moores-law)
     * [Leo de Parkinson](#parkinsons-law)
     * [Lei de Putt](#putts-law)
@@ -48,29 +48,31 @@ Laws, Theories, Principles and Patterns that developers will find useful.
 
 ## Introduction
 
-There are lots of laws which people discuss when talking about development. This repository is a reference and overview of some of the most common ones. Please share and submit PRs!
+Existem muitas leis que as pessoas discutem quando falam sobre desenvolvimento. Esse repositório é uma referencia e uma visão global dos mais comuns. Sinta-se a vontade para contribuir e compartilhar.
 
-❗: This repo contains an explanation of some laws, principles and patterns, but does not _advocate_ for any of them. Whether they should be applied will always be a matter of debate, and greatly dependent on what you are working on.
+<!--There are lots of laws which people discuss when talking about development. This repository is a reference and overview of some of the most common ones. Please share and submit PRs! <!-->
+
+❗: Esse repositório comtém explicações sobre algumas léis, pincípios e padrões, mas não _advoca_ para nenhum. Se eles devem ser aplicados sempre é uma questão de debate, e depende diretamente no que você está trabalhando.
 
 ## Laws
 
-And here we go!
+Lá vamos nós!!
 
 ### Amdahl's Law
 
-[Amdahl's Law on Wikipedia](https://en.wikipedia.org/wiki/Amdahl%27s_law)
+[Lei de Amdahl na Wikipedia](https://pt.wikipedia.org/wiki/Lei_de_Amdahl)
 
-> Amdahl's Law is a formula which shows the _potential speedup_ of a computational task which can be achieved by increasing the resources of a system. Normally used in parallel computing, it can predict the actual benefit of increasing the number of processors, which is limited by the parallelisability of the program.
+> A lei de Amdahl, também conhecida como argumento de Amdahl, é usada para encontrar a máxima melhora esperada para um sistema em geral quando apenas uma única parte do mesmo é melhorada. Isto é frequentemente usado em computação paralela para prever o máximo speedup teórico usando múltiplos processadores. A lei possui o nome do Arquiteto computacional Gene Amdahl, e foi apresentada a AFIPS na Conferência Conjunta de Informática na primavera de 1967. 
 
-Best illustrated with an example. If a program is made up of two parts, part A, which must be executed by a single processor, and part B, which can be parallelised, then we see that adding multiple processors to the system executing the program can only have a limited benefit. It can potentially greatly improve the speed of part B - but the speed of part A will remain unchanged.
+Fica mais fácil de entender com um exemplo prático. Se um programa é feito de duas partes, parte A, que é executada por um processador único, e parte B, que pode ser feito paralelamente com N processadores. Se adicionarmos mais processaores ao sistema, só vai ter aumento nas tarefas relacionadas à parte B do programa. A velocidade de A se mantém a mesma.
 
-The diagram below shows some examples of potential improvements in speed:
+O diagrama abaixo mostra alguns exemplos de melhoria na velocidade:
 
-![Diagram: Amdahl's Law](./images/amdahls_law.png)
+![Diagram: Lei de Amadhl](./images/amdahls_law.png)
 
 *(Image Reference: By Daniels220 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 
-As can be seen, even a program which is 50% parallelisable will benefit very little beyond 10 processing units, whereas a program which is 95% parallelisable can still achieve significant speed improvements with over a thousand processing units.
+Como pode-se perceber, mesmo um programa que teve metade da sua implementação de forma paralela, o benefício é menos de 10 _processing units_. Porém, um programa 95% paralelo, o ganho pode passar de 1000 _processing units_.
 
 As [Moore's Law](#moores-law) slows, and the acceleration of individual processor speed slows, parallelisation is key to improving performance. Graphics programming is an excellent example - with modern Shader based computing, individual pixels or fragments can be rendered in parallel - this is why modern graphics cards often have many thousands of processing cores (GPUs or Shader Units).
 

@@ -19,7 +19,7 @@ Leis, Teorias, Principios e Padrões que desenvolvedores acham úteis.
     * [Numero de Dunbar](#lei-de-dunbar)
     * [Navalha de Hanlon](#lei-de-hanlon)
     * [Lei do Hofstadter](#lei-de-hofstadter)
-    * [O ciclo Hype & Lei de Amara](#o-ciclo-hype-e-lei-de-amara)
+    * [O Ciclo Hype & Lei de Amara](#o-ciclo-hype-e-lei-de-amara)
     * [Lei de Hyrum(A lei de interfaces implicitas)](#lei-de-hyrum-interfaces-implicitas)
     * [Lei de Moore](#lei-de-moore)
     * [Leo de Parkinson](#lei-de-parkinson)
@@ -143,7 +143,8 @@ Você já deve ter ouvido sobre essa lei quando se fala em estimar tempo para fa
 This is from the book '[Gödel, Escher, Bach: An Eternal Golden Braid](#lista-de-livros)'.
 
 
-### O Ciclo Hype & Lei de Amara
+### O Ciclo Hype e Lei de Amara
+
 
 [The ciclo Hype on Wikipedia](https://en.wikipedia.org/wiki/Hype_cycle)
 

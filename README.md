@@ -203,11 +203,11 @@ See also:
 
 ### Premature Optimization Effect
 
-[Source](http://wiki.c2.com/?PrematureOptimization)
+[Premature Optimization on WikiWikiWeb](http://wiki.c2.com/?PrematureOptimization)
 
 > Premature optimization is the root of all evil.
 >
-> Donald Knuth
+> [(Donald Knuth)](https://twitter.com/realdonaldknuth?lang=en)
 
 In Donald Knuth's paper [Structured Programming With Go To Statements](http://wiki.c2.com/?StructuredProgrammingWithGoToStatements), he wrote: "Programmers waste enormous amounts of time thinking about, or worrying about, the speed of noncritical parts of their programs, and these attempts at efficiency actually have a strong negative impact when debugging and maintenance are considered. We should forget about small efficiencies, say about 97% of the time: **premature optimization is the root of all evil**. Yet we should not pass up our opportunities in that critical 3%."
 

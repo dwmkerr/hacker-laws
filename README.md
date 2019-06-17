@@ -2,10 +2,10 @@
 
 Laws, Theories, Principles and Patterns that developers will find useful.
 
-- 🇨🇳 [中文 / Chinese Version](https://github.com/nusr/hacker-laws-zh) - thanks [Steve Xu](https://github.com/nusr)!
-- 🇰🇷 [한국어 / Korean Version](https://github.com/codeanddonuts/hacker-laws-kr) - thanks [Doughnut](https://github.com/codeanddonuts)!
-- 🇷🇺 [Русская версия / Russian Version](https://github.com/solarrust/hacker-laws) - thanks [Alena Batitskaya](https://github.com/solarrust)!
-- 🇹🇷 [Türkçe / Turkish Version](https://github.com/umutphp/hacker-laws-tr) - thanks [Umut Işık](https://github.com/umutphp)
+- 🇨🇳 [中文 / Versão Chinesa ](https://github.com/nusr/hacker-laws-zh) - Obrigado [Steve Xu](https://github.com/nusr)!
+- 🇰🇷 [한국어 / Versão Koreana](https://github.com/codeanddonuts/hacker-laws-kr) - Obrigado [Doughnut](https://github.com/codeanddonuts)!
+- 🇷🇺 [Русская версия / Versão Russa](https://github.com/solarrust/hacker-laws) - Obrigado [Alena Batitskaya](https://github.com/solarrust)!
+- 🇹🇷 [Türkçe / Versão Turka](https://github.com/umutphp/hacker-laws-tr) - Obrigado [Umut Işık](https://github.com/umutphp)
 
 ---
 
@@ -31,18 +31,18 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [O Modelo Spotify](#the-spotify-model)
     * [Lei do Wadler](#wadlers-law)
 * [Principíos](#principles)
-    * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
+    * [O Princípio de Pareto(A lei 80/20)](#the-pareto-principle-the-8020-rule)
     * [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
     * [SOLID](#solid)
-    * [The Single Responsibility Principle](#the-single-responsibility-principle)
-    * [The Open/Closed Principle](#the-openclosed-principle)
-    * [The Liskov Substitution Principle](#the-liskov-substitution-principle)
-    * [The Interface Segregation Principle](#the-interface-segregation-principle)
-    * [The Dependency Inversion Principle](#the-dependency-inversion-principle)
-    * [The DRY Principle](#the-dry-principle)
+    * [O Princípio da Responsabilidade Única](#the-single-responsibility-principle)
+    * [O Princípio Aberto/Fechado](#the-openclosed-principle)
+    * [O Princípio da Substituição Liskov ](#the-liskov-substitution-principle)
+    * [O Princípio da segregação de Interface](#the-interface-segregation-principle)
+    * [O Princípio da Inversão de Dependência](#the-dependency-inversion-principle)
+    * [O princípio DRY](#the-dry-principle)
     * [YAGNI](#yagni)
-* [Reading List](#reading-list)
-* [TODO](#todo)
+* [Livros Recomendados](#reading-list)
+* [Em progresso](#todo)
 
 <!-- vim-markdown-toc -->
 

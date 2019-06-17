@@ -1,4 +1,4 @@
-# 💻📖 hacker-laws
+# 💻📖 hacker-laws-Brasil
 
 Leis, Teorias, Principios e Padrões que desenvolvedores acham úteis.
 

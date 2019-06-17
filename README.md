@@ -157,11 +157,7 @@ O Ciclo Hype é uma representação visual da empolgação e desenvolvimento da 
 
 *(Image Reference: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
 
-Em curto prazo, o cilco sugere que acontece uma explosão de empolgação a cerca de uma nova tecnologia e seu impácto em potencial. Equipes geralmente entram juntas nessas tecnlogias de forma rápi
-
-PAREI NESSA LINHA AQUI
-
-In short, this cycle suggests that there is typically a burst of excitement around new technology and its potential impact. Teams often jump into these technologies quickly, and sometimes find themselves disappointed with the results. This might be because the technology is not yet mature enough, or real-world applications are not yet fully realised. After a certain amount of time, the capabilities of the technology increase and practical opportunities to use it increase, and teams can finally become productive. Roy Amara's quote sums this up most succinctly - "We tend to overestimate the effect of a technology in the short run and underestimate in the long run".
+Em curto prazo, o cilco sugere que acontece uma explosão de empolgação a cerca de uma nova tecnologia e seu impácto em potencial. Equipes geralmente entram juntas nessas tecnlogias de forma rápida e em alguns casos ficam desapontados com os resutados. Uma das possíveis causas para isso é o fato da tecnologia em questão não ser madura o suficiente, ou aplicações do mundo real não estão totalmente prontas. Depois de um certo tempo, a capacidade da tecnologia aumenta e oportunidades práticas para uso dela aumentam, as equipes finalmente podem ser produtivos. A citação de Amara resume isso de forma sucinta - "Nós tendemos a superestimar os efeitos da tecnologia em curto prazo e subestimar os efeitos a longo prazo".
 
 ### Hyrum's Law (The Law of Implicit Interfaces)
 

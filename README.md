@@ -11,9 +11,9 @@ Leis, Teorias, Principios e Padrões que desenvolvedores acham úteis.
 
 <!-- vim-markdown-toc GFM -->
 
-* [Introdução](#introduction)
+* [Introdução](#Introdução)
 * [Leis](#laws)
-    * [Lei de Amdahl](#amdahls-law)
+    * [Lei de Amdahl](#lei-de-amdahl)
     * [Lei de Brooks](#brooks-law)
     * [Lei de Conway](#conways-law)
     * [Numero de Dunbar](#dunbars-number)
@@ -46,7 +46,7 @@ Leis, Teorias, Principios e Padrões que desenvolvedores acham úteis.
 
 <!-- vim-markdown-toc -->
 
-## Introduction
+## Introdução
 
 Existem muitas leis que as pessoas discutem quando falam sobre desenvolvimento. Esse repositório é uma referencia e uma visão global dos mais comuns. Sinta-se a vontade para contribuir e compartilhar.
 
@@ -54,11 +54,11 @@ Existem muitas leis que as pessoas discutem quando falam sobre desenvolvimento. 
 
 ❗: Esse repositório comtém explicações sobre algumas léis, pincípios e padrões, mas não _advoca_ para nenhum. Se eles devem ser aplicados sempre é uma questão de debate, e depende diretamente no que você está trabalhando.
 
-## Laws
+## Leis
 
 Lá vamos nós!!
 
-### Amdahl's Law
+### Lei De Amdahl
 
 [Lei de Amdahl na Wikipedia](https://pt.wikipedia.org/wiki/Lei_de_Amdahl)
 

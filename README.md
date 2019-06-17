@@ -113,37 +113,35 @@ Esse número é uma sugestão cognitiva limite para o número de pessoass para q
 
 Como uma relação entre pessoas, manter uma relação entre desenvolvedor e codigo requer esforço. É necessário usar politicas, padrões e procedimentos para encarar projetos complicados ou qualquer adversidade possível nesse tipo de relação. Número de Dunbar é importante em vários aspectos, não somente quando a empresa está em crescimento, mas também ao definir o escopo para os esforços da equipe ou decidir quando u msistema deve investir em ferramentas para axuliar na sobrecarga da logística. Colocando em contexto de engrenharia, é o número de projetos para os quais você se sentiria confiante para ingresssar em uma rotação de plantão de suporte.
 
-Like stable relationships between individuals, a developer's relationship with a codebase takes effort to maintain. When faced with large complicated projects, or ownership of many projects we lean on convention, policy, and modeled procedure to scale. Dunbar's number is not only important to keep in mind as an office grows, but also when setting the scope for team efforts or deciding when a system should invest in tooling to assist in modeling and automating logistical overhead. Putting the number into an engineering context, it is the number of projects (or normalized complexity of a single project) for which you would feel confident in joining an on-call rotation to support.
-
 Veja também:
 
 - [Lei de Conwy](#lei-de-conway)
 
-### Hanlon's Razor
+### Navalha de Hanlon
 
-[Hanlon's Razor on Wikipedia](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
+[Navalha de Hanlon na wikipedia](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
 
-> Never attribute to malice that which is adequately explained by stupidity.
+> Nunca atribua à malícia aquilo que é adequadamente explicado por estupidez.
 >
 > Robert J. Hanlon
 
-This principle suggests that actions resulting in a negative outcome were not a result of ill will. Instead the negative outcome is more likely attributed to those actions and/or the impact being not fully understood.
+Esse principio sugeste que ações negativas não são sempre resultado de má vontade. Em vez disso, é mais provável que o resultado negativo seja atribuido à ações que não foram totalmente entendidas.
 
-### Hofstadter's Law
 
-[Hofstadter's Law on Wikipedia](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
 
-> It always takes longer than you expect, even when you take into account Hofstadter's Law.
+### Lei de Hofstadter
+
+[Lei de Hofstadter na Wikipedia](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
+
+
+> Sempre leva mais tempo do que esperado, mesmo quando se leva em conta a lei do Hofstadter.
 >
 > Douglas Hofstadter
 
-You might hear this law referred to when looking at estimates for how long something will take. It seems a truism in software development that we tend to not be very good at accurately estimating how long something will take to deliver.
+Você já deve ter ouvido sobre essa lei quando se fala em estimar tempo para fazer algo. Quando se fala em desenvolvimento de software parece obvio que nós tendemos a não sermos muitos precisos em estimar quando tempo levará para entregar alguma coisa.
 
-This is from the book '[Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)'.
+This is from the book '[Gödel, Escher, Bach: An Eternal Golden Braid](#lista-de-livros)'.
 
-See also:
-
-- [Reading List: Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)
 
 ### The Hype Cycle & Amara's Law
 

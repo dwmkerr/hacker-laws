@@ -159,6 +159,7 @@ O Ciclo Hype é uma representação visual da empolgação e desenvolvimento da 
 
 Em curto prazo, o cilco sugere que acontece uma explosão de empolgação a cerca de uma nova tecnologia e seu impácto em potencial. Equipes geralmente entram juntas nessas tecnlogias de forma rápida e em alguns casos ficam desapontados com os resutados. Uma das possíveis causas para isso é o fato da tecnologia em questão não ser madura o suficiente, ou aplicações do mundo real não estão totalmente prontas. Depois de um certo tempo, a capacidade da tecnologia aumenta e oportunidades práticas para uso dela aumentam, as equipes finalmente podem ser produtivos. A citação de Amara resume isso de forma sucinta - "Nós tendemos a superestimar os efeitos da tecnologia em curto prazo e subestimar os efeitos a longo prazo".
 
+
 ### Hyrum's Law (The Law of Implicit Interfaces)
 
 [Hyrum's Law Online](http://www.hyrumslaw.com/)

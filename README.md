@@ -160,22 +160,22 @@ O Ciclo Hype é uma representação visual da empolgação e desenvolvimento da 
 Em curto prazo, o cilco sugere que acontece uma explosão de empolgação a cerca de uma nova tecnologia e seu impácto em potencial. Equipes geralmente entram juntas nessas tecnlogias de forma rápida e em alguns casos ficam desapontados com os resutados. Uma das possíveis causas para isso é o fato da tecnologia em questão não ser madura o suficiente, ou aplicações do mundo real não estão totalmente prontas. Depois de um certo tempo, a capacidade da tecnologia aumenta e oportunidades práticas para uso dela aumentam, as equipes finalmente podem ser produtivos. A citação de Amara resume isso de forma sucinta - "Nós tendemos a superestimar os efeitos da tecnologia em curto prazo e subestimar os efeitos a longo prazo".
 
 
-### Hyrum's Law (The Law of Implicit Interfaces)
+### Lei de Hyrum (A lei de interfaces implicitas)
 
-[Hyrum's Law Online](http://www.hyrumslaw.com/)
+[Lei de Hyrum site](http://www.hyrumslaw.com/)
 
-> With a sufficient number of users of an API,
-> it does not matter what you promise in the contract:
-> all observable behaviours of your system
-> will be depended on by somebody.
+
+>Com um número suficientes de clientes de uma API,
+>não importa a sua pré-condição no contato:
+>todos os comportamentos observáveis do seu sistema
+>serão dependentes de alguém.
 >
 > (Hyrum Wright)
 
-Hyrum's Law states that when you have a _large enough number of consumers_ of an API, all behaviours of the API (even those not defined as part of a public contract) will eventually come to be depended on by someone. A trivial example may be non-functional elements such as the response time of an API. A more subtle example might be consumers who are relying on applying a regex to an error message to determine the *type* of error of an API. Even if the public contract of the API states nothing about the contents of the message, indicating users should use an associated error code, _some_ users may use the message, and changing the message essentially breaks the API for those users.
+A lei de Hyrum sugere que quando voce tem um número muito grande de consumidores de uma API, todos os comportamentos dessa API(mesmo aqueles que não estão definidos como parte de um contrato público) eventualmente irão dependender de outra parte do sistema, ou outra API. Um exemplo trivial pode ser elementos não funcionais, como o tempo de resposta de uma API. Um exemplo mais sutil pode ser os consumidores que estão confiando em aplicar um regex a uma mensagem de erro para determinar o * tipo * de erro de uma API. Mesmo que o contrato público da API não especifique nada sobre o conteúdo da mensagem, indicando que os usuários devem usar um código de erro associado, _alguns usuários podem usar a mensagem e alterar a mensagem essencialmente interrompe a API para esses usuários.
 
-See also:
+Veja Também:
 
-- [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
 - [XKCD 1172](https://xkcd.com/1172/)
 
 ### Moore's Law

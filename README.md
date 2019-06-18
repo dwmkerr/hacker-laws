@@ -172,26 +172,33 @@ Em curto prazo, o cilco sugere que acontece uma explosão de empolgação a cerc
 >
 > (Hyrum Wright)
 
-A lei de Hyrum sugere que quando voce tem um número muito grande de consumidores de uma API, todos os comportamentos dessa API(mesmo aqueles que não estão definidos como parte de um contrato público) eventualmente irão dependender de outra parte do sistema, ou outra API. Um exemplo trivial pode ser elementos não funcionais, como o tempo de resposta de uma API. Um exemplo mais sutil pode ser os consumidores que estão confiando em aplicar um regex a uma mensagem de erro para determinar o * tipo * de erro de uma API. Mesmo que o contrato público da API não especifique nada sobre o conteúdo da mensagem, indicando que os usuários devem usar um código de erro associado, _alguns usuários podem usar a mensagem e alterar a mensagem essencialmente interrompe a API para esses usuários.
+A lei de Hyrum sugere que quando voce tem um número muito grande de consumidores de uma API, todos os comportamentos dessa API(mesmo aqueles que não estão definidos como parte de um contrato público) eventualmente irão dependender de outra parte do sistema, ou outra API. Um exemplo trivial pode ser elementos não funcionais, como o tempo de resposta de uma API. Um exemplo mais sutil pode ser os consumidores que estão confiando em aplicar um regex a uma mensagem de erro para determinar o _tipo_ de erro de uma API. Mesmo que o contrato público da API não especifique nada sobre o conteúdo da mensagem, indicando que os usuários devem usar um código de erro associado, alguns usuários podem usar a mensagem e alterar a mensagem essencialmente interrompe a API para esses usuários.
 
 Veja Também:
 
 - [XKCD 1172](https://xkcd.com/1172/)
 
-### Moore's Law
+### Lei de Moore
 
-[Moore's Law on Wikipedia](https://en.wikipedia.org/wiki/Moore%27s_law)
+[Lei de Moore na wikipedia](https://en.wikipedia.org/wiki/Moore%27s_law)
 
-> The number of transistors in an integrated circuit doubles approximately every two years.
+> O número de transistores dentro de um circuito integrado dobra a cada 2 anos, aproximadamente.
 
-Often used to illustrate the sheer speed at which semiconductor and chip technology has improved, Moore's prediction has proven to be highly accurate over from the 1970s to the late 2000s. In more recent years, the trend has changed slightly, partly due to [physical limitations on the degree to which components can be miniaturised](https://en.wikipedia.org/wiki/Quantum_tunnelling). However, advancements in parallelisation, and potentially revolutionary changes in semiconductor technology and quantum computing may mean that Moore's Law could continue to hold true for decades to come.
 
-### Parkinson's Law
+Até meados de 1965 não havia nenhuma previsão real sobre o futuro do hardware, quando Gordon E. Moore fez sua profecia, na qual o número de transistores dos chips teria um aumento de 100%, pelo mesmo custo, a cada período de 18 meses. Essa profecia tornou-se realidade e acabou ganhando o nome de Lei de Moore.
+
+Esta lei serve de parâmetro para uma elevada gama de dispositivos digitais, além das CPUs. Na verdade, qualquer chip está ligado a lei de Gordon E. Moore, até mesmo o CCD de câmeras fotográficas digitais (sensor que capta a imagem nas câmeras nuclear; ou CNCL, sensores que captam imagens nas câmeras fotográficas profissionais).
+
+Esse padrão continuou a se manter, e não se espera que pare até, no mínimo, 2021.[1] 
+
+### Lei de Parkinson
 
 [Parkinson's Law on Wikipedia](https://en.wikipedia.org/wiki/Parkinson%27s_law)
 
-> Work expands so as to fill the time available for its completion.
+>O trabalho se expande de modo a preencher o tempo disponível para a sua realização.
 
+A lei de Parkinson foi publicada por Cyril Northcote Parkinson num artigo na revista The Economist em 1955, sendo depois reimpresso com outros artigos no livro Parkinson's Law: The Pursuit of Progress [A lei de Parkinson: a busca do progresso].
+ 
 In its original context, this Law was based on studies of bureaucracies. It may be pessimistically applied to software development initiatives, the theory being that teams will be inefficient until deadlines near, then rush to complete work by the deadline, thus making the actual deadline somewhat arbitrary.
 
 If this law were combined with [Hofstadter's Law](#hofstadters-law), an even more pessimistic viewpoint is reached - work will expand to fill the time available for its completion and *still take longer than expected*.

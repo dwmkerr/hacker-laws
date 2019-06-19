@@ -193,43 +193,35 @@ Esse padrão continuou a se manter, e não se espera que pare até, no mínimo, 
 
 ### Lei de Parkinson
 
-[Parkinson's Law on Wikipedia](https://en.wikipedia.org/wiki/Parkinson%27s_law)
+[Lei de Parkinson](https://en.wikipedia.org/wiki/Parkinson%27s_law)
 
 >O trabalho se expande de modo a preencher o tempo disponível para a sua realização.
 
 A lei de Parkinson foi publicada por Cyril Northcote Parkinson num artigo na revista The Economist em 1955, sendo depois reimpresso com outros artigos no livro Parkinson's Law: The Pursuit of Progress [A lei de Parkinson: a busca do progresso].Em seu contexto original, essa Lei foi baseada em estudos de burocracia. E pode ser pessimisticamente aplicado a desenvolvimento de software, a teoria diz que equipes serão ineficientes até os prazos finais, quando irão dar o máximo até o prazo final.
 
-If this law were combined with [Hofstadter's Law](#hofstadters-law), an even more pessimistic viewpoint is reached - work will expand to fill the time available for its completion and *still take longer than expected*.
+### Lei de Putt
 
-See also:
+[Lei de Putt na wikipedia](https://en.wikipedia.org/wiki/Putt%27s_Law_and_the_Successful_Technocrat)
 
-- [Hofstadter's Law](#hofstadters-law)
+> Tecnologia é dominada por dois tipos de pessoa. Aqueles que entendem o que não gerenciam e aqueles que gerenciam o que não entendem.
 
-### Putt's Law
+A Lei de Putt é frequentemente seguida pelo Corolário de Putt:
 
-[Putt's Law on Wikipedia](https://en.wikipedia.org/wiki/Putt%27s_Law_and_the_Successful_Technocrat)
+> Cada hierarquia técnica, no tempo, desenvolve uma inversão de competência.
 
-> Technology is dominated by two types of people, those who understand what they do not manage and those who manage what they do not understand.
+Estas declarações sugerem que devido a vários critérios de seleção e tendências na forma como grupos se organizam, haverá um número de pessoas qualificadas nos níveis de trabalho de organizações técnicas, e um número de pessoas em funções gerenciais que não estão cientes das complexidades e desafios do trabalho que estão gerenciando. Isso pode ser devido a fenômenos como  (#em-progresso)
 
-Putt's Law is often followed by Putt's Corollary:
+Veja também:
 
-> Every technical hierarchy, in time, develops a competence inversion.
-
-These statements suggest that due to various selection criteria and trends in how groups organise, there will be a number of skilled people at working levels of a technical organisations, and a number of people in managerial roles who are not aware of the complexities and challenges of the work they are managing. This can be due to phenomena such as [The Peter Principle](#TODO) or [Dilbert's Law](#TODO).
-
-However, it should be stressed that Laws such as this are vast generalisations and may apply to _some_ types of organisations, and not apply to others.
-
-See also:
-
-- [The Peter Principle](#TODO)
-- [Dilbert's Law](#TODO).
+- [O Principio de Peter](#em-progresso)
+- [Lei de Dilbert](#em-progresso).
 
 
-### The Law of Conservation of Complexity (Tesler's Law)
+### A lei da Conservação de Complexidade (Lei de Tesler)
 
-[The Law of Conservation of Complexity on Wikipedia](https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity)
+[A lei da Conservação de Complexidade na wikipedia](https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity)
 
-This law states that there is a certain amount of complexity in a system which cannot be reduced.
+Essa lei sugere que em todos sitemas sempre vai existir uma quantidade de complexidade que não pode ser reduzida.
 
 Some complexity in a system is 'inadvertent'. It is a consequence of poor structure, mistakes, or just bad modeling of a problem to solve. Inadvertent complexity can be reduced (or eliminated). However, some complexity is 'intrinsic' as a consequence of the complexity inherent in the problem being solved. This complexity can be moved, but not eliminated.
 
@@ -482,7 +474,7 @@ If you have found these concepts interesting, you may enjoy the following books.
 - [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks' Law](#brooks-law) is a central theme of the book.
 - [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - This book is difficult to classify. [Hofstadter's Law](#hofstadters-law) is from the book.
 
-## TODO
+## Em Progresso
 
 Hi! If you land here, you've clicked on a link to a topic I've not written up yet, sorry about this - this is work in progress!
 

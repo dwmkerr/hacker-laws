@@ -1,5 +1,5 @@
 # 💻📖 hacker-laws
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-purple.svg?style=flat-square)](#они-внесли-свой-вклад)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-purple.svg?style=flat-square)](#они-внесли-свой-вклад)
 
 Законы, теории, принципы и модели, которые полезно знать разработчику.
 
@@ -555,6 +555,6 @@ DRY это акроним от фразы _Don't Repeat Yourself_ («Не пов
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-<table><tr><td align="center"><a href="https://aceof.github.io/"><img src="https://avatars2.githubusercontent.com/u/16652418?v=4" width="100px;" alt="Alexandr Kizilow"/><br /><sub><b>Alexandr Kizilow</b></sub></a><br /><a href="#content-ACEof" title="Content">🖋</a></td><td align="center"><a href="https://github.com/natashta"><img src="https://avatars1.githubusercontent.com/u/15847929?v=4" width="100px;" alt="Natalia Ryzhova"/><br /><sub><b>Natalia Ryzhova</b></sub></a><br /><a href="#content-natashta" title="Content">🖋</a></td><td align="center"><a href="https://github.com/rikkalo"><img src="https://avatars1.githubusercontent.com/u/3524991?v=4" width="100px;" alt="Anastasia Lopatina"/><br /><sub><b>Anastasia Lopatina</b></sub></a><br /><a href="#content-rikkalo" title="Content">🖋</a></td></tr></table>
+<table><tr><td align="center"><a href="https://aceof.github.io/"><img src="https://avatars2.githubusercontent.com/u/16652418?v=4" width="100px;" alt="Alexandr Kizilow"/><br /><sub><b>Alexandr Kizilow</b></sub></a><br /><a href="#content-ACEof" title="Content">🖋</a></td><td align="center"><a href="https://github.com/natashta"><img src="https://avatars1.githubusercontent.com/u/15847929?v=4" width="100px;" alt="Natalia Ryzhova"/><br /><sub><b>Natalia Ryzhova</b></sub></a><br /><a href="#content-natashta" title="Content">🖋</a></td><td align="center"><a href="https://github.com/rikkalo"><img src="https://avatars1.githubusercontent.com/u/3524991?v=4" width="100px;" alt="Anastasia Lopatina"/><br /><sub><b>Anastasia Lopatina</b></sub></a><br /><a href="#content-rikkalo" title="Content">🖋</a></td><td align="center"><a href="https://github.com/nksoff"><img src="https://avatars2.githubusercontent.com/u/1710024?v=4" width="100px;" alt="Nikita Slimov"/><br /><sub><b>Nikita Slimov</b></sub></a><br /><a href="#content-nksoff" title="Content">🖋</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->

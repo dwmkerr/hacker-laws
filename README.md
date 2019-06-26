@@ -223,17 +223,19 @@ Veja também:
 
 Essa lei sugere que em todos sitemas sempre vai existir uma quantidade de complexidade que não pode ser reduzida.
 
-Some complexity in a system is 'inadvertent'. It is a consequence of poor structure, mistakes, or just bad modeling of a problem to solve. Inadvertent complexity can be reduced (or eliminated). However, some complexity is 'intrinsic' as a consequence of the complexity inherent in the problem being solved. This complexity can be moved, but not eliminated.
+Alguma complexidade em um sistema é "inadvertida". É uma consequência da estrutura deficiente, erros ou apenas má modelagem de um problema a ser resolvido. A complexidade inadvertida pode ser reduzida (ou eliminada). No entanto, alguma complexidade é "intrínseca" como consequência da complexidade inerente ao problema a ser resolvido. Essa complexidade pode ser movida, mas não eliminada.
 
-One interesting element to this law is the suggestion that even by simplifying the entire system, the intrinsic complexity is not reduced, it is _moved to the user_, who must behave in a more complex way.
+Um elemento interessante para essa lei é a sugestão de que, mesmo simplificando todo o sistema, a complexidade intrínseca não é reduzida, ela é “movida para o usuário”, que deve se comportar de uma maneira mais complexa.
 
-### The Law of Leaky Abstractions
+### A lei das Abstrações gotejantes
 
 [The Law of Leaky Abstractions on Joel on Software](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
 
-> All non-trivial abstractions, to some degree, are leaky.
+>Todas as abstrações não triviais, até certo ponto, são vazadas
 >
-> (Joel Spolsky)
+>-Joel Spolsky
+
+
 
 This law states that abstractions, which are generally used in computing to simplify working with complicated systems, will in certain situations 'leak' elements of the underlying system, this making the abstraction behave in an unexpected way.
 

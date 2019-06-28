@@ -232,10 +232,6 @@ Um elemento interessante para essa lei é a sugestão de que, mesmo simplificand
 [The Law of Leaky Abstractions on Joel on Software](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
 
 >Todas as abstrações não triviais, até certo ponto, são vazadas
->
->-Joel Spolsky
-
-
 
 This law states that abstractions, which are generally used in computing to simplify working with complicated systems, will in certain situations 'leak' elements of the underlying system, this making the abstraction behave in an unexpected way.
 

@@ -14,7 +14,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
 - [Giriş](#introduction)
 - [Yasalar](#laws)
     - [Amdahl Yasası](#amdahls-law)
-    - [Brooks' Law](#brooks-law)
+    - [Brooks Yasası](#brooks-law)
     - [Conway Yasası](#conways-law)
     - [Dunbar Sayısı](#dunbars-number)
     - [Hanlon'un Usturası](#hanlons-razor)
@@ -265,7 +265,7 @@ Ek kaynaklar:
 
 - [Hyrum Yasası](#hyrums-law-the-law-of-implicit-interfaces)
 
-Real-world examples:
+Gerçek dünyadan örnekler:
 
 - [Photoshop'taki yavaş açılma problemi](https://forums.adobe.com/thread/376152): Photoshop bir zamanlar çok yavaş açılırdı, hatta bazen açılması dakikalar sürerdi. Sorunun sebebi program her başlangıçta ön tanımlı yazıcı ile ilgili belli bilgileri çekmeye çalışması olarak gözüküyordu. Eğer yazıcı bir ağ yazıcısıysa açılma daha da uzun sürüyordu. Ağ yazıcılarının yerel yazıcıları gibi *soyutlanması* kullanıcılara bu kötü deneyimi yaşatmış oldu.
 
@@ -432,7 +432,7 @@ See also:
 - [Nesne Tabanlı Programlama](#todo)
 - [SOLID](#solid)
 - [Duck Typing](#todo)
-- [Decoupling](#todo)
+- [Ayrışma](#todo)
 
 ### Bağımlılığın Ters Çevrilmesi
 
@@ -452,7 +452,7 @@ Ek kaynaklar:
 - [Nesne Tabanlı Programlama](#todo)
 - [SOLID](#solid)
 - [Bağımlılığın Ters Çevrilmesi](#todo)
-- [Dependency Injection](#todo)
+- [Bağımlılık Enjeksiyonu](#todo)
 
 ### DRY Prensibi
 

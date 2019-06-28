@@ -135,7 +135,7 @@ This principle suggests that actions resulting in a negative outcome were not a 
 
 > It always takes longer than you expect, even when you take into account Hofstadter's Law.
 >
-> Douglas Hofstadter
+> (Douglas Hofstadter)
 
 You might hear this law referred to when looking at estimates for how long something will take. It seems a truism in software development that we tend to not be very good at accurately estimating how long something will take to deliver.
 
@@ -144,6 +144,18 @@ This is from the book '[Gödel, Escher, Bach: An Eternal Golden Braid](#reading-
 See also:
 
 - [Reading List: Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)
+
+### Hutber's Law
+
+[Hutber's Law on Wikipedia](https://en.wikipedia.org/wiki/Hutber%27s_law)
+
+> Improvement means deterioration.
+>
+> ([Patrick Hutber](https://en.wikipedia.org/wiki/Patrick_Hutber))
+
+This law suggests that improvements to a system will lead to deterioration in other parts, or it will hide other deterioration, leading overall to a degredation from the current state of the system.
+
+For example, a decrease in response latency for a particular end-point could cause increased throughput and capacity issues further along in a request flow, effecting an entirely different sub-system.
 
 ### The Hype Cycle & Amara's Law
 

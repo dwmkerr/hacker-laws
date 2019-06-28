@@ -19,6 +19,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [Dunbar's Number](#dunbars-number)
     * [Hanlon's Razor](#hanlons-razor)
     * [Hofstadter's Law](#hofstadters-law)
+    * [Hutber's Law](#hutbers-law)
     * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
     * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
     * [Moore's Law](#moores-law)
@@ -153,7 +154,7 @@ See also:
 >
 > ([Patrick Hutber](https://en.wikipedia.org/wiki/Patrick_Hutber))
 
-This law suggests that improvements to a system will lead to deterioration in other parts, or it will hide other deterioration, leading overall to a degredation from the current state of the system.
+This law suggests that improvements to a system will lead to deterioration in other parts, or it will hide other deterioration, leading overall to a degradation from the current state of the system.
 
 For example, a decrease in response latency for a particular end-point could cause increased throughput and capacity issues further along in a request flow, effecting an entirely different sub-system.
 

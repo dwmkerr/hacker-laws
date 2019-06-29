@@ -1,5 +1,5 @@
 # 💻📖 hacker-laws
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-purple.svg?style=flat-square)](#они-внесли-свой-вклад)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-purple.svg?style=flat-square)](#они-внесли-свой-вклад)
 
 Законы, теории, принципы и модели, которые полезно знать разработчику.
 

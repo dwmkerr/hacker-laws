@@ -1,5 +1,13 @@
 # Contributing Guidelines
 
+
+<!-- vim-markdown-toc GFM -->
+
+* [Example Law: The Law of Leaky Abstractions](#example-law-the-law-of-leaky-abstractions)
+* [Localisation](#localisation)
+
+<!-- vim-markdown-toc -->
+
 The goal of this project is to have a set of _concise_ definitions to laws, principles, methodologies and patterns which hackers will find useful. They should be:
 
 1. Short - one or two paragraphs.
@@ -22,7 +30,7 @@ An example law is shown below, which covers most of the key points:
 
 ---
 
-### The Law of Leaky Abstractions
+### Example Law: The Law of Leaky Abstractions
 
 [The Law of Leaky Abstractions on Joel on Software](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
 
@@ -45,3 +53,11 @@ See also:
 Real-world examples:
 
 - [Photoshop Slow Startup](https://forums.adobe.com/thread/376152) - an issue I encountered in the past. Photoshop would be slow to startup, sometimes taking minutes. It seems the issue was that on startup it reads some information about the current default printer. However, if that printer is actually a network printer, this could take an extremely long time. The _abstraction_ of a network printer being presented to the system similar to a local printer caused an issue for users in poor connectivity situations.
+
+### Localisation
+
+We are currently using [GitLocalize](https://gitlocalize.com) to handle translations. This provides features to make it easier for people to manage translations as changes come in:
+
+![GitLocalize Screenshot](../images/gitlocalize.png)
+
+This is still work in progress - if you would like to be a maintainer for a language just open an issue to get in touch!

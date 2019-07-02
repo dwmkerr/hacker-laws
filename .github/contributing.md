@@ -56,8 +56,8 @@ Real-world examples:
 
 ### Localisation
 
-We are currently using [GitLocalize]() to handle translations. This provides features to make it easier for people to manage translations as changes come in:
+We are currently using [GitLocalize](https://gitlocalize.com) to handle translations. This provides features to make it easier for people to manage translations as changes come in:
 
-![GitLocalize Screenshot](images/gitlocalize.png)
+![GitLocalize Screenshot](../images/gitlocalize.png)
 
 This is still work in progress - if you would like to be a maintainer for a language just open an issue to get in touch!

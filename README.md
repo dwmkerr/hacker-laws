@@ -17,6 +17,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [Brooks' Law](#brooks-law)
     * [Conway's Law](#conways-law)
     * [Dunbar's Number](#dunbars-number)
+    * [Gall's Law](#galls-law)    
     * [Hanlon's Razor](#hanlons-razor)
     * [Hofstadter's Law](#hofstadters-law)
     * [Hutber's Law](#hutbers-law)
@@ -119,6 +120,14 @@ Like stable relationships between individuals, a developer's relationship with a
 See also:
 
 - [Conway's Law](#conways-law)
+
+### Gall's Law
+
+[Gall's Law on Wikipedia](https://en.m.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
+
+> A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over with a working simple system.
+
+This law is essentially an argument in favour of underspecification: it can be used to explain the success of systems like the World Wide Web and Blogosphere, which grew from simple to complex systems incrementally, and the failure of systems like CORBA, which began with complex specifications. Gall's Law has strong affinities to the practice of agile software development.
 
 ### Hanlon's Razor
 

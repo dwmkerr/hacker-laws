@@ -2,22 +2,30 @@
 
 Laws, Theories, Principles and Patterns that developers will find useful.
 
-🇨🇳 [中文 / Chinese Version](https://github.com/nusr/hacker-laws-zh) - thanks [Steve Xu](https://github.com/nusr)!
+- 🇨🇳 [中文 / Chinese Version](https://github.com/nusr/hacker-laws-zh) - thanks [Steve Xu](https://github.com/nusr)!
+- 🇰🇷 [한국어 / Korean Version](https://github.com/codeanddonuts/hacker-laws-kr) - thanks [Doughnut](https://github.com/codeanddonuts)!
+- 🇷🇺 [Русская версия / Russian Version](https://github.com/solarrust/hacker-laws) - thanks [Alena Batitskaya](https://github.com/solarrust)!
+- 🇹🇷 [Türkçe / Turkish Version](https://github.com/umutphp/hacker-laws-tr) - thanks [Umut Işık](https://github.com/umutphp)
+
+---
 
 <!-- vim-markdown-toc GFM -->
 
 * [Introduction](#introduction)
 * [Laws](#laws)
     * [Amdahl's Law](#amdahls-law)
-    * [Brooks' Law](#brookss-law)
+    * [Brooks' Law](#brooks-law)
     * [Conway's Law](#conways-law)
+    * [Dunbar's Number](#dunbars-number)
     * [Gall's Law](#galls-law)    
     * [Hanlon's Razor](#hanlons-razor)
     * [Hofstadter's Law](#hofstadters-law)
+    * [Hutber's Law](#hutbers-law)
     * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
     * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
     * [Moore's Law](#moores-law)
     * [Parkinson's Law](#parkinsons-law)
+    * [Premature Optimization Effect](#premature-optimization-effect)
     * [Putt's Law](#putts-law)
     * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
     * [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
@@ -26,6 +34,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [The Spotify Model](#the-spotify-model)
     * [Wadler's Law](#wadlers-law)
 * [Principles](#principles)
+    * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
     * [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
     * [SOLID](#solid)
     * [The Single Responsibility Principle](#the-single-responsibility-principle)
@@ -33,6 +42,8 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [The Liskov Substitution Principle](#the-liskov-substitution-principle)
     * [The Interface Segregation Principle](#the-interface-segregation-principle)
     * [The Dependency Inversion Principle](#the-dependency-inversion-principle)
+    * [The DRY Principle](#the-dry-principle)
+    * [YAGNI](#yagni)
 * [Reading List](#reading-list)
 * [TODO](#todo)
 
@@ -68,7 +79,7 @@ As [Moore's Law](#moores-law) slows, and the acceleration of individual processo
 
 See also:
 
-- [Brooks' Law](#brookss-law)
+- [Brooks' Law](#brooks-law)
 - [Moore's Law](#moores-law)
 
 ### Brooks' Law
@@ -98,6 +109,17 @@ See also:
 
 - [The Spotify Model](#the-spotify-model)
 
+### Dunbar's Number
+
+[Dunbar's Number on Wikipedia](https://en.wikipedia.org/wiki/Dunbar%27s_number)
+
+"Dunbar's number is a suggested cognitive limit to the number of people with whom one can maintain stable social relationships— relationships in which an individual knows who each person is and how each person relates to every other person." There is some disagreement to the exact number. "... [Dunbar] proposed that humans can comfortably maintain only 150 stable relationships." He put the number into a more social context, "the number of people you would not feel embarrassed about joining uninvited for a drink if you happened to bump into them in a bar." Estimates for the number generally lay between 100 and 250.
+
+Like stable relationships between individuals, a developer's relationship with a codebase takes effort to maintain. When faced with large complicated projects, or ownership of many projects we lean on convention, policy, and modeled procedure to scale. Dunbar's number is not only important to keep in mind as an office grows, but also when setting the scope for team efforts or deciding when a system should invest in tooling to assist in modeling and automating logistical overhead. Putting the number into an engineering context, it is the number of projects (or normalized complexity of a single project) for which you would feel confident in joining an on-call rotation to support.
+
+See also:
+
+- [Conway's Law](#conways-law)
 
 ### Gall's Law
 
@@ -123,7 +145,7 @@ This principle suggests that actions resulting in a negative outcome were not a 
 
 > It always takes longer than you expect, even when you take into account Hofstadter's Law.
 >
-> Douglas Hofstadter
+> (Douglas Hofstadter)
 
 You might hear this law referred to when looking at estimates for how long something will take. It seems a truism in software development that we tend to not be very good at accurately estimating how long something will take to deliver.
 
@@ -132,6 +154,18 @@ This is from the book '[Gödel, Escher, Bach: An Eternal Golden Braid](#reading-
 See also:
 
 - [Reading List: Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)
+
+### Hutber's Law
+
+[Hutber's Law on Wikipedia](https://en.wikipedia.org/wiki/Hutber%27s_law)
+
+> Improvement means deterioration.
+>
+> ([Patrick Hutber](https://en.wikipedia.org/wiki/Patrick_Hutber))
+
+This law suggests that improvements to a system will lead to deterioration in other parts, or it will hide other deterioration, leading overall to a degradation from the current state of the system.
+
+For example, a decrease in response latency for a particular end-point could cause increased throughput and capacity issues further along in a request flow, effecting an entirely different sub-system.
 
 ### The Hype Cycle & Amara's Law
 
@@ -189,6 +223,18 @@ See also:
 
 - [Hofstadter's Law](#hofstadters-law)
 
+### Premature Optimization Effect
+
+[Premature Optimization on WikiWikiWeb](http://wiki.c2.com/?PrematureOptimization)
+
+> Premature optimization is the root of all evil.
+>
+> [(Donald Knuth)](https://twitter.com/realdonaldknuth?lang=en)
+
+In Donald Knuth's paper [Structured Programming With Go To Statements](http://wiki.c2.com/?StructuredProgrammingWithGoToStatements), he wrote: "Programmers waste enormous amounts of time thinking about, or worrying about, the speed of noncritical parts of their programs, and these attempts at efficiency actually have a strong negative impact when debugging and maintenance are considered. We should forget about small efficiencies, say about 97% of the time: **premature optimization is the root of all evil**. Yet we should not pass up our opportunities in that critical 3%."
+
+However, _Premature Optimization_ can be defined (in less loaded terms) as optimizing before we know that we need to.
+
 ### Putt's Law
 
 [Putt's Law on Wikipedia](https://en.wikipedia.org/wiki/Putt%27s_Law_and_the_Successful_Technocrat)
@@ -225,7 +271,7 @@ One interesting element to this law is the suggestion that even by simplifying t
 
 > All non-trivial abstractions, to some degree, are leaky.
 >
-> (Joel Spolsky)
+> ([Joel Spolsky](https://twitter.com/spolsky))
 
 This law states that abstractions, which are generally used in computing to simplify working with complicated systems, will in certain situations 'leak' elements of the underlying system, this making the abstraction behave in an unexpected way.
 
@@ -291,6 +337,28 @@ See also:
 ## Principles
 
 Principles are generally more likely to be guidelines relating to design.
+
+### The Pareto Principle (The 80/20 Rule)
+
+[The Pareto Principle on Wikipedia](https://en.wikipedia.org/wiki/Pareto_principle)
+
+> Most things in life are not distributed evenly.
+
+The Pareto Principle suggests that in some cases, the majority of results come from a minority of inputs:
+
+- 80% of a certain piece of software can be written in 20% of the total allocated time (conversely, the hardest 20% of the code takes 80% of the time)
+- 20% of the effort produces 80% of the result
+- 20% of the work creates 80% of the revenue
+- 20% of the bugs cause 80% of the crashes
+- 20% of the features cause 80% of the usage
+
+In the 1940s American-Romanian engineer Dr. Joseph Juran, who is widely credited with being the father of quality control, [began to apply the Pareto principle to quality issues](https://en.wikipedia.org/wiki/Joseph_M._Juran).
+
+This principle is also known as: The 80/20 Rule, The Law of the Vital Few and The Principle of Factor Sparsity.
+
+Real-world examples:
+
+- In 2002 Microsoft reported that by fixing the top 20% of the most-reported bugs, 80% of the related errors and crashes in windows and office would become eliminated ([Reference](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)).
 
 ### The Robustness Principle (Postel's Law)
 
@@ -384,7 +452,7 @@ See also:
 
 ### The Dependency Inversion Principle
 
-[The Dependency Inversion Principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
+[The Dependency Inversion Principle on Wikipedia](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
 
 > High-level modules should not be dependent on low-level implementations.
 
@@ -401,11 +469,47 @@ See also:
 - [Inversion of Control](#todo)
 - [Dependency Injection](#todo)
 
+### The DRY Principle
+
+[The DRY Principle on Wikipedia](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+
+> Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
+
+DRY is an acronym for _Don't Repeat Yourself_. This principle aims to help developers reducing the repetition of code and keep the information in a single place and was cited in 1999 by Andrew Hunt and Dave Thomas in the book [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+
+> The opposite of DRY would be _WET_ (Write Everything Twice or We Enjoy Typing).
+
+In practice, if you have the same piece of information in two (or more) different places, you can use DRY to merge them into a single one and reuse it wherever you want/need.
+
+See also:
+
+- [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+
+### YAGNI
+
+[YAGNI on Wikipedia](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
+
+This is an acronym for _**Y**ou **A**ren't **G**onna **N**eed **I**t_.
+
+> Always implement things when you actually need them, never when you just foresee that you need them.
+>
+> ([Ron Jeffries](https://twitter.com/RonJeffries)) (XP co-founder and author of the book "Extreme Programming Installed")
+
+This _Extreme Programming_ (XP) principle suggests developers should only implement functionality that is needed for the immediate requirements, and avoid attempts to predict the future by implementing functionality that might be needed later.
+
+Adhering to this principle should reduce the amount of unused code in the codebase, and avoid time and effort being wasted on functionality that brings no value.
+
+See also:
+
+- [Reading List: Extreme Programming Installed](#reading-list)
+
+
 ## Reading List
 
 If you have found these concepts interesting, you may enjoy the following books.
 
-- [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks's Law](#brookss-law) is a central theme of the book.
+- [Extreme Programming Installed - Ron Jeffries, Ann Anderson, Chet Hendrikson](https://www.goodreads.com/en/book/show/67834) - Covers the core principles of Extreme Programming.
+- [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks' Law](#brooks-law) is a central theme of the book.
 - [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - This book is difficult to classify. [Hofstadter's Law](#hofstadters-law) is from the book.
 
 ## TODO

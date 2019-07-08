@@ -373,7 +373,7 @@ Bu '[SOLID](#solid)' prensiplerinin ilkidir. Bu prensip der ki her bir sistem pa
 Teorik olarak, bu prensibe uygun yazılmış kodlar daha sağlam ve değiştirilmesi kolaydır. Sadece tek bir parçanın değiştirildiğine emin olunduğunda değişimi *tesk etmek* de kolay olacaktır. Önceki şifre örneğini düşünürsek, şifrenin zorluk seviyesi değiştirildiğinde sadece şifre ilgili bölümlerin etkilenecektir. Birden fazla sorumluluğu olan bir bölümde olan değişikliğin nereleri etkileceğini hesaplamak daha zordur.
 
 
-Ek kaynaklar:
+See also:
 
 - [Nesne Tabanlı Programlama](#todo)
 - [SOLID](#solid)
@@ -410,7 +410,7 @@ See also:
 
 Bu prensip nesne-tabanlı programlamanın bağlı olduğu prensiplerden biridir ve geliştiricilerin kafasını karıştırmamak için sınıf hiyerarşisinin dikkatli tarasarlanması gerektiğini söyler.
 
-Ek kaynaklar:
+See also:
 
 - [Nesne Tabanlı Programlama](#todo)
 - [SOLID](#solid)

@@ -84,7 +84,7 @@ See also:
 
 ### Brooks' Law
 
-[Brooks' Law on Wikipedia](https://en.m.wikipedia.org/wiki/Brooks%27s_law)
+[Brooks' Law on Wikipedia](https://en.wikipedia.org/wiki/Brooks%27s_law)
 
 > Adding human resources to a late software development project makes it later.
 
@@ -123,11 +123,11 @@ See also:
 
 ### Gall's Law
 
-[Gall's Law on Wikipedia](https://en.m.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
+[Gall's Law on Wikipedia](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
 
 > A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over with a working simple system.
 >
-> ([John Gall](https://en.m.wikipedia.org/wiki/John_Gall_(author)))
+> ([John Gall](https://en.wikipedia.org/wiki/John_Gall_(author)))
 
 Gall's Law implies that attempts to _design_ highly complex systems are likely to fail. Highly complex systems are rarely built in one go, but evolve instead from more simple systems.
 

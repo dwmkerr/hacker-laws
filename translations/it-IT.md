@@ -12,8 +12,8 @@ Leggi, teorie, principi e pattern utili agli sviluppatori.
 
 <!-- vim-markdown-toc GFM -->
 
-* [Introduzione](#introduction)
-* [Leggi](#laws)
+* [Introduzione](#introduzione)
+* [Leggi](#leggi)
     * [Legge di Amdahl](#amdahls-law)
     * [Legge di Brooks](#brooks-law)
     * [Legge di Conway](#conways-law)
@@ -52,11 +52,12 @@ Leggi, teorie, principi e pattern utili agli sviluppatori.
 
 ## Introduzione
 
-There are lots of laws which people discuss when talking about development. This repository is a reference and overview of some of the most common ones. Please share and submit PRs!
+Quando si parla di sviluppo software, si discute di tanti principi. Questo repository fornisce un riferimento e un'introduzione a quelli più comuni. I contributi sono sono ben accetti!
 
-❗: This repo contains an explanation of some laws, principles and patterns, but does not _advocate_ for any of them. Whether they should be applied will always be a matter of debate, and greatly dependent on what you are working on.
 
-## Laws
+❗: Questo repo contiene la spiegazione di alcune leggi, principi e pattern, ma tuttavia non ne _sponsorizza_ nessuno. La loro applicabilità dovrebbe sempre essere discussa ed è sempre dipendente dal progetto specifico su cui state lavorando.
+
+## Leggi
 
 And here we go!
 

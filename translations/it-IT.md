@@ -14,8 +14,8 @@ Leggi, teorie, principi e pattern utili agli sviluppatori.
 
 * [Introduzione](#introduzione)
 * [Leggi](#leggi)
-    * [Legge di Amdahl](#amdahls-law)
-    * [Legge di Brooks](#brooks-law)
+    * [Legge di Amdahl](#legge-di-amdahl)
+    * [Legge di Brooks](#legge-di-brooks)
     * [Legge di Conway](#conways-law)
     * [Legge di Dunbar](#dunbars-number)
     * [Legge di Gall](#galls-law)
@@ -24,7 +24,7 @@ Leggi, teorie, principi e pattern utili agli sviluppatori.
     * [Legge di Hutber](#hutbers-law)
     * [Hype Cycle e Legge di Amara](#the-hype-cycle--amaras-law)
     * [Legge di Hyrum (Legge delle Interfacce Implicite)](#hyrums-law-the-law-of-implicit-interfaces)
-    * [Legge di Moore](#moores-law)
+    * [Legge di Moore](#legge-di-moore)
     * [Legge di Parkinson](#parkinsons-law)
     * [Ottimizzazione Prematura](#premature-optimization-effect)
     * [Legge di Putt](#putts-law)
@@ -59,30 +59,30 @@ Quando si parla di sviluppo software, si discute di tanti principi. Questo repos
 
 ## Leggi
 
-And here we go!
+Si parte!
 
-### Amdahl's Law
+### Legge di Amdahl
 
-[Amdahl's Law on Wikipedia](https://en.wikipedia.org/wiki/Amdahl%27s_law)
+[Legge di Amdahl su Wikipedia](https://it.wikipedia.org/wiki/Legge_di_Amdahl)
 
-> Amdahl's Law is a formula which shows the _potential speedup_ of a computational task which can be achieved by increasing the resources of a system. Normally used in parallel computing, it can predict the actual benefit of increasing the number of processors, which is limited by the parallelisability of the program.
+> La legge di Amdahl mostra lo _speedup potenziale_ che può essere raggiunto nell'esecuzione di un calcolo aumentando le risorse del sistema di calcolo. Di norma si usa nel calcolo parallelo e può stimare il beneficio atteso, limitato dalla porzione parallelizzabile del programma, e raggiungibile aumentando il numero di core di calcolo.
 
-Best illustrated with an example. If a program is made up of two parts, part A, which must be executed by a single processor, and part B, which can be parallelised, then we see that adding multiple processors to the system executing the program can only have a limited benefit. It can potentially greatly improve the speed of part B - but the speed of part A will remain unchanged.
+Ecco un esempio illustrativo. Se un programma è costituito da due parti - una parte A che deve essere eseguita da un singolo core di calcolo e una parte B che può essere parallelizzata - possiamo notare che aggiungere nuovi core al sistema di calcolo produce un beneficio limitato. L'aggiunta potenzia di molto la velocità di esecuzione della parte B - ma la velocità di esecuzione della parte A resterà la stessa.
 
-The diagram below shows some examples of potential improvements in speed:
+Il diagramma sotto riportato illustra gli andamenti nel tempo della velocità di esecuzione in alcuni casi:
 
 ![Diagram: Amdahl's Law](./images/amdahls_law.png)
 
-*(Image Reference: By Daniels220 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
+*(Crediti Immagine: Daniels220 su Wikipedia EN, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 
-As can be seen, even a program which is 50% parallelisable will benefit very little beyond 10 processing units, whereas a program which is 95% parallelisable can still achieve significant speed improvements with over a thousand processing units.
+Come si può vedere, anche un programma che è al 50% parallelizzabile beneficerà molto poco dell'aggiunta di più di 10 core di calcolo, mentre un programma che è parallelizzabile al 95% può raggiungere speedup significativi nella velocità di esecuzione anche oltre 1000 core di calcolo aggiunti.
 
-As [Moore's Law](#moores-law) slows, and the acceleration of individual processor speed slows, parallelisation is key to improving performance. Graphics programming is an excellent example - with modern Shader based computing, individual pixels or fragments can be rendered in parallel - this is why modern graphics cards often have many thousands of processing cores (GPUs or Shader Units).
+Dal momento che [la legge di Moore](#legge-di-moore) sta rallentando, e l'aumento della velocità dei singoli core di calcolo diminuisce, parallelizzare diventa la chiave per migliorare le performance. Un eccellente esempio è la grafica computerizzata: con i moderni Shader, è possibile renderizzare in parallelo pixel e frammenti - questo è il motivo per cui le schede grafiche hanno migliaia di core di calcolo (GPU o Shader Unit)
 
-See also:
+Vedi anche:
 
-- [Brooks' Law](#brooks-law)
-- [Moore's Law](#moores-law)
+- [Legge di Brook](#legge-di-brook)
+- [Legge di Moore](#legge-di-moore)
 
 ### Brooks' Law
 

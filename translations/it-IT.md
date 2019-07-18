@@ -1,56 +1,56 @@
 # 💻📖 hacker-laws
 
-Laws, Theories, Principles and Patterns that developers will find useful.
+Leggi, teorie, principi e pattern utili agli sviluppatori.
 
-- 🇺🇸 [English Version](https://github.com/dwmkerr/hacker-laws) - thanks[Dave Kerr](https://github.com/dwmkerr)!
-- 🇨🇳 [中文 / Chinese Version](https://github.com/nusr/hacker-laws-zh) - thanks [Steve Xu](https://github.com/nusr)!
-- 🇰🇷 [한국어 / Korean Version](https://github.com/codeanddonuts/hacker-laws-kr) - thanks [Doughnut](https://github.com/codeanddonuts)!
-- 🇷🇺 [Русская версия / Russian Version](https://github.com/solarrust/hacker-laws) - thanks [Alena Batitskaya](https://github.com/solarrust)!
-- 🇹🇷 [Türkçe / Turkish Version](https://github.com/umutphp/hacker-laws-tr) - thanks [Umut Işık](https://github.com/umutphp)!
+- 🇺🇸 [Traduzione in Inglese](https://github.com/dwmkerr/hacker-laws) - grazie [Dave Kerr](https://github.com/dwmkerr)!
+- 🇨🇳 [中文 / Traduzione in Cinese](https://github.com/nusr/hacker-laws-zh) - grazie [Steve Xu](https://github.com/nusr)!
+- 🇰🇷 [한국어 / Traduzione in Coreano](https://github.com/codeanddonuts/hacker-laws-kr) - grazie [Doughnut](https://github.com/codeanddonuts)!
+- 🇷🇺 [Русская версия / Traduzione in Russo](https://github.com/solarrust/hacker-laws) - grazie [Alena Batitskaya](https://github.com/solarrust)!
+- 🇹🇷 [Türkçe / Traduzione in Turco](https://github.com/umutphp/hacker-laws-tr) - grazie [Umut Işık](https://github.com/umutphp)!
 
 ---
 
 <!-- vim-markdown-toc GFM -->
 
-* [Introduction](#introduction)
-* [Laws](#laws)
-    * [Amdahl's Law](#amdahls-law)
-    * [Brooks' Law](#brooks-law)
-    * [Conway's Law](#conways-law)
-    * [Dunbar's Number](#dunbars-number)
-    * [Gall's Law](#galls-law)
-    * [Hanlon's Razor](#hanlons-razor)
-    * [Hofstadter's Law](#hofstadters-law)
-    * [Hutber's Law](#hutbers-law)
-    * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
-    * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
-    * [Moore's Law](#moores-law)
-    * [Parkinson's Law](#parkinsons-law)
-    * [Premature Optimization Effect](#premature-optimization-effect)
-    * [Putt's Law](#putts-law)
-    * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
-    * [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
-    * [The Law of Triviality](#the-law-of-triviality)
-    * [The Unix Philosophy](#the-unix-philosophy)
-    * [The Spotify Model](#the-spotify-model)
-    * [Wadler's Law](#wadlers-law)
-* [Principles](#principles)
-    * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
-    * [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
+* [Introduzione](#introduction)
+* [Leggi](#laws)
+    * [Legge di Amdahl](#amdahls-law)
+    * [Legge di Brooks](#brooks-law)
+    * [Legge di Conway](#conways-law)
+    * [Legge di Dunbar](#dunbars-number)
+    * [Legge di Gall](#galls-law)
+    * [Rasoio di Hanlon](#hanlons-razor)
+    * [Legge di Hofstadter](#hofstadters-law)
+    * [Legge di Hutber](#hutbers-law)
+    * [Hype Cycle e Legge di Amara](#the-hype-cycle--amaras-law)
+    * [Legge di Hyrum (Legge delle Interfacce Implicite)](#hyrums-law-the-law-of-implicit-interfaces)
+    * [Legge di Moore](#moores-law)
+    * [Legge di Parkinson](#parkinsons-law)
+    * [Ottimizzazione Prematura](#premature-optimization-effect)
+    * [Legge di Putt](#putts-law)
+    * [Legge di Conservazione della Complessità (Legge di Tesler)](#the-law-of-conservation-of-complexity-teslers-law)
+    * [Legge dell'Astrazione Colabrodo](#the-law-of-leaky-abstractions)
+    * [Legge di Banalità](#the-law-of-triviality)
+    * [La Filosofia di Unix](#the-unix-philosophy)
+    * [Il modello Spotify](#the-spotify-model)
+    * [Legge di Wadler](#wadlers-law)
+* [Principi](#principles)
+    * [Il Principo di Pareto (La regola dell'80/20)](#the-pareto-principle-the-8020-rule)
+    * [Il Principio di Robustezza (Legge di Postel's)](#the-robustness-principle-postels-law)
     * [SOLID](#solid)
-    * [The Single Responsibility Principle](#the-single-responsibility-principle)
-    * [The Open/Closed Principle](#the-openclosed-principle)
-    * [The Liskov Substitution Principle](#the-liskov-substitution-principle)
-    * [The Interface Segregation Principle](#the-interface-segregation-principle)
-    * [The Dependency Inversion Principle](#the-dependency-inversion-principle)
-    * [The DRY Principle](#the-dry-principle)
+    * [Il Principio di Singola Responsabilità](#the-single-responsibility-principle)
+    * [Il Principio dell'Aperto/Chiuso](#the-openclosed-principle)
+    * [Il Principio di Sostituzione di Liskov](#the-liskov-substitution-principle)
+    * [Il Principio di Segregazione delle Interfacce](#the-interface-segregation-principle)
+    * [Il Principio di Inversione delle Dipendenze](#the-dependency-inversion-principle)
+    * [Il Principio DRY](#the-dry-principle)
     * [YAGNI](#yagni)
 * [Reading List](#reading-list)
 * [TODO](#todo)
 
 <!-- vim-markdown-toc -->
 
-## Introduction
+## Introduzione
 
 There are lots of laws which people discuss when talking about development. This repository is a reference and overview of some of the most common ones. Please share and submit PRs!
 

@@ -30,10 +30,10 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
     * [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
     * [The Law of Triviality](#the-law-of-triviality)
+    * [Murphy's Law / Sod's Law](#murphys-law--sods-law)
     * [The Unix Philosophy](#the-unix-philosophy)
     * [The Spotify Model](#the-spotify-model)
     * [Wadler's Law](#wadlers-law)
-    * [Murphy's Law](#murphys-law)
 * [Principles](#principles)
     * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
     * [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
@@ -308,6 +308,25 @@ The common fictional example used is that of a committee approving plans for nuc
 
 The fictional example above led to the usage of the term 'Bike Shedding' as an expression for wasting time on trivial details.
 
+### Murphy's Law / Sod's Law
+
+[Murphy's Law on Wikipedia](https://en.wikipedia.org/wiki/Murphy%27s_law)
+
+> Anything that can go wrong will go wrong.
+
+Related to [Edward A. Murphy, Jr](https://en.wikipedia.org/wiki/Edward_A._Murphy_Jr.) _Murphy's Law_ states that if a thing can go wrong, it will go wrong.
+
+This is a common adage among developers. Sometimes the unexpected happens when developing, testing or even in production. This can also be related to the (more common in British English) _Sod's Law_:
+
+> If something can go wrong, it will, at the worst possible time.
+
+These 'laws' are generally used in a comic sense. However, phenomena such as [_Confirmation Bias_](#TODO) and [_Selection Bias_](#TODO) can lead people to perhaps over-emphasise these laws (the majority of times when things work, they go unnoticed, failures however are more noticeable and draw more discussion).
+
+See Also:
+
+- [Confirmation Bias](#TODO)
+- [Selection Bias](#TODO)
+
 ### The Unix Philosophy
 
 [The Unix Philosophy on Wikipedia](https://en.wikipedia.org/wiki/Unix_philosophy)
@@ -343,15 +362,6 @@ See also:
 
 - [The Law of Triviality](#the-law-of-triviality)
 
-### Murphy's Law
-
-[Murphy's Law on Wikipedia](https://en.wikipedia.org/wiki/Murphy%27s_law)
-
-> Anything that can go wrong will go wrong.
-
-Related to [Edward A. Murphy, Jr](https://en.wikipedia.org/wiki/Edward_A._Murphy_Jr.), the _Murphy's Law_ states that if a thing can go wrong, it'll go wrong.
-
-Even though it's a funny joke among developers, sometimes things go crazy when developing, testing or even when in production.
 
 
 ## Principles

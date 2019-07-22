@@ -24,13 +24,13 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
     * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
     * [Moore's Law](#moores-law)
+    * [Murphy's Law / Sod's Law](#murphys-law--sods-law)
     * [Parkinson's Law](#parkinsons-law)
     * [Premature Optimization Effect](#premature-optimization-effect)
     * [Putt's Law](#putts-law)
     * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
     * [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
     * [The Law of Triviality](#the-law-of-triviality)
-    * [Murphy's Law / Sod's Law](#murphys-law--sods-law)
     * [The Unix Philosophy](#the-unix-philosophy)
     * [The Spotify Model](#the-spotify-model)
     * [Wadler's Law](#wadlers-law)
@@ -218,6 +218,25 @@ See also:
 
 Often used to illustrate the sheer speed at which semiconductor and chip technology has improved, Moore's prediction has proven to be highly accurate over from the 1970s to the late 2000s. In more recent years, the trend has changed slightly, partly due to [physical limitations on the degree to which components can be miniaturised](https://en.wikipedia.org/wiki/Quantum_tunnelling). However, advancements in parallelisation, and potentially revolutionary changes in semiconductor technology and quantum computing may mean that Moore's Law could continue to hold true for decades to come.
 
+### Murphy's Law / Sod's Law
+
+[Murphy's Law on Wikipedia](https://en.wikipedia.org/wiki/Murphy%27s_law)
+
+> Anything that can go wrong will go wrong.
+
+Related to [Edward A. Murphy, Jr](https://en.wikipedia.org/wiki/Edward_A._Murphy_Jr.) _Murphy's Law_ states that if a thing can go wrong, it will go wrong.
+
+This is a common adage among developers. Sometimes the unexpected happens when developing, testing or even in production. This can also be related to the (more common in British English) _Sod's Law_:
+
+> If something can go wrong, it will, at the worst possible time.
+
+These 'laws' are generally used in a comic sense. However, phenomena such as [_Confirmation Bias_](#TODO) and [_Selection Bias_](#TODO) can lead people to perhaps over-emphasise these laws (the majority of times when things work, they go unnoticed, failures however are more noticeable and draw more discussion).
+
+See Also:
+
+- [Confirmation Bias](#TODO)
+- [Selection Bias](#TODO)
+
 ### Parkinson's Law
 
 [Parkinson's Law on Wikipedia](https://en.wikipedia.org/wiki/Parkinson%27s_law)
@@ -307,25 +326,6 @@ This law suggests that groups will give far more time and attention to trivial o
 The common fictional example used is that of a committee approving plans for nuclear power plant, who spend the majority of their time discussing the structure of the bike shed, rather than the far more important design for the power plant itself. It can be difficult to give valuable input on discussions about very large, complex topics without a high degree of subject matter expertise or preparation. However, people want to be seen to be contributing valuable input. Hence a tendency to focus too much time on small details, which can be reasoned about easily, but are not necessarily of particular importance.
 
 The fictional example above led to the usage of the term 'Bike Shedding' as an expression for wasting time on trivial details.
-
-### Murphy's Law / Sod's Law
-
-[Murphy's Law on Wikipedia](https://en.wikipedia.org/wiki/Murphy%27s_law)
-
-> Anything that can go wrong will go wrong.
-
-Related to [Edward A. Murphy, Jr](https://en.wikipedia.org/wiki/Edward_A._Murphy_Jr.) _Murphy's Law_ states that if a thing can go wrong, it will go wrong.
-
-This is a common adage among developers. Sometimes the unexpected happens when developing, testing or even in production. This can also be related to the (more common in British English) _Sod's Law_:
-
-> If something can go wrong, it will, at the worst possible time.
-
-These 'laws' are generally used in a comic sense. However, phenomena such as [_Confirmation Bias_](#TODO) and [_Selection Bias_](#TODO) can lead people to perhaps over-emphasise these laws (the majority of times when things work, they go unnoticed, failures however are more noticeable and draw more discussion).
-
-See Also:
-
-- [Confirmation Bias](#TODO)
-- [Selection Bias](#TODO)
 
 ### The Unix Philosophy
 

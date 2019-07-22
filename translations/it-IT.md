@@ -81,7 +81,7 @@ Dal momento che [la legge di Moore](#legge-di-moore) sta rallentando, e l'aument
 
 Vedi anche:
 
-- [Legge di Brook](#legge-di-brooks)
+- [Legge di Brooks](#legge-di-brooks)
 - [Legge di Moore](#legge-di-moore)
 
 ### Legge di Brooks

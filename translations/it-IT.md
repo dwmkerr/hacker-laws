@@ -16,7 +16,7 @@ Leggi, teorie, principi e pattern utili agli sviluppatori.
 * [Leggi](#leggi)
     * [Legge di Amdahl](#legge-di-amdahl)
     * [Legge di Brooks](#legge-di-brooks)
-    * [Legge di Conway](#conways-law)
+    * [Legge di Conway](#legge-di-conway)
     * [Legge di Dunbar](#dunbars-number)
     * [Legge di Gall](#galls-law)
     * [Rasoio di Hanlon](#hanlons-razor)
@@ -32,7 +32,7 @@ Leggi, teorie, principi e pattern utili agli sviluppatori.
     * [Legge dell'Astrazione Colabrodo](#the-law-of-leaky-abstractions)
     * [Legge di Banalità](#the-law-of-triviality)
     * [La Filosofia di Unix](#the-unix-philosophy)
-    * [Il modello Spotify](#the-spotify-model)
+    * [Il modello Spotify](#modelli-spotify)
     * [Legge di Wadler](#wadlers-law)
 * [Principi](#principles)
     * [Il Principo di Pareto (La regola dell'80/20)](#the-pareto-principle-the-8020-rule)
@@ -101,15 +101,15 @@ Vedi anche:
 - [Death March](#todo)
 - [Reading List: The Mythical Man Month](#reading-list)
 
-### Conway's Law
+### Legge di Conway
 
-[Conway's Law on Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
+[Legge di Conway su Wikipedia](https://it.wikipedia.org/wiki/Legge_di_Conway)
 
-This law suggests that the technical boundaries of a system will reflect the structure of the organisation. It is commonly referred to when looking at organisation improvements, Conway's Law suggests that if an organisation is structured into many small, disconnected units, the software it produces will be. If an organisation is built more around 'verticals' which are orientated around features or services, the software systems will also reflect this.
+Questa legge indica che i confini di un sistema software riflettono la struttura dell'organizzazione che lo produce. Comunemente citata quando si parla di miglioramenti organizzativi, la legge di Conway afferma che se un'organizzazione è strutturata in tante piccole unità tra loro disconnesse, il software che essa produrrà avrà la stessa struttura. Se un'organizzazione invece è costruita attorno a "silo" verticali dedicati a funzionalità o servizi, i suoi sistemi software rifletteranno questa caratteristica.
 
-See also:
+Vedi anche:
 
-- [The Spotify Model](#the-spotify-model)
+- [Il modello Spotify](#modelli-spotify)
 
 ### Dunbar's Number
 

@@ -86,17 +86,17 @@ Vedi anche:
 
 ### Brooks' Law
 
-[Brooks' Law on Wikipedia](https://en.wikipedia.org/wiki/Brooks%27s_law)
+[Legge di Brooks su Wikipedia](https://it.wikipedia.org/wiki/Legge_di_Brooks)
 
-> Adding human resources to a late software development project makes it later.
+> L'aggiunta di risorse umane ad un progetto di sviluppo software già in ritardo lo fa tardare ancora di più.
 
-This law suggests that in many cases, attempting to accelerate the delivery of a project which is already late, by adding more people, will make the delivery even later. Brooks is clear that this is an over-simplification, however, the general reasoning is that given the ramp up time of new resources and the communication overheads, in the immediate short-term velocity decreases. Also, many tasks may not be divisible, i.e. easily distributed between more resources, meaning the potential velocity increase is also lower.
+Questa legge suggerisce che in molti casi il tentativo di accelerare, tramite aggiunta di ulteriori persone a staff, la delivery di un progetto che è già in ritardo risulterà nell'aumento del ritardo progettuale. Brooks sottolinea che questo scenario è certamente molto semplificato, ma che tuttavia il ragionamento alla base è che il tempo necessario alle nuove risorse per diventare produttive e l'overhead di comunicazione introdotto causano una decrescita della velocità nel breve termine. Inoltre molti task risultano non suddivisibili o facilmente distribuibili tra più risorse, causando un corrispondente minor aumento nella velocità potenziale.
 
-The common phrase in delivery "Nine women can't make a baby in one month" relates to Brooks' Law, in particular, the fact that some kinds of work are not divisible or parallelisable.
+La famosa frase "Nove donne non fanno un figlio in un solo mese" è relativa alla Legge di Brook, in particolare al fatto che alcuni tipi di operazioni non sono suddivisibili o parallelizzabili.
 
-This is a central theme of the book '[The Mythical Man Month](#reading-list)'.
+Questo è un tema centrale del libro '[The Mythical Man Month](#reading-list)'.
 
-See also:
+Vedi anche:
 
 - [Death March](#todo)
 - [Reading List: The Mythical Man Month](#reading-list)

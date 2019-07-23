@@ -18,7 +18,7 @@ Leggi, teorie, principi e pattern utili agli sviluppatori.
     * [Legge di Brooks](#legge-di-brooks)
     * [Legge di Conway](#legge-di-conway)
     * [Numero di Dunbar](#numero-di-dunbar)
-    * [Legge di Gall](#galls-law)
+    * [Legge di Gall](#legge-di-gall)
     * [Rasoio di Hanlon](#hanlons-razor)
     * [Legge di Hofstadter](#hofstadters-law)
     * [Legge di Hutber](#hutbers-law)
@@ -122,19 +122,19 @@ Vedi anche:
 
 - [Legge di Conway](#legge-di-conway)
 
-### Gall's Law
+### Legge di Gall
 
-[Gall's Law on Wikipedia](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
+[Legge di Gall su Wikipedia](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
 
-> A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over with a working simple system.
+> Un sistema di complessità elevata e che funziona è inevitabilmente evoluto a partire da un sistema più semplice che funzionava. Un sistema complesso disegnato da zero non funziona per definizione e non può essere modificato per funzionare: bisogna partire ripartire da un sistema semplice che funziona.
 >
 > ([John Gall](https://en.wikipedia.org/wiki/John_Gall_(author)))
 
-Gall's Law implies that attempts to _design_ highly complex systems are likely to fail. Highly complex systems are rarely built in one go, but evolve instead from more simple systems.
+La Legge di Gall implica che i tentativi di _disegnare_ un sistema ad alta complessità hanno alta probabilità di fallire. I sistemi complessi raramente sono costruiti in una sola iterazione, al contrario sono il risultato dell'evoluzione di sistemi più semplici.
 
-The classic example is the world-wide-web. In it's current state, it is a highly complex system. However, it was defined initially as a simple way to share content between academic institutions. It was very successful in meeting these goals and evolved to become more complex over time.
+Un classico esempio è il World Wide Web. Al suo stato attuale, è un sistema fortemente complesso. Tuttavia, inizialmente fu definito come un sistema semplice per condividere contenuti tra istituti accademici. Realizzò questo obiettivo con grande successo ed mutò nel tempo divenendo sempre più complesso al passare del tempo.
 
-See also:
+Vedi anche:
 
 - [KISS (Keep It Simple, Stupid)](#TODO)
 

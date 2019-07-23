@@ -17,7 +17,7 @@ Leggi, teorie, principi e pattern utili agli sviluppatori.
     * [Legge di Amdahl](#legge-di-amdahl)
     * [Legge di Brooks](#legge-di-brooks)
     * [Legge di Conway](#legge-di-conway)
-    * [Legge di Dunbar](#dunbars-number)
+    * [Numero di Dunbar](#numero-di-dunbar)
     * [Legge di Gall](#galls-law)
     * [Rasoio di Hanlon](#hanlons-razor)
     * [Legge di Hofstadter](#hofstadters-law)
@@ -111,17 +111,16 @@ Vedi anche:
 
 - [Il modello Spotify](#modelli-spotify)
 
-### Dunbar's Number
+### Numero di Dunbar
 
-[Dunbar's Number on Wikipedia](https://en.wikipedia.org/wiki/Dunbar%27s_number)
+[Numero di Dunbar su Wikipedia](https://it.wikipedia.org/wiki/Numero_di_Dunbar)
+"Il numero di Dunbar è stato suggerito come valore cognitivo che limita il numero di persone con cui un individuo riesce a mantenere relazioni sociali stabili - relazioni in cui l'individuo sa chi è ciascuna controparte e come tutte le controparti si relazionano tra di loro". Non c'è concordanza sull'esatto valore di questo limite. "... Dunbar ha affermato che un essere umano può mantenere solo 150 relazioni stabili". Egli ha inserito questa affermazione in un contesto più sociale: "il numero di persone con cui ti sentiresti a tuo agio a prendere un drink se entrassi in un bar e le incontrassi casualmente". Le stime per il numero generalmente stanno tra 100 e 250.
 
-"Dunbar's number is a suggested cognitive limit to the number of people with whom one can maintain stable social relationships— relationships in which an individual knows who each person is and how each person relates to every other person." There is some disagreement to the exact number. "... [Dunbar] proposed that humans can comfortably maintain only 150 stable relationships." He put the number into a more social context, "the number of people you would not feel embarrassed about joining uninvited for a drink if you happened to bump into them in a bar." Estimates for the number generally lay between 100 and 250.
+Come le relazioni stabili tra individui, le relazioni di uno sviluppatore con una codebase necessitano di impegno per essere mantenute. Quando ci troviamo di fronte a progetti grandi e complicati, o abbiamo la responsabilità di molti progetti, ci affidiamo a convenzioni, policy e procedure disegnate per scalare. Il numero di Dunbar non solo è importante da ricordare quando un ufficio cresce di dimensioni, ma anche quando si stabilisce il perimetro per l'operato di un team o quando si deve decidere se investire nella strumentazione per modellizzare e automatizzare l'overhead logistico. Inquadrando il numero di Dunbar in un contesto ingegneristico, esso rappresenta il numero di progetti (o la comoplessità normalizzata di un singolo progetto) sui quali un individuo si sentirebbe sicuro di lavorare a chiamata.
 
-Like stable relationships between individuals, a developer's relationship with a codebase takes effort to maintain. When faced with large complicated projects, or ownership of many projects we lean on convention, policy, and modeled procedure to scale. Dunbar's number is not only important to keep in mind as an office grows, but also when setting the scope for team efforts or deciding when a system should invest in tooling to assist in modeling and automating logistical overhead. Putting the number into an engineering context, it is the number of projects (or normalized complexity of a single project) for which you would feel confident in joining an on-call rotation to support.
+Vedi anche:
 
-See also:
-
-- [Conway's Law](#conways-law)
+- [Legge di Conway](#legge-di-conway)
 
 ### Gall's Law
 

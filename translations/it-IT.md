@@ -19,7 +19,7 @@ Leggi, teorie, principi e pattern utili agli sviluppatori.
     * [Legge di Conway](#legge-di-conway)
     * [Numero di Dunbar](#numero-di-dunbar)
     * [Legge di Gall](#legge-di-gall)
-    * [Rasoio di Hanlon](#hanlons-razor)
+    * [Rasoio di Hanlon](#rasoio-di-hanlon)
     * [Legge di Hofstadter](#hofstadters-law)
     * [Legge di Hutber](#hutbers-law)
     * [Hype Cycle e Legge di Amara](#the-hype-cycle--amaras-law)
@@ -138,15 +138,15 @@ Vedi anche:
 
 - [KISS (Keep It Simple, Stupid)](#TODO)
 
-### Hanlon's Razor
+### Rasoio di Hanlon
 
-[Hanlon's Razor on Wikipedia](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
+[Rasoio di Hanlon su Wikipedia](https://it.wikipedia.org/wiki/Rasoio_di_Hanlon)
 
-> Never attribute to malice that which is adequately explained by stupidity.
+> Non attribuire mai a malafede quel che si può ragionevolmente spiegare con la stupidità.
 >
 > Robert J. Hanlon
 
-This principle suggests that actions resulting in a negative outcome were not a result of ill will. Instead the negative outcome is more likely attributed to those actions and/or the impact being not fully understood.
+Questo principio suggerisce che l'ottenimento di un risultato negativo con ogni probabilità non è dovuto alla volontà perversa di fallire quanto alla mancata comprensione (totale o parziale) dell'impatto delle proprie azioni.
 
 ### Hofstadter's Law
 

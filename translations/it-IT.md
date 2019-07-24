@@ -20,7 +20,7 @@ Leggi, teorie, principi e pattern utili agli sviluppatori.
     * [Numero di Dunbar](#numero-di-dunbar)
     * [Legge di Gall](#legge-di-gall)
     * [Rasoio di Hanlon](#rasoio-di-hanlon)
-    * [Legge di Hofstadter](#hofstadters-law)
+    * [Legge di Hofstadter](#legge-di-hofstadter)
     * [Legge di Hutber](#hutbers-law)
     * [Hype Cycle e Legge di Amara](#the-hype-cycle--amaras-law)
     * [Legge di Hyrum (Legge delle Interfacce Implicite)](#hyrums-law-the-law-of-implicit-interfaces)
@@ -148,19 +148,19 @@ Vedi anche:
 
 Questo principio suggerisce che l'ottenimento di un risultato negativo con ogni probabilità non è dovuto alla volontà perversa di fallire quanto alla mancata comprensione (totale o parziale) dell'impatto delle proprie azioni.
 
-### Hofstadter's Law
+### Legge di Hofstadter
 
-[Hofstadter's Law on Wikipedia](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
+[Legge di Hofstadter su Wikipedia](https://it.wikipedia.org/wiki/Legge_di_Hofstadter)
 
-> It always takes longer than you expect, even when you take into account Hofstadter's Law.
+> Per fare una cosa ci vuole sempre più tempo di quanto si pensi, anche tenendo conto della Legge di Hofstadter.
 >
 > (Douglas Hofstadter)
 
-You might hear this law referred to when looking at estimates for how long something will take. It seems a truism in software development that we tend to not be very good at accurately estimating how long something will take to deliver.
+Questa legge è citata quando si fanno le stime sulla durata di qualcosa. Nello campo dello sviluppo software sembra essere un assioma la tendenza ad essere poco bravi nello stimare con precisione quanto tempo verrà richiesto per le delivery.
 
-This is from the book '[Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)'.
+La legge viene dal libro '[Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)'.
 
-See also:
+Vedi anche:
 
 - [Reading List: Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)
 

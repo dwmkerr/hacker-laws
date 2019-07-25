@@ -22,7 +22,7 @@ Leggi, teorie, principi e pattern utili agli sviluppatori.
     * [Rasoio di Hanlon](#rasoio-di-hanlon)
     * [Legge di Hofstadter](#legge-di-hofstadter)
     * [Legge di Hutber](#legge-di-hutber)
-    * [Hype Cycle e Legge di Amara](#the-hype-cycle--amaras-law)
+    * [Hype Cycle e Legge di Amara](#hype-cycle-e-legge-di-amara)
     * [Legge di Hyrum (Legge delle Interfacce Implicite)](#hyrums-law-the-law-of-implicit-interfaces)
     * [Legge di Moore](#legge-di-moore)
     * [Legge di Parkinson](#parkinsons-law)
@@ -73,7 +73,7 @@ Il diagramma sotto riportato illustra gli andamenti nel tempo della velocità di
 
 ![Diagram: Amdahl's Law](./images/amdahls_law.png)
 
-*(Crediti Immagine: Daniels220 su Wikipedia EN, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
+*(Crediti Immagine: Daniels220 su Wikipedia in lingua inglese, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 
 Come si può vedere, anche un programma che è al 50% parallelizzabile beneficerà molto poco dell'aggiunta di più di 10 core di calcolo, mentre un programma che è parallelizzabile al 95% può raggiungere speedup significativi nella velocità di esecuzione anche oltre 1000 core di calcolo aggiunti.
 
@@ -176,21 +176,21 @@ La legge indica che i miglioramenti apportati ad una parte di un sistema portera
 
 Per esempio, la diminuzione nella latenza di risposta di uno specifico end-point provoca un amumento nel throughput e problemi di capacity nel workflow di gestione delle richieste, impattando altri sottosistemi correlati.
 
-### The Hype Cycle & Amara's Law
+### Hype Cycle e Legge di Amara
 
-[The Hype Cycle on Wikipedia](https://en.wikipedia.org/wiki/Hype_cycle)
+[Hype Cycle su Wikipedia](https://it.wikipedia.org/wiki/Hype_cycle)
 
-> We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.
+> Tendiamo a sovrastimare l'impatto di una tecnologia sul breve termine e nel sottostimarlo sul lungo termine.
 >
 > (Roy Amara)
 
-The Hype Cycle is a visual representation of the excitement and development of technology over time, originally produced by Gartner. It is best shown with a visual:
+L'Hype Cycle è una rappresentazione visuale del clamore attorno allo sviluppo di una tecnologia nel tempo, originariamente ideata da Gartner. Un esempio:
 
 ![The Hype Cycle](./images/gartner_hype_cycle.png)
 
-*(Image Reference: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
+*(Crediti Immagine: Jeremykemp su Wikipedia in lingua inglese, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
 
-In short, this cycle suggests that there is typically a burst of excitement around new technology and its potential impact. Teams often jump into these technologies quickly, and sometimes find themselves disappointed with the results. This might be because the technology is not yet mature enough, or real-world applications are not yet fully realised. After a certain amount of time, the capabilities of the technology increase and practical opportunities to use it increase, and teams can finally become productive. Roy Amara's quote sums this up most succinctly - "We tend to overestimate the effect of a technology in the short run and underestimate in the long run".
+In sintesi, il Cycle dice che tipicamente esiste un picco di frenesia quando nasce una nuova tecnologia riguardo i suoi potenziali impatti. I team di lavoro di solito adottano velocemente tali tecnologie e a volte si trovano scontenti del risultato. Ciò può essere dovuto all'immaturità della tecnologia, oppure alla mancanza di applicazioni reali significative. Dopo un certo periodo di tempo, le potenzialità della tecnologia aumentano e aumenta il numero delle opportunità concrete che essa offre, per cui i team di lavoro possono finalmente aumentare la loro produttività adottandola. La citazione di Roy Amara riassume in breve questa situazione - "Tendiamo a sovrastimare l'impatto di una tecnologia sul breve termine e nel sottostimarlo sul lungo termine".
 
 ### Hyrum's Law (The Law of Implicit Interfaces)
 

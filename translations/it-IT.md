@@ -21,7 +21,7 @@ Leggi, teorie, principi e pattern utili agli sviluppatori.
     * [Legge di Gall](#legge-di-gall)
     * [Rasoio di Hanlon](#rasoio-di-hanlon)
     * [Legge di Hofstadter](#legge-di-hofstadter)
-    * [Legge di Hutber](#hutbers-law)
+    * [Legge di Hutber](#legge-di-hutber)
     * [Hype Cycle e Legge di Amara](#the-hype-cycle--amaras-law)
     * [Legge di Hyrum (Legge delle Interfacce Implicite)](#hyrums-law-the-law-of-implicit-interfaces)
     * [Legge di Moore](#legge-di-moore)
@@ -164,17 +164,17 @@ Vedi anche:
 
 - [Reading List: Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)
 
-### Hutber's Law
+### Legge di Hutber
 
-[Hutber's Law on Wikipedia](https://en.wikipedia.org/wiki/Hutber%27s_law)
+[Legge di Hutber su Wikipedia](https://en.wikipedia.org/wiki/Hutber%27s_law)
 
-> Improvement means deterioration.
+> I miglioramenti spesso celano altri peggioramenti.
 >
 > ([Patrick Hutber](https://en.wikipedia.org/wiki/Patrick_Hutber))
 
-This law suggests that improvements to a system will lead to deterioration in other parts, or it will hide other deterioration, leading overall to a degradation from the current state of the system.
+La legge indica che i miglioramenti apportati ad una parte di un sistema porteranno ad un inevitabile deterioramento in altre sue parti, causando quindi un globale deterioramento nello stato corrente del sistema.
 
-For example, a decrease in response latency for a particular end-point could cause increased throughput and capacity issues further along in a request flow, effecting an entirely different sub-system.
+Per esempio, la diminuzione nella latenza di risposta di uno specifico end-point provoca un amumento nel throughput e problemi di capacity nel workflow di gestione delle richieste, impattando altri sottosistemi correlati.
 
 ### The Hype Cycle & Amara's Law
 

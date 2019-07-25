@@ -23,13 +23,13 @@ Leggi, teorie, principi e pattern utili agli sviluppatori.
     * [Legge di Hofstadter](#legge-di-hofstadter)
     * [Legge di Hutber](#legge-di-hutber)
     * [Hype Cycle e Legge di Amara](#hype-cycle-e-legge-di-amara)
-    * [Legge di Hyrum (Legge delle Interfacce Implicite)](#hyrums-law-the-law-of-implicit-interfaces)
+    * [Legge di Hyrum (Legge delle Interfacce Implicite)](#legge-di-hyrum-legge-delle-interfacce-implicite)
     * [Legge di Moore](#legge-di-moore)
     * [Legge di Parkinson](#parkinsons-law)
     * [Ottimizzazione Prematura](#premature-optimization-effect)
     * [Legge di Putt](#putts-law)
     * [Legge di Conservazione della Complessità (Legge di Tesler)](#the-law-of-conservation-of-complexity-teslers-law)
-    * [Legge dell'Astrazione Colabrodo](#the-law-of-leaky-abstractions)
+    * [Legge dell'Astrazione Colabrodo](#legge-dell-astrazione-colabrodo)
     * [Legge di Banalità](#the-law-of-triviality)
     * [La Filosofia di Unix](#the-unix-philosophy)
     * [Il modello Spotify](#modelli-spotify)
@@ -192,22 +192,22 @@ L'Hype Cycle è una rappresentazione visuale del clamore attorno allo sviluppo d
 
 In sintesi, il Cycle dice che tipicamente esiste un picco di frenesia quando nasce una nuova tecnologia riguardo i suoi potenziali impatti. I team di lavoro di solito adottano velocemente tali tecnologie e a volte si trovano scontenti del risultato. Ciò può essere dovuto all'immaturità della tecnologia, oppure alla mancanza di applicazioni reali significative. Dopo un certo periodo di tempo, le potenzialità della tecnologia aumentano e aumenta il numero delle opportunità concrete che essa offre, per cui i team di lavoro possono finalmente aumentare la loro produttività adottandola. La citazione di Roy Amara riassume in breve questa situazione - "Tendiamo a sovrastimare l'impatto di una tecnologia sul breve termine e nel sottostimarlo sul lungo termine".
 
-### Hyrum's Law (The Law of Implicit Interfaces)
+### Legge di Hyrum (Legge delle Interfacce Implicite)
 
-[Hyrum's Law Online](http://www.hyrumslaw.com/)
+[Legge di Hyrum Online](http://www.hyrumslaw.com/)
 
-> With a sufficient number of users of an API,
-> it does not matter what you promise in the contract:
-> all observable behaviours of your system
-> will be depended on by somebody.
+> Dato un numero sufficientementa elevato di utenti di un'API,
+> il contenuto del contratto di interfaccia non conta:
+> tutti i comportamenti osservabili del sistema che espone l'API
+> saranno utilizzati da questi utenti.
 >
 > (Hyrum Wright)
 
-Hyrum's Law states that when you have a _large enough number of consumers_ of an API, all behaviours of the API (even those not defined as part of a public contract) will eventually come to be depended on by someone. A trivial example may be non-functional elements such as the response time of an API. A more subtle example might be consumers who are relying on applying a regex to an error message to determine the *type* of error of an API. Even if the public contract of the API states nothing about the contents of the message, indicating users should use an associated error code, _some_ users may use the message, and changing the message essentially breaks the API for those users.
+La lagge di Hyrum dice che quando un'API ha un _numero sufficientementa elevato di consumer_, tutti i comportamenti di essa (anche quelli non definiti come parte dell'interfaccia pubblica) prima o poi costituiranno una dipendenza lato consumer. Un esempio banale è quello degli aspetti non-funzionali come il tempo di risposta di un'API. Un esempio più profondo è quello di consumer che applicano una regex sui messaggi di errore dell'API per determinarne la *tipologia*. Anche se il contratto pubblico di interfaccia un'API non dice nulla riguardo al contenuto dei messaggi e suggerisce agli utentil'utilizzo dei codici di errore associati ai messaggi, _alcuni_ utenti possono comunque utilizzare i messaggi di errore a tal fine e dunque una modifica dei messaggi sostanzialmente rompe l'integrazione per questi utenti.
 
-See also:
+Vedi anche:
 
-- [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
+- [Legge dell'Astrazione Colabrodo](#legge-dell-astrazione-colabrodo)
 - [XKCD 1172](https://xkcd.com/1172/)
 
 ### Moore's Law

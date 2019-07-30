@@ -25,7 +25,7 @@ Leggi, teorie, principi e pattern utili agli sviluppatori.
     * [Hype Cycle e Legge di Amara](#hype-cycle-e-legge-di-amara)
     * [Legge di Hyrum (Legge delle Interfacce Implicite)](#legge-di-hyrum-legge-delle-interfacce-implicite)
     * [Legge di Moore](#legge-di-moore)
-    * [Legge di Parkinson](#parkinsons-law)
+    * [Legge di Parkinson](#legge-di-parkinson)
     * [Ottimizzazione Prematura](#premature-optimization-effect)
     * [Legge di Putt](#putts-law)
     * [Legge di Conservazione della Complessità (Legge di Tesler)](#the-law-of-conservation-of-complexity-teslers-law)
@@ -218,19 +218,19 @@ Vedi anche:
 
 Spesso utilizzata per illustrare il tasso con cui le tecnologie a semiconduttori e i chip migliorano nel tempo, la legge di Moore si è dimostrata molto accurata dagli anni Settanta fino alla fine dei Duemila. Più di recente il trend è lievemente cambiato, in parte a causa delle [limitazioni fisiche alla miniaturizzazione delle componenti elettroniche](https://it.wikipedia.org/wiki/Effetto_tunnel) ma tuttavia avanzamenti nel campo della parallelizzazione del calcolo e scoperte potenzialmente rivoluzionarie nel campo delle tecnologie a semiconduttori e nel quantum computing potrebbero portare la legge di Moore a valere anche nei prossimi decenni.
 
-### Parkinson's Law
+### Legge di Parkinson
 
-[Parkinson's Law on Wikipedia](https://en.wikipedia.org/wiki/Parkinson%27s_law)
+[Legge di Parkinson su Wikipedia](https://it.wikipedia.org/wiki/La_legge_di_Parkinson)
 
-> Work expands so as to fill the time available for its completion.
+> Il lavoro tende ad espandersi fino ad impiegare tutto il tempo disponibile per svolgerlo.
 
-In its original context, this Law was based on studies of bureaucracies. It may be pessimistically applied to software development initiatives, the theory being that teams will be inefficient until deadlines near, then rush to complete work by the deadline, thus making the actual deadline somewhat arbitrary.
+Nel suo contesto originale, questa legge era riferita agli studi sulla gestione della burocrazia. Può essere applicata in ottica pessimistica alle iniziative di sviluppo software, e in sostanza afferma che i team saranno inefficienti fino all'approssimarsi delle deadline e lavoreranno quindi di corsa per rispettare tali deadline rendendole, in un certo senso, arbitrarie.
 
-If this law were combined with [Hofstadter's Law](#hofstadters-law), an even more pessimistic viewpoint is reached - work will expand to fill the time available for its completion and *still take longer than expected*.
+Combinando la legge di Parkinson con la [Legge di Hofstadter](#legge-di-hofstadter), si ottiene una vista ancora più pessimistica: il lavoro tenderà ad espandersi fino ad impiegare tutto il tempo disponibile per svolgerlo e *in ogni caso richiederà più tempo di quanto previsto*.
 
-See also:
+Vedi anche:
 
-- [Hofstadter's Law](#hofstadters-law)
+- [Legge di Hofstadter](#legge-di-hofstadter)
 
 ### Premature Optimization Effect
 

@@ -33,8 +33,8 @@ Leggi, teorie, principi e pattern utili agli sviluppatori.
     * [Legge di Irrilevanza](#legge-di-irrilevanza)
     * [Filosofia Unix](#filosofia-unix)
     * [Il modello Spotify](#il-modello-spotify)
-    * [Legge di Wadler](#wadlers-law)
-* [Principi](#principles)
+    * [Legge di Wadler](#legge-di-wadler)
+* [Principi](#principi)
     * [Il Principo di Pareto (La regola dell'80/20)](#the-pareto-principle-the-8020-rule)
     * [Il Principio di Robustezza (Legge di Postel's)](#the-robustness-principle-postels-law)
     * [SOLID](#solid)
@@ -328,28 +328,29 @@ Il modello Spotify è un approccio alla strutturazione del lavoro e dell'azienda
 Il modello Spotify rende inoltre popolari i concetti di Tribù, Gilda, Capitolo, che sono altre componenti della struttura organizzativa.
 
 
-### Wadler's Law
+### Legge di Wadler
 
-[Wadler's Law on wiki.haskell.org](https://wiki.haskell.org/Wadler's_Law)
+[Legge di Wadler su wiki.haskell.org](https://wiki.haskell.org/Wadler's_Law)
 
-> In any language design, the total time spent discussing a feature in this list is proportional to two raised to the power of its position.
+> Nella progettazione di qualsiasi linguaggio, il tempo totale impiegato a discutere un elemento di questa lista è proporzionale a 2 elevato alla potenza corrispondente alla posizione dell'elemento:
 > 
-> 0. Semantics
-> 1. Syntax
-> 2. Lexical syntax
-> 3. Lexical syntax of comments
+> 0. Semantica
+> 1. Sintassi
+> 2. Sintassi lessicale
+> 3. Sintassi lessicale dei commenti
 > 
-> (In short, for every hour spent on semantics, 8 hours will be spent on the syntax of comments).
+> (In breve: per ogni ora spesa a discutere della semantica, 8 ore saranno spese sulla sintassi dei commenti).
 
-Similar to [Legge di Irrilevanza su Wikipedia](https://en.wikipedia.org/wiki/Law_of_triviality), Wadler's Law states what when designing a language, the amount of time spent on language structures is disproportionately high in comparison to the importance of those features.
+Similmente alla [Legge di Irrilevanza](#legge-di-irrilevanza), la Legge di Wadler afferma che nel design di un linguaggio di programmazione il tempo speso sulla discussione della struttura del linguaggio è sproporzionatamente alto se comparato con l'importanza delle feature discussa.
 
 Vedi anche:
 
-- [Legge di Irrilevanza su Wikipedia](https://en.wikipedia.org/wiki/Law_of_triviality)
+- [Legge di Irrilevanza](#legge-di-irrilevanza)
 
-## Principles
+## Principi
 
-Principles are generally more likely to be guidelines relating to design.
+I Principi sono in generale usabili come linee guida per il design.
+
 
 ### The Pareto Principle (The 80/20 Rule)
 

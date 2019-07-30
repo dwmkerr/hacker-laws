@@ -210,13 +210,13 @@ Vedi anche:
 - [Legge dell'Astrazione Colabrodo](#legge-dell-astrazione-colabrodo)
 - [XKCD 1172](https://xkcd.com/1172/)
 
-### Moore's Law
+### Legge di Moore
 
-[Moore's Law on Wikipedia](https://en.wikipedia.org/wiki/Moore%27s_law)
+[Legge di Moore su Wikipedia](https://it.wikipedia.org/wiki/Legge_di_Moore)
 
-> The number of transistors in an integrated circuit doubles approximately every two years.
+> Il numero di transistor in un circuito integrato raddoppia approssimativamente ogni due anni.
 
-Often used to illustrate the sheer speed at which semiconductor and chip technology has improved, Moore's prediction has proven to be highly accurate over from the 1970s to the late 2000s. In more recent years, the trend has changed slightly, partly due to [physical limitations on the degree to which components can be miniaturised](https://en.wikipedia.org/wiki/Quantum_tunnelling). However, advancements in parallelisation, and potentially revolutionary changes in semiconductor technology and quantum computing may mean that Moore's Law could continue to hold true for decades to come.
+Spesso utilizzata per illustrare il tasso con cui le tecnologie a semiconduttori e i chip migliorano nel tempo, la legge di Moore si è dimostrata molto accurata dagli anni Settanta fino alla fine dei Duemila. Più di recente il trend è lievemente cambiato, in parte a causa delle [limitazioni fisiche alla miniaturizzazione delle componenti elettroniche](https://it.wikipedia.org/wiki/Effetto_tunnel) ma tuttavia avanzamenti nel campo della parallelizzazione del calcolo e scoperte potenzialmente rivoluzionarie nel campo delle tecnologie a semiconduttori e nel quantum computing potrebbero portare la legge di Moore a valere anche nei prossimi decenni.
 
 ### Parkinson's Law
 

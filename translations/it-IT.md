@@ -28,7 +28,7 @@ Leggi, teorie, principi e pattern utili agli sviluppatori.
     * [Legge di Parkinson](#legge-di-parkinson)
     * [Ottimizzazione Prematura](#effetto-di-ottimizzazione-prematura)
     * [Legge di Putt](#legge-di-putt)
-    * [Legge di Conservazione della Complessità (Legge di Tesler)](#the-law-of-conservation-of-complexity-teslers-law)
+    * [Legge di Conservazione della Complessità (Legge di Tesler)](#legge-di-conservazione-della-complessita-legge-di-tesler)
     * [Legge dell'Astrazione Colabrodo](#legge-dell-astrazione-colabrodo)
     * [Legge di Banalità](#the-law-of-triviality)
     * [La Filosofia di Unix](#the-unix-philosophy)
@@ -266,15 +266,16 @@ Vedi anche:
 - [Legge di Dilbert](#TODO).
 
 
-### The Law of Conservation of Complexity (Tesler's Law)
+### Legge di Conservazione della Complessità (Legge di Tesler)
 
-[The Law of Conservation of Complexity on Wikipedia](https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity)
+[Legge di Conservazione della Complessità su Wikipedia](https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity)
 
-This law states that there is a certain amount of complexity in a system which cannot be reduced.
+Le Legge dice che in ogni sistema esiste un certo livello di complessità che non può essere ridotto.
 
-Some complexity in a system is 'inadvertent'. It is a consequence of poor structure, mistakes, or just bad modeling of a problem to solve. Inadvertent complexity can be reduced (or eliminated). However, some complexity is 'intrinsic' as a consequence of the complexity inherent in the problem being solved. This complexity can be moved, but not eliminated.
+Parte della complessità di un sistema è introdotta "inavvertitamente" ed è conseguenza della struttura imperfetta, degli errori o semplicemente di una modellizzazione errata del problema da risolvere. La complessità involontaria può essere ridotta (o eliminata). Tuttavia, parte della complessità è "intrinseca" ed è conseguenza della complessità inerente al problema da risolvere. Questa complessità può essere spostata ma non eliminata.
 
-One interesting element to this law is the suggestion that even by simplifying the entire system, the intrinsic complexity is not reduced, it is _moved to the user_, who must behave in a more complex way.
+Un elemento interessante di questa Legge è che ci dice che anche semplificando l'intero sistema, la complessità intrinseca non viene ridotta ma viene _spostata sull'utente_, che deve di conseguenza interagire in modo più sofisticato con il sistema.
+
 
 ### The Law of Leaky Abstractions
 

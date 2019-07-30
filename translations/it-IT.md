@@ -30,9 +30,9 @@ Leggi, teorie, principi e pattern utili agli sviluppatori.
     * [Legge di Putt](#legge-di-putt)
     * [Legge di Conservazione della Complessità (Legge di Tesler)](#legge-di-conservazione-della-complessita-legge-di-tesler)
     * [Legge dell'Astrazione Fallata](#legge-dell-astrazione-fallata)
-    * [Legge di Banalità](#the-law-of-triviality)
-    * [La Filosofia di Unix](#the-unix-philosophy)
-    * [Il modello Spotify](#modelli-spotify)
+    * [Legge di Irrilevanza](#legge-di-irrilevanza)
+    * [Filosofia Unix](#filosofia-unix)
+    * [Il modello Spotify](#il-modello-spotify)
     * [Legge di Wadler](#wadlers-law)
 * [Principi](#principles)
     * [Il Principo di Pareto (La regola dell'80/20)](#the-pareto-principle-the-8020-rule)
@@ -109,7 +109,7 @@ Questa legge indica che i confini di un sistema software riflettono la struttura
 
 Vedi anche:
 
-- [Il modello Spotify](#modelli-spotify)
+- [Il modello Spotify](#il-modello-spotify)
 
 ### Numero di Dunbar
 
@@ -301,31 +301,32 @@ Esempi dal mondo reale:
 
 - [Partenza lenta di Photoshop](https://forums.adobe.com/thread/376152) - problema incontrato nel passato su Photoshop, che a volta impiegava minuti per avviarsi. Sembra che il problema fosse che all'avvio Photoshop leggeva informazioni sulla stampante di default. Tuttavia, se la stampante era una stampante di rete, questa lettura poteva impiegare un tempo molto lungo. L'_astrazione_ per cui la stampante di rete era presentata al sistema esattamente come una stampante locale causava quindi una situazione di estrema lentezza per gli utenti in condizioni di rete lenta.
 
-### The Law of Triviality
+### Legge di Irrilevanza
 
-[The Law of Triviality on Wikipedia](https://en.wikipedia.org/wiki/Law_of_triviality)
+[Legge di Irrilevanza su Wikipedia](https://en.wikipedia.org/wiki/Law_of_triviality)
 
-This law suggests that groups will give far more time and attention to trivial or cosmetic issues rather than serious and substantial ones.
+La Legge afferma che i team di lavoro tendono a dedicare molto più tempo e attenzione a dettagli irrilevanti o legati alla cosmesi del lavoro piuttosto che alle questioni serie e sostanziali.
 
-The common fictional example used is that of a committee approving plans for nuclear power plant, who spend the majority of their time discussing the structure of the bike shed, rather than the far more important design for the power plant itself. It can be difficult to give valuable input on discussions about very large, complex topics without a high degree of subject matter expertise or preparation. However, people want to be seen to be contributing valuable input. Hence a tendency to focus too much time on small details, which can be reasoned about easily, but are not necessarily of particular importance.
+Il tipico esempio fittizio usato per illustrare la Legge è quello di un comitato incaricato di approvare i piani per un impianto nucleare, che passa più tempo a discutere i dettagli del ripostiglio delle biciclette che a discutere il ben più importante design dell'impianto stesso. Può essere difficile a volte dare il giusto contributo quando si discute di argomenti grandi e complessi senza avere una preparazione o esperienza adeguata in merito. Tuttavia, le persone vogliono in genere mostrarsi attive nel collaborare fornendo input di valore. Da qui la tendenza a concentrarsi troppo sul dettaglio spiccio, che può essere discusso facilmente, ma non ha necessariamente rilevanza.
 
-The fictional example above led to the usage of the term 'Bike Shedding' as an expression for wasting time on trivial details.
+L'esempio fittizio ha portato all'utilizzo del termine "ripostiglio delle biciclette" come metafora della perdita di tempo sui dettagli di poca rilevanza. 
 
 ### The Unix Philosophy
 
-[The Unix Philosophy on Wikipedia](https://en.wikipedia.org/wiki/Unix_philosophy)
+[La Filosofia Unix su Wikipedia](https://it.wikipedia.org/wiki/Filosofia_Unix)
 
-The Unix Philosophy is that software components should be small, and focused on doing one specific thing well. This can make it easier to build systems by composing together small, simple, well-defined units, rather than using large, complex, multi-purpose programs.
+La Filosofia Unix predica che le componenti software debbano essere piccole e mirate a implementare bene un solo scopo. Ciò rende più semplice costruire sistemi mediante composizione di unità piccole, semplici e ben definite, piuttosto che mediante composizione di programmi grossi, complessi e multi-purpose.
 
-Modern practices like 'Microservice Architecture' can be thought of as an application of this law, where services are small, focused and do one specific thing, allowing complex behaviour to be composed of simple building blocks.
+Le moderne prassi come le "Architettura a Microservizi" possono essere viste come applicazioni di questa Filosofia, per cui i servizi sono piccoli e focalizzati sul fare una cosa specifica, consentendo la creazione di comportamenti complessi mediante composizione di mattoni più semplici.
 
-### The Spotify Model
+### Il modello Spotify
 
-[The Spotify Model on Spotify Labs](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)
+[Il modello Spotify su Spotify Labs](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)
 
-The Spotify Model is an approach to team and organisation structure which has been popularised by 'Spotify'. In this model, teams are organised around features, rather than technologies.
+Il modello Spotify è un approccio alla strutturazione del lavoro e dell'azienda che è stato reso popolare da Spotify. In questo modello, i team di lavoro sono organizzati attorno alle features invece che alle tecnologie.
 
-The Spotify Model also popularises the concepts of Tribes, Guilds, Chapters, which are other components of their organisation structure.
+Il modello Spotify rende inoltre popolari i concetti di Tribù, Gilda, Capitolo, che sono altre componenti della struttura organizzativa.
+
 
 ### Wadler's Law
 
@@ -340,11 +341,11 @@ The Spotify Model also popularises the concepts of Tribes, Guilds, Chapters, whi
 > 
 > (In short, for every hour spent on semantics, 8 hours will be spent on the syntax of comments).
 
-Similar to [The Law of Triviality](#the-law-of-triviality), Wadler's Law states what when designing a language, the amount of time spent on language structures is disproportionately high in comparison to the importance of those features.
+Similar to [Legge di Irrilevanza su Wikipedia](https://en.wikipedia.org/wiki/Law_of_triviality), Wadler's Law states what when designing a language, the amount of time spent on language structures is disproportionately high in comparison to the importance of those features.
 
-See also:
+Vedi anche:
 
-- [The Law of Triviality](#the-law-of-triviality)
+- [Legge di Irrilevanza su Wikipedia](https://en.wikipedia.org/wiki/Law_of_triviality)
 
 ## Principles
 

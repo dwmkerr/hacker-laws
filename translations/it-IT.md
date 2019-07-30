@@ -26,8 +26,8 @@ Leggi, teorie, principi e pattern utili agli sviluppatori.
     * [Legge di Hyrum (Legge delle Interfacce Implicite)](#legge-di-hyrum-legge-delle-interfacce-implicite)
     * [Legge di Moore](#legge-di-moore)
     * [Legge di Parkinson](#legge-di-parkinson)
-    * [Ottimizzazione Prematura](#premature-optimization-effect)
-    * [Legge di Putt](#putts-law)
+    * [Ottimizzazione Prematura](#effetto-di-ottimizzazione-prematura)
+    * [Legge di Putt](#legge-di-putt)
     * [Legge di Conservazione della Complessità (Legge di Tesler)](#the-law-of-conservation-of-complexity-teslers-law)
     * [Legge dell'Astrazione Colabrodo](#legge-dell-astrazione-colabrodo)
     * [Legge di Banalità](#the-law-of-triviality)
@@ -232,36 +232,38 @@ Vedi anche:
 
 - [Legge di Hofstadter](#legge-di-hofstadter)
 
-### Premature Optimization Effect
+### Effetto di Ottimizzazione Prematura
 
-[Premature Optimization on WikiWikiWeb](http://wiki.c2.com/?PrematureOptimization)
+[Ottimizzazione Prematura su WikiWikiWeb](http://wiki.c2.com/?PrematureOptimization)
 
-> Premature optimization is the root of all evil.
+> L'ottimizzazione prematura è la radice di ogni male.
 >
 > [(Donald Knuth)](https://twitter.com/realdonaldknuth?lang=en)
 
-In Donald Knuth's paper [Structured Programming With Go To Statements](http://wiki.c2.com/?StructuredProgrammingWithGoToStatements), he wrote: "Programmers waste enormous amounts of time thinking about, or worrying about, the speed of noncritical parts of their programs, and these attempts at efficiency actually have a strong negative impact when debugging and maintenance are considered. We should forget about small efficiencies, say about 97% of the time: **premature optimization is the root of all evil**. Yet we should not pass up our opportunities in that critical 3%."
 
-However, _Premature Optimization_ can be defined (in less loaded terms) as optimizing before we know that we need to.
+Nella sua pubblicazione [Programmazione Strutturata con clausole Go To](http://wiki.c2.com/?StructuredProgrammingWithGoToStatements),
+Donald Knuth scrisse: "I programmatori perdono un'enormità di tempo a preoccuparsi delle performance delle sezioni non critiche dei loro programmi, e i tentativi di efficientarle hanno in realtà un forte impatto negativo durante il debugging e la manutenzione. Dovremmo dimenticarci dei piccoli efficientamenti, che impattano circa il 97% del tempo di esecuzione: **l'ottimizzazione prematura è la radice di ogni male**. Di contro non dovremmo mai lasciarci sfuggire l'occasione di migliorare quel critico 3% del tempo di esecuzione."
 
-### Putt's Law
+L'_Ottimizzazione Prematura_ può essere definita (in termini meno coloriti) come l'attività di efficientamento fatta prima di avere evidenza della sua necessità.
 
-[Putt's Law on Wikipedia](https://en.wikipedia.org/wiki/Putt%27s_Law_and_the_Successful_Technocrat)
+### Legge di Putt
 
-> Technology is dominated by two types of people, those who understand what they do not manage and those who manage what they do not understand.
+[Legge di Putt su Wikipedia](https://en.wikipedia.org/wiki/Putt%27s_Law_and_the_Successful_Technocrat)
 
-Putt's Law is often followed by Putt's Corollary:
+> Il mondo della tecnologia è dominato da due tipi di persone: coloro che comprendono ciò che non gestiscono e coloro che gestiscono ciò che non comprendono.
 
-> Every technical hierarchy, in time, develops a competence inversion.
+La Legge di Putt è spesso accompagnata dal Corollario di Putt:
 
-These statements suggest that due to various selection criteria and trends in how groups organise, there will be a number of skilled people at working levels of a technical organisations, and a number of people in managerial roles who are not aware of the complexities and challenges of the work they are managing. This can be due to phenomena such as [The Peter Principle](#TODO) or [Dilbert's Law](#TODO).
+> Ogni gerarchia tecnica, genera un'inversione delle competenze con il passare del tempo.
 
-However, it should be stressed that Laws such as this are vast generalisations and may apply to _some_ types of organisations, and not apply to others.
+Queste frasi suggeriscono che, a causa di svariati criteri di selezione e trend con cui i gruppi di lavoro si organizzano, ci sarà un certo numero di persone di vasta esperienza con ruoli tecnici operativi e un certo numero di ruoli manageriali che non sono in grado di comprendere la complessità e le sfide del contesto lavorativo che sono chiamati a gestire. Ciò si spiega con fenomeni come il [Principio di Peter](#TODO) o [La Legge di Dilbert](#TODO).
 
-See also:
+Tuttavia, è corretto specificare che Leggi come queste sono una grande generalizzazione e si applicano ad _alcuni_ tipi di organizzazione e non ad altri.
 
-- [The Peter Principle](#TODO)
-- [Dilbert's Law](#TODO).
+Vedi anche:
+
+- [Principio di Peter](#TODO)
+- [Legge di Dilbert](#TODO).
 
 
 ### The Law of Conservation of Complexity (Tesler's Law)

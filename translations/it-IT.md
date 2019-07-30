@@ -29,7 +29,7 @@ Leggi, teorie, principi e pattern utili agli sviluppatori.
     * [Ottimizzazione Prematura](#effetto-di-ottimizzazione-prematura)
     * [Legge di Putt](#legge-di-putt)
     * [Legge di Conservazione della Complessità (Legge di Tesler)](#legge-di-conservazione-della-complessita-legge-di-tesler)
-    * [Legge dell'Astrazione Colabrodo](#legge-dell-astrazione-colabrodo)
+    * [Legge dell'Astrazione Fallata](#legge-dell-astrazione-fallata)
     * [Legge di Banalità](#the-law-of-triviality)
     * [La Filosofia di Unix](#the-unix-philosophy)
     * [Il modello Spotify](#modelli-spotify)
@@ -207,7 +207,7 @@ La lagge di Hyrum dice che quando un'API ha un _numero sufficientementa elevato 
 
 Vedi anche:
 
-- [Legge dell'Astrazione Colabrodo](#legge-dell-astrazione-colabrodo)
+- [Legge dell'Astrazione Fallata](#legge-dell-astrazione-fallata)
 - [XKCD 1172](https://xkcd.com/1172/)
 
 ### Legge di Moore
@@ -277,29 +277,29 @@ Parte della complessità di un sistema è introdotta "inavvertitamente" ed è co
 Un elemento interessante di questa Legge è che ci dice che anche semplificando l'intero sistema, la complessità intrinseca non viene ridotta ma viene _spostata sull'utente_, che deve di conseguenza interagire in modo più sofisticato con il sistema.
 
 
-### The Law of Leaky Abstractions
+### Legge dell'Astrazione Fallata
 
-[The Law of Leaky Abstractions on Joel on Software](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
+[La Legge dell'Astrazione Fallata su Joel on Software](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
 
-> All non-trivial abstractions, to some degree, are leaky.
+> Tutte le astrazioni non banali sono in qualche modo fallate.
 >
 > ([Joel Spolsky](https://twitter.com/spolsky))
 
-This law states that abstractions, which are generally used in computing to simplify working with complicated systems, will in certain situations 'leak' elements of the underlying system, this making the abstraction behave in an unexpected way.
+Questa legge afferma che le astrazioni generalmente usate in informatica per semplificare l'uso di sistemi complessi, in certe situazioni, lasceranno "trapelare" il dettaglio dei sistemi sottostanti facendo così funzionare l'astrazione in modo inaspettato.
 
-An example might be loading a file and reading its contents. The file system APIs are an _abstraction_ of the lower level kernel systems, which are themselves an abstraction over the physical processes relating to changing data on a magnetic platter (or flash memory for an SSD). In most cases, the abstraction of treating a file like a stream of binary data will work. However, for a magnetic drive, reading data sequentially will be *significantly* faster than random access (due to increased overhead of page faults), but for an SSD drive, this overhead will not be present. Underlying details will need to be understood to deal with this case (for example, database index files are structured to reduce the overhead of random access), the abstraction 'leaks' implementation details the developer may need to be aware of.
+Un esempio è l'apertura di un file e la lettura del suo contenuto. L'API di un file system è un'_astrazione_ del kernel di sistema, il quale è a sua volta un'astrazione dei processi fisici di modifica dei dati su un disco magnetico (o su una memoria flash nel caso di SSD). Nella maggior parte dei casi, l'astrazione di considerare il file come uno stream di dati binario funzionerà senza problemi. Tuttavia, nel caso di un disco magnetico, la lettura sequenziale dei dati sarà *significativamente* più veloce di un accesso random (per via dell'overhead dovuto ai page fault), ma nel caso di un disco SSD tale overhead non è presente. I dettagli implementativi dell'astrazione dovranno dunque essere compresi se si vuole gestire questo comportamento (ad esempio, i file indice di un database sono strutturati per ridurre l'overhead dell'accesso random), l'astrazione "fallata" lascerà trapelare questi dettagli che possono essere di interesse per il programmatore.
 
-The example above can become more complex when _more_ abstractions are introduced. The Linux operating system allows files to be accessed over a network but represented locally as 'normal' files. This abstraction will 'leak' if there are network failures. If a developer treats these files as 'normal' files, without considering the fact that they may be subject to network latency and failures, the solutions will be buggy.
+L'esempio di cui sopra può diventare anche più complesso quando vengono introdotte astrazioni _multiple_. Il sistema operativo Linux consente di accedere file attraverso una rete, rappresentandoli localmente come file "normali". Questa astrazione "farà acqua" se la rete verrà interrotta. Se uno sviluppatore trattasse questi file come file "noemali", senza considerare il fatto che possono essere soggetti alla latenza e alle interruzioni della rete, la soluzione sviluppata avrà un baco.
 
-The article describing the law suggests that an over-reliance on abstractions, combined with a poor understanding of the underlying processes, actually makes dealing with the problem at hand _more_ complex in some cases.
+L'articolo che descrive questa Legge suggerisce che un'eccessiva fiducia nelle astrazioni, combinata con una scarsa comprensione del sistema sottostante, di fatto in alcuni casi _aumenta_ la complessità del problema da risolvere.
 
-See also:
+Vedi anche:
 
-- [Hyrum's Law](#hyrums-law-the-law-of-implicit-interfaces)
+- [Legge di Hyrum (Legge delle Interfacce Implicite)](#legge-di-hyrum-legge-delle-interfacce-implicite)
 
-Real-world examples:
+Esempi dal mondo reale:
 
-- [Photoshop Slow Startup](https://forums.adobe.com/thread/376152) - an issue I encountered in the past. Photoshop would be slow to startup, sometimes taking minutes. It seems the issue was that on startup it reads some information about the current default printer. However, if that printer is actually a network printer, this could take an extremely long time. The _abstraction_ of a network printer being presented to the system similar to a local printer caused an issue for users in poor connectivity situations.
+- [Partenza lenta di Photoshop](https://forums.adobe.com/thread/376152) - problema incontrato nel passato su Photoshop, che a volta impiegava minuti per avviarsi. Sembra che il problema fosse che all'avvio Photoshop leggeva informazioni sulla stampante di default. Tuttavia, se la stampante era una stampante di rete, questa lettura poteva impiegare un tempo molto lungo. L'_astrazione_ per cui la stampante di rete era presentata al sistema esattamente come una stampante locale causava quindi una situazione di estrema lentezza per gli utenti in condizioni di rete lenta.
 
 ### The Law of Triviality
 

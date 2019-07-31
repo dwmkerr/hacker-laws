@@ -38,12 +38,12 @@ Leggi, teorie, principi e pattern utili agli sviluppatori.
     * [Il Principo di Pareto (La regola dell'80/20)](#principio-di-pareto-regola-dell-80-20)
     * [Il Principio di Robustezza (Legge di Postel's)](#principio-di-robustezza-legge-di-postel)
     * [SOLID](#solid)
-    * [Il Principio di Singola Responsabilità](#the-single-responsibility-principle)
-    * [Il Principio dell'Aperto/Chiuso](#the-openclosed-principle)
-    * [Il Principio di Sostituzione di Liskov](#the-liskov-substitution-principle)
-    * [Il Principio di Segregazione delle Interfacce](#the-interface-segregation-principle)
-    * [Il Principio di Inversione delle Dipendenze](#the-dependency-inversion-principle)
-    * [Il Principio DRY](#the-dry-principle)
+    * [Il Principio di Singola Responsabilità](#principio-di-singola-responsabilita)
+    * [Il Principio dell'Aperto/Chiuso](#principio-dell-open-closed)
+    * [Il Principio di Sostituzione di Liskov](#principio-di-sostituzione-di-liskov)
+    * [Il Principio di Segregazione delle Interfacce](#principio-di-segregazione-delle-interfacce)
+    * [Il Principio di Inversione delle Dipendenze](#principio-di-inversione-delle-dipendenze)
+    * [Il Principio DRY](#principio-dry)
     * [YAGNI](#yagni)
 * [Reading List](#reading-list)
 * [TODO](#todo)
@@ -430,53 +430,56 @@ Vedi anche:
 
 ### Principio di Sotituzione di Liskov
 
-[The Liskov Substitution Principle on Wikipedia](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
+[Il Principio di Sotituzione di Liskov su Wikipedia](https://it.wikipedia.org/wiki/Principio_di_sostituzione_di_Liskov)
 
-> It should be possible to replace a type with a subtype, without breaking the system.
+> Deve essere possibile sostituire l'istanza di un tipo con l'istanza di un suo sottotipo senza rompere il codice.
 
-The third of the '[SOLID](#solid)' principles. This principle states that if a component relies on a type, then it should be able to use subtypes of that type, without the system failing or having to know the details of what that subtype is.
+Il terzo dei Principi '[SOLID](#solid)' afferma che se un componente software fà affidamento su un tipo, allora deve essere possibile utilizzare dei suoi sottotipi al suo posto senza causare errori né dover conoscere il dettaglio di quale sottotipo si sta utilizzando.
 
-As an example, imagine we have a method which reads an XML document from a structure which represents a file. If the method uses a base type 'file', then anything which derives from 'file' should be able to be used in the function. If 'file' supports seeking in reverse, and the XML parser uses that function, but the derived type 'network file' fails when reverse seeking is attempted, then the 'network file' would be violating the principle.
+A titolo di esempio, si immagini di avere un metodo che legge un documento XML da una struttura dati che rappresenta un file. Se il metodo accetta il tipo base 'file' come input, allora qualsiasi tipo derivi da 'file' dovrebbe poter essere utilizzato come input al metodo. Se 'file' supporta la ricerca dalla fine all'inizio e il parser XML usa tale funzione, ma il tipo derivato 'network file' non supporta tale funzione, allora 'network file' violerebbe il Principio.
 
-This principle has particular relevance for object-oriented programming, where type hierarchies must be modeled carefully to avoid confusing users of a system.
+Il Principio ha particolare rilevanza nella programmazione orientata agli oggetti, dove le gerarchie di tipo devono essere modellizzate con cautela in modo da non generare confusione negli utilizzatori del codice.
 
-See also:
+Vedi anche:
 
 - [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
 
 ### Principio di Segregazione delle Interfacce
 
-[The Interface Segregation Principle on Wikipedia](https://en.wikipedia.org/wiki/Interface_segregation_principle)
+[Il Principio di Segregazione delle Interfacce su Wikipedia](https://it.wikipedia.org/wiki/Principio_di_segregazione_delle_interfacce)
 
-> No client should be forced to depend on methods it does not use.
+> Nessun client dovrebbe dipendere da comportamenti che non usa.
 
-The fourth of the '[SOLID](#solid)' principles. This principle states that consumers of a component should not depend on functions of that component which it doesn't actually use.
+Il quarto dei Principi '[SOLID](#solid)' afferma che i consumer di una componente software non dovrebbero dipendere da funzionalità del componente che non utilizzano.
 
-As an example, imagine we have a method which reads an XML document from a structure which represents a file. It only needs to read bytes, move forwards or move backwards in the file. If this method needs to be updated because an unrelated feature of the file structure changes (such as an update to the permissions model used to represent file security), then the principle has been invalidated. It would be better for the file to implement a 'seekable-stream' interface, and for the XML reader to use that.
+Ad esempio, si immagini di avere un metodo che legge un documento XML da una struttura dati che rappresenta un file. Deve limitarsi a leggere i byte e a muoversi avanti/indietro sul file. Se tale metodo deve essere aggiornato perchè una caratteristica della struttura del file cambia in modo scorrelato (es. modifica al modello di permessi di sicurezza sul file), allora il Principio non viene rispettato. Sarebbe meglio a questo punto che il file implementasse un'interfaccia 'seekable-stream' e che il lettore XML la sfruttasse.
 
-This principle has particular relevance for object-oriented programming, where interfaces, hierarchies and abstract types are used to [minimise the coupling](#todo) between different components. [Duck typing](#todo) is a methodology which enforces this principle by eliminating explicit interfaces.
+Il Principio ha particolare rilevanza nella programmazione orientata agli oggetti, dove interfacce, gerarchie e tipi astratti sono utilizzati per [minimizzare l'accoppiamento](#todo) tra le diverse componenti software. Il [Duck typing](#todo) è un meccanismo che implementa il Principio attraverso l'eliminazione delle interfacce esplicite.
 
-See also:
+Vedi anche:
 
 - [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
 - [Duck Typing](#todo)
-- [Decoupling](#todo)
+- [Disaccoppiamento](#todo)
 
 ### Principio di Inversione delle Dipendenze
 
 [Il Principio di Inversione delle Dipendenze su Wikipedia](https://it.wikipedia.org/wiki/Principio_di_inversione_delle_dipendenze)
 
-> High-level modules should not be dependent on low-level implementations.
+> I moduli di alto livello non dovrebbero dipendere dalle implementazioni di basso livello.
 
-The fifth of the '[SOLID](#solid)' principles. This principle states that higher level orchestrating components should not have to know the details of their dependencies.
 
-As an example, imagine we have a program which read metadata from a website. We would assume that the main component would have to know about a component to download the webpage content, then a component which can read the metadata. If we were to take dependency inversion into account, the main component would depend only on an abstract component which can fetch byte data, and then an abstract component which would be able to read metadata from a byte stream. The main component would not know about TCP/IP, HTTP, HTML, etc.
 
-This principle is complex, as it can seem to 'invert' the expected dependencies of a system (hence the name). In practice, it also means that a separate orchestrating component must ensure the correct implementations of abstract types are used (e.g. in the previous example, _something_ must still provide the metadata reader component a HTTP file downloader and HTML meta tag reader). This then touches on patterns such as [Inversion of Control](#todo) and [Dependency Injection](#todo).
 
-Vedi anche
+Il quinto dei Principi '[SOLID](#solid)' afferma che le componenti di alto livello che orchestrano l'esecuzione non dovrebbero conoscere i dettagli delle loro dipendenze.
+
+Ad esempio, si immagini di avere un programma che legge metadati da un sito web. Si potrebbe pensare che le componenti principali debbano conoscere dell'esistenza di un componente adibito al download del contenuto di una pagina web e anche di un componente in grado di leggere i metadati. Tenendo conto dell'inversione delle dipendenze, il componente principale dipenderebbe solo su un componente astratto in grado di recuperare byte e su un componente astratto in grado di leggere i metadati da uno stram di byte. Il componente principale dunque non dovrebbe sapere nulla di TCP/IP, HTTP, HTML, etc.
+
+Questo Principio è complesso perchè sembra 'invertire' le dipendenze attese di un sistema (da qui il suo nome). In pratica, ciò significa anche che ci deve essere un componente orchestrante di alto livello per assicurare la corretta implementazione dei tipi astratti sui quali si dipende (eg. nell'esempio di prima, _qualcosa_ deve in ogni caso fornire al componente lettore di metadati un file downloader su HTTP e un lettore di metatag HTML). Questo porta all'uso di pattern come l'[Inversione del Controllo](#todo) e l'[Iniezione delle Dipendenze](#todo).
+
+Vedi anche:
 
 - [Object-Oriented Programming](#todo)
 - [SOLID](#solid)

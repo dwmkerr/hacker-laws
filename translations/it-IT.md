@@ -486,51 +486,51 @@ Vedi anche:
 - [Inversione del Controllo](#todo)
 - [Iniezione delle Dipendenze](#todo)
 
-### The DRY Principle
+### Principio DRY
 
-[The DRY Principle on Wikipedia](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+[Il Principio DRY su Wikipedia](https://it.wikipedia.org/wiki/Don%27t_repeat_yourself)
 
-> Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
+> Ogni elemento di conoscenza deve avere una sola, non ambigua, autorevole rappresentazione all'interno di un sistema.
 
-DRY is an acronym for _Don't Repeat Yourself_. This principle aims to help developers reducing the repetition of code and keep the information in a single place and was cited in 1999 by Andrew Hunt and Dave Thomas in the book [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+DRY è l'acronimo dell'inglese _Don't Repeat Yourself_ (Non Reinventare la Ruota). Questo Principio mira ad aiutare gli sviluppatori a ridurre le duplicazioni nel codice e mantenere le informazioni in un solo punto, e fu citato nel 1999 da Andrew Hunt e Dave Thomas nel libro [The Pragmatic Programmer](https://it.wikipedia.org/wiki/The_Pragmatic_Programmer)
 
-> The opposite of DRY would be _WET_ (Write Everything Twice or We Enjoy Typing).
+> Il contrario di DRY è _WET_ (Write Everything Twice or We Enjoy Typing - Scrivi Tutto In Doppio o Adoriamo Scrivere alla Tastiera).
 
-In practice, if you have the same piece of information in two (or more) different places, you can use DRY to merge them into a single one and reuse it wherever you want/need.
+In pratica, se lo stesso elemento informativo si trova duplicato in due (o più) posti differenti, si può usare DRY per fondere insieme gli elementi in un solo posto e riusarlo laddove serva.
 
-See also:
+Vedi anche:
 
-- [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+- [The Pragmatic Programmer](https://it.wikipedia.org/wiki/The_Pragmatic_Programmer)
 
 ### YAGNI
 
-[YAGNI on Wikipedia](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
+[YAGNI su Wikipedia](https://it.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
 
-This is an acronym for _**Y**ou **A**ren't **G**onna **N**eed **I**t_.
+Si tratta dell'acronimo dell'inglese _**Y**ou **A**ren't **G**onna **N**eed **I**t_ (_Non Ne Avrai Bisogno_)
 
-> Always implement things when you actually need them, never when you just foresee that you need them.
+> Scrivi una porzione di codice sempre e solo quando ne hai un bisogno reale, e mai quando sai solo prevedere il suo uso futuro.
 >
-> ([Ron Jeffries](https://twitter.com/RonJeffries)) (XP co-founder and author of the book "Extreme Programming Installed")
+> ([Ron Jeffries](https://twitter.com/RonJeffries)) (co-fondatore dell'eXtreme Programming e autore del libro "Extreme Programming Installed")
 
-This _Extreme Programming_ (XP) principle suggests developers should only implement functionality that is needed for the immediate requirements, and avoid attempts to predict the future by implementing functionality that might be needed later.
+Questo Principio dell'_Extreme Programming_ (XP) afferma che gli sviluppatore dovrebbero implementare solo le funzionalità che sono necessarie sulla base dei requisiti immediati ed evitare la tentazione di predire il futuro implementando funzionalità di cui potrebbero avere bisogno più avanti.
 
-Adhering to this principle should reduce the amount of unused code in the codebase, and avoid time and effort being wasted on functionality that brings no value.
+L'aderenza a questo principio dovrebbe ridurre nella codebase la quantità di codice non utilizato, evitando così di sprecare tempo ed effort per sviluppare funzionalità che non portano valore immediato.
 
-See also:
+Vedi anche:
 
 - [Reading List: Extreme Programming Installed](#reading-list)
 
 
 ## Reading List
 
-If you have found these concepts interesting, you may enjoy the following books.
+Se avete trovato questi concetti interessanti, potrebbero interessarvi anche i seguenti libri.
 
-- [Extreme Programming Installed - Ron Jeffries, Ann Anderson, Chet Hendrikson](https://www.goodreads.com/en/book/show/67834) - Covers the core principles of Extreme Programming.
-- [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks' Law](#brooks-law) is a central theme of the book.
-- [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - This book is difficult to classify. [Hofstadter's Law](#hofstadters-law) is from the book.
+- [Extreme Programming Installed - Ron Jeffries, Ann Anderson, Chet Hendrikson](https://www.goodreads.com/en/book/show/67834) - Tratta i principi fondamentali dell'Extreme Programming.
+- [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - Un grande classico sull'ingegneria del software. La [Legge di Brooks](#legge-di-brooks) è un tema centrale del libro.
+- [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - Questo libro è difficile da classificare. La [Legge di Hofstadter](#legge-di-hofstadter) è presa da qui.
 
 ## TODO
 
-Hi! If you land here, you've clicked on a link to a topic I've not written up yet, sorry about this - this is work in progress!
+Salve! Se vi trovate qui è perchè avete cliccato sul link ad un argomento che ancora non è stato trattato, mi dispiace - questa pagina è un cantiere aperto!
 
-Feel free to [Raise an Issue](https://github.com/dwmkerr/hacker-laws/issues) requesting more details, or [Open a Pull Request](https://github.com/dwmkerr/hacker-laws/pulls) to submit your proposed definition of the topic. 
+Sentitevi liberi di [Segnalare un Problema](https://github.com/dwmkerr/hacker-laws/issues), richiedere più dettaglio o [Aprire una Pull Request](https://github.com/dwmkerr/hacker-laws/pulls) per proporre la vostra definizione dell'argomento.

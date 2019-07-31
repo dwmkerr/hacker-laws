@@ -35,7 +35,7 @@ Leggi, teorie, principi e pattern utili agli sviluppatori.
     * [Il modello Spotify](#il-modello-spotify)
     * [Legge di Wadler](#legge-di-wadler)
 * [Principi](#principi)
-    * [Il Principo di Pareto (La regola dell'80/20)](#the-pareto-principle-the-8020-rule)
+    * [Il Principo di Pareto (La regola dell'80/20)](#principio-di-pareto-regola-dell-80-20)
     * [Il Principio di Robustezza (Legge di Postel's)](#the-robustness-principle-postels-law)
     * [SOLID](#solid)
     * [Il Principio di Singola Responsabilità](#the-single-responsibility-principle)
@@ -352,27 +352,27 @@ Vedi anche:
 I Principi sono in generale usabili come linee guida per il design.
 
 
-### The Pareto Principle (The 80/20 Rule)
+### Principio di Pareto (regola dell'80-20)
 
-[The Pareto Principle on Wikipedia](https://en.wikipedia.org/wiki/Pareto_principle)
+[Il Principio di Pareto su Wikipedia](https://it.wikipedia.org/wiki/Principio_di_Pareto)
 
-> Most things in life are not distributed evenly.
+> Nella vita, la maggior parte delle cose non è distribuita equamente.
 
-The Pareto Principle suggests that in some cases, the majority of results come from a minority of inputs:
+Il Principio di Pareto suggerisce che in alcuni casi, la maggior parte dei risultati è effetto di una minoranza degli input
 
-- 80% of a certain piece of software can be written in 20% of the total allocated time (conversely, the hardest 20% of the code takes 80% of the time)
-- 20% of the effort produces 80% of the result
-- 20% of the work creates 80% of the revenue
-- 20% of the bugs cause 80% of the crashes
-- 20% of the features cause 80% of the usage
+- l'80% di un software è scrivibile nel 20% del tempo totale allocato per la sua scrittura (di contro, il 20% del codice, ossia le parti più complicate di esso, impiega l'80% del tempo)
+- il 20% dell'effort produce l'80% del risultato
+- il 20% del lavoro genera l'80% della revenue
+- il 20% dei bachi genera l'80% dei crash
+- il 20% delle features soddisfa l'80% degli utenti
 
-In the 1940s American-Romanian engineer Dr. Joseph Juran, who is widely credited with being the father of quality control, [began to apply the Pareto principle to quality issues](https://en.wikipedia.org/wiki/Joseph_M._Juran).
+Negli anni Quaranta l'ingegnere Americano-Rumeno Dr.Joseph Juran, che è riconosciuto universalmente come il padre del controllo di qualità, [iniziò ad applicare il Principio di Pareto alla quality assurance](https://en.wikipedia.org/wiki/Joseph_M._Juran)
 
-This principle is also known as: The 80/20 Rule, The Law of the Vital Few and The Principle of Factor Sparsity.
+Questo Principio è anche noto come: Regola dell'80/20, Legge dei Pochi ma Vitali e il Principio della Scarsità dei Fattori.
 
-Real-world examples:
+Esempi dal mondo reale:
 
-- In 2002 Microsoft reported that by fixing the top 20% of the most-reported bugs, 80% of the related errors and crashes in windows and office would become eliminated ([Reference](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)).
+- Nel 2002 la Microsoft riferì che sistemando il 20% dei bachi nella lista tra i più segnalati vennero sistemati l'80% degli errori e dei crash correlati su Windows e Office ([Riferimento](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)).
 
 ### The Robustness Principle (Postel's Law)
 

@@ -311,7 +311,7 @@ Il tipico esempio fittizio usato per illustrare la Legge è quello di un comitat
 
 L'esempio fittizio ha portato all'utilizzo del termine "ripostiglio delle biciclette" come metafora della perdita di tempo sui dettagli di poca rilevanza. 
 
-### The Unix Philosophy
+### Filosofia Unix
 
 [La Filosofia Unix su Wikipedia](https://it.wikipedia.org/wiki/Filosofia_Unix)
 

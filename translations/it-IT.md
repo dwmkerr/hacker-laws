@@ -386,49 +386,49 @@ L'obiettivo di questo principio è la costruzione di sistemi robusti in quanto p
 
 ### SOLID
 
-This is an acronym, which refers to:
+SOLID è un acronimo:
 
-* S: [The Single Responsibility Principle](#the-single-responsibility-principle)
-* O: [The Open/Closed Principle](#the-openclosed-principle)
-* L: [The Liskov Substitution Principle](#the-liskov-substitution-principle)
-* I: [The Interface Segregation Principle](#the-interface-segregation-principle)
-* D: [The Dependency Inversion Principle](#the-dependency-inversion-principle)
+* S: [Principio di Singola Responsabilità](#principio-di-singola-responsabilita)
+* O: [Principio dell'Open Closed](#principio-dell-open-closed)
+* L: [Principio di Sotituzione di Liskov](#principio-di-sostituzione-di-liskov)
+* I: [Principio di Segregazione delle Interfacce](#principio-di-segregazione-delle-interfacce)
+* D: [Principio di Inversione delle Dipendenze](#principio-di-inversione-delle-dipendenze)
 
 These are key principles in [Object-Oriented Programming](#todo). Design principles such as these should be able to aid developers build more maintainable systems.
 
-### The Single Responsibility Principle
+### Principio di Singola Responsabilità
 
-[The Single Responsibility Principle on Wikipedia](https://en.wikipedia.org/wiki/Single_responsibility_principle)
+[Principio di Singola Responsabilità su Wikipedia](https://it.wikipedia.org/wiki/Principio_di_singola_responsabilit%C3%A0)
 
-> Every module or class should have a single responsibility only.
+> Ogni modulo o classe dovrebbe avere una sola responsabilità.
 
-The first of the '[SOLID](#solid)' principles. This principle suggests that modules or classes should do one thing and one thing only. In more practical terms, this means that a single, small change to a feature of a program should require a change in one component only. For example, changing how a password is validated for complexity should require a change in only one part of the program.
+Il primo dei Principi '[SOLID](#solid)'. Afferma che i moduli o le classi software dovrebbero fare una e una sola cosa. In termini più pratici, ciò significa che una piccola modifica ad una feature di un programma dovrebbe richiedere la corrispondente modifica di una sola sua componente. Per esempio, cambiare il modo in cui la complessità di una password viene validata dovrebbe richiedere la modifica di una sola parte del programma.
 
-Theoretically, this should make the code more robust, and easier to change. Knowing that a component which is being changed has a single responsibility only means that _testing_ that change should be easier. Using the earlier example, changing the password complexity component should only be able to affect the features which relate to password complexity. It can be much more difficult to reason about the impact of a change to a component which has many responsibilities.
+In teoria, ciò dovrebbe garantire una maggiore robustezza del codice, con maggiore facilità di modifica. Sapere che un componente da cambiare ha una sola responsabilità ne semplifica grandemente il _testing_. Riprendendo l'esempio fatto prima, la modifica del componente che gestisce la validazione della password dovrebbe impattare solo le features di programma che sono correlate con la complessità della password. Di contro, testare un componente che ha svariate responsabilità diventa molto più difficoltoso.
 
-See also:
-
-- [Object-Oriented Programming](#todo)
-- [SOLID](#solid)
-
-### The Open/Closed Principle
-
-[The Open/Closed Principle on Wikipedia](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
-
-> Entities should be open for extension and closed for modification.
-
-The second of the '[SOLID](#solid)' principles. This principle states that entities (which could be classes, modules, functions and so on) should be able to have their behaviour _extended_, but that their _existing_ behaviour should not be able to be modified.
-
-As a hypothetical example, imagine a module which is able to turn a Markdown document into HTML. If the module could be extended to handle a newly proposed markdown feature, without modifying the module internals, then it would be open for extension. If the module could _not_ be modified by a consumer so that how existing Markdown features are handled, then it would be _closed_ for modification.
-
-This principle has particular relevance for object-oriented programming, where we may design objects to be easily extended, but would avoid designing objects which can have their existing behaviour changed in unexpected ways.
-
-See also:
+Vedi anche:
 
 - [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
 
-### The Liskov Substitution Principle
+### Principio dell'Open Closed
+
+[Il Principio dell'Open Closed su Wikipedia](https://it.wikipedia.org/wiki/Principio_aperto/chiuso)
+
+> Le entità software dovrebbero essere aperte all'estensione ma chiuse alla modifica.
+
+Il secondo dei Principi '[SOLID](#solid)' afferma che le entità software (classi, moduli, funzioni) dovrebbero incoraggiare la possibilità di _estendere_ il proprio comportamento e scoraggiare la modifica del loro _comportamento esistente_
+
+Ad esempio, si prenda un modulo in grado di trasformare un documento Markdown in HTML. Se il modulo può essere esteso per gestire una nuova feature proposta per il Markdown, senza doverne modificare il funzionamento interno, allora può definirsi aperto all'estensione. Se al contrario il modulo _non_ può essere modificato dai consumer nel modo in cui gestisce le feature correnti di Markdown, allora sarebbe _chiuso_ alla modifica.
+
+Questo Principio è particolarmente rilevante nella programmazione orientata agli oggetti, dove è desiderabile progettare tipi di oggetti facilmente estendibili e il cui comportamento corrente non venga modificato in maniera inaspettata.
+
+Vedi anche:
+
+- [Object-Oriented Programming](#todo)
+- [SOLID](#solid)
+
+### Principio di Sotituzione di Liskov
 
 [The Liskov Substitution Principle on Wikipedia](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
 
@@ -445,7 +445,7 @@ See also:
 - [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
 
-### The Interface Segregation Principle
+### Principio di Segregazione delle Interfacce
 
 [The Interface Segregation Principle on Wikipedia](https://en.wikipedia.org/wiki/Interface_segregation_principle)
 
@@ -464,9 +464,9 @@ See also:
 - [Duck Typing](#todo)
 - [Decoupling](#todo)
 
-### The Dependency Inversion Principle
+### Principio di Inversione delle Dipendenze
 
-[The Dependency Inversion Principle on Wikipedia](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
+[Il Principio di Inversione delle Dipendenze su Wikipedia](https://it.wikipedia.org/wiki/Principio_di_inversione_delle_dipendenze)
 
 > High-level modules should not be dependent on low-level implementations.
 
@@ -476,12 +476,12 @@ As an example, imagine we have a program which read metadata from a website. We 
 
 This principle is complex, as it can seem to 'invert' the expected dependencies of a system (hence the name). In practice, it also means that a separate orchestrating component must ensure the correct implementations of abstract types are used (e.g. in the previous example, _something_ must still provide the metadata reader component a HTTP file downloader and HTML meta tag reader). This then touches on patterns such as [Inversion of Control](#todo) and [Dependency Injection](#todo).
 
-See also:
+Vedi anche
 
 - [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
-- [Inversion of Control](#todo)
-- [Dependency Injection](#todo)
+- [Inversione del Controllo](#todo)
+- [Iniezione delle Dipendenze](#todo)
 
 ### The DRY Principle
 

@@ -36,7 +36,7 @@ Leggi, teorie, principi e pattern utili agli sviluppatori.
     * [Legge di Wadler](#legge-di-wadler)
 * [Principi](#principi)
     * [Il Principo di Pareto (La regola dell'80/20)](#principio-di-pareto-regola-dell-80-20)
-    * [Il Principio di Robustezza (Legge di Postel's)](#the-robustness-principle-postels-law)
+    * [Il Principio di Robustezza (Legge di Postel's)](#principio-di-robustezza-legge-di-postel)
     * [SOLID](#solid)
     * [Il Principio di Singola Responsabilità](#the-single-responsibility-principle)
     * [Il Principio dell'Aperto/Chiuso](#the-openclosed-principle)
@@ -374,15 +374,15 @@ Esempi dal mondo reale:
 
 - Nel 2002 la Microsoft riferì che sistemando il 20% dei bachi nella lista tra i più segnalati vennero sistemati l'80% degli errori e dei crash correlati su Windows e Office ([Riferimento](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)).
 
-### The Robustness Principle (Postel's Law)
+### Principio di Robustezza (Legge di Postel)
 
-[The Robustness Principle on Wikipedia](https://en.wikipedia.org/wiki/Robustness_principle)
+[Il Principio di Robustezza su Wikipedia](https://en.wikipedia.org/wiki/Robustness_principle)
 
-> Be conservative in what you do, be liberal in what you accept from others.
+> Siate conservativi nelle vostre azioni, ma liberali in ciò che accettate dagli altri.
 
-Often applied in server application development, this principle states that what you send to others should be as minimal and conformant as possible, but you should be aim to allow non-conformant input if it can be processed.
+Spesso applicato allo sviluppo di applicazioni lato server, questo principio afferma che ciò viene inviato alle terze parti dovrebbe essere il più contenuto e standard possibile, e di contro si dovrebbe accettare anche input non-standard - fintanto che è processabile - in arrivo dalle terze parti.
 
-The goal of this principle is to build systems which are robust, as they can handle poorly formed input if the intent can still be understood. However, there are potentially security implications of accepting malformed input, particularly if the processing of such input is not well tested.
+L'obiettivo di questo principio è la costruzione di sistemi robusti in quanto possono gestire input malformato, a patto che l'intento degli input si possa ancora cogliere. Tuttavia l'accettazione di input malformati pone potenziali implicazioni a livello di sicurezza, soprattutto laddove non si testi a fondo l'ingestione di tali input.
 
 ### SOLID
 

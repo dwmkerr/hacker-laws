@@ -3,6 +3,7 @@
 Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
 
 - 🇨🇳 [中文 / Çince İçin](https://github.com/nusr/hacker-laws-zh) - Teşekkürler [Steve Xu](https://github.com/nusr)!
+- 🇮🇹 [Italyanca için](https://github.com/csparpa/hacker-laws-it) - Teşekkürler [Claudio Sparpaglione](https://github.com/csparpa)!
 - 🇰🇷 [한국어 / Korece İçin](https://github.com/codeanddonuts/hacker-laws-kr) - Teşekkürler [Doughnut](https://github.com/codeanddonuts)!
 - 🇷🇺 [Русская версия / Rusça İçin](https://github.com/solarrust/hacker-laws) - Teşekkürler [Alena Batitskaya](https://github.com/solarrust)!
 - 🇹🇷 [Türkçe / Turkçe İçin](https://github.com/umutphp/hacker-laws-tr) - Teşekkürler [Umut Işık](https://github.com/umutphp)
@@ -153,7 +154,7 @@ Bu prensip, olumsuz sonuçlara yol açan eylemlerin, çoğunlukla kötü niyetin
 > Bir iş her zaman umduğundan daha uzun sürer, Hofstadter yasasını göz önünde bulundursan bile.
 > (Douglas Hofstadter)
 
-Bu yasayı bir işin ne kadar süreceğini tahminlenirken hatırlatıldığı için duymuş olabilirsiniz. Herkesin kabul bir gerçek var ki, yazılım geliştirmede en kötü olduğumuz alan işin ne kadar sürede biteceğini tahmin etmektir.
+Bu yasayı bir işin ne kadar süreceğini tahminlenirken hatırlatıldığı için duymuş olabilirsiniz. Herkesin kabul ettiği bir gerçek var ki, yazılım geliştirmede en kötü olduğumuz alan işin ne kadar sürede biteceğini tahmin etmektir.
 
 '[Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)' adlı kitaptan bir alıntı.
 

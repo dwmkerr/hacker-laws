@@ -38,6 +38,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
 * [Principles](#principles)
     * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
     * [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
+    * [The Dilbert Principle](#the-dilbert-principle)
     * [SOLID](#solid)
     * [The Single Responsibility Principle](#the-single-responsibility-principle)
     * [The Open/Closed Principle](#the-openclosed-principle)
@@ -274,14 +275,14 @@ Putt's Law is often followed by Putt's Corollary:
 
 > Every technical hierarchy, in time, develops a competence inversion.
 
-These statements suggest that due to various selection criteria and trends in how groups organise, there will be a number of skilled people at working levels of a technical organisations, and a number of people in managerial roles who are not aware of the complexities and challenges of the work they are managing. This can be due to phenomena such as [The Peter Principle](#TODO) or [Dilbert's Law](#TODO).
+These statements suggest that due to various selection criteria and trends in how groups organise, there will be a number of skilled people at working levels of a technical organisations, and a number of people in managerial roles who are not aware of the complexities and challenges of the work they are managing. This can be due to phenomena such as [The Peter Principle](#the-peter-principle) or [The Dilbert Principle](#the-dilbert-principle).
 
 However, it should be stressed that Laws such as this are vast generalisations and may apply to _some_ types of organisations, and not apply to others.
 
 See also:
 
-- [The Peter Principle](#TODO)
-- [Dilbert's Law](#TODO).
+- [The Peter Principle](#the-peter-principle)
+- [The Dilbert Principle](#the-dilbert-principle)
 
 
 ### The Law of Conservation of Complexity (Tesler's Law)
@@ -400,6 +401,22 @@ Real-world examples:
 Often applied in server application development, this principle states that what you send to others should be as minimal and conformant as possible, but you should be aim to allow non-conformant input if it can be processed.
 
 The goal of this principle is to build systems which are robust, as they can handle poorly formed input if the intent can still be understood. However, there are potentially security implications of accepting malformed input, particularly if the processing of such input is not well tested.
+
+### The Dilbert Principle
+
+[The Dilbert Principle on Wikipedia](https://en.wikipedia.org/wiki/Dilbert_principle)
+
+> Companies tend to systematically promote incompetent employees to management to get them out of the workflow.
+
+A management concept developed by Scott Adams (creator of the Dilbert comic strip), the Dilbert Principle is inspired by [The Peter Principle](#the-peter-principle). Under the Dilbert Principle, employees who were never competent are promoted to management in order to limit the damage they can do. Adams first explained the principle in a 1995 Wall Street Journal article, and expanded upon it in his 1996 business book, The Dilbert Principle.
+
+### The Peter Principle
+
+[The Peter Principle on Wikipedia](https://en.wikipedia.org/wiki/Peter_principle)
+
+> People in a hierarchy tend to rise to their "level of incompetence".
+
+A management concept developed by Laurence J. Peter, the Peter Principle observes that people in a hierarchy tend to rise until they reach their "level of incompetence". In other words, employees are promoted (based on their success in previous jobs) until they reach a level at which they are no longer competent - as skills in one job do not necessarily translate to another. The concept was explained in the book The Peter Principle, which Peter co-authored with Raymond Hull in 1969.
 
 ### SOLID
 

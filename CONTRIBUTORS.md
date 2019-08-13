@@ -1,1 +1,0 @@
-- [rheh](https://github.com/rheh) - Suggestion - Brooks's Law

@@ -36,9 +36,10 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [The Spotify Model](#the-spotify-model)
     * [Wadler's Law](#wadlers-law)
 * [Principles](#principles)
-    * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
-    * [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
     * [The Dilbert Principle](#the-dilbert-principle)
+    * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
+    * [The Peter Principle](#the-peter-principle)
+    * [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
     * [SOLID](#solid)
     * [The Single Responsibility Principle](#the-single-responsibility-principle)
     * [The Open/Closed Principle](#the-openclosed-principle)
@@ -364,11 +365,24 @@ See also:
 
 - [The Law of Triviality](#the-law-of-triviality)
 
-
-
 ## Principles
 
 Principles are generally more likely to be guidelines relating to design.
+
+### The Dilbert Principle
+
+[The Dilbert Principle on Wikipedia](https://en.wikipedia.org/wiki/Dilbert_principle)
+
+> Companies tend to systematically promote incompetent employees to management to get them out of the workflow.
+>
+> _Scott Adams_
+
+A management concept developed by Scott Adams (creator of the Dilbert comic strip), the Dilbert Principle is inspired by [The Peter Principle](#the-peter-principle). Under the Dilbert Principle, employees who were never competent are promoted to management in order to limit the damage they can do. Adams first explained the principle in a 1995 Wall Street Journal article, and expanded upon it in his 1996 business book, [The Dilbert Principle](#reading-list).
+
+See Also:
+
+- [The Peter Principle](#the-peter-principle)
+- [Putt's Law](#putts-law)
 
 ### The Pareto Principle (The 80/20 Rule)
 
@@ -392,6 +406,23 @@ Real-world examples:
 
 - In 2002 Microsoft reported that by fixing the top 20% of the most-reported bugs, 80% of the related errors and crashes in windows and office would become eliminated ([Reference](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)).
 
+### The Peter Principle
+
+[The Peter Principle on Wikipedia](https://en.wikipedia.org/wiki/Peter_principle)
+
+> People in a hierarchy tend to rise to their "level of incompetence".
+>
+> _Laurence J. Peter_
+
+A management concept developed by Laurence J. Peter, the Peter Principle observes that people who are good at their jobs are promoted, until they reach a level where they are no longer successful (their "level of incompetence". At this point, as they are more senior, they are less likely to be removed from the organisation (unless they perform spectacularly badly) and will continue to reside in a role which they have few intrinsic skills at, as their original skills which made them successful are not necessarily the skills required for their new jobs.
+
+This is of particular interest to engineers - who initial start out in deeply technical roles, but often have a career path which leads to _managing_ other engineers - which requires a fundamentally different skills-set.
+
+See Also:
+
+- [The Dilbert Principle](#the-dilbert-principle)
+- [Putt's Law](#putts-law)
+
 ### The Robustness Principle (Postel's Law)
 
 [The Robustness Principle on Wikipedia](https://en.wikipedia.org/wiki/Robustness_principle)
@@ -401,22 +432,6 @@ Real-world examples:
 Often applied in server application development, this principle states that what you send to others should be as minimal and conformant as possible, but you should be aim to allow non-conformant input if it can be processed.
 
 The goal of this principle is to build systems which are robust, as they can handle poorly formed input if the intent can still be understood. However, there are potentially security implications of accepting malformed input, particularly if the processing of such input is not well tested.
-
-### The Dilbert Principle
-
-[The Dilbert Principle on Wikipedia](https://en.wikipedia.org/wiki/Dilbert_principle)
-
-> Companies tend to systematically promote incompetent employees to management to get them out of the workflow.
-
-A management concept developed by Scott Adams (creator of the Dilbert comic strip), the Dilbert Principle is inspired by [The Peter Principle](#the-peter-principle). Under the Dilbert Principle, employees who were never competent are promoted to management in order to limit the damage they can do. Adams first explained the principle in a 1995 Wall Street Journal article, and expanded upon it in his 1996 business book, The Dilbert Principle.
-
-### The Peter Principle
-
-[The Peter Principle on Wikipedia](https://en.wikipedia.org/wiki/Peter_principle)
-
-> People in a hierarchy tend to rise to their "level of incompetence".
-
-A management concept developed by Laurence J. Peter, the Peter Principle observes that people in a hierarchy tend to rise until they reach their "level of incompetence". In other words, employees are promoted (based on their success in previous jobs) until they reach a level at which they are no longer competent - as skills in one job do not necessarily translate to another. The concept was explained in the book The Peter Principle, which Peter co-authored with Raymond Hull in 1969.
 
 ### SOLID
 
@@ -559,6 +574,8 @@ If you have found these concepts interesting, you may enjoy the following books.
 - [Extreme Programming Installed - Ron Jeffries, Ann Anderson, Chet Hendrikson](https://www.goodreads.com/en/book/show/67834) - Covers the core principles of Extreme Programming.
 - [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks' Law](#brooks-law) is a central theme of the book.
 - [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - This book is difficult to classify. [Hofstadter's Law](#hofstadters-law) is from the book.
+- [The Dilbert Principle - Adam Scott](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - A comic look at corporate America, from the author who created the [Dilbert Principle](#the-dilbert-principl).
+- [The Peter Principle - Lawrence J. Peter](https://www.goodreads.com/book/show/890728.The_Peter_Principle) - Another comic look at the challenges of larger organisations and people management, the source of [The Peter Principle](#the-peter-principle). 
 
 ## TODO
 

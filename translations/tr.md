@@ -36,7 +36,9 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [Spotify Modeli](#the-spotify-model)
     - [Wadler Yasası](#wadlers-law)
 - [Prensipler](#principles)
+    - [Dilbert Prensibi](#the-dilbert-principle)
     - [Pareto Prensibi (80/20 Kuralı)](#the-pareto-principle-the-8020-rule)
+    - [Peter Prensibi](#the-peter-principle)
     - [Dayanıklılık Prensibi (Postel Yasası)](#the-robustness-principle-postels-law)
     - [SOLID](#solid)
     - [Tek Sorumluluk Prensibi](#the-single-responsibility-principle)
@@ -264,14 +266,14 @@ Putt yasasını çoğunlukla Putt sonucu takip eder:
 
 > Her teknik hiyerarşi, zaman içinde bir yetkinlik dönüşümü geliştirir.
 
-Bu iki cümle, ekiplerin oluşturulmasında rol alan farklı seçim kriterleri ve eğilimlerden dolayı, bir organizasyonda çalışma katmanlarında çok sayıda yetenekli insan olduğu gibi yönetim katmanlarında da yapılan işin karmaşıklığından ve zorluklarından haberdar olmayan yöneticiler olacaktır. Bunun sebebi [Peter Prensibi](#TODO) or [Dilbert Yasası](#TODO) gibi olgular olabilir.
+Bu iki cümle der ki grupların organiza olma şekillerindeki seçim kıstasları ve eğilimleri yüzünden bir zaman sonra teknik organizasyonun çalışma seviyelerinde bir grup yetenekli insan varken yönettikleri işin karmaşıklığından ve zorluklarından bihaber bir grup insan da yönetim kademelerini işgal edecektir. Bu durum [Peter Prensibi](#the-peter-principle) ya da [Dilbert Prensibi](#the-dilbert-principle) ile de açıklanabilir.
 
 Bununla birlikte, bunun gibi yasaların çok büyük genellemeler olduğu ve *bazı* organizasyon türleri için geçerli olabileceği gibi başkaları için geçerli olmayacağı unutulmamalıdır.
 
 Ek kaynaklar:
 
-- [Peter Prensibi](#TODO)
-- [Dilbert Yasası](#TODO).
+- [Peter Prensibi](#the-peter-principle)
+- [Dilbert Prensibi](#the-dilbert-principle)
 
 ### Karmaşıklığın Korunması Yasası (Tesler Yasası)
 
@@ -340,7 +342,7 @@ Spotify Modeli kabileler (Tribes), birlikler (Guilds) ve kısımlar (Chapter) gi
 > 1. Semantik
 > 2. Genel sözdizimi
 > 3. Sözcük sözdizimi
-> 4. Yorumlardaki sözcük sözdizimi
+> 4. Yorumlardaki sözcük sözdizimi(Kısaca semantic için harcanan her bir saat için yorumlardaki sözcük sözdizimi için sekiz saat harcanacaktır.)
 > (Kısaca semantic için harcanan her bir saat için yorumlardaki sözcük sözdizimi için sekiz saat harcanacaktır.)
 
 [Önemsizlik Yasasında](#the-law-of-triviality) öne sürülene benzer olarak, Wadler Yasası yeni bir programlama dili tasarlanırken konunun önemi ile o konu için harcanan zaman ters orantılı olduğunu söylüyor.
@@ -352,6 +354,20 @@ Ek kaynaklar:
 ## Prensipler
 
 Prensiplerin genellikle tasarıma ilişkin rehberlerdir.
+
+### Dilbert Prensibi
+
+[Wikipedia'da Dilbert Prensibi](https://en.wikipedia.org/wiki/Dilbert_principle)
+
+> Şirketler, yetersiz çalışanları, iş akışından uzaklaştırmak için sistematik olarak yönetici olmaya teşvik etme eğilimindedir.
+> *Scott Adams*
+
+Scot Adams (Dilbert çizgi dizisinin yazarı) [Peter prensibinden](#the-peter-principle) esinlenerek ortaya atılmış bir yönetim kavramıdır. Dilbert prensibine göre yetenekli olmayan çalışanlar yönetim kadorlarına dopru yükseltilirler ki üretime verecekleri zarar aza indirilsin. Adams bunu ilk olarak 1995'te Wall Street Journal'da yazdığı bir makalede açıkladı daha sonra ise 1996'da yazdığı [Dilbert Prensibi](#reading-list) adlı kitabında detaylandırdı.
+
+Ek kaynaklar:
+
+- [Peter Prensibi](#the-peter-principle)
+- [Putt Yasası](#putts-law)
 
 ### Pareto Prensibi (80/20 Kuralı)
 
@@ -374,6 +390,22 @@ Bu prensip aynı zamanda 80/20 Kuralı (The Law of the Vital Few and The Princip
 Gerçek dünyadan örnekler:
 
 - 2002'de Microsoft en çok rapor edilen hataların üstten %20'sini çözünce kullanıcıların yaşadığı sorunların %80'inin çözüldüğünü gözlemlemiş ([Referans](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)).
+
+### Peter Prensibi
+
+[Wikipedia'da Peter Prensibi](https://en.wikipedia.org/wiki/Peter_principle)
+
+> Hiyerarşideki insanlar “yetersizlik seviyelerine” göre yükselme eğilimindedir.
+> *Laurence J. Peter*
+
+Laurence J. Peter tarafından geliştirilen bir yönetim konsepti olan Peter Prensibi, işlerinde iyi olan kişilerin, artık başarılı olamadıkları bir seviyeye (kendi "yetersizlik seviyelerine") ulaşana kadar terfi ettiğini gözlemlemektedir. Bu durumda şirket içinde çok tecrübeli olduklarından organizasyondan (çok aykırı birşey yapmadıkları sürece) dışlanmazlar ve az sayıda temel beceriye sahip olacakları bir rolde kalmaya devam edecekler, çünkü onları başarılı kılan orijinal becerileri mutlaka bu yeni rolleri için gereken beceriler değildir.
+
+Bu, temelde farklı bir beceri kümesi gerektirdiğinden özellikle mühendislerle - kariyerine teknik rollerle başlayan ama sonra kariyer değiştirip diğer mühendisleri *yönetmeye* başlayan -  alakalıdır.
+
+Ek kaynaklar:
+
+- [Dilbert Prensibi](#the-dilbert-principle)
+- [Putt Yasası](#putts-law)
 
 ### Dayanıklılık Prensibi (Postel Yasası)
 
@@ -457,7 +489,7 @@ Ek kaynaklar:
 
 Örnek olarak dosyayı temsil eden bir yapıdan XML verisi okuyan bir metod düşünelim. Bu metod sadece dosyadan byte byte veri okumalı ve dosya içinde ileri ya da geri hareket etmeli. Eğer bu method dosya okuma dışında (dosya izinleri değişimi gibi) herhangi bir özellik değişiminden dolayı güncellenmek zorunda kalınıyorsa bu prensip ihlal edilmiş demektir.
 
-Bı prensip de nesne-tabanlı programlama ile direk ilişkilidir. 'interface' yapıları, sınıf hiyerarşileri ve soyut türler farklı bileşenler arası bağımlığı [en aza indirmek](#todo) için kullanılır. [Duck typing](#todo) de bu prensibi uygulamaya yardımcı olur.
+Bu prensip de nesne-tabanlı programlama ile direk ilişkilidir. 'interface' yapıları, sınıf hiyerarşileri ve soyut türler farklı bileşenler arası bağımlığı en aza indirmek için kullanılır. Duck typing de bu prensibi uygulamaya yardımcı olur.
 
 Ek kaynaklar:
 
@@ -522,9 +554,11 @@ Ek kaynaklar:
 
 Bu kavramları ilginç bulduysanız, aşağıdaki kitapların keyfini çıkarabilirsiniz.
 
-- [Extreme Programming Installed - Ron Jeffries, Ann Anderson, Chet Hendrikson](https://www.goodreads.com/en/book/show/67834) - Covers the core principles of Extreme Programming.
-- [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks' Law](#brooks-law) is a central theme of the book.
-- [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - This book is difficult to classify. [Hofstadter's Law](#hofstadters-law) is from the book.
+- Extreme Programming Installed - Ron Jeffries, Ann Anderson, Chet Hendrikson - Extreme Programming kavramının temel prensiplerini içerir.
+- The Mythical Man Month - Frederick P. Brooks Jr. - Yazılım mühendisliği klasiği sayılabilir. Brooks Yasası bu kitabın ana temasıdır.
+- Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter. - Sınıflandırması zor bir kitap. Hofstadter Yasası bu kitaptan alıntıdır.
+- [Dilbert Prensibi - Adam Scott](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - Amerikadaki kurumsal hayata mizahi bir yaklaşım,  [Dilbert Prensibinin](#the-dilbert-principl) sahibinden.
+- [The Peter Principle - Lawrence J. Peter](https://www.goodreads.com/book/show/890728.The_Peter_Principle) - Another comic look at the challenges of larger organisations and people management, the source of [The Peter Principle](#the-peter-principle).
 
 ## TODO
 

@@ -17,6 +17,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [Amdahl's Law](#amdahls-law)
     * [Brooks' Law](#brooks-law)
     * [Conway's Law](#conways-law)
+    * [Cunningham's Law](#cunninghams-law)
     * [Dunbar's Number](#dunbars-number)
     * [Gall's Law](#galls-law)
     * [Hanlon's Razor](#hanlons-razor)
@@ -114,6 +115,16 @@ This law suggests that the technical boundaries of a system will reflect the str
 See also:
 
 - [The Spotify Model](#the-spotify-model)
+
+### Cunningham's Law
+
+[Cunningham's Law on Wikipedia](https://en.wikipedia.org/wiki/Ward_Cunningham#Cunningham's_Law)
+
+According to Steven McGeady, Ward Cunningham advised him in the early 1980s: "The best way to get the right answer on the Internet is not to ask a question, it's to post the wrong answer." McGeady dubbed this Cunningham's law, though Cunningham denies ownership calling it a "misquote." Although originally referring to interactions on Usenet, the law has been used to describe how other online communities work (e.g., Wikipedia, Reddit, Twitter, Facebook).
+
+See also:
+
+- [XKCD 386: "Duty Calls"](https://xkcd.com/386/)
 
 ### Dunbar's Number
 
@@ -604,7 +615,7 @@ If you have found these concepts interesting, you may enjoy the following books.
 - [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks' Law](#brooks-law) is a central theme of the book.
 - [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - This book is difficult to classify. [Hofstadter's Law](#hofstadters-law) is from the book.
 - [The Dilbert Principle - Adam Scott](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - A comic look at corporate America, from the author who created the [Dilbert Principle](#the-dilbert-principl).
-- [The Peter Principle - Lawrence J. Peter](https://www.goodreads.com/book/show/890728.The_Peter_Principle) - Another comic look at the challenges of larger organisations and people management, the source of [The Peter Principle](#the-peter-principle). 
+- [The Peter Principle - Lawrence J. Peter](https://www.goodreads.com/book/show/890728.The_Peter_Principle) - Another comic look at the challenges of larger organisations and people management, the source of [The Peter Principle](#the-peter-principle).
 
 ## TODO
 

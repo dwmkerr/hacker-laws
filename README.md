@@ -48,6 +48,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [The Interface Segregation Principle](#the-interface-segregation-principle)
     * [The Dependency Inversion Principle](#the-dependency-inversion-principle)
     * [The DRY Principle](#the-dry-principle)
+    * [The KISS Principle](#the-kiss-principle)
     * [YAGNI](#yagni)
 * [Reading List](#reading-list)
 * [TODO](#todo)
@@ -152,7 +153,7 @@ The classic example is the world-wide-web. In it's current state, it is a highly
 
 See also:
 
-- [KISS (Keep It Simple, Stupid)](#TODO)
+- [KISS (Keep It Simple, Stupid)](#the-kiss-principle)
 
 ### Hanlon's Razor
 
@@ -560,6 +561,18 @@ In practice, if you have the same piece of information in two (or more) differen
 See also:
 
 - [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+
+### The KISS principle
+
+[KISS on Wikipedia](https://en.wikipedia.org/wiki/KISS_principle)
+
+> The KISS principle states that most systems work best if they are kept simple rather than made complicated; therefore, simplicity should be a key goal in design, and unnecessary complexity should be avoided.
+
+KISS, an acronym for "keep it simple, stupid", is a design principle noted by the U.S. Navy in 1960. The phrase has been associated with aircraft engineer Kelly Johnson. The principle is best exemplified by the story of Johnson handing a team of design engineers a handful of tools, with the challenge that the jet aircraft they were designing must be repairable by an average mechanic in the field under combat conditions with only these tools. Hence, the "stupid" refers to the relationship between the way things break and the sophistication available to repair them. 
+
+See also:
+
+- [Gall's Law](#galls-law)
 
 ### YAGNI
 

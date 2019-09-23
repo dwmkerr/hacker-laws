@@ -17,6 +17,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [Amdahl's Law](#amdahls-law)
     * [Brooks' Law](#brooks-law)
     * [Conway's Law](#conways-law)
+    * [Cunningham's Law](#cunninghams-law)
     * [Dunbar's Number](#dunbars-number)
     * [Gall's Law](#galls-law)
     * [Hanlon's Razor](#hanlons-razor)
@@ -112,6 +113,16 @@ This law suggests that the technical boundaries of a system will reflect the str
 See also:
 
 - [The Spotify Model](#the-spotify-model)
+
+### Cunningham's Law
+
+[Cunningham's Law on Wikipedia](https://en.wikipedia.org/wiki/Ward_Cunningham#Cunningham's_Law)
+
+According to Steven McGeady, Ward Cunningham advised him in the early 1980s: "The best way to get the right answer on the Internet is not to ask a question, it's to post the wrong answer." McGeady dubbed this Cunningham's law, though Cunningham denies ownership calling it a "misquote." Although originally referring to interactions on Usenet, the law has been used to describe how other online communities work (e.g., Wikipedia, Reddit, Twitter, Facebook).
+
+See also:
+
+- [XKCD 386: "Duty Calls"](https://xkcd.com/386/)
 
 ### Dunbar's Number
 
@@ -351,12 +362,12 @@ The Spotify Model also popularises the concepts of Tribes, Guilds, Chapters, whi
 [Wadler's Law on wiki.haskell.org](https://wiki.haskell.org/Wadler's_Law)
 
 > In any language design, the total time spent discussing a feature in this list is proportional to two raised to the power of its position.
-> 
+>
 > 0. Semantics
 > 1. Syntax
 > 2. Lexical syntax
 > 3. Lexical syntax of comments
-> 
+>
 > (In short, for every hour spent on semantics, 8 hours will be spent on the syntax of comments).
 
 Similar to [The Law of Triviality](#the-law-of-triviality), Wadler's Law states what when designing a language, the amount of time spent on language structures is disproportionately high in comparison to the importance of those features.
@@ -575,10 +586,10 @@ If you have found these concepts interesting, you may enjoy the following books.
 - [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks' Law](#brooks-law) is a central theme of the book.
 - [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - This book is difficult to classify. [Hofstadter's Law](#hofstadters-law) is from the book.
 - [The Dilbert Principle - Adam Scott](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - A comic look at corporate America, from the author who created the [Dilbert Principle](#the-dilbert-principl).
-- [The Peter Principle - Lawrence J. Peter](https://www.goodreads.com/book/show/890728.The_Peter_Principle) - Another comic look at the challenges of larger organisations and people management, the source of [The Peter Principle](#the-peter-principle). 
+- [The Peter Principle - Lawrence J. Peter](https://www.goodreads.com/book/show/890728.The_Peter_Principle) - Another comic look at the challenges of larger organisations and people management, the source of [The Peter Principle](#the-peter-principle).
 
 ## TODO
 
 Hi! If you land here, you've clicked on a link to a topic I've not written up yet, sorry about this - this is work in progress!
 
-Feel free to [Raise an Issue](https://github.com/dwmkerr/hacker-laws/issues) requesting more details, or [Open a Pull Request](https://github.com/dwmkerr/hacker-laws/pulls) to submit your proposed definition of the topic. 
+Feel free to [Raise an Issue](https://github.com/dwmkerr/hacker-laws/issues) requesting more details, or [Open a Pull Request](https://github.com/dwmkerr/hacker-laws/pulls) to submit your proposed definition of the topic.

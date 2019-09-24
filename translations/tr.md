@@ -17,6 +17,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [Amdahl Yasası](#amdahls-law)
     - [Brooks Yasası](#brooks-law)
     - [Conway Yasası](#conways-law)
+    - [Cunningham Yasası](#cunningham-kanunu)
     - [Dunbar Sayısı](#dunbars-number)
     - [Gall Yasası](#galls-law)
     - [Hanlon'un Usturası](#hanlons-razor)
@@ -113,6 +114,16 @@ Ek kaynaklar:
 
 - [Spotify Modeli](#the-spotify-model)
 
+### Cunningham Yasası
+
+[Wikipedia'da Cunningham Yasası](https://en.wikipedia.org/wiki/Ward_Cunningham#Cunningham's_Law)
+
+Steven McGeady'ye göre, Ward Cunningham, 1980'lerin başında ona tavsiye olarak “İnternette doğru cevabı almanın en iyi yolu, bir soru sormak değil, yanlış olan cevabı yazmaktır” dedi. McGeady bunu Cunningham kanunu olarak adlandırdı, ancak Cunningham bu sahipliği bunun "yanlış bir alıntı" olduğunu nitelendirerek reddetti. Her ne kadar orjinalinde Usenet'teki etkileşimlerle ilgili olsa da, yasa diğer çevrimiçi toplulukların nasıl çalıştığını açıklamak için kullanılmıştır (örneğin, Wikipedia, Reddit, Twitter, Facebook).
+
+Ek kaynaklar:
+
+- [XKCD 386: "Duty Calls"](https://xkcd.com/386/)
+
 ### Dunbar Sayısı
 
 [Wikipedia'da Dunbar Sayısı](https://en.wikipedia.org/wiki/Dunbar%27s_number)
@@ -147,6 +158,7 @@ Ek kaynaklar:
 > Aptallıkla layıkıyla açıklanabilecek bir şeyi, asla kötü niyete bağlamayın.
 > Robert J. Hanlon
 > Robert J. Hanlon
+> Robert J. Hanlon
 
 Bu prensip, olumsuz sonuçlara yol açan eylemlerin, çoğunlukla kötü niyetin sonucu olmadığını savunmaktadır. Aksine, olumsuz sonuç daha büyük olasılıkla bu eylemlerin ve/veya etkinin tam olarak anlaşılamamasına bağlıdır.
 
@@ -155,6 +167,7 @@ Bu prensip, olumsuz sonuçlara yol açan eylemlerin, çoğunlukla kötü niyetin
 [Wikipedia'da Hofstadter Yasası](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
 
 > Bir iş her zaman umduğundan daha uzun sürer, Hofstadter yasasını göz önünde bulundursan bile.
+> (Douglas Hofstadter)
 > (Douglas Hofstadter)
 > (Douglas Hofstadter)
 
@@ -344,7 +357,7 @@ Spotify Modeli kabileler (Tribes), birlikler (Guilds) ve kısımlar (Chapter) gi
 > 1. Semantik
 > 2. Genel sözdizimi
 > 3. Sözcük sözdizimi
-> 4. Yorumlardaki sözcük sözdizimi(Kısaca semantic için harcanan her bir saat için yorumlardaki sözcük sözdizimi için sekiz saat harcanacaktır.)(Kısaca semantic için harcanan her bir saat için yorumlardaki sözcük sözdizimi için sekiz saat harcanacaktır.)
+> 4. Yorumlardaki sözcük sözdizimi
 > (Kısaca semantic için harcanan her bir saat için yorumlardaki sözcük sözdizimi için sekiz saat harcanacaktır.)
 
 [Önemsizlik Yasasında](#the-law-of-triviality) öne sürülene benzer olarak, Wadler Yasası yeni bir programlama dili tasarlanırken konunun önemi ile o konu için harcanan zaman ters orantılı olduğunu söylüyor.

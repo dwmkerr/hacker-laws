@@ -48,7 +48,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [The Interface Segregation Principle](#the-interface-segregation-principle)
     * [The Dependency Inversion Principle](#the-dependency-inversion-principle)
     * [The DRY Principle](#the-dry-principle)
-    * [The KISS Principle](#the-kiss-principle)
+    * [The KISS principle](#the-kiss-principle)
     * [YAGNI](#yagni)
 * [Reading List](#reading-list)
 * [TODO](#todo)
@@ -566,9 +566,11 @@ See also:
 
 [KISS on Wikipedia](https://en.wikipedia.org/wiki/KISS_principle)
 
-> The KISS principle states that most systems work best if they are kept simple rather than made complicated; therefore, simplicity should be a key goal in design, and unnecessary complexity should be avoided.
+> Keep it simple, stupid
 
-KISS, an acronym for "keep it simple, stupid", is a design principle noted by the U.S. Navy in 1960. The phrase has been associated with aircraft engineer Kelly Johnson. The principle is best exemplified by the story of Johnson handing a team of design engineers a handful of tools, with the challenge that the jet aircraft they were designing must be repairable by an average mechanic in the field under combat conditions with only these tools. Hence, the "stupid" refers to the relationship between the way things break and the sophistication available to repair them. 
+The KISS principle states that most systems work best if they are kept simple rather than made complicated; therefore, simplicity should be a key goal in design, and unnecessary complexity should be avoided.  Originating in the U.S. Navy in 1960, the phrase has been associated with aircraft engineer Kelly Johnson.
+
+The principle is best exemplified by the story of Johnson handing a team of design engineers a handful of tools, with the challenge that the jet aircraft they were designing must be repairable by an average mechanic in the field under combat conditions with only these tools. Hence, the "stupid" refers to the relationship between the way things break and the sophistication of the tools available to repair them, not the capabilities of the engineers themselves. 
 
 See also:
 

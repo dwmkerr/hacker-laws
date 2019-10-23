@@ -17,9 +17,9 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [Amdahl Yasası](#amdahls-law)
     - [Brooks Yasası](#brooks-law)
     - [Conway Yasası](#conways-law)
-    - [Cunningham Yasası](#cunningham-kanunu)
+    - [Cunningham Yasası](#cunninghams-law)
     - [Dunbar Sayısı](#dunbars-number)
-    - [Gall Yasası](#galls-law)
+    - [Gall Yasası](#galls-yasa)
     - [Hanlon'un Usturası](#hanlons-razor)
     - [Hofstadter Yasası](#hofstadters-law)
     - [Hutber Yasası](#hutbers-law)
@@ -48,6 +48,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [Arayüz Ayrım Prensibi](#the-interface-segregation-principle)
     - [Bağımlılığın Ters Çevrilmesi](#the-dependency-inversion-principle)
     - [DRY Prensibi](#the-dry-principle)
+    - [KISS prensibi](#%C3%B6p%C3%BCc%C3%BCk-prensibi)
     - [YAGNI](#yagni)
 - [Ek Kaynaklar](#reading-list)
 - [TODO](#todo)
@@ -118,6 +119,8 @@ Ek kaynaklar:
 
 [Wikipedia'da Cunningham Yasası](https://en.wikipedia.org/wiki/Ward_Cunningham#Cunningham's_Law)
 
+> İnternette doğru cevabı almanın en iyi yolu, soru sormak değil, yanlış olan cevabı yazmaktır.
+
 Steven McGeady'ye göre, Ward Cunningham, 1980'lerin başında ona tavsiye olarak “İnternette doğru cevabı almanın en iyi yolu, bir soru sormak değil, yanlış olan cevabı yazmaktır” dedi. McGeady bunu Cunningham kanunu olarak adlandırdı, ancak Cunningham bu sahipliği bunun "yanlış bir alıntı" olduğunu nitelendirerek reddetti. Her ne kadar orjinalinde Usenet'teki etkileşimlerle ilgili olsa da, yasa diğer çevrimiçi toplulukların nasıl çalıştığını açıklamak için kullanılmıştır (örneğin, Wikipedia, Reddit, Twitter, Facebook).
 
 Ek kaynaklar:
@@ -149,14 +152,13 @@ En klasik örnek günümüzdeki internettir.  Şu an çok karmaşık bir sistemd
 
 Ek kaynaklar:
 
-- [KISS (Keep It Simple, Stupid)](#TODO)
+- [KISS (Keep It Simple, Stupid)](#the-kiss-principle)
 
 ### Hanlon'un Usturası
 
 [Wikipedia'da Hanlon'un Usturası](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
 
 > Aptallıkla layıkıyla açıklanabilecek bir şeyi, asla kötü niyete bağlamayın.
-> Robert J. Hanlon
 > Robert J. Hanlon
 
 Bu prensip, olumsuz sonuçlara yol açan eylemlerin, çoğunlukla kötü niyetin sonucu olmadığını savunmaktadır. Aksine, olumsuz sonuç daha büyük olasılıkla bu eylemlerin ve/veya etkinin tam olarak anlaşılamamasına bağlıdır.
@@ -166,7 +168,6 @@ Bu prensip, olumsuz sonuçlara yol açan eylemlerin, çoğunlukla kötü niyetin
 [Wikipedia'da Hofstadter Yasası](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
 
 > Bir iş her zaman umduğundan daha uzun sürer, Hofstadter yasasını göz önünde bulundursan bile.
-> (Douglas Hofstadter)
 > (Douglas Hofstadter)
 
 Bu yasayı bir işin ne kadar süreceğini tahminlenirken hatırlatıldığı için duymuş olabilirsiniz. Herkesin kabul ettiği bir gerçek var ki, yazılım geliştirmede en kötü olduğumuz alan işin ne kadar sürede biteceğini tahmin etmektir.
@@ -482,7 +483,6 @@ Ek kaynaklar:
 
 '[SOLID](#solid)' prensiplerinin üçüncüsüdür. Bu prensibe göre herhangi bir bileşenin üzerine dayandığı bir özelliği (sınıf vs) o özelliklikten türetilmiş alt özellikle değiştirebilmeliyiz ve bu durumda bir sistem sorununa neden olunmaz ya da alt özelliğin bütün detaylarını bilmeye gerek kalmaz.
 
-
 Örneğin dosyayı temsil eden bir yapıdan XML verisi okuyan bir metod düşünelim. Eğer bu metod 'dosya' tipini kullanıyorsa, 'dosya' tipinden türeyen bütün tipleri de kullanabilmelidir. Eğer 'dosya' tipi geriye dönük aramayı destekliyorsa ama 'dosya' tipinden türetilmiş 'ağ dosyası' tipi bunu desteklemiyorsa o zaman 'ağ dosyası' tipi bu prensibi ihlal ediyor demektir.
 
 Bu prensip nesne-tabanlı programlamanın bağlı olduğu prensiplerden biridir ve geliştiricilerin kafasını karıştırmamak için sınıf hiyerarşisinin dikkatli tarasarlanması gerektiğini söyler.
@@ -523,6 +523,7 @@ Ek kaynaklar:
 
 Bu prensip olması gereken bağımlığı tersine çevirdiği düşünebileceğinden (isminden dolayı) biraz karmaşık gelebilir. Pratikte, ayrı bir düzenleme bileşeninin, soyut türlerin doğru uygulamalarının kullanılmasını sağlaması gerektiği anlamına gelir (önceki örnekte, *bir şey* hala meta veri okuyucu bileşenine bir HTTP dosyası indiricisi ve HTML meta etiketi okuyucu sağlamalıdır). Bu prensip aynı zamanda [Kontrolün Ters Çevirilmesi](#todo) ve [Bağımlık Enjeksiyonu](#todo) gibi konularla da bağlantılıdır.
 
+
 Ek kaynaklar:
 
 - [Nesne Tabanlı Programlama](#todo)
@@ -545,6 +546,20 @@ Uygulamada, aynı bilgi parçasını iki (veya daha fazla) farklı yerde kullan�
 Ek kaynaklar:
 
 - [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+
+### KISS prensibi
+
+[Wikipedia'da KISS](https://en.wikipedia.org/wiki/KISS_principle)
+
+> Olabildiğince basit ve aptal (Keep it simple, stupid)
+
+KISS prensibi, çoğu sistemin karmaşıklaştırılmak yerine basit tutulması durumunda en iyi şekilde çalışacağını belirtir; bu nedenle sadelik tasarımda kilit bir amaç olmalı ve gereksiz karmaşıklıktan kaçınılmalıdır. Bu 1960’da ABD Donanması’nda çalışan uçak mühendisi Kelly Johnson ile ilişkilendirilen bir cümle.
+
+Prensip, Johnson'ın bir tasarım mühendisleri ekibine bir avuç el aleti teslim etmesinin öyküsüyle en iyi örneklenmiştir, tasarladıkları jet uçağının sahadaki ortalama bir tamirci tarafından yalnızca bu aletlerle mücadele koşullarında tamir edilebilir olması zorunluluğu ile karşı karşıyadır. Bu nedenle, "aptal" kelimesi mühendislerin kendi yeteneklerini değil, işlerin kırılma şekli ile onları tamir etmek için mevcut araçların karmaşıklığı arasındaki ilişkiyi ifade eder.
+
+Ek kaynaklar:
+
+- [Gall Yasası](#galls-law)
 
 ### YAGNI
 

@@ -29,11 +29,13 @@ Like this project? Please considering [Sponsoring Me](https://github.com/sponsor
     * [Hutber's Law](#hutbers-law)
     * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
     * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
+    * [Metcalfe's Law](#metcalfes-law)
     * [Moore's Law](#moores-law)
     * [Murphy's Law / Sod's Law](#murphys-law--sods-law)
     * [Parkinson's Law](#parkinsons-law)
     * [Premature Optimization Effect](#premature-optimization-effect)
     * [Putt's Law](#putts-law)
+    * [Reed's Law](#reeds-law)
     * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
     * [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
     * [The Law of Triviality](#the-law-of-triviality)
@@ -231,6 +233,20 @@ See also:
 - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
 - [XKCD 1172](https://xkcd.com/1172/)
 
+
+### Metcalfe's Law
+
+[Metcalfe's Law on Wikipedia](https://en.wikipedia.org/wiki/Metcalfe's_law)
+
+> In network theory, the value of a system grows as approximately the square of the number of users of the system.
+
+This law is based on the number of possible pairwise connections within a system and is closely related to [Reed's Law](#reeds-law). Odlyzko and others have argued that both Reed's Law and Metcalfe's Law overstate the value of the system by not accounting for the limits of human cognition on network effects; see [Dunbar's Number](#dunbars-number).
+
+See also:
+- [Reed's Law](#reeds-law)
+- [Dunbar's Number](#dunbars-number)
+
+
 ### Moore's Law
 
 [Moore's Law on Wikipedia](https://en.wikipedia.org/wiki/Moore%27s_law)
@@ -302,6 +318,19 @@ See also:
 
 - [The Peter Principle](#the-peter-principle)
 - [The Dilbert Principle](#the-dilbert-principle)
+
+
+### Reed's Law
+
+[Reed's Law on Wikipedia](https://en.wikipedia.org/wiki/Reed's_law)
+
+> The utility of large networks, particularly social networks, scales exponentially with the size of the network.
+
+This law is based on graph theory, where the utility scales as the number of possible sub-groups, which is faster than the number of participants or the number of possible pairwise connections. Odlyzko and others have argued that Reed's Law overstates the utility of the system by not accounting for the limits of human cognition on network effects; see [Dunbar's Number](#dunbars-number).
+
+See also:
+- [Metcalfe's Law](#metcalfes-law)
+- [Dunbar's Number](#dunbars-number)
 
 
 ### The Law of Conservation of Complexity (Tesler's Law)

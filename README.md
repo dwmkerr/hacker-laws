@@ -246,7 +246,6 @@ See also:
 - [Reed's Law](#reeds-law)
 - [Dunbar's Number](#dunbars-number)
 
-
 ### Moore's Law
 
 [Moore's Law on Wikipedia](https://en.wikipedia.org/wiki/Moore%27s_law)
@@ -331,7 +330,6 @@ This law is based on graph theory, where the utility scales as the number of pos
 See also:
 - [Metcalfe's Law](#metcalfes-law)
 - [Dunbar's Number](#dunbars-number)
-
 
 ### The Law of Conservation of Complexity (Tesler's Law)
 

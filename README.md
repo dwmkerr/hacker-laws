@@ -8,6 +8,8 @@ Laws, Theories, Principles and Patterns that developers will find useful.
 - 🇷🇺 [Русская версия / Russian Version](https://github.com/solarrust/hacker-laws) - thanks [Alena Batitskaya](https://github.com/solarrust)!
 - 🇹🇷 [Türkçe / Turkish Version](https://github.com/umutphp/hacker-laws-tr) - thanks [Umut Işık](https://github.com/umutphp)
 
+Like this project? Please considering [Sponsoring Me](https://github.com/sponsors/dwmkerr)!
+
 ---
 
 <!-- vim-markdown-toc GFM -->

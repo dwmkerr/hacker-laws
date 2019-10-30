@@ -7,6 +7,9 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
 - 🇰🇷 [한국어 / Korece İçin](https://github.com/codeanddonuts/hacker-laws-kr) - Teşekkürler [Doughnut](https://github.com/codeanddonuts)!
 - 🇷🇺 [Русская версия / Rusça İçin](https://github.com/solarrust/hacker-laws) - Teşekkürler [Alena Batitskaya](https://github.com/solarrust)!
 - 🇹🇷 [Türkçe / Turkçe İçin](https://github.com/umutphp/hacker-laws-tr) - Teşekkürler [Umut Işık](https://github.com/umutphp)
+- 🇧🇷 [Brasileiro / Brezilyaca İçin](./translations/pt-BR.md) - Teşekkürler [Leonardo Costa](https://github.com/LeoFC97)
+
+Bu projeyi beğendiniz mi? Lütfen [sponsorluk olmayı](https://github.com/sponsors/dwmkerr) düşünün!
 
 ---
 
@@ -18,18 +21,20 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [Brooks Yasası](#brooks-law)
     - [Conway Yasası](#conways-law)
     - [Cunningham Yasası](#cunninghams-law)
-    - [Dunbar Sayısı](#dunbars-number)
-    - [Gall Yasası](#galls-yasa)
+    - [Dunbar Sayısı](#dunbar-say%C4%B1s%C4%B1)
+    - [Gall Yasası](#galls-law)
     - [Hanlon'un Usturası](#hanlons-razor)
     - [Hofstadter Yasası](#hofstadters-law)
     - [Hutber Yasası](#hutbers-law)
     - [Hype Döngüsü ve Amara Yasası](#the-hype-cycle--amaras-law)
     - [Hyrum Yasası (Arabirimlerin Örtülü Hukuku)](#hyrums-law-the-law-of-implicit-interfaces)
+    - [Metcalfe Yasası](#metcalfes-kanunu)
     - [Moore Yasası](#moores-law)
     - [Murphy Yasası / Sod  Yasası](#murphys-law--sods-law)
     - [Parkinson Yasası](#parkinsons-law)
     - [Olgunlaşmamış Optimizasyon Etkisi](#premature-optimization-effect)
     - [Putt Yasası](#putts-law)
+    - [Reed Yasası](#sazl%C4%B1k-kanunu)
     - [Karmaşıklığın Korunması Yasası (Tesler Yasası)](#the-law-of-conservation-of-complexity-teslers-law)
     - [Sızdıran Soyutlamalar Yasası](#the-law-of-leaky-abstractions)
     - [Önemsizlik Yasası](#the-law-of-triviality)
@@ -48,7 +53,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [Arayüz Ayrım Prensibi](#the-interface-segregation-principle)
     - [Bağımlılığın Ters Çevrilmesi](#the-dependency-inversion-principle)
     - [DRY Prensibi](#the-dry-principle)
-    - [KISS prensibi](#%C3%B6p%C3%BCc%C3%BCk-prensibi)
+    - [KISS prensibi](#the-kiss-principle)
     - [YAGNI](#yagni)
 - [Ek Kaynaklar](#reading-list)
 - [TODO](#todo)
@@ -218,6 +223,19 @@ Ek kaynaklar:
 - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
 - [XKCD 1172](https://xkcd.com/1172/)
 
+### Metcalfe Yasası
+
+[Wikipedia'da Metcalfe Yasası](https://en.wikipedia.org/wiki/Metcalfe's_law)
+
+> Ağ teorisinde, bir sistemin değeri yaklaşık olarak sistemin kullanıcı sayısının karesi ile orantılı olarak büyür.
+
+Bu yasa, bir sistem içindeki muhtemel çift bağlantıların sayısına dayanmaktadır ve [Reed Yasası](#reeds-law) ile yakından ilgilidir. Odlyzko ve diğerleri, hem Reed Yasası hem de Metcalfe Yasası'nın, insan bilişinin ağ etkileri üzerindeki sınırlarını hesaba katmayarak sistemin değerini abarttığını öne sürerler; [Dunbar Sayısı'na](#dunbars-number) bakınız.
+
+Ek kaynaklar:
+
+- [Reed Yasası](#sazl%C4%B1k-kanunu)
+- [Dunbar Sayısı](#dunbars-number)
+
 ### Moore Yasası
 
 [Wikipedia'da Moore Yasası](https://en.wikipedia.org/wiki/Moore%27s_law)
@@ -288,6 +306,19 @@ Ek kaynaklar:
 
 - [Peter Prensibi](#the-peter-principle)
 - [Dilbert Prensibi](#the-dilbert-principle)
+
+### Reed Yasası
+
+[Wikipedia'da Reed Yasası](https://en.wikipedia.org/wiki/Reed's_law)
+
+> Büyük ağların, özellikle sosyal ağların kullanımı, ağın boyutuna katlanarak ölçeklenir.
+
+Bu yasa, programın faydasının olası katılımcı veya ikili bağlantı sayısından daha hızlı olan olası alt grup sayısı olarak ölçeklendiği grafik teorisine dayanmaktadır. Odlyzko ve diğerleri, Reed Yasası'nın, insan bilişinin ağ etkileri üzerindeki sınırlarını hesaba katarak sistemin yararını abarttığını öne sürerler; [Dunbar Sayısı'na](#dunbars-number) bakınız.
+
+Ek kaynaklar:
+
+- [Metcalfe Yasası](#metcalfes-kanunu)
+- [Dunbar Sayısı](#dunbar-say%C4%B1s%C4%B1)
 
 ### Karmaşıklığın Korunması Yasası (Tesler Yasası)
 
@@ -540,6 +571,7 @@ Ek kaynaklar:
 *DRY Don't Repeat Yourself* yani Kendini Tekrar Etme deyimin kısaltılmasıdır. İlk olarak Andrew Hunt ve Dave Thomas tarafından [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer) kitabında bahsedilmiştir. Bu ilke, geliştiricilere kod tekrarını azaltma ve bilgileri tek bir yerde tutmalarına yardımcı olmayı amaçlamaktadır.
 
 > DRY'nin tam tersi *WET* olacaktır (Write Everything Twice (Her Şeyi İki Kez Yaz) We Enjoy Typing (Yazmayı Seviyoruz)).
+> 
 
 Uygulamada, aynı bilgi parçasını iki (veya daha fazla) farklı yerde kullanıyorsanız, DRY'yi bunları tek bir tanede birleştirmek ve istediğiniz / ihtiyaç duyduğunuz yerde tekrar kullanmak için kullanabilirsiniz.
 

@@ -418,10 +418,7 @@ See also:
 
 > Don't be a dick.
 
-Coined by Wil Wheaton (Star Trek: TNG, the Big Bang Theory), this simple, concise, and powerful law should be adhered to when speaking with coworkers, performing code reviews, countering other points of views, critiquing, and in general, most professional interactions you have with others in your organization.
-
-Nobody likes working with one, so don't be one.
-
+Coined by Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), this simple, concise, and powerful law aims for an increase in harmony and respect within a professional organization. It can be applied when speaking with coworkers, performing code reviews, countering other points of view, critiquing, and in general, most professional interactions humans have with each other.
 
 ## Principles
 

@@ -56,7 +56,7 @@ Like this project? Please considering [Sponsoring Me](https://github.com/sponsor
     * [The DRY Principle](#the-dry-principle)
     * [The KISS principle](#the-kiss-principle)
     * [YAGNI](#yagni)
-    * [Fallacies of Distributed Computing](#fallacies-of-distributed-computing)
+    * [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)
 * [Reading List](#reading-list)
 * [TODO](#todo)
 
@@ -638,9 +638,11 @@ See also:
 
 - [Reading List: Extreme Programming Installed](#reading-list)
 
-### Fallacies of Distributed Computing
+### The Fallacies of Distributed Computing
 
-Also known as _Fallacies of Networked Computing_, the Fallacies are a list of conjectures (or beliefs) about distributed computing, considered as traps. The assumptions are:
+[The Fallacies of Distributed Computing on Wikipedia](https://en.wikipedia.org/wiki/You_aren%https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
+
+Also known as _Fallacies of Networked Computing_, the Fallacies are a list of conjectures (or beliefs) about distributed computing, which can lead to failures in software development. The assumptions are:
 
 - The network is reliable
 - Latency is zero
@@ -655,11 +657,12 @@ The first four items were listed by [Bill Joy](https://en.wikipedia.org/wiki/Bil
 
 The group were inspired by what was happening at the time inside [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems).
 
+These fallacies should be considered carefully when designing code which is resilient; assuming any of these fallacies can lead to flawed logic which fails to deal with the realities and complexities of distributed systems.
+
 See also:
 
 - [Foraging for the Fallacies of Distributed Computing (Part 1) - Vaidehi Joshi
  on Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
-- [Fallacies of distributed computing on Wikipedia](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
 - [Deutsch's Fallacies, 10 Years After](http://java.sys-con.com/node/38665)
 
 ## Reading List

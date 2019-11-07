@@ -21,26 +21,27 @@ Bu projeyi beğendiniz mi? Lütfen [sponsorluk olmayı](https://github.com/spons
     - [Brooks Yasası](#brooks-law)
     - [Conway Yasası](#conways-law)
     - [Cunningham Yasası](#cunninghams-law)
-    - [Dunbar Sayısı](#dunbar-say%C4%B1s%C4%B1)
+    - [Dunbar Sayısı](#dunbars-number)
     - [Gall Yasası](#galls-law)
     - [Hanlon'un Usturası](#hanlons-razor)
     - [Hofstadter Yasası](#hofstadters-law)
     - [Hutber Yasası](#hutbers-law)
     - [Hype Döngüsü ve Amara Yasası](#the-hype-cycle--amaras-law)
     - [Hyrum Yasası (Arabirimlerin Örtülü Hukuku)](#hyrums-law-the-law-of-implicit-interfaces)
-    - [Metcalfe Yasası](#metcalfes-kanunu)
+    - [Metcalfe Yasası](#metcalfes-law)
     - [Moore Yasası](#moores-law)
     - [Murphy Yasası / Sod  Yasası](#murphys-law--sods-law)
     - [Parkinson Yasası](#parkinsons-law)
     - [Olgunlaşmamış Optimizasyon Etkisi](#premature-optimization-effect)
     - [Putt Yasası](#putts-law)
-    - [Reed Yasası](#sazl%C4%B1k-kanunu)
+    - [Reed Yasası](#reeds-law)
     - [Karmaşıklığın Korunması Yasası (Tesler Yasası)](#the-law-of-conservation-of-complexity-teslers-law)
     - [Sızdıran Soyutlamalar Yasası](#the-law-of-leaky-abstractions)
     - [Önemsizlik Yasası](#the-law-of-triviality)
     - [Unix Felsefesi](#the-unix-philosophy)
     - [Spotify Modeli](#the-spotify-model)
     - [Wadler Yasası](#wadlers-law)
+    - [Wheaton Yasası](#wheatons-kanunu)
 - [Prensipler](#principles)
     - [Dilbert Prensibi](#the-dilbert-principle)
     - [Pareto Prensibi (80/20 Kuralı)](#the-pareto-principle-the-8020-rule)
@@ -55,6 +56,7 @@ Bu projeyi beğendiniz mi? Lütfen [sponsorluk olmayı](https://github.com/spons
     - [DRY Prensibi](#the-dry-principle)
     - [KISS prensibi](#the-kiss-principle)
     - [YAGNI](#yagni)
+    - [Dağıtık Sistemlerin Yanılgıları](#da%C4%9F%C4%B1t%C4%B1k-hesaplaman%C4%B1n-yanl%C4%B1%C5%9Flar%C4%B1)
 - [Ek Kaynaklar](#reading-list)
 - [TODO](#todo)
 
@@ -233,7 +235,7 @@ Bu yasa, bir sistem içindeki muhtemel çift bağlantıların sayısına dayanma
 
 Ek kaynaklar:
 
-- [Reed Yasası](#sazl%C4%B1k-kanunu)
+- [Reed Yasası](#reeds-law)
 - [Dunbar Sayısı](#dunbars-number)
 
 ### Moore Yasası
@@ -317,8 +319,8 @@ Bu yasa, programın faydasının olası katılımcı veya ikili bağlantı sayı
 
 Ek kaynaklar:
 
-- [Metcalfe Yasası](#metcalfes-kanunu)
-- [Dunbar Sayısı](#dunbar-say%C4%B1s%C4%B1)
+- [Metcalfe Yasası](#metcalfes-law)
+- [Dunbar Sayısı](#dunbars-number)
 
 ### Karmaşıklığın Korunması Yasası (Tesler Yasası)
 
@@ -396,6 +398,17 @@ Ek kaynaklar:
 
 - [Önemsizlik Yasası](#the-law-of-triviality)
 
+### Wheaton Yasası
+
+[Link](http://www.wheatonslaw.com/)
+
+[Resmi Gün](https://dontbeadickday.com/)
+
+> Öküzlük yapmayın.
+> *Wil Wheaton*
+
+Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory) tarafından oluşturulan bu basit, özlü ve güçlü yasa, profesyonel bir organizasyon içinde uyum ve saygının artmasını amaçlamaktadır. İş arkadaşlarınızla konuşurken, kod incelemeleri yaparken, diğer bakış açılarını öne sürerken, insanları eleştirirken ve genel olarak insanların birbirleriyle olan profesyonel etkileşimlerinin çoğunda uygulanabilir.
+
 ## Prensipler
 
 Prensiplerin genellikle tasarıma ilişkin rehberlerdir.
@@ -429,6 +442,7 @@ Pareto Prensibi der ki, çıktıların önemli bir çoğunluğu girdilerin çok 
 - Özelliklerin %20'si hizmetin %80'ini oluşturur
 
 1940'lı yıllarda Romanya kökenli Amerikalı mühendis Dr. Joseph Juran, kendisi kalite kontrolün babası olarak nitelendirilir, [kalite kontrol sorunlarında Pareto Prensibini kullanmaya başladı](https://en.wikipedia.org/wiki/Joseph_M._Juran).
+
 
 Bu prensip aynı zamanda 80/20 Kuralı (The Law of the Vital Few and The Principle of Factor Sparsity) olarak da bilinir.
 
@@ -499,6 +513,7 @@ Bu '[SOLID](#solid)' prensiplerinin ikincisidir ve herhangi bir sistem parçası
 
 Örneğin Markdown formatındaki belgeleri HTML formatına çeviren bir modülü düşünelim. Eğer bu modül kendisi değiştirilmeden yeni bir Markdown formatını da işlemesi sağlanacak şekilde geliştirilebiliyorsa, bu modül genişletilmeye açık demektir. Eğer sonradan değiştirilip Markdown formatı işlemesi ile ilgili geliştirme *yapılamıyorsa*, bu modül değiştirilmeye *kapalı* demektir.
 
+
 Bu prensip nesne-tabanlı programlamaya tam uygundur. Şöyle ki, kendi nesne ve sınıflarımızı miras alınarak geliştirmeye uygun ve değiştirmeye ihtiyaç duymayacak şekilde tasarlarsak ve yazarsak nesne-tabanlı programlamaya tam uygun kod yazmış oluruz.
 
 Ek kaynaklar:
@@ -513,6 +528,7 @@ Ek kaynaklar:
 > Bir sistemde var olan bir özellik kendinden türetilmiş türetilmiş bir özellikle herhangi bir sistemsel soruna sebep olmadan yer değiştirilebilmeli.
 
 '[SOLID](#solid)' prensiplerinin üçüncüsüdür. Bu prensibe göre herhangi bir bileşenin üzerine dayandığı bir özelliği (sınıf vs) o özelliklikten türetilmiş alt özellikle değiştirebilmeliyiz ve bu durumda bir sistem sorununa neden olunmaz ya da alt özelliğin bütün detaylarını bilmeye gerek kalmaz.
+
 
 Örneğin dosyayı temsil eden bir yapıdan XML verisi okuyan bir metod düşünelim. Eğer bu metod 'dosya' tipini kullanıyorsa, 'dosya' tipinden türeyen bütün tipleri de kullanabilmelidir. Eğer 'dosya' tipi geriye dönük aramayı destekliyorsa ama 'dosya' tipinden türetilmiş 'ağ dosyası' tipi bunu desteklemiyorsa o zaman 'ağ dosyası' tipi bu prensibi ihlal ediyor demektir.
 
@@ -554,7 +570,6 @@ Ek kaynaklar:
 
 Bu prensip olması gereken bağımlığı tersine çevirdiği düşünebileceğinden (isminden dolayı) biraz karmaşık gelebilir. Pratikte, ayrı bir düzenleme bileşeninin, soyut türlerin doğru uygulamalarının kullanılmasını sağlaması gerektiği anlamına gelir (önceki örnekte, *bir şey* hala meta veri okuyucu bileşenine bir HTTP dosyası indiricisi ve HTML meta etiketi okuyucu sağlamalıdır). Bu prensip aynı zamanda [Kontrolün Ters Çevirilmesi](#todo) ve [Bağımlık Enjeksiyonu](#todo) gibi konularla da bağlantılıdır.
 
-
 Ek kaynaklar:
 
 - [Nesne Tabanlı Programlama](#todo)
@@ -570,8 +585,8 @@ Ek kaynaklar:
 
 *DRY Don't Repeat Yourself* yani Kendini Tekrar Etme deyimin kısaltılmasıdır. İlk olarak Andrew Hunt ve Dave Thomas tarafından [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer) kitabında bahsedilmiştir. Bu ilke, geliştiricilere kod tekrarını azaltma ve bilgileri tek bir yerde tutmalarına yardımcı olmayı amaçlamaktadır.
 
+
 > DRY'nin tam tersi *WET* olacaktır (Write Everything Twice (Her Şeyi İki Kez Yaz) We Enjoy Typing (Yazmayı Seviyoruz)).
-> 
 
 Uygulamada, aynı bilgi parçasını iki (veya daha fazla) farklı yerde kullanıyorsanız, DRY'yi bunları tek bir tanede birleştirmek ve istediğiniz / ihtiyaç duyduğunuz yerde tekrar kullanmak için kullanabilirsiniz.
 
@@ -610,6 +625,33 @@ Ek kaynaklar:
 
 - [Reading List: Extreme Programming Installed](#reading-list)
 
+### Dağıtık Sistemlerin Yanılgıları
+
+[Wikipedia'da Dağıtık Sistemlerin Yanılgıları](https://en.wikipedia.org/wiki/You_aren%https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
+
+*Ağ Tabanlı Sistemlerin Yanılgıları* olarak da bilinen yanılgılar dağıtık sistemleri geliştirme sırasında başarısızlıklara yol açabilecek varsayımların (veya inançların) bir listesidir. Varsayımlar:
+
+- Ağ güvenilirdir.
+- Gecikme yoktur.
+- Bant genişliği sonsuzdur.
+- Ağ güvenlidir.
+- Topoloji değişmez.
+- Sadece bir tane yönetici vardır.
+- Taşıma maaliyeti sıfırdır.
+- Ağ homojendir.
+
+İlk dört madde 1991'de [Bill Joy](https://en.wikipedia.org/wiki/Bill_Joy) ve [Tom Lyon](https://twitter.com/aka_pugs) tarafından listelenmiştir ve ilk önce [James Gosling](https://en.wikipedia.org/wiki/James_Gosling) tarafından "Ağ Tabanlı Sistemlerin Yanılgıları" olarak sınıflandırılmıştır. [L. Peter Deutsch](https://en.wikipedia.org/wiki/L._Peter_Deutsch)  5., 6. ve 7. yanılgıları ekledi. 90'lı yılların sonlarında Gosling 8. yanılgıyı ekledi.
+
+Grup [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems) içinde başlarına gelen olaydan ilham aldı.
+
+Dayanıklı sistemler tasarlarken bu yanılgılar dikkatlice ele alınmalı; bu yanılgılardan herhangi birinin varsayılması, dağıtılmış sistemlerin gerçeklikleri ve karmaşıklıkları ile başa çıkamayan hatalı bir mantığa yol açabilir.
+
+Ek kaynaklar:
+
+- [Foraging for the Fallacies of Distributed Computing (Part 1) - Vaidehi Joshi
+    on Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
+- [Deutsch's Fallacies, 10 Years After](http://java.sys-con.com/node/38665)
+
 ## Ek Kaynaklar
 
 Bu kavramları ilginç bulduysanız, aşağıdaki kitapların keyfini çıkarabilirsiniz.
@@ -625,3 +667,4 @@ Bu kavramları ilginç bulduysanız, aşağıdaki kitapların keyfini çıkarabi
 Selam!. Buraya ulaştıysanız, henüz yazmadığım bir konunun bağlantısını tıkladınız, bunun için üzgünüm - ve en kısa zamanda tamamlamaya çalışacağım!
 
 Soru ve önerileriniz için [issue](https://github.com/dwmkerr/hacker-laws/issues) açabilirsiniz, ya da katkıda bulunmak isterseniz [Pull Request](https://github.com/dwmkerr/hacker-laws/pulls) açabilirsiniz.
+

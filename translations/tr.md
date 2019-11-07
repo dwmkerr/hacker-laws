@@ -402,7 +402,7 @@ Ek kaynaklar:
 
 [Link](http://www.wheatonslaw.com/)
 
-[The Official Day](https://dontbeadickday.com/)
+[Resmi Gün](https://dontbeadickday.com/)
 
 > Öküzlük yapmayın.
 > *Wil Wheaton*

@@ -56,6 +56,7 @@ Like this project? Please considering [Sponsoring Me](https://github.com/sponsor
     * [The DRY Principle](#the-dry-principle)
     * [The KISS principle](#the-kiss-principle)
     * [YAGNI](#yagni)
+    * [Fallacies of Distributed Computing](#fallacies-of-distributed-computing)
 * [Reading List](#reading-list)
 * [TODO](#todo)
 
@@ -637,6 +638,29 @@ See also:
 
 - [Reading List: Extreme Programming Installed](#reading-list)
 
+### Fallacies of Distributed Computing
+
+Also known as _Fallacies of Networked Computing_, the Fallacies are a list of conjectures (or beliefs) about distributed computing, considered as traps. The assumptions are:
+
+- The network is reliable
+- Latency is zero
+- Bandwidth is infinite
+- The network is secure
+- Topology doesn't change
+- There is one administrator
+- Transport cost is zero
+- The network is homogeneous
+
+The first four items were listed by [Bill Joy](https://en.wikipedia.org/wiki/Bill_Joy) and [Tom Lyon](https://twitter.com/aka_pugs) around 1991 and first classified by [James Gosling](https://en.wikipedia.org/wiki/James_Gosling) as the "Fallacies of Networked Computing". [L. Peter Deutsch](https://en.wikipedia.org/wiki/L._Peter_Deutsch) added the 5th, 6th and 7th fallacies. In the late 90's Gosling added the 8th fallacy.
+
+The group were inspired by what was happening at the time inside [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems).
+
+See also:
+
+- [Foraging for the Fallacies of Distributed Computing (Part 1) - Vaidehi Joshi
+ on Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
+- [Fallacies of distributed computing on Wikipedia](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
+- [Deutsch's Fallacies, 10 Years After](http://java.sys-con.com/node/38665)
 
 ## Reading List
 

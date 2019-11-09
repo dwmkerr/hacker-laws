@@ -1,4 +1,5 @@
 # 💻📖 hacker-laws
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 Laws, Theories, Principles and Patterns that developers will find useful.
 

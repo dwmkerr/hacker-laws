@@ -7,6 +7,9 @@ Laws, Theories, Principles and Patterns that developers will find useful.
 - 🇰🇷 [한국어 / Korean Version](https://github.com/codeanddonuts/hacker-laws-kr) - thanks [Doughnut](https://github.com/codeanddonuts)!
 - 🇷🇺 [Русская версия / Russian Version](https://github.com/solarrust/hacker-laws) - thanks [Alena Batitskaya](https://github.com/solarrust)!
 - 🇹🇷 [Türkçe / Turkish Version](https://github.com/umutphp/hacker-laws-tr) - thanks [Umut Işık](https://github.com/umutphp)
+- 🇧🇷 [Brasileiro / Brazilian Version](./translations/pt-BR.md) - thanks [Leonardo Costa](https://github.com/LeoFC97)
+
+Like this project? Please considering [Sponsoring Me](https://github.com/sponsors/dwmkerr)!
 
 ---
 
@@ -38,6 +41,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [The Unix Philosophy](#the-unix-philosophy)
     * [The Spotify Model](#the-spotify-model)
     * [Wadler's Law](#wadlers-law)
+    * [Wheaton's Law](#wheatons-law)
 * [Principles](#principles)
     * [The Dilbert Principle](#the-dilbert-principle)
     * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
@@ -50,7 +54,9 @@ Laws, Theories, Principles and Patterns that developers will find useful.
     * [The Interface Segregation Principle](#the-interface-segregation-principle)
     * [The Dependency Inversion Principle](#the-dependency-inversion-principle)
     * [The DRY Principle](#the-dry-principle)
+    * [The KISS principle](#the-kiss-principle)
     * [YAGNI](#yagni)
+    * [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)
 * [Reading List](#reading-list)
 * [TODO](#todo)
 
@@ -120,6 +126,8 @@ See also:
 
 [Cunningham's Law on Wikipedia](https://en.wikipedia.org/wiki/Ward_Cunningham#Cunningham's_Law)
 
+> The best way to get the right answer on the Internet is not to ask a question, it's to post the wrong answer.
+
 According to Steven McGeady, Ward Cunningham advised him in the early 1980s: "The best way to get the right answer on the Internet is not to ask a question, it's to post the wrong answer." McGeady dubbed this Cunningham's law, though Cunningham denies ownership calling it a "misquote." Although originally referring to interactions on Usenet, the law has been used to describe how other online communities work (e.g., Wikipedia, Reddit, Twitter, Facebook).
 
 See also:
@@ -152,7 +160,7 @@ The classic example is the world-wide-web. In it's current state, it is a highly
 
 See also:
 
-- [KISS (Keep It Simple, Stupid)](#TODO)
+- [KISS (Keep It Simple, Stupid)](#the-kiss-principle)
 
 ### Hanlon's Razor
 
@@ -239,7 +247,6 @@ See also:
 - [Reed's Law](#reeds-law)
 - [Dunbar's Number](#dunbars-number)
 
-
 ### Moore's Law
 
 [Moore's Law on Wikipedia](https://en.wikipedia.org/wiki/Moore%27s_law)
@@ -325,7 +332,6 @@ See also:
 - [Metcalfe's Law](#metcalfes-law)
 - [Dunbar's Number](#dunbars-number)
 
-
 ### The Law of Conservation of Complexity (Tesler's Law)
 
 [The Law of Conservation of Complexity on Wikipedia](https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity)
@@ -404,6 +410,18 @@ Similar to [The Law of Triviality](#the-law-of-triviality), Wadler's Law states 
 See also:
 
 - [The Law of Triviality](#the-law-of-triviality)
+
+### Wheaton's Law
+
+[The Link](http://www.wheatonslaw.com/)
+
+[The Official Day](https://dontbeadickday.com/)
+
+> Don't be a dick.
+>
+> _Wil Wheaton_
+
+Coined by Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), this simple, concise, and powerful law aims for an increase in harmony and respect within a professional organization. It can be applied when speaking with coworkers, performing code reviews, countering other points of view, critiquing, and in general, most professional interactions humans have with each other.
 
 ## Principles
 
@@ -588,6 +606,20 @@ See also:
 
 - [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 
+### The KISS principle
+
+[KISS on Wikipedia](https://en.wikipedia.org/wiki/KISS_principle)
+
+> Keep it simple, stupid
+
+The KISS principle states that most systems work best if they are kept simple rather than made complicated; therefore, simplicity should be a key goal in design, and unnecessary complexity should be avoided.  Originating in the U.S. Navy in 1960, the phrase has been associated with aircraft engineer Kelly Johnson.
+
+The principle is best exemplified by the story of Johnson handing a team of design engineers a handful of tools, with the challenge that the jet aircraft they were designing must be repairable by an average mechanic in the field under combat conditions with only these tools. Hence, the "stupid" refers to the relationship between the way things break and the sophistication of the tools available to repair them, not the capabilities of the engineers themselves.
+
+See also:
+
+- [Gall's Law](#galls-law)
+
 ### YAGNI
 
 [YAGNI on Wikipedia](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
@@ -606,6 +638,32 @@ See also:
 
 - [Reading List: Extreme Programming Installed](#reading-list)
 
+### The Fallacies of Distributed Computing
+
+[The Fallacies of Distributed Computing on Wikipedia](https://en.wikipedia.org/wiki/You_aren%https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
+
+Also known as _Fallacies of Networked Computing_, the Fallacies are a list of conjectures (or beliefs) about distributed computing, which can lead to failures in software development. The assumptions are:
+
+- The network is reliable
+- Latency is zero
+- Bandwidth is infinite
+- The network is secure
+- Topology doesn't change
+- There is one administrator
+- Transport cost is zero
+- The network is homogeneous
+
+The first four items were listed by [Bill Joy](https://en.wikipedia.org/wiki/Bill_Joy) and [Tom Lyon](https://twitter.com/aka_pugs) around 1991 and first classified by [James Gosling](https://en.wikipedia.org/wiki/James_Gosling) as the "Fallacies of Networked Computing". [L. Peter Deutsch](https://en.wikipedia.org/wiki/L._Peter_Deutsch) added the 5th, 6th and 7th fallacies. In the late 90's Gosling added the 8th fallacy.
+
+The group were inspired by what was happening at the time inside [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems).
+
+These fallacies should be considered carefully when designing code which is resilient; assuming any of these fallacies can lead to flawed logic which fails to deal with the realities and complexities of distributed systems.
+
+See also:
+
+- [Foraging for the Fallacies of Distributed Computing (Part 1) - Vaidehi Joshi
+ on Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
+- [Deutsch's Fallacies, 10 Years After](http://java.sys-con.com/node/38665)
 
 ## Reading List
 

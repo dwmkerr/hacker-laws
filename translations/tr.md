@@ -7,6 +7,9 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
 - 🇰🇷 [한국어 / Korece İçin](https://github.com/codeanddonuts/hacker-laws-kr) - Teşekkürler [Doughnut](https://github.com/codeanddonuts)!
 - 🇷🇺 [Русская версия / Rusça İçin](https://github.com/solarrust/hacker-laws) - Teşekkürler [Alena Batitskaya](https://github.com/solarrust)!
 - 🇹🇷 [Türkçe / Turkçe İçin](https://github.com/umutphp/hacker-laws-tr) - Teşekkürler [Umut Işık](https://github.com/umutphp)
+- 🇧🇷 [Brasileiro / Brezilyaca İçin](./translations/pt-BR.md) - Teşekkürler [Leonardo Costa](https://github.com/LeoFC97)
+
+Bu projeyi beğendiniz mi? Lütfen [sponsorluk olmayı](https://github.com/sponsors/dwmkerr) düşünün!
 
 ---
 
@@ -17,6 +20,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [Amdahl Yasası](#amdahls-law)
     - [Brooks Yasası](#brooks-law)
     - [Conway Yasası](#conways-law)
+    - [Cunningham Yasası](#cunninghams-law)
     - [Dunbar Sayısı](#dunbars-number)
     - [Gall Yasası](#galls-law)
     - [Hanlon'un Usturası](#hanlons-razor)
@@ -24,17 +28,20 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [Hutber Yasası](#hutbers-law)
     - [Hype Döngüsü ve Amara Yasası](#the-hype-cycle--amaras-law)
     - [Hyrum Yasası (Arabirimlerin Örtülü Hukuku)](#hyrums-law-the-law-of-implicit-interfaces)
+    - [Metcalfe Yasası](#metcalfes-law)
     - [Moore Yasası](#moores-law)
     - [Murphy Yasası / Sod  Yasası](#murphys-law--sods-law)
     - [Parkinson Yasası](#parkinsons-law)
     - [Olgunlaşmamış Optimizasyon Etkisi](#premature-optimization-effect)
     - [Putt Yasası](#putts-law)
+    - [Reed Yasası](#reeds-law)
     - [Karmaşıklığın Korunması Yasası (Tesler Yasası)](#the-law-of-conservation-of-complexity-teslers-law)
     - [Sızdıran Soyutlamalar Yasası](#the-law-of-leaky-abstractions)
     - [Önemsizlik Yasası](#the-law-of-triviality)
     - [Unix Felsefesi](#the-unix-philosophy)
     - [Spotify Modeli](#the-spotify-model)
     - [Wadler Yasası](#wadlers-law)
+    - [Wheaton Yasası](#wheatons-kanunu)
 - [Prensipler](#principles)
     - [Dilbert Prensibi](#the-dilbert-principle)
     - [Pareto Prensibi (80/20 Kuralı)](#the-pareto-principle-the-8020-rule)
@@ -47,7 +54,9 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [Arayüz Ayrım Prensibi](#the-interface-segregation-principle)
     - [Bağımlılığın Ters Çevrilmesi](#the-dependency-inversion-principle)
     - [DRY Prensibi](#the-dry-principle)
+    - [KISS prensibi](#the-kiss-principle)
     - [YAGNI](#yagni)
+    - [Dağıtık Sistemlerin Yanılgıları](#da%C4%9F%C4%B1t%C4%B1k-hesaplaman%C4%B1n-yanl%C4%B1%C5%9Flar%C4%B1)
 - [Ek Kaynaklar](#reading-list)
 - [TODO](#todo)
 
@@ -113,6 +122,18 @@ Ek kaynaklar:
 
 - [Spotify Modeli](#the-spotify-model)
 
+### Cunningham Yasası
+
+[Wikipedia'da Cunningham Yasası](https://en.wikipedia.org/wiki/Ward_Cunningham#Cunningham's_Law)
+
+> İnternette doğru cevabı almanın en iyi yolu, soru sormak değil, yanlış olan cevabı yazmaktır.
+
+Steven McGeady'ye göre, Ward Cunningham, 1980'lerin başında ona tavsiye olarak “İnternette doğru cevabı almanın en iyi yolu, bir soru sormak değil, yanlış olan cevabı yazmaktır” dedi. McGeady bunu Cunningham kanunu olarak adlandırdı, ancak Cunningham bu sahipliği bunun "yanlış bir alıntı" olduğunu nitelendirerek reddetti. Her ne kadar orjinalinde Usenet'teki etkileşimlerle ilgili olsa da, yasa diğer çevrimiçi toplulukların nasıl çalıştığını açıklamak için kullanılmıştır (örneğin, Wikipedia, Reddit, Twitter, Facebook).
+
+Ek kaynaklar:
+
+- [XKCD 386: "Duty Calls"](https://xkcd.com/386/)
+
 ### Dunbar Sayısı
 
 [Wikipedia'da Dunbar Sayısı](https://en.wikipedia.org/wiki/Dunbar%27s_number)
@@ -138,14 +159,13 @@ En klasik örnek günümüzdeki internettir.  Şu an çok karmaşık bir sistemd
 
 Ek kaynaklar:
 
-- [KISS (Keep It Simple, Stupid)](#TODO)
+- [KISS (Keep It Simple, Stupid)](#the-kiss-principle)
 
 ### Hanlon'un Usturası
 
 [Wikipedia'da Hanlon'un Usturası](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
 
 > Aptallıkla layıkıyla açıklanabilecek bir şeyi, asla kötü niyete bağlamayın.
-> Robert J. Hanlon
 > Robert J. Hanlon
 
 Bu prensip, olumsuz sonuçlara yol açan eylemlerin, çoğunlukla kötü niyetin sonucu olmadığını savunmaktadır. Aksine, olumsuz sonuç daha büyük olasılıkla bu eylemlerin ve/veya etkinin tam olarak anlaşılamamasına bağlıdır.
@@ -155,7 +175,6 @@ Bu prensip, olumsuz sonuçlara yol açan eylemlerin, çoğunlukla kötü niyetin
 [Wikipedia'da Hofstadter Yasası](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
 
 > Bir iş her zaman umduğundan daha uzun sürer, Hofstadter yasasını göz önünde bulundursan bile.
-> (Douglas Hofstadter)
 > (Douglas Hofstadter)
 
 Bu yasayı bir işin ne kadar süreceğini tahminlenirken hatırlatıldığı için duymuş olabilirsiniz. Herkesin kabul ettiği bir gerçek var ki, yazılım geliştirmede en kötü olduğumuz alan işin ne kadar sürede biteceğini tahmin etmektir.
@@ -205,6 +224,19 @@ Ek kaynaklar:
 
 - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
 - [XKCD 1172](https://xkcd.com/1172/)
+
+### Metcalfe Yasası
+
+[Wikipedia'da Metcalfe Yasası](https://en.wikipedia.org/wiki/Metcalfe's_law)
+
+> Ağ teorisinde, bir sistemin değeri yaklaşık olarak sistemin kullanıcı sayısının karesi ile orantılı olarak büyür.
+
+Bu yasa, bir sistem içindeki muhtemel çift bağlantıların sayısına dayanmaktadır ve [Reed Yasası](#reeds-law) ile yakından ilgilidir. Odlyzko ve diğerleri, hem Reed Yasası hem de Metcalfe Yasası'nın, insan bilişinin ağ etkileri üzerindeki sınırlarını hesaba katmayarak sistemin değerini abarttığını öne sürerler; [Dunbar Sayısı'na](#dunbars-number) bakınız.
+
+Ek kaynaklar:
+
+- [Reed Yasası](#reeds-law)
+- [Dunbar Sayısı](#dunbars-number)
 
 ### Moore Yasası
 
@@ -277,6 +309,19 @@ Ek kaynaklar:
 - [Peter Prensibi](#the-peter-principle)
 - [Dilbert Prensibi](#the-dilbert-principle)
 
+### Reed Yasası
+
+[Wikipedia'da Reed Yasası](https://en.wikipedia.org/wiki/Reed's_law)
+
+> Büyük ağların, özellikle sosyal ağların kullanımı, ağın boyutuna katlanarak ölçeklenir.
+
+Bu yasa, programın faydasının olası katılımcı veya ikili bağlantı sayısından daha hızlı olan olası alt grup sayısı olarak ölçeklendiği grafik teorisine dayanmaktadır. Odlyzko ve diğerleri, Reed Yasası'nın, insan bilişinin ağ etkileri üzerindeki sınırlarını hesaba katarak sistemin yararını abarttığını öne sürerler; [Dunbar Sayısı'na](#dunbars-number) bakınız.
+
+Ek kaynaklar:
+
+- [Metcalfe Yasası](#metcalfes-law)
+- [Dunbar Sayısı](#dunbars-number)
+
 ### Karmaşıklığın Korunması Yasası (Tesler Yasası)
 
 [Wikipedia'da Karmaşıklığın Korunması Yasası](https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity)
@@ -344,7 +389,7 @@ Spotify Modeli kabileler (Tribes), birlikler (Guilds) ve kısımlar (Chapter) gi
 > 1. Semantik
 > 2. Genel sözdizimi
 > 3. Sözcük sözdizimi
-> 4. Yorumlardaki sözcük sözdizimi(Kısaca semantic için harcanan her bir saat için yorumlardaki sözcük sözdizimi için sekiz saat harcanacaktır.)(Kısaca semantic için harcanan her bir saat için yorumlardaki sözcük sözdizimi için sekiz saat harcanacaktır.)
+> 4. Yorumlardaki sözcük sözdizimi
 > (Kısaca semantic için harcanan her bir saat için yorumlardaki sözcük sözdizimi için sekiz saat harcanacaktır.)
 
 [Önemsizlik Yasasında](#the-law-of-triviality) öne sürülene benzer olarak, Wadler Yasası yeni bir programlama dili tasarlanırken konunun önemi ile o konu için harcanan zaman ters orantılı olduğunu söylüyor.
@@ -352,6 +397,17 @@ Spotify Modeli kabileler (Tribes), birlikler (Guilds) ve kısımlar (Chapter) gi
 Ek kaynaklar:
 
 - [Önemsizlik Yasası](#the-law-of-triviality)
+
+### Wheaton Yasası
+
+[Link](http://www.wheatonslaw.com/)
+
+[Resmi Gün](https://dontbeadickday.com/)
+
+> Öküzlük yapmayın.
+> *Wil Wheaton*
+
+Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory) tarafından oluşturulan bu basit, özlü ve güçlü yasa, profesyonel bir organizasyon içinde uyum ve saygının artmasını amaçlamaktadır. İş arkadaşlarınızla konuşurken, kod incelemeleri yaparken, diğer bakış açılarını öne sürerken, insanları eleştirirken ve genel olarak insanların birbirleriyle olan profesyonel etkileşimlerinin çoğunda uygulanabilir.
 
 ## Prensipler
 
@@ -386,6 +442,7 @@ Pareto Prensibi der ki, çıktıların önemli bir çoğunluğu girdilerin çok 
 - Özelliklerin %20'si hizmetin %80'ini oluşturur
 
 1940'lı yıllarda Romanya kökenli Amerikalı mühendis Dr. Joseph Juran, kendisi kalite kontrolün babası olarak nitelendirilir, [kalite kontrol sorunlarında Pareto Prensibini kullanmaya başladı](https://en.wikipedia.org/wiki/Joseph_M._Juran).
+
 
 Bu prensip aynı zamanda 80/20 Kuralı (The Law of the Vital Few and The Principle of Factor Sparsity) olarak da bilinir.
 
@@ -455,6 +512,7 @@ Ek kaynaklar:
 Bu '[SOLID](#solid)' prensiplerinin ikincisidir ve herhangi bir sistem parçasının *mevcut* davranışının değiştirilememesini ama kullanılarak/türetilerek *genişletilebilmesinin* gerekliliğini savunur.
 
 Örneğin Markdown formatındaki belgeleri HTML formatına çeviren bir modülü düşünelim. Eğer bu modül kendisi değiştirilmeden yeni bir Markdown formatını da işlemesi sağlanacak şekilde geliştirilebiliyorsa, bu modül genişletilmeye açık demektir. Eğer sonradan değiştirilip Markdown formatı işlemesi ile ilgili geliştirme *yapılamıyorsa*, bu modül değiştirilmeye *kapalı* demektir.
+
 
 Bu prensip nesne-tabanlı programlamaya tam uygundur. Şöyle ki, kendi nesne ve sınıflarımızı miras alınarak geliştirmeye uygun ve değiştirmeye ihtiyaç duymayacak şekilde tasarlarsak ve yazarsak nesne-tabanlı programlamaya tam uygun kod yazmış oluruz.
 
@@ -527,6 +585,7 @@ Ek kaynaklar:
 
 *DRY Don't Repeat Yourself* yani Kendini Tekrar Etme deyimin kısaltılmasıdır. İlk olarak Andrew Hunt ve Dave Thomas tarafından [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer) kitabında bahsedilmiştir. Bu ilke, geliştiricilere kod tekrarını azaltma ve bilgileri tek bir yerde tutmalarına yardımcı olmayı amaçlamaktadır.
 
+
 > DRY'nin tam tersi *WET* olacaktır (Write Everything Twice (Her Şeyi İki Kez Yaz) We Enjoy Typing (Yazmayı Seviyoruz)).
 
 Uygulamada, aynı bilgi parçasını iki (veya daha fazla) farklı yerde kullanıyorsanız, DRY'yi bunları tek bir tanede birleştirmek ve istediğiniz / ihtiyaç duyduğunuz yerde tekrar kullanmak için kullanabilirsiniz.
@@ -534,6 +593,20 @@ Uygulamada, aynı bilgi parçasını iki (veya daha fazla) farklı yerde kullan�
 Ek kaynaklar:
 
 - [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+
+### KISS prensibi
+
+[Wikipedia'da KISS](https://en.wikipedia.org/wiki/KISS_principle)
+
+> Olabildiğince basit ve aptal (Keep it simple, stupid)
+
+KISS prensibi, çoğu sistemin karmaşıklaştırılmak yerine basit tutulması durumunda en iyi şekilde çalışacağını belirtir; bu nedenle sadelik tasarımda kilit bir amaç olmalı ve gereksiz karmaşıklıktan kaçınılmalıdır. Bu 1960’da ABD Donanması’nda çalışan uçak mühendisi Kelly Johnson ile ilişkilendirilen bir cümle.
+
+Prensip, Johnson'ın bir tasarım mühendisleri ekibine bir avuç el aleti teslim etmesinin öyküsüyle en iyi örneklenmiştir, tasarladıkları jet uçağının sahadaki ortalama bir tamirci tarafından yalnızca bu aletlerle mücadele koşullarında tamir edilebilir olması zorunluluğu ile karşı karşıyadır. Bu nedenle, "aptal" kelimesi mühendislerin kendi yeteneklerini değil, işlerin kırılma şekli ile onları tamir etmek için mevcut araçların karmaşıklığı arasındaki ilişkiyi ifade eder.
+
+Ek kaynaklar:
+
+- [Gall Yasası](#galls-law)
 
 ### YAGNI
 
@@ -552,6 +625,33 @@ Ek kaynaklar:
 
 - [Reading List: Extreme Programming Installed](#reading-list)
 
+### Dağıtık Sistemlerin Yanılgıları
+
+[Wikipedia'da Dağıtık Sistemlerin Yanılgıları](https://en.wikipedia.org/wiki/You_aren%https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
+
+*Ağ Tabanlı Sistemlerin Yanılgıları* olarak da bilinen yanılgılar dağıtık sistemleri geliştirme sırasında başarısızlıklara yol açabilecek varsayımların (veya inançların) bir listesidir. Varsayımlar:
+
+- Ağ güvenilirdir.
+- Gecikme yoktur.
+- Bant genişliği sonsuzdur.
+- Ağ güvenlidir.
+- Topoloji değişmez.
+- Sadece bir tane yönetici vardır.
+- Taşıma maaliyeti sıfırdır.
+- Ağ homojendir.
+
+İlk dört madde 1991'de [Bill Joy](https://en.wikipedia.org/wiki/Bill_Joy) ve [Tom Lyon](https://twitter.com/aka_pugs) tarafından listelenmiştir ve ilk önce [James Gosling](https://en.wikipedia.org/wiki/James_Gosling) tarafından "Ağ Tabanlı Sistemlerin Yanılgıları" olarak sınıflandırılmıştır. [L. Peter Deutsch](https://en.wikipedia.org/wiki/L._Peter_Deutsch)  5., 6. ve 7. yanılgıları ekledi. 90'lı yılların sonlarında Gosling 8. yanılgıyı ekledi.
+
+Grup [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems) içinde başlarına gelen olaydan ilham aldı.
+
+Dayanıklı sistemler tasarlarken bu yanılgılar dikkatlice ele alınmalı; bu yanılgılardan herhangi birinin varsayılması, dağıtılmış sistemlerin gerçeklikleri ve karmaşıklıkları ile başa çıkamayan hatalı bir mantığa yol açabilir.
+
+Ek kaynaklar:
+
+- [Foraging for the Fallacies of Distributed Computing (Part 1) - Vaidehi Joshi
+    on Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
+- [Deutsch's Fallacies, 10 Years After](http://java.sys-con.com/node/38665)
+
 ## Ek Kaynaklar
 
 Bu kavramları ilginç bulduysanız, aşağıdaki kitapların keyfini çıkarabilirsiniz.
@@ -567,3 +667,4 @@ Bu kavramları ilginç bulduysanız, aşağıdaki kitapların keyfini çıkarabi
 Selam!. Buraya ulaştıysanız, henüz yazmadığım bir konunun bağlantısını tıkladınız, bunun için üzgünüm - ve en kısa zamanda tamamlamaya çalışacağım!
 
 Soru ve önerileriniz için [issue](https://github.com/dwmkerr/hacker-laws/issues) açabilirsiniz, ya da katkıda bulunmak isterseniz [Pull Request](https://github.com/dwmkerr/hacker-laws/pulls) açabilirsiniz.
+

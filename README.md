@@ -165,7 +165,7 @@ See also:
 
 ### Greshem's Law 
 
-[Greshem's Law on Wikipedia](https://en.wikipedia.org/wiki/Gresham%27s_law)[Gresham's Law](#Gresham's_law)
+[Greshem's Law on Wikipedia](https://en.wikipedia.org/wiki/Gresham%27s_law)
 
 > In economics, Gresham's law is a monetary principle stating that "bad money drives out good". 
 > For example, if there are two forms of commodity money in circulation, which are accepted by law as having similar face value, the more valuable commodity will gradually disappear from circulation.

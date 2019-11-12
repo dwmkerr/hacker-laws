@@ -23,7 +23,7 @@ Like this project? Please considering [Sponsoring Me](https://github.com/sponsor
     * [Cunningham's Law](#cunninghams-law)
     * [Dunbar's Number](#dunbars-number)
     * [Gall's Law](#galls-law)
-    * [Greshem's Law](#greshems-law)
+    * [Gresham's Law](#greshams-law)
     * [Hanlon's Razor](#hanlons-razor)
     * [Hofstadter's Law](#hofstadters-law)
     * [Hutber's Law](#hutbers-law)
@@ -163,9 +163,9 @@ See also:
 
 - [KISS (Keep It Simple, Stupid)](#the-kiss-principle)
 
-### Greshem's Law 
+### Gresham's Law 
 
-[Greshem's Law on Wikipedia](https://en.wikipedia.org/wiki/Gresham%27s_law)
+[Gresham's Law on Wikipedia](https://en.wikipedia.org/wiki/Gresham%27s_law)
 
 > In economics, Gresham's law is a monetary principle stating that "bad money drives out good". 
 > For example, if there are two forms of commodity money in circulation, which are accepted by law as having similar face value, the more valuable commodity will gradually disappear from circulation.

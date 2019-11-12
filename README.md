@@ -170,6 +170,18 @@ See also:
 > In economics, Gresham's law is a monetary principle stating that "bad money drives out good". 
 > For example, if there are two forms of commodity money in circulation, which are accepted by law as having similar face value, the more valuable commodity will gradually disappear from circulation.
 
+> Under Gresham's Law, "good money" is money that shows little difference between its nominal value (the face value of the coin) and its commodity value (the value of the metal of which it is made, often precious metals, nickel, or copper).
+
+> In the absence of legal-tender laws, metal coin money will freely exchange at somewhat above bullion market value. This may be observed in bullion coins such as the Canadian Gold Maple Leaf, the South African Krugerrand, the American Gold Eagle, or even the silver Maria Theresa thaler (Austria) and the Libertad (Mexico). Coins of this type are of a known purity and are in a convenient form to handle. People prefer trading in coins rather than in anonymous hunks of precious metal, so they attribute more value to the coins of equal weight.
+
+> The price spread between face value and commodity value is called seigniorage. As some coins do not circulate, remaining in the possession of coin collectors, this can increase demand for coinage.
+
+> On the other hand, bad money is money that has a commodity value considerably lower than its face value and is in circulation along with good money, where both forms are required to be accepted at equal value as legal tender.
+
+> In Gresham's day, bad money included any coin that had been debased. Debasement was often done by the issuing body, where less than the officially specified amount of precious metal was contained in an issue of coinage, usually by alloying it with a base metal. The public could also debase coins, usually by clipping or scraping off small portions of the precious metal, also known as "stemming" (reeded edges on coins were intended to make clipping evident). Other examples of bad money include counterfeit coins made from base metal. Today all circulating coins are made from base metals, known as fiat money.
+
+> In the case of clipped, scraped, or counterfeit coins, the commodity value was reduced by fraud, as the face value remains at the previous higher level. On the other hand, with a coinage debased by a government issuer, the commodity value of the coinage was often reduced quite openly, while the face value of the debased coins was held at the higher level by legal tender laws.
+
 ### Hanlon's Razor
 
 [Hanlon's Razor on Wikipedia](https://en.wikipedia.org/wiki/Hanlon%27s_razor)

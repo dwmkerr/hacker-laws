@@ -42,7 +42,6 @@ Like this project? Please considering [Sponsoring Me](https://github.com/sponsor
     * [The Spotify Model](#the-spotify-model)
     * [Wadler's Law](#wadlers-law)
     * [Wheaton's Law](#wheatons-law)
-    * [Linus's Law](#linuss-law)
 * [Principles](#principles)
     * [The Dilbert Principle](#the-dilbert-principle)
     * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)

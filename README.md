@@ -430,7 +430,7 @@ Coined by Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), thi
 
 > Given enough eyeballs, all bugs are shallow.
 
-The law was formulated by [Eric S. Raymond](https://www.wikizeroo.org/index.php?q=aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvRXJpY19TLl9SYXltb25k) in his essay and book [The Cathedral and the Bazaar (1999)](https://www.wikizeroo.org/index.php?q=aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVGhlX0NhdGhlZHJhbF9hbmRfdGhlX0JhemFhcg), and was named in honor of Linus Torvalds. 
+The law was formulated by [Eric S. Raymond](https://www.wikizeroo.org/index.php?q=aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvRXJpY19TLl9SYXltb25k) in his essay and book [The Cathedral and the Bazaar](https://www.wikizeroo.org/index.php?q=aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVGhlX0NhdGhlZHJhbF9hbmRfdGhlX0JhemFhcg) (in honor of [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds)). 
 
 A more formal statement is:
 

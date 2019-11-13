@@ -42,6 +42,7 @@ Like this project? Please considering [Sponsoring Me](https://github.com/sponsor
     * [The Spotify Model](#the-spotify-model)
     * [Wadler's Law](#wadlers-law)
     * [Wheaton's Law](#wheatons-law)
+    * [Linus's Law](#linuss-law)
 * [Principles](#principles)
     * [The Dilbert Principle](#the-dilbert-principle)
     * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
@@ -422,6 +423,20 @@ See also:
 > _Wil Wheaton_
 
 Coined by Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), this simple, concise, and powerful law aims for an increase in harmony and respect within a professional organization. It can be applied when speaking with coworkers, performing code reviews, countering other points of view, critiquing, and in general, most professional interactions humans have with each other.
+
+### Linus's Law
+
+[Linus's Law on Wikipedia](https://en.wikipedia.org/wiki/Linus%27s_law)
+
+> Given enough eyeballs, all bugs are shallow.
+
+The law was formulated by [Eric S. Raymond](https://www.wikizeroo.org/index.php?q=aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvRXJpY19TLl9SYXltb25k) in his essay and book [The Cathedral and the Bazaar (1999)](https://www.wikizeroo.org/index.php?q=aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVGhlX0NhdGhlZHJhbF9hbmRfdGhlX0JhemFhcg), and was named in honor of Linus Torvalds. 
+
+A more formal statement is:
+
+> Given a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and the fix obvious to someone.
+
+Although it is referred as a "[mantra](https://en.wikipedia.org/wiki/Mantra)" of open source movement, it can be also considered during any kind of software development. More code reviews, more static analysis and multi-diciplined test processes will make the bugs more visible. 
 
 ## Principles
 

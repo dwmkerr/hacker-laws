@@ -454,9 +454,11 @@ Modern practices like 'Microservice Architecture' can be thought of as an applic
 
 [The Spotify Model on Spotify Labs](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)
 
-The Spotify Model is an approach to team and organisation structure which has been popularised by 'Spotify'. In this model, teams are organised around features, rather than technologies.
+The Spotify Model, _internally_, is a culture of experimentation where everything is up for re-examination. The larger structure is of course slower to change, but it does happen.
 
-The Spotify Model also popularises the concepts of Tribes, Guilds, Chapters, which are other components of their organisation structure.
+"The Spotify Model" is also the concepts of Tribes, Guilds, Chapters, which were the components of their organisation structure when it was most widely presented and diseminated. They're just names that imply groups, and are always up for debate and experimentation, but everyone else just copies whatever the structure happened to be when someone from Spotify was presenting at some conference or whatever. This situation is so persistent, no matter what effort is expended to explain, that both meanings must be understood and accepted as the meaning of the phrase. Presenter point at the moon, audience looks at their finger.
+
+The result of the experimentation was the division of the problem space into feature slices, rather than layers. This enables (feature) teams to work on UI, the service supporting that feature as well as anything lower in the stack without blocking on anyone, as is often the case with the layered orientation. This technical meaning is a less terrible interpretation of the latter, but still a local result of the former.
 
 ### Wadler's Law
 

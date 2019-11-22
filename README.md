@@ -42,6 +42,7 @@ Like this project? Please considering [Sponsoring Me](https://github.com/sponsor
     * [The Spotify Model](#the-spotify-model)
     * [Wadler's Law](#wadlers-law)
     * [Wheaton's Law](#wheatons-law)
+    * [Goodhart's Law](#goodharts-law)
 * [Principles](#principles)
     * [The Dilbert Principle](#the-dilbert-principle)
     * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
@@ -422,6 +423,30 @@ See also:
 > _Wil Wheaton_
 
 Coined by Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), this simple, concise, and powerful law aims for an increase in harmony and respect within a professional organization. It can be applied when speaking with coworkers, performing code reviews, countering other points of view, critiquing, and in general, most professional interactions humans have with each other.
+
+### Goodhart's Law
+
+[The Goodhart's Law on Wikipedia](https://en.wikipedia.org/wiki/Goodhart's_law)
+
+> Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes.
+>
+> _Charles Goodhart_
+
+also known as:
+
+> When a measure becomes a target, it ceases to be a good measure.
+>
+> _Marilyn Strathern_
+
+The law states that the measure-driven optimizations could lead to devaluation of the measurement outcome itself. Overly selective set of measures ([KPIs](https://en.wikipedia.org/wiki/Performance_indicator)) blindly applied to a process results in distorted effect. People tend to optimize locally by "gaming" the system in order to satisfy particular metrics instead of paying attention to hollistic outcome of their actions.
+
+Real-world examples:
+- Assert-free tests satisfy the code coverage expectation, despite the metric intent was to create well-tested software.
+- Developer performance score indicated by the number of lines committed leads to unjustifiably bloated codebase.
+
+See also:
+- [Goodhart’s Law: How Measuring The Wrong Things Drive Immoral Behaviour](https://coffeeandjunk.com/goodharts-campbells-law/)
+- [Dilbert on bug-free software](https://dilbert.com/strip/1995-11-13)
 
 ## Principles
 

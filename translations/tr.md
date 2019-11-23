@@ -169,7 +169,6 @@ Ek kaynaklar:
 
 > Gözlemlenen herhangi bir istatistiksel düzenlilik, kontrol amaçları için üzerine baskı uygulandığında çökme eğiliminde olacaktır.
 > *Charles Goodhart*
-> *Charles Goodhart*
 
 Ayrıca şu şekilde de ifade edilir:
 

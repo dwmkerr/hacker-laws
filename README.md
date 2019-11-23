@@ -44,6 +44,7 @@ Like this project? Please considering [Sponsoring Me](https://github.com/sponsor
     * [Wadler's Law](#wadlers-law)
     * [Wheaton's Law](#wheatons-law)
 * [Principles](#principles)
+    * [Chesterson's Fence](#chestersons-fence)
     * [The Dilbert Principle](#the-dilbert-principle)
     * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
     * [The Peter Principle](#the-peter-principle)
@@ -451,6 +452,16 @@ Coined by Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), thi
 ## Principles
 
 Principles are generally more likely to be guidelines relating to design.
+
+### Chesterson's Fence
+
+[Chesterson's Fence on Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence)
+
+> Reforms should not be made until the reasoning behind the existing state of affairs is understood.
+
+The name of this principle comes from a story by G.K. Chesterson. A man comes across a fence crossing the middle of the road. He complains to the mayor that this useless fence is getting in the way, and asks to remove it. The mayor asks why the fence is there in the first place. When the man says he doesn't know, the mayor says, "If you don't know its purpose, I certainly won't let you remove it. Go and find out the use of it, and then I may let you destroy it."
+
+This principle is relevant in software engineering when removing technical debt. Each line of a program was originally written by someone for some reason. If part of the code looks needlessly messy or worthless, you should try and understand why it was written that way in the first place. Only once you know this can you feel confident removing it.
 
 ### The Dilbert Principle
 

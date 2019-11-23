@@ -461,7 +461,7 @@ Principles are generally more likely to be guidelines relating to design.
 
 The name of this principle comes from a story by G.K. Chesterson. A man comes across a fence crossing the middle of the road. He complains to the mayor that this useless fence is getting in the way, and asks to remove it. The mayor asks why the fence is there in the first place. When the man says he doesn't know, the mayor says, "If you don't know its purpose, I certainly won't let you remove it. Go and find out the use of it, and then I may let you destroy it."
 
-This principle is relevant in software engineering when removing technical debt. Each line of a program was originally written by someone for some reason. If part of the code looks needlessly messy or worthless, you should try and understand why it was written that way in the first place. Only once you know this can you feel confident removing it.
+This principle is relevant in software engineering when removing technical debt. Each line of a program was originally written by someone for some reason. You should try and understand why code was written the way it was in the first place. Only once you know this can you feel confident removing or refactoring it.
 
 ### The Dilbert Principle
 

@@ -23,7 +23,7 @@ Bu projeyi beğendiniz mi? Lütfen [sponsorluk olmayı](https://github.com/spons
     - [Cunningham Yasası](#cunninghams-law)
     - [Dunbar Sayısı](#dunbars-number)
     - [Gall Yasası](#galls-law)
-    - [Goodhart Yasası](#goodharts-kanunu)
+    - [Goodhart Yasası](#goodharts-law)
     - [Hanlon'un Usturası](#hanlons-razor)
     - [Hofstadter Yasası](#hofstadters-law)
     - [Hutber Yasası](#hutbers-law)
@@ -193,7 +193,6 @@ Ek kaynaklar:
 
 > Aptallıkla layıkıyla açıklanabilecek bir şeyi, asla kötü niyete bağlamayın.
 > Robert J. Hanlon
-> Robert J. Hanlon
 
 Bu prensip, olumsuz sonuçlara yol açan eylemlerin, çoğunlukla kötü niyetin sonucu olmadığını savunmaktadır. Aksine, olumsuz sonuç daha büyük olasılıkla bu eylemlerin ve/veya etkinin tam olarak anlaşılamamasına bağlıdır.
 
@@ -202,7 +201,6 @@ Bu prensip, olumsuz sonuçlara yol açan eylemlerin, çoğunlukla kötü niyetin
 [Wikipedia'da Hofstadter Yasası](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
 
 > Bir iş her zaman umduğundan daha uzun sürer, Hofstadter yasasını göz önünde bulundursan bile.
-> (Douglas Hofstadter)
 > (Douglas Hofstadter)
 
 Bu yasayı bir işin ne kadar süreceğini tahminlenirken hatırlatıldığı için duymuş olabilirsiniz. Herkesin kabul ettiği bir gerçek var ki, yazılım geliştirmede en kötü olduğumuz alan işin ne kadar sürede biteceğini tahmin etmektir.
@@ -219,7 +217,6 @@ Ek kaynaklar:
 
 > İyileştirme, bozulma anlamına da gelir.
 > ([Patrick Hutber](https://en.wikipedia.org/wiki/Patrick_Hutber))
-> ([Patrick Hutber](https://en.wikipedia.org/wiki/Patrick_Hutber))
 
 Bu yasa der ki; sistemde yapılan bir iyileştirme sistemin diğer taraflarında bozulmaya sebep olabilir ya da başka bozuklukları gizleyebilir, bu da sistemin mevcut durumunun daha da bozulmasına sebep olabilir.
 
@@ -230,7 +227,6 @@ Bu yasa der ki; sistemde yapılan bir iyileştirme sistemin diğer taraflarında
 [Wikipedia'da Hype Döngüsü](https://en.wikipedia.org/wiki/Hype_cycle)
 
 > Bir teknolojinin kısa vadede oluşacak etkisini abartıp, uzun vadede oluşacak etkisini hafife alıyoruz.
-> (Roy Amara)
 > (Roy Amara)
 
 Hype Döngüsü bir teknolojinin zamanla yarattığı heyecan ve gelişiminin görsel olarak sunumudur ve Gartner tarafından ilk olarak oluşturulmuştur. En güzel anlatım aşağıdaki bir görsel ile yapılabilir:
@@ -246,7 +242,6 @@ Kısaca anlatmak gerekirse, bu döngü her yeni teknolojinin ilk zamanlarında t
 [Hyrum Yasası Web Sitesi](http://www.hyrumslaw.com/)
 
 > Belli sayıda kullanıcıya ulaştığında, servis sözleşmesinde ne demiş olduğunuzdan bağımsız olarak ürününüzün ya da sisteminizin bütün gözlemlenebilir davranışları artık üçüncü kişilere göre şekillenecektir.
-> (Hyrum Wright)
 > (Hyrum Wright)
 
 Hyrum Yasası göre, eğer bir API'nin *oldukça büyük sayılabilecek sayıda kullanıcısı* olduğunda, artık bütün sonuçlar ve davranışlar (API sözleşmesinde belirtilmemiş olsalar bile) kullanıcılara göre şekillenecektir. Buna bir örnek olarak bir API'nin tepki süresi olabilir. Daha kapsamlı bir örnek olarak kullanıcıların bir regex ile dönen cevap metninin içinden hatanın *tipini* ayıkladıkları bir senaryoyu düşünelim. API sözleşmesinde bu cevap metinleri ile ilgili bir şey belirtilmemiş olmasına ve kullanıcıların hata kodunu kullanmalarını belirtilmesine rağmen, cevap metnini değiştirmeniz *bazı* kullanıcıların metni kullanmalarından dolayı hata ile karşılaşmalarına sebep olacaktır.
@@ -450,7 +445,6 @@ Prensiplerin genellikle tasarıma ilişkin rehberlerdir.
 
 > Şirketler, yetersiz çalışanları, iş akışından uzaklaştırmak için sistematik olarak yönetici olmaya teşvik etme eğilimindedir.
 > *Scott Adams*
-> *Scott Adams*
 
 Scot Adams (Dilbert çizgi dizisinin yazarı) [Peter prensibinden](#the-peter-principle) esinlenerek ortaya atılmış bir yönetim kavramıdır. Dilbert prensibine göre yetenekli olmayan çalışanlar yönetim kadorlarına dopru yükseltilirler ki üretime verecekleri zarar aza indirilsin. Adams bunu ilk olarak 1995'te Wall Street Journal'da yazdığı bir makalede açıkladı daha sonra ise 1996'da yazdığı [Dilbert Prensibi](#reading-list) adlı kitabında detaylandırdı.
 
@@ -487,7 +481,6 @@ Gerçek dünyadan örnekler:
 [Wikipedia'da Peter Prensibi](https://en.wikipedia.org/wiki/Peter_principle)
 
 > Hiyerarşideki insanlar “yetersizlik seviyelerine” göre yükselme eğilimindedir.
-> *Laurence J. Peter*
 > *Laurence J. Peter*
 
 Laurence J. Peter tarafından geliştirilen bir yönetim konsepti olan Peter Prensibi, işlerinde iyi olan kişilerin, artık başarılı olamadıkları bir seviyeye (kendi "yetersizlik seviyelerine") ulaşana kadar terfi ettiğini gözlemlemektedir. Bu durumda şirket içinde çok tecrübeli olduklarından organizasyondan (çok aykırı birşey yapmadıkları sürece) dışlanmazlar ve az sayıda temel beceriye sahip olacakları bir rolde kalmaya devam edecekler, çünkü onları başarılı kılan orijinal becerileri mutlaka bu yeni rolleri için gereken beceriler değildir.
@@ -545,6 +538,7 @@ Ek kaynaklar:
 Bu '[SOLID](#solid)' prensiplerinin ikincisidir ve herhangi bir sistem parçasının *mevcut* davranışının değiştirilememesini ama kullanılarak/türetilerek *genişletilebilmesinin* gerekliliğini savunur.
 
 Örneğin Markdown formatındaki belgeleri HTML formatına çeviren bir modülü düşünelim. Eğer bu modül kendisi değiştirilmeden yeni bir Markdown formatını da işlemesi sağlanacak şekilde geliştirilebiliyorsa, bu modül genişletilmeye açık demektir. Eğer sonradan değiştirilip Markdown formatı işlemesi ile ilgili geliştirme *yapılamıyorsa*, bu modül değiştirilmeye *kapalı* demektir.
+
 
 Bu prensip nesne-tabanlı programlamaya tam uygundur. Şöyle ki, kendi nesne ve sınıflarımızı miras alınarak geliştirmeye uygun ve değiştirmeye ihtiyaç duymayacak şekilde tasarlarsak ve yazarsak nesne-tabanlı programlamaya tam uygun kod yazmış oluruz.
 
@@ -617,6 +611,7 @@ Ek kaynaklar:
 
 *DRY Don't Repeat Yourself* yani Kendini Tekrar Etme deyimin kısaltılmasıdır. İlk olarak Andrew Hunt ve Dave Thomas tarafından [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer) kitabında bahsedilmiştir. Bu ilke, geliştiricilere kod tekrarını azaltma ve bilgileri tek bir yerde tutmalarına yardımcı olmayı amaçlamaktadır.
 
+
 > DRY'nin tam tersi *WET* olacaktır (Write Everything Twice (Her Şeyi İki Kez Yaz) We Enjoy Typing (Yazmayı Seviyoruz)).
 
 Uygulamada, aynı bilgi parçasını iki (veya daha fazla) farklı yerde kullanıyorsanız, DRY'yi bunları tek bir tanede birleştirmek ve istediğiniz / ihtiyaç duyduğunuz yerde tekrar kullanmak için kullanabilirsiniz.
@@ -641,11 +636,12 @@ Ek kaynaklar:
 
 ### YAGNI
 
-[Wikipedia'da YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
+[Wikipedia'da YAGNI](https://en.wikipedia.org/wiki/You_ain%27t_gonna_need_it)
 
 ***Y**ou **A**ren't **G**onna **N**eed **I**t* (İhtiyacın olmayacak) deyiminin kısaltmasıdır.
 
 > İhtiyaç duyduğunuz şeyleri her zaman ihtiyaç duyduğunuzda geliştirin, onlara ihtiyacınız olacağını düşündüğünüzde değil.
+> ([Ron Jeffries](https://twitter.com/RonJeffries)) (XP eş-kurucusu and "Extreme Programming Installed" kitabının yazarı)
 > ([Ron Jeffries](https://twitter.com/RonJeffries)) (XP eş-kurucusu and "Extreme Programming Installed" kitabının yazarı)
 > ([Ron Jeffries](https://twitter.com/RonJeffries)) (XP eş-kurucusu and "Extreme Programming Installed" kitabının yazarı)
 
@@ -699,3 +695,4 @@ Bu kavramları ilginç bulduysanız, aşağıdaki kitapların keyfini çıkarabi
 Selam!. Buraya ulaştıysanız, henüz yazmadığım bir konunun bağlantısını tıkladınız, bunun için üzgünüm - ve en kısa zamanda tamamlamaya çalışacağım!
 
 Soru ve önerileriniz için [issue](https://github.com/dwmkerr/hacker-laws/issues) açabilirsiniz, ya da katkıda bulunmak isterseniz [Pull Request](https://github.com/dwmkerr/hacker-laws/pulls) açabilirsiniz.
+

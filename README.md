@@ -8,6 +8,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
 - 🇷🇺 [Русская версия / Russian Version](https://github.com/solarrust/hacker-laws) - thanks [Alena Batitskaya](https://github.com/solarrust)!
 - 🇹🇷 [Türkçe / Turkish Version](https://github.com/umutphp/hacker-laws-tr) - thanks [Umut Işık](https://github.com/umutphp)
 - 🇧🇷 [Brasileiro / Brazilian Version](./translations/pt-BR.md) - thanks [Leonardo Costa](https://github.com/LeoFC97)
+- 🇪🇸 [Castellano / Spanish Version](./translations/es-ES.md) - thanks [Manuel Rubio](https://github.com/manuel-rubio)
 
 Like this project? Please considering [Sponsoring Me](https://github.com/sponsors/dwmkerr)!
 

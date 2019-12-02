@@ -52,7 +52,7 @@ Existem muitas leis que as pessoas discutem quando falam sobre desenvolvimento. 
 
 <!--There are lots of laws which people discuss when talking about development. This repository is a reference and overview of some of the most common ones. Please share and submit PRs! <!-->
 
-❗: Esse repositório comtém explicações sobre algumas léis, pincípios e padrões, mas não _advoca_ para nenhum. Se eles devem ser aplicados sempre é uma questão de debate, e depende diretamente no que você está trabalhando.
+❗: Esse repositório contém explicações sobre algumas léis, pincípios e padrões, mas não _advoca_ para nenhum. Se eles devem ser aplicados sempre é uma questão de debate, e depende diretamente no que você está trabalhando.
 
 ## Leis
 
@@ -68,7 +68,7 @@ Fica mais fácil de entender com um exemplo prático. Se um programa é feito de
 
 O diagrama abaixo mostra alguns exemplos de melhoria na velocidade:
 
-![Diagram: Lei de Amadhl](./images/amdahls_law.png)
+![Diagram: Lei de Amadhl](../images/amdahls_law.png)
 
 *(Image Reference: By Daniels220 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 
@@ -153,7 +153,7 @@ This is from the book '[Gödel, Escher, Bach: An Eternal Golden Braid](#lista-de
 > Roy Amara
 
 O Ciclo Hype é uma representação visual da empolgação e desenvolvimento da tecnologia ao longo do tempo, originalmente produzida por Gartner.
-![The Hype Cycle](./images/gartner_hype_cycle.png)
+![The Hype Cycle](../images/gartner_hype_cycle.png)
 
 *(Image Reference: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
 

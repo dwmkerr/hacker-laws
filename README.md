@@ -85,7 +85,7 @@ Best illustrated with an example. If a program is made up of two parts, part A, 
 
 The diagram below shows some examples of potential improvements in speed:
 
-![Diagram: Amdahl's Law](./images/amdahls_law.png)
+<img width="1024px" alt="Diagram: Amdahl's Law" src="./images/amdahls_law.png" />
 
 *(Image Reference: By Daniels220 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 

@@ -19,6 +19,7 @@ Bu projeyi beğendiniz mi? Lütfen [sponsor olmayı](https://github.com/sponsors
 - [Giriş](#introduction)
 - [Yasalar](#laws)
     - [Amdahl Yasası](#amdahls-law)
+    - [Kırık Camlar Teorisi](#k%C4%B1r%C4%B1k-camlar-teorisi)
     - [Brooks Yasası](#brooks-law)
     - [Conway Yasası](#conways-law)
     - [Cunningham Yasası](#cunninghams-law)
@@ -60,6 +61,7 @@ Bu projeyi beğendiniz mi? Lütfen [sponsor olmayı](https://github.com/sponsors
     - [YAGNI](#yagni)
     - [Dağıtık Sistemlerin Yanılgıları](#the-fallacies-of-distributed-computing)
 - [Ek Kaynaklar](#reading-list)
+- [Katkıda Bulunmak İçin](#katk%C4%B1)
 - [TODO](#todo)
 
 <!-- vim-markdown-toc -->
@@ -84,7 +86,7 @@ En güzel şu örnekle anlatılabilir. Bir programın iki bölümden oluştuğun
 
 Aşağıdaki diyagram bazı olası hız geliştirmelerine örnekler içeriyor:
 
-![Diagram: Amdahl's Law](../images/amdahls_law.png)
+<img width="480px" alt="Diagram: Amdahl's Law" src="../images/amdahls_law.png">
 
 *(Diyagramın kaynağı: Daniels220 tarafından İngilizce Wikipedia'da, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 
@@ -96,6 +98,24 @@ Ek kaynaklar:
 
 - [Brooks Yasası](#brooks-law)
 - [Moore Yasası ](#moores-law)
+
+### Kırık Camlar Teorisi
+
+[Wikipedia'da Kırık Camlar Teorisi](https://en.wikipedia.org/wiki/Broken_windows_theory)
+
+Kırık Camlar Teorisi, gözle görülebilir suç belirtilerinin (ya da ortamın  bakımsızlığının) daha ciddi suçlara (ya da ortamın daha da bozulmasına) yol açtığını göstermektedir.
+
+Bu teori, yazılım geliştirmeye şu şekilde uygulanabilir; düşük kalite kodun (veya [Teknik Borcun](#TODO)) varlığı kaliteyi geliştirme çabalarının göz ardı edilebileceği veya önemsenmeyeceği algısına yol açabileceği ve dolayısıyla düşük kalite koda sebep olabileceğidir. Bu etki zamanla kalitenin daha çok azalmasına neden olur.
+
+Ek kaynaklar:
+
+- [Teknik Borç](#yapmak)
+
+Examples:
+
+- [The Pragmatic Programming: Software Entropy](https://pragprog.com/the-pragmatic-programmer/extracts/software-entropy)
+- [Kodlama Kabusu: Kırık Camlar Teorisi](https://blog.codinghorror.com/the-broken-window-theory/)
+- [Açık Kaynak: Eğlenceli Programlama - Kırık Camlar Teorisi](https://opensourceforu.com/2011/05/joy-of-programming-broken-window-theory/)
 
 ### Brooks Yasası
 
@@ -156,6 +176,7 @@ Ek kaynaklar:
 > ([John Gall](https://en.m.wikipedia.org/wiki/John_Gall_(author)))
 > ([John Gall](https://en.m.wikipedia.org/wiki/John_Gall_(author)))
 > ([John Gall](https://en.m.wikipedia.org/wiki/John_Gall_(author)))
+> ([John Gall](https://en.m.wikipedia.org/wiki/John_Gall_(author)))
 
 Gall Yasası der ki, çok karmaşık sistemleri *tasarlamaya* çalışmak her zaman başarısızlıkla sonuçlanır. Bu tür sistemlerin ilk denemede başarılı olmaları çok nadir görülür ama genellikle basit sistemlerden evrilirler.
 
@@ -172,10 +193,12 @@ Ek kaynaklar:
 > Gözlemlenen herhangi bir istatistiksel düzenlilik, kontrol amaçları için üzerine baskı uygulandığında çökme eğiliminde olacaktır.
 > *Charles Goodhart*
 > *Charles Goodhart*
+> *Charles Goodhart*
 
 Ayrıca şu şekilde de ifade edilir:
 
 > Bir ölçüm hedef haline geldiğinde, iyi bir ölçüm olmaktan çıkar.
+> *Marilyn Strathern*
 > *Marilyn Strathern*
 > *Marilyn Strathern*
 
@@ -197,7 +220,6 @@ Ek kaynaklar:
 
 > Aptallıkla layıkıyla açıklanabilecek bir şeyi, asla kötü niyete bağlamayın.
 > Robert J. Hanlon
-> Robert J. Hanlon
 
 Bu prensip, olumsuz sonuçlara yol açan eylemlerin, çoğunlukla kötü niyetin sonucu olmadığını savunmaktadır. Aksine, olumsuz sonuç daha büyük olasılıkla bu eylemlerin ve/veya etkinin tam olarak anlaşılamamasına bağlıdır.
 
@@ -206,7 +228,6 @@ Bu prensip, olumsuz sonuçlara yol açan eylemlerin, çoğunlukla kötü niyetin
 [Wikipedia'da Hofstadter Yasası](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
 
 > Bir iş her zaman umduğundan daha uzun sürer, Hofstadter yasasını göz önünde bulundursan bile.
-> (Douglas Hofstadter)
 > (Douglas Hofstadter)
 
 Bu yasayı bir işin ne kadar süreceğini tahminlenirken hatırlatıldığı için duymuş olabilirsiniz. Herkesin kabul ettiği bir gerçek var ki, yazılım geliştirmede en kötü olduğumuz alan işin ne kadar sürede biteceğini tahmin etmektir.
@@ -222,7 +243,6 @@ Ek kaynaklar:
 [Wikipedia'da Hutber Yasası ](https://en.wikipedia.org/wiki/Hutber%27s_law)
 
 > İyileştirme, bozulma anlamına da gelir.
-> ([Patrick Hutber](https://en.wikipedia.org/wiki/Patrick_Hutber))
 > ([Patrick Hutber](https://en.wikipedia.org/wiki/Patrick_Hutber))
 
 Bu yasa der ki; sistemde yapılan bir iyileştirme sistemin diğer taraflarında bozulmaya sebep olabilir ya da başka bozuklukları gizleyebilir, bu da sistemin mevcut durumunun daha da bozulmasına sebep olabilir.
@@ -452,7 +472,6 @@ Prensiplerin genellikle tasarıma ilişkin rehberlerdir.
 
 > Şirketler, yetersiz çalışanları, iş akışından uzaklaştırmak için sistematik olarak yönetici olmaya teşvik etme eğilimindedir.
 > *Scott Adams*
-> *Scott Adams*
 
 Scot Adams (Dilbert çizgi dizisinin yazarı) [Peter prensibinden](#the-peter-principle) esinlenerek ortaya atılmış bir yönetim kavramıdır. Dilbert prensibine göre yetenekli olmayan çalışanlar yönetim kadorlarına dopru yükseltilirler ki üretime verecekleri zarar aza indirilsin. Adams bunu ilk olarak 1995'te Wall Street Journal'da yazdığı bir makalede açıkladı daha sonra ise 1996'da yazdığı [Dilbert Prensibi](#reading-list) adlı kitabında detaylandırdı.
 
@@ -489,7 +508,6 @@ Gerçek dünyadan örnekler:
 [Wikipedia'da Peter Prensibi](https://en.wikipedia.org/wiki/Peter_principle)
 
 > Hiyerarşideki insanlar “yetersizlik seviyelerine” göre yükselme eğilimindedir.
-> *Laurence J. Peter*
 > *Laurence J. Peter*
 
 Laurence J. Peter tarafından geliştirilen bir yönetim konsepti olan Peter Prensibi, işlerinde iyi olan kişilerin, artık başarılı olamadıkları bir seviyeye (kendi "yetersizlik seviyelerine") ulaşana kadar terfi ettiğini gözlemlemektedir. Bu durumda şirket içinde çok tecrübeli olduklarından organizasyondan (çok aykırı birşey yapmadıkları sürece) dışlanmazlar ve az sayıda temel beceriye sahip olacakları bir rolde kalmaya devam edecekler, çünkü onları başarılı kılan orijinal becerileri mutlaka bu yeni rolleri için gereken beceriler değildir.
@@ -651,8 +669,6 @@ Ek kaynaklar:
 
 > İhtiyaç duyduğunuz şeyleri her zaman ihtiyaç duyduğunuzda geliştirin, onlara ihtiyacınız olacağını düşündüğünüzde değil.
 > ([Ron Jeffries](https://twitter.com/RonJeffries)) (XP eş-kurucusu and "Extreme Programming Installed" kitabının yazarı)
-> ([Ron Jeffries](https://twitter.com/RonJeffries)) (XP eş-kurucusu and "Extreme Programming Installed" kitabının yazarı)
-> ([Ron Jeffries](https://twitter.com/RonJeffries)) (XP eş-kurucusu and "Extreme Programming Installed" kitabının yazarı)
 
 Bu *Aşırı Programlama* (XP) ilkesi, geliştiricilerin yalnızca acil gereksinimler için gerekli olan işlevleri yerine getirmeleri gerektiğini ve daha sonra ihtiyaç duyulabilecek işlevleri uygulayarak geleceği tahmin etme girişimlerinden kaçınmalarını önerir.
 
@@ -698,6 +714,12 @@ Bu kavramları ilginç bulduysanız, aşağıdaki kitapların keyfini çıkarabi
 - [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - Sınıflandırması zor bir kitap. Hofstadter Yasası bu kitaptan alıntıdır.
 - [Dilbert Prensibi - Scott Adams](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - [Dilbert İlkesini](#the-dilbert-principle) oluşturan yazardan, kurumsal Amerika'ya komik bir bakış.
 - [The Peter Principle - Lawrence J. Peter](https://www.goodreads.com/book/show/890728.The_Peter_Principle) - Another comic look at the challenges of larger organisations and people management, the source of [The Peter Principle](#the-peter-principle).
+
+## Katkıda Bulunmak İçin
+
+Lütfen katkıda bulunun! Bir ekleme veya değişiklik önermek istiyorsanız [bir sorun oluşturun](https://github.com/dwmkerr/hacker-laws/issues/new) veya kendi değişikliklerinizi önermek için [bir PR açın](https://github.com/dwmkerr/hacker-laws/compare) .
+
+Lütfen metin, stil ve benzeri gereksinimler için [Katkıda Bulunma Kılavuzunu](./.github/contributing.md) okuduğunuzdan emin olun. Lütfen projeyle ilgili tartışmalarda [Davranış Kurallarına](./.github/CODE_OF_CONDUCT.md) dikkat edin.
 
 ## TODO
 

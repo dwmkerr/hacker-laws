@@ -1,6 +1,5 @@
 # Contributing Guidelines
 
-
 <!-- vim-markdown-toc GFM -->
 
 * [Example Law: The Law of Leaky Abstractions](#example-law-the-law-of-leaky-abstractions)
@@ -25,6 +24,7 @@ Some other tips:
 - Be careful not to copy-and-paste content (unless it is explicitly quoted), as it might violate copyright.
 - Include hyperlinks to referenced material.
 - Do not advocate for the law, or aim to be opinionated on the correctness or incorrectness of the law, as this repository is simply the descriptions and links.
+- Avoid 'you' when writing. For example, prefer "This law suggests refactoring should be avoided when..." rather than "you should avoid refactoring when...". This keeps the style slightly more formal and avoids seeming like advocation of a law.
 
 An example law is shown below, which covers most of the key points:
 

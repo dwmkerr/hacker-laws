@@ -176,7 +176,6 @@ Ek kaynaklar:
 > ([John Gall](https://en.m.wikipedia.org/wiki/John_Gall_(author)))
 > ([John Gall](https://en.m.wikipedia.org/wiki/John_Gall_(author)))
 > ([John Gall](https://en.m.wikipedia.org/wiki/John_Gall_(author)))
-> ([John Gall](https://en.m.wikipedia.org/wiki/John_Gall_(author)))
 
 Gall Yasası der ki, çok karmaşık sistemleri *tasarlamaya* çalışmak her zaman başarısızlıkla sonuçlanır. Bu tür sistemlerin ilk denemede başarılı olmaları çok nadir görülür ama genellikle basit sistemlerden evrilirler.
 
@@ -193,12 +192,10 @@ Ek kaynaklar:
 > Gözlemlenen herhangi bir istatistiksel düzenlilik, kontrol amaçları için üzerine baskı uygulandığında çökme eğiliminde olacaktır.
 > *Charles Goodhart*
 > *Charles Goodhart*
-> *Charles Goodhart*
 
 Ayrıca şu şekilde de ifade edilir:
 
 > Bir ölçüm hedef haline geldiğinde, iyi bir ölçüm olmaktan çıkar.
-> *Marilyn Strathern*
 > *Marilyn Strathern*
 > *Marilyn Strathern*
 

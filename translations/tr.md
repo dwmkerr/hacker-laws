@@ -111,9 +111,9 @@ Ek kaynaklar:
 
 - [Teknik Borç](#yapmak)
 
-Examples:
+Örnekler:
 
-- [The Pragmatic Programming: Software Entropy](https://pragprog.com/the-pragmatic-programmer/extracts/software-entropy)
+- [Pragmatik Programlama: Yazılım Entropisi](https://pragprog.com/the-pragmatic-programmer/extracts/software-entropy)
 - [Kodlama Kabusu: Kırık Camlar Teorisi](https://blog.codinghorror.com/the-broken-window-theory/)
 - [Açık Kaynak: Eğlenceli Programlama - Kırık Camlar Teorisi](https://opensourceforu.com/2011/05/joy-of-programming-broken-window-theory/)
 

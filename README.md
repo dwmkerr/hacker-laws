@@ -429,13 +429,11 @@ Coined by Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), thi
 
 > Given enough eyeballs, all bugs are shallow.
 
-The law was formulated by [Eric S. Raymond](https://www.wikizeroo.org/index.php?q=aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvRXJpY19TLl9SYXltb25k) in his essay and book [The Cathedral and the Bazaar](https://www.wikizeroo.org/index.php?q=aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVGhlX0NhdGhlZHJhbF9hbmRfdGhlX0JhemFhcg) (in honor of [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds)). 
+Although it is thought to be more suitable for open source projects, it can be accepted for any kind of software projects. It simply states the importance of getting the problems in front of enough number (as much as possible) of people because someone will likely have encountered and fixed a similar situation before. We can also extend the context of the law to automated processes. More code reviews, more static analysis and multi-diciplined test processes will make the problems more visible and easy to identify (easy to fix). 
 
-A more formal statement is:
+A more formal statement can be:
 
 > Given a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and the fix obvious to someone.
-
-Although it is referred as a "[mantra](https://en.wikipedia.org/wiki/Mantra)" of open source movement, it can be also considered during any kind of software development. More code reviews, more static analysis and multi-diciplined test processes will make the bugs more visible. 
 
 ## Principles
 

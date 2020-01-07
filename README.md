@@ -329,7 +329,7 @@ See Also:
 >
 > William of Ockham
 
-Occam's razor says that among several possible solutions, the most likely right solution is the solution with the least number of concepts and assumptions. This solution is the simplest and solves only the given problem, without introducing accidental complexity and possible negative consequences.
+Occam's razor says that among several possible solutions, the most likely solution is the one with the least number of concepts and assumptions. This solution is the simplest and solves only the given problem, without introducing accidental complexity and possible negative consequences.
 
 See also:
 

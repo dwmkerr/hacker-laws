@@ -530,6 +530,26 @@ Real-world examples:
 
 - In 2002 Microsoft reported that by fixing the top 20% of the most-reported bugs, 80% of the related errors and crashes in windows and office would become eliminated ([Reference](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)).
 
+### The Shirky Principle
+
+[The Shirky Principle explained](https://kk.org/thetechnium/the-shirky-prin/)
+
+> “Institutions will try to preserve the problem to which they are the solution.”
+> 
+> _Clay Shirky_
+
+Complex solutions -- a company, an industry, or a technology -- can become so dedicated to the problem they are the solution to, that often they inadvertently perpetuate the problem. Established industries like to focus on established problems; many problems are marginal at first, and therefore ignored.
+
+Related to:
+
+- Upton Sinclair's famous line, _"It is difficult to get a man to understand something, when his salary depends upon his not understanding it!"_
+- Clay Christensen's _The Innovator’s Dilemma_
+
+See also:
+
+- [Pareto Principle](#the-pareto-principle)
+
+
 ### The Peter Principle
 
 [The Peter Principle on Wikipedia](https://en.wikipedia.org/wiki/Peter_principle)

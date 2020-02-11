@@ -1,5 +1,7 @@
 # 💻📖 hacker-laws
 
+[![gitlocalized](https://gitlocalize.com/repo/2513/whole_project/badge.svg)](https://gitlocalize.com/repo/2513/whole_project?utm_source=badge)
+
 Laws, Theories, Principles and Patterns that developers will find useful.
 
 - 🇨🇳 [中文 / Chinese Version](https://github.com/nusr/hacker-laws-zh) - thanks [Steve Xu](https://github.com/nusr)!

@@ -182,7 +182,7 @@ See also:
 
 Gall's Law implies that attempts to _design_ highly complex systems are likely to fail. Highly complex systems are rarely built in one go, but evolve instead from more simple systems.
 
-The classic example is the world-wide-web. In it's current state, it is a highly complex system. However, it was defined initially as a simple way to share content between academic institutions. It was very successful in meeting these goals and evolved to become more complex over time.
+The classic example is the world-wide-web. In its current state, it is a highly complex system. However, it was defined initially as a simple way to share content between academic institutions. It was very successful in meeting these goals and evolved to become more complex over time.
 
 See also:
 
@@ -205,7 +205,7 @@ Also commonly referenced as:
 The law states that the measure-driven optimizations could lead to devaluation of the measurement outcome itself. Overly selective set of measures ([KPIs](https://en.wikipedia.org/wiki/Performance_indicator)) blindly applied to a process results in distorted effect. People tend to optimize locally by "gaming" the system in order to satisfy particular metrics instead of paying attention to holistic outcome of their actions.
 
 Real-world examples:
-- Assert-free tests satisfy the code coverage expectation, despite the metric intent was to create well-tested software.
+- Assert-free tests satisfy the code coverage expectation, despite the fact that the metric intent was to create well-tested software.
 - Developer performance score indicated by the number of lines committed leads to unjustifiably bloated codebase.
 
 See also:
@@ -544,7 +544,7 @@ The Pareto Principle suggests that in some cases, the majority of results come f
 
 In the 1940s American-Romanian engineer Dr. Joseph Juran, who is widely credited with being the father of quality control, [began to apply the Pareto principle to quality issues](https://en.wikipedia.org/wiki/Joseph_M._Juran).
 
-This principle is also known as: The 80/20 Rule, The Law of the Vital Few and The Principle of Factor Sparsity.
+This principle is also known as: The 80/20 Rule, The Law of the Vital Few, and The Principle of Factor Sparsity.
 
 Real-world examples:
 
@@ -619,7 +619,7 @@ See also:
 
 The second of the '[SOLID](#solid)' principles. This principle states that entities (which could be classes, modules, functions and so on) should be able to have their behaviour _extended_, but that their _existing_ behaviour should not be able to be modified.
 
-As a hypothetical example, imagine a module which is able to turn a Markdown document into HTML. If the module could be extended to handle a newly proposed markdown feature, without modifying the module internals, then it would be open for extension. If the module could _not_ be modified by a consumer so that how existing Markdown features are handled, then it would be _closed_ for modification.
+As a hypothetical example, imagine a module which is able to turn a Markdown document into HTML. If the module could be extended to handle a newly proposed Markdown feature, without modifying the module internals, then it would be open for extension. If the module could _not_ be modified by a consumer so that now existing Markdown features are handled, then it would be _closed_ for modification.
 
 This principle has particular relevance for object-oriented programming, where we may design objects to be easily extended, but would avoid designing objects which can have their existing behaviour changed in unexpected ways.
 

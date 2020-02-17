@@ -49,6 +49,7 @@ Like this project? Please considering [Sponsoring Me](https://github.com/sponsor
     * [The Spotify Model](#the-spotify-model)
     * [Wadler's Law](#wadlers-law)
     * [Wheaton's Law](#wheatons-law)
+    * [Silos' Law](#silos-law)
 * [Principles](#principles)
     * [The Dilbert Principle](#the-dilbert-principle)
     * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
@@ -508,6 +509,16 @@ See also:
 > _Wil Wheaton_
 
 Coined by Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), this simple, concise, and powerful law aims for an increase in harmony and respect within a professional organization. It can be applied when speaking with coworkers, performing code reviews, countering other points of view, critiquing, and in general, most professional interactions humans have with each other.
+
+### Silos' Law
+
+[The Link](https://t.me/ccppbrasil/276879)
+
+> There are so many laws out there that anything that happens a law about it can always be found.
+>
+> _Fabiano Silos_
+
+Spoken by Fabiano Silos in the C/C++/42 Império do Brasil Telegram World Famous Group, this simple, concise, and powerful law aims for talking shit out of any rational reason.
 
 ## Principles
 

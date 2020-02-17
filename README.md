@@ -33,6 +33,7 @@ Like this project? Please considering [Sponsoring Me](https://github.com/sponsor
     * [Hutber's Law](#hutbers-law)
     * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
     * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
+    * [Kernighan's Law](#kernighans-law)
     * [Metcalfe's Law](#metcalfes-law)
     * [Moore's Law](#moores-law)
     * [Murphy's Law / Sod's Law](#murphys-law--sods-law)
@@ -286,6 +287,8 @@ See also:
 ### Kernighan's Law
 
 > Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.
+>
+> (Brian Kernighan)
 
 Kernighan's Law is named for [Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan) and derived from a quote from Kernighan and Plauger's book [The Elements of Programming Style](https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style):
 
@@ -294,6 +297,7 @@ Kernighan's Law is named for [Brian Kernighan](https://en.wikipedia.org/wiki/Bri
 While hyperbolic, Kernighan's Law makes the argument that simple code is to be preferred over complex code, because debugging any issues that arise in complex code may be costly or even infeasible.
 
 See also:
+
 - [The KISS Principle](#the-kiss-principle)
 - [The Unix Philosophy](#the-unix-philosophy)
 - [Occam's Razor](#occams-razor)

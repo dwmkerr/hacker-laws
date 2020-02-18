@@ -2,106 +2,97 @@
 
 [![gitlocalized](https://gitlocalize.com/repo/2513/whole_project/badge.svg)](https://gitlocalize.com/repo/2513/whole_project?utm_source=badge)
 
-Laws, Theories, Principles and Patterns that developers will find useful.
+Các Định luật, Lý thuyết, Nguyên tắc và Khuôn mẫu hữu ích cho các nhà phát triển.
 
-- 🇨🇳 [中文 / Chinese Version](https://github.com/nusr/hacker-laws-zh) - thanks [Steve Xu](https://github.com/nusr)!
-- 🇮🇹 [Traduzione in Italiano](https://github.com/csparpa/hacker-laws-it) - grazie [Claudio Sparpaglione](https://github.com/csparpa)!
-- 🇰🇷 [한국어 / Korean Version](https://github.com/codeanddonuts/hacker-laws-kr) - thanks [Doughnut](https://github.com/codeanddonuts)!
-- 🇷🇺 [Русская версия / Russian Version](https://github.com/solarrust/hacker-laws) - thanks [Alena Batitskaya](https://github.com/solarrust)!
-- 🇹🇷 [Türkçe / Turkish Version](https://github.com/umutphp/hacker-laws-tr) - thanks [Umut Işık](https://github.com/umutphp)
-- 🇧🇷 [Brasileiro / Brazilian Version](./translations/pt-BR.md) - thanks [Leonardo Costa](https://github.com/LeoFC97)
-- 🇪🇸 [Castellano / Spanish Version](./translations/es-ES.md) - thanks [Manuel Rubio](https://github.com/manuel-rubio)
-
-Like this project? Please considering [Sponsoring Me](https://github.com/sponsors/dwmkerr)!
+Tài liệu được dịch từ bản gốc của [Dave Kerr](https://github.com/dwmkerr/hacker-laws) tại [đây](https://github.com/dwmkerr/hacker-laws)
 
 ---
 
 <!-- vim-markdown-toc GFM -->
 
-* [Introduction](#introduction)
-* [Laws](#laws)
-    * [Amdahl's Law](#amdahls-law)
-    * [The Broken Windows Theory](#the-broken-windows-theory)
-    * [Brooks' Law](#brooks-law)
-    * [Conway's Law](#conways-law)
-    * [Cunningham's Law](#cunninghams-law)
-    * [Dunbar's Number](#dunbars-number)
-    * [Gall's Law](#galls-law)
-    * [Goodhart's Law](#goodharts-law)
-    * [Hanlon's Razor](#hanlons-razor)
-    * [Hofstadter's Law](#hofstadters-law)
-    * [Hutber's Law](#hutbers-law)
-    * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
-    * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
-    * [Kernighan's Law](#kernighans-law)
-    * [Metcalfe's Law](#metcalfes-law)
-    * [Moore's Law](#moores-law)
-    * [Murphy's Law / Sod's Law](#murphys-law--sods-law)
-    * [Occam's Razor](#occams-razor)
-    * [Parkinson's Law](#parkinsons-law)
-    * [Premature Optimization Effect](#premature-optimization-effect)
-    * [Putt's Law](#putts-law)
-    * [Reed's Law](#reeds-law)
-    * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
-    * [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
-    * [The Law of Triviality](#the-law-of-triviality)
-    * [The Unix Philosophy](#the-unix-philosophy)
-    * [The Spotify Model](#the-spotify-model)
-    * [Wadler's Law](#wadlers-law)
-    * [Wheaton's Law](#wheatons-law)
-* [Principles](#principles)
-    * [The Dilbert Principle](#the-dilbert-principle)
-    * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
-    * [The Peter Principle](#the-peter-principle)
-    * [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
-    * [SOLID](#solid)
-    * [The Single Responsibility Principle](#the-single-responsibility-principle)
-    * [The Open/Closed Principle](#the-openclosed-principle)
-    * [The Liskov Substitution Principle](#the-liskov-substitution-principle)
-    * [The Interface Segregation Principle](#the-interface-segregation-principle)
-    * [The Dependency Inversion Principle](#the-dependency-inversion-principle)
-    * [The DRY Principle](#the-dry-principle)
-    * [The KISS principle](#the-kiss-principle)
-    * [YAGNI](#yagni)
-    * [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)
-* [Reading List](#reading-list)
-* [Contributing](#contributing)
-* [TODO](#todo)
+- [💻📖 hacker-laws](#%f0%9f%92%bb%f0%9f%93%96-hacker-laws)
+  - [Giới thiệu](#gi%e1%bb%9bi-thi%e1%bb%87u)
+  - [Các định luật](#c%c3%a1c-%c4%91%e1%bb%8bnh-lu%e1%ba%adt)
+    - [Luật Amdahl](#lu%e1%ba%adt-amdahl)
+    - [The Broken Windows Theory](#the-broken-windows-theory)
+    - [Brooks' Law](#brooks-law)
+    - [Conway's Law](#conways-law)
+    - [Cunningham's Law](#cunninghams-law)
+    - [Dunbar's Number](#dunbars-number)
+    - [Gall's Law](#galls-law)
+    - [Goodhart's Law](#goodharts-law)
+    - [Hanlon's Razor](#hanlons-razor)
+    - [Hofstadter's Law](#hofstadters-law)
+    - [Hutber's Law](#hutbers-law)
+    - [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
+    - [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
+    - [Kernighan's Law](#kernighans-law)
+    - [Metcalfe's Law](#metcalfes-law)
+    - [Moore's Law](#moores-law)
+    - [Murphy's Law / Sod's Law](#murphys-law--sods-law)
+    - [Occam's Razor](#occams-razor)
+    - [Parkinson's Law](#parkinsons-law)
+    - [Premature Optimization Effect](#premature-optimization-effect)
+    - [Putt's Law](#putts-law)
+    - [Reed's Law](#reeds-law)
+    - [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
+    - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
+    - [The Law of Triviality](#the-law-of-triviality)
+    - [The Unix Philosophy](#the-unix-philosophy)
+    - [The Spotify Model](#the-spotify-model)
+    - [Wadler's Law](#wadlers-law)
+    - [Wheaton's Law](#wheatons-law)
+  - [Principles](#principles)
+    - [The Dilbert Principle](#the-dilbert-principle)
+    - [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
+    - [The Peter Principle](#the-peter-principle)
+    - [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
+    - [SOLID](#solid)
+    - [The Single Responsibility Principle](#the-single-responsibility-principle)
+    - [The Open/Closed Principle](#the-openclosed-principle)
+    - [The Liskov Substitution Principle](#the-liskov-substitution-principle)
+    - [The Interface Segregation Principle](#the-interface-segregation-principle)
+    - [The Dependency Inversion Principle](#the-dependency-inversion-principle)
+    - [Nguyên tắc DRY](#nguy%c3%aan-t%e1%ba%afc-dry)
+    - [The KISS principle](#the-kiss-principle)
+    - [YAGNI](#yagni)
+    - [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)
+  - [Reading List](#reading-list)
+  - [Contributing](#contributing)
+  - [TODO](#todo)
 
 <!-- vim-markdown-toc -->
 
-## Introduction
+## Giới thiệu
 
-There are lots of laws which people discuss when talking about development. This repository is a reference and overview of some of the most common ones. Please share and submit PRs!
+Có rất nhiều luật được mọi người đem ra thảo luận khi đề cập đến phát triển (phần mềm). Tài liệu này là một nguồn tham khảo tổng quan về một số luật phổ biến nhất. 
 
-❗: This repo contains an explanation of some laws, principles and patterns, but does not _advocate_ for any of them. Whether they should be applied will always be a matter of debate, and greatly dependent on what you are working on.
+❗: Tài liệu này bao gồm phần giải nghĩa của một số định luật, nguyên tắc và khuôn mẫu, nhưng không mang tính ủng hộ cho bất kì cái nào. Việc chúng có nên được áp dụng hay không sẽ luôn là một vấn đề cần tranh luận, và điều đó phụ thuộc rất lớn vào những gì bạn đang làm.
 
-## Laws
+## Các định luật
 
-And here we go!
+### Luật Amdahl
 
-### Amdahl's Law
+[Luật Amdahl xem tại Wikipedia](https://vi.wikipedia.org/wiki/Lu%E1%BA%ADt_Amdahl)
 
-[Amdahl's Law on Wikipedia](https://en.wikipedia.org/wiki/Amdahl%27s_law)
+Luật Amdahl là một công thức thể hiện khả năng tăng tốc mà một tác vụ tính toán có thể đạt được bằng cách tăng lượng tài nguyên của một hệ thống. Nó thường được sử dụng trong tính toán song song và có khả năng dự đoán lợi ích thực tế của việc tăng số lượng bộ xử lý, điều bị giới hạn bởi tính song song của chương trình.
 
-> Amdahl's Law is a formula which shows the _potential speedup_ of a computational task which can be achieved by increasing the resources of a system. Normally used in parallel computing, it can predict the actual benefit of increasing the number of processors, which is limited by the parallelisability of the program.
+Tốt nhất hãy minh hoạ bằng một ví dụ. Nếu một chương trình được tạo nên bởi hai phần, trong đó phần A phải được thực thi bởi một bộ xử lý đơn lẻ còn phần B có thể được song song hoá thì chúng ta sẽ thấy việc thêm nhiều bộ xử lý cho hệ thống thực thi chương trình đó chỉ mang lại những lợi ích hạn chế. Nó có khả năng cải thiện đáng kể tốc độ của phần B, nhưng tốc độ của phần A sẽ không thay đổi.
 
-Best illustrated with an example. If a program is made up of two parts, part A, which must be executed by a single processor, and part B, which can be parallelised, then we see that adding multiple processors to the system executing the program can only have a limited benefit. It can potentially greatly improve the speed of part B - but the speed of part A will remain unchanged.
-
-The diagram below shows some examples of potential improvements in speed:
+Biểu đồ dưới đây minh hoạ cho khả năng cải thiện tốc độ của việc thêm bộ xử lý cho hệ thống thực thi chương trình song song.
 
 <img width="480px" alt="Diagram: Amdahl's Law" src="./images/amdahls_law.png" />
 
-*(Image Reference: By Daniels220 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
+*(Nguồn ảnh: Bởi Daniels220 từ Wikipedia Tiếng Anh, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 
-As can be seen, even a program which is 50% parallelisable will benefit very little beyond 10 processing units, whereas a program which is 95% parallelisable can still achieve significant speed improvements with over a thousand processing units.
+Như chúng ta có thể thấy, một chương trình được song song hoá 50% sẽ tăng tốc rất hạn chế khi thêm quá 10 đơn vị xử lý, trong khi đó một chương trình có thành phần song song hoá chiếm 95% vẫn cho thấy sự cải thiện về tốc độ khi số lượng đơn vị xử lý vượt quá hàng nghìn.
 
-As [Moore's Law](#moores-law) slows, and the acceleration of individual processor speed slows, parallelisation is key to improving performance. Graphics programming is an excellent example - with modern Shader based computing, individual pixels or fragments can be rendered in parallel - this is why modern graphics cards often have many thousands of processing cores (GPUs or Shader Units).
+Khi [Luật Moore](#moores-law) chậm lại, và sự tăng trưởng trong tốc độ của một bộ xử lý đơn lẻ giảm đi, tính song song là chìa khoá của việc cải thiện hiệu năng. Lập trình đồ hoạ (Graphics programming) là một ví dụ tuyệt vời. Trong mô hình tính toán dựa trên Shader (Shader based computing) ngày nay, mỗi điểm ảnh hay thành phần đều có thể được kết xuất song song. Đó là lí do vì sao các card đồ hoạ hiện nay thường có hàng nghìn lõi xử lý (GPUs hay đơn vị Shader).
 
-See also:
+Xem thêm:
 
-- [Brooks' Law](#brooks-law)
-- [Moore's Law](#moores-law)
+- [Luật Brooks](#brooks-law)
+- [Luật Moore](#moores-law)
 
 ### The Broken Windows Theory
 
@@ -683,19 +674,19 @@ See also:
 - [Inversion of Control](#todo)
 - [Dependency Injection](#todo)
 
-### The DRY Principle
+### Nguyên tắc DRY
 
-[The DRY Principle on Wikipedia](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+[Nguyên tắc DRY xem tại Wikipedia](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 
-> Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
+> Trong một hệ thống, mỗi thành phần phải có một mô tả duy nhất, không mơ hồ và chắc chắn.
 
-DRY is an acronym for _Don't Repeat Yourself_. This principle aims to help developers reducing the repetition of code and keep the information in a single place and was cited in 1999 by Andrew Hunt and Dave Thomas in the book [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+DRY là viết tắt của _Don't Repeat Yourself_, _Đừng Lặp Lại Chính Bạn_. Mục tiêu của nguyên tắc này là để giúp nhà phát triển giảm việc lặp lại mã nguồn và giữ thông tin ở một nơi duy nhất, nguyên tắc này đã được trích dẫn vào năm 1999 bởi Andrew Hunt và Dave Thomas trong cuốn [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 
-> The opposite of DRY would be _WET_ (Write Everything Twice or We Enjoy Typing).
+> Trái ngược với DRY là _WET_ (Write Everything Twice, Viết Mọi Thứ Hai Lần hay We Enjoy Typing, Chúng Tôi Thích Gõ).
 
-In practice, if you have the same piece of information in two (or more) different places, you can use DRY to merge them into a single one and reuse it wherever you want/need.
+Trong thực hành, nếu bạn có phần thông tin giống nhau trong hai (hoặc nhiều) nơi khác nhau, bạn có thể sử dụng DRY để hợp nhất chúng thành một và sử dụng nó bất kỳ nơi nào bạn muốn/cần.
 
-See also:
+Xem thêm:
 
 - [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 

@@ -62,38 +62,36 @@
 
 <!-- vim-markdown-toc -->
 
-## Introduction
+## Giới thiệu
 
-There are lots of laws which people discuss when talking about development. This repository is a reference and overview of some of the most common ones. Please share and submit PRs!
+Có rất nhiều luật được mọi người đem ra thảo luận khi đề cập đến phát triển (phần mềm). Tài liệu này là một nguồn tham khảo tổng quan về một số luật phổ biến nhất. Hãy chia sẻ và tạo các yêu cầu cập nhật để làm nó phong phú hơn!
 
-❗: This repo contains an explanation of some laws, principles and patterns, but does not _advocate_ for any of them. Whether they should be applied will always be a matter of debate, and greatly dependent on what you are working on.
+❗: Tài liệu này bao gồm phần giải nghĩa của một số định luật, nguyên tắc và khuôn mẫu, nhưng không mang tính ủng hộ cho bất kì cái nào. Việc chúng có nên được áp dụng hay không sẽ luôn là một vấn đề cần tranh luận, và điều đó phụ thuộc rất lớn vào những gì bạn đang làm.
 
-## Laws
+## Các định luật
 
-And here we go!
+### Luật Amdahl
 
-### Amdahl's Law
+[Luật Amdahl xem tại Wikipedia](https://vi.wikipedia.org/wiki/Lu%E1%BA%ADt_Amdahl)
 
-[Amdahl's Law on Wikipedia](https://en.wikipedia.org/wiki/Amdahl%27s_law)
+Luật Amdahl là một công thức thể hiện khả năng tăng tốc mà một tác vụ tính toán có thể đạt được bằng cách tăng lượng tài nguyên của một hệ thống. Nó thường được sử dụng trong tính toán song song và có khả năng dự đoán lợi ích thực tế của việc tăng số lượng bộ xử lý, điều bị giới hạn bởi tính song song của chương trình.
 
-> Amdahl's Law is a formula which shows the _potential speedup_ of a computational task which can be achieved by increasing the resources of a system. Normally used in parallel computing, it can predict the actual benefit of increasing the number of processors, which is limited by the parallelisability of the program.
+Tốt nhất hãy minh hoạ bằng một ví dụ. Nếu một chương trình được tạo nên bởi hai phần, trong đó phần A phải được thực thi bởi một bộ xử lý đơn lẻ còn phần B có thể được song song hoá thì chúng ta sẽ thấy việc thêm nhiều bộ xử lý cho hệ thống thực thi chương trình đó chỉ mang lại những lợi ích hạn chế. Nó có khả năng cải thiện đáng kể tốc độ của phần B, nhưng tốc độ của phần A sẽ không thay đổi.
 
-Best illustrated with an example. If a program is made up of two parts, part A, which must be executed by a single processor, and part B, which can be parallelised, then we see that adding multiple processors to the system executing the program can only have a limited benefit. It can potentially greatly improve the speed of part B - but the speed of part A will remain unchanged.
-
-The diagram below shows some examples of potential improvements in speed:
+Biểu đồ dưới đây minh hoạ cho khả năng cải thiện tốc độ của việc thêm bộ xử lý cho hệ thống thực thi chương trình song song.
 
 <img width="480px" alt="Diagram: Amdahl's Law" src="./images/amdahls_law.png" />
 
-*(Image Reference: By Daniels220 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
+*(Nguồn ảnh: Bởi Daniels220 từ Wikipedia Tiếng Anh, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 
-As can be seen, even a program which is 50% parallelisable will benefit very little beyond 10 processing units, whereas a program which is 95% parallelisable can still achieve significant speed improvements with over a thousand processing units.
+Như chúng ta có thể thấy, một chương trình được song song hoá 50% sẽ tăng tốc rất hạn chế khi thêm quá 10 đơn vị xử lý, trong khi đó một chương trình có thành phần song song hoá chiếm 95% vẫn cho thấy sự cải thiện về tốc độ khi số lượng đơn vị xử lý vượt quá hàng nghìn.
 
-As [Moore's Law](#moores-law) slows, and the acceleration of individual processor speed slows, parallelisation is key to improving performance. Graphics programming is an excellent example - with modern Shader based computing, individual pixels or fragments can be rendered in parallel - this is why modern graphics cards often have many thousands of processing cores (GPUs or Shader Units).
+Khi [Luật Moore](#moores-law) chậm lại, và sự tăng trưởng trong tốc độ của một bộ xử lý đơn lẻ giảm đi, tính song song là chìa khoá của việc cải thiện hiệu năng. Lập trình đồ hoạ (Graphics programming) là một ví dụ tuyệt vời. Trong mô hình tính toán dựa trên Shader (Shader based computing) ngày nay, mỗi điểm ảnh hay thành phần đều có thể được kết xuất song song. Đó là lí do vì sao các card đồ hoạ hiện nay thường có hàng nghìn lõi xử lý (GPUs hay đơn vị Shader).
 
-See also:
+Xem thêm:
 
-- [Brooks' Law](#brooks-law)
-- [Moore's Law](#moores-law)
+- [Luật Brooks](#brooks-law)
+- [Luật Moore](#moores-law)
 
 ### The Broken Windows Theory
 

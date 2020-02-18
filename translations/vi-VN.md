@@ -675,19 +675,19 @@ See also:
 - [Inversion of Control](#todo)
 - [Dependency Injection](#todo)
 
-### The DRY Principle
+### Nguyên tắc DRY
 
-[The DRY Principle on Wikipedia](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+[Nguyên tắc DRY xem tại Wikipedia](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 
-> Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
+> Trong một hệ thống, mỗi thành phần phải có một mô tả duy nhất, không mơ hồ và chắc chắn.
 
-DRY is an acronym for _Don't Repeat Yourself_. This principle aims to help developers reducing the repetition of code and keep the information in a single place and was cited in 1999 by Andrew Hunt and Dave Thomas in the book [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+DRY là viết tắt của _Don't Repeat Yourself_, _Đừng Lặp Lại Chính Bạn_. Mục tiêu của nguyên tắc này là để giúp nhà phát triển giảm việc lặp lại mã nguồn và giữ thông tin ở một nơi duy nhất, nguyên tắc này đã được trích dẫn vào năm 1999 bởi Andrew Hunt và Dave Thomas trong cuốn [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 
-> The opposite of DRY would be _WET_ (Write Everything Twice or We Enjoy Typing).
+> Trái ngược với DRY là _WET_ (Write Everything Twice, Viết Mọi Thứ Hai Lần hay We Enjoy Typing, Chúng Tôi Thích Gõ).
 
-In practice, if you have the same piece of information in two (or more) different places, you can use DRY to merge them into a single one and reuse it wherever you want/need.
+Trong thực hành, nếu bạn có phần thông tin giống nhau trong hai (hoặc nhiều) nơi khác nhau, bạn có thể sử dụng DRY để hợp nhất chúng thành một và sử dụng nó bất kỳ nơi nào bạn muốn/cần.
 
-See also:
+Xem thêm:
 
 - [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 

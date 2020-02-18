@@ -80,7 +80,7 @@ Tốt nhất hãy minh hoạ bằng một ví dụ. Nếu một chương trình 
 
 Biểu đồ dưới đây minh hoạ cho khả năng cải thiện tốc độ của việc thêm bộ xử lý cho hệ thống thực thi chương trình song song.
 
-<img width="480px" alt="Diagram: Amdahl's Law" src="./images/amdahls_law.png" />
+<img width="480px" alt="Diagram: Amdahl's Law" src="../images/amdahls_law.png" />
 
 *(Nguồn ảnh: Bởi Daniels220 từ Wikipedia Tiếng Anh, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 

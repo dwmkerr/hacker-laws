@@ -60,6 +60,7 @@ Like this project? Please considering [Sponsoring Me](https://github.com/sponsor
     * [The Liskov Substitution Principle](#the-liskov-substitution-principle)
     * [The Interface Segregation Principle](#the-interface-segregation-principle)
     * [The Dependency Inversion Principle](#the-dependency-inversion-principle)
+    * [The Law of Demeter](#the-law-of-demeter)
     * [The DRY Principle](#the-dry-principle)
     * [The KISS principle](#the-kiss-principle)
     * [YAGNI](#yagni)
@@ -682,6 +683,14 @@ See also:
 - [SOLID](#solid)
 - [Inversion of Control](#todo)
 - [Dependency Injection](#todo)
+
+### The Law of Demeter
+
+[The Law of Demeter on Wikipedia](https://en.wikipedia.org/wiki/Law_of_Demeter)
+
+> Don't talk to strangers.
+
+A unit of software should talk only it it's immediate colaborators. An object `A` with a reference to object `B` can call its methods, but if `B` has a reference to object `C`, `A` should not call `C`s methods. 
 
 ### The DRY Principle
 

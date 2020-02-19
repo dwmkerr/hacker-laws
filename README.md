@@ -567,6 +567,16 @@ See Also:
 - [The Dilbert Principle](#the-dilbert-principle)
 - [Putt's Law](#putts-law)
 
+### The Dead Sea Effect
+
+[The Wetware Crisis: The Dead Sea Effect](http://brucefwebster.com/2008/04/11/the-wetware-crisis-the-dead-sea-effect/)
+
+> "... [T]he more talented and effective IT engineers are the ones most likely to leave - to evaporate ... [those who tend to] remain behind [are] the 'residue' — the least talented and effective IT engineers."
+>
+> _Bruce F. Webster_
+
+In any organisation, the skills/talent/efficacy of engineers if often inversely proportionate to their time in the company. Typically, engineers who have high levels of talent and/or skill find it easy to gain employment elsewhere, and are the first to do so. Some engineers, especially those who have obsolete or weak skills, will tend to remain with the company as finding employment elsewhere is difficult. (Especially if they have gained incremental pay rises over their time in the company, making it impossible for them to get an equivalent remuneration package elsewhere.)
+
 ### The Robustness Principle (Postel's Law)
 
 [The Robustness Principle on Wikipedia](https://en.wikipedia.org/wiki/Robustness_principle)

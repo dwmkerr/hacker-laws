@@ -690,7 +690,9 @@ See also:
 
 > Don't talk to strangers.
 
-A unit of software should talk only it it's immediate colaborators. An object `A` with a reference to object `B` can call its methods, but if `B` has a reference to object `C`, `A` should not call `C`s methods. 
+A unit of software should talk only to its immediate colaborators. An object `A` with a reference to object `B` can call its methods, but if `B` has a reference to object `C`, `A` should not call `C`s methods. So, if `C` has a `doThing()` method, `A` should not invoke it directly; `B.getC().doThis()`.
+
+Following this principal limits the scope of changes, making them easier and safer in future.
 
 ### The DRY Principle
 

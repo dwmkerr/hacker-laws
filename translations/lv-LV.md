@@ -1,4 +1,4 @@
-# 💻 📖 hakeru likumi
+# 💻 📖 Hakeru likumi
 
 [![gitlocalized](https://gitlocalize.com/repo/2513/whole_project/badge.svg)](https://gitlocalize.com/repo/2513/whole_project?utm_source=badge)
 
@@ -22,14 +22,14 @@ Kā šis projekts? Lūdzu, apsveriet iespēju [Sponsoring Me](https://github.com
 * [likumi](#laws)
     * [Amdahla likums](#amdahla-likums)
     * [The Broken Windows Theory](#the-broken-windows-theory)
-    * [Brūku likums](#brooks-likums)
+    * [Brūku likums](#bruku-likums)
     * [Konveja likums](#conways-likums)
     * [Kaningemas likums](#cunninghams-likums)
     * [Dunbar's Number](#dunbars-numurs)
     * [Gall's Law](#galls-likums)
     * [Goodharta likums](#goodharts-likums)
     * [Hanona Razora](#hanlons-razor)
-    * [Hofstadtera likums][#hofstadtera-likums]
+    * [Hofstadtera likums](#hofstadtera-likums)
     * [Hutber's Law](#hutbers-law)
     * [Hype Cycle & Amara's Law](#the-hype-cycle-amaras-law)
     * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-pharmacies)
@@ -96,14 +96,14 @@ Turpmāk redzamajā diagrammā ir parādīti daži iespējamo ātruma uzlabojumu
 
 Kā redzams, pat programma, kas ir 50% parallelisable, gūs ļoti maz vairāk nekā 10 procesoru vienību, bet programma, kas ir 95% parallelisable, joprojām var sasniegt ievērojamus ātruma uzlabojumus ar vairāk nekā tūkstoš procesoriem.
 
-Tā kā [Moore's Law](#moores likums) palēninās un individuālā procesora ātruma paātrināšanās palēninās, paralelizācija ir būtiska, lai uzlabotu veiktspēju. Grafikas programmēšana ir lielisks piemērs 
+Tā kā [Moore's Law](#mora-likums) palēninās un individuālā procesora ātruma paātrināšanās palēninās, paralelizācija ir būtiska, lai uzlabotu veiktspēju. Grafikas programmēšana ir lielisks piemērs 
 - ar mūsdienu Shader bāzes skaitļošanu, atsevišķiem pikseļiem vai fragmentiem var renderēt paralēli 
 - tāpēc mūsdienu grafikas kartēs bieži vien ir daudz tūkstošu apstrādes kodolu (GPUs vai Shader Units).
 
 Skatīt arī:
 
-- [Brūku likums](#brooks likums)
-- [Mora likums](#moores likums)
+- [Brūku likums](#brooks-likums)
+- [Mora likums](#mora-likums)
 
 ### apgrieztās sistēmas teorija
 
@@ -363,12 +363,12 @@ Piemērs:
 
 Tā sākotnējā kontekstā šis likums balstījās uz birokrātijas pētījumiem. Tas var tikt pesimistiski piemērots programmatūras izstrādes iniciatīvām, jo teorija ir tāda, ka darba grupas būs neefektīvas līdz termiņa beigām, bet pēc tam steidzas pabeigt darbu līdz noteiktajam termiņam, tādējādi padarot faktisko termiņu nedaudz patvaļīgu.
 
-Ja šis likums tiktu apvienots ar [Hofštera likumu](#hofstadters likums), tad tiek panākts vēl pesimistiskāks viedoklis 
+Ja šis likums tiktu apvienots ar [Hofštera likumu](#hofstadtera-likums), tad tiek panākts vēl pesimistiskāks viedoklis 
 - darbs paplašināsies, lai aizpildītu tā pabeigšanai pieejamo laiku, un *joprojām paies ilgāk, nekā paredzēts*.
 
 Skatīt arī:
 
-- [Hofstadter's Law](#hofstadters likums)
+- [Hofstadter's Law](#hofstadtera-likums)
 
 ### Priekšlaicīgas optimizācijas efekts
 
@@ -735,8 +735,8 @@ Skatīt arī:
 Ja šos jēdzienus esat uzskatījis par interesantiem, varat baudīt šādas grāmatas.
 
 - [Extreme Programming Installed - Ron Jeffries, Ann Anderson, Chet Hendrikson](https://www.goodreads.com/en/book/show/67834).
-- [The Mythical Man Monthly - Frederik P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - Klasisks sējums par programmatūras inženieriju. [Brūku likums](#brooks likums) ir grāmatas galvenā tēma.
-- [Gödel, Escher, Bahs: An Mūžīgais Zelta Breids - Duglass R. Hofštters.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - Šo grāmatu ir grūti klasificēt. [hofstadter's Law](#hofstadters likums) ir no grāmatas.
+- [The Mythical Man Monthly - Frederik P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - Klasisks sējums par programmatūras inženieriju. [Brūku likums](#bruku-likums) ir grāmatas galvenā tēma.
+- [Gödel, Escher, Bahs: An Mūžīgais Zelta Breids - Duglass R. Hofštters.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - Šo grāmatu ir grūti klasificēt. [hofstadter's Law](#hofstadtera-likums) ir no grāmatas.
 - [Dilbert princips - Scott Adams](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - Komisks skats uz korporatīvo Ameriku, no autora, kurš radīja [Dilbert principu](#the-dilbert-principle).
 - [The Peter Principle - Lawrence J. Peter](https://www.goodreads.com/book/show/890728.The_Peter_Principle) - Vēl viens komisks skatījums uz lielāku organizāciju un tautas menedžmenta izaicinājumiem, [The Peter Principle](#the-peter-principle) avots.
 

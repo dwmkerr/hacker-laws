@@ -96,9 +96,7 @@ Turpmāk redzamajā diagrammā ir parādīti daži iespējamo ātruma uzlabojumu
 
 Kā redzams, pat programma, kas ir 50% parallelisable, gūs ļoti maz vairāk nekā 10 procesoru vienību, bet programma, kas ir 95% parallelisable, joprojām var sasniegt ievērojamus ātruma uzlabojumus ar vairāk nekā tūkstoš procesoriem.
 
-Tā kā [Moore's Law](#mora-likums) palēninās un individuālā procesora ātruma paātrināšanās palēninās, paralelizācija ir būtiska, lai uzlabotu veiktspēju. Grafikas programmēšana ir lielisks piemērs 
-- ar mūsdienu Shader bāzes skaitļošanu, atsevišķiem pikseļiem vai fragmentiem var renderēt paralēli 
-- tāpēc mūsdienu grafikas kartēs bieži vien ir daudz tūkstošu apstrādes kodolu (GPUs vai Shader Units).
+Tā kā [Moore's Law](#mora-likums) palēninās un individuālā procesora ātruma paātrināšanās palēninās, paralelizācija ir būtiska, lai uzlabotu veiktspēju. Grafikas programmēšana ir lielisks piemērs - ar mūsdienu Shader bāzes skaitļošanu, atsevišķiem pikseļiem vai fragmentiem var renderēt paralēli - tāpēc mūsdienu grafikas kartēs bieži vien ir daudz tūkstošu apstrādes kodolu (GPUs vai Shader Units).
 
 Skatīt arī:
 
@@ -120,7 +118,7 @@ Skatīt arī:
 Piemēri:
 - [Pracistic Programming: Software Entropy](https://pragprog.com/the-pragmatic-programmer/extracts/software-entropy)
 - [Coding Horror: The Broken Window Theory](https://blog.codinghorror.com/the-break-window-theory/)
-- [opensource: Joy of Programming - The Broken Window Theory](https://opensourceforu.com/2011/05/joy-of-programming-broken-window-theory/)
+- [OpenSource: Joy of Programming - The Broken Window Theory](https://opensourceforu.com/2011/05/joy-of-programming-broken-window-theory/)
 
 ### Brūku likums
 
@@ -212,7 +210,7 @@ Reālpasaules piemēri:
 Skatīt arī:
 
 - [Goodhart's Law: How Measuring The Wrong Things Drive Immoral Bemoral haviour](https://coffeeandjunk.com/goodharts-campbells-law/)
-- [dilbert on bug-free software](https://dilbert.com/strip/1995-11-13)
+- [Dilbert on bug-free software](https://dilbert.com/strip/1995-11-13)
 
 ### Hanlons Razors
 
@@ -292,7 +290,9 @@ Skatīt arī:
 
 Kernigana likums ir nosaukts [Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan) un atvasināts no citāta no Kernighan un Plaugera grāmatas [Programmēšanas stila elementi](https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style):
 
-> Visi zina, ka atkļūdošana ir divreiz smagāka nekā programmas rakstīšana. Tātad, ja tu esi tik gudrs, cik vari būt, kad tu to raksti, kā tu jebkad to atkļūsi?Lai gan Kernigana likums ir hiperbolisks, tas ir arguments, ka vienkāršam kodam ir jādod priekšroka attiecībā pret sarežģītu kodu, jo jebkuru sarežģītā koda jautājumu atkļūdošana var būt dārga vai pat neiespējama.
+> Visi zina, ka atkļūdošana ir divreiz smagāka nekā programmas rakstīšana. Tātad, ja tu esi tik gudrs, cik vari būt, kad tu to raksti, kā tu jebkad to atkļūsi?
+
+Lai gan Kernigana likums ir hiperbolisks, tas ir arguments, ka vienkāršam kodam ir jādod priekšroka attiecībā pret sarežģītu kodu, jo jebkuru sarežģītā koda jautājumu atkļūdošana var būt dārga vai pat neiespējama.
 
 Skatīt arī:
 
@@ -366,8 +366,7 @@ Piemērs:
 
 Tā sākotnējā kontekstā šis likums balstījās uz birokrātijas pētījumiem. Tas var tikt pesimistiski piemērots programmatūras izstrādes iniciatīvām, jo teorija ir tāda, ka darba grupas būs neefektīvas līdz termiņa beigām, bet pēc tam steidzas pabeigt darbu līdz noteiktajam termiņam, tādējādi padarot faktisko termiņu nedaudz patvaļīgu.
 
-Ja šis likums tiktu apvienots ar [Hofštera likumu](#hofstadtera-likums), tad tiek panākts vēl pesimistiskāks viedoklis 
-- darbs paplašināsies, lai aizpildītu tā pabeigšanai pieejamo laiku, un *joprojām paies ilgāk, nekā paredzēts*.
+Ja šis likums tiktu apvienots ar [Hofštera likumu](#hofstadtera-likums), tad tiek panākts vēl pesimistiskāks viedoklis - darbs paplašināsies, lai aizpildītu tā pabeigšanai pieejamo laiku, un *joprojām paies ilgāk, nekā paredzēts*.
 
 Skatīt arī:
 
@@ -381,7 +380,9 @@ Skatīt arī:
 >
 > [(Donald Knuth)](https://twitter.com/realdonaldknuth?lang=en)
 
-Donalda Knuta (Donald Knuth) rakstā [Structured Programming With Go To Deements](http://wiki.c2.com/?StructuredProgrammingWithGoToStatements) viņš rakstīja: „Programmeri tērē milzīgus laika apjomus, domājot par savu programmu nekritisko daļu ātrumu vai raizējoties par to, un šiem efektivitātes mēģinājumiem patiesībā ir liela negatīva ietekme, ja tiek apsvērta atkļūdošana un uzturēšana. Mums vajadzētu aizmirst par nelielu efektivitāti, teiksim par 97% no laika: **priekšlaicīga optimizācija ir visa ļaunuma sakne**. Tomēr mums nevajadzētu izmantot savas iespējas šajā būtiskajā 3%.”Tomēr _Premature Optimization_ var definēt (mazāk noslogotā izteiksmē) kā optimizāciju, pirms mēs zinām, ka tas ir nepieciešams.
+Donalda Knuta (Donald Knuth) rakstā [Structured Programming With Go To Deements](http://wiki.c2.com/?StructuredProgrammingWithGoToStatements) viņš rakstīja: „Programmeri tērē milzīgus laika apjomus, domājot par savu programmu nekritisko daļu ātrumu vai raizējoties par to, un šiem efektivitātes mēģinājumiem patiesībā ir liela negatīva ietekme, ja tiek apsvērta atkļūdošana un uzturēšana. Mums vajadzētu aizmirst par nelielu efektivitāti, teiksim par 97% no laika: **priekšlaicīga optimizācija ir visa ļaunuma sakne**. Tomēr mums nevajadzētu izmantot savas iespējas šajā būtiskajā 3%.”
+
+Tomēr _Premature Optimization_ var definēt (mazāk noslogotā izteiksmē) kā optimizāciju, pirms mēs zinām, ka tas ir nepieciešams.
 
 ### Putt's Law
 
@@ -393,7 +394,9 @@ Flower's Law bieži seko līdzi Putt Corollary:
 
 > katra tehniskā hierarhija laika gaitā attīsta kompetences neversiju.
 
-Šie paziņojumi liecina, ka, ņemot vērā dažādus atlases kritērijus un tendences attiecībā uz grupu organizāciju, būs daudz kvalificētu cilvēku tehniskās organizācijas darba līmenī un vairāki cilvēki vadošos amatos, kuri neapzinās viņu vadītā darba sarežģītību un problēmas. To var izraisīt tādas parādības kā [The Peter Principle](#the-peter-principle) vai [The Dilbert Principle](#the-dilbert-principle).Tomēr jāuzsver, ka šādi tiesību akti ir plaši vispārinājumi un var attiekties uz _dažiem_ organizāciju veidiem, nevis uz citiem.
+Šie paziņojumi liecina, ka, ņemot vērā dažādus atlases kritērijus un tendences attiecībā uz grupu organizāciju, būs daudz kvalificētu cilvēku tehniskās organizācijas darba līmenī un vairāki cilvēki vadošos amatos, kuri neapzinās viņu vadītā darba sarežģītību un problēmas. To var izraisīt tādas parādības kā [The Peter Principle](#the-peter-principle) vai [The Dilbert Principle](#the-dilbert-principle).
+
+Tomēr jāuzsver, ka šādi tiesību akti ir plaši vispārinājumi un var attiekties uz _dažiem_ organizāciju veidiem, nevis uz citiem.
 
 Skatīt arī:
 
@@ -442,9 +445,10 @@ Tiesību aktu aprakstošais pants liecina, ka pārmērīga paļaušanās uz abst
 Skatīt arī:
 
 - [Hyrum's Law](#hyruma-likums-perifērisko-saskarņu-likums)
+
 Reālpasaules piemēri:
-- [Photoshop Slow Startup](https://forums.adobe.com/thread/376152) 
-- Problēma, ar kuru saskāros agrāk. Photoshop startēšana bija lēna, dažreiz tas prasīja dažas minūtes. Šķiet, problēma bija tā, ka startējot tas nolasa daļu informācijas par pašreizējo noklusējuma printeri. Tomēr, ja šis printeris faktiski ir tīkla printeris, tas var aizņemt ļoti ilgu laiku. Tīkla printera _abstrakcija_, kas tiek prezentēta sistēmai līdzīgi lokālajam printerim, radīja problēmas lietotājiem sliktā savienojamības situācijā.
+
+- [Photoshop Slow Startup](https://forums.adobe.com/thread/376152) - problēma, ar kuru saskāros agrāk. Photoshop startēšana bija lēna, dažreiz tas prasīja dažas minūtes. Šķiet, problēma bija tā, ka startējot tas nolasa daļu informācijas par pašreizējo noklusējuma printeri. Tomēr, ja šis printeris faktiski ir tīkla printeris, tas var aizņemt ļoti ilgu laiku. Tīkla printera _abstrakcija_, kas tiek prezentēta sistēmai līdzīgi lokālajam printerim, radīja problēmas lietotājiem sliktā savienojamības situācijā.
 
 ### Trivialitātes likums
 
@@ -483,7 +487,9 @@ Spotify modelis popularizē arī Tribes, Guilds, Chapters jēdzienus, kas ir cit
 > 2. Leksiskā sintakse
 > 3. Komentāru leksiskā sintakse
 >
-> (īsāk sakot, par katru semantiku pavadīto stundu komentāru sintaksē tiks pavadītas 8 stundas).Līdzīgi kā [Trivialitātes likums](#the-Constitutional-of-triviality), Wadler's Law nosaka, ka, projektējot valodu, laika apjoms, kas tiek tērēts valodas konstrukcijām, ir nesamērīgi augsts salīdzinājumā ar šo iezīmju nozīmi.
+> (īsāk sakot, par katru semantiku pavadīto stundu komentāru sintaksē tiks pavadītas 8 stundas).
+
+Līdzīgi kā [Trivialitātes likums](#the-Constitutional-of-triviality), Wadler's Law nosaka, ka, projektējot valodu, laika apjoms, kas tiek tērēts valodas konstrukcijām, ir nesamērīgi augsts salīdzinājumā ar šo iezīmju nozīmi.
 
 Skatīt arī:
 

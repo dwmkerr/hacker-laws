@@ -218,7 +218,9 @@ Skatīt arī:
 
 > nekad nepiedēvē ļaunprātību, kas ir pietiekami izskaidrota ar muļķību.
 >
-> Roberts J. HanlonsŠis princips liek domāt, ka darbības, kas rada negatīvu rezultātu, nav sliktas gribas rezultāts. Tā vietā negatīvais iznākums drīzāk tiek attiecināts uz šīm darbībām un/vai ietekme netiek pilnībā izprasta.
+> Roberts J. Hanlons
+
+Šis princips liek domāt, ka darbības, kas rada negatīvu rezultātu, nav sliktas gribas rezultāts. Tā vietā negatīvais iznākums drīzāk tiek attiecināts uz šīm darbībām un/vai ietekme netiek pilnībā izprasta.
 
 ### Hofstadter's Law
 

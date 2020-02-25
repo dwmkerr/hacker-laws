@@ -2,7 +2,7 @@
 
 Please double check the items below!
 
-- [ ] I have read the [Contributor Guidelines](./.github/contributing.md).
+- [ ] I have read the [Contributor Guidelines](https://github.com/dwmkerr/hacker-laws/blob/master/.github/contributing.md).
 - [ ] I have not directly copied text from another location (unless explicitly indicated as a quote) or violated copyright.
 - [ ] I have linked to the original Law.
 - [ ] I have quote the law (if possible) and the author's name (if possible).

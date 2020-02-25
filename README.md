@@ -58,6 +58,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
     * [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)
 * [Reading List](#reading-list)
 * [Translations](#translations)
+* [Related Projects](#related-projects)
 * [Contributing](#contributing)
 * [TODO](#todo)
 
@@ -780,6 +781,10 @@ Thanks to a number of wonderful contributors, Hacker Laws is available in a numb
 | [🇹🇷 Türkçe / Turkish](https://github.com/umutphp/hacker-laws-tr) | [Umut Işık](https://github.com/umutphp) | [![gitlocalized ](https://gitlocalize.com/repo/2513/tr/badge.svg)](https://gitlocalize.com/repo/2513/tr?utm_source=badge) |
 
 If you would like to update a translation, just [open a pull request](https://github.com/dwmkerr/hacker-laws/pulls). If you want to add a new language, log onto [GitLocalize](https://gitlocalize.com/) to create an account, then open an issue asking to administer the language and I will add you to the project! It would also be super helpful if you can open a pull request which updates the table above and link at the top of the file.
+
+## Related Projects
+
+- [Tip of the Day](https://tips.darekkay.com/html/hacker-laws-en.html) - Receive a daily hacker law/principle.
 
 ## Contributing
 

@@ -11,6 +11,8 @@ Likumi, teorijas, principi un apraksti, kas izstrādātājiem šķitīs noderīg
 - 🇹🇷 [türkçe/Turkish Version](https://github.com/umutphp/hacker-laws-tr) - paldies [Umut Işık](https://github.com/umutphp)
 - 🇧🇷 [Brasileiro/Brazīlijas versija](./translations/pt-BR.md) - paldies [Leonardo Costa](https://github.com/LeoFC97)
 - 🇪🇸 [Castellano/Spānijas versija](./translations/es-ES.md) - paldies [Manuel Rubio](https://github.com/manuel-rubio)
+- 🇱🇻 [Latvian/Latvijas versija](./translations/lv.md) - paldies [Artūrs Jansons](https://github.com/iegik)
+- 🇺🇸 [Original English Version - Oriģinālā angļu versija](https://github.com/dwmkerr/hacker-laws) - paldies [Dave Kerr](https://github.com/dwmkerr)!
 
 Kā šis projekts? Lūdzu, apsveriet iespēju [Sponsoring Me](https://github.com/sponsors/dwmkerr)!
 
@@ -46,7 +48,7 @@ Kā šis projekts? Lūdzu, apsveriet iespēju [Sponsoring Me](https://github.com
     * [Leaky Abstractions likums](#leaky-Abstractions-likums)
     * [Trivialitātes likums](#trivialitātes-likums)
     * [Unix filozofija](#unix-filozofija)
-    * [Spotify modelis](#the-spotify-model)
+    * [Spotify modelis](#spotify-modelis)
     * [Wadlera likums](#wadlera-likums)
     * [Wheatona likums](#wheatons-likums)
 * [Principi](#principi)
@@ -64,7 +66,7 @@ Kā šis projekts? Lūdzu, apsveriet iespēju [Sponsoring Me](https://github.com
     * [KISS princips](#kiss-princips)
     * [YAGNI](#yagni)
     * [Dalītās datošanas maldības](#dalītās-datošanas-maldības)
-* [Lasitaja saraksts](#lasīšanas-saraksts)
+* [Lasīšanas saraksts](#lasīšanas-saraksts)
 * [Ieguldījums](#ieguldījums)
 * [Uzdevums](#TODO)
     
@@ -96,7 +98,7 @@ Turpmāk redzamajā diagrammā ir parādīti daži iespējamo ātruma uzlabojumu
 
 Kā redzams, pat programma, kas ir 50% parallelisable, gūs ļoti maz vairāk nekā 10 procesoru vienību, bet programma, kas ir 95% parallelisable, joprojām var sasniegt ievērojamus ātruma uzlabojumus ar vairāk nekā tūkstoš procesoriem.
 
-Tā kā [Moorea likums](#mora-likums) palēninās un individuālā procesora ātruma paātrināšanās palēninās, paralelizācija ir būtiska, lai uzlabotu veiktspēju. Grafikas programmēšana ir lielisks piemērs - ar mūsdienu Shader bāzes skaitļošanu, atsevišķiem pikseļiem vai fragmentiem var renderēt paralēli - tāpēc mūsdienu grafikas kartēs bieži vien ir daudz tūkstošu apstrādes kodolu (GPUs vai Shader Units).
+Tā kā [Mora likums](#mora-likums) palēninās un individuālā procesora ātruma paātrināšanās palēninās, paralelizācija ir būtiska, lai uzlabotu veiktspēju. Grafikas programmēšana ir lielisks piemērs - ar mūsdienu Shader bāzes skaitļošanu, atsevišķiem pikseļiem vai fragmentiem var renderēt paralēli - tāpēc mūsdienu grafikas kartēs bieži vien ir daudz tūkstošu apstrādes kodolu (GPUs vai Shader Units).
 
 Skatīt arī:
 
@@ -130,7 +132,7 @@ Piemēri:
 
 Izplatītā frāze “Deviņi sievietes nevar dzemdēt bērnu vienā mēnesī” attiecas uz Brūku likumu, jo īpaši uz faktu, ka daži darba veidi nav dalāmi vai parallelisable.
 
-Šī ir grāmatas “[The Mythical Man Monthly](#reading-list)” galvenā tēma.
+Šī ir grāmatas “[The Mythical Man Monthly](#lasīšanas-saraksts)” galvenā tēma.
 
 Skatīt arī:
 
@@ -145,7 +147,7 @@ Skatīt arī:
 
 Skatīt arī:
 
-- [Spotify modelis](#the-spotify-model)
+- [Spotify modelis](#spotify-modelis)
 
 ### Kaningemas likums
 
@@ -520,7 +522,7 @@ Parasti ir lielāka iespēja, ka principi ir pamatnostādnes, kas attiecas uz di
 >
 > _Scott Adams_
 
-Vadības konceptu, ko izstrādājis Skots Adamss (Dilbert komiksu striptīza radītājs), Dilbert Princips iedvesmo [The Peter Principle](#the-peter-principle). Saskaņā ar Dilbert principu darbinieki, kas nekad nav bijuši kompetenti, tiek paaugstināti vadībā, lai ierobežotu kaitējumu, ko viņi var nodarīt. Adams vispirms izskaidroja šo principu 1995. gada “Wall Street Journal” rakstā un izvērsa to savā 1996. gada uzņēmējdarbības grāmatā [The Dilbert Principle](#reading-list).
+Vadības konceptu, ko izstrādājis Skots Adamss (Dilbert komiksu striptīza radītājs), Dilbert Princips iedvesmo [The Peter Principle](#the-peter-principle). Saskaņā ar Dilbert principu darbinieki, kas nekad nav bijuši kompetenti, tiek paaugstināti vadībā, lai ierobežotu kaitējumu, ko viņi var nodarīt. Adams vispirms izskaidroja šo principu 1995. gada “Wall Street Journal” rakstā un izvērsa to savā 1996. gada uzņēmējdarbības grāmatā [The Dilbert Principle](#lasīšanas-saraksts).
 
 Skatīt arī:
 

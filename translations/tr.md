@@ -2,13 +2,7 @@
 
 Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
 
-- 🇨🇳 [中文 / Çince İçin](https://github.com/nusr/hacker-laws-zh) - Teşekkürler [Steve Xu](https://github.com/nusr)!
-- 🇮🇹 [Italyanca için](https://github.com/csparpa/hacker-laws-it) - Teşekkürler [Claudio Sparpaglione](https://github.com/csparpa)!
-- 🇰🇷 [한국어 / Korece İçin](https://github.com/codeanddonuts/hacker-laws-kr) - Teşekkürler [Doughnut](https://github.com/codeanddonuts)!
-- 🇷🇺 [Русская версия / Rusça İçin](https://github.com/solarrust/hacker-laws) - Teşekkürler [Alena Batitskaya](https://github.com/solarrust)!
-- 🇹🇷 [Türkçe / Turkçe İçin](https://github.com/umutphp/hacker-laws-tr) - Teşekkürler [Umut Işık](https://github.com/umutphp)
-- 🇧🇷 [Brasileiro / Brezilyaca İçin](./translations/pt-BR.md) - Teşekkürler [Leonardo Costa](https://github.com/LeoFC97)
-- 🇪🇸 [Castellano / İspanyolca İçin](./translations/es-ES.md) - Teşekkürler [Manuel Rubio](https://github.com/manuel-rubio)
+[Çeviriler](#%C3%A7eviriler): [🇧🇷](./translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇩🇪](./translations/de.md) [🇫🇷](./translationis/fr.md) [🇬🇷](./translations/el.md) [🇮🇹](https://github.com/csparpa/hacker-laws-it) [🇱🇻](./translations/lv.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇪🇸](./translations/es-ES.md) [🇹🇷](https://github.com/umutphp/hacker-laws-tr)
 
 Bu projeyi beğendiniz mi? Lütfen [sponsor olmayı](https://github.com/sponsors/dwmkerr) düşünün!
 
@@ -31,9 +25,11 @@ Bu projeyi beğendiniz mi? Lütfen [sponsor olmayı](https://github.com/sponsors
     - [Hutber Yasası](#hutbers-law)
     - [Hype Döngüsü ve Amara Yasası](#the-hype-cycle--amaras-law)
     - [Hyrum Yasası (Arabirimlerin Örtülü Hukuku)](#hyrums-law-the-law-of-implicit-interfaces)
+    - [Kernighan Yasası](#kernighan-yasas%C4%B1)
     - [Metcalfe Yasası](#metcalfes-law)
     - [Moore Yasası](#moores-law)
     - [Murphy Yasası / Sod  Yasası](#murphys-law--sods-law)
+    - [Occam'ın Usturası](#occam%C4%B1n-usturas%C4%B1)
     - [Parkinson Yasası](#parkinsons-law)
     - [Olgunlaşmamış Optimizasyon Etkisi](#premature-optimization-effect)
     - [Putt Yasası](#putts-law)
@@ -61,6 +57,8 @@ Bu projeyi beğendiniz mi? Lütfen [sponsor olmayı](https://github.com/sponsors
     - [YAGNI](#yagni)
     - [Dağıtık Sistemlerin Yanılgıları](#the-fallacies-of-distributed-computing)
 - [Ek Kaynaklar](#reading-list)
+- [Çeviriler](#%C3%A7eviriler)
+- [Katkıda Bulunmak İçin](#katk%C4%B1da-bulunmak-i%CC%87%C3%A7in)
 - [Katkıda Bulunmak İçin](#katk%C4%B1)
 - [TODO](#todo)
 
@@ -86,7 +84,8 @@ En güzel şu örnekle anlatılabilir. Bir programın iki bölümden oluştuğun
 
 Aşağıdaki diyagram bazı olası hız geliştirmelerine örnekler içeriyor:
 
-<img width="480px" alt="Diagram: Amdahl's Law" src="../images/amdahls_law.png">
+
+<img width="480px" alt="Diagram: Amdahl's Law" src="../../images/amdahls_law.png">
 
 *(Diyagramın kaynağı: Daniels220 tarafından İngilizce Wikipedia'da, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 
@@ -173,9 +172,7 @@ Ek kaynaklar:
 [Wikipedia'da Gall Yasası](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
 
 > Çalışan karmaşık bir sistemin her zaman işe yarayan daha basit bir sistemden evrimleştiği kesinlikle söylenebilir. Başlangıçtan itibaren karmaşık tasarlanmış bir sistemin asla çalışmayacağı ve sonradan da düzeltilemeyeceği kesindir. Çalışsan daha basit bir sistem ile başlamanız gerekir.
-> ([John Gall](https://en.m.wikipedia.org/wiki/John_Gall_(author)))
-> ([John Gall](https://en.m.wikipedia.org/wiki/John_Gall_(author)))
-> ([John Gall](https://en.m.wikipedia.org/wiki/John_Gall_(author)))
+> ([John Gall](https://en.wikipedia.org/wiki/John_Gall_(author)))
 
 Gall Yasası der ki, çok karmaşık sistemleri *tasarlamaya* çalışmak her zaman başarısızlıkla sonuçlanır. Bu tür sistemlerin ilk denemede başarılı olmaları çok nadir görülür ama genellikle basit sistemlerden evrilirler.
 
@@ -191,12 +188,10 @@ Ek kaynaklar:
 
 > Gözlemlenen herhangi bir istatistiksel düzenlilik, kontrol amaçları için üzerine baskı uygulandığında çökme eğiliminde olacaktır.
 > *Charles Goodhart*
-> *Charles Goodhart*
 
 Ayrıca şu şekilde de ifade edilir:
 
 > Bir ölçüm hedef haline geldiğinde, iyi bir ölçüm olmaktan çıkar.
-> *Marilyn Strathern*
 > *Marilyn Strathern*
 
 Bu yasa, ölçüme dayalı optimizasyonların, ölçüm sonucunun kendisinin anlamsızlaşmasına yol açabileceğini belirtmektedir. Bir prosese kör bir şekilde uygulanan aşırı seçici tedbirler ( [KPI'ler](https://en.wikipedia.org/wiki/Performance_indicator) ) çarpık bir etkiye neden olur. İnsanlar, eylemlerinin bütünsel sonuçlarına dikkat etmek yerine belirli metrikleri tatmin etmek için sistemle "oynayarak" yerel olarak optimize etme eğilimindedir.
@@ -255,7 +250,7 @@ Bu yasa der ki; sistemde yapılan bir iyileştirme sistemin diğer taraflarında
 
 Hype Döngüsü bir teknolojinin zamanla yarattığı heyecan ve gelişiminin görsel olarak sunumudur ve Gartner tarafından ilk olarak oluşturulmuştur. En güzel anlatım aşağıdaki bir görsel ile yapılabilir:
 
-![The Hype Cycle](../images/gartner_hype_cycle.png)
+![The Hype Cycle](../../images/gartner_hype_cycle.png)
 
 *(Resmin Kaynağı: Jeremykemp tarafından İngilizce Wikipeda'da, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
 
@@ -274,6 +269,23 @@ Ek kaynaklar:
 
 - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
 - [XKCD 1172](https://xkcd.com/1172/)
+
+### Kernighan Yasası
+
+> Kodda hata ayıklama yapmak, o kodun sıfırdan yazılmasından iki kat daha zordur. Dolayısıyla, yazdığın bir kodu hatasız yazdığını düşünüyorsan, tanım olarak o koddaki hatayı ayıklayacak kadar zeki değilsin demektir.
+> (Brian Kernighan)
+
+Kernighan Yasası adını [Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan)'dan almıştır ve "[The Elements of Programming Style](https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style)" adlı Kernighan ve Plauger tarafından yazılan kitaptaki bir cümleden türetilmiştir:
+
+> Herkes hata ayıklamanın kodu sıfırdan yazmaktan iki katı daha zor olduğunu bilir. Dolayısıyla, kodu yazarken bütün zekanızı kullanıp elinizden gelenin en iyisini yaptığınızda o koddaki hatayı daha sonra nasıl ayıklayabilirsiniz?
+
+Abartılı olmakla birlikte, Kernighan Yasası karmaşık kod yerine basit kodun tercih edileceği iddiasını ortaya koymaktadır, çünkü karmaşık kodda ortaya çıkan herhangi bir sorunu ayıklamak maliyetli veya hatta mümkün olmayabilir.
+
+Ek kaynaklar:
+
+- [KISS Prensibi](#kiss-prensibi)
+- [Unix Felsefesi](#unix-felsefesi)
+- [Occam'ın Usturası](#occam%C4%B1n-usturas%C4%B1)
 
 ### Metcalfe Yasası
 
@@ -314,6 +326,24 @@ Ek kaynaklar:
 
 - [Doğrulama Önyargısı](#TODO)
 - [Seçim Tarafgirliği](#TODO)
+
+### Occam'ın Usturası
+
+[Wikipedia'da Occam'ın Usturası](https://en.wikipedia.org/wiki/Occam's_razor)
+
+> Çözümün elemanları sebep olmaksızın çoğaltılmamalıdır.
+> Ockham'lı William
+
+Occam'ın usturası, birkaç olası çözüm arasında en olası çözümün, en az sayıda kavram ve varsayımı olan çözüm olduğunu söylüyor. Bu çözüm en basit olandır ve yanlışlıkla ortaya çıkan karmaşıklığa ya da olası olumsuz sonuçlara sebep olmadan sadece verilen sorunu çözer.
+
+Ek kaynaklar:
+
+- [YAGNI](#yagni)
+- [Gümüş Bir Mermi Yok: Kazara Oluşan Karmaşıklık ve Gerekli Karmaşıklık](https://en.wikipedia.org/wiki/No_Silver_Bullet)
+
+Örnek:
+
+- [Yalın Yazılım Geliştirme: Çöpü Boşaltın](https://en.wikipedia.org/wiki/Lean_software_development#Eliminate_waste)
 
 ### Parkinson Yasası
 
@@ -440,7 +470,7 @@ Spotify Modeli kabileler (Tribes), birlikler (Guilds) ve kısımlar (Chapter) gi
 > 2. Genel sözdizimi
 > 3. Sözcük sözdizimi
 > 4. Yorumlardaki sözcük sözdizimi
-> (Kısaca semantic için harcanan her bir saat için yorumlardaki sözcük sözdizimi için sekiz saat harcanacaktır.)
+> (Kısaca semantic için harcanan her bir saat için yorumlardaki sözcük sözdizimi için sekiz saat harcanacaktır).
 
 [Önemsizlik Yasasında](#the-law-of-triviality) öne sürülene benzer olarak, Wadler Yasası yeni bir programlama dili tasarlanırken konunun önemi ile o konu için harcanan zaman ters orantılı olduğunu söylüyor.
 
@@ -493,7 +523,6 @@ Pareto Prensibi der ki, çıktıların önemli bir çoğunluğu girdilerin çok 
 
 1940'lı yıllarda Romanya kökenli Amerikalı mühendis Dr. Joseph Juran, kendisi kalite kontrolün babası olarak nitelendirilir, [kalite kontrol sorunlarında Pareto Prensibini kullanmaya başladı](https://en.wikipedia.org/wiki/Joseph_M._Juran).
 
-
 Bu prensip aynı zamanda 80/20 Kuralı (The Law of the Vital Few and The Principle of Factor Sparsity) olarak da bilinir.
 
 Gerçek dünyadan örnekler:
@@ -525,6 +554,12 @@ Ek kaynaklar:
 Genellikle sunucu uygulamaları geliştirirken uygulanabilir. Bu prensip der ki; kendi uygulamanızdan dışarıya veri gönderirken kılı kırk yararcasına dikkatli olun ama dışardan veri alırken mümkün olabilecek her durumda veriyi kabul etmeye çalışın.
 
 Bu prensibin amacı dayanıklı sistemlere geliştirmektir ve bu sistemler kötü yapılandırılmış girdileri bile anlayabildikleri durumda işleyebilmeliler. Bunun güvenlik açısından kötü amaçlı ve yeterince kontrol edilmemiş girdileri kabul etmek anlamına gelebileceği için riskli olduğu düşünülebilir. Tabiki bu riskin de göz önünde bulundurulması gerekir.
+
+Uygun olmayan girdilere zaman içinde izin verilmesi, uygulayıcıların yeni özellikler oluştururken bu serbestliğe güvenmesini sağlayacağından en sonunda protokollerin evrimleşme yeteneğini zayıflatabilir.
+
+Ek kaynaklar:
+
+- [Hyrum Yasası](#hyrum-yasas%C4%B1-arabirimlerin-%C3%B6rt%C3%BCl%C3%BC-hukuku)
 
 ### SOLID
 
@@ -562,7 +597,6 @@ Ek kaynaklar:
 Bu '[SOLID](#solid)' prensiplerinin ikincisidir ve herhangi bir sistem parçasının *mevcut* davranışının değiştirilememesini ama kullanılarak/türetilerek *genişletilebilmesinin* gerekliliğini savunur.
 
 Örneğin Markdown formatındaki belgeleri HTML formatına çeviren bir modülü düşünelim. Eğer bu modül kendisi değiştirilmeden yeni bir Markdown formatını da işlemesi sağlanacak şekilde geliştirilebiliyorsa, bu modül genişletilmeye açık demektir. Eğer sonradan değiştirilip Markdown formatı işlemesi ile ilgili geliştirme *yapılamıyorsa*, bu modül değiştirilmeye *kapalı* demektir.
-
 
 Bu prensip nesne-tabanlı programlamaya tam uygundur. Şöyle ki, kendi nesne ve sınıflarımızı miras alınarak geliştirmeye uygun ve değiştirmeye ihtiyaç duymayacak şekilde tasarlarsak ve yazarsak nesne-tabanlı programlamaya tam uygun kod yazmış oluruz.
 
@@ -619,7 +653,6 @@ Ek kaynaklar:
 
 Bu prensip olması gereken bağımlığı tersine çevirdiği düşünebileceğinden (isminden dolayı) biraz karmaşık gelebilir. Pratikte, ayrı bir düzenleme bileşeninin, soyut türlerin doğru uygulamalarının kullanılmasını sağlaması gerektiği anlamına gelir (önceki örnekte, *bir şey* hala meta veri okuyucu bileşenine bir HTTP dosyası indiricisi ve HTML meta etiketi okuyucu sağlamalıdır). Bu prensip aynı zamanda [Kontrolün Ters Çevirilmesi](#todo) ve [Bağımlık Enjeksiyonu](#todo) gibi konularla da bağlantılıdır.
 
-
 Ek kaynaklar:
 
 - [Nesne Tabanlı Programlama](#todo)
@@ -634,7 +667,6 @@ Ek kaynaklar:
 > Her bilgi parçasının bir sistem içinde tek, açık ve net bir temsiline sahip olması gerekir.
 
 *DRY Don't Repeat Yourself* yani Kendini Tekrar Etme deyimin kısaltılmasıdır. İlk olarak Andrew Hunt ve Dave Thomas tarafından [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer) kitabında bahsedilmiştir. Bu ilke, geliştiricilere kod tekrarını azaltma ve bilgileri tek bir yerde tutmalarına yardımcı olmayı amaçlamaktadır.
-
 
 > DRY'nin tam tersi *WET* olacaktır (Write Everything Twice (Her Şeyi İki Kez Yaz) We Enjoy Typing (Yazmayı Seviyoruz)).
 
@@ -665,7 +697,7 @@ Ek kaynaklar:
 ***Y**ou **A**ren't **G**onna **N**eed **I**t* (İhtiyacın olmayacak) deyiminin kısaltmasıdır.
 
 > İhtiyaç duyduğunuz şeyleri her zaman ihtiyaç duyduğunuzda geliştirin, onlara ihtiyacınız olacağını düşündüğünüzde değil.
-> ([Ron Jeffries](https://twitter.com/RonJeffries)) (XP eş-kurucusu and "Extreme Programming Installed" kitabının yazarı)
+> ([Ron Jeffries](https://twitter.com/RonJeffries)) (XP co-founder and author of the book "Extreme Programming Installed")
 
 Bu *Aşırı Programlama* (XP) ilkesi, geliştiricilerin yalnızca acil gereksinimler için gerekli olan işlevleri yerine getirmeleri gerektiğini ve daha sonra ihtiyaç duyulabilecek işlevleri uygulayarak geleceği tahmin etme girişimlerinden kaçınmalarını önerir.
 
@@ -698,8 +730,7 @@ Dayanıklı sistemler tasarlarken bu yanılgılar dikkatlice ele alınmalı; bu 
 
 Ek kaynaklar:
 
-- [Foraging for the Fallacies of Distributed Computing (Part 1) - Vaidehi Joshi
-    on Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
+- [Foraging for the Fallacies of Distributed Computing (Part 1) - Vaidehi Joshi on Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
 - [Deutsch's Fallacies, 10 Years After](http://java.sys-con.com/node/38665)
 
 ## Ek Kaynaklar
@@ -712,6 +743,30 @@ Bu kavramları ilginç bulduysanız, aşağıdaki kitapların keyfini çıkarabi
 - [Dilbert Prensibi - Scott Adams](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - [Dilbert İlkesini](#the-dilbert-principle) oluşturan yazardan, kurumsal Amerika'ya komik bir bakış.
 - [The Peter Principle - Lawrence J. Peter](https://www.goodreads.com/book/show/890728.The_Peter_Principle) - Another comic look at the challenges of larger organisations and people management, the source of [The Peter Principle](#the-peter-principle).
 
+## Çeviriler:
+
+Katkıda bulunan harika insanlar sayesinde Hacker Laws birçok dilde mevcuttur. Lütfen çeviri sahiplerine de sponsor olmayı düşünün!
+
+Dil | Moderatör | Durum
+--- | --- | ---
+[🇧🇷 Brasileiro / Brazilian](./translations/pt-BR.md) | [Leonardo Costa](https://github.com/leofc97) | [![gitlocalized ](https://gitlocalize.com/repo/2513/pt-BR/badge.svg)](https://gitlocalize.com/repo/2513/pt-BR?utm_source=badge)[](https://gitlocalize.com/repo/2513/pt-BR?utm_source=badge)[](https://gitlocalize.com/repo/2513/pt-BR?utm_source=badge)
+[🇨🇳 中文 / Chinese](https://github.com/nusr/hacker-laws-zh) | [Steve Xu](https://github.com/nusr) | Kısmen tamamlandı
+[🇩🇪 Deutsch / German](./translations/de.md) | [Vikto](https://github.com/viktodergunov) | [![gitlocalized ](https://gitlocalize.com/repo/2513/de/badge.svg)](https://gitlocalize.com/repo/2513/de?utm_source=badge)[](https://gitlocalize.com/repo/2513/de?utm_source=badge)[](https://gitlocalize.com/repo/2513/de?utm_source=badge)
+[🇫🇷 Français / French](./translationis/fr.md) | [Kevin Bockelandt](https://github.com/KevinBockelandt) | [![gitlocalized ](https://gitlocalize.com/repo/2513/fr/badge.svg)](https://gitlocalize.com/repo/2513/fr?utm_source=badge)[](https://gitlocalize.com/repo/2513/fr?utm_source=badge)[](https://gitlocalize.com/repo/2513/fr?utm_source=badge)
+[🇬🇷 ελληνικά / Greek](./translations/el.md) | [Panagiotis Gourgaris](https://github.com/0gap) | [![gitlocalized ](https://gitlocalize.com/repo/2513/el/badge.svg)](https://gitlocalize.com/repo/2513/el?utm_source=badge)[](https://gitlocalize.com/repo/2513/el?utm_source=badge)[](https://gitlocalize.com/repo/2513/el?utm_source=badge)
+[🇮🇹 Italiano / Italian](https://github.com/csparpa/hacker-laws-it) | [Claudio Sparpaglione](https://github.com/csparpa) | Kısmen tamamlandı
+[🇰🇷 한국어 / Korean](https://github.com/codeanddonuts/hacker-laws-kr) | [Doughnut](https://github.com/codeanddonuts) | Kısmen tamamlandı
+[🇱🇻 Latviešu Valoda / Latvian](./translations/lv.md) | [Arturs Jansons](https://github.com/iegik) | [![gitlocalized ](https://gitlocalize.com/repo/2513/lv/badge.svg)](https://gitlocalize.com/repo/2513/lv?utm_source=badge)[](https://gitlocalize.com/repo/2513/lv?utm_source=badge)[](https://gitlocalize.com/repo/2513/lv?utm_source=badge)
+[🇷🇺 Русская версия / Russian](https://github.com/solarrust/hacker-laws) | [Alena Batitskaya](https://github.com/solarrust) | Kısmen tamamlandı
+[🇪🇸 Castellano / Spanish](./translations/es-ES.md) | [Manuel Rubio](https://github.com/manuel-rubio) ([Sponsor](https://github.com/sponsors/manuel-rubio)) | Kısmen tamamlandı
+[🇹🇷 Türkçe / Turkish](https://github.com/umutphp/hacker-laws-tr) | [Umut Işık](https://github.com/umutphp) | [![gitlocalized ](https://gitlocalize.com/repo/2513/tr/badge.svg)](https://gitlocalize.com/repo/2513/tr?utm_source=badge)[](https://gitlocalize.com/repo/2513/tr?utm_source=badge)[](https://gitlocalize.com/repo/2513/tr?utm_source=badge)
+
+Bir çeviriyi güncellemek isterseniz, [bir PR açmanız yeterlidir](https://github.com/dwmkerr/hacker-laws/pulls) . Yeni bir dil eklemek istiyorsanız, bir hesap oluşturmak için [GitLocalize'a](https://gitlocalize.com/) giriş yapın, ardından dili yönetmek istediğinizi belirten bir Issue açın; sizi projeye ekleyeceğim! Yukarıdaki tabloyu güncelleyen bir PR açabilmeniz de çok yararlı olacaktır.
+
+## İlgili Projeler
+
+- [Tip of the Day](https://tips.darekkay.com/html/hacker-laws-en.html) - Hergün bir hacker yasası ya da prensibi.
+
 ## Katkıda Bulunmak İçin
 
 Lütfen katkıda bulunun! Bir ekleme veya değişiklik önermek istiyorsanız [bir sorun oluşturun](https://github.com/dwmkerr/hacker-laws/issues/new) veya kendi değişikliklerinizi önermek için [bir PR açın](https://github.com/dwmkerr/hacker-laws/compare) .
@@ -723,4 +778,3 @@ Lütfen metin, stil ve benzeri gereksinimler için [Katkıda Bulunma Kılavuzunu
 Selam!. Buraya ulaştıysanız, henüz yazmadığım bir konunun bağlantısını tıkladınız, bunun için üzgünüm - ve en kısa zamanda tamamlamaya çalışacağım!
 
 Soru ve önerileriniz için [issue](https://github.com/dwmkerr/hacker-laws/issues) açabilirsiniz, ya da katkıda bulunmak isterseniz [Pull Request](https://github.com/dwmkerr/hacker-laws/pulls) açabilirsiniz.
-

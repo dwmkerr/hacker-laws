@@ -11,6 +11,8 @@ Likumi, teorijas, principi un apraksti, kas izstrādātājiem šķitīs noderīg
 - 🇹🇷 [türkçe/Turkish Version](https://github.com/umutphp/hacker-laws-tr) - paldies [Umut Işık](https://github.com/umutphp)
 - 🇧🇷 [Brasileiro/Brazīlijas versija](./translations/pt-BR.md) - paldies [Leonardo Costa](https://github.com/LeoFC97)
 - 🇪🇸 [Castellano/Spānijas versija](./translations/es-ES.md) - paldies [Manuel Rubio](https://github.com/manuel-rubio)
+- 🇱🇻 [Latvian/Latvijas versija](./translations/lv.md) - paldies [Artūrs Jansons](https://github.com/iegik)
+- 🇺🇸 [Original English Version - Oriģinālā angļu versija](https://github.com/dwmkerr/hacker-laws) - paldies [Dave Kerr](https://github.com/dwmkerr)!
 
 Kā šis projekts? Lūdzu, apsveriet iespēju [Sponsoring Me](https://github.com/sponsors/dwmkerr)!
 
@@ -18,10 +20,10 @@ Kā šis projekts? Lūdzu, apsveriet iespēju [Sponsoring Me](https://github.com
 
 <!-- VIM-markdown-toc GFM -->
 
-* [ievads](#introduction)
-* [likumi](#laws)
+* [Ievads](#ievads)
+* [Likumi](#likumi)
     * [Amdahla likums](#amdahla-likums)
-    * [The Broken Windows Theory](#the-broken-windows-theory)
+    * [Izsisto logu teorija](#izsisto-logu-teorija)
     * [Brūku likums](#bruku-likums)
     * [Konveja likums](#conways-likums)
     * [Kaningemas likums](#cunninghams-likums)
@@ -30,42 +32,42 @@ Kā šis projekts? Lūdzu, apsveriet iespēju [Sponsoring Me](https://github.com
     * [Goodharta likums](#goodharts-likums)
     * [Hanona Razora](#hanlons-razor)
     * [Hofstadtera likums](#hofstadtera-likums)
-    * [Hutber's Law](#hutbers-law)
-    * [Hype Cycle & Amara's Law](#the-hype-cycle-amaras-law)
+    * [Hutbera likums](#hutbera-likums)
+    * [Hype Cycle & Amaras likums](#hype-cycle-amaras-likums)
     * [Hyruma likums (Perifērisko saskarņu likums)](#hyruma-likums-perifērisko-saskarņu-likums)
-    * [Kernigana likums](#Kernigana-likums)
-    * [Metkalfa likums](#Metkalfa-likums)
+    * [Kernigana likums](#kernigana-likums)
+    * [Metkalfa likums](#metkalfa-likums)
     * [Mora likums](#mora-likums)
     * [Mērfija likums/Soda likums](#murphys-sods-likums)
     * [Occam's Razor](#occams-razor)
     * [Parkinsona likums](#parkinsons-Law)
     * [Priekšlaicīgas optimizēšanas efekts](#premature-optimizēšanas-efekts)
-    * [Putt's Law](#putts-law)
-    * [Reed's Law](#reeds-law)
-    * [Taisnīguma saglabāšanas likums (Teslera likums)](#youth-of-teslers-law-of-conservation-complexity-law)
-    * [Leaky Abstractions likums](#the-law-of-dioxide-freshctions)
-    * [Trivialitātes likums](#the-law-of-triviality)
-    * [Unix Philosophy](#the-unix-philosophy)
-    * [Spotify modelis](#the-spotify-model)
-    * [Wadler's Law](#wadlers-law)
-    * [Wheaton's Law](#wheatons-likums)
-* [principi](#principles)
-    * [Dilbert princips](#the-dilbert-principle)
-    * [Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
-    * [Peter Principle](#the-peter-principle)
-    * [Uzturības princips (Postel's Law)](#the-rorigness-principle-postels-law)
+    * [Putta likums](#putta-likums)
+    * [Reeda likums](#reeda-likums)
+    * [Taisnīguma saglabāšanas likums (Teslera likums)](#taisnīguma-saglabāšanas-likums-teslera-likums)
+    * [Leaky Abstractions likums](#leaky-Abstractions-likums)
+    * [Trivialitātes likums](#trivialitātes-likums)
+    * [Unix filozofija](#unix-filozofija)
+    * [Spotify modelis](#spotify-modelis)
+    * [Wadlera likums](#wadlera-likums)
+    * [Wheatona likums](#wheatons-likums)
+* [Principi](#principi)
+    * [Dilberta princips](#dilberta-princips)
+    * [Pareto princips (kārtula 80/20)](#pareto-princips-kārtula-8020)
+    * [Petera princips](#petera-princips)
+    * [Uzturības princips (Postela likums)](#uzturības-princips-postela-likums)
     * [SOLID](#solid)
-    * [Vienotās atbildības princips](#the-single-responsibility-principle)
-    * [Atklātais/slēgtais princips](#the-openclosed-principle)
-    * [Liskova aizstāšanas princips](#the-liskov-substitution-principle)
-    * [Interfeisa segmenta noteikšanas princips](#the-interface-segregation-principle)
-    * [rights-dependence-inversion-principle](#the-dependent-inversion-principle)
-    * [DRY princips](#the-dry-principle)
-    * [KISS princips](#the-kiss-principle)
+    * [Vienotās atbildības princips](#vienotās-atbildības-princips)
+    * [Atklātais/slēgtais princips](#atklātaisslēgtais-princips)
+    * [Liskova aizstāšanas princips](#liskova-aizstāšanas-princips)
+    * [Interfeisa segmenta noteikšanas princips](#interfeisa-segmenta-noteikšanas-princips)
+    * [Atkarībās inversijas princips](#atkarības-inversijas-princips)
+    * [DRY princips](#dry-princips)
+    * [KISS princips](#kiss-princips)
     * [YAGNI](#yagni)
-    * [dalītās datošanas Fallacies](#the-fallacies-of-illicit-computing)
-* [Lasitaja saraksts](#Lasīšanas-saraksts)
-* [Ieguldījums](#Ieguldījums)
+    * [Dalītās datošanas maldības](#dalītās-datošanas-maldības)
+* [Lasīšanas saraksts](#lasīšanas-saraksts)
+* [Ieguldījums](#ieguldījums)
 * [Uzdevums](#TODO)
     
 <!-- VIM-markdown-toc -->
@@ -82,7 +84,7 @@ Un te nu mēs ejam!
 
 ### Amdahl likums
 
-[Amdahl likums par Wikipedia](https://en.wikipedia.org/wiki/Amdahl%27s_law)
+[Amdahl likums Vikipēdijā](https://en.wikipedia.org/wiki/Amdahl%27s_law)
 
 > Amdahl likums ir formula, kas parāda skaitļošanas uzdevuma _increedup_, ko var sasniegt, palielinot sistēmas resursus. Parasti izmanto paralēlā skaitļošanā, tā var paredzēt faktisko labumu no procesoru skaita palielināšanas, ko ierobežo programmas paralēliskās iespējas.
 
@@ -90,26 +92,24 @@ Vislabāk ilustrēts ar piemēru. Ja programma sastāv no divām daļām, daļas
 
 Turpmāk redzamajā diagrammā ir parādīti daži iespējamo ātruma uzlabojumu piemēri.
 
-<img alt="Diagram: Amdahl's Law" src="../images/amdahls_law.png" width="480px"/>
+<img alt="Diagram: Amdahla likums" src="../images/amdahls_law.png" width="480px"/>
 
 *(Atsauce uz attēlu: Daniels220 angļu valodā Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 
 Kā redzams, pat programma, kas ir 50% parallelisable, gūs ļoti maz vairāk nekā 10 procesoru vienību, bet programma, kas ir 95% parallelisable, joprojām var sasniegt ievērojamus ātruma uzlabojumus ar vairāk nekā tūkstoš procesoriem.
 
-Tā kā [Moore's Law](#mora-likums) palēninās un individuālā procesora ātruma paātrināšanās palēninās, paralelizācija ir būtiska, lai uzlabotu veiktspēju. Grafikas programmēšana ir lielisks piemērs 
-- ar mūsdienu Shader bāzes skaitļošanu, atsevišķiem pikseļiem vai fragmentiem var renderēt paralēli 
-- tāpēc mūsdienu grafikas kartēs bieži vien ir daudz tūkstošu apstrādes kodolu (GPUs vai Shader Units).
+Tā kā [Mora likums](#mora-likums) palēninās un individuālā procesora ātruma paātrināšanās palēninās, paralelizācija ir būtiska, lai uzlabotu veiktspēju. Grafikas programmēšana ir lielisks piemērs - ar mūsdienu Shader bāzes skaitļošanu, atsevišķiem pikseļiem vai fragmentiem var renderēt paralēli - tāpēc mūsdienu grafikas kartēs bieži vien ir daudz tūkstošu apstrādes kodolu (GPUs vai Shader Units).
 
 Skatīt arī:
 
 - [Brūku likums](#brooks-likums)
 - [Mora likums](#mora-likums)
 
-### Apgrieztās sistēmas teorija
+### Izsisto logu teorija
 
-[The Broken Windows Theory on Wikipedia](https://en.wikipedia.org/wiki/Broken_windows_theory)
+[Izsisto logu teorija Vikipēdijā](https://en.wikipedia.org/wiki/Broken_windows_theory)
 
-“Broken Windows” teorija liecina, ka redzamas nozieguma pazīmes (vai kādas vides rūpju trūkums) noved pie tālākiem un smagākiem noziegumiem (vai tālākas vides pasliktināšanās).
+Izsisto logu teorija liecina, ka redzamas nozieguma pazīmes (vai kādas vides rūpju trūkums) noved pie tālākiem un smagākiem noziegumiem (vai tālākas vides pasliktināšanās).
 
 Šī teorija ir izmantota programmatūras izstrādei, kas liek domāt, ka sliktas kvalitātes kods (vai [Technical Debt](#TODO)) var radīt priekšstatu, ka kvalitātes uzlabošanas centieni var tikt ignorēti vai nepietiekami novērtēti, tādējādi radot vēl vairāk sliktas kvalitātes kodu. Šī efekta kaskādes izraisa ievērojamu kvalitātes samazināšanos laika gaitā.
 
@@ -120,11 +120,11 @@ Skatīt arī:
 Piemēri:
 - [Pracistic Programming: Software Entropy](https://pragprog.com/the-pragmatic-programmer/extracts/software-entropy)
 - [Coding Horror: The Broken Window Theory](https://blog.codinghorror.com/the-break-window-theory/)
-- [opensource: Joy of Programming - The Broken Window Theory](https://opensourceforu.com/2011/05/joy-of-programming-broken-window-theory/)
+- [OpenSource: Joy of Programming - The Broken Window Theory](https://opensourceforu.com/2011/05/joy-of-programming-broken-window-theory/)
 
 ### Brūku likums
 
-[Brūku likums par Wikipedia](https://en.wikipedia.org/wiki/Brooks%27s_law)
+[Brūku likums Vikipēdijā](https://en.wikipedia.org/wiki/Brooks%27s_law)
 
 > Personāla resursu pievienošana vēlākam programmatūras izstrādes projektam to dara vēlāk.
 
@@ -132,7 +132,7 @@ Piemēri:
 
 Izplatītā frāze “Deviņi sievietes nevar dzemdēt bērnu vienā mēnesī” attiecas uz Brūku likumu, jo īpaši uz faktu, ka daži darba veidi nav dalāmi vai parallelisable.
 
-Šī ir grāmatas “[The Mythical Man Monthly](#reading-list)” galvenā tēma.
+Šī ir grāmatas “[The Mythical Man Monthly](#lasīšanas-saraksts)” galvenā tēma.
 
 Skatīt arī:
 
@@ -141,17 +141,17 @@ Skatīt arī:
 
 ### Konveja likums
 
-[Conway's Law on Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
+[Conwaya likums Vikipēdijā](https://en.wikipedia.org/wiki/Conway%27s_law)
 
 Šis likums paredz, ka sistēmas tehniskās robežas atspoguļos organizācijas struktūru. Parasti tas tiek pieminēts, aplūkojot organizācijas uzlabojumus, Konveja likums liecina, ka, ja organizācija ir strukturēta uz daudzām mazām, atvienotām vienībām, tad tā ražotā programmatūra būs. Ja organizācija ir vairāk izveidota, izmantojot "vertikāles”, kas ir orientētas uz līdzekļiem vai pakalpojumiem, arī programmatūras sistēmas to atspoguļo.
 
 Skatīt arī:
 
-- [Spotify modelis](#the-spotify-model)
+- [Spotify modelis](#spotify-modelis)
 
 ### Kaningemas likums
 
-[Kaningemas likums par Wikipedia](https://en.wikipedia.org/wiki/Ward_Cunningham#Cunningham_likums)
+[Kaningemas likums Vikipēdijā](https://en.wikipedia.org/wiki/Ward_Cunningham#Cunningham_likums)
 
 > Labākais veids, kā iegūt pareizo atbildi internetā, ir neuzdot jautājumu, tas ir, izlikt nepareizu atbildi.
 
@@ -163,7 +163,7 @@ Skatīt arī:
 
 ### Danbara numurs
 
-[Danbara numurs on Wikipedia](https://en.wikipedia.org/wiki/Dunbar%27s_number)
+[Danbara numurs Vikipēdijā](https://en.wikipedia.org/wiki/Dunbar%27s_number)
 
 “Danbara skaitlis ir ieteicams izziņas ierobežojums to cilvēku skaitam, ar kuriem var uzturēt stabilas sociālās attiecības — attiecības, kurās indivīds zina, kas ir katrs cilvēks un kā katrs cilvēks ir saistīts ar katru citu cilvēku.” Ir kādas domstarpības ar precīzu skaitli. “..” “Dunbar” ierosināja, ka cilvēki var mierīgi uzturēt tikai 150 stabilas attiecības.” Viņš ievietoja numuru vairāk sabiedriskā kontekstā, “tik daudz cilvēku, cik jūs nejustos apmulsuši, ka pievienojaties nelūgtam dzērienam, ja jums gadītos ar viņiem ieskrieties bārā.” Aptuvenie skaitļi parasti ir no 100 līdz 250.
 
@@ -171,11 +171,11 @@ Tāpat kā stabilas attiecības starp indivīdiem, arī izstrādātāja attiecī
 
 Skatīt arī:
 
-- [Conway's Law](#conways-likums)
+- [Conwaya likums](#conways-likums)
 
 ### Galla likums
 
-[Galla likums on Wikipedia](https://en.wikipedia.org/wiki/John_Gall_(autors)#Gall's_law)
+[Galla likums Vikipēdijā](https://en.wikipedia.org/wiki/John_Gall_(autors)#Gall's_law)
 
 > Salikta sistēmā, kas darbojas, pastāvīgi tiek atrasta, ka tā ir attīstījusies no vienkāršas sistēmas, kas darbojās. Sarežģīta sistēma, kas veidota no nulles, nekad nedarbojas, un to nevar patukšot, lai tā darbotos. Jāsāk ar vienkāršu darba sistēmu.
 >
@@ -187,11 +187,11 @@ Klasiskais piemērs ir vispasaules tīmeklis. Pašreizējā stāvoklī tā ir ļ
 
 Skatīt arī:
 
-- [KISS (keep It Simple, Stupid)](#the-kiss-principle)
+- [KISS (keep It Simple, Stupid)](#kiss-princips)
 
 ### Goodharta likums
 
-[Goodhart's Law on Wikipedia](https://en.wikipedia.org/wiki/Goodhart's_law)
+[Goodharta likums Vikipēdijā](https://en.wikipedia.org/wiki/Goodhart's_law)
 
 > jebkura novērotā statistiskā regularitāte var sabrukt, kad uz to tiek izdarīts spiediens kontroles nolūkā.
 >
@@ -206,25 +206,28 @@ Bieži minēts arī kā:
 Likums nosaka, ka pasākuma virzītā optimizācija var izraisīt paša mērījumu rezultāta devalvāciju. Pārāk selektīvs pasākumu kopums ([KPI](https://en.wikipedia.org/wiki/Performance_indicator)), ko akli piemēro procesam, rada izkropļotu ietekmi. Cilvēki mēdz optimizēt vietējā līmenī, “spēlējot” sistēmu, lai tā atbilstu īpašiem rādītājiem, nevis pievērstu uzmanību viņu darbību visaptverošajiem rezultātiem.
 
 Reālpasaules piemēri:
+
 - izmēģinājumi bez pārbaudes atbilst koda pārklājuma prognozēm, neskatoties uz to, ka metrikas nolūks bija izveidot labi pārbaudītu programmatūru.
 - izstrādātāja snieguma rezultāts, ko norāda veikto rindu skaits, noved pie nepamatoti uzpūstas kodebāzes.
 
 Skatīt arī:
 
-- [Goodhart's Law: How Measuring The Wrong Things Drive Immoral Bemoral haviour](https://coffeeandjunk.com/goodharts-campbells-law/)
-- [dilbert on bug-free software](https://dilbert.com/strip/1995-11-13)
+- [Goodharta likums: How Measuring The Wrong Things Drive Immoral Bemoral haviour](https://coffeeandjunk.com/goodharts-campbells-law/)
+- [Dilbert on bug-free software](https://dilbert.com/strip/1995-11-13)
 
 ### Hanlons Razors
 
-[Hanlon's Razor on Wikipedia](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
+[Hanlon's Razor Vikipēdijā](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
 
 > nekad nepiedēvē ļaunprātību, kas ir pietiekami izskaidrota ar muļķību.
 >
-> Roberts J. HanlonsŠis princips liek domāt, ka darbības, kas rada negatīvu rezultātu, nav sliktas gribas rezultāts. Tā vietā negatīvais iznākums drīzāk tiek attiecināts uz šīm darbībām un/vai ietekme netiek pilnībā izprasta.
+> Roberts J. Hanlons
 
-### Hofstadter's Law
+Šis princips liek domāt, ka darbības, kas rada negatīvu rezultātu, nav sliktas gribas rezultāts. Tā vietā negatīvais iznākums drīzāk tiek attiecināts uz šīm darbībām un/vai ietekme netiek pilnībā izprasta.
 
-[Hefstadter's Law on Wikipedia](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
+### Hofstadtera likums
+
+[Hefstadtera likums Vikipēdijā](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
 
 > Tas vienmēr aizņem vairāk laika, nekā jūs domājat, pat ņemot vērā Hofštera likumu.
 >
@@ -232,15 +235,15 @@ Skatīt arī:
 
 Jūs varētu dzirdēt, kā šis likums tiek pieminēts, skatoties uz aprēķiniem, cik ilgi kaut kas notiks. Šķiet, ka programmatūras izstrādes triks ir tāds, ka mēs nemēdzam precīzi novērtēt, cik ilgs laiks būs vajadzīgs, lai to paveiktu.
 
-Tas ir no grāmatas “[Gödel, Escher, Bahs: An Mūžīgais Zelta Breidijs](#Lasīšanas-saraksts)”.
+Tas ir no grāmatas “[Gödel, Escher, Bahs: An Mūžīgais Zelta Breidijs](#lasīšanas-saraksts)”.
 
 Skatīt arī:
 
-- [Lasīšanas saraksts: Gödel, Escher, Baach: An Mūžīgais zelta Breids](#Lasīšanas-saraksts)
+- [Lasīšanas saraksts: Gödel, Escher, Baach: An Mūžīgais zelta Breids](#lasīšanas-saraksts)
 
-### Hutber's Law
+### Hutbera likums
 
-[Hutber's Law on Wikipedia](https://en.wikipedia.org/wiki/Hutber%27s_law)
+[Hutbera likums Vikipēdijā](https://en.wikipedia.org/wiki/Hutber%27s_law)
 
 > Uzlabošanās nozīmē nolietošanos.
 >
@@ -252,7 +255,7 @@ Piemēram, atbildes latentuma samazināšanās konkrētā galapunktā varētu ra
 
 ### Hype Cycle & Amara likums
 
-[Hype Cycle Vikipedijā](https://en.wikipedia.org/wiki/Hype_cycle)
+[Hype Cycle Vikipēdijā](https://en.wikipedia.org/wiki/Hype_cycle)
 
 > Mēs pārāk augstu vērtējam tehnoloģijas ietekmi īstermiņā un nepietiekami novērtējam tās ietekmi ilgtermiņā.
 >
@@ -292,30 +295,32 @@ Skatīt arī:
 
 Kernigana likums ir nosaukts [Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan) un atvasināts no citāta no Kernighan un Plaugera grāmatas [Programmēšanas stila elementi](https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style):
 
-> Visi zina, ka atkļūdošana ir divreiz smagāka nekā programmas rakstīšana. Tātad, ja tu esi tik gudrs, cik vari būt, kad tu to raksti, kā tu jebkad to atkļūsi?Lai gan Kernigana likums ir hiperbolisks, tas ir arguments, ka vienkāršam kodam ir jādod priekšroka attiecībā pret sarežģītu kodu, jo jebkuru sarežģītā koda jautājumu atkļūdošana var būt dārga vai pat neiespējama.
+> Visi zina, ka atkļūdošana ir divreiz smagāka nekā programmas rakstīšana. Tātad, ja tu esi tik gudrs, cik vari būt, kad tu to raksti, kā tu jebkad to atkļūsi?
+
+Lai gan Kernigana likums ir hiperbolisks, tas ir arguments, ka vienkāršam kodam ir jādod priekšroka attiecībā pret sarežģītu kodu, jo jebkuru sarežģītā koda jautājumu atkļūdošana var būt dārga vai pat neiespējama.
 
 Skatīt arī:
 
-- [KISS princips](#the-kiss-principle)
-- [Unix Philosophy](#the-unix-philosophy)
+- [KISS princips](#kiss-princips)
+- [Unix filozofija](#unix-filozofija)
 - [Occam's Razor](#occams-razor)
 
 ### Metkalfa likums
 
-[Metkalfe's Law on Wikipedia](https://en.wikipedia.org/wiki/Metcalfe's_law)
+[Metkalfea likums Vikipēdijā](https://en.wikipedia.org/wiki/Metcalfe's_law)
 
 > Tīkla teorijā sistēmas vērtība pieaug aptuveni pēc sistēmas lietotāju skaita kvadrāta.
 
-Šis likums ir balstīts uz iespējamo pārtikušo savienojumu skaitu sistēmā un ir cieši saistīts ar [Reed's Law](#reeds-law). Odlyzko un citi apgalvoja, ka gan Rīda likums, gan Metkalfa likums nosaka pārāk augstu sistēmas vērtību, neņemot vērā cilvēku izziņas robežas attiecībā uz tīkla ietekmi; skatīt [Danbara numurs](#dunbars-number).
+Šis likums ir balstīts uz iespējamo pārtikušo savienojumu skaitu sistēmā un ir cieši saistīts ar [Reeda likums](#reeda-likums). Odlyzko un citi apgalvoja, ka gan Rīda likums, gan Metkalfa likums nosaka pārāk augstu sistēmas vērtību, neņemot vērā cilvēku izziņas robežas attiecībā uz tīkla ietekmi; skatīt [Danbara numurs](#dunbars-number).
 
 Skatīt arī:
 
-- [Reed's Law](#reeds-law)
+- [Reeda likums](#reeda-likums)
 - [Danbara numurs](#Danbara-numurs)
 
 ### Mora likums
 
-[Mora likums par Wikipedia](https://en.wikipedia.org/wiki/Moore%27s_law)
+[Mora likums Vikipēdijā](https://en.wikipedia.org/wiki/Moore%27s_law)
 
 > Tranzistoru skaits integrālajā shēmā divkāršojas aptuveni reizi divos gados.
 
@@ -323,7 +328,7 @@ Mora prognozes ir ļoti precīzas no 1970. gadiem līdz pat 2000. gadu beigām. 
 
 ### Mērfija likums/Soda likums
 
-[Mērfija likums par Wikipedia](https://en.wikipedia.org/wiki/Murphy%27s_law)
+[Mērfija likums Vikipēdijā](https://en.wikipedia.org/wiki/Murphy%27s_law)
 
 > Jebkas, kas var noiet greizi, noies greizi.
 
@@ -342,7 +347,7 @@ Skatīt arī:
 
 ### Okuta Razors
 
-[Occam's Razor on Wikipedia](https://en.wikipedia.org/wiki/Occam's_razor)
+[Occam's Razor Vikipēdijā](https://en.wikipedia.org/wiki/Occam's_razor)
 
 > Entītijas nedrīkst reizināt bez nepieciešamības.
 >
@@ -360,18 +365,17 @@ Piemērs:
 
 ### Parkinsona likums
 
-[Parkinsona likums par Wikipedia](https://en.wikipedia.org/wiki/Parkinson%27s_law)
+[Parkinsona likums Vikipēdijā](https://en.wikipedia.org/wiki/Parkinson%27s_law)
 
 > Darbs tiek izvērsts, lai aizpildītu laiku, kas ir pieejams tā pabeigšanai.
 
 Tā sākotnējā kontekstā šis likums balstījās uz birokrātijas pētījumiem. Tas var tikt pesimistiski piemērots programmatūras izstrādes iniciatīvām, jo teorija ir tāda, ka darba grupas būs neefektīvas līdz termiņa beigām, bet pēc tam steidzas pabeigt darbu līdz noteiktajam termiņam, tādējādi padarot faktisko termiņu nedaudz patvaļīgu.
 
-Ja šis likums tiktu apvienots ar [Hofštera likumu](#hofstadtera-likums), tad tiek panākts vēl pesimistiskāks viedoklis 
-- darbs paplašināsies, lai aizpildītu tā pabeigšanai pieejamo laiku, un *joprojām paies ilgāk, nekā paredzēts*.
+Ja šis likums tiktu apvienots ar [Hofštera likumu](#hofstadtera-likums), tad tiek panākts vēl pesimistiskāks viedoklis - darbs paplašināsies, lai aizpildītu tā pabeigšanai pieejamo laiku, un *joprojām paies ilgāk, nekā paredzēts*.
 
 Skatīt arī:
 
-- [Hofstadter's Law](#hofstadtera-likums)
+- [Hofstadtera likums](#hofstadtera-likums)
 
 ### Priekšlaicīgas optimizācijas efekts
 
@@ -381,28 +385,32 @@ Skatīt arī:
 >
 > [(Donald Knuth)](https://twitter.com/realdonaldknuth?lang=en)
 
-Donalda Knuta (Donald Knuth) rakstā [Structured Programming With Go To Deements](http://wiki.c2.com/?StructuredProgrammingWithGoToStatements) viņš rakstīja: „Programmeri tērē milzīgus laika apjomus, domājot par savu programmu nekritisko daļu ātrumu vai raizējoties par to, un šiem efektivitātes mēģinājumiem patiesībā ir liela negatīva ietekme, ja tiek apsvērta atkļūdošana un uzturēšana. Mums vajadzētu aizmirst par nelielu efektivitāti, teiksim par 97% no laika: **priekšlaicīga optimizācija ir visa ļaunuma sakne**. Tomēr mums nevajadzētu izmantot savas iespējas šajā būtiskajā 3%.”Tomēr _Premature Optimization_ var definēt (mazāk noslogotā izteiksmē) kā optimizāciju, pirms mēs zinām, ka tas ir nepieciešams.
+Donalda Knuta (Donald Knuth) rakstā [Structured Programming With Go To Deements](http://wiki.c2.com/?StructuredProgrammingWithGoToStatements) viņš rakstīja: „Programmeri tērē milzīgus laika apjomus, domājot par savu programmu nekritisko daļu ātrumu vai raizējoties par to, un šiem efektivitātes mēģinājumiem patiesībā ir liela negatīva ietekme, ja tiek apsvērta atkļūdošana un uzturēšana. Mums vajadzētu aizmirst par nelielu efektivitāti, teiksim par 97% no laika: **priekšlaicīga optimizācija ir visa ļaunuma sakne**. Tomēr mums nevajadzētu izmantot savas iespējas šajā būtiskajā 3%.”
 
-### Putt's Law
+Tomēr _Premature Optimization_ var definēt (mazāk noslogotā izteiksmē) kā optimizāciju, pirms mēs zinām, ka tas ir nepieciešams.
 
-[Putt's Law on Wikipedia](https://en.wikipedia.org/wiki/Putt%27s_Law_and_the_Successful_Technocrat)
+### Putta likums
+
+[Putta likums Vikipēdijā](https://en.wikipedia.org/wiki/Putt%27s_Law_and_the_Successful_Technocrat)
 
 > Tehnoloģijā dominē divu veidu cilvēki, tie, kas saprot, ko nepārvalda, un tie, kas pārvalda to, ko nesaprot.
 
-Flower's Law bieži seko līdzi Putt Corollary:
+Flowera likums bieži seko līdzi Putt Corollary:
 
 > katra tehniskā hierarhija laika gaitā attīsta kompetences neversiju.
 
-Šie paziņojumi liecina, ka, ņemot vērā dažādus atlases kritērijus un tendences attiecībā uz grupu organizāciju, būs daudz kvalificētu cilvēku tehniskās organizācijas darba līmenī un vairāki cilvēki vadošos amatos, kuri neapzinās viņu vadītā darba sarežģītību un problēmas. To var izraisīt tādas parādības kā [The Peter Principle](#the-peter-principle) vai [The Dilbert Principle](#the-dilbert-principle).Tomēr jāuzsver, ka šādi tiesību akti ir plaši vispārinājumi un var attiekties uz _dažiem_ organizāciju veidiem, nevis uz citiem.
+Šie paziņojumi liecina, ka, ņemot vērā dažādus atlases kritērijus un tendences attiecībā uz grupu organizāciju, būs daudz kvalificētu cilvēku tehniskās organizācijas darba līmenī un vairāki cilvēki vadošos amatos, kuri neapzinās viņu vadītā darba sarežģītību un problēmas. To var izraisīt tādas parādības kā [The Peter Principle](#the-peter-principle) vai [The Dilbert Principle](#the-dilbert-principle).
+
+Tomēr jāuzsver, ka šādi tiesību akti ir plaši vispārinājumi un var attiekties uz _dažiem_ organizāciju veidiem, nevis uz citiem.
 
 Skatīt arī:
 
-- [Peter Principle](#the-peter-principle)
-- [Dilbert princips](#the-dilbert-principle)
+- [Peter Principle](#petera-princips)
+- [Dilberta princips](#dilberta-princips)
 
-### Reed's Law
+### Reeda likums
 
-[Reed's Law on Wikipedia](https://en.wikipedia.org/wiki/Reed's_law)
+[Reeda likums Vikipēdijā](https://en.wikipedia.org/wiki/Reed's_law)
 
 > Lielo tīklu, it īpaši sociālo tīklu, lietderība ir atkarīga no tīkla lieluma.
 
@@ -410,10 +418,10 @@ Skatīt arī:
 
 Skatīt arī:
 
-- [Metkalfa likums](#Metkalfa-likums)
+- [Metkalfa likums](#metkalfa-likums)
 - [Danbara numurs](#Danbara-numurs)
 
-### Atbilstības saglabāšanas likums (Teslera likums)
+### Taisnīguma saglabāšanas likums (Teslera likums)
 
 [Likums par stabilitātes saglabāšanu attiecībā uz Wikipedia](https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity)
 
@@ -441,14 +449,15 @@ Tiesību aktu aprakstošais pants liecina, ka pārmērīga paļaušanās uz abst
 
 Skatīt arī:
 
-- [Hyrum's Law](#hyruma-likums-perifērisko-saskarņu-likums)
+- [Hyruma likums](#hyruma-likums-perifērisko-saskarņu-likums)
+
 Reālpasaules piemēri:
-- [Photoshop Slow Startup](https://forums.adobe.com/thread/376152) 
-- Problēma, ar kuru saskāros agrāk. Photoshop startēšana bija lēna, dažreiz tas prasīja dažas minūtes. Šķiet, problēma bija tā, ka startējot tas nolasa daļu informācijas par pašreizējo noklusējuma printeri. Tomēr, ja šis printeris faktiski ir tīkla printeris, tas var aizņemt ļoti ilgu laiku. Tīkla printera _abstrakcija_, kas tiek prezentēta sistēmai līdzīgi lokālajam printerim, radīja problēmas lietotājiem sliktā savienojamības situācijā.
+
+- [Photoshop Slow Startup](https://forums.adobe.com/thread/376152) - problēma, ar kuru saskāros agrāk. Photoshop startēšana bija lēna, dažreiz tas prasīja dažas minūtes. Šķiet, problēma bija tā, ka startējot tas nolasa daļu informācijas par pašreizējo noklusējuma printeri. Tomēr, ja šis printeris faktiski ir tīkla printeris, tas var aizņemt ļoti ilgu laiku. Tīkla printera _abstrakcija_, kas tiek prezentēta sistēmai līdzīgi lokālajam printerim, radīja problēmas lietotājiem sliktā savienojamības situācijā.
 
 ### Trivialitātes likums
 
-[Wikipedia Trivialitātes likums](https://en.wikipedia.org/wiki/Law_of_triviality)
+[Trivialitātes likums Vikipēdijā](https://en.wikipedia.org/wiki/Law_of_triviality)
 
 Šis likums liek domāt, ka grupas daudz vairāk laika un uzmanības veltīs triviāliem vai kosmētiskiem jautājumiem, nevis nopietniem un būtiskiem.
 
@@ -456,11 +465,11 @@ Kopējais izdomātais piemērs ir komiteja, kas apstiprina plānus atomelektrost
 
 Iepriekš aprakstītais piemērs lika lietot terminu “Bike Shedding” kā izteicienu, lai izšķiestu laiku triviāliem sīkumiem. Saistītais termins ir “[Yak Shaving](https://en.wiktionary.org/wiki/yak_shaving)”, kas saista šķietami nebūtisku darbību, kas ir daļa no gara priekšnosacījumu ķēdes galvenajam uzdevumam.
 
-### Unix Philosophy
+### Unix filozofija
 
-[Unix Philosophy on Wikipedia](https://en.wikipedia.org/wiki/Unix_philosophy)
+[Unix filozofija Vikipēdijā](https://en.wikipedia.org/wiki/Unix_philosophy)
 
-Unix Philosophy ir tāds, ka programmatūras komponentiem jābūt maziem un jābūt vērstiem uz to, lai labi paveiktu vienu konkrētu lietu. Tas var atvieglot sistēmu izveidi, izveidojot kopā mazas, vienkāršas, labi definētas vienības, nevis izmantojot lielas, sarežģītas, daudzfunkcionālas programmas.
+Unix filozofija ir tāda, ka programmatūras komponentiem jābūt maziem un jābūt vērstiem uz to, lai labi paveiktu vienu konkrētu lietu. Tas var atvieglot sistēmu izveidi, izveidojot kopā mazas, vienkāršas, labi definētas vienības, nevis izmantojot lielas, sarežģītas, daudzfunkcionālas programmas.
 
 Mūsdienu praksi, piemēram, "Microservice arhitektūru”, var uzskatīt par šī likuma piemērošanu, kur pakalpojumi ir mazi, koncentrēti un dara vienu konkrētu lietu, ļaujot kompleksai rīcībai veidot vienkāršus veidošanas blokus.
 
@@ -472,9 +481,9 @@ Mūsdienu praksi, piemēram, "Microservice arhitektūru”, var uzskatīt par š
 
 Spotify modelis popularizē arī Tribes, Guilds, Chapters jēdzienus, kas ir citi to organizācijas struktūras elementi.
 
-### wadler's Law
+### Wadlera likums
 
-[lung's Law on wiki.haskell.org](https://wiki.haskell.org/Wadler's_Law)
+[Lunga likums on wiki.haskell.org](https://wiki.haskell.org/Wadler's_Law)
 
 > jebkurā valodas dizainā kopējais laiks, kas pavadīts, apspriežot kādu līdzekli šajā sarakstā, ir proporcionāls diviem, kas izvirzīti tā atrašanās vietai.
 >
@@ -483,11 +492,13 @@ Spotify modelis popularizē arī Tribes, Guilds, Chapters jēdzienus, kas ir cit
 > 2. Leksiskā sintakse
 > 3. Komentāru leksiskā sintakse
 >
-> (īsāk sakot, par katru semantiku pavadīto stundu komentāru sintaksē tiks pavadītas 8 stundas).Līdzīgi kā [Trivialitātes likums](#the-Constitutional-of-triviality), Wadler's Law nosaka, ka, projektējot valodu, laika apjoms, kas tiek tērēts valodas konstrukcijām, ir nesamērīgi augsts salīdzinājumā ar šo iezīmju nozīmi.
+> (īsāk sakot, par katru semantiku pavadīto stundu komentāru sintaksē tiks pavadītas 8 stundas).
+
+Līdzīgi kā [Trivialitātes likums](#trivialitātes-likums), Wadlera likums nosaka, ka, projektējot valodu, laika apjoms, kas tiek tērēts valodas konstrukcijām, ir nesamērīgi augsts salīdzinājumā ar šo iezīmju nozīmi.
 
 Skatīt arī:
 
-- [Trivialitātes likums](#the-law-of-triviality)
+- [Trivialitātes likums](#trivialitātes-likums)
 
 ### Wheaton likums
 
@@ -503,24 +514,24 @@ Skatīt arī:
 
 Parasti ir lielāka iespēja, ka principi ir pamatnostādnes, kas attiecas uz dizainu.
 
-### Dilbert princips
+### Dilberta princips
 
-[Dilbert princips par Wikipedia](https://en.wikipedia.org/wiki/Dilbert_principle)
+[Dilberta princips Vikipēdijā](https://en.wikipedia.org/wiki/Dilbert_principle)
 
 > uzņēmumos tiek sistemātiski reklamēti nekompetenti darbinieki vadībai, lai tos izdabūtu no darbplūsmas.
 >
 > _Scott Adams_
 
-Vadības konceptu, ko izstrādājis Skots Adamss (Dilbert komiksu striptīza radītājs), Dilbert Princips iedvesmo [The Peter Principle](#the-peter-principle). Saskaņā ar Dilbert principu darbinieki, kas nekad nav bijuši kompetenti, tiek paaugstināti vadībā, lai ierobežotu kaitējumu, ko viņi var nodarīt. Adams vispirms izskaidroja šo principu 1995. gada “Wall Street Journal” rakstā un izvērsa to savā 1996. gada uzņēmējdarbības grāmatā [The Dilbert Principle](#reading-list).
+Vadības konceptu, ko izstrādājis Skots Adamss (Dilbert komiksu striptīza radītājs), Dilbert Princips iedvesmo [The Peter Principle](#the-peter-principle). Saskaņā ar Dilbert principu darbinieki, kas nekad nav bijuši kompetenti, tiek paaugstināti vadībā, lai ierobežotu kaitējumu, ko viņi var nodarīt. Adams vispirms izskaidroja šo principu 1995. gada “Wall Street Journal” rakstā un izvērsa to savā 1996. gada uzņēmējdarbības grāmatā [The Dilbert Principle](#lasīšanas-saraksts).
 
 Skatīt arī:
 
-- [Peter Principle](#the-peter-principle)
-- [putt's Law](#putts-law)
+- [Petera princips](#petera-princips)
+- [Putta likums](#putta-likums)
 
 ### Pareto princips (kārtula 80/20)
 
-[Pareto Principle on Wikipedia](https://en.wikipedia.org/wiki/Pareto_principle)
+[Pareto Principle Vikipēdijā](https://en.wikipedia.org/wiki/Pareto_principle)
 
 > Vairums lietu dzīvē netiek sadalītas vienmērīgi.
 
@@ -541,9 +552,9 @@ Reālpasaules piemēri:
 
 ### Pētera princips
 
-[Peter Principle on Wikipedia](https://en.wikipedia.org/wiki/Peter_principle)
+[Peter Principle Vikipēdijā](https://en.wikipedia.org/wiki/Peter_principle)
 
-> cilvēki hierarhijā tiecas sasniegt savu “nekompetences līmeni”.
+> Cilvēki hierarhijā tiecas sasniegt savu “nekompetences līmeni”.
 >
 > _Laurence J. Peter_
 
@@ -553,12 +564,12 @@ Tas jo īpaši interesē inženierus, kuri sākotnēji sāk pildīt ļoti tehnis
 
 Skatīt arī:
 
-- [Dilbert princips](#the-dilbert-principle)
-- [Putt's Law](#putts-law)
+- [Dilberta princips](#dilberta-princips)
+- [Putta likums](#putta-likums)
 
 ### Uzturības princips (Postel's Law)
 
-[Vikipēdijas stabilitātes princips](https://en.wikipedia.org/wiki/Robustness_principle)
+[Stabilitātes princips Vikipēdijā](https://en.wikipedia.org/wiki/Robustness_principle)
 
 > Esiet konservatīvi pret to, ko darāt, esiet liberāli tajā, ko pieņemat no citiem.
 
@@ -570,23 +581,23 @@ Ja laikus tiks pieļauta neatbilstība, protokola spēja attīstīties var mazin
 
 Skatīt arī:
 
-- [Hyrum's Law](#hyruma-likums-perifērisko-saskarņu-likums)
+- [Hyruma likums](#hyruma-likums-perifērisko-saskarņu-likums)
 
 ### SOLID
 
 Tas ir akronīms, kas attiecas uz:
 
-* S: [Vienotās atbildības princips](#the-single-responsibility-principle)
-* O: [Atklātais/slēgtais princips](#the-openclosed-principle)
-* L: [Liskova aizstāšanas princips](#the-liskov-substitution-principle)
-* I: [Interfeisa segmenta noteikšanas princips](#the-interface-segregation-principle)
-* D: [Atkarības inversijas princips](#the-dependence-inversion-principle)
+* S: [Vienotās atbildības princips](#vienotās-atbildības-princips)
+* O: [Atklātais/slēgtais princips](#atklātaisslēgtais-princips)
+* L: [Liskova aizstāšanas princips](#liskova-aizstāšanas-princips)
+* I: [Interfeisa segmenta noteikšanas princips](#interfeisa-segmenta-noteikšanas-princips)
+* D: [Atkarības inversijas princips](#atkarības-inversijas-princips)
 
 Šie ir galvenie principi programmā [Object-oriented Programming](#TODO). Projektēšanas principiem ir jābūt tādiem, kas var palīdzēt izstrādātājiem veidot labāk funkcionējošas sistēmas.
 
 ### Vienotās atbildības princips
 
-[Vienotās atbildības princips Vikipediā](https://en.wikipedia.org/wiki/Single_responsibility_principle)
+[Vienotās atbildības princips Vikipēdiā](https://en.wikipedia.org/wiki/Single_responsibility_principle)
 
 > katram modulim vai klasei ir jābūt tikai vienai atbildībai.
 
@@ -601,7 +612,7 @@ Skatīt arī:
 
 ### Open/Slēgts princips
 
-[Wikipedia atklātais/slēgtais princips](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
+[Atklātais/slēgtais princips Vikipēdijā](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
 
 > entītijām jābūt atvērtām paplašinājumam un slēgtām modificēšanai.
 
@@ -618,7 +629,7 @@ Skatīt arī:
 
 ### Liskova aizstāšanas princips
 
-[Liskov Substitution Principle on Wikipedia](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
+[Liskova aizstāšanas princips Vikipēdijā](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
 
 > ir jābūt iespējai aizstāt tipu ar apakštipu, nelaužot sistēmu.
 
@@ -633,9 +644,9 @@ Skatīt arī:
 - [Uz objektu vērsta programmēšana](#TODO)
 - [SOLID](#solid)
 
-### interfeisa segmenta noteikšanas princips
+### Interfeisa segmenta noteikšanas princips
 
-[Interface Segregation Principle on Wikipedia](https://en.wikipedia.org/wiki/Interface_segregation_principle)
+[Interfeisa segmenta noteikšanas princips Vikipēdijā](https://en.wikipedia.org/wiki/Interface_segregation_principle)
 
 > Neviens klients nedrīkst būt atkarīgs no metodēm, ko tas neizmanto.
 
@@ -662,7 +673,7 @@ Piektā daļa no “[SOLID](#solid)” principiem. Šis princips nosaka, ka liel
 
 Piemēram, iedomājieties, ka mums ir programma, kas lasa metadatus no vietnes. Mēs pieņemam, ka galvenais komponents būtu jāzina par komponentu, lai lejupielādētu tīmekļa lapas saturu, pēc tam komponentu, kas var lasīt metadatus. Ja mēs ņemtu vērā atkarības inversiju, galvenais komponents būtu atkarīgs tikai no abstrakta komponenta, kas var iegūt baitu datus, un pēc tam no abstrakta komponenta, kas spētu nolasīt metadatus no baitu straumes. Galvenais komponents nezinātu par TCP/IP, HTTP, HTML utt.
 
-Šis princips ir sarežģīts, jo var šķist, ka tas "apgriež” sagaidāmās sistēmas (tātad nosaukuma) atkarības. Praksē tas nozīmē arī to, ka atsevišķam orķestrācijas komponentam ir jānodrošina abstrakto tipu pareiza ieviešana (piemēram, iepriekšējā piemērā _kaut kam_ joprojām ir jānodrošina metadatu lasītāja komponents HTTP faila lejupielādētājs un HTML metatagu lasītājs). Tas pieskaras tādiem modeļiem kā [Inversion of Control](#TODO) un [Dependency Injection](Atkarības injekcija)(#TODO).
+Šis princips ir sarežģīts, jo var šķist, ka tas "apgriež” sagaidāmās sistēmas (tātad nosaukuma) atkarības. Praksē tas nozīmē arī to, ka atsevišķam orķestrācijas komponentam ir jānodrošina abstrakto tipu pareiza ieviešana (piemēram, iepriekšējā piemērā _kaut kam_ joprojām ir jānodrošina metadatu lasītāja komponents HTTP faila lejupielādētājs un HTML metatagu lasītājs). Tas pieskaras tādiem modeļiem kā [Inversion of Control](#TODO) un [Atkarības injekcija](#TODO).
 
 Skatīt arī:
 
@@ -673,11 +684,15 @@ Skatīt arī:
 
 ### DRY princips
 
-[The DRY Principle on Wikipedia](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+[DRY princips Vikipēdijā](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 
-> Katram zināšanu gabalam ir jābūt vienotam, nepārprotamam, autoritatīvam attēlojumam sistēmā.SAUSS ir akronīms _Neatkārtot sevi_. Šī principa mērķis ir palīdzēt izstrādātājiem samazināt koda atkārtojumu un saglabāt informāciju vienā vietā, un 1999. gadā to citēja Endrū Bads un Deivs Tomass grāmatā [The Praietverot izstrādātāju](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+> Katram zināšanu gabalam ir jābūt vienotam, nepārprotamam, autoritatīvam attēlojumam sistēmā.
 
-> PRETĒJS sausums būtu _WET_ (Rakstiet All Twice vai We Enjoy Typing).Praksē, ja jums ir viena un tā pati informācija divās (vai vairākās) dažādās vietās, varat izmantot SAUSUMU, lai sapludinātu tās vienā un atkārtoti izmantotu visur, kur vēlaties/vajag.
+DRY ir akronīms _Neatkārtot sevi_. Šī principa mērķis ir palīdzēt izstrādātājiem samazināt koda atkārtojumu un saglabāt informāciju vienā vietā, un 1999. gadā to citēja Endrū Bads un Deivs Tomass grāmatā [The Praietverot izstrādātāju](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+
+> PRETĒJS sausums būtu _WET_ (Rakstiet All Twice vai We Enjoy Typing).
+
+Praksē, ja jums ir viena un tā pati informācija divās (vai vairākās) dažādās vietās, varat izmantot DRY, lai sapludinātu tās vienā un atkārtoti izmantotu visur, kur vēlaties/vajag.
 
 Skatīt arī:
 
@@ -685,7 +700,7 @@ Skatīt arī:
 
 ### KISS princips
 
-[KISS uz Wikipedia](https://en.wikipedia.org/wiki/KISS_principle)
+[KISS princips Vikipēdijā](https://en.wikipedia.org/wiki/KISS_principle)
 
 > saglabāt vienkāršu, stulbu
 
@@ -699,7 +714,7 @@ Skatīt arī:
 
 ### YAGNI
 
-[YAGNI on Wikipedia](https://en.wikipedia.org/wiki/You_ain%27t_gonna_need_it)
+[YAGNI Vikipēdijā](https://en.wikipedia.org/wiki/You_ain%27t_gonna_need_it)
 
 Šis ir akronīms, kas paredzēts _**Y**ou **A**in't **G**onna **N**eed **I**t_.
 
@@ -713,11 +728,11 @@ Ievērojot šo principu, būtu jāsamazina neizmantotā koda daudzums konvertāc
 
 Skatīt arī:
 
-- [reading List: Extreme Programming Installed](#reading saraksts)
+- [Lasīšanas saraksts: Extreme Programming Installed](#lasīšanas-saraksts)
 
-### Dalītās datošanas Fallacies
+### Dalītās datošanas maldības
 
-[Dalītās datošanas Fallacies Wikipedia](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
+[Dalītās datošanas maldības Vikipēdijā](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
 
 Fallacies, ko dēvē arī par _Networking Computing_, ir Fallacies saraksts ar pieņēmumiem (vai uzskatiem) par dalīto skaitļošanu, kas var novest pie kļūmēm programmatūras izstrādē. Pieņēmumi ir šādi:
 
@@ -732,13 +747,13 @@ Fallacies, ko dēvē arī par _Networking Computing_, ir Fallacies saraksts ar p
 
 Pirmo četru pozīciju sarakstā bija iekļauti [Bill Joy](https://en.wikipedia.org/wiki/Bill_Joy) un [Tom Lyon](https://twitter.com/aka_pugs) aptuveni 1991. gadā, un tās pirmo reizi klasificēja [James Gosling](https://en.wikipedia.org/wiki/James_Gosling) kā “Networks Computing” Fallacies. [L. Peter Deutsch](https://en.wikipedia.org/wiki/L._Peter_Deutsch) pievienoja 5., 6. un 7. 90. gadu beigās Goslings pievienoja 8. maldu.
 
-Grupu iedvesmoja tas, kas tolaik notika [Saules mikrosistēmās](https://en.wikipedia.org/wiki/Sun_Microsystems).
+Grupu iedvesmoja tas, kas tolaik notika [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems).
 
 Šīs kļūdas būtu rūpīgi jāapsver, izstrādājot kodu, kas ir elastīgs; pieņemot, ka kāds no šiem viltojumiem var novest pie kļūdainas loģikas, kas nerisina dalīto sistēmu realitāti un sarežģītību.
 
 Skatīt arī:
 
-- [Barošana dalītās datošanas Fallacies (1. daļa) — Vaidehi Jošipar vidēju](https://medium.com/baseds/foraging-for-the-fallacies-of-trapped-part-1-1b35c3b85b53)
+- [Barošana dalītās datošanas maldības (1. daļa) — Vaidehi Jošipar vidēju](https://medium.com/baseds/foraging-for-the-fallacies-of-trapped-part-1-1b35c3b85b53)
 - [Deutsch's Fallacies, 10 years After](http://java.sys-con.com/node/38665)
 
 ## Lasīšanas saraksts
@@ -747,9 +762,13 @@ Ja šos jēdzienus esat uzskatījis par interesantiem, varat baudīt šādas gr�
 
 - [Extreme Programming Installed - Ron Jeffries, Ann Anderson, Chet Hendrikson](https://www.goodreads.com/en/book/show/67834).
 - [The Mythical Man Monthly - Frederik P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - Klasisks sējums par programmatūras inženieriju. [Brūku likums](#bruku-likums) ir grāmatas galvenā tēma.
-- [Gödel, Escher, Bahs: An Mūžīgais Zelta Breids - Duglass R. Hofštters.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - Šo grāmatu ir grūti klasificēt. [hofstadter's Law](#hofstadtera-likums) ir no grāmatas.
-- [Dilbert princips - Scott Adams](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - Komisks skats uz korporatīvo Ameriku, no autora, kurš radīja [Dilbert principu](#the-dilbert-principle).
+- [Gödel, Escher, Bahs: An Mūžīgais Zelta Breids - Duglass R. Hofštters.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - Šo grāmatu ir grūti klasificēt. [hofstadtera likums](#hofstadtera-likums) ir no grāmatas.
+- [Dilberta princips - Scott Adams](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - Komisks skats uz korporatīvo Ameriku, no autora, kurš radīja [Dilbert principu](#the-dilbert-principle).
 - [The Peter Principle - Lawrence J. Peter](https://www.goodreads.com/book/show/890728.The_Peter_Principle) - Vēl viens komisks skatījums uz lielāku organizāciju un tautas menedžmenta izaicinājumiem, [The Peter Principle](#the-peter-principle) avots.
+
+## Saistītie projekti
+
+- Dienas padoms - saņemiet ikdienas hakeru likumu/principu.
 
 ## Ieguldījums
 

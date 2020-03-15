@@ -785,6 +785,7 @@ If you would like to update a translation, just [open a pull request](https://gi
 ## Related Projects
 
 - [Tip of the Day](https://tips.darekkay.com/html/hacker-laws-en.html) - Receive a daily hacker law/principle.
+- [Hacker Laws CLI](https://github.com/umutphp/hacker-laws-cli) - List, view and see random laws from the terminal!
 
 ## Contributing
 

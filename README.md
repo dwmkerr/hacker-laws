@@ -760,9 +760,9 @@ The 90-9-1 principle suggests that within an internet community such as a wiki, 
 
 Real-world examples:
 
-- A 2005 study of radical Jihadist forums found 87% of users had never posted on the forums, 13% had posted at least once, 5% had posted 50 or more times, and only 1% had posted 500 or more times. ([Reference](https://www.ssoar.info/ssoar/bitstream/handle/document/22726/ssoar-eurjcultstud-2007-3-awan-virtual_jihadist_media.pdf?sequence=1)).
+- A 2005 study of radical Jihadist forums found that on the Mujahedon Forum, 87% of users had never posted, 13% had posted at least once, 5% had posted 50 or more times, and only 1% had posted 500 or more times. ([Reference](https://www.ssoar.info/ssoar/bitstream/handle/document/22726/ssoar-eurjcultstud-2007-3-awan-virtual_jihadist_media.pdf?sequence=1)).
 
-- A 2014 study of four digital health social networks found the top 1% created 73.6% (n=106,354) of posts, the next 9% accounted for an average of 24.7% (n=35,767) and the remaining 90% accounted for an average of 1.7% (n=2467)([Reference](https://www.jmir.org/2014/2/e33/))
+- A 2014 study of four digital health social networks found the top 1% created 73.6% (n=106,354) of posts, the next 9% accounted for an average of 24.7% (n=35,767), and the remaining 90% accounted for an average of 1.7% (n=2467)([Reference](https://www.jmir.org/2014/2/e33/))
 
 See Also:
 

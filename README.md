@@ -12,6 +12,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
 
 * [Introduction](#introduction)
 * [Laws](#laws)
+    * [90–9–1 Principle (1% Rule)](#9091-principle-1-rule)
     * [Amdahl's Law](#amdahls-law)
     * [The Broken Windows Theory](#the-broken-windows-theory)
     * [Brooks' Law](#brooks-law)
@@ -73,6 +74,20 @@ There are lots of laws which people discuss when talking about development. This
 ## Laws
 
 And here we go!
+
+### 90–9–1 Principle (1% Rule)
+
+[1% Rule on Wikipedia](https://en.wikipedia.org/wiki/1%25_rule_(Internet_culture))
+
+The 90-9-1 principle suggests that within an internet community such as a wiki, 90% of participants only consume content, 9% edit or modify content and 1% of participants add content.
+
+Real-world examples:
+
+- A 2014 study of four digital health social networks found the top 1% created 73% of posts, the next 9% accounted for an average of ~25% and the remaining 90% accounted for an average of 2% ([Reference](https://www.jmir.org/2014/2/e33/))
+
+See Also:
+
+- [Pareto principle](#the-pareto-principle-the-8020-rule)
 
 ### Amdahl's Law
 
@@ -751,22 +766,6 @@ See also:
 - [Foraging for the Fallacies of Distributed Computing (Part 1) - Vaidehi Joshi
  on Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
 - [Deutsch's Fallacies, 10 Years After](http://java.sys-con.com/node/38665)
-
-### 90–9–1 Principle (1% Rule)
-
-[1% Rule on Wikipedia](https://en.wikipedia.org/wiki/1%25_rule_(Internet_culture))
-
-The 90-9-1 principle suggests that within an internet community such as a wiki, 90% of participants only consume content, 9% edit or modify content and 1% of participants add content.
-
-Real-world examples:
-
-- A 2005 study of radical Jihadist forums found that on the Mujahedon Forum, 87% of users had never posted, 13% had posted at least once, 5% had posted 50 or more times, and only 1% had posted 500 or more times. ([Reference](https://www.ssoar.info/ssoar/bitstream/handle/document/22726/ssoar-eurjcultstud-2007-3-awan-virtual_jihadist_media.pdf?sequence=1)).
-
-- A 2014 study of four digital health social networks found the top 1% created 73.6% (n=106,354) of posts, the next 9% accounted for an average of 24.7% (n=35,767), and the remaining 90% accounted for an average of 1.7% (n=2467)([Reference](https://www.jmir.org/2014/2/e33/))
-
-See Also:
-
-- [Pareto principle](#the-pareto-principle-the-8020-rule)
 
 ## Reading List
 

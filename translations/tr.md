@@ -12,6 +12,7 @@ Bu projeyi beğendiniz mi? Lütfen [sponsor olmayı](https://github.com/sponsors
 
 - [Giriş](#introduction)
 - [Yasalar](#laws)
+    - [90–9–1 Prensibi (1% Kuralı)](#9091-prensibi-1-kural%C4%B1)
     - [Amdahl Yasası](#amdahls-law)
     - [Kırık Camlar Teorisi](#the-broken-windows-theory)
     - [Brooks Yasası](#brooks-law)
@@ -74,6 +75,20 @@ Bu projeyi beğendiniz mi? Lütfen [sponsor olmayı](https://github.com/sponsors
 
 Tek tek başlayalım!
 
+### 90–9–1 Prensibi (1% Kuralı)
+
+[Wikipedia'da 1% Kuralı](https://en.wikipedia.org/wiki/1%25_rule_(Internet_culture))
+
+90-9-1 prensibi der ki, bir internet topluluğunda (örneğin bir wiki) üyelerin %90'ı sadece içeriği okur, %9'u içeriği düzenleme ya da düzeltme yapar ve %1'i ise yeni içerik ekler.
+
+Gerçek dünyadan örnekler:
+
+- Dört dijital sağlık sosyal ağlarına ilişkin 2014 yılında yapılan bir araştırma, topluluğun %1'inin gönderilerin %73'ünü oluşturduğunu, %9'unun ortalama %25'ini ve geri kalan %90'ının da ortalama %2'sini oluşturduğunu buldu ([Referans](https://www.jmir.org/2014/2/e33/)).
+
+Ek kaynaklar:
+
+- [Pareto prensibi](#pareto-prensibi-8020-kural%C4%B1)
+
 ### Amdahl Yasası
 
 [Wikipedia Amdahl Yasası](https://en.wikipedia.org/wiki/Amdahl%27s_law)
@@ -85,7 +100,7 @@ En güzel şu örnekle anlatılabilir. Bir programın iki bölümden oluştuğun
 Aşağıdaki diyagram bazı olası hız geliştirmelerine örnekler içeriyor:
 
 
-<img width="480px" alt="Diagram: Amdahl's Law" src="../../../images/amdahls_law.png">
+<img width="480px" alt="Diagram: Amdahl's Law" src="../../../../images/amdahls_law.png">
 
 *(Diyagramın kaynağı: Daniels220 tarafından İngilizce Wikipedia'da, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 
@@ -250,7 +265,7 @@ Bu yasa der ki; sistemde yapılan bir iyileştirme sistemin diğer taraflarında
 
 Hype Döngüsü bir teknolojinin zamanla yarattığı heyecan ve gelişiminin görsel olarak sunumudur ve Gartner tarafından ilk olarak oluşturulmuştur. En güzel anlatım aşağıdaki bir görsel ile yapılabilir:
 
-![The Hype Cycle](../../../images/gartner_hype_cycle.png)
+![The Hype Cycle](../../../../images/gartner_hype_cycle.png)
 
 *(Resmin Kaynağı: Jeremykemp tarafından İngilizce Wikipeda'da, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
 
@@ -484,7 +499,7 @@ Ek kaynaklar:
 
 [Resmi Gün](https://dontbeadickday.com/)
 
-> Öküzlük yapmayın. *Wil Wheaton*
+> Öküzlük yapmayın.
 > *Wil Wheaton*
 
 Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory) tarafından oluşturulan bu basit, özlü ve güçlü yasa, profesyonel bir organizasyon içinde uyum ve saygının artmasını amaçlamaktadır. İş arkadaşlarınızla konuşurken, kod incelemeleri yaparken, diğer bakış açılarını öne sürerken, insanları eleştirirken ve genel olarak insanların birbirleriyle olan profesyonel etkileşimlerinin çoğunda uygulanabilir.
@@ -533,7 +548,7 @@ Gerçek dünyadan örnekler:
 
 [Wikipedia'da Peter Prensibi](https://en.wikipedia.org/wiki/Peter_principle)
 
-> Hiyerarşideki insanlar “yetersizlik seviyelerine” göre yükselme eğilimindedir. *Laurence J. Peter*
+> Hiyerarşideki insanlar “yetersizlik seviyelerine” göre yükselme eğilimindedir.
 > *Laurence J. Peter*
 
 Laurence J. Peter tarafından geliştirilen bir yönetim konsepti olan Peter Prensibi, işlerinde iyi olan kişilerin, artık başarılı olamadıkları bir seviyeye (kendi "yetersizlik seviyelerine") ulaşana kadar terfi ettiğini gözlemlemektedir. Bu durumda şirket içinde çok tecrübeli olduklarından organizasyondan (çok aykırı birşey yapmadıkları sürece) dışlanmazlar ve az sayıda temel beceriye sahip olacakları bir rolde kalmaya devam edecekler, çünkü onları başarılı kılan orijinal becerileri mutlaka bu yeni rolleri için gereken beceriler değildir.
@@ -730,7 +745,7 @@ Dayanıklı sistemler tasarlarken bu yanılgılar dikkatlice ele alınmalı; bu 
 
 Ek kaynaklar:
 
-- [](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)[Foraging for the Fallacies of Distributed Computing (Part 1) - Vaidehi Joshi on Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
+- [Foraging for the Fallacies of Distributed Computing (Part 1) - Vaidehi Joshi on Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
 - [Deutsch's Fallacies, 10 Years After](http://java.sys-con.com/node/38665)
 
 ## Ek Kaynaklar
@@ -752,7 +767,7 @@ Dil | Moderatör | Durum
 [🇧🇷 Brasileiro / Brazilian](./translations/pt-BR.md) | [Leonardo Costa](https://github.com/leofc97) | [![gitlocalized ](https://gitlocalize.com/repo/2513/pt-BR/badge.svg)](https://gitlocalize.com/repo/2513/pt-BR?utm_source=badge)
 [🇨🇳 中文 / Chinese](https://github.com/nusr/hacker-laws-zh) | [Steve Xu](https://github.com/nusr) | Kısmen tamamlandı
 [🇩🇪 Deutsch / German](./translations/de.md) | [Vikto](https://github.com/viktodergunov) | [![gitlocalized ](https://gitlocalize.com/repo/2513/de/badge.svg)](https://gitlocalize.com/repo/2513/de?utm_source=badge)
-[🇫🇷 Français / French](./translationis/fr.md) | [Kevin Bockelandt](https://github.com/KevinBockelandt) | [![gitlocalized ](https://gitlocalize.com/repo/2513/fr/badge.svg)](https://gitlocalize.com/repo/2513/fr?utm_source=badge)
+[🇫🇷 Français / French](./translations/fr.md) | [Kevin Bockelandt](https://github.com/KevinBockelandt) | [![gitlocalized ](https://gitlocalize.com/repo/2513/fr/badge.svg)](https://gitlocalize.com/repo/2513/fr?utm_source=badge)
 [🇬🇷 ελληνικά / Greek](./translations/el.md) | [Panagiotis Gourgaris](https://github.com/0gap) | [![gitlocalized ](https://gitlocalize.com/repo/2513/el/badge.svg)](https://gitlocalize.com/repo/2513/el?utm_source=badge)
 [🇮🇹 Italiano / Italian](https://github.com/csparpa/hacker-laws-it) | [Claudio Sparpaglione](https://github.com/csparpa) | Kısmen tamamlandı
 [🇰🇷 한국어 / Korean](https://github.com/codeanddonuts/hacker-laws-kr) | [Doughnut](https://github.com/codeanddonuts) | Kısmen tamamlandı

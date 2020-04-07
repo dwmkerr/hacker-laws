@@ -2,7 +2,7 @@
 
 開発者が役に立つと思う法則、理論、原則、パターン。
 
-[Translations](#翻訳): [🇧🇷](../translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇩🇪](../translations/de.md) [🇫🇷](../translations/fr.md) [🇬🇷](../translations/el.md) [🇮🇹](https://github.com/csparpa/hacker-laws-it) [🇱🇻](../translations/lv.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇪🇸](../translations/es-ES.md) [🇹🇷](https://github.com/umutphp/hacker-laws-tr)
+[翻訳](#翻訳): [🇧🇷](../translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇩🇪](../translations/de.md) [🇫🇷](../translations/fr.md) [🇬🇷](../translations/el.md) [🇮🇹](https://github.com/csparpa/hacker-laws-it) [🇱🇻](../translations/lv.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇪🇸](../translations/es-ES.md) [🇹🇷](https://github.com/umutphp/hacker-laws-tr) [JP](../translations/jp.md)
 
 このプロジェクトが気に入りましたか？ぜひ私と[翻訳者](#%E7%BF%BB%E8%A8%B3)を支援すること[ご検討ください。](https://github.com/sponsors/dwmkerr)
 
@@ -775,6 +775,7 @@ KISSの原則は、ほとんどのシステムは複雑にするのではなく�
 [🇷🇺 Русская версия / Russian](https://github.com/solarrust/hacker-laws) | [Alena Batitskaya](https://github.com/solarrust) | Partially complete
 [🇪🇸 Castellano / Spanish](../translations/es-ES.md) | [Manuel Rubio](https://github.com/manuel-rubio) ([Sponsor](https://github.com/sponsors/manuel-rubio)) | Partially complete
 [🇹🇷 Türkçe / Turkish](https://github.com/umutphp/hacker-laws-tr) | [Umut Işık](https://github.com/umutphp) | [![gitlocalized ](https://gitlocalize.com/repo/2513/tr/badge.svg)](https://gitlocalize.com/repo/2513/tr?utm_source=badge)[](https://gitlocalize.com/repo/2513/tr?utm_source=badge)[](https://gitlocalize.com/repo/2513/tr?utm_source=badge)
+| [JP 日本語 / Japanese](../translations/jp.md) | [Fumikazu Fujiwara](https://github.com/freddiefujiwara)|Partially complete  |
 
 翻訳を更新したい場合は、 [open a pull request](https://github.com/dwmkerr/hacker-laws/pulls)するだけです。新しい言語を追加したい場合は、 [GitLocalize](https://gitlocalize.com/) にログインしてアカウントを作成し、言語の管理を依頼するためのissueを開いてください。また、上の表とファイルの先頭にあるリンクを更新するプルリクエストを開いていただけると、とても助かります。
 

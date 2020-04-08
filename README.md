@@ -36,6 +36,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
     * [Putt's Law](#putts-law)
     * [Reed's Law](#reeds-law)
     * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
+    * [The Law of Demeter](#the-law-of-demeter)
     * [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
     * [The Law of Triviality](#the-law-of-triviality)
     * [The Unix Philosophy](#the-unix-philosophy)
@@ -53,7 +54,6 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
     * [The Liskov Substitution Principle](#the-liskov-substitution-principle)
     * [The Interface Segregation Principle](#the-interface-segregation-principle)
     * [The Dependency Inversion Principle](#the-dependency-inversion-principle)
-    * [The Law of Demeter](#the-law-of-demeter)
     * [The DRY Principle](#the-dry-principle)
     * [The KISS principle](#the-kiss-principle)
     * [YAGNI](#yagni)
@@ -438,6 +438,18 @@ Some complexity in a system is 'inadvertent'. It is a consequence of poor struct
 
 One interesting element to this law is the suggestion that even by simplifying the entire system, the intrinsic complexity is not reduced, it is _moved to the user_, who must behave in a more complex way.
 
+### The Law of Demeter
+
+[The Law of Demeter on Wikipedia](https://en.wikipedia.org/wiki/Law_of_Demeter)
+
+> Don't talk to strangers.
+
+The Law of Demeter, also known as "The Principle of Least Knowledge" is a principle for software design, particularly relevant in object orientated languages.
+
+It states that a unit of software should talk only to its immediate collaborators. An object `A` with a reference to object `B` can call its methods, but if `B` has a reference to object `C`, `A` should not call `C`s methods. So, if `C` has a `doThing()` method, `A` should not invoke it directly; `B.getC().doThis()`.
+
+Following this principal limits the scope of changes, making them easier and safer in future.
+
 ### The Law of Leaky Abstractions
 
 [The Law of Leaky Abstractions on Joel on Software](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
@@ -692,16 +704,6 @@ See also:
 - [SOLID](#solid)
 - [Inversion of Control](#todo)
 - [Dependency Injection](#todo)
-
-### The Law of Demeter
-
-[The Law of Demeter on Wikipedia](https://en.wikipedia.org/wiki/Law_of_Demeter)
-
-> Don't talk to strangers.
-
-A unit of software should talk only to its immediate colaborators. An object `A` with a reference to object `B` can call its methods, but if `B` has a reference to object `C`, `A` should not call `C`s methods. So, if `C` has a `doThing()` method, `A` should not invoke it directly; `B.getC().doThis()`.
-
-Following this principal limits the scope of changes, making them easier and safer in future.
 
 ### The DRY Principle
 

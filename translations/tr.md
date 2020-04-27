@@ -2,7 +2,7 @@
 
 Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
 
-[Çeviriler](#%C3%A7eviriler): [🇧🇷](./translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇩🇪](./translations/de.md) [🇫🇷](./translationis/fr.md) [🇬🇷](./translations/el.md) [🇮🇹](https://github.com/csparpa/hacker-laws-it) [🇱🇻](./translations/lv.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇪🇸](./translations/es-ES.md) [🇹🇷](https://github.com/umutphp/hacker-laws-tr)
+[Çeviriler](#%C3%A7eviriler): [🇧🇷](./translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇩🇪](./translations/de.md) [🇫🇷](./translationis/fr.md) [🇬🇷](./translations/el.md) [🇮🇹](https://github.com/csparpa/hacker-laws-it) [🇱🇻](./translations/lv.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇪🇸](./translations/es-ES.md) [🇹🇷](https://github.com/umutphp/hacker-laws-tr) [🇯🇵](./translations/jp.md)
 
 Bu projeyi beğendiniz mi? Lütfen [sponsor olmayı](https://github.com/sponsors/dwmkerr) düşünün!
 
@@ -10,10 +10,10 @@ Bu projeyi beğendiniz mi? Lütfen [sponsor olmayı](https://github.com/sponsors
 
 <!-- vim-markdown-toc GFM -->
 
-- [Giriş](#introduction)
-- [Yasalar](#laws)
+- [Giriş](#giri%C5%9F)
+- [Yasalar](#yasalar)
     - [90–9–1 Prensibi (1% Kuralı)](#9091-prensibi-1-kural%C4%B1)
-    - [Amdahl Yasası](#amdahls-law)
+    - [Amdahl Yasası](#amdahl-yasas%C4%B1)
     - [Kırık Camlar Teorisi](#the-broken-windows-theory)
     - [Brooks Yasası](#brooks-law)
     - [Conway Yasası](#conways-law)
@@ -36,6 +36,7 @@ Bu projeyi beğendiniz mi? Lütfen [sponsor olmayı](https://github.com/sponsors
     - [Putt Yasası](#putts-law)
     - [Reed Yasası](#reeds-law)
     - [Karmaşıklığın Korunması Yasası (Tesler Yasası)](#the-law-of-conservation-of-complexity-teslers-law)
+    - [Demeter Yasası](#demeter-yasas%C4%B1)
     - [Sızdıran Soyutlamalar Yasası](#the-law-of-leaky-abstractions)
     - [Önemsizlik Yasası](#the-law-of-triviality)
     - [Unix Felsefesi](#the-unix-philosophy)
@@ -379,7 +380,7 @@ Ek kaynaklar:
 [WikiWikiWeb'de Olgunlaşmamış Optimizasyon Etkisi](http://wiki.c2.com/?PrematureOptimization)
 
 > Vakti gelmeden gelmeden yapılan optimizasyon bütün kötülüklerin anasıdır. [(Donald Knuth)](https://twitter.com/realdonaldknuth?lang=en)
-> [](https://twitter.com/realdonaldknuth?lang=en)[(Donald Knuth)](https://twitter.com/realdonaldknuth?lang=en)
+> [(Donald Knuth)](https://twitter.com/realdonaldknuth?lang=en)
 
 Donald Knuth yazdığı [Structured Programming With Go To Statements](http://wiki.c2.com/?StructuredProgrammingWithGoToStatements) isimli makalede, "Programcılar, programlarının kritik olmayan bölümlerinin hızını düşünerek veya endişelenerek çok fazla zaman harcarlar ve bu bakış açısı ile yaptıkları verimlilik geliştirmelerin hata ayıklama ve bakım yapma aşamalarına çok olumsuz etkileri olur. Kesinlikle bu tarz küçük geliştirmeleri (zamanımızın %97'sini harcadığımız) göz ardı etmeliyiz, **Vakti gelmeden yapılan optimizasyon bütün kötülüklerin anasıdır** gerçeğini unutmamalılıyız. Yine de, geride kalan % 3'teki kritik fırsatları kaçırmamalıyız."
 
@@ -426,6 +427,18 @@ Bu yasa der ki, her sistemde kesinlikle ayıklanamayacak bir miktarda karmaşık
 Bir sistem ve yazılımdaki karmaşıklıkların bazıları dikkatsizlik veya yanlışlıktan ortaya çıkar. Bu kötü kurgulanmış yapının, herhangi bir dikkatsizliğin, ya da problemin kötü modellenmesinin sonucu olabilir. Bu tarz karmaşıklıklar giderilebilir ve sistemden ayıklanabilir. Bunun yanında, bazı karmaşıklıklar sistemin gerçekleridir yani sistemin çözmeye çalıştığı problemin doğası gereği ortaya çıkarlar. Bu tarz karmaşıklıklar sistem içinde farklı yerlere taşınabilirler ama sistemden ayıklanmazlar.
 
 O yasanın farklı bir yansıması olarak şöyle düşünülebilir, eğer bir karmaşıklık esastan geliyorsa ve sistem sadeleştirilerek bile ayıklanamıyorsa, daha karmaşık bir şekilde davranması beklenen *kullanıcının tarafına taşınabilir*.
+
+### Demeter Yasası
+
+[Wikipedia'da Demeter Yasası](https://en.wikipedia.org/wiki/Law_of_Demeter)
+
+> Asla yabancılarla konuşma.
+
+"En Az Bilgi İlkesi" olarak da bilinen Demeter Yasası, yazılım tasarımı için, özellikle nesne tabanlı dillerle ilgili bir ilkedir.
+
+Bir yazılım biriminin sadece en yakın işbirlikçileriyle konuşması gerektiğini belirtir. `B` nesnesine bir referansı olan bir `A` nesnesi yöntemlerini çağırabilir, ancak `B` `C` nesnesine bir referansı varsa, `A` `C` yöntemlerini direk çağırmamalıdır. Yani, eğer `C` bir `doThing()` yöntemine sahipse, `A` doğrudan çağırmamalıdır; `B.getC().doThis()`.
+
+Bu ilkeyi izlemek, değişikliklerin kapsamını sınırlayarak gelecekte değiştirmelerin daha kolay ve daha güvenli olmasını sağlar.
 
 ### Sızdıran Soyutlamalar Yasası
 
@@ -484,7 +497,7 @@ Spotify Modeli kabileler (Tribes), birlikler (Guilds) ve kısımlar (Chapter) gi
 > 1. Semantik
 > 2. Genel sözdizimi
 > 3. Sözcük sözdizimi
-> 4. Yorumlardaki sözcük sözdizimi (Kısaca semantic için harcanan her bir saat için yorumlardaki sözcük sözdizimi için sekiz saat harcanacaktır).
+> 4. Yorumlardaki sözcük sözdizimi
 > (Kısaca semantic için harcanan her bir saat için yorumlardaki sözcük sözdizimi için sekiz saat harcanacaktır).
 
 [Önemsizlik Yasasında](#the-law-of-triviality) öne sürülene benzer olarak, Wadler Yasası yeni bir programlama dili tasarlanırken konunun önemi ile o konu için harcanan zaman ters orantılı olduğunu söylüyor.
@@ -764,17 +777,18 @@ Katkıda bulunan harika insanlar sayesinde Hacker Laws birçok dilde mevcuttur. 
 
 Dil | Moderatör | Durum
 --- | --- | ---
-[🇧🇷 Brasileiro / Brazilian](./translations/pt-BR.md) | [Leonardo Costa](https://github.com/leofc97) | [![gitlocalized ](https://gitlocalize.com/repo/2513/pt-BR/badge.svg)](https://gitlocalize.com/repo/2513/pt-BR?utm_source=badge)
+[🇧🇷 Brasileiro / Brazilian](./translations/pt-BR.md) | [Leonardo Costa](https://github.com/leofc97) | [](https://gitlocalize.com/repo/2513/pt-BR?utm_source=badge)[](https://gitlocalize.com/repo/2513/pt-BR?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/pt-BR/badge.svg)[](https://gitlocalize.com/repo/2513/pt-BR?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/pt-BR/badge.svg)
 [🇨🇳 中文 / Chinese](https://github.com/nusr/hacker-laws-zh) | [Steve Xu](https://github.com/nusr) | Kısmen tamamlandı
-[🇩🇪 Deutsch / German](./translations/de.md) | [Vikto](https://github.com/viktodergunov) | [![gitlocalized ](https://gitlocalize.com/repo/2513/de/badge.svg)](https://gitlocalize.com/repo/2513/de?utm_source=badge)
-[🇫🇷 Français / French](./translations/fr.md) | [Kevin Bockelandt](https://github.com/KevinBockelandt) | [![gitlocalized ](https://gitlocalize.com/repo/2513/fr/badge.svg)](https://gitlocalize.com/repo/2513/fr?utm_source=badge)
-[🇬🇷 ελληνικά / Greek](./translations/el.md) | [Panagiotis Gourgaris](https://github.com/0gap) | [![gitlocalized ](https://gitlocalize.com/repo/2513/el/badge.svg)](https://gitlocalize.com/repo/2513/el?utm_source=badge)
+[🇩🇪 Deutsch / German](./translations/de.md) | [Vikto](https://github.com/viktodergunov) | [](https://gitlocalize.com/repo/2513/de?utm_source=badge)[](https://gitlocalize.com/repo/2513/de?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/de/badge.svg)[](https://gitlocalize.com/repo/2513/de?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/de/badge.svg)
+[🇫🇷 Français / French](./translations/fr.md) | [Kevin Bockelandt](https://github.com/KevinBockelandt) | [](https://gitlocalize.com/repo/2513/fr?utm_source=badge)[](https://gitlocalize.com/repo/2513/fr?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/fr/badge.svg)[](https://gitlocalize.com/repo/2513/fr?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/fr/badge.svg)
+[🇬🇷 ελληνικά / Greek](./translations/el.md) | [Panagiotis Gourgaris](https://github.com/0gap) | [](https://gitlocalize.com/repo/2513/el?utm_source=badge)[](https://gitlocalize.com/repo/2513/el?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/el/badge.svg)[](https://gitlocalize.com/repo/2513/el?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/el/badge.svg)
 [🇮🇹 Italiano / Italian](https://github.com/csparpa/hacker-laws-it) | [Claudio Sparpaglione](https://github.com/csparpa) | Kısmen tamamlandı
+[🇯🇵 JP 日本語 / Japanese](./translations/jp.md) | [Fumikazu Fujiwara](https://github.com/freddiefujiwara) | [](https://gitlocalize.com/repo/2513/ja?utm_source=badge)[](https://gitlocalize.com/repo/2513/lv?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/lv/badge.svg)[](https://gitlocalize.com/repo/2513/ja?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/ja/badge.svg)
 [🇰🇷 한국어 / Korean](https://github.com/codeanddonuts/hacker-laws-kr) | [Doughnut](https://github.com/codeanddonuts) | Kısmen tamamlandı
-[🇱🇻 Latviešu Valoda / Latvian](./translations/lv.md) | [Arturs Jansons](https://github.com/iegik) | [![gitlocalized ](https://gitlocalize.com/repo/2513/lv/badge.svg)](https://gitlocalize.com/repo/2513/lv?utm_source=badge)
+[🇱🇻 Latviešu Valoda / Latvian](./translations/lv.md) | [Arturs Jansons](https://github.com/iegik) | [](https://gitlocalize.com/repo/2513/lv?utm_source=badge)[](https://gitlocalize.com/repo/2513/tr?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/tr/badge.svg)[](https://gitlocalize.com/repo/2513/lv?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/lv/badge.svg)
 [🇷🇺 Русская версия / Russian](https://github.com/solarrust/hacker-laws) | [Alena Batitskaya](https://github.com/solarrust) | Kısmen tamamlandı
 [🇪🇸 Castellano / Spanish](./translations/es-ES.md) | [Manuel Rubio](https://github.com/manuel-rubio) ([Sponsor](https://github.com/sponsors/manuel-rubio)) | Kısmen tamamlandı
-[🇹🇷 Türkçe / Turkish](https://github.com/umutphp/hacker-laws-tr) | [Umut Işık](https://github.com/umutphp) | [![gitlocalized ](https://gitlocalize.com/repo/2513/tr/badge.svg)](https://gitlocalize.com/repo/2513/tr?utm_source=badge)
+[🇹🇷 Türkçe / Turkish](https://github.com/umutphp/hacker-laws-tr) | [Umut Işık](https://github.com/umutphp) | [](https://gitlocalize.com/repo/2513/tr?utm_source=badge)[](https://gitlocalize.com/repo/2513/tr?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/tr/badge.svg)
 
 Bir çeviriyi güncellemek isterseniz, [bir PR açmanız yeterlidir](https://github.com/dwmkerr/hacker-laws/pulls) . Yeni bir dil eklemek istiyorsanız, bir hesap oluşturmak için [GitLocalize'a](https://gitlocalize.com/) giriş yapın, ardından dili yönetmek istediğinizi belirten bir Issue açın; sizi projeye ekleyeceğim! Yukarıdaki tabloyu güncelleyen bir PR açabilmeniz de çok yararlı olacaktır.
 

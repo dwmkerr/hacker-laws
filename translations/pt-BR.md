@@ -752,13 +752,13 @@ Veja também:
 ## Lista de leitura
 
 
-If you have found these concepts interesting, you may enjoy the following books.
+Se você achou esses conceitos interessantes, você provavelmente vai gostar dos seguintes livros.
 
-- [Extreme Programming Installed - Ron Jeffries, Ann Anderson, Chet Hendrikson](https://www.goodreads.com/en/book/show/67834) - Covers the core principles of Extreme Programming.
-- [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks' Law](#brooks-law) is a central theme of the book.
-- [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - This book is difficult to classify. [Hofstadter's Law](#hofstadters-law) is from the book.
-- [The Dilbert Principle - Scott Adams](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - A comic look at corporate America, from the author who created the [Dilbert Principle](#the-dilbert-principle).
-- [The Peter Principle - Lawrence J. Peter](https://www.goodreads.com/book/show/890728.The_Peter_Principle) - Another comic look at the challenges of larger organisations and people management, the source of [The Peter Principle](#the-peter-principle).
+- [Extreme Programming Installed - Ron Jeffries, Ann Anderson, Chet Hendrikson](https://www.goodreads.com/en/book/show/67834) - Cobre os principais princípios do Extreme Programming.
+- [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - Um volume clássico na engenharia de software. A [Lei de Brook](#brooks-law) é o tema central desse livro.
+- [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - Esse livre é difícil de classificar. A [Lei de Hofstadter](#hofstadters-law) é desse livro.
+- [The Dilbert Principle - Scott Adams](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - Um olhar cômico sobre a América corporativa, do autor que criou o [Princípio Dilbert](#the-dilbert-principle).
+- [The Peter Principle - Lawrence J. Peter](https://www.goodreads.com/book/show/890728.The_Peter_Principle) - Outro olhar cômico sobre os desafios de grandes organizações e sobre a gestão de pessoas, a fonte do [Princípio de Peter](#the-peter-principle).
 
 ## Traduções
 
@@ -780,7 +780,7 @@ Thanks to a number of wonderful contributors, Hacker Laws is available in a numb
 | [🇪🇸 Castellano / Spanish](./translations/es-ES.md) | [Manuel Rubio](https://github.com/manuel-rubio) ([Sponsor](https://github.com/sponsors/manuel-rubio)) | Parcialmente completa |
 | [🇹🇷 Türkçe / Turkish](https://github.com/umutphp/hacker-laws-tr) | [Umut Işık](https://github.com/umutphp) | [![gitlocalized ](https://gitlocalize.com/repo/2513/tr/badge.svg)](https://gitlocalize.com/repo/2513/tr?utm_source=badge) |
 
-If you would like to update a translation, just [open a pull request](https://github.com/dwmkerr/hacker-laws/pulls). If you want to add a new language, log onto [GitLocalize](https://gitlocalize.com/) to create an account, then open an issue asking to administer the language and I will add you to the project! It would also be super helpful if you can open a pull request which updates the table above and link at the top of the file.
+Se você quer atualizar uma tradução, [abra uma pull request](https://github.com/dwmkerr/hacker-laws/compare). Se você quer adicionar um novo idioma, crie uma conta no [GitLocalize](https://gitlocalize.com/), depois abra uma issue pedindo ao administrador o idioma eu irei adicionar você no projeto! Seria muito útil se você conseguir abrir uma pull request que atualiza a tabela acima, adicionando link ao topo do arquivo.
 
 ## Projetos relacionados
 

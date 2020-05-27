@@ -81,11 +81,11 @@ E lá vamos nos!
 
 The 90-9-1 principle suggests that within an internet community such as a wiki, 90% of participants only consume content, 9% edit or modify content and 1% of participants add content.
 
-Real-world examples:
+Exemplos do mundo real:
 
 - A 2014 study of four digital health social networks found the top 1% created 73% of posts, the next 9% accounted for an average of ~25% and the remaining 90% accounted for an average of 2% ([Reference](https://www.jmir.org/2014/2/e33/))
 
-See Also:
+Veja também:
 
 - [Pareto principle](#the-pareto-principle-the-8020-rule)
 
@@ -113,7 +113,7 @@ The Broken Windows Theory suggests that visible signs of crime (or lack of care 
 
 This theory has been applied to software development, suggesting that poor quality code (or [Technical Debt](#TODO)) can lead to a perception that efforts to improve quality may be ignored or undervalued, thus leading to further poor quality code. This effect cascades leading to a great decrease in quality over time.
 
-See also:
+Veja também:
 
 - [Technical Debt](#TODO)
 
@@ -160,7 +160,7 @@ Veja também:
 
 According to Steven McGeady, Ward Cunningham advised him in the early 1980s: "The best way to get the right answer on the Internet is not to ask a question, it's to post the wrong answer." McGeady dubbed this Cunningham's law, though Cunningham denies ownership calling it a "misquote." Although originally referring to interactions on Usenet, the law has been used to describe how other online communities work (e.g., Wikipedia, Reddit, Twitter, Facebook).
 
-See also:
+Veja também:
 
 - [XKCD 386: "Duty Calls"](https://xkcd.com/386/)
 
@@ -190,7 +190,7 @@ Gall's Law implies that attempts to _design_ highly complex systems are likely t
 
 The classic example is the world-wide-web. In its current state, it is a highly complex system. However, it was defined initially as a simple way to share content between academic institutions. It was very successful in meeting these goals and evolved to become more complex over time.
 
-See also:
+Veja também:
 
 - [KISS (Keep It Simple, Stupid)](#the-kiss-principle)
 
@@ -210,11 +210,11 @@ Also commonly referenced as:
 
 The law states that the measure-driven optimizations could lead to devaluation of the measurement outcome itself. Overly selective set of measures ([KPIs](https://en.wikipedia.org/wiki/Performance_indicator)) blindly applied to a process results in distorted effect. People tend to optimize locally by "gaming" the system in order to satisfy particular metrics instead of paying attention to holistic outcome of their actions.
 
-Real-world examples:
+Exemplos do mundo real:
 - Assert-free tests satisfy the code coverage expectation, despite the fact that the metric intent was to create well-tested software.
 - Developer performance score indicated by the number of lines committed leads to unjustifiably bloated codebase.
 
-See also:
+Veja também:
 - [Goodhart’s Law: How Measuring The Wrong Things Drive Immoral Behaviour](https://coffeeandjunk.com/goodharts-campbells-law/)
 - [Dilbert on bug-free software](https://dilbert.com/strip/1995-11-13)
 
@@ -300,7 +300,7 @@ Kernighan's Law is named for [Brian Kernighan](https://en.wikipedia.org/wiki/Bri
 
 While hyperbolic, Kernighan's Law makes the argument that simple code is to be preferred over complex code, because debugging any issues that arise in complex code may be costly or even infeasible.
 
-See also:
+Veja também:
 
 - [The KISS Principle](#the-kiss-principle)
 - [The Unix Philosophy](#the-unix-philosophy)
@@ -314,7 +314,7 @@ See also:
 
 This law is based on the number of possible pairwise connections within a system and is closely related to [Reed's Law](#reeds-law). Odlyzko and others have argued that both Reed's Law and Metcalfe's Law overstate the value of the system by not accounting for the limits of human cognition on network effects; see [Dunbar's Number](#dunbars-number).
 
-See also:
+Veja também:
 - [Reed's Law](#reeds-law)
 - [Dunbar's Number](#dunbars-number)
 
@@ -345,7 +345,7 @@ This is a common adage among developers. Sometimes the unexpected happens when d
 
 These 'laws' are generally used in a comic sense. However, phenomena such as [_Confirmation Bias_](#TODO) and [_Selection Bias_](#TODO) can lead people to perhaps over-emphasise these laws (the majority of times when things work, they go unnoticed, failures however are more noticeable and draw more discussion).
 
-See Also:
+Veja também:
 
 - [Confirmation Bias](#TODO)
 - [Selection Bias](#TODO)
@@ -360,7 +360,7 @@ See Also:
 
 Occam's razor says that among several possible solutions, the most likely solution is the one with the least number of concepts and assumptions. This solution is the simplest and solves only the given problem, without introducing accidental complexity and possible negative consequences.
 
-See also:
+Veja também:
 
 - [YAGNI](#yagni)
 - [No Silver Bullet: Accidental Complexity and Essential Complexity](https://en.wikipedia.org/wiki/No_Silver_Bullet)
@@ -414,7 +414,7 @@ Veja também:
 
 This law is based on graph theory, where the utility scales as the number of possible sub-groups, which is faster than the number of participants or the number of possible pairwise connections. Odlyzko and others have argued that Reed's Law overstates the utility of the system by not accounting for the limits of human cognition on network effects; see [Dunbar's Number](#dunbars-number).
 
-See also:
+Veja também:
 - [Metcalfe's Law](#metcalfes-law)
 - [Dunbar's Number](#dunbars-number)
 
@@ -442,11 +442,11 @@ The example above can become more complex when _more_ abstractions are introduce
 
 The article describing the law suggests that an over-reliance on abstractions, combined with a poor understanding of the underlying processes, actually makes dealing with the problem at hand _more_ complex in some cases.
 
-See also:
+Veja também:
 
 - [Hyrum's Law](#hyrums-law-the-law-of-implicit-interfaces)
 
-Real-world examples:
+Exemplos do mundo real:
 
 - [Photoshop Slow Startup](https://forums.adobe.com/thread/376152) - an issue I encountered in the past. Photoshop would be slow to startup, sometimes taking minutes. It seems the issue was that on startup it reads some information about the current default printer. However, if that printer is actually a network printer, this could take an extremely long time. The _abstraction_ of a network printer being presented to the system similar to a local printer caused an issue for users in poor connectivity situations.
 
@@ -491,7 +491,7 @@ The Spotify Model also popularises the concepts of Tribes, Guilds, Chapters, whi
 
 Similar to [The Law of Triviality](#the-law-of-triviality), Wadler's Law states what when designing a language, the amount of time spent on language structures is disproportionately high in comparison to the importance of those features.
 
-See also:
+Veja também:
 
 - [The Law of Triviality](#the-law-of-triviality)
 
@@ -521,7 +521,7 @@ Os princípios são como diretrizes relacionadas à design.
 
 A management concept developed by Scott Adams (creator of the Dilbert comic strip), the Dilbert Principle is inspired by [The Peter Principle](#the-peter-principle). Under the Dilbert Principle, employees who were never competent are promoted to management in order to limit the damage they can do. Adams first explained the principle in a 1995 Wall Street Journal article, and expanded upon it in his 1996 business book, [The Dilbert Principle](#reading-list).
 
-See Also:
+Veja também:
 
 - [The Peter Principle](#the-peter-principle)
 - [Putt's Law](#putts-law)
@@ -544,7 +544,7 @@ In the 1940s American-Romanian engineer Dr. Joseph Juran, who is widely credited
 
 This principle is also known as: The 80/20 Rule, The Law of the Vital Few and The Principle of Factor Sparsity.
 
-Real-world examples:
+Exemplos do mundo real:
 
 - In 2002 Microsoft reported that by fixing the top 20% of the most-reported bugs, 80% of the related errors and crashes in windows and office would become eliminated ([Reference](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)).
 
@@ -560,7 +560,7 @@ A management concept developed by Laurence J. Peter, the Peter Principle observe
 
 This is of particular interest to engineers - who initially start out in deeply technical roles, but often have a career path which leads to _managing_ other engineers - which requires a fundamentally different skills-set.
 
-See Also:
+Veja também:
 
 - [The Dilbert Principle](#the-dilbert-principle)
 - [Putt's Law](#putts-law)
@@ -597,7 +597,7 @@ The first of the '[SOLID](#solid)' principles. This principle suggests that modu
 
 Theoretically, this should make the code more robust, and easier to change. Knowing that a component which is being changed has a single responsibility only means that _testing_ that change should be easier. Using the earlier example, changing the password complexity component should only be able to affect the features which relate to password complexity. It can be much more difficult to reason about the impact of a change to a component which has many responsibilities.
 
-See also:
+Veja também:
 
 - [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
@@ -614,7 +614,7 @@ As a hypothetical example, imagine a module which is able to turn a Markdown doc
 
 This principle has particular relevance for object-oriented programming, where we may design objects to be easily extended, but would avoid designing objects which can have their existing behaviour changed in unexpected ways.
 
-See also:
+Veja também:
 
 - [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
@@ -631,7 +631,7 @@ As an example, imagine we have a method which reads an XML document from a struc
 
 This principle has particular relevance for object-oriented programming, where type hierarchies must be modeled carefully to avoid confusing users of a system.
 
-See also:
+Veja também:
 
 - [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
@@ -648,7 +648,7 @@ As an example, imagine we have a method which reads an XML document from a struc
 
 This principle has particular relevance for object-oriented programming, where interfaces, hierarchies and abstract types are used to [minimise the coupling](#todo) between different components. [Duck typing](#todo) is a methodology which enforces this principle by eliminating explicit interfaces.
 
-See also:
+Veja também:
 
 - [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
@@ -667,7 +667,7 @@ As an example, imagine we have a program which read metadata from a website. We 
 
 This principle is complex, as it can seem to 'invert' the expected dependencies of a system (hence the name). In practice, it also means that a separate orchestrating component must ensure the correct implementations of abstract types are used (e.g. in the previous example, _something_ must still provide the metadata reader component a HTTP file downloader and HTML meta tag reader). This then touches on patterns such as [Inversion of Control](#todo) and [Dependency Injection](#todo).
 
-See also:
+Veja também:
 
 - [Object-Oriented Programming](#todo)
 - [SOLID](#solid)
@@ -686,7 +686,7 @@ DRY is an acronym for _Don't Repeat Yourself_. This principle aims to help devel
 
 In practice, if you have the same piece of information in two (or more) different places, you can use DRY to merge them into a single one and reuse it wherever you want/need.
 
-See also:
+Veja também:
 
 - [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 
@@ -700,7 +700,7 @@ The KISS principle states that most systems work best if they are kept simple ra
 
 The principle is best exemplified by the story of Johnson handing a team of design engineers a handful of tools, with the challenge that the jet aircraft they were designing must be repairable by an average mechanic in the field under combat conditions with only these tools. Hence, the "stupid" refers to the relationship between the way things break and the sophistication of the tools available to repair them, not the capabilities of the engineers themselves. 
 
-See also:
+Veja também:
 
 - [Gall's Law](#galls-law)
 
@@ -718,7 +718,7 @@ This _Extreme Programming_ (XP) principle suggests developers should only implem
 
 Adhering to this principle should reduce the amount of unused code in the codebase, and avoid time and effort being wasted on functionality that brings no value.
 
-See also:
+Veja também:
 
 - [Reading List: Extreme Programming Installed](#reading-list)
 
@@ -743,7 +743,7 @@ The group were inspired by what was happening at the time inside [Sun Microsyste
 
 These fallacies should be considered carefully when designing code which is resilient; assuming any of these fallacies can lead to flawed logic which fails to deal with the realities and complexities of distributed systems.
 
-See also:
+Veja também:
 
 - [Foraging for the Fallacies of Distributed Computing (Part 1) - Vaidehi Joshi
  on Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)

@@ -16,6 +16,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
     * [Amdahl's Law](#amdahls-law)
     * [The Broken Windows Theory](#the-broken-windows-theory)
     * [Brooks' Law](#brooks-law)
+    * [CAP Theorem (Brewer's Theorem)](#cap-theorem-brewers-theorem)
     * [Conway's Law](#conways-law)
     * [Cunningham's Law](#cunninghams-law)
     * [Dunbar's Number](#dunbars-number)
@@ -148,6 +149,26 @@ See also:
 
 - [Death March](#todo)
 - [Reading List: The Mythical Man Month](#reading-list)
+
+### CAP Theorem (Brewer's Theorem)
+
+The CAP Theorem (defined by Eric Brewer) states that for a distributed data store only two out of the following three guarantees (at most) can be made:
+
+- Consistency: when reading data, every request receives the _most recent_ data or an error is returned
+- Availability: when reading data, every request receives _a non error response_, without the guarantee that it is the _most recent_ data
+- Partition Tolerance: when an arbitrary number of network requests between nodes fail, the system continues to operate as expected
+
+The core of the reasoning is as follows. It is impossible to guarantee that a network partition will not occur (see [The Fallacies of Distributed Computing](#The_Fallacies_of_Distributed_Computing)). Therefore in the case of a partition we can either cancel the operation (increasing consistency and decreasing availability) or proceed (increasing availability but decreasing consistency).
+
+The name comes from the first letters of the guarantees (Consistency, Availability, Partition Tolerance). Note that it is very important to be aware that this does _not_ relate to [_ACID_](#TODO), which has a different definition of consistency. More recently, [PACELC](#TODO) theorem has been developed which adds constraints for latency and consistency when the network is _not_ partitioned (i.e. when the system is operating as expected).
+
+Most modern database platforms acknowledge this theorem implicitly by offering the user of the database the option to choose between whether they want a highly available operation (which might include a 'dirty read') or a highly consistent operation (for example a 'quorum acknowledged write').
+
+See also:
+
+- [ACID](#TODO)
+- [The Fallacies of Distributed Computing](#The_Fallacies_of_Distributed_Computing)
+- [PACELC](#TODO)
 
 ### Conway's Law
 

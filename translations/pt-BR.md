@@ -12,7 +12,7 @@ Gostou deste projeto? Por favor, considere [me apoiar](https://github.com/sponso
 
 * [Introdução](#introdução)
 * [Leis](#leis)
-	* [Princípio 90-9-1 (Regra do 1%)](#princípio-90-9-1-regra-do-1)
+    * [Princípio 90-9-1 (Regra do 1%)](#princípio-90-9-1-regra-do-1)
     * [Lei de Amdahl](#lei-de-amdahl)
     * [Teoria das Janelas Quebradas](#teoria-das-janelas-quebradas)
     * [Lei de Brook](#lei-de-brook)
@@ -26,7 +26,14 @@ Gostou deste projeto? Por favor, considere [me apoiar](https://github.com/sponso
     * [Lei de Hutber](#lei-de-hutber)
     * [O Ciclo Hype e Lei de Amara](#o-ciclo-hype-e-lei-de-amara)
     * [Lei de Hyrum (Lei das Interfaces Implícitas)](#lei-de-hyrum-lei-das-interfaces-implícitas)
-    * [Lei de Kernighan](#lei-de-kernighan)
+    * [Lei de Kernighan](#lei-de-kerni
+
+
+
+
+
+
+ghan)
     * [Lei de Metcalfe](#lei-de-metcalfe)
     * [Lei de Moore](#lei-de-moore)
     * [Lei de Murphy / Lei de Sod](#lei-de-murphy--lei-de-sod)
@@ -43,7 +50,7 @@ Gostou deste projeto? Por favor, considere [me apoiar](https://github.com/sponso
     * [Lei de Wadler](#lei-de-wadler)
     * [Lei de Wheaton](#lei-de-wheaton)
 * [Princípios](#princípios)
-	* [O Princípio Dilbert](#o-princípio-dilbert)
+    * [O Princípio Dilbert](#o-princípio-dilbert)
     * [O Princípio de Pareto (Regra do 80/20)](#o-princípio-de-pareto-regra-do-8020)
     * [O Princípio de Peter](#o-princípio-de-peter)
     * [O Princípio da Robustez (Lei de Postel)](#o-princípio-da-robustez-lei-de-postel)
@@ -73,21 +80,21 @@ Existem muitas leis sobre as quais as pessoas discutem quando falam sobre desenv
 
 ## Leis
 
-E lá vamos nos!
+E lá vamos nós!
 
 ### Princípio 90-9-1 (Regra do 1%)
 
 [1% Rule on Wikipedia](https://en.wikipedia.org/wiki/1%25_rule_(Internet_culture))
 
-The 90-9-1 principle suggests that within an internet community such as a wiki, 90% of participants only consume content, 9% edit or modify content and 1% of participants add content.
+O Princípio 90-9-1 sugere que em uma comunidade da internet, como uma wiki, 90% dos participantes apenas consomem o conteúdo, 9% editam ou modificam o conteúdo e 1% dos participantes adicionam novos conteúdos.
 
 Exemplos do mundo real:
 
-- A 2014 study of four digital health social networks found the top 1% created 73% of posts, the next 9% accounted for an average of ~25% and the remaining 90% accounted for an average of 2% ([Reference](https://www.jmir.org/2014/2/e33/))
+- Um estudo de 2014 de quatro redes sociais de saúde digital concluíram que 1% dos usuários criaram 73% das publicações, os próximos 9% foram responsáveis por cerca de ~25% e os 90% restantes por uma média de 2% ([Referência](https://www.jmir.org/2014/2/e33/))
 
 Veja também:
 
-- [Pareto principle](#the-pareto-principle-the-8020-rule)
+- [O Princípio de Pareto (Regra do 80/20)](#the-pareto-principle-the-8020-rule)
 
 ### Lei de Amdahl
 
@@ -109,15 +116,15 @@ Como pode-se perceber, mesmo um programa que teve metade da sua implementação 
 
 [The Broken Windows Theory on Wikipedia](https://en.wikipedia.org/wiki/Broken_windows_theory)
 
-The Broken Windows Theory suggests that visible signs of crime (or lack of care of an environment) lead to further and more serious crimes (or further deterioration of the environment).
+A Teoria das Janelas Quebradas sugere que sinais visíveis de crimes (ou a falta de cuidado por um ambiente) leva a crimes mais sérios (ou mais deterioração do ambiente).
 
-This theory has been applied to software development, suggesting that poor quality code (or [Technical Debt](#TODO)) can lead to a perception that efforts to improve quality may be ignored or undervalued, thus leading to further poor quality code. This effect cascades leading to a great decrease in quality over time.
+Essa teoria tem sido aplicada no desenvolvimento de software, sugerindo que a baixa qualidade do código (ou o [Débito Técnico](#TODO)) podem levar a percepção de que esforços para melhorar a qualidade talvez sejam ignorados ou desvalorizados, mantendo a baixa qualidade. Esse efeito de cascata leva a uma grande diminuição na qualidade através do tempo.
 
 Veja também:
 
-- [Technical Debt](#TODO)
+- [Débito Técnico](#TODO)
 
-Examples:
+Exemplos:
 
 - [The Pragmatic Programming: Software Entropy](https://pragprog.com/the-pragmatic-programmer/extracts/software-entropy)
 - [Coding Horror: The Broken Window Theory](https://blog.codinghorror.com/the-broken-window-theory/)
@@ -135,7 +142,7 @@ Essa lei sugere que em muitos casos, na tentativa de acelerar uma entrega, que j
 "Nove mulheres não podem parir uma criança em um mês" e "Dois pilotos não fazem o carro ir mais rápido" são frases relacionadas a Lei de Brooke, principalmente porque algumas tarefas nao podem ser divididas.
 
 
-Esse é um tema central do livro'[The Mythical Man Month](#lista-de-livros)'.
+Esse é um tema central do livro '[The Mythical Man Month](#lista-de-livros)'.
 
 Veja também:
 
@@ -156,9 +163,9 @@ Veja também:
 
 [Cunningham's Law on Wikipedia](https://en.wikipedia.org/wiki/Ward_Cunningham#Cunningham's_Law)
 
-> The best way to get the right answer on the Internet is not to ask a question, it's to post the wrong answer.
+> A melhor forma de obter a resposta correta na Internet não é fazer a pergunta, mas postar a resposta errada.
 
-According to Steven McGeady, Ward Cunningham advised him in the early 1980s: "The best way to get the right answer on the Internet is not to ask a question, it's to post the wrong answer." McGeady dubbed this Cunningham's law, though Cunningham denies ownership calling it a "misquote." Although originally referring to interactions on Usenet, the law has been used to describe how other online communities work (e.g., Wikipedia, Reddit, Twitter, Facebook).
+De acordo com Steven McGeady, Ward Cunningham o aconselhou no início dos anos 80: "A melhor forma de ter a resposta correta na Internet não é fazer a pergunta, mas postar a resposta errada." McGeady apelidou essa lei de "Lei de Cunningham", mesmo que Cunningham negue sua propriedade chamando-a de "citação". Mesmo originalmente se referindo a interações na Usenet, a lei tem sido utilizada para descrever como comunidades online funcionam (e.x.: Wikipedia, Reddit, Twitter, Facebook).
 
 Veja também:
 
@@ -182,13 +189,11 @@ Veja também:
 
 [Gall's Law on Wikipedia](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
 
-> A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over with a working simple system.
->
-> ([John Gall](https://en.wikipedia.org/wiki/John_Gall_(author)))
+> Um sistema complexo que funciona é invariavelmente encontrado para ter evoluído a partir de um sistema simples que trabalhou. Um sistema complexo projetado a partir do zero nunca funciona e não pode ser remendado para fazê-lo funcionar.
 
-Gall's Law implies that attempts to _design_ highly complex systems are likely to fail. Highly complex systems are rarely built in one go, but evolve instead from more simple systems.
+A Lei de Gall afirma que tentativas de projetar sistemas altamente complexos provavelmente falharão. Sistemas altamente complexos raramente são construídos em uma vez só, mas evoluem a partir de sistemas mais simples.
 
-The classic example is the world-wide-web. In its current state, it is a highly complex system. However, it was defined initially as a simple way to share content between academic institutions. It was very successful in meeting these goals and evolved to become more complex over time.
+Um exemplo clássico é a world-wide-web. Em seu estado atual, ela é um sistema altamente complexo. Contudo, ela foi definida inicialmente como uma forma simples de compartilhar conteúdo entre instituições acadêmicas. Ela foi tão bem-sucedida em atingir esses objetivos que evoluiu para se tornar algo mais complexo ao longo do tempo.
 
 Veja também:
 
@@ -198,21 +203,22 @@ Veja também:
 
 [The Goodhart's Law on Wikipedia](https://en.wikipedia.org/wiki/Goodhart's_law)
 
-> Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes.
+> Qualquer regularidade estatística observada tende a entrar em colapso quando a pressão é aplicada para fins de controle.
 >
 > _Charles Goodhart_
 
-Also commonly referenced as:
 
-> When a measure becomes a target, it ceases to be a good measure.
+Também referenciada como:
+
+> Quando uma medida torna-se uma meta (ou alvo), ela deixa de ser uma boa medida.
 >
 > _Marilyn Strathern_
 
-The law states that the measure-driven optimizations could lead to devaluation of the measurement outcome itself. Overly selective set of measures ([KPIs](https://en.wikipedia.org/wiki/Performance_indicator)) blindly applied to a process results in distorted effect. People tend to optimize locally by "gaming" the system in order to satisfy particular metrics instead of paying attention to holistic outcome of their actions.
+A lei diz que otimizações orientadas por medidas podem levar à uma desvalorização do próprio resultado da medição. O conjunto de medidas excessivamente seletivo ([KPIs](https://en.wikipedia.org/wiki/Performance_indicator)) aplicado cegamenta a um processo resulta em um efeito distorcido. As pessoas tentem a otimizar localmente "jogando com" o sistema para satisfazer métricas específicas ao invés de prestar atenção ao resultado holístico de suas ações.
 
 Exemplos do mundo real:
-- Assert-free tests satisfy the code coverage expectation, despite the fact that the metric intent was to create well-tested software.
-- Developer performance score indicated by the number of lines committed leads to unjustifiably bloated codebase.
+- Testes sem `assertions` atendem à cobertura de código esperada, apesar do objetivo da métrica era criar software bem testado
+- A pontuação do desempenho de desenvolvedores é indicada pelo número de linhas `commitadas` leva a uma base de código injustificadamente inchada.
 
 Veja também:
 - [Goodhart’s Law: How Measuring The Wrong Things Drive Immoral Behaviour](https://coffeeandjunk.com/goodharts-campbells-law/)
@@ -245,13 +251,13 @@ This is from the book '[Gödel, Escher, Bach: An Eternal Golden Braid](#lista-de
 
 [Hutber's Law on Wikipedia](https://en.wikipedia.org/wiki/Hutber%27s_law)
 
-> Improvement means deterioration.
+> Melhoria significa deterioração.
 >
-> ([Patrick Hutber](https://en.wikipedia.org/wiki/Patrick_Hutber))
+> _([Patrick Hutber](https://en.wikipedia.org/wiki/Patrick_Hutber))_
 
-This law suggests that improvements to a system will lead to deterioration in other parts, or it will hide other deterioration, leading overall to a degradation from the current state of the system.
+Essa lei sugere que melhorias em um sistema irão levar à deterioração em outras partes, ou ela ocultarão outras deteriorações, levando a uma degradação do estado atual do sistema.
 
-For example, a decrease in response latency for a particular end-point could cause increased throughput and capacity issues further along in a request flow, affecting an entirely different sub-system.
+Por exemplo, a diminuição na latência da resposta para um `end-point` particular pode causar um aumento na taxa de transferência e na capacidade ao longo de um fluxo de solicitação, afetando um subsistema totalmente diferente.
 
 ### O Ciclo Hype e Lei de Amara
 
@@ -290,15 +296,15 @@ Veja Também:
 
 ### Lei de Kernighan
 
-> Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.
+> A depuração é duplamente mais difícil do que escrever o código em primeiro lugar. Portanto, se você escrever o código da maneira mais inteligente possível, por definição, você não é inteligente o sufiencte para depurá-lo.
 >
 > (Brian Kernighan)
 
-Kernighan's Law is named for [Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan) and derived from a quote from Kernighan and Plauger's book [The Elements of Programming Style](https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style):
+A Lei de Kerningham é nomeada por [Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan) e devivada de uma citação de Kerningham no livro [The Elements of Programming Style](https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style):
 
-> Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?
+> Todo mundo sabe que depurar é duplamente mais difícil do que programar em primeiro lugar. Então, se você é o mais inteligente possível quando escreve, como você conseguirá depurar o código?
 
-While hyperbolic, Kernighan's Law makes the argument that simple code is to be preferred over complex code, because debugging any issues that arise in complex code may be costly or even infeasible.
+Enquanto hiperbólica, a Lei de Kerningham faz a argumentação de que código simples deve ser preferido ao invés de código complexo, porque depurar qualquer problema que poderá surgir em um código complexo pode ser custoso ou até mesmo inviável.
 
 Veja também:
 
@@ -310,9 +316,9 @@ Veja também:
 
 [Metcalfe's Law on Wikipedia](https://en.wikipedia.org/wiki/Metcalfe's_law)
 
-> In network theory, the value of a system grows as approximately the square of the number of users of the system.
+> Na teoria das redes, o valor de um sistema cresce aproximadamente o quadrado do número de usuários daquele sistema.
 
-This law is based on the number of possible pairwise connections within a system and is closely related to [Reed's Law](#reeds-law). Odlyzko and others have argued that both Reed's Law and Metcalfe's Law overstate the value of the system by not accounting for the limits of human cognition on network effects; see [Dunbar's Number](#dunbars-number).
+Esta lei é baseada no número de possíveis conexões pareadas dentro de um sistema e é relacionada com a [Lei de Reed](#reeds-law). Odlyzko e outros argumentaram que tanto a Lei de Reed e a Lei de Metcalfe exageram o valor do sistema, não levando em consideração os limites da cognição humana sobre os efeitos da rede; veja [Dunbar's Number](#dunbars-number).
 
 Veja também:
 - [Reed's Law](#reeds-law)
@@ -335,15 +341,15 @@ Esse padrão continuou a se manter, e não se espera que pare até, no mínimo, 
 
 [Murphy's Law on Wikipedia](https://en.wikipedia.org/wiki/Murphy%27s_law)
 
-> Anything that can go wrong will go wrong.
+> Tudo que poderá dar errado, irá dar errado.
 
-Related to [Edward A. Murphy, Jr](https://en.wikipedia.org/wiki/Edward_A._Murphy_Jr.) _Murphy's Law_ states that if a thing can go wrong, it will go wrong.
+Relacionada com [Edward A. Murphy, Jr](https://en.wikipedia.org/wiki/Edward_A._Murphy_Jr.), a _Lei de Murphy_ diz que se algo pode dar errado, isso dará errado.
 
-This is a common adage among developers. Sometimes the unexpected happens when developing, testing or even in production. This can also be related to the (more common in British English) _Sod's Law_:
+Isso é um ditado comum entre desenvolvedores. Muitas vezes o inesperado ocorre durante o desenvolvimento, testes ou até mesmo em produção. Essa lei também pode ser relacionada a Lei de Sod (mais comum no inglês britânico):
 
-> If something can go wrong, it will, at the worst possible time.
+> Se algo pode dar errado, dará errado, no pior momento possível.
 
-These 'laws' are generally used in a comic sense. However, phenomena such as [_Confirmation Bias_](#TODO) and [_Selection Bias_](#TODO) can lead people to perhaps over-emphasise these laws (the majority of times when things work, they go unnoticed, failures however are more noticeable and draw more discussion).
+Essas 'leis' são geralmente utilizadas em um sentido cômico. Contudo, fenômenos como [_Confirmation Bias_](#TODO) e [_Selection Bias_](#TODO) podem pevar as pessoas a enfatizarem demais essas leis (na maioria das vezes quando as coisas funcionam, elas passam desapercebidas, as falhas são mais perceptíveis e atraem mais discussões).
 
 Veja também:
 
@@ -354,18 +360,18 @@ Veja também:
 
 [Occam's Razor on Wikipedia](https://en.wikipedia.org/wiki/Occam's_razor)
 
-> Entities should not be multiplied without necessity.
+> Entidades não devem ser multiplicadas sem necessidade.
 >
 > William of Ockham
 
-Occam's razor says that among several possible solutions, the most likely solution is the one with the least number of concepts and assumptions. This solution is the simplest and solves only the given problem, without introducing accidental complexity and possible negative consequences.
+A Navalha de Occam diz que em meio a várias possíveis soluções, a solução mais provável é aquela com menor número de conceitos e suposições. Essa solução é a mais simples e envolve apenas o problema em questão, sem introduzir complexidades acidentais e possíveis consequências negativas.
 
 Veja também:
 
 - [YAGNI](#yagni)
 - [No Silver Bullet: Accidental Complexity and Essential Complexity](https://en.wikipedia.org/wiki/No_Silver_Bullet)
 
-Example:
+Exemplo:
 
 - [Lean Software Development: Eliminate Waste](https://en.wikipedia.org/wiki/Lean_software_development#Eliminate_waste)
 
@@ -381,13 +387,13 @@ A lei de Parkinson foi publicada por Cyril Northcote Parkinson num artigo na rev
 
 [Premature Optimization on WikiWikiWeb](http://wiki.c2.com/?PrematureOptimization)
 
-> Premature optimization is the root of all evil.
+> Otimização prematura é a raiz de todo o mal.
 >
 > [(Donald Knuth)](https://twitter.com/realdonaldknuth?lang=en)
 
-In Donald Knuth's paper [Structured Programming With Go To Statements](http://wiki.c2.com/?StructuredProgrammingWithGoToStatements), he wrote: "Programmers waste enormous amounts of time thinking about, or worrying about, the speed of noncritical parts of their programs, and these attempts at efficiency actually have a strong negative impact when debugging and maintenance are considered. We should forget about small efficiencies, say about 97% of the time: **premature optimization is the root of all evil**. Yet we should not pass up our opportunities in that critical 3%."
+No artigo de Donald Knuth, [Structured Programming With Go To Statements](http://wiki.c2.com/?StructuredProgrammingWithGoToStatements), ele escreve: "Programadores perdem grandes quantidades de tempo pensando ou se preocupando com a velocidade de partes não críticas de seus programas, e essas tentativas de eficiência possuem um forte impacto negativo quando depuração e manutenção são consideradas. Nós devemos esquecer essas pequenas eficiências, cerca de 97% das vezes: **otimização prematura é a raiz de todo o mal.** No entando, não devemos perder a oportunidade nesses 3% críticos".
 
-However, _Premature Optimization_ can be defined (in less loaded terms) as optimizing before we know that we need to.
+Contudo, _Otimização Prematura_ pode ser definida (em termos menos carregados) como otimizar antes de saber o que precisamos.
 
 ### Lei de Putt
 
@@ -410,9 +416,9 @@ Veja também:
 
 [Reed's Law on Wikipedia](https://en.wikipedia.org/wiki/Reed's_law)
 
-> The utility of large networks, particularly social networks, scales exponentially with the size of the network.
+> A utilidade de grandes redes, particularmente redes sociais, escalam exponencialmente com o tamanho da própria rede.
 
-This law is based on graph theory, where the utility scales as the number of possible sub-groups, which is faster than the number of participants or the number of possible pairwise connections. Odlyzko and others have argued that Reed's Law overstates the utility of the system by not accounting for the limits of human cognition on network effects; see [Dunbar's Number](#dunbars-number).
+Essa lei é baseada na teoria dos grafos, onde a utilidade é escalonada com o número de possíveis subgrupos, que é mais rápido que o número de participantes ou o número de possíveis conexões pareadas. Odlyzko e outros argumentam que a Lei de Reed exagera a utilidade de um sistema por não levar em conta os limites da cognição humana sobre os efeitos da rede; veja [Dunbar's Number](#dunbars-number).
 
 Veja também:
 - [Metcalfe's Law](#metcalfes-law)
@@ -434,13 +440,11 @@ Um elemento interessante para essa lei é a sugestão de que, mesmo simplificand
 
 >Todas as abstrações não triviais, até certo ponto, são vazadas
 
-This law states that abstractions, which are generally used in computing to simplify working with complicated systems, will in certain situations 'leak' elements of the underlying system, this making the abstraction behave in an unexpected way.
+Essa lei afirma que abstrações, as quais são geralmente utilizadas na computação para simplificar um trabalho com sistemas complexos, em certas situações irão 'vazar' elementos do sistema subjacente, fazendo com que a abstração se comporte de maneira inesperada.
 
-An example might be loading a file and reading its contents. The file system APIs are an _abstraction_ of the lower level kernel systems, which are themselves an abstraction over the physical processes relating to changing data on a magnetic platter (or flash memory for an SSD). In most cases, the abstraction of treating a file like a stream of binary data will work. However, for a magnetic drive, reading data sequentially will be *significantly* faster than random access (due to increased overhead of page faults), but for an SSD drive, this overhead will not be present. Underlying details will need to be understood to deal with this case (for example, database index files are structured to reduce the overhead of random access), the abstraction 'leaks' implementation details the developer may need to be aware of.
+Um exemplo disso pode ser carregar um arquivo e ler o seu conteúdo. As APIs do sistema de arquivo são abstrações do kernel de nível inferior, que são uma abstração dos processadores físicos relacionados à alteração de dados no disco rígido (ou na memória flash em SSD). Na maioria dos casos, a abstração de tratar um arquivo como um fluxo de dados binários funcionará. Contudo, para um disco rígido, a leitura sequencial dos dados será significamente mais rápida que o acesso aleatório (devido ao aumento da sobrecarga de falhas na página), mas para um disco SSD, essa sobrecarga não estará presente. Os detalhes subjacentes precisarão ser entendidos para lidar com esse caso (por exemplo, os arquivos índices de uma base de dados são estruturados para reduzir a sobrecarga do acesso aleatório), a abstração 'vaza' detalhes de implementação os quais o desenvolvedor precisa estar ciente.
 
-The example above can become more complex when _more_ abstractions are introduced. The Linux operating system allows files to be accessed over a network but represented locally as 'normal' files. This abstraction will 'leak' if there are network failures. If a developer treats these files as 'normal' files, without considering the fact that they may be subject to network latency and failures, the solutions will be buggy.
-
-The article describing the law suggests that an over-reliance on abstractions, combined with a poor understanding of the underlying processes, actually makes dealing with the problem at hand _more_ complex in some cases.
+O exemplo acima pode se tormar mais complexo quando _mais_ abstrações são introduzidas. O sistema operacional Linux permite que os arquivos sejam acessados por rede mas representados localmente como arquivos 'normais'. Essa abstração será 'vazada' se houverem falhas de rede. Se um desenvolvedor tratar esses arquivos como 'normais', sem considerar o fato de que eles podem estar sujeitos à latência e falhas na rede, as soluções serão incorretas.
 
 Veja também:
 
@@ -448,48 +452,49 @@ Veja também:
 
 Exemplos do mundo real:
 
-- [Photoshop Slow Startup](https://forums.adobe.com/thread/376152) - an issue I encountered in the past. Photoshop would be slow to startup, sometimes taking minutes. It seems the issue was that on startup it reads some information about the current default printer. However, if that printer is actually a network printer, this could take an extremely long time. The _abstraction_ of a network printer being presented to the system similar to a local printer caused an issue for users in poor connectivity situations.
+- [Photoshop Slow Startup](https://forums.adobe.com/thread/376152) - um problema que eu encontrei no passado. O Photoshop demorava para abrir, às vezes levando alguns minutos. Parecia que o problema era que, ao iniciar, o programa lia algumas informações sobre a impressora padrão. No entando, se essa impressora fosse uma impressora de rede, isso demoraria tempo extremamente longo. A _abstração_ de uma impressora de rede ser mostrada ao sistema como uma impressora local causou um problema para usuários em situação de baixa conectividade. 
 
 ### A Lei da Trivialidade
 
 [The Law of Triviality on Wikipedia](https://en.wikipedia.org/wiki/Law_of_triviality)
 
-This law suggests that groups will give far more time and attention to trivial or cosmetic issues rather than serious and substantial ones.
+Essa lei sugere que grupos irão dar maior atenção para problemas triviais ou cosméticos, do que para os problemas sérios e substanciais.
 
-The common fictional example used is that of a committee approving plans for nuclear power plant, who spend the majority of their time discussing the structure of the bike shed, rather than the far more important design for the power plant itself. It can be difficult to give valuable input on discussions about very large, complex topics without a high degree of subject matter expertise or preparation. However, people want to be seen to be contributing valuable input. Hence a tendency to focus too much time on small details, which can be reasoned about easily, but are not necessarily of particular importance.
+O exemplo fictício comum utilizado é o de um comitê aprovando planos para uma usina nuclear, que passam maior tempo discutindo a estrutura do bicicletário ao invés do design da própria usina que é muito mais importante. Pode ser difícil fornecer informações valiosas em discussões sobre tópicos muito grandes e complexos sem um alto grau de conhecimento ou preparação no assunto. No entando, as pessoas querem ser vistas contribuindo com informações importantes. Daí uma tendência de concentrar muito tempo em pequenos detalhes, que podem ser facilmente explicados, mas necessariamente não são de importância particular.
 
-The fictional example above led to the usage of the term 'Bike Shedding' as an expression for wasting time on trivial details.
+O exemplo fictício acima levou ao uso do termo _'Bike Shedding'_ como uma expressão por gastar tempo em detalhes triviais.
+
 
 ### A Filosofia Unix
 
 [The Unix Philosophy on Wikipedia](https://en.wikipedia.org/wiki/Unix_philosophy)
 
-The Unix Philosophy is that software components should be small, and focused on doing one specific thing well. This can make it easier to build systems by composing together small, simple, well-defined units, rather than using large, complex, multi-purpose programs.
+A Filosofia Unix prega que componentes de um software devem ser pequenos, e focados em fazer muito bem uma coisa específica. Isso torna mais fácil a construção de sistemas compondo unidades pequenas, simples e bem definidas, em vez de usar programas grandes, complexos e multiuso.
 
-Modern practices like 'Microservice Architecture' can be thought of as an application of this law, where services are small, focused and do one specific thing, allowing complex behaviour to be composed of simple building blocks.
+Práticas modernas como a 'Arquitetura de Microsserviços' podem ser pensadas como uma aplicação dessa lei, onde os serviços são pequenos, focados em uma tarefa específica, permitindo que um comportamento complexo seja composto de blocos de construção simples.
 
 ### O Modelo Spotify
 
 [The Spotify Model on Spotify Labs](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)
 
-The Spotify Model is an approach to team and organisation structure which has been popularised by 'Spotify'. In this model, teams are organised around features, rather than technologies.
+O Modelo Spotify é uma abordagem para a organização de equipes que foi popularizado pelo 'Spotify'. Neste modelo, times são organizados por funcionalidades, não por tecnologias.
 
-The Spotify Model also popularises the concepts of Tribes, Guilds, Chapters, which are other components of their organisation structure.
+O Modelo Spotify também popularizou o conteido de Tribos, Guildas, Capítulos, que são outros componentes de sua estrutura organizacional.
 
 ### Lei de Wadler
 
 [Wadler's Law on wiki.haskell.org](https://wiki.haskell.org/Wadler's_Law)
 
-> In any language design, the total time spent discussing a feature in this list is proportional to two raised to the power of its position.
+> Em qualquer design de linguagem, o tempo total gasto discutindo a uma funcionalidade nessa lista é proporcional a dois elevados à potência de sua posição.
 > 
 > 0. Semantics
 > 1. Syntax
 > 2. Lexical syntax
 > 3. Lexical syntax of comments
-> 
-> (In short, for every hour spent on semantics, 8 hours will be spent on the syntax of comments).
+>
+> (Em resumo, para cada hora gasta em semântica, 8 horas serão gastas na sintaxe de comentários)
 
-Similar to [The Law of Triviality](#the-law-of-triviality), Wadler's Law states what when designing a language, the amount of time spent on language structures is disproportionately high in comparison to the importance of those features.
+Semelhante à [Lei da Trivialidade](), a Lei de Wadler afirma que quando projetamos uma linguagem, o tempo gasto em estruturas é desproporcionalmente maior do que a imporância dessas funcionalidades.
 
 Veja também:
 
@@ -501,11 +506,11 @@ Veja também:
 
 [The Official Day](https://dontbeadickday.com/)
 
-> Don't be a dick.
+> Não seja um babaca
 >
 > _Wil Wheaton_
 
-Coined by Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), this simple, concise, and powerful law aims for an increase in harmony and respect within a professional organization. It can be applied when speaking with coworkers, performing code reviews, countering other points of view, critiquing, and in general, most professional interactions humans have with each other.
+Cunhada por Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), esta lei simples, concisa e poderosa visa aumentar a harmonia e o respeito dentro de uma organização profissional. Ela pode ser aplicada ao conversar com colegas de trabalho, ao efetuar code reviews, contrariar outros ponto de vista, criticar, e, em linhas gerais, na maioria das interações que os humanos mantém entre si.
 
 ## Princípios
 
@@ -762,7 +767,7 @@ Se você achou esses conceitos interessantes, você provavelmente vai gostar dos
 
 ## Traduções
 
-Thanks to a number of wonderful contributors, Hacker Laws is available in a number of languages. Please consider sponsoring moderators!
+Graças a contribuidores maravilhosos, Hacker Laws está disponível em vários idiomas. Por favor, considere em patrocinar os moderadores!
 
 | Idioma   | Moderador | Status |
 |----------|-----------|--------|

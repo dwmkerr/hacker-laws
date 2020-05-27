@@ -26,14 +26,7 @@ Gostou deste projeto? Por favor, considere [me apoiar](https://github.com/sponso
     * [Lei de Hutber](#lei-de-hutber)
     * [O Ciclo Hype e Lei de Amara](#o-ciclo-hype-e-lei-de-amara)
     * [Lei de Hyrum (Lei das Interfaces Implícitas)](#lei-de-hyrum-lei-das-interfaces-implícitas)
-    * [Lei de Kernighan](#lei-de-kerni
-
-
-
-
-
-
-ghan)
+    * [Lei de Kernighan](#lei-de-kernighan)
     * [Lei de Metcalfe](#lei-de-metcalfe)
     * [Lei de Moore](#lei-de-moore)
     * [Lei de Murphy / Lei de Sod](#lei-de-murphy--lei-de-sod)
@@ -520,11 +513,11 @@ Os princípios são como diretrizes relacionadas à design.
 
 [The Dilbert Principle on Wikipedia](https://en.wikipedia.org/wiki/Dilbert_principle)
 
-> Companies tend to systematically promote incompetent employees to management to get them out of the workflow.
+> Empresas tendem a promover sistematicamente funcionários incompetentes para a gerência para tirá-los do fluxo de trabalho.
 >
 > _Scott Adams_
 
-A management concept developed by Scott Adams (creator of the Dilbert comic strip), the Dilbert Principle is inspired by [The Peter Principle](#the-peter-principle). Under the Dilbert Principle, employees who were never competent are promoted to management in order to limit the damage they can do. Adams first explained the principle in a 1995 Wall Street Journal article, and expanded upon it in his 1996 business book, [The Dilbert Principle](#reading-list).
+Um conceito de gerência desenvolvido por Scott Adams (criador da tirinha Dilbert), o Princípio de Dilbert é inspirado pelo [Princípio de Peter](). Sob o Princípio de Dilbert, funcionários que nunca foram competentes são promovidos para a gerência, para limitar o estrago que eles podem causar. Adams explicou esse princípio pela primeira vez um artigo no Wall Street Journal, em 1995, e o expandiu para seu livro de negócios em 1996, o [The Dilbert Principle](#reading-list).
 
 Veja também:
 
@@ -535,35 +528,35 @@ Veja também:
 
 [The Pareto Principle on Wikipedia](https://en.wikipedia.org/wiki/Pareto_principle)
 
-> Most things in life are not distributed evenly.
+> A maioria das coisas na vida não são distribuídas de maneira uniforme.
 
-The Pareto Principle suggests that in some cases, the majority of results come from a minority of inputs:
+O Princípio de Pareto sugere que em alguns casos, a maioria dos resultados vem de uma minoria de insumos:
 
-- 80% of a certain piece of software can be written in 20% of the total allocated time (conversely, the hardest 20% of the code takes 80% of the time)
-- 20% of the effort produces 80% of the result
-- 20% of the work creates 80% of the revenue
-- 20% of the bugs cause 80% of the crashes
-- 20% of the features cause 80% of the usage
+- 80% de um certo pedaço de software pode ser escrito em 20% do tempo total alocado (inversamente, os 20% mais difíceis do código levam 80% do tempo)
+- 20% do esforço produz 80% do resultado
+- 20% do trabalho cria 80% da receita
+- 20% dos bugs causam 80% das quebras
+- 20% das funcionalidades causam 80% da utilização
 
-In the 1940s American-Romanian engineer Dr. Joseph Juran, who is widely credited with being the father of quality control, [began to apply the Pareto principle to quality issues](https://en.wikipedia.org/wiki/Joseph_M._Juran).
+Nos anos 40 o engenheiro americano-romeno Dr. Joseph Juran, reconhecido como pai do controle de qualidade, [começou a aplicar o Princípio de Pareto a questões de qualidade]((https://en.wikipedia.org/wiki/Joseph_M._Juran)).
 
-This principle is also known as: The 80/20 Rule, The Law of the Vital Few and The Principle of Factor Sparsity.
+Este princípio é também conhecido como: A Regra do 80/20, A Lei dos Poucos Vitais e O Princípio de Escassez do Fator.
 
 Exemplos do mundo real:
 
-- In 2002 Microsoft reported that by fixing the top 20% of the most-reported bugs, 80% of the related errors and crashes in windows and office would become eliminated ([Reference](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)).
+- Em 2002 a Microsoft reportou que corrigindo 20% dos erros mais reportados, 80% dos erros e quebras relacionadas no Windows e no Office foram eliminados ([Referência](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)).
 
 ### O Princípio de Peter
 
 [The Peter Principle on Wikipedia](https://en.wikipedia.org/wiki/Peter_principle)
 
-> People in a hierarchy tend to rise to their "level of incompetence".
+> Pessoas em uma hierarquia tentem a subir ao seu "nível de incompetência".
 >
 > _Laurence J. Peter_
 
-A management concept developed by Laurence J. Peter, the Peter Principle observes that people who are good at their jobs are promoted, until they reach a level where they are no longer successful (their "level of incompetence"). At this point, as they are more senior, they are less likely to be removed from the organisation (unless they perform spectacularly badly) and will continue to reside in a role which they have few intrinsic skills at, as their original skills which made them successful are not necessarily the skills required for their new jobs.
+Um conceito de gerenciamento desenvolvido por Laurence J. Peter, o Princípio de Peter observa que as pessoas que são boas em seu emprego são promovidas até um nível onde elas não são mais bem-sucedidas (o "nível de incompetência"). Neste ponto, à medida em que são mais seniores, é menos provável que elas sejam removidas da organização (a não ser que elas performem de maneira horrível) e irão continuar a permanecer em uma função na qual possuem poucas habilidades intrínsecas, pois as habilidades originais que as fizeram bem-sucedidas não são necessariamente as mesmas que o novo cargo exige.  
 
-This is of particular interest to engineers - who initially start out in deeply technical roles, but often have a career path which leads to _managing_ other engineers - which requires a fundamentally different skills-set.
+Isso é de interesse particular para engenheiros - que inicialmente começam em funções técnicas mas tem uma carreira que leva ao _gerenciamento_ de outros engenheiros - o que requer um conjunto de habilidades fundamentalmente diferente.
 
 Veja também:
 
@@ -574,11 +567,11 @@ Veja também:
 
 [The Robustness Principle on Wikipedia](https://en.wikipedia.org/wiki/Robustness_principle)
 
-> Be conservative in what you do, be liberal in what you accept from others.
+> Seja conservador naquilo que você faz, seja liberal naquilo que você aceita dos outros.
 
-Often applied in server application development, this principle states that what you send to others should be as minimal and conformant as possible, but you should be aim to allow non-conformant input if it can be processed.
+Geralmente aplicado no desenvolvimento de aplicativos para servidor, esse princípio afirma que o que você envia para outras pessoas deve ser o mínimo compatível possível, mas que você deve ter como objetivo permitir entradas fora de conformidade, se puderem ser processadas.
 
-The goal of this principle is to build systems which are robust, as they can handle poorly formed input if the intent can still be understood. However, there are potentially security implications of accepting malformed input, particularly if the processing of such input is not well tested.
+O objetivo desse princípio é construir sistemas que são robustos, pois eles conseguem lidar com dados mal formatados se a intenção ainda puder ser entendida. No entanto, há potenciais implicações de segurança na aceitação de entradas mal formatadas, principalmente se o processamento dessas entradas não for bem testado.
 
 ### SOLID
 
@@ -590,17 +583,17 @@ The goal of this principle is to build systems which are robust, as they can han
 * I: [The Interface Segregation Principle](#the-interface-segregation-principle)
 * D: [The Dependency Inversion Principle](#the-dependency-inversion-principle)
 
-These are key principles in [Object-Oriented Programming](#todo). Design principles such as these should be able to aid developers build more maintainable systems.
+Esses são os princípios-chave da [Programação Orientada a Objetos](#todo). Os princípios de design como esses devem ajudar os desenvolvedores a criarem sistemas mais sustentáveis.
 
 ### O Princípio da Responsabilidade Única
 
 [The Single Responsibility Principle on Wikipedia](https://en.wikipedia.org/wiki/Single_responsibility_principle)
 
-> Every module or class should have a single responsibility only.
+> Cada módulo ou classe deve possuir apenas uma única responsabilidade.
 
-The first of the '[SOLID](#solid)' principles. This principle suggests that modules or classes should do one thing and one thing only. In more practical terms, this means that a single, small change to a feature of a program should require a change in one component only. For example, changing how a password is validated for complexity should require a change in only one part of the program.
+O primeiro dos princípios '[SOLID](#solid)'. Esse princípio sugere que módulos ou classes devem fazer apenas uma única coisa. Em termos mais práticos, isso significa que uma mudança simples a uma funcionalidade de um programa deve exigir uma mudança em apenas um componente. Por exemplo, mudar como uma senha é validada por complexidade deve exigir uma mudança em apenas uma parte do programa.
 
-Theoretically, this should make the code more robust, and easier to change. Knowing that a component which is being changed has a single responsibility only means that _testing_ that change should be easier. Using the earlier example, changing the password complexity component should only be able to affect the features which relate to password complexity. It can be much more difficult to reason about the impact of a change to a component which has many responsibilities.
+Teoricamente, isso deve tornar o código mais robusto, e fácil de ser mudado. Sabendo que um componente que está sendo alterado possui apenas uma responsabilidade siginfica que o _teste_ deverá ser mais fácil. Usando o exemplo anterior, trocar a complexidade do componente de senha deve afetar apenas as funcionalidades que são relacionadas com a complexidade de senha. Pode ser muito mais difícil argumentar sobre o impacto de uma alteração em um componente que tem muitas responsabilidades.
 
 Veja também:
 
@@ -611,13 +604,13 @@ Veja também:
 
 [The Open/Closed Principle on Wikipedia](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
 
-> Entities should be open for extension and closed for modification.
+> Entidades devem estar aberta para extensão e fechadas para modificação
 
-The second of the '[SOLID](#solid)' principles. This principle states that entities (which could be classes, modules, functions and so on) should be able to have their behaviour _extended_, but that their _existing_ behaviour should not be able to be modified.
+O segundo princípio do '[SOLID](#solid)'. Esse princípio afirma que entidades (que podem ser classes, módulos, funções e afins) poderão ter seu comportamento _extendido_, mas que o comportamento já existente não poderá ser alterado.
 
-As a hypothetical example, imagine a module which is able to turn a Markdown document into HTML. If the module could be extended to handle a newly proposed markdown feature, without modifying the module internals, then it would be open for extension. If the module could _not_ be modified by a consumer so that how existing Markdown features are handled, then it would be _closed_ for modification.
+Em um exemplo hipotético, imagine um módulo que converte um documento Markdown para HTML. Se o módulo pode ser extendido para aceitar uma nova funcionalidade do markdown, sem modificar a parte interna desse módulo, quer dizer que ele está aberto para extensões. Se o módulo _não_ pode ser modificado por um consumidor, de modo que as funcionalidades existentes do markdown sejam tratadas, então ele estará _fechado_ para modificações.
 
-This principle has particular relevance for object-oriented programming, where we may design objects to be easily extended, but would avoid designing objects which can have their existing behaviour changed in unexpected ways.
+Esse princípio tem uma relevância particular na orientação a objetos, onde nós projetamos objetos para serem facilmente extendidos, mas evitamos projetar objetos onde o comportamento existente pode ser alterado de maneiras inesperadas.
 
 Veja também:
 
@@ -628,13 +621,13 @@ Veja também:
 
 [The Liskov Substitution Principle on Wikipedia](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
 
-> It should be possible to replace a type with a subtype, without breaking the system.
+> Deve ser possível trocar um tipo por um subtipo, sem o sistema apresentar quebras.
 
-The third of the '[SOLID](#solid)' principles. This principle states that if a component relies on a type, then it should be able to use subtypes of that type, without the system failing or having to know the details of what that subtype is.
+O terceiro princípio '[SOLID](#solid)'. O princípio afirma que se um componente confia em um tipo, então ele deverá estar apto para utilizar subtipos daquele tipo, sem que o sistema falhe ou que ele conheça os detalhes daquele subtipo.
 
-As an example, imagine we have a method which reads an XML document from a structure which represents a file. If the method uses a base type 'file', then anything which derives from 'file' should be able to be used in the function. If 'file' supports seeking in reverse, and the XML parser uses that function, but the derived type 'network file' fails when reverse seeking is attempted, then the 'network file' would be violating the principle.
+Como um exemplo, imagine que temos um método que lê um documento XML de uma estrutura que representa um arquivo. Se o método utiliza a base de um tipo 'arquivo', então qualquer coisa que seja derivada de 'arquivo' poderá ser utilizada na função. Se 'arquivo' suporta busca recursiva, e o interpretador de XML utiliza essa função, mas o tipo derivado 'arquivo de rede' falha quando tenta uma busca recursiva, então o tipo 'arquivo de rede' estaria violando o princípio.
 
-This principle has particular relevance for object-oriented programming, where type hierarchies must be modeled carefully to avoid confusing users of a system.
+Esse princípio tem uma relevância particular na orientação a objetos, onde as hierarquias de tipos precisam ser modeladas com cautela para envitar confusão entre usuaríos do sistema.
 
 Veja também:
 
@@ -645,13 +638,15 @@ Veja também:
 
 [The Interface Segregation Principle on Wikipedia](https://en.wikipedia.org/wiki/Interface_segregation_principle)
 
-> No client should be forced to depend on methods it does not use.
+> Nenhum cliente deverá ser forçado a depender de métodos que ele não utilize.
 
-The fourth of the '[SOLID](#solid)' principles. This principle states that consumers of a component should not depend on functions of that component which it doesn't actually use.
+O quarto princípio do '[SOLID](#solid)'. Esse princípio afirma que os consumidores de um componente não devem depender de funções daquele componente, as quais eles atualmente não usem.
 
-As an example, imagine we have a method which reads an XML document from a structure which represents a file. It only needs to read bytes, move forwards or move backwards in the file. If this method needs to be updated because an unrelated feature of the file structure changes (such as an update to the permissions model used to represent file security), then the principle has been invalidated. It would be better for the file to implement a 'seekable-stream' interface, and for the XML reader to use that.
+Como um exemplo, imagine que um método lê um documento XML de uma estutura que representa um arquivo. O método apenas precisa ler os bytes, ir para frente ou para trás no arquivo. Se esse método precisar ser atualizado porque um recurso não relacionado da estrutura do arquivo é alterado (como uma atualização no modelo de permissões utilizado para representar a segurança do arquivo), o princípio foi invalidado. 
 
-This principle has particular relevance for object-oriented programming, where interfaces, hierarchies and abstract types are used to [minimise the coupling](#todo) between different components. [Duck typing](#todo) is a methodology which enforces this principle by eliminating explicit interfaces.
+As an example, imagine we have a method which reads an XML document from a structure which represents a file. It only needs to read bytes, move forwards or move backwards in the file. If this method needs to be updated because an unrelated feature of the file structure changes (such as an update to the permissions model used to represent file security), then the principle has been invalidated. Seria melhor para o arquivo implementar uma interface de 'fluxo procurável' e para o leitor XML usá-lo.
+
+Esse princípio tem uma relevância particular na orientação a objetos, onde interfaces, hierarquias e tipos abstratos são utilizados para [minimizar o acomplamento](#todo) entre componentes diferentes. [Duck typing]() é uma metodologia que enforça esse princípio, eliminando interfaces explícitas.
 
 Veja também:
 
@@ -664,13 +659,15 @@ Veja também:
 
 [The Dependency Inversion Principle on Wikipedia](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
 
-> High-level modules should not be dependent on low-level implementations.
+> Módulos de alto nível não devem ser dependentes de implementações de baixo nível.
 
-The fifth of the '[SOLID](#solid)' principles. This principle states that higher level orchestrating components should not have to know the details of their dependencies.
+O quinto conceito do '[SOLID](#solid)'. Esse princípio afirma que componentes 
 
-As an example, imagine we have a program which read metadata from a website. We would assume that the main component would have to know about a component to download the webpage content, then a component which can read the metadata. If we were to take dependency inversion into account, the main component would depend only on an abstract component which can fetch byte data, and then an abstract component which would be able to read metadata from a byte stream. The main component would not know about TCP/IP, HTTP, HTML, etc.
+The fifth of the '[SOLID](#solid)' principles. Esse princípio afirma que os componentes de orquestração de nível superior não precisam conhecer os detalhes de suas dependências.
 
-This principle is complex, as it can seem to 'invert' the expected dependencies of a system (hence the name). In practice, it also means that a separate orchestrating component must ensure the correct implementations of abstract types are used (e.g. in the previous example, _something_ must still provide the metadata reader component a HTTP file downloader and HTML meta tag reader). This then touches on patterns such as [Inversion of Control](#todo) and [Dependency Injection](#todo).
+Como um exemplo, imagine que temos um programa que lê os metadados de um website. Nós devemos assumir que o componente principal precisa conhecer um componente que irá baixar a página, depois um outro componente que irá ler os metadados. Se fôssemos levar a inversão de dependências em conta, o componente principal deveria depender apenas de um componente abstrato que pode buscar pelos bytes, e depois outro componente abstrato que irá ler os metadados de um fluxo de bytes. O componente principal não sabe nada sobre TCP/IP, HTTP, HTML, etc.
+
+Esse princípio é complexo, pois pode "inverter" as dependências esperadas de um sistema (daí o nome). Na prática, isso também significa que um componente de orquestração separado deve garantir que as implementações corretas dos tipos abstratos sejam usadas (por exemplo, no caso anterior, _algo_ ainda deve fornecer ao componente de leitura dos de metadados um downloader de arquivos HTTP e um leitor de metatags HTML). Isso toca em padrões como [Inversão de controle](#todo) e [Injeção de dependência](#todo).
 
 Veja também:
 
@@ -683,13 +680,13 @@ Veja também:
 
 [The DRY Principle on Wikipedia](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 
-> Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
+> Cada pedaço de código deve possuir uma representação única, inequívoca e autoritária dentro de um sistema.
 
-DRY is an acronym for _Don't Repeat Yourself_. This principle aims to help developers reducing the repetition of code and keep the information in a single place and was cited in 1999 by Andrew Hunt and Dave Thomas in the book [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+DRY é um acrônimo para _**D**on't **R**epeat **Y**ourself_ (Não repita você mesmo). Esse princípio ajuda os desenvolvedores a reduzir a repetição de código e manter a informação em um único lugar. Foi citado em 1999 por Andrew Hunt e Dave Thomas no livro [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer).
 
-> The opposite of DRY would be _WET_ (Write Everything Twice or We Enjoy Typing).
+> O oposto de DRY seria WET (Write Everything Twice or We Enjoy Typing) - (Escreva tudo duas vezes ou Nós gostamos de digitar).
 
-In practice, if you have the same piece of information in two (or more) different places, you can use DRY to merge them into a single one and reuse it wherever you want/need.
+Na prática, se você tem o mesmo pedaço de informação em dois (ou mais) lugares diferentes, você pode utilizar o DRY para centralizá-los em um único lugar, e reutilizar a informação onde necessário.
 
 Veja também:
 
@@ -699,11 +696,11 @@ Veja também:
 
 [KISS on Wikipedia](https://en.wikipedia.org/wiki/KISS_principle)
 
-> Keep it simple, stupid
+> Mantenha simples, idiota
 
-The KISS principle states that most systems work best if they are kept simple rather than made complicated; therefore, simplicity should be a key goal in design, and unnecessary complexity should be avoided.  Originating in the U.S. Navy in 1960, the phrase has been associated with aircraft engineer Kelly Johnson.
+KISS é um acrônimo para _**K**eep **i**t **s**imple, **s**tupid_. O princípio afirma que a maioria dos sistemas trabalham melhor se eles são mantidos simples ao invés de complicados. Portanto, simplicidade deve ser um objetivo no design, e complexidades desnecessárias devem ser evitadas. Originada na Marinha Americana em 1960, a frase foi associada com o engenheiro de aeronaves Kelly Johnson.
 
-The principle is best exemplified by the story of Johnson handing a team of design engineers a handful of tools, with the challenge that the jet aircraft they were designing must be repairable by an average mechanic in the field under combat conditions with only these tools. Hence, the "stupid" refers to the relationship between the way things break and the sophistication of the tools available to repair them, not the capabilities of the engineers themselves. 
+O princípio é melhor exemplificado pela história de Johnson entregando a uma equipe de engenheiros de projeto algumas ferramentas, com o desafio de que as aeronaves a jato que estavam projetando deveriam ser reparadas por um mecânico comum em campo sob condições de combate apenas com essas ferramentas. Portanto, o "estúpido" refere-se à relação entre a maneira como as coisas quebram e a sofisticação das ferramentas disponíveis para repará-las, e não as capacidades dos próprios engenheiros.
 
 Veja também:
 
@@ -713,15 +710,15 @@ Veja também:
 
 [YAGNI on Wikipedia](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
 
-This is an acronym for _**Y**ou **A**ren't **G**onna **N**eed **I**t_.
+É um acrônimo para _**Y**ou **A**ren't **G**onna **N**eed **I**t_ - Você não vai precisar disto.
 
-> Always implement things when you actually need them, never when you just foresee that you need them.
+> Sempre implemente as coisas quando você de fato precisar delas, nunca quando você prevê que precisará delas.
 >
-> ([Ron Jeffries](https://twitter.com/RonJeffries)) (XP co-founder and author of the book "Extreme Programming Installed")
+> ([Ron Jeffries](https://twitter.com/RonJeffries)) (XP co-founder e autor do livro "Extreme Programming Installed")
 
-This _Extreme Programming_ (XP) principle suggests developers should only implement functionality that is needed for the immediate requirements, and avoid attempts to predict the future by implementing functionality that might be needed later.
+Este princípio da _Extreme Programming_ (XP) sugere que os desenvolvedores apenas devem implementar funcionalidades quando elas forem necessárias, e evitar tentativas de prever o futuro e implementar uma funcionalidade que talvez seja necessária.
 
-Adhering to this principle should reduce the amount of unused code in the codebase, and avoid time and effort being wasted on functionality that brings no value.
+Aderir a esse princípio deve reduzir a quantidade de código não utilizado em um projeto, e evitar tempo e esforço sendo disperdiçados em funcionalidades que não agregam valor.
 
 Veja também:
 
@@ -731,22 +728,22 @@ Veja também:
 
 [The Fallacies of Distributed Computing on Wikipedia](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
 
-Also known as _Fallacies of Networked Computing_, the Fallacies are a list of conjectures (or beliefs) about distributed computing, which can lead to failures in software development. The assumptions are:
+Também conhecidas como as _Falácias da Computação em rede_, as Falácias são uma lista de conjecturas (ou crenças) sobre a computação distribuídas, que podem levar a falhas no desenvolvimento de software. As suposições são:
 
-- The network is reliable
-- Latency is zero
-- Bandwidth is infinite
-- The network is secure
-- Topology doesn't change
-- There is one administrator
-- Transport cost is zero
-- The network is homogeneous
+- A rede é confiável
+- A latência é zero
+- A largura de banda é infinita
+- A rede é segura
+- A topologia não muda
+- Existe apenas um administrador
+- Custo de transporte é zero
+- A rede é homogênea
 
-The first four items were listed by [Bill Joy](https://en.wikipedia.org/wiki/Bill_Joy) and [Tom Lyon](https://twitter.com/aka_pugs) around 1991 and first classified by [James Gosling](https://en.wikipedia.org/wiki/James_Gosling) as the "Fallacies of Networked Computing". [L. Peter Deutsch](https://en.wikipedia.org/wiki/L._Peter_Deutsch) added the 5th, 6th and 7th fallacies. In the late 90's Gosling added the 8th fallacy.
+Os primeiro quatro itens foram listados por [Bill Joy](https://en.wikipedia.org/wiki/Bill_Joy) e [Tom Lyon](https://twitter.com/aka_pugs) por volta de 1991, e foram classificados por [James Gosling](https://en.wikipedia.org/wiki/James_Gosling) como as "Falácias da Computação de rede". [L. Peter Deutsch](https://en.wikipedia.org/wiki/L._Peter_Deutsch) adicionou os itens 5, 6 e 7. No final dos anos 90, Gosling adicionou o item 8.
 
-The group were inspired by what was happening at the time inside [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems).
+O grupo foi inspirado pela situação que corria na época dentro da [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems).
 
-These fallacies should be considered carefully when designing code which is resilient; assuming any of these fallacies can lead to flawed logic which fails to deal with the realities and complexities of distributed systems.
+Essas falácias devem ser consideradas com cuidado ao projetar um código que seja resiliente; supondo que qualquer uma dessas falácias possa levar a uma lógica defeituosa que falha em lidar com as realidades e complexidades dos sistemas distribuídos
 
 Veja também:
 

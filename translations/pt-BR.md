@@ -12,51 +12,51 @@ Gostou deste projeto? Por favor, considere [me apoiar](https://github.com/sponso
 
 * [Introdução](#introdução)
 * [Leis](#leis)
-    * [Princípio 90-9-1 (Regra do 1%)](#princípio-90-9-1-regra-do-1)
-    * [Lei de Amdahl](#lei-de-amdahl)
-    * [Teoria das Janelas Quebradas](#teoria-das-janelas-quebradas)
-    * [Lei de Brook](#lei-de-brook)
-    * [Lei de Conway](#lei-de-conway)
-    * [Lei de Cunningham](#lei-de-cunningham)
-    * [Número de Dunbar](#número-de-dunbar)
-    * [Lei de Gall](#lei-de-gall)
-    * [Lei de Goodhart](#lei-de-goodhart)
-    * [Navalha de Hanlon](#navalha-de-hanlon)
-    * [Lei de Hofstadter](#lei-de-hofstadter)
-    * [Lei de Hutber](#lei-de-hutber)
-    * [O Ciclo Hype e Lei de Amara](#o-ciclo-hype-e-lei-de-amara)
-    * [Lei de Hyrum (Lei das Interfaces Implícitas)](#lei-de-hyrum-lei-das-interfaces-implícitas)
-    * [Lei de Kernighan](#lei-de-kernighan)
-    * [Lei de Metcalfe](#lei-de-metcalfe)
-    * [Lei de Moore](#lei-de-moore)
-    * [Lei de Murphy / Lei de Sod](#lei-de-murphy--lei-de-sod)
-    * [Navalha de Occam](#navalha-de-occam)
-    * [Lei de Parkinson](#lei-de-parkinson)
-    * [Efeito de Otimização Prematura](#efeito-de-otimização-prematura)
-    * [Lei de Putt](#lei-de-putt)
-    * [Lei de Reed](#lei-de-reed)
-    * [A Lei da Conservação da Complexidade (Lei de Tesler)](#a-lei-da-conservação-da-complexidade-lei-de-tesler)
-    * [A Lei das Abstrações Gotejantes](#a-lei-das-abstrações-gotejantes)
-    * [A Lei da Trivialidade](#a-lei-da-trivialidade)
-    * [A Filosofia Unix](#a-filosofia-unix)
-    * [O Modelo Spotify](#o-modelo-spotify)
-    * [Lei de Wadler](#lei-de-wadler)
-    * [Lei de Wheaton](#lei-de-wheaton)
+  * [Princípio 90-9-1 (Regra do 1%)](#princípio-90-9-1-regra-do-1)
+  * [Lei de Amdahl](#lei-de-amdahl)
+  * [Teoria das Janelas Quebradas](#teoria-das-janelas-quebradas)
+  * [Lei de Brook](#lei-de-brook)
+  * [Lei de Conway](#lei-de-conway)
+  * [Lei de Cunningham](#lei-de-cunningham)
+  * [Número de Dunbar](#número-de-dunbar)
+  * [Lei de Gall](#lei-de-gall)
+  * [Lei de Goodhart](#lei-de-goodhart)
+  * [Navalha de Hanlon](#navalha-de-hanlon)
+  * [Lei de Hofstadter](#lei-de-hofstadter)
+  * [Lei de Hutber](#lei-de-hutber)
+  * [O Ciclo Hype e Lei de Amara](#o-ciclo-hype-e-lei-de-amara)
+  * [Lei de Hyrum (Lei das Interfaces Implícitas)](#lei-de-hyrum-lei-das-interfaces-implícitas)
+  * [Lei de Kernighan](#lei-de-kernighan)
+  * [Lei de Metcalfe](#lei-de-metcalfe)
+  * [Lei de Moore](#lei-de-moore)
+  * [Lei de Murphy / Lei de Sod](#lei-de-murphy--lei-de-sod)
+  * [Navalha de Occam](#navalha-de-occam)
+  * [Lei de Parkinson](#lei-de-parkinson)
+  * [Efeito de Otimização Prematura](#efeito-de-otimização-prematura)
+  * [Lei de Putt](#lei-de-putt)
+  * [Lei de Reed](#lei-de-reed)
+  * [A Lei da Conservação da Complexidade (Lei de Tesler)](#a-lei-da-conservação-da-complexidade-lei-de-tesler)
+  * [A Lei das Abstrações Gotejantes](#a-lei-das-abstrações-gotejantes)
+  * [A Lei da Trivialidade](#a-lei-da-trivialidade)
+  * [A Filosofia Unix](#a-filosofia-unix)
+  * [O Modelo Spotify](#o-modelo-spotify)
+  * [Lei de Wadler](#lei-de-wadler)
+  * [Lei de Wheaton](#lei-de-wheaton)
 * [Princípios](#princípios)
-    * [O Princípio Dilbert](#o-princípio-dilbert)
-    * [O Princípio de Pareto (Regra do 80/20)](#o-princípio-de-pareto-regra-do-8020)
-    * [O Princípio de Peter](#o-princípio-de-peter)
-    * [O Princípio da Robustez (Lei de Postel)](#o-princípio-da-robustez-lei-de-postel)
-    * [SOLID](#solid)
-    * [O Princípio da Responsabilidade Única](#o-princípio-da-responsabilidade-única)
-    * [O Princípio do Aberto/Fechado](#o-princípio-do-abertofechado)
-    * [O Princípio da Substituição de Liskov](#o-princípio-da-substituição-de-liskov)
-    * [O Princípio da Segregação de Interface](#o-princípio-da-segregação-de-interface)
-    * [O Princípio da Inversão de Dependência](#o-princípio-da-inversão-de-dependência)
-    * [O Princípio DRY](#o-princípio-dry)
-    * [O Princípio KISS](#o-princípio-kiss)
-    * [YAGNI](#yagni)
-    * [As Falácias da Computação Distribuída](#as-falácias-da-computação-distribuída)
+  * [O Princípio Dilbert](#o-princípio-dilbert)
+  * [O Princípio de Pareto (Regra do 80/20)](#o-princípio-de-pareto-regra-do-8020)
+  * [O Princípio de Peter](#o-princípio-de-peter)
+  * [O Princípio da Robustez (Lei de Postel)](#o-princípio-da-robustez-lei-de-postel)
+  * [SOLID](#solid)
+  * [O Princípio da Responsabilidade Única](#o-princípio-da-responsabilidade-única)
+  * [O Princípio do Aberto/Fechado](#o-princípio-do-abertofechado)
+  * [O Princípio da Substituição de Liskov](#o-princípio-da-substituição-de-liskov)
+  * [O Princípio da Segregação de Interface](#o-princípio-da-segregação-de-interface)
+  * [O Princípio da Inversão de Dependência](#o-princípio-da-inversão-de-dependência)
+  * [O Princípio DRY](#o-princípio-dry)
+  * [O Princípio KISS](#o-princípio-kiss)
+  * [YAGNI](#yagni)
+  * [As Falácias da Computação Distribuída](#as-falácias-da-computação-distribuída)
 * [Lista de leitura](#lista-de-leitura)
 * [Traduções](#traduções)
 * [Projetos relacionados](#projetos-relacionados)
@@ -87,7 +87,7 @@ Exemplos do mundo real:
 
 Veja também:
 
-- [O Princípio de Pareto (Regra do 80/20)](#the-pareto-principle-the-8020-rule)
+- [O Princípio de Pareto (Regra do 80/20)](#o-princípio-de-pareto-regra-do-8020)
 
 ### Lei de Amdahl
 
@@ -168,7 +168,7 @@ Veja também:
 
 [Número de Dunbar na Wikipedia](https://en.wikipedia.org/wiki/Dunbar%27s_number)
 
-[Dumbar] propós que humanos só conseguem manter de forma confortável, 150 relacionamentos estáveis. Esse número está mais em um contexto social, "o número de pessoas que você não se sentiria sem graça para se juntar em uma bebiba se esbarrase com ela em um bar". Esse número geralmente está entra 100 e 250.
+Dunbar propós que humanos só conseguem manter de forma confortável, 150 relacionamentos estáveis. Esse número está mais em um contexto social, "o número de pessoas que você não se sentiria sem graça para se juntar em uma bebiba se esbarrase com ela em um bar". Esse número geralmente está entra 100 e 250.
 
 Esse número é uma sugestão cognitiva limite para o número de pessoass para qual consegue-se manter uma relação social estável.
 
@@ -176,7 +176,7 @@ Como uma relação entre pessoas, manter uma relação entre desenvolvedor e cod
 
 Veja também:
 
-- [Lei de Conwy](#lei-de-conway)
+- [Lei de Conway](#lei-de-conway)
 
 ### Lei de Gall
 
@@ -190,7 +190,7 @@ Um exemplo clássico é a world-wide-web. Em seu estado atual, ela é um sistema
 
 Veja também:
 
-- [KISS (Keep It Simple, Stupid)](#the-kiss-principle)
+- [KISS (Keep It Simple, Stupid)](#o-princípio-kiss)
 
 ### Lei de Goodhart
 
@@ -252,12 +252,12 @@ Essa lei sugere que melhorias em um sistema irão levar à deterioração em out
 
 Por exemplo, a diminuição na latência da resposta para um `end-point` particular pode causar um aumento na taxa de transferência e na capacidade ao longo de um fluxo de solicitação, afetando um subsistema totalmente diferente.
 
-### O Ciclo Hype e Lei de Amara
 
+### O Ciclo Hype e Lei de Amara
 
 [The ciclo Hype on Wikipedia](https://en.wikipedia.org/wiki/Hype_cycle)
 
->Nós tendemos a superestimar os efeitos da tecnologia em curto prazo e subestimar os efeitos a longo prazo.
+> Nós tendemos a superestimar os efeitos da tecnologia em curto prazo e subestimar os efeitos a longo prazo.
 >
 > Roy Amara
 
@@ -273,13 +273,12 @@ Em curto prazo, o ciclo sugere que acontece uma explosão de empolgação a cerc
 
 [Lei de Hyrum site](http://www.hyrumslaw.com/)
 
-
->Com um número suficientes de clientes de uma API,
->não importa a sua pré-condição no contato:
->todos os comportamentos observáveis do seu sistema
->serão dependentes de alguém.
+> Com um número suficientes de clientes de uma API,
+> não importa a sua pré-condição no contato:
+> todos os comportamentos observáveis do seu sistema
+> serão dependentes de alguém.
 >
-> (Hyrum Wright)
+> Hyrum Wright
 
 A lei de Hyrum sugere que quando você tem um número muito grande de consumidores de uma API, todos os comportamentos dessa API (mesmo aqueles que não estão definidos como parte de um contrato público) eventualmente irão dependender de outra parte do sistema, ou outra API. Um exemplo trivial pode ser elementos não funcionais, como o tempo de resposta de uma API. Um exemplo mais sutil pode ser os consumidores que estão confiando em aplicar um regex a uma mensagem de erro para determinar o _tipo_ de erro de uma API. Mesmo que o contrato público da API não especifique nada sobre o conteúdo da mensagem, indicando que os usuários devem usar um código de erro associado, alguns usuários podem usar a mensagem e alterar a mensagem essencialmente interrompe a API para esses usuários.
 
@@ -287,11 +286,12 @@ Veja Também:
 
 - [XKCD 1172](https://xkcd.com/1172/)
 
+
 ### Lei de Kernighan
 
 > A depuração é duplamente mais difícil do que escrever o código em primeiro lugar. Portanto, se você escrever o código da maneira mais inteligente possível, por definição, você não é inteligente o sufiencte para depurá-lo.
 >
-> (Brian Kernighan)
+> Brian Kernighan
 
 A Lei de Kerningham é nomeada por [Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan) e devivada de uma citação de Kerningham no livro [The Elements of Programming Style](https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style):
 
@@ -301,9 +301,10 @@ Enquanto hiperbólica, a Lei de Kerningham faz a argumentação de que código s
 
 Veja também:
 
-- [The KISS Principle](#the-kiss-principle)
-- [The Unix Philosophy](#the-unix-philosophy)
-- [Occam's Razor](#occams-razor)
+- [Princípio KISS](#o-princípio-kiss)
+- [Filosofia Unix](#a-filosofia-unix)
+- [Navalha de Occam](#navalha-de-occam)
+
 
 ### Lei de Metcalfe
 
@@ -311,11 +312,11 @@ Veja também:
 
 > Na teoria das redes, o valor de um sistema cresce aproximadamente o quadrado do número de usuários daquele sistema.
 
-Esta lei é baseada no número de possíveis conexões pareadas dentro de um sistema e é relacionada com a [Lei de Reed](#reeds-law). Odlyzko e outros argumentaram que tanto a Lei de Reed e a Lei de Metcalfe exageram o valor do sistema, não levando em consideração os limites da cognição humana sobre os efeitos da rede; veja [Dunbar's Number](#dunbars-number).
+Esta lei é baseada no número de possíveis conexões pareadas dentro de um sistema e é relacionada com a [Lei de Reed](#lei-de-reed). Odlyzko e outros argumentaram que tanto a Lei de Reed e a Lei de Metcalfe exageram o valor do sistema, não levando em consideração os limites da cognição humana sobre os efeitos da rede; veja [Número de Dunbar](#número-de-dunbar).
 
 Veja também:
-- [Reed's Law](#reeds-law)
-- [Dunbar's Number](#dunbars-number)
+- [Lei de Reed](#lei-de-reed)
+- [Número de Dunbar](#número-de-dunbar)
 
 ### Lei de Moore
 
@@ -351,7 +352,7 @@ Veja também:
 
 ### Navalha de Occam
 
-[Occam's Razor on Wikipedia](https://en.wikipedia.org/wiki/Occam's_razor)
+[Navalha de Occam on Wikipedia](https://en.wikipedia.org/wiki/Occam's_razor)
 
 > Entidades não devem ser multiplicadas sem necessidade.
 >
@@ -402,8 +403,8 @@ Estas declarações sugerem que devido a vários critérios de seleção e tend�
 
 Veja também:
 
-- [O Principio de Peter](#em-progresso)
-- [Lei de Dilbert](#em-progresso).
+- [Principio de Peter](#o-princípio-de-peter)
+- [Princípio de Dilbert](#o-princípio-dilbert)
 
 ### Lei de Reed
 
@@ -411,11 +412,11 @@ Veja também:
 
 > A utilidade de grandes redes, particularmente redes sociais, escalam exponencialmente com o tamanho da própria rede.
 
-Essa lei é baseada na teoria dos grafos, onde a utilidade é escalonada com o número de possíveis subgrupos, que é mais rápido que o número de participantes ou o número de possíveis conexões pareadas. Odlyzko e outros argumentam que a Lei de Reed exagera a utilidade de um sistema por não levar em conta os limites da cognição humana sobre os efeitos da rede; veja [Dunbar's Number](#dunbars-number).
+Essa lei é baseada na teoria dos grafos, onde a utilidade é escalonada com o número de possíveis subgrupos, que é mais rápido que o número de participantes ou o número de possíveis conexões pareadas. Odlyzko e outros argumentam que a Lei de Reed exagera a utilidade de um sistema por não levar em conta os limites da cognição humana sobre os efeitos da rede; veja [Número de Dunbar](#número-de-dunbar).
 
 Veja também:
-- [Metcalfe's Law](#metcalfes-law)
-- [Dunbar's Number](#dunbars-number)
+- [Lei de Metcalfe](##lei-de-metcalfe)
+- [Número de Dunbar](#número-de-dunbar)
 
 ### A Lei da Conservação da Complexidade (Lei de Tesler)
 
@@ -441,7 +442,7 @@ O exemplo acima pode se tormar mais complexo quando _mais_ abstrações são int
 
 Veja também:
 
-- [Hyrum's Law](#hyrums-law-the-law-of-implicit-interfaces)
+- [Lei de Hyrum](#lei-de-hyrum-lei-das-interfaces-implícitas)
 
 Exemplos do mundo real:
 
@@ -480,14 +481,14 @@ O Modelo Spotify também popularizou o conteido de Tribos, Guildas, Capítulos, 
 
 > Em qualquer design de linguagem, o tempo total gasto discutindo a uma funcionalidade nessa lista é proporcional a dois elevados à potência de sua posição.
 > 
-> 0. Semantics
-> 1. Syntax
-> 2. Lexical syntax
-> 3. Lexical syntax of comments
+> 0. Semântica
+> 1. Sintaxe
+> 2. Sintaxe léxica
+> 3. Sintaxe léxica de comentários
 >
 > (Em resumo, para cada hora gasta em semântica, 8 horas serão gastas na sintaxe de comentários)
 
-Semelhante à [Lei da Trivialidade](), a Lei de Wadler afirma que quando projetamos uma linguagem, o tempo gasto em estruturas é desproporcionalmente maior do que a imporância dessas funcionalidades.
+Semelhante à [Lei da Trivialidade](#a-lei-da-trivialidade), a Lei de Wadler afirma que quando projetamos uma linguagem, o tempo gasto em estruturas é desproporcionalmente maior do que a imporância dessas funcionalidades.
 
 Veja também:
 
@@ -517,12 +518,12 @@ Os princípios são como diretrizes relacionadas à design.
 >
 > _Scott Adams_
 
-Um conceito de gerência desenvolvido por Scott Adams (criador da tirinha Dilbert), o Princípio de Dilbert é inspirado pelo [Princípio de Peter](). Sob o Princípio de Dilbert, funcionários que nunca foram competentes são promovidos para a gerência, para limitar o estrago que eles podem causar. Adams explicou esse princípio pela primeira vez um artigo no Wall Street Journal, em 1995, e o expandiu para seu livro de negócios em 1996, o [The Dilbert Principle](#reading-list).
+Um conceito de gerência desenvolvido por Scott Adams (criador da tirinha Dilbert), o Princípio de Dilbert é inspirado pelo [Princípio de Peter](#o-princípio-de-peter). Sob o Princípio de Dilbert, funcionários que nunca foram competentes são promovidos para a gerência, para limitar o estrago que eles podem causar. Adams explicou esse princípio pela primeira vez um artigo no Wall Street Journal, em 1995, e o expandiu para seu livro de negócios em 1996, o [The Dilbert Principle](#lista-de-leitura).
 
 Veja também:
 
-- [The Peter Principle](#the-peter-principle)
-- [Putt's Law](#putts-law)
+- [Princípio de Peter](#o-princípio-de-peter)
+- [Lei de Putt](#lei-de-putt)
 
 ### O Princípio de Pareto (Regra do 80/20)
 
@@ -644,8 +645,6 @@ O quarto princípio do '[SOLID](#solid)'. Esse princípio afirma que os consumid
 
 Como um exemplo, imagine que um método lê um documento XML de uma estutura que representa um arquivo. O método apenas precisa ler os bytes, ir para frente ou para trás no arquivo. Se esse método precisar ser atualizado porque um recurso não relacionado da estrutura do arquivo é alterado (como uma atualização no modelo de permissões utilizado para representar a segurança do arquivo), o princípio foi invalidado. 
 
-As an example, imagine we have a method which reads an XML document from a structure which represents a file. It only needs to read bytes, move forwards or move backwards in the file. If this method needs to be updated because an unrelated feature of the file structure changes (such as an update to the permissions model used to represent file security), then the principle has been invalidated. Seria melhor para o arquivo implementar uma interface de 'fluxo procurável' e para o leitor XML usá-lo.
-
 Esse princípio tem uma relevância particular na orientação a objetos, onde interfaces, hierarquias e tipos abstratos são utilizados para [minimizar o acomplamento](#todo) entre componentes diferentes. [Duck typing]() é uma metodologia que enforça esse princípio, eliminando interfaces explícitas.
 
 Veja também:
@@ -662,8 +661,6 @@ Veja também:
 > Módulos de alto nível não devem ser dependentes de implementações de baixo nível.
 
 O quinto conceito do '[SOLID](#solid)'. Esse princípio afirma que componentes 
-
-The fifth of the '[SOLID](#solid)' principles. Esse princípio afirma que os componentes de orquestração de nível superior não precisam conhecer os detalhes de suas dependências.
 
 Como um exemplo, imagine que temos um programa que lê os metadados de um website. Nós devemos assumir que o componente principal precisa conhecer um componente que irá baixar a página, depois um outro componente que irá ler os metadados. Se fôssemos levar a inversão de dependências em conta, o componente principal deveria depender apenas de um componente abstrato que pode buscar pelos bytes, e depois outro componente abstrato que irá ler os metadados de um fluxo de bytes. O componente principal não sabe nada sobre TCP/IP, HTTP, HTML, etc.
 
@@ -704,7 +701,7 @@ O princípio é melhor exemplificado pela história de Johnson entregando a uma 
 
 Veja também:
 
-- [Gall's Law](#galls-law)
+- [Lei de Gall](#lei-de-gall)
 
 ### YAGNI
 
@@ -722,7 +719,7 @@ Aderir a esse princípio deve reduzir a quantidade de código não utilizado em 
 
 Veja também:
 
-- [Reading List: Extreme Programming Installed](#reading-list)
+- [Reading List: Extreme Programming Installed](#lista-de-leitura)
 
 ### As Falácias da Computação Distribuída
 

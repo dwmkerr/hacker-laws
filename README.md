@@ -208,6 +208,20 @@ See also:
 
 - [Conway's Law](#conways-law)
 
+### Fitts' Law
+
+[Fitts' Law on Wikipedia](https://en.wikipedia.org/wiki/Fitts%27s_law)
+
+Fitts' law predicts that the time required to move to a target area is a function of the distance to the target divided by the width of the target.
+
+<img width="300px" alt="Diagram: Fitts Law" src="./images/Fitts_Law.svg" />
+
+The consequences of this law dictate that when designing UX or UI, interactive elements should be as large as possible and the distance between the users attention area and interactive element should be as small as possible, i.e grouping tasks that are commonly used with one another close.
+
+See also:
+
+- [The information capacity of the human motor system in controlling the amplitude of movement.](https://www.semanticscholar.org/paper/The-information-capacity-of-the-human-motor-system-Fitts/634c9fde5f1c411e4487658ac738dcf18d98ea8d)
+
 ### Gall's Law
 
 [Gall's Law on Wikipedia](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)

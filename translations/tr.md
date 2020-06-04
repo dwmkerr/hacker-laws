@@ -165,6 +165,10 @@ Teorinin ismi, garanti edilmeye çalışılan kavramların ilk harflerinden (Con
 
 Çoğu modern veritabanı platformu, veritabanı kullanıcılarına yüksek düzeyde kullanılabilirlik ('kirli okuma' içerebilir) veya yüksek düzeyde tutarlık (örneğin 'yeterli çoğunlukla onaylanmış yazma') arasında seçim yapma seçeneği sunarak bu teoremi örtük olarak kabul eder.
 
+Gerçek dünyadan örnekler:
+
+- [Google Cloud Spanner ve CAP Teorisi](https://cloud.google.com/blog/products/gcp/inside-cloud-spanner-and-the-cap-theorem) - İlk olarak CAP garantilerinin *hepsine* sahip gibi görünen, ancak kaputun altında bir CP sistemi olan Cloud Spanner'ın nasıl çalıştığının ayrıntıları anlatılıyor.
+
 Ek kaynaklar:
 
 - [ACID](#TODO)
@@ -209,7 +213,7 @@ Ek kaynaklar:
 
 [Wikipedia'da Gall Yasası](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
 
-> Çalışan karmaşık bir sistemin her zaman işe yarayan daha basit bir sistemden evrimleştiği kesinlikle söylenebilir. Başlangıçtan itibaren karmaşık tasarlanmış bir sistemin asla çalışmayacağı ve sonradan da düzeltilemeyeceği kesindir. Çalışsan daha basit bir sistem ile başlamanız gerekir. ([John Gall](https://en.wikipedia.org/wiki/John_Gall_(author)))
+> Çalışan karmaşık bir sistemin her zaman işe yarayan daha basit bir sistemden evrimleştiği kesinlikle söylenebilir. Başlangıçtan itibaren karmaşık tasarlanmış bir sistemin asla çalışmayacağı ve sonradan da düzeltilemeyeceği kesindir. Çalışsan daha basit bir sistem ile başlamanız gerekir. ([John Gall](https://en.wikipedia.org/wiki/John_Gall_(author))) ([John Gall](https://en.wikipedia.org/wiki/John_Gall_(author)))
 > ([John Gall](https://en.wikipedia.org/wiki/John_Gall_(author)))
 
 Gall Yasası der ki, çok karmaşık sistemleri *tasarlamaya* çalışmak her zaman başarısızlıkla sonuçlanır. Bu tür sistemlerin ilk denemede başarılı olmaları çok nadir görülür ama genellikle basit sistemlerden evrilirler.
@@ -224,7 +228,7 @@ Ek kaynaklar:
 
 [Wikipedia'da Goodhart Yasası](https://en.wikipedia.org/wiki/Goodhart's_law)
 
-> Gözlemlenen herhangi bir istatistiksel düzenlilik, kontrol amaçları için üzerine baskı uygulandığında çökme eğiliminde olacaktır. *Charles Goodhart*
+> Gözlemlenen herhangi bir istatistiksel düzenlilik, kontrol amaçları için üzerine baskı uygulandığında çökme eğiliminde olacaktır. *Charles Goodhart* *Charles Goodhart*
 > *Charles Goodhart*
 
 Ayrıca şu şekilde de ifade edilir:
@@ -272,7 +276,7 @@ Ek kaynaklar:
 
 [Wikipedia'da Hutber Yasası ](https://en.wikipedia.org/wiki/Hutber%27s_law)
 
-> İyileştirme, bozulma anlamına da gelir. ([Patrick Hutber](https://en.wikipedia.org/wiki/Patrick_Hutber))
+> İyileştirme, bozulma anlamına da gelir. ([Patrick Hutber](https://en.wikipedia.org/wiki/Patrick_Hutber)) ([Patrick Hutber](https://en.wikipedia.org/wiki/Patrick_Hutber))
 > ([Patrick Hutber](https://en.wikipedia.org/wiki/Patrick_Hutber))
 
 Bu yasa der ki; sistemde yapılan bir iyileştirme sistemin diğer taraflarında bozulmaya sebep olabilir ya da başka bozuklukları gizleyebilir, bu da sistemin mevcut durumunun daha da bozulmasına sebep olabilir.
@@ -283,7 +287,7 @@ Bu yasa der ki; sistemde yapılan bir iyileştirme sistemin diğer taraflarında
 
 [Wikipedia'da Hype Döngüsü](https://en.wikipedia.org/wiki/Hype_cycle)
 
-> Bir teknolojinin kısa vadede oluşacak etkisini abartıp, uzun vadede oluşacak etkisini hafife alıyoruz. (Roy Amara)
+> Bir teknolojinin kısa vadede oluşacak etkisini abartıp, uzun vadede oluşacak etkisini hafife alıyoruz. (Roy Amara) (Roy Amara)
 > (Roy Amara)
 
 Hype Döngüsü bir teknolojinin zamanla yarattığı heyecan ve gelişiminin görsel olarak sunumudur ve Gartner tarafından ilk olarak oluşturulmuştur. En güzel anlatım aşağıdaki bir görsel ile yapılabilir:
@@ -298,7 +302,7 @@ Kısaca anlatmak gerekirse, bu döngü her yeni teknolojinin ilk zamanlarında t
 
 [Hyrum Yasası Web Sitesi](http://www.hyrumslaw.com/)
 
-> Belli sayıda kullanıcıya ulaştığında, servis sözleşmesinde ne demiş olduğunuzdan bağımsız olarak ürününüzün ya da sisteminizin bütün gözlemlenebilir davranışları artık üçüncü kişilere göre şekillenecektir. (Hyrum Wright)
+> Belli sayıda kullanıcıya ulaştığında, servis sözleşmesinde ne demiş olduğunuzdan bağımsız olarak ürününüzün ya da sisteminizin bütün gözlemlenebilir davranışları artık üçüncü kişilere göre şekillenecektir. (Hyrum Wright) (Hyrum Wright)
 > (Hyrum Wright)
 
 Hyrum Yasası göre, eğer bir API'nin *oldukça büyük sayılabilecek sayıda kullanıcısı* olduğunda, artık bütün sonuçlar ve davranışlar (API sözleşmesinde belirtilmemiş olsalar bile) kullanıcılara göre şekillenecektir. Buna bir örnek olarak bir API'nin tepki süresi olabilir. Daha kapsamlı bir örnek olarak kullanıcıların bir regex ile dönen cevap metninin içinden hatanın *tipini* ayıkladıkları bir senaryoyu düşünelim. API sözleşmesinde bu cevap metinleri ile ilgili bir şey belirtilmemiş olmasına ve kullanıcıların hata kodunu kullanmalarını belirtilmesine rağmen, cevap metnini değiştirmeniz *bazı* kullanıcıların metni kullanmalarından dolayı hata ile karşılaşmalarına sebep olacaktır.
@@ -310,7 +314,7 @@ Ek kaynaklar:
 
 ### Kernighan Yasası
 
-> Kodda hata ayıklama yapmak, o kodun sıfırdan yazılmasından iki kat daha zordur. Dolayısıyla, yazdığın bir kodu hatasız yazdığını düşünüyorsan, tanım olarak o koddaki hatayı ayıklayacak kadar zeki değilsin demektir. (Brian Kernighan)
+> Kodda hata ayıklama yapmak, o kodun sıfırdan yazılmasından iki kat daha zordur. Dolayısıyla, yazdığın bir kodu hatasız yazdığını düşünüyorsan, tanım olarak o koddaki hatayı ayıklayacak kadar zeki değilsin demektir. (Brian Kernighan) (Brian Kernighan)
 > (Brian Kernighan)
 
 Kernighan Yasası adını [Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan)'dan almıştır ve "[The Elements of Programming Style](https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style)" adlı Kernighan ve Plauger tarafından yazılan kitaptaki bir cümleden türetilmiştir:
@@ -369,7 +373,7 @@ Ek kaynaklar:
 
 [Wikipedia'da Occam'ın Usturası](https://en.wikipedia.org/wiki/Occam's_razor)
 
-> Çözümün elemanları sebep olmaksızın çoğaltılmamalıdır. Ockham'lı William
+> Çözümün elemanları sebep olmaksızın çoğaltılmamalıdır. Ockham'lı William Ockham'lı William
 > Ockham'lı William
 
 Occam'ın usturası, birkaç olası çözüm arasında en olası çözümün, en az sayıda kavram ve varsayımı olan çözüm olduğunu söylüyor. Bu çözüm en basit olandır ve yanlışlıkla ortaya çıkan karmaşıklığa ya da olası olumsuz sonuçlara sebep olmadan sadece verilen sorunu çözer.
@@ -401,7 +405,7 @@ Ek kaynaklar:
 
 [WikiWikiWeb'de Olgunlaşmamış Optimizasyon Etkisi](http://wiki.c2.com/?PrematureOptimization)
 
-> Vakti gelmeden gelmeden yapılan optimizasyon bütün kötülüklerin anasıdır. [(Donald Knuth)](https://twitter.com/realdonaldknuth?lang=en)
+> Vakti gelmeden gelmeden yapılan optimizasyon bütün kötülüklerin anasıdır. [(Donald Knuth)](https://twitter.com/realdonaldknuth?lang=en) [(Donald Knuth)](https://twitter.com/realdonaldknuth?lang=en)
 > [(Donald Knuth)](https://twitter.com/realdonaldknuth?lang=en)
 
 Donald Knuth yazdığı [Structured Programming With Go To Statements](http://wiki.c2.com/?StructuredProgrammingWithGoToStatements) isimli makalede, "Programcılar, programlarının kritik olmayan bölümlerinin hızını düşünerek veya endişelenerek çok fazla zaman harcarlar ve bu bakış açısı ile yaptıkları verimlilik geliştirmelerin hata ayıklama ve bakım yapma aşamalarına çok olumsuz etkileri olur. Kesinlikle bu tarz küçük geliştirmeleri (zamanımızın %97'sini harcadığımız) göz ardı etmeliyiz, **Vakti gelmeden yapılan optimizasyon bütün kötülüklerin anasıdır** gerçeğini unutmamalılıyız. Yine de, geride kalan % 3'teki kritik fırsatları kaçırmamalıyız."
@@ -519,7 +523,7 @@ Spotify Modeli kabileler (Tribes), birlikler (Guilds) ve kısımlar (Chapter) gi
 > 1. Semantik
 > 2. Genel sözdizimi
 > 3. Sözcük sözdizimi
-> 4. Yorumlardaki sözcük sözdizimi (Kısaca semantic için harcanan her bir saat için yorumlardaki sözcük sözdizimi için sekiz saat harcanacaktır).
+> 4. Yorumlardaki sözcük sözdizimi (Kısaca semantic için harcanan her bir saat için yorumlardaki sözcük sözdizimi için sekiz saat harcanacaktır). (Kısaca semantic için harcanan her bir saat için yorumlardaki sözcük sözdizimi için sekiz saat harcanacaktır).
 > (Kısaca semantic için harcanan her bir saat için yorumlardaki sözcük sözdizimi için sekiz saat harcanacaktır).
 
 [Önemsizlik Yasasında](#the-law-of-triviality) öne sürülene benzer olarak, Wadler Yasası yeni bir programlama dili tasarlanırken konunun önemi ile o konu için harcanan zaman ters orantılı olduğunu söylüyor.
@@ -547,7 +551,7 @@ Prensiplerin genellikle tasarıma ilişkin rehberlerdir.
 
 [Bruce F. Webster'e göre Ölü Deniz Etkisi](http://brucefwebster.com/2008/04/11/the-wetware-crisis-the-dead-sea-effect/)
 
-> "... [E]n yetenekli ve verimli BT mühendisleri şirketleri terketmeye en yakın olanlardır, [kalıcı olma taraftarı olanlar] ise tortuya (daha az yetenekli ve verimsiz) benzetilebilir"
+> "... [E]n yetenekli ve verimli BT mühendisleri şirketleri terketmeye en yakın olanlardır, [kalıcı olma taraftarı olanlar] ise tortuya (daha az yetenekli ve verimsiz) benzetilebilir" *Bruce F. Webster*
 > *Bruce F. Webster*
 
 "Ölü Deniz Etkisi" bir organizasyonda mühendislerin becerilerinin/yeteneklerinin/verimliliklerinin  sıklıkla o organizasyonda harcadıkları zamanla ters orantılı olduğunu söyler.
@@ -789,7 +793,7 @@ Grup [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems) içinde 
 
 Dayanıklı sistemler tasarlarken bu yanılgılar dikkatlice ele alınmalı; bu yanılgılardan herhangi birinin varsayılması, dağıtılmış sistemlerin gerçeklikleri ve karmaşıklıkları ile başa çıkamayan hatalı bir mantığa yol açabilir.
 
-See also:
+Ek kaynaklar:
 
 - [Foraging for the Fallacies of Distributed Computing (Part 1) - Vaidehi Joshi on Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
 - [Deutsch's Fallacies, 10 Years After](http://java.sys-con.com/node/38665)
@@ -810,19 +814,19 @@ Katkıda bulunan harika insanlar sayesinde Hacker Laws birçok dilde mevcuttur. 
 
 Dil | Moderatör | Durum
 --- | --- | ---
-[🇮🇩 Bahasa Indonesia / Indonesian](./translations/pt-BR.md) | [arywidiantara](https://github.com/arywidiantara) | [](https://gitlocalize.com/repo/2513/de?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/de/badge.svg)
-[🇧🇷 Brasileiro / Brazilian](./translations/pt-BR.md) | [Leonardo Costa](https://github.com/leofc97) | [](https://gitlocalize.com/repo/2513/id?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/id/badge.svg)
+[🇮🇩 Bahasa Indonesia / Indonesian](./translations/pt-BR.md) | [arywidiantara](https://github.com/arywidiantara) | [](https://gitlocalize.com/repo/2513/ja?utm_source=badge)[](https://gitlocalize.com/repo/2513/lv?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/lv/badge.svg)[![gitlocalized ](https://gitlocalize.com/repo/2513/ja/badge.svg)](https://gitlocalize.com/repo/2513/ja?utm_source=badge)
+[🇧🇷 Brasileiro / Brazilian](./translations/pt-BR.md) | [Leonardo Costa](https://github.com/leofc97) | [](https://gitlocalize.com/repo/2513/de?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/de/badge.svg)
 [🇨🇳 中文 / Chinese](https://github.com/nusr/hacker-laws-zh) | [Steve Xu](https://github.com/nusr) | Kısmen tamamlandı
 [🇩🇪 Deutsch / German](./translations/de.md) | [Vikto](https://github.com/viktodergunov) | [](https://gitlocalize.com/repo/2513/lv?utm_source=badge)[](https://gitlocalize.com/repo/2513/tr?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/tr/badge.svg)[![gitlocalized ](https://gitlocalize.com/repo/2513/lv/badge.svg)](https://gitlocalize.com/repo/2513/lv?utm_source=badge)
-[🇫🇷 Français / French](./translations/fr.md) | [Kevin Bockelandt](https://github.com/KevinBockelandt) | [](https://gitlocalize.com/repo/2513/de?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/de/badge.svg)
-[🇬🇷 ελληνικά / Greek](./translations/el.md) | [Panagiotis Gourgaris](https://github.com/0gap) | [](https://gitlocalize.com/repo/2513/ja?utm_source=badge)[](https://gitlocalize.com/repo/2513/lv?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/lv/badge.svg)[![gitlocalized ](https://gitlocalize.com/repo/2513/ja/badge.svg)](https://gitlocalize.com/repo/2513/ja?utm_source=badge)
+[🇫🇷 Français / French](./translations/fr.md) | [Kevin Bockelandt](https://github.com/KevinBockelandt) | [](https://gitlocalize.com/repo/2513/tr?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/tr/badge.svg)
+[🇬🇷 ελληνικά / Greek](./translations/el.md) | [Panagiotis Gourgaris](https://github.com/0gap) | [](https://gitlocalize.com/repo/2513/id?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/id/badge.svg)
 [🇮🇹 Italiano / Italian](https://github.com/csparpa/hacker-laws-it) | [Claudio Sparpaglione](https://github.com/csparpa) | Kısmen tamamlandı
 [🇯🇵 JP 日本語 / Japanese](./translations/jp.md) | [Fumikazu Fujiwara](https://github.com/freddiefujiwara) | [](https://gitlocalize.com/repo/2513/fr?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/fr/badge.svg)
 [🇰🇷 한국어 / Korean](https://github.com/codeanddonuts/hacker-laws-kr) | [Doughnut](https://github.com/codeanddonuts) | Kısmen tamamlandı
 [🇱🇻 Latviešu Valoda / Latvian](./translations/lv.md) | [Arturs Jansons](https://github.com/iegik) | [](https://gitlocalize.com/repo/2513/lv?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/lv/badge.svg)
 [🇷🇺 Русская версия / Russian](https://github.com/solarrust/hacker-laws) | [Alena Batitskaya](https://github.com/solarrust) | Kısmen tamamlandı
 [🇪🇸 Castellano / Spanish](./translations/es-ES.md) | [Manuel Rubio](https://github.com/manuel-rubio) ([Sponsor](https://github.com/sponsors/manuel-rubio)) | Kısmen tamamlandı
-[🇹🇷 Türkçe / Turkish](https://github.com/umutphp/hacker-laws-tr) | [Umut Işık](https://github.com/umutphp) | [](https://gitlocalize.com/repo/2513/tr?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/tr/badge.svg)
+[🇹🇷 Türkçe / Turkish](https://github.com/umutphp/hacker-laws-tr) | [Umut Işık](https://github.com/umutphp) | [](https://gitlocalize.com/repo/2513/de?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/de/badge.svg)
 
 Bir çeviriyi güncellemek isterseniz, [bir PR açmanız yeterlidir](https://github.com/dwmkerr/hacker-laws/pulls) . Yeni bir dil eklemek istiyorsanız, bir hesap oluşturmak için [GitLocalize'a](https://gitlocalize.com/) giriş yapın, ardından dili yönetmek istediğinizi belirten bir Issue açın; sizi projeye ekleyeceğim! Yukarıdaki tabloyu güncelleyen bir PR açabilmeniz de çok yararlı olacaktır.
 

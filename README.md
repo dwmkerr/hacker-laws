@@ -20,6 +20,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
     * [Conway's Law](#conways-law)
     * [Cunningham's Law](#cunninghams-law)
     * [Dunbar's Number](#dunbars-number)
+    * [Fitts' Law](#fitts-law)
     * [Gall's Law](#galls-law)
     * [Goodhart's Law](#goodharts-law)
     * [Hanlon's Razor](#hanlons-razor)
@@ -216,7 +217,9 @@ Fitts' law predicts that the time required to move to a target area is a functio
 
 <img width="300px" alt="Diagram: Fitts Law" src="./images/Fitts_Law.svg" />
 
-The consequences of this law dictate that when designing UX or UI, interactive elements should be as large as possible and the distance between the users attention area and interactive element should be as small as possible, i.e grouping tasks that are commonly used with one another close.
+The consequences of this law dictate that when designing UX or UI, interactive elements should be as large as possible and the distance between the users attention area and interactive element should be as small as possible. This has consequences on design, such as grouping tasks that are commonly used with one another close.
+
+It also formalises the concept of 'magic corners', the corners of the screen which a user can 'sweep' their mouse too to easily hit - which is where key UI elements can be placed. The Windows Start button is in a magic corner, making it easy to select, and as an interesting contrast, the MacOS 'close window' button is _not_ in a magic corner, making it hard to hit by mistake.
 
 See also:
 

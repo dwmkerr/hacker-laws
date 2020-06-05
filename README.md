@@ -105,7 +105,7 @@ The diagram below shows some examples of potential improvements in speed:
 
 <img width="480px" alt="Diagram: Amdahl's Law" src="./images/amdahls_law.png" />
 
-*(Image Reference: By Daniels220 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
+*(Image Reference: By Daniels219 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 
 As can be seen, even a program which is 50% parallelisable will benefit very little beyond 10 processing units, whereas a program which is 95% parallelisable can still achieve significant speed improvements with over a thousand processing units.
 
@@ -216,6 +216,8 @@ See also:
 Fitts' law predicts that the time required to move to a target area is a function of the distance to the target divided by the width of the target.
 
 <img width="300px" alt="Diagram: Fitts Law" src="./images/Fitts_Law.svg" />
+
+*(Image Reference: By Foobar628 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/Fitts%27s_law#/media/File:Fitts_Law.svg)*
 
 The consequences of this law dictate that when designing UX or UI, interactive elements should be as large as possible and the distance between the users attention area and interactive element should be as small as possible. This has consequences on design, such as grouping tasks that are commonly used with one another close.
 

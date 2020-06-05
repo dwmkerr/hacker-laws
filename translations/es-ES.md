@@ -87,7 +87,7 @@ El diagrama de abajo muestra algunos ejemplos de mejoras potenciales en velocida
 
 Como podemos ver, incluso un programa el cual es un 50% paralelizable se beneficiará muy poco más allá de 10 unidades de procesamiento, mientras que un programa el cual es 95% paralelizable todavía puede alcanzar mejoras significativas de velocidad con más de mil unidades de procesamiento.
 
-A medida que la [Ley de Moore](#ley-de-moore) se ralentiza y la aceleración de la velocidad del procesador individual disminuye, la paralelización es la clave para incrementar el rendimiento. la paralelización es clave para mejorar el rendimiento. La programación de gráficos es un excelente ejemplo: con la informática moderna basada en Shader, píxeles individuales o fragmentos pueden ser renderizados en paralelo. Este es el porqué las tarjetas gráficas modernas en ocasiones disponen de miles de núcleos de procesamiento (GPUs o Unidades de Shader).
+A medida que la [Ley de Moore](#ley-de-moore) se ralentiza y la aceleración de la velocidad del procesador individual disminuye, la paralelización es la clave para incrementar el rendimiento.La programación de gráficos es un excelente ejemplo: con la informática moderna basada en Shader, píxeles individuales o fragmentos pueden ser renderizados en paralelo. Este es el porqué las tarjetas gráficas modernas en ocasiones disponen de miles de núcleos de procesamiento (GPUs o Unidades de Shader).
 
 Vea también:
 

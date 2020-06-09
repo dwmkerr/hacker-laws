@@ -277,6 +277,17 @@ See also:
 
 This principle suggests that actions resulting in a negative outcome were not a result of ill will. Instead the negative outcome is more likely attributed to those actions and/or the impact being not fully understood.
 
+### Hick's Law (Hick-Hyman Law)
+
+[Hick's law on Wikipedia](https://en.wikipedia.org/wiki/Hick%27s_law)
+
+Decision time grows logarithmically with the number of options you can choose from.
+
+![Hicks law](./images/hicks_law.svg)
+
+This law only applies when the number of options is ordered in a manner such as alphabetically, as a reading a randomly ordered list would take linear time.
+A correlation has also been shown in Hick's Law between IQ and reaction time as shown in [Speed of Information Processing: Developmental Change and Links to Intelligence](https://www.sciencedirect.com/science/article/pii/S0022440599000369).
+
 ### Hofstadter's Law
 
 [Hofstadter's Law on Wikipedia](https://en.wikipedia.org/wiki/Hofstadter%27s_law)

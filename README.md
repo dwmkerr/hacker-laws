@@ -24,6 +24,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
     * [Gall's Law](#galls-law)
     * [Goodhart's Law](#goodharts-law)
     * [Hanlon's Razor](#hanlons-razor)
+    * [Hick's Law (Hick-Hyman Law)](#hicks-law-hick-hyman-law)
     * [Hofstadter's Law](#hofstadters-law)
     * [Hutber's Law](#hutbers-law)
     * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
@@ -281,12 +282,24 @@ This principle suggests that actions resulting in a negative outcome were not a 
 
 [Hick's law on Wikipedia](https://en.wikipedia.org/wiki/Hick%27s_law)
 
-Decision time grows logarithmically with the number of options you can choose from.
+> Decision time grows logarithmically with the number of options you can choose from.
+>
+> William Edmund Hick and Ray Hyman
+
+In the equation below, `T` is the time to make a decision, `n` is the number of options, and `b` is a constant which is determined by analysis of the data.
 
 ![Hicks law](./images/hicks_law.svg)
 
-This law only applies when the number of options is ordered in a manner such as alphabetically, as a reading a randomly ordered list would take linear time.
+*(Image Reference: Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/Hick%27s_law)*
+
+This law only applies when the number of options is _ordered_, for example, alphabetically. This is implied in the base two logarithm - which implies the decision maker is essentially performing a _binary search_. If the options are not well ordered, experiments show the time taken is linear.
+
+This is has significant impact in UI design; ensuring that users can easily search through options leads to faster decision making.
+
 A correlation has also been shown in Hick's Law between IQ and reaction time as shown in [Speed of Information Processing: Developmental Change and Links to Intelligence](https://www.sciencedirect.com/science/article/pii/S0022440599000369).
+
+See also:
+- [Fitts's Law](#fitts-law)
 
 ### Hofstadter's Law
 

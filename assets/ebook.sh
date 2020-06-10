@@ -6,8 +6,17 @@
 # brew install 
 # brew cask install basictex
 
-# First, we need to make a copy of the README, which we will modify slighty.
-cp README.md hacker-laws.md
+# Create the frontmatter.
+cat << EOF > frontmatter.md
+---
+title: "Hacker Laws"
+author: "Dave Kerr, github.com/dwmkerr/hacker-laws"
+subtitle: "Laws, Theories, Principles and Patterns that developers will find useful."
+---
+EOF
+
+# Combine the frontmatter and the laws.
+cat frontmatter.md README.md >> hacker-laws.md
 
 # Remove the title - we have it in the front-matter of the doc, so it will
 # automatically be added to the PDF.

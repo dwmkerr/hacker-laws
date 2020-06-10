@@ -1,9 +1,3 @@
----
-title: "Hacker Laws"
-author: "Dave Kerr, github.com/dwmkerr/hacker-laws"
-subtitle: "Laws, Theories, Principles and Patterns that developers will find useful."
----
-
 # 💻📖 hacker-laws
 
 Laws, Theories, Principles and Patterns that developers will find useful.

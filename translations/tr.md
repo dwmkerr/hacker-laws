@@ -24,6 +24,7 @@ Bu projeyi beğendiniz mi? Lütfen [sponsor olmayı](https://github.com/sponsors
     - [Gall Yasası](#galls-law)
     - [Goodhart Yasası](#goodharts-law)
     - [Hanlon'un Usturası](#hanlons-razor)
+    - [Hick Yasası (Hick-Hyman Yasası)](#hick-yasas%C4%B1-hick-hyman-yasas%C4%B1)
     - [Hofstadter Yasası](#hofstadters-law)
     - [Hutber Yasası](#hutbers-law)
     - [Hype Döngüsü ve Amara Yasası](#the-hype-cycle--amaras-law)
@@ -102,7 +103,6 @@ Ek kaynaklar:
 En güzel şu örnekle anlatılabilir. Bir programın iki bölümden oluştuğunu düşünelim. Bölüm A sadece tek işlemci ile çalıştırılabilir. Bölüm B ise paralelleştirilebilecek şekilde yazılmış. Bu durumda bu programı çok işlemci ile çalıştırdığımızda Bölüm B'de oluşacak kadar bir kazanım sağlayabiliriz. Bölüm A'da her hangi bir katkı olamayacaktır.
 
 Aşağıdaki diyagram bazı olası hız geliştirmelerine örnekler içeriyor:
-
 
 <img width="480px" alt="Diagram: Amdahl's Law" src="../../../../images/amdahls_law.png">
 
@@ -216,7 +216,9 @@ Ek kaynaklar:
 
 Fitts yasası, bir hedef alana gitmek için gereken sürenin hesaplanmasında, hedefe olan mesafenin hedefin genişliğine bölünmesinin bir işlevi olduğunu öngörür.
 
-<img src="../../../../images/gartner_hype_cycle.png" alt="The Hype Cycle" data-md-type="image">
+<img width="300px" alt="The Hype Cycle" src="./images/Fitts_Law.svg">
+
+*(Diagramın Kaynağı: By Foobar628 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/Fitts%27s_law#/media/File:Fitts_Law.svg)*
 
 Bu yasanın sonuçları, UX veya UI tasarlanırken etkileşimli öğelerin mümkün olduğunca büyük olması ve kullanıcıların dikkat alanı ile etkileşimli öğe arasındaki mesafenin mümkün olduğunca küçük olması gerektiğini ortaya çıkarır. Bunun tasarım üzerinde sonuçları vardır, örneğin birbirleriyle yakın kullanılan işlevlerin gruplanması gibi.
 
@@ -230,7 +232,7 @@ Ek kaynaklar:
 
 [Wikipedia'da Gall Yasası](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
 
-> Çalışan karmaşık bir sistemin her zaman işe yarayan daha basit bir sistemden evrimleştiği kesinlikle söylenebilir. Başlangıçtan itibaren karmaşık tasarlanmış bir sistemin asla çalışmayacağı ve sonradan da düzeltilemeyeceği kesindir. Çalışsan daha basit bir sistem ile başlamanız gerekir.
+> Çalışan karmaşık bir sistemin her zaman işe yarayan daha basit bir sistemden evrimleştiği kesinlikle söylenebilir. Başlangıçtan itibaren karmaşık tasarlanmış bir sistemin asla çalışmayacağı ve sonradan da düzeltilemeyeceği kesindir. Çalışsan daha basit bir sistem ile başlamanız gerekir. ([John Gall](https://en.wikipedia.org/wiki/John_Gall_(author)))
 > ([John Gall](https://en.wikipedia.org/wiki/John_Gall_(author)))
 
 Gall Yasası der ki, çok karmaşık sistemleri *tasarlamaya* çalışmak her zaman başarısızlıkla sonuçlanır. Bu tür sistemlerin ilk denemede başarılı olmaları çok nadir görülür ama genellikle basit sistemlerden evrilirler.
@@ -245,12 +247,12 @@ Ek kaynaklar:
 
 [Wikipedia'da Goodhart Yasası](https://en.wikipedia.org/wiki/Goodhart's_law)
 
-> Gözlemlenen herhangi bir istatistiksel düzenlilik, kontrol amaçları için üzerine baskı uygulandığında çökme eğiliminde olacaktır.
+> Gözlemlenen herhangi bir istatistiksel düzenlilik, kontrol amaçları için üzerine baskı uygulandığında çökme eğiliminde olacaktır. *Charles Goodhart*
 > *Charles Goodhart*
 
 Ayrıca şu şekilde de ifade edilir:
 
-> Bir ölçüm hedef haline geldiğinde, iyi bir ölçüm olmaktan çıkar.
+> Bir ölçüm hedef haline geldiğinde, iyi bir ölçüm olmaktan çıkar. *Marilyn Strathern*
 > *Marilyn Strathern*
 
 Bu yasa, ölçüme dayalı optimizasyonların, ölçüm sonucunun kendisinin anlamsızlaşmasına yol açabileceğini belirtmektedir. Bir prosese kör bir şekilde uygulanan aşırı seçici tedbirler ( [KPI'ler](https://en.wikipedia.org/wiki/Performance_indicator) ) çarpık bir etkiye neden olur. İnsanlar, eylemlerinin bütünsel sonuçlarına dikkat etmek yerine belirli metrikleri tatmin etmek için sistemle "oynayarak" yerel olarak optimize etme eğilimindedir.
@@ -269,16 +271,39 @@ Ek kaynaklar:
 
 [Wikipedia'da Hanlon'un Usturası](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
 
-> Aptallıkla layıkıyla açıklanabilecek bir şeyi, asla kötü niyete bağlamayın.
+> Aptallıkla layıkıyla açıklanabilecek bir şeyi, asla kötü niyete bağlamayın. Robert J. Hanlon
 > Robert J. Hanlon
 
 Bu prensip, olumsuz sonuçlara yol açan eylemlerin, çoğunlukla kötü niyetin sonucu olmadığını savunmaktadır. Aksine, olumsuz sonuç daha büyük olasılıkla bu eylemlerin ve/veya etkinin tam olarak anlaşılamamasına bağlıdır.
+
+### Hick Yasası (Hick-Hyman Yasası)
+
+[Wikipedia'da Hick Yasası](https://en.wikipedia.org/wiki/Hick%27s_law)
+
+> Karar verme süresi, seçebileceğiniz seçeneklerin sayısı ile logaritmik orantılı olarak büyür.
+> William Edmund Hick and Ray Hyman
+
+Aşağıdaki denklemde, `T` karar verme zamanıdır, `n` seçenek sayısıdır ve `b` verilerin analizi ile belirlenen bir sabittir.
+
+![Hicks law](./images/hicks_law.svg)
+
+*(Diagramın Kaynağı: Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/Hick%27s_law)*
+
+Bu yasa yalnızca seçeneklerin sayısı *sıralandığında* (örneğin alfabetik olarak) geçerlidir. Bu, temel iki logaritmada ima edilir - bu, karar vericinin aslında bir *ikili arama* gerçekleştirdiğini ima eder. Seçenekler iyi sıralanmamışsa, deneyler geçen sürenin doğrusal olduğunu gösterir.
+
+Bunun UI tasarımında önemli bir etkisi vardır; kullanıcıların seçenekleri kolayca arayabilmelerini sağlamak daha hızlı karar almayı sağlar.
+
+Hick Yasasında IQ ile reaksiyon süresi arasında [Bilgi İşleme Hızı: Gelişimsel Değişim ve İstihbarat Bağlantıları](https://www.sciencedirect.com/science/article/pii/S0022440599000369) makalesinde bahsedildiği gibi bir korelasyon da gösterilmiştir.
+
+Ek kaynaklar:
+
+- [Fitts Yasası](#fitts-law)
 
 ### Hofstadter Yasası
 
 [Wikipedia'da Hofstadter Yasası](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
 
-> Bir iş her zaman umduğundan daha uzun sürer, Hofstadter yasasını göz önünde bulundursan bile.
+> Bir iş her zaman umduğundan daha uzun sürer, Hofstadter yasasını göz önünde bulundursan bile. (Douglas Hofstadter)
 > (Douglas Hofstadter)
 
 Bu yasayı bir işin ne kadar süreceğini tahminlenirken hatırlatıldığı için duymuş olabilirsiniz. Herkesin kabul ettiği bir gerçek var ki, yazılım geliştirmede en kötü olduğumuz alan işin ne kadar sürede biteceğini tahmin etmektir.
@@ -293,7 +318,7 @@ Ek kaynaklar:
 
 [Wikipedia'da Hutber Yasası ](https://en.wikipedia.org/wiki/Hutber%27s_law)
 
-> İyileştirme, bozulma anlamına da gelir.
+> İyileştirme, bozulma anlamına da gelir. ([Patrick Hutber](https://en.wikipedia.org/wiki/Patrick_Hutber))
 > ([Patrick Hutber](https://en.wikipedia.org/wiki/Patrick_Hutber))
 
 Bu yasa der ki; sistemde yapılan bir iyileştirme sistemin diğer taraflarında bozulmaya sebep olabilir ya da başka bozuklukları gizleyebilir, bu da sistemin mevcut durumunun daha da bozulmasına sebep olabilir.
@@ -304,12 +329,12 @@ Bu yasa der ki; sistemde yapılan bir iyileştirme sistemin diğer taraflarında
 
 [Wikipedia'da Hype Döngüsü](https://en.wikipedia.org/wiki/Hype_cycle)
 
-> Bir teknolojinin kısa vadede oluşacak etkisini abartıp, uzun vadede oluşacak etkisini hafife alıyoruz.
+> Bir teknolojinin kısa vadede oluşacak etkisini abartıp, uzun vadede oluşacak etkisini hafife alıyoruz. (Roy Amara) (Roy Amara)
 > (Roy Amara)
 
 Hype Döngüsü bir teknolojinin zamanla yarattığı heyecan ve gelişiminin görsel olarak sunumudur ve Gartner tarafından ilk olarak oluşturulmuştur. En güzel anlatım aşağıdaki bir görsel ile yapılabilir:
 
-[](https://gitlocalize.com/repo/2513/lv?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/lv/badge.svg)
+![The Hype Cycle](./images/gartner_hype_cycle.png)
 
 *(Resmin Kaynağı: Jeremykemp tarafından İngilizce Wikipeda'da, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
 
@@ -319,7 +344,7 @@ Kısaca anlatmak gerekirse, bu döngü her yeni teknolojinin ilk zamanlarında t
 
 [Hyrum Yasası Web Sitesi](http://www.hyrumslaw.com/)
 
-> Belli sayıda kullanıcıya ulaştığında, servis sözleşmesinde ne demiş olduğunuzdan bağımsız olarak ürününüzün ya da sisteminizin bütün gözlemlenebilir davranışları artık üçüncü kişilere göre şekillenecektir. (Hyrum Wright) (Hyrum Wright) (Hyrum Wright)
+> Belli sayıda kullanıcıya ulaştığında, servis sözleşmesinde ne demiş olduğunuzdan bağımsız olarak ürününüzün ya da sisteminizin bütün gözlemlenebilir davranışları artık üçüncü kişilere göre şekillenecektir.
 > (Hyrum Wright)
 
 Hyrum Yasası göre, eğer bir API'nin *oldukça büyük sayılabilecek sayıda kullanıcısı* olduğunda, artık bütün sonuçlar ve davranışlar (API sözleşmesinde belirtilmemiş olsalar bile) kullanıcılara göre şekillenecektir. Buna bir örnek olarak bir API'nin tepki süresi olabilir. Daha kapsamlı bir örnek olarak kullanıcıların bir regex ile dönen cevap metninin içinden hatanın *tipini* ayıkladıkları bir senaryoyu düşünelim. API sözleşmesinde bu cevap metinleri ile ilgili bir şey belirtilmemiş olmasına ve kullanıcıların hata kodunu kullanmalarını belirtilmesine rağmen, cevap metnini değiştirmeniz *bazı* kullanıcıların metni kullanmalarından dolayı hata ile karşılaşmalarına sebep olacaktır.
@@ -331,7 +356,7 @@ Ek kaynaklar:
 
 ### Kernighan Yasası
 
-> Kodda hata ayıklama yapmak, o kodun sıfırdan yazılmasından iki kat daha zordur. Dolayısıyla, yazdığın bir kodu hatasız yazdığını düşünüyorsan, tanım olarak o koddaki hatayı ayıklayacak kadar zeki değilsin demektir.
+> Kodda hata ayıklama yapmak, o kodun sıfırdan yazılmasından iki kat daha zordur. Dolayısıyla, yazdığın bir kodu hatasız yazdığını düşünüyorsan, tanım olarak o koddaki hatayı ayıklayacak kadar zeki değilsin demektir. (Brian Kernighan)
 > (Brian Kernighan)
 
 Kernighan Yasası adını [Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan)'dan almıştır ve "[The Elements of Programming Style](https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style)" adlı Kernighan ve Plauger tarafından yazılan kitaptaki bir cümleden türetilmiştir:
@@ -390,7 +415,7 @@ Ek kaynaklar:
 
 [Wikipedia'da Occam'ın Usturası](https://en.wikipedia.org/wiki/Occam's_razor)
 
-> Çözümün elemanları sebep olmaksızın çoğaltılmamalıdır.
+> Çözümün elemanları sebep olmaksızın çoğaltılmamalıdır. Ockham'lı William
 > Ockham'lı William
 
 Occam'ın usturası, birkaç olası çözüm arasında en olası çözümün, en az sayıda kavram ve varsayımı olan çözüm olduğunu söylüyor. Bu çözüm en basit olandır ve yanlışlıkla ortaya çıkan karmaşıklığa ya da olası olumsuz sonuçlara sebep olmadan sadece verilen sorunu çözer.
@@ -422,7 +447,7 @@ Ek kaynaklar:
 
 [WikiWikiWeb'de Olgunlaşmamış Optimizasyon Etkisi](http://wiki.c2.com/?PrematureOptimization)
 
-> Vakti gelmeden gelmeden yapılan optimizasyon bütün kötülüklerin anasıdır.
+> Vakti gelmeden gelmeden yapılan optimizasyon bütün kötülüklerin anasıdır. [(Donald Knuth)](https://twitter.com/realdonaldknuth?lang=en)
 > [(Donald Knuth)](https://twitter.com/realdonaldknuth?lang=en)
 
 Donald Knuth yazdığı [Structured Programming With Go To Statements](http://wiki.c2.com/?StructuredProgrammingWithGoToStatements) isimli makalede, "Programcılar, programlarının kritik olmayan bölümlerinin hızını düşünerek veya endişelenerek çok fazla zaman harcarlar ve bu bakış açısı ile yaptıkları verimlilik geliştirmelerin hata ayıklama ve bakım yapma aşamalarına çok olumsuz etkileri olur. Kesinlikle bu tarz küçük geliştirmeleri (zamanımızın %97'sini harcadığımız) göz ardı etmeliyiz, **Vakti gelmeden yapılan optimizasyon bütün kötülüklerin anasıdır** gerçeğini unutmamalılıyız. Yine de, geride kalan % 3'teki kritik fırsatları kaçırmamalıyız."
@@ -487,7 +512,7 @@ Bu ilkeyi izlemek, değişikliklerin kapsamını sınırlayarak gelecekte deği�
 
 [Sızdıran Soyutlamalar Yasası, Joel on Software](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
 
-> Önemsiz sayılmayacak bütün soyutlamar belli ölçüde sızıntı içerir. ([Joel Spolsky](https://twitter.com/spolsky)) ([Joel Spolsky](https://twitter.com/spolsky))
+> Önemsiz sayılmayacak bütün soyutlamar belli ölçüde sızıntı içerir. ([Joel Spolsky](https://twitter.com/spolsky))
 > ([Joel Spolsky](https://twitter.com/spolsky))
 
 Bu yasa, karmaşık sistemleri sadeleştirmek için kullandığımız soyutlamaların bazı durumlarda soyutlamanın altındaki sistemin öğelerini sorunları ile birlikte sızdırır ve bu da beklenmedik davranışlar ortaya çıkması ile sonuçlanır.
@@ -532,6 +557,8 @@ Spotify Modeli Spotify'daki uygulamasından dolayı popüler olmuş ekip ve orga
 
 Spotify Modeli kabileler (Tribes), birlikler (Guilds) ve kısımlar (Chapter) gibi organizasyon yapısında kullanılacak öğeleri de yaygın hale getirdi.
 
+Organizasyonun üyeleri bu grupların gerçek anlamlarının zamanla değiştiğini, geliştiğini ve bunun devam eden bir deney olduğunu söylüyorlar. Modelin sabit bir modelden ziyade *hareket halinde bir süreç * olması, yapının değişen yorumlarına yol açmaya devam etmektedir (konferanslarda konuyla ilgili yapılan sunumlarına dayanarak söyleyebiliriz). Bu, 'anlık görüntülerin' üçüncü taraflar tarafından *sabit bir yapı * olarak yeniden paketlenebileceği anlamına gelir ve modelin dinamikliğinin kaybolmasına sebep olabilir.
+
 ### Wadler Yasası
 
 [Wadler Yasası, wiki.haskell.org](https://wiki.haskell.org/Wadler's_Law)
@@ -540,7 +567,7 @@ Spotify Modeli kabileler (Tribes), birlikler (Guilds) ve kısımlar (Chapter) gi
 > 1. Semantik
 > 2. Genel sözdizimi
 > 3. Sözcük sözdizimi
-> 4. Yorumlardaki sözcük sözdizimi
+> 4. Yorumlardaki sözcük sözdizimi (Kısaca semantic için harcanan her bir saat için yorumlardaki sözcük sözdizimi için sekiz saat harcanacaktır).
 > (Kısaca semantic için harcanan her bir saat için yorumlardaki sözcük sözdizimi için sekiz saat harcanacaktır).
 
 [Önemsizlik Yasasında](#the-law-of-triviality) öne sürülene benzer olarak, Wadler Yasası yeni bir programlama dili tasarlanırken konunun önemi ile o konu için harcanan zaman ters orantılı olduğunu söylüyor.
@@ -568,7 +595,7 @@ Prensiplerin genellikle tasarıma ilişkin rehberlerdir.
 
 [Bruce F. Webster'e göre Ölü Deniz Etkisi](http://brucefwebster.com/2008/04/11/the-wetware-crisis-the-dead-sea-effect/)
 
-> "... [E]n yetenekli ve verimli BT mühendisleri şirketleri terketmeye en yakın olanlardır, [kalıcı olma taraftarı olanlar] ise tortuya (daha az yetenekli ve verimsiz) benzetilebilir"
+> "... [E]n yetenekli ve verimli BT mühendisleri şirketleri terketmeye en yakın olanlardır, [kalıcı olma taraftarı olanlar] ise tortuya (daha az yetenekli ve verimsiz) benzetilebilir" *Bruce F. Webster*
 > *Bruce F. Webster*
 
 "Ölü Deniz Etkisi" bir organizasyonda mühendislerin becerilerinin/yeteneklerinin/verimliliklerinin  sıklıkla o organizasyonda harcadıkları zamanla ters orantılı olduğunu söyler.
@@ -579,7 +606,7 @@ Genellikle, yüksek vasıflı mühendisler başka yerlerde iş bulması kolay ko
 
 [Wikipedia'da Dilbert Prensibi](https://en.wikipedia.org/wiki/Dilbert_principle)
 
-> Şirketler, yetersiz çalışanları, iş akışından uzaklaştırmak için sistematik olarak yönetici olmaya teşvik etme eğilimindedir.
+> Şirketler, yetersiz çalışanları, iş akışından uzaklaştırmak için sistematik olarak yönetici olmaya teşvik etme eğilimindedir. *Scott Adams*
 > *Scott Adams*
 
 Scot Adams (Dilbert çizgi dizisinin yazarı) [Peter prensibinden](#the-peter-principle) esinlenerek ortaya atılmış bir yönetim kavramıdır. Dilbert prensibine göre yetenekli olmayan çalışanlar yönetim kadorlarına doğru yükseltilirler ki üretime verecekleri zarar aza indirilsin. Adams bunu ilk olarak 1995'te Wall Street Journal'da yazdığı bir makalede açıkladı daha sonra ise 1996'da yazdığı [Dilbert Prensibi](#reading-list) adlı kitabında detaylandırdı.
@@ -778,14 +805,14 @@ Ek kaynaklar:
 
 ***Y**ou **A**ren't **G**onna **N**eed **I**t* (İhtiyacın olmayacak) deyiminin kısaltmasıdır.
 
-> İhtiyaç duyduğunuz şeyleri her zaman ihtiyaç duyduğunuzda geliştirin, onlara ihtiyacınız olacağını düşündüğünüzde değil.
+> İhtiyaç duyduğunuz şeyleri her zaman ihtiyaç duyduğunuzda geliştirin, onlara ihtiyacınız olacağını düşündüğünüzde değil. ([Ron Jeffries](https://twitter.com/RonJeffries)) (XP co-founder and author of the book "Extreme Programming Installed")
 > ([Ron Jeffries](https://twitter.com/RonJeffries)) (XP co-founder and author of the book "Extreme Programming Installed")
 
 Bu *Aşırı Programlama* (XP) ilkesi, geliştiricilerin yalnızca acil gereksinimler için gerekli olan işlevleri yerine getirmeleri gerektiğini ve daha sonra ihtiyaç duyulabilecek işlevleri uygulayarak geleceği tahmin etme girişimlerinden kaçınmalarını önerir.
 
 Bu ilkeye bağlı kalmak, kod tabanındaki kullanılmayan kod miktarının ve hiçbir değer getirmeyen işlevlerde haracanan zamanın ve çabanın azalmasını sağlayacaktır.
 
-See also:
+Ek kaynaklar:
 
 - [Reading List: Extreme Programming Installed](#reading-list)
 
@@ -832,15 +859,15 @@ Katkıda bulunan harika insanlar sayesinde Hacker Laws birçok dilde mevcuttur. 
 Dil | Moderatör | Durum
 --- | --- | ---
 [🇮🇩 Bahasa Indonesia / Indonesian](./translations/pt-BR.md) | [arywidiantara](https://github.com/arywidiantara) | [](https://gitlocalize.com/repo/2513/id?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/id/badge.svg)
-[🇧🇷 Brasileiro / Brazilian](./translations/pt-BR.md) | [Leonardo Costa](https://github.com/leofc97) | [](https://gitlocalize.com/repo/2513/ja?utm_source=badge)[](https://gitlocalize.com/repo/2513/lv?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/lv/badge.svg)[![gitlocalized ](https://gitlocalize.com/repo/2513/ja/badge.svg)](https://gitlocalize.com/repo/2513/ja?utm_source=badge)
+[🇧🇷 Brasileiro / Brazilian](./translations/pt-BR.md) | [Leonardo Costa](https://github.com/leofc97) | [](https://gitlocalize.com/repo/2513/id?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/id/badge.svg)
 [🇨🇳 中文 / Chinese](https://github.com/nusr/hacker-laws-zh) | [Steve Xu](https://github.com/nusr) | Kısmen tamamlandı
 [🇩🇪 Deutsch / German](./translations/de.md) | [Vikto](https://github.com/viktodergunov) | [](https://gitlocalize.com/repo/2513/lv?utm_source=badge)[](https://gitlocalize.com/repo/2513/tr?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/tr/badge.svg)[![gitlocalized ](https://gitlocalize.com/repo/2513/lv/badge.svg)](https://gitlocalize.com/repo/2513/lv?utm_source=badge)
-[🇫🇷 Français / French](./translations/fr.md) | [Kevin Bockelandt](https://github.com/KevinBockelandt) | [](https://gitlocalize.com/repo/2513/de?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/de/badge.svg)
-[🇬🇷 ελληνικά / Greek](./translations/el.md) | [Panagiotis Gourgaris](https://github.com/0gap) | [](https://gitlocalize.com/repo/2513/de?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/de/badge.svg)
+[🇫🇷 Français / French](./translations/fr.md) | [Kevin Bockelandt](https://github.com/KevinBockelandt) | [](https://gitlocalize.com/repo/2513/tr?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/tr/badge.svg)
+[🇬🇷 ελληνικά / Greek](./translations/el.md) | [Panagiotis Gourgaris](https://github.com/0gap) | [](https://gitlocalize.com/repo/2513/ja?utm_source=badge)[](https://gitlocalize.com/repo/2513/lv?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/lv/badge.svg)[![gitlocalized ](https://gitlocalize.com/repo/2513/ja/badge.svg)](https://gitlocalize.com/repo/2513/ja?utm_source=badge)
 [🇮🇹 Italiano / Italian](https://github.com/csparpa/hacker-laws-it) | [Claudio Sparpaglione](https://github.com/csparpa) | Kısmen tamamlandı
 [🇯🇵 JP 日本語 / Japanese](./translations/jp.md) | [Fumikazu Fujiwara](https://github.com/freddiefujiwara) | [](https://gitlocalize.com/repo/2513/fr?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/fr/badge.svg)
 [🇰🇷 한국어 / Korean](https://github.com/codeanddonuts/hacker-laws-kr) | [Doughnut](https://github.com/codeanddonuts) | Kısmen tamamlandı
-[🇱🇻 Latviešu Valoda / Latvian](./translations/lv.md) | [Arturs Jansons](https://github.com/iegik) | [](https://gitlocalize.com/repo/2513/tr?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/tr/badge.svg)
+[🇱🇻 Latviešu Valoda / Latvian](./translations/lv.md) | [Arturs Jansons](https://github.com/iegik) | [](https://gitlocalize.com/repo/2513/de?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/de/badge.svg)
 [🇷🇺 Русская версия / Russian](https://github.com/solarrust/hacker-laws) | [Alena Batitskaya](https://github.com/solarrust) | Kısmen tamamlandı
 [🇪🇸 Castellano / Spanish](./translations/es-ES.md) | [Manuel Rubio](https://github.com/manuel-rubio) ([Sponsor](https://github.com/sponsors/manuel-rubio)) | Kısmen tamamlandı
 [🇹🇷 Türkçe / Turkish](https://github.com/umutphp/hacker-laws-tr) | [Umut Işık](https://github.com/umutphp) | [](https://gitlocalize.com/repo/2513/id?utm_source=badge)![gitlocalized ](https://gitlocalize.com/repo/2513/id/badge.svg)

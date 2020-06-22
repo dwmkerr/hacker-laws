@@ -30,6 +30,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
     * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
     * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
     * [Kernighan's Law](#kernighans-law)
+    * [Linus's Law](#linuss-law)
     * [Metcalfe's Law](#metcalfes-law)
     * [Moore's Law](#moores-law)
     * [Murphy's Law / Sod's Law](#murphys-law--sods-law)
@@ -381,6 +382,24 @@ See also:
 - [The Unix Philosophy](#the-unix-philosophy)
 - [Occam's Razor](#occams-razor)
 
+### Linus's Law
+
+[Linus's Law on Wikipedia](https://en.wikipedia.org/wiki/Linus%27s_law)
+
+> Given enough eyeballs, all bugs are shallow.
+>
+> _Eric S. Raymond_
+
+This law simply states that the more people who can see a problem, the higher the likelihood that someone will have seen and solved the problem before, or something very similar.
+
+Although it was originally used to describe the value of open-source models for projects it can be accepted for any kind of software project. It can also be extended to processes - more code reviews, more static analysis and multi-disciplined test processes will make the problems more visible and easy to identify. 
+
+A more formal statement can be:
+
+> Given a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and can be solved by someone who has encountered a similar problem before.
+
+This law was named in honour of [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) in Eric S. Raymond's book "[The Cathedral and the Bazaar](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar)".
+
 ### Metcalfe's Law
 
 [Metcalfe's Law on Wikipedia](https://en.wikipedia.org/wiki/Metcalfe's_law)
@@ -483,7 +502,6 @@ See also:
 
 - [The Peter Principle](#the-peter-principle)
 - [The Dilbert Principle](#the-dilbert-principle)
-
 
 ### Reed's Law
 
@@ -601,18 +619,6 @@ See also:
 > _Wil Wheaton_
 
 Coined by Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), this simple, concise, and powerful law aims for an increase in harmony and respect within a professional organization. It can be applied when speaking with coworkers, performing code reviews, countering other points of view, critiquing, and in general, most professional interactions humans have with each other.
-
-### Linus's Law
-
-[Linus's Law on Wikipedia](https://en.wikipedia.org/wiki/Linus%27s_law)
-
-> Given enough eyeballs, all bugs are shallow.
-
-Although it is thought to be more suitable for open source projects, it can be accepted for any kind of software projects. It simply states the importance of getting the problems in front of enough number (as much as possible) of people because someone will likely have encountered and fixed a similar situation before. We can also extend the context of the law to automated processes. More code reviews, more static analysis and multi-diciplined test processes will make the problems more visible and easy to identify (easy to fix). 
-
-A more formal statement can be:
-
-> Given a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and the fix obvious to someone.
 
 ## Principles
 
@@ -883,6 +889,7 @@ If you have found these concepts interesting, you may enjoy the following books.
 - [Extreme Programming Installed - Ron Jeffries, Ann Anderson, Chet Hendrikson](https://www.goodreads.com/en/book/show/67834) - Covers the core principles of Extreme Programming.
 - [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks' Law](#brooks-law) is a central theme of the book.
 - [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - This book is difficult to classify. [Hofstadter's Law](#hofstadters-law) is from the book.
+- [The Cathedral and the Bazaar - Eric S. Raymond](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar) - a collection of essays on open source. This book was the source of [Linus's Law](#linuss-law).
 - [The Dilbert Principle - Scott Adams](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - A comic look at corporate America, from the author who created the [Dilbert Principle](#the-dilbert-principle).
 - [The Peter Principle - Lawrence J. Peter](https://www.goodreads.com/book/show/890728.The_Peter_Principle) - Another comic look at the challenges of larger organisations and people management, the source of [The Peter Principle](#the-peter-principle).
 - [Structure and Interpretation of Computer Programs - Harold Abelson, Gerald Jay Sussman, Julie Sussman](https://www.goodreads.com/book/show/43713) - If you were a comp sci or electical engineering student at MIT or Cambridge this was your intro to programming. Widely reported as being a turning point in people's lives.

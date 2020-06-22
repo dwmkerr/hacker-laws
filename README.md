@@ -602,6 +602,18 @@ See also:
 
 Coined by Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), this simple, concise, and powerful law aims for an increase in harmony and respect within a professional organization. It can be applied when speaking with coworkers, performing code reviews, countering other points of view, critiquing, and in general, most professional interactions humans have with each other.
 
+### Linus's Law
+
+[Linus's Law on Wikipedia](https://en.wikipedia.org/wiki/Linus%27s_law)
+
+> Given enough eyeballs, all bugs are shallow.
+
+Although it is thought to be more suitable for open source projects, it can be accepted for any kind of software projects. It simply states the importance of getting the problems in front of enough number (as much as possible) of people because someone will likely have encountered and fixed a similar situation before. We can also extend the context of the law to automated processes. More code reviews, more static analysis and multi-diciplined test processes will make the problems more visible and easy to identify (easy to fix). 
+
+A more formal statement can be:
+
+> Given a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and the fix obvious to someone.
+
 ## Principles
 
 Principles are generally more likely to be guidelines relating to design.

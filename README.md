@@ -4,7 +4,7 @@ Laws, Theories, Principles and Patterns that developers will find useful.
 
 [Translations](#translations): [🇮🇩](./translations/id.md) [🇧🇷](./translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇩🇪](./translations/de.md) [🇫🇷](./translations/fr.md) [🇬🇷](./translations/el.md) [🇮🇹](https://github.com/csparpa/hacker-laws-it) [🇱🇻](./translations/lv.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇪🇸](./translations/es-ES.md) [🇹🇷](https://github.com/umutphp/hacker-laws-tr) [🇯🇵](./translations/jp.md)
 
-Like this project? Please considering [sponsoring me](https://github.com/sponsors/dwmkerr) and the [translators](#translations).
+Like this project? Please considering [sponsoring me](https://github.com/sponsors/dwmkerr) and the [translators](#translations). Also check out this podcast on [The Changelog - Laws for Hackers to Life by](https://changelog.com/podcast/403) to learn more about the project!
 
 ---
 
@@ -66,6 +66,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
     * [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)
 * [Reading List](#reading-list)
 * [Online Resources](#online-resources)
+* [Podcast](#podcast)
 * [Translations](#translations)
 * [Related Projects](#related-projects)
 * [Contributing](#contributing)
@@ -910,6 +911,12 @@ If you have found these concepts interesting, you may enjoy the following books.
 Some useful resources and reading.
 
 - [CB Insights: 8 Laws Driving Success In Tech: Amazon's 2-Pizza Rule, The 80/20 Principle, & More](https://www.cbinsights.com/research/report/tech-laws-success-failure) - an interesting write up of some laws which have been highly influential in technology.
+
+## Podcast
+
+Hacker Laws has been featured in [The Changelog](https://changelog.com/podcast/403), you can check out the Podcast episode with the link below:
+
+<a href="https://changelog.com/podcast/403" target="_blank"><img src="./images/changelog-podcast.png" width="800px" alt="Changelog Podcast Image" /></a>
 
 ## Translations
 

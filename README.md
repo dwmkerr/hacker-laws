@@ -592,6 +592,18 @@ The Spotify Model also popularises the concepts of Tribes, Guilds, Chapters, whi
 
 Members of the organisation have described that the actual meaning of these groups changes, evolves and is an on-going experiment. The fact that the model is a _process in motion_, rather than a fixed model continues to lead to varying interpretations of the structure, which may be based on presentations given by employees at conferences. This means 'snapshots' may be 're-packaged' by third parties as a _fixed structure_, with the fact that the model is dynamic being lost.
 
+### Two Pizza Rule
+
+> If you can't feed a team with two pizzas, it's too large.
+>
+> (Jeff Bezos)
+
+Jeff Bezos believes that regardless of the size of the company, teams should be no larger than what two pizzas can feed. This belief is rooted in the fact that as the team size increases linearly, the links between people grow exponentially; thus the cost of coordinating and communicating also grows exponentially.
+
+The number of links between people can be expressed as `n(n-1)/2` where n = number of people.
+
+<img width="200px" alt="Complete graph; Links between people" src="./images/complete_graph.png" />
+
 ### Wadler's Law
 
 [Wadler's Law on wiki.haskell.org](https://wiki.haskell.org/Wadler's_Law)

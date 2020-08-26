@@ -45,6 +45,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
     * [The Law of Triviality](#the-law-of-triviality)
     * [The Unix Philosophy](#the-unix-philosophy)
     * [The Spotify Model](#the-spotify-model)
+    * [Two Pizza Rule](#two-pizza-rule)
     * [Wadler's Law](#wadlers-law)
     * [Wheaton's Law](#wheatons-law)
 * [Principles](#principles)
@@ -598,7 +599,7 @@ Members of the organisation have described that the actual meaning of these grou
 >
 > (Jeff Bezos)
 
-Jeff Bezos believes that regardless of the size of the company, teams should be no larger than what two pizzas can feed. This belief is rooted in the fact that as the team size increases linearly, the links between people grow exponentially; thus the cost of coordinating and communicating also grows exponentially.
+This rule suggests that regardless of the size of the company, teams should be small enough to be fed by two pizzas. Attributed to Jeff Bezos and Amazon, this belief is suggests that large teams are inherently inefficient. This is supported by the fact that as the team size increases linearly, the links between people increases exponentially; thus the cost of coordinating and communicating also grows exponentially. If this cost of coordination is essentially overhead, then smaller teams should be preferred.
 
 The number of links between people can be expressed as `n(n-1)/2` where n = number of people.
 

@@ -45,7 +45,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
     * [The Law of Triviality](#the-law-of-triviality)
     * [The Unix Philosophy](#the-unix-philosophy)
     * [The Spotify Model](#the-spotify-model)
-    * [Two Pizza Rule](#two-pizza-rule)
+    * [The Two Pizza Rule](#the-two-pizza-rule)
     * [Wadler's Law](#wadlers-law)
     * [Wheaton's Law](#wheatons-law)
 * [Principles](#principles)
@@ -593,7 +593,7 @@ The Spotify Model also popularises the concepts of Tribes, Guilds, Chapters, whi
 
 Members of the organisation have described that the actual meaning of these groups changes, evolves and is an on-going experiment. The fact that the model is a _process in motion_, rather than a fixed model continues to lead to varying interpretations of the structure, which may be based on presentations given by employees at conferences. This means 'snapshots' may be 're-packaged' by third parties as a _fixed structure_, with the fact that the model is dynamic being lost.
 
-### Two Pizza Rule
+### The Two Pizza Rule
 
 > If you can't feed a team with two pizzas, it's too large.
 >

@@ -583,6 +583,23 @@ The Unix Philosophy is that software components should be small, and focused on 
 
 Modern practices like 'Microservice Architecture' can be thought of as an application of this law, where services are small, focused and do one specific thing, allowing complex behaviour to be composed of simple building blocks.
 
+### The Paradox of Choice
+
+[The Paradox of Choice on Wikipedia](https://en.wikipedia.org/wiki/The_Paradox_of_Choice)
+
+> Choices have made us not freer but more paralyzed, not happier but more dissatisfied.
+>
+> _Barry Schwartz_
+
+The Paradox of Choice basically concentrates on the laws related to decision-making, i.e. Hick's Law. This theory briefly states that making a choice among numerous ones make us not freer but more paralyzed, not happier but more dissatisfied. So, the more choices you have, the less pleasure you get from the choice you made.
+
+As technology advances so fast, we come across so many new languages/frameworks/tools emerging in the software industry. This makes it hard/complicated for some developers, especially newbies to decide where/how to start. For example, even if a developer picked a programming language to start, he/she may not get the expected pleasure and will trouble focusing on the choice due to some questions in mind, i.e. Is the other language better than this? Do I better learn a new framework? The most effective solution to get rid of this effect is just to keep dedicatedly working, of course having some fundamentals.
+
+See also:
+
+- [Hick's Law (Hick-Hyman Law)](#hicks-law-hick-hyman-law)
+- [UI11: The Paradox of Choice](https://www.lukew.com/ff/entry.asp?419)
+
 ### The Spotify Model
 
 [The Spotify Model on Spotify Labs](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)

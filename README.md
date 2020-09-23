@@ -942,7 +942,6 @@ See also:
 
 - [Foraging for the Fallacies of Distributed Computing (Part 1) - Vaidehi Joshi
  on Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
-- [Deutsch's Fallacies, 10 Years After](http://java.sys-con.com/node/38665)
 
 ## Reading List
 

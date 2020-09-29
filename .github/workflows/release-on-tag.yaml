@@ -48,6 +48,8 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
+          body: |
+            Hacker Laws E-Book, version ${{ github.ref }}
           draft: true
           prerelease: true
           

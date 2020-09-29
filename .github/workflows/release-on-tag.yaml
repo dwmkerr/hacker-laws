@@ -32,7 +32,7 @@ jobs:
           path: hacker-laws.pdf
 
   release:
-    needs: build
+    needs: prepare-pdf
     runs-on: ubuntu-20.04
     steps:
       - name: Download artifact

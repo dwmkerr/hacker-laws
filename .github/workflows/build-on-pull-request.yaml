@@ -1,0 +1,38 @@
+# This pipeline builds the PDF ebook on any pull request to master.
+name: "Build PDF"
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  prepare-pdf:
+    # Focal Fossa. Please don't use 'latest' tags, it's an anti-pattern.
+    runs-on: ubuntu-20.04
+    steps:
+      # Checkout the code.
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      # Prepare the content files.
+      - name: Prepare Content
+        run: ./scripts/prepare-markdown-for-ebook.sh
+      
+      # Create a PDF from the prepared markdown.
+      - name: Prepare PDF
+        uses: docker://pandoc/latex:2.9
+        with:
+          args: "-V toc-title:\"Table Of Contents\" --toc --pdf-engine=pdflatex --standalone --output hacker-laws.pdf hacker-laws.md"
+
+      # Publish the PDF and intermediate markdown as an artifact.
+      - name: Publish PDF Artifact
+        uses: actions/upload-artifact@master
+        with:
+          name: hacker-laws.pdf
+          path: hacker-laws.pdf
+
+      - name: Publish Intermiediate Markdown Artifact
+        uses: actions/upload-artifact@master
+        with:
+          name: hacker-laws.md
+          path: hacker-laws.md

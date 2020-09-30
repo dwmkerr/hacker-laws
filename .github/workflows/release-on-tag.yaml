@@ -49,7 +49,7 @@ jobs:
           tag_name: ${{ github.ref }}
           release_name: ${{ github.ref }}
           body: |
-            Hacker Laws E-Book, version ${GITHUB_REF#refs/tags/}
+            Hacker Laws E-Book
           draft: false
           prerelease: false
           

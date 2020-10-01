@@ -14,9 +14,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      # Set a descriptive version. For PRs it'll be the short sha.
+      - name: Set Version
+        id: set_version
+        run: echo ::set-output name=VERSION::$(git rev-parse --short HEAD)
+
       # Prepare the content files.
       - name: Prepare Content
-        run: ./scripts/prepare-markdown-for-ebook.sh
+        run: ./scripts/prepare-markdown-for-ebook.sh ${{ steps.set_version.outputs.VERSION }}
       
       # Create a PDF from the prepared markdown.
       - name: Prepare PDF

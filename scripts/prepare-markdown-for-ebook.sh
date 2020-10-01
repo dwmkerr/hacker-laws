@@ -2,12 +2,21 @@
 # This script prepares a `hacker-laws.md` file which is in a format ready to be
 # exported to PDF or other formats for an e-book.
 
+# Require that we provide the version number and get a date.
+version=$1
+date=$(date "+%Y-%m-%d")
+
+if [ -z $version ]; then
+    echo "version must be specified: ./prepare-markdown-for-ebook.sh <version>"
+    exit 1
+fi
+
 # Create the frontmatter.
 cat << EOF > frontmatter.md
 ---
 title: "Hacker Laws"
 author: "Dave Kerr, github.com/dwmkerr/hacker-laws"
-subtitle: "Laws, Theories, Principles and Patterns that developers will find useful."
+subtitle: "Laws, Theories, Principles and Patterns that developers will find useful. ${version}, ${date}."
 ---
 EOF
 

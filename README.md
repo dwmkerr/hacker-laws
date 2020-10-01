@@ -966,6 +966,8 @@ Some useful resources and reading.
 
 The project is available as a PDF eBook, [download the latest PDF eBook with this link](https://github.com/dwmkerr/hacker-laws/releases/latest/download/hacker-laws.pdf) or check the [release](https://github.com/dwmkerr/hacker-laws/releases) page for older versions.
 
+A new version of the eBook is created automatically when a new version tag is pushed.
+
 ## Podcast
 
 Hacker Laws has been featured in [The Changelog](https://changelog.com/podcast/403), you can check out the Podcast episode with the link below:

@@ -17,7 +17,7 @@ jobs:
       # Set a descriptive version. For PRs it'll be the short sha.
       - name: Set Version
         id: set_version
-        run: echo ::set-output name=VERSION::$(git rev-parse --short)
+        run: echo ::set-output name=VERSION::$(git rev-parse --short HEAD)
 
       # Prepare the content files.
       - name: Prepare Content

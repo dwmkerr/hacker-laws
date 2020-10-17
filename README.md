@@ -20,6 +20,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
     * [Conway's Law](#conways-law)
     * [Cunningham's Law](#cunninghams-law)
     * [Dunbar's Number](#dunbars-number)
+    * [Dunning-Kruger Effect](#dunning-kruger-effect)
     * [Fitts' Law](#fitts-law)
     * [Gall's Law](#galls-law)
     * [Goodhart's Law](#goodharts-law)
@@ -217,6 +218,21 @@ Like stable relationships between individuals, a developer's relationship with a
 See also:
 
 - [Conway's Law](#conways-law)
+
+
+### Dunning-Kruger Effect
+
+[Dunning-Kruger Effect on Wikipedia](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)
+
+In the field of psychology, the Dunning–Kruger effect is a cognitive bias in which people with low ability at a task overestimate their ability. It is related to the cognitive bias of illusory superiority and comes from the inability of people to recognize their lack of ability. Without the self-awareness of metacognition, people cannot objectively evaluate their competence or incompetence. People experiencing this bias are said to be at the top of "Mount Stupid," (refer to the graph below)-
+
+<img width="500px" alt="Diagram Dunning-Kruger Effect" src="./images/Dunning_Kruger_effect.svg">
+
+The effect suggests that poor performers are usually not in a position to recognize the shortcomings in their performance.
+
+See also:
+* [Impostor syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome)
+* [Illusory superiority](https://en.wikipedia.org/wiki/Illusory_superiority)
 
 ### Fitts' Law
 

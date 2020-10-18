@@ -224,15 +224,20 @@ See also:
 
 [Dunning-Kruger Effect on Wikipedia](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)
 
-In the field of psychology, the Dunning–Kruger effect is a cognitive bias in which people with low ability at a task overestimate their ability. It is related to the cognitive bias of illusory superiority and comes from the inability of people to recognize their lack of ability. Without the self-awareness of metacognition, people cannot objectively evaluate their competence or incompetence. People experiencing this bias are said to be at the top of "Mount Stupid," (refer to the graph below)-
+The Dunning–Kruger effect is a cognitive bias in which people with low ability at a task overestimate their ability. It is related to the cognitive bias of illusory superiority and comes from the inability of people to recognize their lack of knowledge. Without the self-awareness of metacognition, people cannot objectively evaluate their competence or incompetence. People experiencing this bias are said to be at the top of "Mount Stupid" (refer to the graph below)-
 
 <img width="500px" alt="Diagram Dunning-Kruger Effect" src="./images/Dunning_Kruger_effect.svg">
 
-The effect suggests that poor performers are usually not in a position to recognize the shortcomings in their performance.
+To overcome the negative outcome of this effect, one can undergo training in the task to become more competent at it. This training would enable the person to be more aware of their ability to complete the job as well as being aware of the challenges that they would face during that task.
+
+This effect is applied to the developers in the agile sprints as well. People with low ability (or who are new to the technology) often overestimate their knowledge and pick up more tasks than they can complete (appear to be confident). This overestimation of their ability often results in under-delivery in the sprints. Once these developers undergo technology training in technology, they can estimate their ability correctly.
 
 See also:
-* [Impostor syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome)
 * [Illusory superiority](https://en.wikipedia.org/wiki/Illusory_superiority)
+
+Real-world examples:
+
+* A Common scenario of this effect could be seen when a new non-technical person estimates the time required by a developer to complete a technical task. Usually, this estimation comes to life by being very ambitious, and it takes longer than the estimated time for developers to complete the job.
 
 ### Fitts' Law
 

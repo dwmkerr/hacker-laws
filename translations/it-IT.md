@@ -310,7 +310,7 @@ La Legge afferma che i team di lavoro tendono a dedicare molto più tempo e atte
 
 Il tipico esempio fittizio usato per illustrare la Legge è quello di un comitato incaricato di approvare i piani per un impianto nucleare, che passa più tempo a discutere i dettagli del ripostiglio delle biciclette che a discutere il ben più importante design dell'impianto stesso. Può essere difficile a volte dare il giusto contributo quando si discute di argomenti grandi e complessi senza avere una preparazione o esperienza adeguata in merito. Tuttavia, le persone vogliono in genere mostrarsi attive nel collaborare fornendo input di valore. Da qui la tendenza a concentrarsi troppo sul dettaglio spiccio, che può essere discusso facilmente, ma non ha necessariamente rilevanza.
 
-L'esempio fittizio ha portato all'utilizzo del termine "ripostiglio delle biciclette" come metafora della perdita di tempo sui dettagli di poca rilevanza. 
+L'esempio fittizio ha portato all'utilizzo del termine "ripostiglio delle biciclette" come metafora della perdita di tempo sui dettagli di poca rilevanza.
 
 ### Filosofia Unix
 

@@ -69,7 +69,7 @@ Kā šis projekts? Lūdzu, apsveriet iespēju [Sponsoring Me](https://github.com
 * [Lasīšanas saraksts](#lasīšanas-saraksts)
 * [Ieguldījums](#ieguldījums)
 * [Uzdevums](#TODO)
-    
+
 <!-- VIM-markdown-toc -->
 
 ## Ievads

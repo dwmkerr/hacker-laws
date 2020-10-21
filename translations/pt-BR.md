@@ -93,7 +93,7 @@ Veja também:
 
 [Lei de Amdahl na Wikipédia](https://pt.wikipedia.org/wiki/Lei_de_Amdahl)
 
-> A lei de Amdahl, também conhecida como argumento de Amdahl, é usada para encontrar a máxima melhora esperada para um sistema em geral quando apenas uma única parte do mesmo é melhorada. Isto é frequentemente usado em computação paralela para prever o máximo speedup teórico usando múltiplos processadores. A lei possui o nome do Arquiteto computacional Gene Amdahl, e foi apresentada a AFIPS na Conferência Conjunta de Informática na primavera de 1967. 
+> A lei de Amdahl, também conhecida como argumento de Amdahl, é usada para encontrar a máxima melhora esperada para um sistema em geral quando apenas uma única parte do mesmo é melhorada. Isto é frequentemente usado em computação paralela para prever o máximo speedup teórico usando múltiplos processadores. A lei possui o nome do Arquiteto computacional Gene Amdahl, e foi apresentada a AFIPS na Conferência Conjunta de Informática na primavera de 1967.
 
 Fica mais fácil de entender com um exemplo prático. Se um programa é feito de duas partes, parte A, que é executada por um processador único, e parte B, que pode ser feito paralelamente com N processadores. Se adicionarmos mais processaores ao sistema, só vai ter aumento nas tarefas relacionadas à parte B do programa. A velocidade de A se mantém a mesma.
 
@@ -128,9 +128,9 @@ Exemplos:
 [Lei de Brooks na Wikipeia](https://en.wikipedia.org/wiki/Brooks%27s_law)
 
 
-> Adicionar recursos humanos em um projeto, de desenvolvimento de sotware, atrasado, faz ficar ainda mais atrasado. 
+> Adicionar recursos humanos em um projeto, de desenvolvimento de sotware, atrasado, faz ficar ainda mais atrasado.
 
-Essa lei sugere que em muitos casos, na tentativa de acelerar uma entrega, que já está atrasada, adcionando mais pessoas atrasa ainda mais essa entrega. Brooke assume que essa afirmação é uma generalização excessiva, entretanto, o principal motivo para isso acontecer é dado pelo simples fato de adicionar pessoas requer um gasto com comunicação e construção de novos recursos para a equipe suportar novos membros. Logo, a curto prazo esse investimento não tem um retorno. Também existem tarefas que não podem ser dividias, portanto adicionar mais pessoas não vai fazer ela ser concluida mais rápido. 
+Essa lei sugere que em muitos casos, na tentativa de acelerar uma entrega, que já está atrasada, adcionando mais pessoas atrasa ainda mais essa entrega. Brooke assume que essa afirmação é uma generalização excessiva, entretanto, o principal motivo para isso acontecer é dado pelo simples fato de adicionar pessoas requer um gasto com comunicação e construção de novos recursos para a equipe suportar novos membros. Logo, a curto prazo esse investimento não tem um retorno. Também existem tarefas que não podem ser dividias, portanto adicionar mais pessoas não vai fazer ela ser concluida mais rápido.
 
 "Nove mulheres não podem parir uma criança em um mês" e "Dois pilotos não fazem o carro ir mais rápido" são frases relacionadas a Lei de Brooke, principalmente porque algumas tarefas nao podem ser divididas.
 
@@ -446,7 +446,7 @@ Veja também:
 
 Exemplos do mundo real:
 
-- [Photoshop Slow Startup](https://forums.adobe.com/thread/376152) - um problema que eu encontrei no passado. O Photoshop demorava para abrir, às vezes levando alguns minutos. Parecia que o problema era que, ao iniciar, o programa lia algumas informações sobre a impressora padrão. No entando, se essa impressora fosse uma impressora de rede, isso demoraria tempo extremamente longo. A _abstração_ de uma impressora de rede ser mostrada ao sistema como uma impressora local causou um problema para usuários em situação de baixa conectividade. 
+- [Photoshop Slow Startup](https://forums.adobe.com/thread/376152) - um problema que eu encontrei no passado. O Photoshop demorava para abrir, às vezes levando alguns minutos. Parecia que o problema era que, ao iniciar, o programa lia algumas informações sobre a impressora padrão. No entando, se essa impressora fosse uma impressora de rede, isso demoraria tempo extremamente longo. A _abstração_ de uma impressora de rede ser mostrada ao sistema como uma impressora local causou um problema para usuários em situação de baixa conectividade.
 
 ### A Lei da Trivialidade
 
@@ -480,7 +480,7 @@ O Modelo Spotify também popularizou o conteido de Tribos, Guildas, Capítulos, 
 [Wadler's Law on wiki.haskell.org](https://wiki.haskell.org/Wadler's_Law)
 
 > Em qualquer design de linguagem, o tempo total gasto discutindo a uma funcionalidade nessa lista é proporcional a dois elevados à potência de sua posição.
-> 
+>
 > 0. Semântica
 > 1. Sintaxe
 > 2. Sintaxe léxica
@@ -555,7 +555,7 @@ Exemplos do mundo real:
 >
 > _Laurence J. Peter_
 
-Um conceito de gerenciamento desenvolvido por Laurence J. Peter, o Princípio de Peter observa que as pessoas que são boas em seu emprego são promovidas até um nível onde elas não são mais bem-sucedidas (o "nível de incompetência"). Neste ponto, à medida em que são mais seniores, é menos provável que elas sejam removidas da organização (a não ser que elas performem de maneira horrível) e irão continuar a permanecer em uma função na qual possuem poucas habilidades intrínsecas, pois as habilidades originais que as fizeram bem-sucedidas não são necessariamente as mesmas que o novo cargo exige.  
+Um conceito de gerenciamento desenvolvido por Laurence J. Peter, o Princípio de Peter observa que as pessoas que são boas em seu emprego são promovidas até um nível onde elas não são mais bem-sucedidas (o "nível de incompetência"). Neste ponto, à medida em que são mais seniores, é menos provável que elas sejam removidas da organização (a não ser que elas performem de maneira horrível) e irão continuar a permanecer em uma função na qual possuem poucas habilidades intrínsecas, pois as habilidades originais que as fizeram bem-sucedidas não são necessariamente as mesmas que o novo cargo exige.
 
 Isso é de interesse particular para engenheiros - que inicialmente começam em funções técnicas mas tem uma carreira que leva ao _gerenciamento_ de outros engenheiros - o que requer um conjunto de habilidades fundamentalmente diferente.
 
@@ -643,7 +643,7 @@ Veja também:
 
 O quarto princípio do '[SOLID](#solid)'. Esse princípio afirma que os consumidores de um componente não devem depender de funções daquele componente, as quais eles atualmente não usem.
 
-Como um exemplo, imagine que um método lê um documento XML de uma estutura que representa um arquivo. O método apenas precisa ler os bytes, ir para frente ou para trás no arquivo. Se esse método precisar ser atualizado porque um recurso não relacionado da estrutura do arquivo é alterado (como uma atualização no modelo de permissões utilizado para representar a segurança do arquivo), o princípio foi invalidado. 
+Como um exemplo, imagine que um método lê um documento XML de uma estutura que representa um arquivo. O método apenas precisa ler os bytes, ir para frente ou para trás no arquivo. Se esse método precisar ser atualizado porque um recurso não relacionado da estrutura do arquivo é alterado (como uma atualização no modelo de permissões utilizado para representar a segurança do arquivo), o princípio foi invalidado.
 
 Esse princípio tem uma relevância particular na orientação a objetos, onde interfaces, hierarquias e tipos abstratos são utilizados para [minimizar o acomplamento](#todo) entre componentes diferentes. [Duck typing]() é uma metodologia que enforça esse princípio, eliminando interfaces explícitas.
 
@@ -660,7 +660,7 @@ Veja também:
 
 > Módulos de alto nível não devem ser dependentes de implementações de baixo nível.
 
-O quinto conceito do '[SOLID](#solid)'. Esse princípio afirma que componentes 
+O quinto conceito do '[SOLID](#solid)'. Esse princípio afirma que componentes
 
 Como um exemplo, imagine que temos um programa que lê os metadados de um website. Nós devemos assumir que o componente principal precisa conhecer um componente que irá baixar a página, depois um outro componente que irá ler os metadados. Se fôssemos levar a inversão de dependências em conta, o componente principal deveria depender apenas de um componente abstrato que pode buscar pelos bytes, e depois outro componente abstrato que irá ler os metadados de um fluxo de bytes. O componente principal não sabe nada sobre TCP/IP, HTTP, HTML, etc.
 

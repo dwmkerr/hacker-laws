@@ -139,7 +139,7 @@ See also:
 
 Examples:
 
-- [The Pragmatic Programming: Software Entropy](https://pragprog.com/the-pragmatic-programmer/extracts/software-entropy)
+- [The Pragmatic Programming: Software Entropy](https://flylib.com/books/en/1.315.1.15/1/)
 - [Coding Horror: The Broken Window Theory](https://blog.codinghorror.com/the-broken-window-theory/)
 - [OpenSource: Joy of Programming - The Broken Window Theory](https://opensourceforu.com/2011/05/joy-of-programming-broken-window-theory/)
 

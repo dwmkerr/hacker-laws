@@ -51,6 +51,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
 * [Principles](#principles)
     * [All Models Are Wrong (George Box's Law)](#all-models-are-wrong-george-boxs-law)
     * [Chesterson's Fence](#chestersons-fence)
+    * [Echo Chamber Effect](#echo-chamber-effect)
     * [The Dead Sea Effect](#the-dead-sea-effect)
     * [The Dilbert Principle](#the-dilbert-principle)
     * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
@@ -668,6 +669,16 @@ See also:
 This principle is relevant in software engineering when removing technical debt. Each line of a program was originally written by someone for some reason. Chesterson's Fence suggests that one should try to understand the context and meaning of the code fully, before changing or removing it, even if at first glance it seems redundant or incorrect.
 
 The name of this principle comes from a story by [G.K. Chesterson](https://en.wikipedia.org/wiki/G._K._Chesterton). A man comes across a fence crossing the middle of the road. He complains to the mayor that this useless fence is getting in the way, and asks to remove it. The mayor asks why the fence is there in the first place. When the man says he doesn't know, the mayor says, "If you don't know its purpose, I certainly won't let you remove it. Go and find out the use of it, and then I may let you destroy it."
+
+### Echo Chamber Effect
+
+[Echo Chamber Effect on Wikipedia](https://en.wikipedia.org/wiki/Echo_chamber_(media))
+
+> An echo chamber is "an environment where a person only encounters information or opinions that reflect and reinforce their own. By visiting an echo chamber, people are able to seek out information that reinforces their existing views, potentially as an unconscious exercise of confirmation bias.
+
+This effect basically states that someone who has been exposed to similar opinions with their own for a long time, tends to reject and resist new or different opinions. In software development, in case a developer has been applying the same practices/paradigms and surrounding herself/himself with the same ideas for so long, it results in sticking to the current mentality. That will damage the self-improvement process. 
+
+Having the project working flawlessly may cause a bias which suggests the way the project is designed/developed is perfect. But software is alive and designs/problems/solutions are gradually evolving. Following different approaches, listening to the opposite ideas, being open-minded can enable one to get out of this effect.
 
 ### The Dead Sea Effect
 

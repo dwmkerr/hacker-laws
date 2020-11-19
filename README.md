@@ -224,7 +224,7 @@ See also:
 
 [Dunning-Kruger Effect on Wikipedia](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)
 
-The Dunning–Kruger effect is a cognitive bias in which people with low ability at a task overestimate their ability. It is related to the cognitive bias of illusory superiority and comes from the inability of people to recognize their lack of knowledge. Without the self-awareness of metacognition, people cannot objectively evaluate their competence or incompetence. People experiencing this bias are said to be at the top of "Mount Stupid" (refer to the graph below)-
+> The Dunning–Kruger effect is a cognitive bias in which people with low ability at a task overestimate their ability. It is related to the cognitive bias of illusory superiority and comes from the inability of people to recognize their lack of knowledge. Without the self-awareness of metacognition, people cannot objectively evaluate their competence or incompetence. People experiencing this bias are said to be at the top of "Mount Stupid" (refer to the graph below)-
 
 <img width="500px" alt="Diagram Dunning-Kruger Effect" src="./images/Dunning_Kruger_effect.svg">
 

@@ -678,7 +678,7 @@ The name of this principle comes from a story by [G.K. Chesterson](https://en.wi
 
 This effect basically states that someone who has been exposed to similar opinions with their own for a long time, tends to reject and resist new or different opinions. In software development, in case a developer has been applying the same practices/paradigms and surrounding herself/himself with the same ideas for so long, it results in sticking to the current mentality. That will damage the self-improvement process. 
 
-Having the project working flawlessly may cause a bias which suggests the way the project is designed/developed is perfect. But software is alive and designs/problems/solutions are gradually evolving. Following different approaches, listening to the opposite ideas, being open-minded can enable one to get out of this effect.
+Having the project working flawlessly may cause a bias which suggests the way the project is designed/developed is perfect. But software is alive and designs/problems/solutions are gradually evolving. Following different approaches, listening to the opposite ideas, being open-minded can enable one to get out of this effect. Frequent code review sessions and pair programming can also be beneficial in practical aspects.
 
 ### The Dead Sea Effect
 

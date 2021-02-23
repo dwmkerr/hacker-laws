@@ -2,10 +2,15 @@
 
 <!-- vim-markdown-toc GFM -->
 
+* [Goal of the Project](#goal-of-the-project)
 * [Example Law: The Law of Leaky Abstractions](#example-law-the-law-of-leaky-abstractions)
 * [Localisation](#localisation)
+* [How do I know if a law is relevant?](#how-do-i-know-if-a-law-is-relevant)
+* [How do I know if a law is 'well known' enough?](#how-do-i-know-if-a-law-is-well-known-enough)
 
 <!-- vim-markdown-toc -->
+
+## Goal of the Project
 
 The goal of this project is to have a set of _concise_ definitions to laws, principles, methodologies and patterns which hackers will find useful. They should be:
 
@@ -30,7 +35,7 @@ An example law is shown below, which covers most of the key points:
 
 ---
 
-### Example Law: The Law of Leaky Abstractions
+## Example Law: The Law of Leaky Abstractions
 
 [The Law of Leaky Abstractions on Joel on Software](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
 
@@ -54,10 +59,18 @@ Real-world examples:
 
 - [Photoshop Slow Startup](https://forums.adobe.com/thread/376152) - an issue I encountered in the past. Photoshop would be slow to startup, sometimes taking minutes. It seems the issue was that on startup it reads some information about the current default printer. However, if that printer is actually a network printer, this could take an extremely long time. The _abstraction_ of a network printer being presented to the system similar to a local printer caused an issue for users in poor connectivity situations.
 
-### Localisation
+## Localisation
 
 We are currently using [GitLocalize](https://gitlocalize.com) to handle translations. This provides features to make it easier for people to manage translations as changes come in:
 
 ![GitLocalize Screenshot](../images/gitlocalize.png)
 
 This is still work in progress - if you would like to be a maintainer for a language just open an issue to get in touch!
+
+## How do I know if a law is relevant?
+
+In general, it should be reasonably applicable to the world of computer sciences, IT or coding in general.
+
+## How do I know if a law is 'well known' enough?
+
+A good test is 'If I search for it on Google, will I find it in the first few results?'.

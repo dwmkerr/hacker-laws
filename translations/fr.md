@@ -193,7 +193,7 @@ Souvent aussi énoncée de cette manière :
 > Lorsqu'une mesure devient un objectif, elle cesse d'être une bonne mesure.
 > *Marilyn Strathern*
 
-Cette loi indique que les optimisations basées sur une mesure peuvent amener à une perte de valeur de la mesure elle même. Un ensemble de mesures ([KPIs](https://en.wikipedia.org/wiki/Performance_indicator)) trop restraint appliqué aveuglément à un process déforme le résultat. Les gens tendent à "tricher" localement pour satisfaire une mesure en particulier sans faire attention aux effect globaux de leurs actions sur le système.
+Cette loi indique que les optimisations basées sur une mesure peuvent amener à une perte de valeur de la mesure elle même. Un ensemble de mesures ([KPIs](https://en.wikipedia.org/wiki/Performance_indicator)) trop restraint appliqué aveuglément à un process déforme le résultat. Les gens tendent à "tricher" localement pour satisfaire une mesure en particulier sans faire attention aux effets globaux de leurs actions sur le système.
 
 Exemples concrets :
 
@@ -486,7 +486,7 @@ Voir aussi :
 > Ne soyez pas un connard.
 > *Wil Wheaton*
 
-Inventée par Will Wheaton (Star Trek: The Next Generation, The Big Bang Theory), cette loi simple, concise et puissante vise à augmenter l'harmonie et le respect au sein d'un environnement professionnel. Elle peut être appliquée lorsqu'on parle à ses collègues, effectue une code review, argumente contre un autre point de vue, critique et de manière générale, lors de la plupart des interactions entre humains.
+Inventée par Will Wheaton (Star Trek: The Next Generation, The Big Bang Theory), cette loi simple, concise et puissante vise à augmenter l'harmonie et le respect au sein d'un environnement professionnel. Elle peut être appliquée lorsqu'on parle à ses collègues, effectue une revue de code (*code review*), argumente contre un autre point de vue, critique et de manière générale, lors de la plupart des interactions entre humains.
 
 ## Principes
 
@@ -593,7 +593,7 @@ Voir aussi :
 
 > Les entités devraient être ouvertes à l'extension et fermées à la modification.
 
-Le deuxième des principes '[SOLID](#solid)'. Il énonce que le comportement des entités (classes, modules, fonctions, etc.) devraient pouvoir être *étendu*, mais que le comportement *existant* ne devrait pas pouvoir être modifié.
+Le deuxième des principes '[SOLID](#solid)'. Il énonce que le comportement des entités (classes, modules, fonctions, etc.) devrait être *étendu*, mais que le comportement *existant* ne devrait pas être modifié.
 
 Imaginons par exemple un module capable de changer un document rédigé en Markdown en HTML. Ce module peut être étendu en y ajoutant le support pour une nouvelle fonctionnalité Markdown sans modifier son fonctionnement interne. Le module est en revanche *fermé* à la modification dans le sens où un utilisateur *ne peut pas* changer la manière dont le code existant est rédigé.
 
@@ -700,7 +700,7 @@ Il s'agit d'un acronyme pour ***Y**ou **A**in't **G**onna **N**eed **I**t*. Que 
 
 Ce principe *d'Extreme Programming* (XP) suggère que les développeurs ne devraient implémenter que les fonctionnalités qui sont nécessaires immédiatement et éviter de tenter de prédire l'avenir en implémentant des fonctionnalités qui pourraient être nécessaires plus tard.
 
-Adhérer à ce principe devrait réduire la quantité de code inutilisé dans la codebase et permettre d'éviter de passer du temps et des efforts sur des fonctionnalités qui n'apportent rien.
+Adhérer à ce principe devrait réduire la quantité de code inutilisé dans le codebase et permet d'éviter de passer du temps sur des fonctionnalités qui n'apportent rien.
 
 Voir aussi :
 

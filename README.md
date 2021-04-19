@@ -52,7 +52,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
     * [Wheaton's Law](#wheatons-law)
 * [Principles](#principles)
     * [All Models Are Wrong (George Box's Law)](#all-models-are-wrong-george-boxs-law)
-    * [Chesterson's Fence](#chestersons-fence)
+    * [Chesterton's Fence](#chestertons-fence)
     * [The Dead Sea Effect](#the-dead-sea-effect)
     * [The Dilbert Principle](#the-dilbert-principle)
     * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
@@ -617,11 +617,12 @@ Modern practices like 'Microservice Architecture' can be thought of as an applic
 
 Based on the "Scout Rule", which is "always leave the campground cleaner than you found it", the Scout Rule in programming is simply "always leave the code cleaner than you found it".
 
-This was introduced in the first chapter of the book [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code) by Bob Martin. The rule suggests that developers should perform 'optimistic refactoring', which means to endeavour to improve the overall quality of the code when you work on it. If you see a mistake, attempt to fix it or clean it up.
+This was introduced in the first chapter of the book [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code) by Bob Martin. The rule suggests that developers should perform 'optimistic refactoring', which means to endeavour to improve the overall quality of the code when you work on it. If you see a mistake, attempt to fix it or clean it up. However, when making changes to code which seems incorrect, it may be worth remembering [Chesterton's Fence](#chestertons-fence)!
 
 See also:
 
 - [Reading List: Clean Code](#reading-list)
+- [Chesterton's Fence](#chestertons-fence)
 - [The Broken Windows Theory](#broken-windows-theory)
 
 https://www.amazon.sg/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882
@@ -699,15 +700,15 @@ See also:
 
 - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
 
-### Chesterson's Fence
+### Chesterton's Fence
 
-[Chesterson's Fence on Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence)
+[Chesterton's Fence on Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence)
 
 > Reforms should not be made until the reasoning behind the existing state of affairs is understood.
 
-This principle is relevant in software engineering when removing technical debt. Each line of a program was originally written by someone for some reason. Chesterson's Fence suggests that one should try to understand the context and meaning of the code fully, before changing or removing it, even if at first glance it seems redundant or incorrect.
+This principle is relevant in software engineering when removing technical debt. Each line of a program was originally written by someone for some reason. Chesterton's Fence suggests that one should try to understand the context and meaning of the code fully, before changing or removing it, even if at first glance it seems redundant or incorrect.
 
-The name of this principle comes from a story by [G.K. Chesterson](https://en.wikipedia.org/wiki/G._K._Chesterton). A man comes across a fence crossing the middle of the road. He complains to the mayor that this useless fence is getting in the way, and asks to remove it. The mayor asks why the fence is there in the first place. When the man says he doesn't know, the mayor says, "If you don't know its purpose, I certainly won't let you remove it. Go and find out the use of it, and then I may let you destroy it."
+The name of this principle comes from a story by [G.K. Chesterton](https://en.wikipedia.org/wiki/G._K._Chesterton). A man comes across a fence crossing the middle of the road. He complains to the mayor that this useless fence is getting in the way, and asks to remove it. The mayor asks why the fence is there in the first place. When the man says he doesn't know, the mayor says, "If you don't know its purpose, I certainly won't let you remove it. Go and find out the use of it, and then I may let you destroy it."
 
 ### The Dead Sea Effect
 

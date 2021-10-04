@@ -589,6 +589,21 @@ Real-world examples:
 
 - [Photoshop Slow Startup](https://forums.adobe.com/thread/376152) - an issue I encountered in the past. Photoshop would be slow to startup, sometimes taking minutes. It seems the issue was that on startup it reads some information about the current default printer. However, if that printer is actually a network printer, this could take an extremely long time. The _abstraction_ of a network printer being presented to the system similar to a local printer caused an issue for users in poor connectivity situations.
 
+### The Law of the Instrument
+
+[The Law of the Instrument](https://en.wikipedia.org/wiki/Law_of_the_instrument)
+
+> I call it the law of the instrument, and it may be formulated as follows: Give a small boy a hammer, and he will find that everything he encounters needs pounding.
+
+> If all you have is a hammer, everything looks like a nail.
+
+In the context of computer programming, this law suggests that people tend to use tools that are familiar with, rather than the best possible tool. This over-reliance on a familiar tool is an anti-pattern referred to as the golden hammer.
+
+See also:
+
+- [Avoiding the law of the instrument](https://josemdev.com/avoiding-the-law-of-the-instrument/)
+- [AntiPattern Golden Hammer](https://archive.org/details/antipatternsrefa0000unse/page/111/mode/2up)
+
 ### The Law of Triviality
 
 [The Law of Triviality on Wikipedia](https://en.wikipedia.org/wiki/Law_of_triviality)

@@ -594,8 +594,12 @@ Real-world examples:
 [The Law of the Instrument](https://en.wikipedia.org/wiki/Law_of_the_instrument)
 
 > I call it the law of the instrument, and it may be formulated as follows: Give a small boy a hammer, and he will find that everything he encounters needs pounding.
+>
+> _Abraham Kaplan_
 
 > If all you have is a hammer, everything looks like a nail.
+>
+> _Abraham Maslow_
 
 In the context of computer programming, this law suggests that people tend to use tools that are familiar with, rather than the best possible tool. This over-reliance on a familiar tool is an anti-pattern referred to as the golden hammer.
 

@@ -74,3 +74,7 @@ In general, it should be reasonably applicable to the world of computer sciences
 ## How do I know if a law is 'well known' enough?
 
 A good test is 'If I search for it on Google, will I find it in the first few results?'.
+
+## Use of Images
+
+Please make sure to attribute images properly if you are referencing them. Also, include a white background, as some viewers will be viewing the site in 'Dark Mode' which can make images with a transparent background difficult to read.

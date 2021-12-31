@@ -17,6 +17,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
     * [The Broken Windows Theory](#the-broken-windows-theory)
     * [Brooks' Law](#brooks-law)
     * [CAP Theorem (Brewer's Theorem)](#cap-theorem-brewers-theorem)
+    * [Cole's Law](#coles-law)
     * [Conway's Law](#conways-law)
     * [Cunningham's Law](#cunninghams-law)
     * [Dunbar's Number](#dunbars-number)
@@ -185,6 +186,24 @@ See also:
 - [ACID](#TODO)
 - [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)
 - [PACELC](#TODO)
+
+### Cole's Law
+
+[ColesLaw on Wikipedia](https://en.wikipedia.org/wiki/Coleslaw)
+
+> A side dish consisting primarily of finely shredded raw cabbage with mayonnaise or vinaigrette.
+
+Any discussion of these laws should include at least one reference to cole's law at which point any followup question is answered with the above information.  The application of this law results in audible groans or reluctant upvote or likes.
+
+> A: Have you heard of Cunningham's Law  
+> B: Yes, but only as it relates to Cole's law  
+> A: What's Cole's Law  
+> B: A side dish consisting primarily of finely shredded raw cabbage with mayonnaise or vinaigrette.
+
+> A: That's Putt's Law  
+> B: Actually, its Cole's Law  
+> A: What's Cole's Law  
+> B: A side dish consisting primarily of finely shredded raw cabbage with mayonnaise or vinaigrette.  
 
 ### Conway's Law
 

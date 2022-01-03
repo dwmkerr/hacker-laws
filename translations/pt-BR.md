@@ -385,7 +385,7 @@ A lei de Parkinson foi publicada por Cyril Northcote Parkinson num artigo na rev
 >
 > [(Donald Knuth)](https://twitter.com/realdonaldknuth?lang=en)
 
-No artigo de Donald Knuth, [Structured Programming With Go To Statements](http://wiki.c2.com/?StructuredProgrammingWithGoToStatements), ele escreve: "Programadores perdem grandes quantidades de tempo pensando ou se preocupando com a velocidade de partes não críticas de seus programas, e essas tentativas de eficiência possuem um forte impacto negativo quando depuração e manutenção são consideradas. Nós devemos esquecer essas pequenas eficiências, cerca de 97% das vezes: **otimização prematura é a raiz de todo o mal.** No entando, não devemos perder a oportunidade nesses 3% críticos".
+No artigo de Donald Knuth, [Structured Programming With Go To Statements](http://wiki.c2.com/?StructuredProgrammingWithGoToStatements), ele escreve: "Programadores perdem grandes quantidades de tempo pensando ou se preocupando com a velocidade de partes não críticas de seus programas, e essas tentativas de eficiência possuem um forte impacto negativo quando depuração e manutenção são consideradas. Nós devemos esquecer essas pequenas eficiências, cerca de 97% das vezes: **otimização prematura é a raiz de todo o mal.** No entanto, não devemos perder a oportunidade nesses 3% críticos".
 
 Contudo, _Otimização Prematura_ pode ser definida (em termos menos carregados) como otimizar antes de saber o que precisamos.
 

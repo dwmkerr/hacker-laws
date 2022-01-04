@@ -244,7 +244,7 @@ Par exemple, un abaissement de la latence de réponse sur une route (end-point) 
 
 [Cycle du hype sur Wikipedia](https://fr.wikipedia.org/wiki/Cycle_du_hype)
 
-> On a tendance à surestimer l'effet d'une technologie sur le court terme et à le surestimer sur le long terme.
+> On a tendance à surestimer l'effet d'une technologie sur le court terme et à le sous-estimer sur le long terme.
 > (Roy Amara)
 
 Le cycle du hype est une représentation visuelle de l'attrait et du développement d'une technologie au fil du temps. Initialement réalisé par Gartner, le concept est plus clair avec un diagramme :
@@ -259,7 +259,7 @@ En clair, ce cycle montre qu'il y a généralement un pic d'excitation concernan
 
 [Loi d'Hyrum en ligne](http://www.hyrumslaw.com/)
 
-> > Passé un certain nombre d'utilisateur d'une API, peu importe ce qui est promis par l'interface, tous les comportements possibles du système seront utilisés.
+> Passé un certain nombre d'utilisateur d'une API, peu importe ce qui est promis par l'interface, tous les comportements possibles du système seront utilisés.
 > (Hyrum Wright)
 
 La loi d'Hyrum décris le fait que lorsqu'une API a un *nombre suffisamment élevé d'utilisateurs*, tous les comportements de l'API (y compris ceux qui ne sont pas définis publiquement) seront utilisés par quelqu'un. Un exemple trivial peut concerner les éléments non fonctionnels de l'API comme le temps de réponse. Un exemple plus subtil peut être l'utilisation d'une regex sur les messages d'erreurs pour en déterminer le *type*. Même si la spécification de l'API ne mentionne rien quant au contenu des messages, *certains* utilisateurs peuvent utiliser ces messages. Un changement au niveau de ces messages reviendrait à casser l'API pour ces utilisateurs.
@@ -679,7 +679,7 @@ Voir aussi :
 
 [KISS sur Wikipedia](https://fr.wikipedia.org/wiki/Principe_KISS)
 
-> > Keep it simple, stupid. (Ne complique pas les choses)
+> Keep it simple, stupid. (Ne complique pas les choses)
 
 Le principe KISS énonce que la plupart des systèmes fonctionnent mieux s'ils sont simples que compliqués. Par conséquent, la simplicité devrait être un but essentiel dans la conception et toute complexité inutile devrait être évité. Provenant de la marine Américaine en 1960, la phrase est attribuée à l'ingénieur Kelly Johnson.
 

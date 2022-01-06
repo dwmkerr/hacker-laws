@@ -95,7 +95,7 @@ Veja também:
 
 > A lei de Amdahl, também conhecida como argumento de Amdahl, é usada para encontrar a máxima melhora esperada para um sistema em geral quando apenas uma única parte do mesmo é melhorada. Isto é frequentemente usado em computação paralela para prever o máximo speedup teórico usando múltiplos processadores. A lei possui o nome do Arquiteto computacional Gene Amdahl, e foi apresentada a AFIPS na Conferência Conjunta de Informática na primavera de 1967.
 
-Fica mais fácil de entender com um exemplo prático. Se um programa é feito de duas partes, parte A, que é executada por um processador único, e parte B, que pode ser feito paralelamente com N processadores. Se adicionarmos mais processaores ao sistema, só vai ter aumento nas tarefas relacionadas à parte B do programa. A velocidade de A se mantém a mesma.
+Fica mais fácil de entender com um exemplo prático. Se um programa é feito de duas partes, parte A, que é executada por um processador único, e parte B, que pode ser feito paralelamente com N processadores. Se adicionarmos mais processadores ao sistema, só vai ter aumento nas tarefas relacionadas à parte B do programa. A velocidade de A se mantém a mesma.
 
 O diagrama abaixo mostra alguns exemplos de melhoria na velocidade:
 
@@ -125,15 +125,13 @@ Exemplos:
 
 ### Lei de Brook
 
-[Lei de Brooks na Wikipeia](https://en.wikipedia.org/wiki/Brooks%27s_law)
+[Lei de Brooks na Wikipedia](https://en.wikipedia.org/wiki/Brooks%27s_law)
 
+> Adicionar recursos humanos em um projeto, de desenvolvimento de software, atrasado, faz ficar ainda mais atrasado.
 
-> Adicionar recursos humanos em um projeto, de desenvolvimento de sotware, atrasado, faz ficar ainda mais atrasado.
+Essa lei sugere que em muitos casos, na tentativa de acelerar uma entrega, que já está atrasada, adicionando mais pessoas atrasa ainda mais essa entrega. Brooks assume que essa afirmação é uma generalização excessiva, entretanto, o principal motivo para isso acontecer é dado pelo simples fato de adicionar pessoas requer um gasto com comunicação e construção de novos recursos para a equipe suportar novos membros. Logo, a curto prazo esse investimento não tem um retorno. Também existem tarefas que não podem ser dividias, portanto adicionar mais pessoas não vai fazer ela ser concluída mais rápido.
 
-Essa lei sugere que em muitos casos, na tentativa de acelerar uma entrega, que já está atrasada, adcionando mais pessoas atrasa ainda mais essa entrega. Brooke assume que essa afirmação é uma generalização excessiva, entretanto, o principal motivo para isso acontecer é dado pelo simples fato de adicionar pessoas requer um gasto com comunicação e construção de novos recursos para a equipe suportar novos membros. Logo, a curto prazo esse investimento não tem um retorno. Também existem tarefas que não podem ser dividias, portanto adicionar mais pessoas não vai fazer ela ser concluida mais rápido.
-
-"Nove mulheres não podem parir uma criança em um mês" e "Dois pilotos não fazem o carro ir mais rápido" são frases relacionadas a Lei de Brooke, principalmente porque algumas tarefas nao podem ser divididas.
-
+"Nove mulheres não podem parir uma criança em um mês" e "Dois pilotos não fazem o carro ir mais rápido" são frases relacionadas a Lei de Brooks, principalmente porque algumas tarefas não podem ser divididas.
 
 Esse é um tema central do livro '[The Mythical Man Month](#lista-de-livros)'.
 
@@ -146,7 +144,7 @@ Veja também:
 
 [Lei de Conway na wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 
-Essa lei sugere que limites técnicos de um sistema refletirão na estrutura da organização. Se uma organização é estruturada em pequenos setores, desconexas unidades, o sofware que ela produz sera assim também. Se uma organização é construida de forma vertical, em torno de funcionalidades e serviços, terá reflexo disso dentro do sistema.
+Essa lei sugere que limites técnicos de um sistema refletirão na estrutura da organização. Se uma organização é estruturada em pequenos setores, desconexas unidades, o software que ela produz sera assim também. Se uma organização é construída de forma vertical, em torno de funcionalidades e serviços, terá reflexo disso dentro do sistema.
 
 Veja também:
 
@@ -168,11 +166,11 @@ Veja também:
 
 [Número de Dunbar na Wikipedia](https://en.wikipedia.org/wiki/Dunbar%27s_number)
 
-Dunbar propós que humanos só conseguem manter de forma confortável, 150 relacionamentos estáveis. Esse número está mais em um contexto social, "o número de pessoas que você não se sentiria sem graça para se juntar em uma bebiba se esbarrase com ela em um bar". Esse número geralmente está entra 100 e 250.
+Dunbar propôs que humanos só conseguem manter de forma confortável, 150 relacionamentos estáveis. Esse número está mais em um contexto social, "o número de pessoas que você não se sentiria sem graça para se juntar em uma bebida se esbarrasse com ela em um bar". Esse número geralmente está entra 100 e 250.
 
-Esse número é uma sugestão cognitiva limite para o número de pessoass para qual consegue-se manter uma relação social estável.
+Esse número é uma sugestão cognitiva limite para o número de pessoas para qual consegue-se manter uma relação social estável.
 
-Como uma relação entre pessoas, manter uma relação entre desenvolvedor e codigo requer esforço. É necessário usar politicas, padrões e procedimentos para encarar projetos complicados ou qualquer adversidade possível nesse tipo de relação. Número de Dunbar é importante em vários aspectos, não somente quando a empresa está em crescimento, mas também ao definir o escopo para os esforços da equipe ou decidir quando u msistema deve investir em ferramentas para axuliar na sobrecarga da logística. Colocando em contexto de engrenharia, é o número de projetos para os quais você se sentiria confiante para ingresssar em uma rotação de plantão de suporte.
+Como uma relação entre pessoas, manter uma relação entre desenvolvedor e código requer esforço. É necessário usar politicas, padrões e procedimentos para encarar projetos complicados ou qualquer adversidade possível nesse tipo de relação. Número de Dunbar é importante em vários aspectos, não somente quando a empresa está em crescimento, mas também ao definir o escopo para os esforços da equipe ou decidir quando um sistema deve investir em ferramentas para auxiliar na sobrecarga da logística. Colocando em contexto de engrenharia, é o número de projetos para os quais você se sentiria confiante para ingressar em uma rotação de plantão de suporte.
 
 Veja também:
 
@@ -207,7 +205,7 @@ Também referenciada como:
 >
 > _Marilyn Strathern_
 
-A lei diz que otimizações orientadas por medidas podem levar à uma desvalorização do próprio resultado da medição. O conjunto de medidas excessivamente seletivo ([KPIs](https://en.wikipedia.org/wiki/Performance_indicator)) aplicado cegamenta a um processo resulta em um efeito distorcido. As pessoas tentem a otimizar localmente "jogando com" o sistema para satisfazer métricas específicas ao invés de prestar atenção ao resultado holístico de suas ações.
+A lei diz que otimizações orientadas por medidas podem levar à uma desvalorização do próprio resultado da medição. O conjunto de medidas excessivamente seletivo ([KPIs](https://en.wikipedia.org/wiki/Performance_indicator)) aplicado cegamente a um processo resulta em um efeito distorcido. As pessoas tentem a otimizar localmente "jogando com" o sistema para satisfazer métricas específicas ao invés de prestar atenção ao resultado holístico de suas ações.
 
 Exemplos do mundo real:
 - Testes sem `assertions` atendem à cobertura de código esperada, apesar do objetivo da métrica era criar software bem testado
@@ -225,7 +223,7 @@ Veja também:
 >
 > Robert J. Hanlon
 
-Esse principio sugeste que ações negativas não são sempre resultado de má vontade. Em vez disso, é mais provável que o resultado negativo seja atribuido à ações que não foram totalmente entendidas.
+Esse principio sugere que ações negativas não são sempre resultado de má vontade. Em vez disso, é mais provável que o resultado negativo seja atribuído à ações que não foram totalmente entendidas.
 
 ### Lei de Hofstadter
 
@@ -248,7 +246,7 @@ This is from the book '[Gödel, Escher, Bach: An Eternal Golden Braid](#lista-de
 >
 > _([Patrick Hutber](https://en.wikipedia.org/wiki/Patrick_Hutber))_
 
-Essa lei sugere que melhorias em um sistema irão levar à deterioração em outras partes, ou ela ocultarão outras deteriorações, levando a uma degradação do estado atual do sistema.
+Essa lei sugere que melhorias em um sistema irão levar à deterioração em outras partes, ou elas ocultarão outras deteriorações, levando a uma degradação do estado atual do sistema.
 
 Por exemplo, a diminuição na latência da resposta para um `end-point` particular pode causar um aumento na taxa de transferência e na capacidade ao longo de um fluxo de solicitação, afetando um subsistema totalmente diferente.
 
@@ -266,7 +264,7 @@ O Ciclo Hype é uma representação visual da empolgação e desenvolvimento da 
 
 *(Image Reference: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
 
-Em curto prazo, o ciclo sugere que acontece uma explosão de empolgação a cerca de uma nova tecnologia e seu impacto em potencial. Equipes geralmente entram juntas nessas tecnlogias de forma rápida e em alguns casos ficam desapontados com os resutados. Uma das possíveis causas para isso é o fato da tecnologia em questão não ser madura o suficiente, ou aplicações do mundo real que não estão totalmente prontas. Depois de um certo tempo, a capacidade da tecnologia aumenta e oportunidades práticas para uso dela aumentam, as equipes finalmente podem ser produtivas. A citação de Amara resume isso de forma sucinta - "Nós tendemos a superestimar os efeitos da tecnologia em curto prazo e subestimar os efeitos a longo prazo".
+Em curto prazo, o ciclo sugere que acontece uma explosão de empolgação a cerca de uma nova tecnologia e seu impacto em potencial. Equipes geralmente entram juntas nessas tecnologias de forma rápida e em alguns casos ficam desapontadas com os resultados. Uma das possíveis causas para isso é o fato da tecnologia em questão não ser madura o suficiente, ou aplicações do mundo real que não estão totalmente prontas. Depois de um certo tempo, a capacidade da tecnologia aumenta e oportunidades práticas para uso dela aumentam, as equipes finalmente podem ser produtivas. A citação de Amara resume isso de forma sucinta - "Nós tendemos a superestimar os efeitos da tecnologia em curto prazo e subestimar os efeitos a longo prazo".
 
 
 ### Lei de Hyrum (Lei das Interfaces Implícitas)
@@ -280,7 +278,7 @@ Em curto prazo, o ciclo sugere que acontece uma explosão de empolgação a cerc
 >
 > Hyrum Wright
 
-A lei de Hyrum sugere que quando você tem um número muito grande de consumidores de uma API, todos os comportamentos dessa API (mesmo aqueles que não estão definidos como parte de um contrato público) eventualmente irão dependender de outra parte do sistema, ou outra API. Um exemplo trivial pode ser elementos não funcionais, como o tempo de resposta de uma API. Um exemplo mais sutil pode ser os consumidores que estão confiando em aplicar um regex a uma mensagem de erro para determinar o _tipo_ de erro de uma API. Mesmo que o contrato público da API não especifique nada sobre o conteúdo da mensagem, indicando que os usuários devem usar um código de erro associado, alguns usuários podem usar a mensagem e alterar a mensagem essencialmente interrompe a API para esses usuários.
+A lei de Hyrum sugere que quando você tem um número muito grande de consumidores de uma API, todos os comportamentos dessa API (mesmo aqueles que não estão definidos como parte de um contrato público) eventualmente irão depender de outra parte do sistema, ou outra API. Um exemplo trivial pode ser elementos não funcionais, como o tempo de resposta de uma API. Um exemplo mais sutil pode ser os consumidores que estão confiando em aplicar um regex a uma mensagem de erro para determinar o _tipo_ de erro de uma API. Mesmo que o contrato público da API não especifique nada sobre o conteúdo da mensagem, indicando que os usuários devem usar um código de erro associado, alguns usuários podem usar a mensagem e alterar a mensagem essencialmente interrompe a API para esses usuários.
 
 Veja Também:
 
@@ -289,11 +287,11 @@ Veja Também:
 
 ### Lei de Kernighan
 
-> A depuração é duplamente mais difícil do que escrever o código em primeiro lugar. Portanto, se você escrever o código da maneira mais inteligente possível, por definição, você não é inteligente o sufiencte para depurá-lo.
+> A depuração é duplamente mais difícil do que escrever o código em primeiro lugar. Portanto, se você escrever o código da maneira mais inteligente possível, por definição, você não é inteligente o suficiente para depurá-lo.
 >
 > Brian Kernighan
 
-A Lei de Kerningham é nomeada por [Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan) e devivada de uma citação de Kerningham no livro [The Elements of Programming Style](https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style):
+A Lei de Kerningham é nomeada por [Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan) e derivada de uma citação de Kerningham no livro [The Elements of Programming Style](https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style):
 
 > Todo mundo sabe que depurar é duplamente mais difícil do que programar em primeiro lugar. Então, se você é o mais inteligente possível quando escreve, como você conseguirá depurar o código?
 
@@ -320,7 +318,7 @@ Veja também:
 
 ### Lei de Moore
 
-[Lei de Moore na wikipedia](https://en.wikipedia.org/wiki/Moore%27s_law)
+[Lei de Moore na Wikipedia](https://en.wikipedia.org/wiki/Moore%27s_law)
 
 > O número de transistores dentro de um circuito integrado dobra a cada 2 anos, aproximadamente.
 
@@ -343,7 +341,7 @@ Isso é um ditado comum entre desenvolvedores. Muitas vezes o inesperado ocorre 
 
 > Se algo pode dar errado, dará errado, no pior momento possível.
 
-Essas 'leis' são geralmente utilizadas em um sentido cômico. Contudo, fenômenos como [_Confirmation Bias_](#TODO) e [_Selection Bias_](#TODO) podem pevar as pessoas a enfatizarem demais essas leis (na maioria das vezes quando as coisas funcionam, elas passam desapercebidas, as falhas são mais perceptíveis e atraem mais discussões).
+Essas 'leis' são geralmente utilizadas em um sentido cômico. Contudo, fenômenos como [_Confirmation Bias_](#TODO) e [_Selection Bias_](#TODO) podem levar as pessoas a enfatizarem demais essas leis (na maioria das vezes quando as coisas funcionam, elas passam desapercebidas, as falhas são mais perceptíveis e atraem mais discussões).
 
 Veja também:
 
@@ -375,7 +373,7 @@ Exemplo:
 
 >O trabalho se expande de modo a preencher o tempo disponível para a sua realização.
 
-A lei de Parkinson foi publicada por Cyril Northcote Parkinson num artigo na revista The Economist em 1955, sendo depois reimpresso com outros artigos no livro Parkinson's Law: The Pursuit of Progress [A lei de Parkinson: a busca do progresso].Em seu contexto original, essa Lei foi baseada em estudos de burocracia. E pode ser pessimisticamente aplicado a desenvolvimento de software, a teoria diz que equipes serão ineficientes até os prazos finais, quando irão dar o máximo até o prazo final.
+A lei de Parkinson foi publicada por Cyril Northcote Parkinson num artigo na revista The Economist em 1955, sendo depois reimpresso com outros artigos no livro Parkinson's Law: The Pursuit of Progress [A lei de Parkinson: a busca do progresso]. Em seu contexto original, essa Lei foi baseada em estudos de burocracia. E pode ser pessimisticamente aplicado a desenvolvimento de software, a teoria diz que equipes serão ineficientes até os prazos finais, quando irão dar o máximo até o prazo final.
 
 ### Efeito de Otimização Prematura
 
@@ -399,7 +397,9 @@ A Lei de Putt é frequentemente seguida pelo Corolário de Putt:
 
 > Cada hierarquia técnica, no tempo, desenvolve uma inversão de competência.
 
-Estas declarações sugerem que devido a vários critérios de seleção e tendências na forma como grupos se organizam, haverá um número de pessoas qualificadas nos níveis de trabalho de organizações técnicas, e um número de pessoas em funções gerenciais que não estão cientes das complexidades e desafios do trabalho que estão gerenciando. Isso pode ser devido a fenômenos como  (#em-progresso)
+Estas declarações sugerem que devido a vários critérios de seleção e tendências na forma como grupos se organizam, haverá um número de pessoas qualificadas nos níveis de trabalho de organizações técnicas, e um número de pessoas em funções gerenciais que não estão cientes das complexidades e desafios do trabalho que estão gerenciando. Isso pode ser devido a fenômenos como o [Princípio de Peter](#o-princípio-de-peter) ou o [Princípio Dilbert](#o-princípio-dilbert).
+
+No entanto, deve-se enfatizar que leis como essa são vastas generalizações e podem ser aplicáveis a alguns tipos de organizações, mas não a outras.
 
 Veja também:
 
@@ -422,7 +422,7 @@ Veja também:
 
 [A lei da Conservação de Complexidade na wikipedia](https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity)
 
-Essa lei sugere que em todos sitemas sempre vai existir uma quantidade de complexidade que não pode ser reduzida.
+Essa lei sugere que em todos os sistemas sempre vai existir uma quantidade de complexidade que não pode ser reduzida.
 
 Alguma complexidade em um sistema é "inadvertida". É uma consequência da estrutura deficiente, erros ou apenas má modelagem de um problema a ser resolvido. A complexidade inadvertida pode ser reduzida (ou eliminada). No entanto, alguma complexidade é "intrínseca" como consequência da complexidade inerente ao problema a ser resolvido. Essa complexidade pode ser movida, mas não eliminada.
 
@@ -436,9 +436,9 @@ Um elemento interessante para essa lei é a sugestão de que, mesmo simplificand
 
 Essa lei afirma que abstrações, as quais são geralmente utilizadas na computação para simplificar um trabalho com sistemas complexos, em certas situações irão 'vazar' elementos do sistema subjacente, fazendo com que a abstração se comporte de maneira inesperada.
 
-Um exemplo disso pode ser carregar um arquivo e ler o seu conteúdo. As APIs do sistema de arquivo são abstrações do kernel de nível inferior, que são uma abstração dos processadores físicos relacionados à alteração de dados no disco rígido (ou na memória flash em SSD). Na maioria dos casos, a abstração de tratar um arquivo como um fluxo de dados binários funcionará. Contudo, para um disco rígido, a leitura sequencial dos dados será significamente mais rápida que o acesso aleatório (devido ao aumento da sobrecarga de falhas na página), mas para um disco SSD, essa sobrecarga não estará presente. Os detalhes subjacentes precisarão ser entendidos para lidar com esse caso (por exemplo, os arquivos índices de uma base de dados são estruturados para reduzir a sobrecarga do acesso aleatório), a abstração 'vaza' detalhes de implementação os quais o desenvolvedor precisa estar ciente.
+Um exemplo disso pode ser carregar um arquivo e ler o seu conteúdo. As APIs do sistema de arquivo são abstrações do kernel de nível inferior, que são uma abstração dos processadores físicos relacionados à alteração de dados no disco rígido (ou na memória flash em SSD). Na maioria dos casos, a abstração de tratar um arquivo como um fluxo de dados binários funcionará. Contudo, para um disco rígido, a leitura sequencial dos dados será significantemente mais rápida que o acesso aleatório (devido ao aumento da sobrecarga de falhas na página), mas para um disco SSD, essa sobrecarga não estará presente. Os detalhes subjacentes precisarão ser entendidos para lidar com esse caso (por exemplo, os arquivos índices de uma base de dados são estruturados para reduzir a sobrecarga do acesso aleatório), a abstração 'vaza' detalhes de implementação os quais o desenvolvedor precisa estar ciente.
 
-O exemplo acima pode se tormar mais complexo quando _mais_ abstrações são introduzidas. O sistema operacional Linux permite que os arquivos sejam acessados por rede mas representados localmente como arquivos 'normais'. Essa abstração será 'vazada' se houverem falhas de rede. Se um desenvolvedor tratar esses arquivos como 'normais', sem considerar o fato de que eles podem estar sujeitos à latência e falhas na rede, as soluções serão incorretas.
+O exemplo acima pode se tornar mais complexo quando _mais_ abstrações são introduzidas. O sistema operacional Linux permite que os arquivos sejam acessados por rede mas representados localmente como arquivos 'normais'. Essa abstração será 'vazada' se houverem falhas de rede. Se um desenvolvedor tratar esses arquivos como 'normais', sem considerar o fato de que eles podem estar sujeitos à latência e falhas na rede, as soluções serão incorretas.
 
 Veja também:
 
@@ -446,7 +446,7 @@ Veja também:
 
 Exemplos do mundo real:
 
-- [Photoshop Slow Startup](https://forums.adobe.com/thread/376152) - um problema que eu encontrei no passado. O Photoshop demorava para abrir, às vezes levando alguns minutos. Parecia que o problema era que, ao iniciar, o programa lia algumas informações sobre a impressora padrão. No entando, se essa impressora fosse uma impressora de rede, isso demoraria tempo extremamente longo. A _abstração_ de uma impressora de rede ser mostrada ao sistema como uma impressora local causou um problema para usuários em situação de baixa conectividade.
+- [Photoshop Slow Startup](https://forums.adobe.com/thread/376152) - um problema que eu encontrei no passado. O Photoshop demorava para abrir, às vezes levando alguns minutos. Parecia que o problema era que, ao iniciar, o programa lia algumas informações sobre a impressora padrão. No entanto, se essa impressora fosse uma impressora de rede, isso demoraria tempo extremamente longo. A _abstração_ de uma impressora de rede ser mostrada ao sistema como uma impressora local causou um problema para usuários em situação de baixa conectividade.
 
 ### A Lei da Trivialidade
 
@@ -454,7 +454,7 @@ Exemplos do mundo real:
 
 Essa lei sugere que grupos irão dar maior atenção para problemas triviais ou cosméticos, do que para os problemas sérios e substanciais.
 
-O exemplo fictício comum utilizado é o de um comitê aprovando planos para uma usina nuclear, que passam maior tempo discutindo a estrutura do bicicletário ao invés do design da própria usina que é muito mais importante. Pode ser difícil fornecer informações valiosas em discussões sobre tópicos muito grandes e complexos sem um alto grau de conhecimento ou preparação no assunto. No entando, as pessoas querem ser vistas contribuindo com informações importantes. Daí uma tendência de concentrar muito tempo em pequenos detalhes, que podem ser facilmente explicados, mas necessariamente não são de importância particular.
+O exemplo fictício comum utilizado é o de um comitê aprovando planos para uma usina nuclear, que passam maior tempo discutindo a estrutura do bicicletário ao invés do design da própria usina que é muito mais importante. Pode ser difícil fornecer informações valiosas em discussões sobre tópicos muito grandes e complexos sem um alto grau de conhecimento ou preparação no assunto. No entanto, as pessoas querem ser vistas contribuindo com informações importantes. Daí uma tendência de concentrar muito tempo em pequenos detalhes, que podem ser facilmente explicados, mas necessariamente não são de importância particular.
 
 O exemplo fictício acima levou ao uso do termo _'Bike Shedding'_ como uma expressão por gastar tempo em detalhes triviais.
 
@@ -473,7 +473,7 @@ Práticas modernas como a 'Arquitetura de Microsserviços' podem ser pensadas co
 
 O Modelo Spotify é uma abordagem para a organização de equipes que foi popularizado pelo 'Spotify'. Neste modelo, times são organizados por funcionalidades, não por tecnologias.
 
-O Modelo Spotify também popularizou o conteido de Tribos, Guildas, Capítulos, que são outros componentes de sua estrutura organizacional.
+O Modelo Spotify também popularizou o conceito de Tribos, Guildas, Capítulos, que são outros componentes de sua estrutura organizacional.
 
 ### Lei de Wadler
 
@@ -488,7 +488,7 @@ O Modelo Spotify também popularizou o conteido de Tribos, Guildas, Capítulos, 
 >
 > (Em resumo, para cada hora gasta em semântica, 8 horas serão gastas na sintaxe de comentários)
 
-Semelhante à [Lei da Trivialidade](#a-lei-da-trivialidade), a Lei de Wadler afirma que quando projetamos uma linguagem, o tempo gasto em estruturas é desproporcionalmente maior do que a imporância dessas funcionalidades.
+Semelhante à [Lei da Trivialidade](#a-lei-da-trivialidade), a Lei de Wadler afirma que quando projetamos uma linguagem, o tempo gasto em estruturas é desproporcionalmente maior do que a importância dessas funcionalidades.
 
 Veja também:
 
@@ -504,7 +504,7 @@ Veja também:
 >
 > _Wil Wheaton_
 
-Cunhada por Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), esta lei simples, concisa e poderosa visa aumentar a harmonia e o respeito dentro de uma organização profissional. Ela pode ser aplicada ao conversar com colegas de trabalho, ao efetuar code reviews, contrariar outros ponto de vista, criticar, e, em linhas gerais, na maioria das interações que os humanos mantém entre si.
+Cunhada por Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), esta lei simples, concisa e poderosa visa aumentar a harmonia e o respeito dentro de uma organização profissional. Ela pode ser aplicada ao conversar com colegas de trabalho, ao efetuar code reviews, contrariar outros pontos de vista, criticar, e, em linhas gerais, na maioria das interações que os humanos mantém entre si.
 
 ## Princípios
 
@@ -539,7 +539,7 @@ O Princípio de Pareto sugere que em alguns casos, a maioria dos resultados vem 
 - 20% dos bugs causam 80% das quebras
 - 20% das funcionalidades causam 80% da utilização
 
-Nos anos 40 o engenheiro americano-romeno Dr. Joseph Juran, reconhecido como pai do controle de qualidade, [começou a aplicar o Princípio de Pareto a questões de qualidade]((https://en.wikipedia.org/wiki/Joseph_M._Juran)).
+Nos anos 40 o engenheiro americano-romeno Dr. Joseph Juran, reconhecido como pai do controle de qualidade, [começou a aplicar o Princípio de Pareto a questões de qualidade](https://en.wikipedia.org/wiki/Joseph_M._Juran).
 
 Este princípio é também conhecido como: A Regra do 80/20, A Lei dos Poucos Vitais e O Princípio de Escassez do Fator.
 
@@ -594,7 +594,7 @@ Esses são os princípios-chave da [Programação Orientada a Objetos](#todo). O
 
 O primeiro dos princípios '[SOLID](#solid)'. Esse princípio sugere que módulos ou classes devem fazer apenas uma única coisa. Em termos mais práticos, isso significa que uma mudança simples a uma funcionalidade de um programa deve exigir uma mudança em apenas um componente. Por exemplo, mudar como uma senha é validada por complexidade deve exigir uma mudança em apenas uma parte do programa.
 
-Teoricamente, isso deve tornar o código mais robusto, e fácil de ser mudado. Sabendo que um componente que está sendo alterado possui apenas uma responsabilidade siginfica que o _teste_ deverá ser mais fácil. Usando o exemplo anterior, trocar a complexidade do componente de senha deve afetar apenas as funcionalidades que são relacionadas com a complexidade de senha. Pode ser muito mais difícil argumentar sobre o impacto de uma alteração em um componente que tem muitas responsabilidades.
+Teoricamente, isso deve tornar o código mais robusto, e fácil de ser mudado. Sabendo que um componente que está sendo alterado possui apenas uma responsabilidade significa que o _teste_ deverá ser mais fácil. Usando o exemplo anterior, trocar a complexidade do componente de senha deve afetar apenas as funcionalidades que são relacionadas com a complexidade de senha. Pode ser muito mais difícil argumentar sobre o impacto de uma alteração em um componente que tem muitas responsabilidades.
 
 Veja também:
 
@@ -607,11 +607,11 @@ Veja também:
 
 > Entidades devem estar aberta para extensão e fechadas para modificação
 
-O segundo princípio do '[SOLID](#solid)'. Esse princípio afirma que entidades (que podem ser classes, módulos, funções e afins) poderão ter seu comportamento _extendido_, mas que o comportamento já existente não poderá ser alterado.
+O segundo princípio do '[SOLID](#solid)'. Esse princípio afirma que entidades (que podem ser classes, módulos, funções e afins) poderão ter seu comportamento _estendido_, mas que o comportamento já existente não poderá ser alterado.
 
-Em um exemplo hipotético, imagine um módulo que converte um documento Markdown para HTML. Se o módulo pode ser extendido para aceitar uma nova funcionalidade do markdown, sem modificar a parte interna desse módulo, quer dizer que ele está aberto para extensões. Se o módulo _não_ pode ser modificado por um consumidor, de modo que as funcionalidades existentes do markdown sejam tratadas, então ele estará _fechado_ para modificações.
+Em um exemplo hipotético, imagine um módulo que converte um documento Markdown para HTML. Se o módulo pode ser estendido para aceitar uma nova funcionalidade do markdown, sem modificar a parte interna desse módulo, quer dizer que ele está aberto para extensões. Se o módulo _não_ pode ser modificado por um consumidor, de modo que as funcionalidades existentes do markdown sejam tratadas, então ele estará _fechado_ para modificações.
 
-Esse princípio tem uma relevância particular na orientação a objetos, onde nós projetamos objetos para serem facilmente extendidos, mas evitamos projetar objetos onde o comportamento existente pode ser alterado de maneiras inesperadas.
+Esse princípio tem uma relevância particular na orientação a objetos, onde nós projetamos objetos para serem facilmente estendidos, mas evitamos projetar objetos onde o comportamento existente pode ser alterado de maneiras inesperadas.
 
 Veja também:
 
@@ -628,7 +628,7 @@ O terceiro princípio '[SOLID](#solid)'. O princípio afirma que se um component
 
 Como um exemplo, imagine que temos um método que lê um documento XML de uma estrutura que representa um arquivo. Se o método utiliza a base de um tipo 'arquivo', então qualquer coisa que seja derivada de 'arquivo' poderá ser utilizada na função. Se 'arquivo' suporta busca recursiva, e o interpretador de XML utiliza essa função, mas o tipo derivado 'arquivo de rede' falha quando tenta uma busca recursiva, então o tipo 'arquivo de rede' estaria violando o princípio.
 
-Esse princípio tem uma relevância particular na orientação a objetos, onde as hierarquias de tipos precisam ser modeladas com cautela para envitar confusão entre usuaríos do sistema.
+Esse princípio tem uma relevância particular na orientação a objetos, onde as hierarquias de tipos precisam ser modeladas com cautela para evitar confusão entre usuários do sistema.
 
 Veja também:
 
@@ -643,9 +643,9 @@ Veja também:
 
 O quarto princípio do '[SOLID](#solid)'. Esse princípio afirma que os consumidores de um componente não devem depender de funções daquele componente, as quais eles atualmente não usem.
 
-Como um exemplo, imagine que um método lê um documento XML de uma estutura que representa um arquivo. O método apenas precisa ler os bytes, ir para frente ou para trás no arquivo. Se esse método precisar ser atualizado porque um recurso não relacionado da estrutura do arquivo é alterado (como uma atualização no modelo de permissões utilizado para representar a segurança do arquivo), o princípio foi invalidado.
+Como um exemplo, imagine que um método lê um documento XML de uma estrutura que representa um arquivo. O método apenas precisa ler os bytes, ir para frente ou para trás no arquivo. Se esse método precisar ser atualizado porque um recurso não relacionado da estrutura do arquivo é alterado (como uma atualização no modelo de permissões utilizado para representar a segurança do arquivo), o princípio foi invalidado.
 
-Esse princípio tem uma relevância particular na orientação a objetos, onde interfaces, hierarquias e tipos abstratos são utilizados para [minimizar o acomplamento](#todo) entre componentes diferentes. [Duck typing]() é uma metodologia que enforça esse princípio, eliminando interfaces explícitas.
+Esse princípio tem uma relevância particular na orientação a objetos, onde interfaces, hierarquias e tipos abstratos são utilizados para [minimizar o acoplamento](#todo) entre componentes diferentes. [Duck typing]() é uma metodologia que impõe esse princípio, eliminando interfaces explícitas.
 
 Veja também:
 
@@ -679,7 +679,7 @@ Veja também:
 
 > Cada pedaço de código deve possuir uma representação única, inequívoca e autoritária dentro de um sistema.
 
-DRY é um acrônimo para _**D**on't **R**epeat **Y**ourself_ (Não repita você mesmo). Esse princípio ajuda os desenvolvedores a reduzir a repetição de código e manter a informação em um único lugar. Foi citado em 1999 por Andrew Hunt e Dave Thomas no livro [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer).
+DRY é um acrônimo para _**D**on't **R**epeat **Y**ourself_ (Não repita você mesmo). Esse princípio ajuda os desenvolvedores a reduzir a repetição de código e manter a informação em um único lugar. Foi citado em 1999 por Andrew Hunt e Dave Thomas no livro [The Pragmatic Programmer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer).
 
 > O oposto de DRY seria WET (Write Everything Twice or We Enjoy Typing) - (Escreva tudo duas vezes ou Nós gostamos de digitar).
 
@@ -687,7 +687,7 @@ Na prática, se você tem o mesmo pedaço de informação em dois (ou mais) luga
 
 Veja também:
 
-- [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+- [The Pragmatic Programmer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 
 ### O Princípio KISS
 
@@ -715,7 +715,7 @@ Veja também:
 
 Este princípio da _Extreme Programming_ (XP) sugere que os desenvolvedores apenas devem implementar funcionalidades quando elas forem necessárias, e evitar tentativas de prever o futuro e implementar uma funcionalidade que talvez seja necessária.
 
-Aderir a esse princípio deve reduzir a quantidade de código não utilizado em um projeto, e evitar tempo e esforço sendo disperdiçados em funcionalidades que não agregam valor.
+Aderir a esse princípio deve reduzir a quantidade de código não utilizado em um projeto, e evitar tempo e esforço sendo desperdiçados em funcionalidades que não agregam valor.
 
 Veja também:
 
@@ -783,7 +783,7 @@ Se você quer atualizar uma tradução, [abra uma pull request](https://github.c
 
 ## Projetos relacionados
 
-- [Tip of the Day](https://tips.darekkay.com/html/hacker-laws-en.html) - Receba diaramente uma lei ou princípio hacker.
+- [Tip of the Day](https://tips.darekkay.com/html/hacker-laws-en.html) - Receba diariamente uma lei ou princípio hacker.
 - [Hacker Laws CLI](https://github.com/umutphp/hacker-laws-cli) - Liste e visualize as leis de maneira aleatória no seu terminal!
 
 ## Contribuindo

@@ -4,9 +4,10 @@
 
 * [Goal of the Project](#goal-of-the-project)
 * [Example Law: The Law of Leaky Abstractions](#example-law-the-law-of-leaky-abstractions)
-* [Localisation](#localisation)
+* [Translations](#translations)
 * [How do I know if a law is relevant?](#how-do-i-know-if-a-law-is-relevant)
 * [How do I know if a law is 'well known' enough?](#how-do-i-know-if-a-law-is-well-known-enough)
+* [Use of Images](#use-of-images)
 
 <!-- vim-markdown-toc -->
 
@@ -59,13 +60,21 @@ Real-world examples:
 
 - [Photoshop Slow Startup](https://forums.adobe.com/thread/376152) - an issue I encountered in the past. Photoshop would be slow to startup, sometimes taking minutes. It seems the issue was that on startup it reads some information about the current default printer. However, if that printer is actually a network printer, this could take an extremely long time. The _abstraction_ of a network printer being presented to the system similar to a local printer caused an issue for users in poor connectivity situations.
 
-## Localisation
+## Translations
 
 We are currently using [GitLocalize](https://gitlocalize.com) to handle translations. This provides features to make it easier for people to manage translations as changes come in:
 
 ![GitLocalize Screenshot](../images/gitlocalize.png)
 
-This is still work in progress - if you would like to be a maintainer for a language just open an issue to get in touch!
+If you would like to moderate a language, please follow the steps below:
+
+1. Log in to [Git Localize](https://gitlocalize.com) with your GitHub account, this will create a GitLocalize account for you.
+0. [Open an Issue](https://github.com/dwmkerr/hacker-laws/issues/new) with the name of the language you would like to moderate/translate.
+0. [Open a Pull Request](https://github.com/dwmkerr/hacker-laws/compare) that adds your details and the language details to the [Translators](https://github.com/dwmkerr/hacker-laws#translations) section of the README.
+3. I will then make you a moderator of the language and ensure the language is listed properly.
+
+Thanks!
+
 
 ## How do I know if a law is relevant?
 

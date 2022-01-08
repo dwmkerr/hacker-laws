@@ -40,6 +40,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
     * [Premature Optimization Effect](#premature-optimization-effect)
     * [Putt's Law](#putts-law)
     * [Reed's Law](#reeds-law)
+    * [Ringelmann effect](#ringelmann-effect)
     * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
     * [The Law of Demeter](#the-law-of-demeter)
     * [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)

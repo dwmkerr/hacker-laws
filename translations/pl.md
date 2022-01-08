@@ -1,1061 +1,1058 @@
 # 💻📖 prawa-hakerskie
 
-Laws, Theories, Principles and Patterns that developers will find useful.
+Prawa, teorie, zasady i wzorce, które programiści uznają za przydatne.
 
 [Tłumaczenia](#translations): [🇮🇩](./translations/id.md) [🇧🇷](./translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇩🇪](./translations/de.md) [🇫🇷](./translations/fr.md) [🇬🇷](./translations/el.md) [🇮🇹](https://github.com/csparpa/hacker-laws-it) [🇱🇻](./translations/lv.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇵🇱](./translations/pl.md) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇪🇸](./translations/es-ES.md) [🇹🇷](https://github.com/umutphp/hacker-laws-tr) [🇯🇵](./translations/jp.md) [🇺🇦](./translations/uk.md)
 
-Like this project? Please considering [sponsoring me](https://github.com/sponsors/dwmkerr) and the [translators](#translations). Also check out this podcast on [The Changelog - Laws for Hackers to Live By](https://changelog.com/podcast/403) to learn more about the project! You can also [download the latest PDF eBook](https://github.com/dwmkerr/hacker-laws/releases/latest/download/hacker-laws.pdf). Check the [Contributor Guide](./.github/contributing.md) if you are keen to contribute!
+Podoba Ci się ten projekt? Proszę rozważyć [sponsorowanie mnie](https://github.com/sponsors/dwmkerr) i [tłumaczy](#translations) . Sprawdź również ten podcast na [The Changelog - Laws for Hackers to Live By,](https://changelog.com/podcast/403) aby dowiedzieć się więcej o projekcie! Możesz także [pobrać najnowszy e-book w formacie PDF](https://github.com/dwmkerr/hacker-laws/releases/latest/download/hacker-laws.pdf) . Sprawdź [Przewodnik](./.github/contributing.md) dla twórców, jeśli chcesz wnieść swój wkład!
 
 ---
 
 <!-- vim-markdown-toc GFM -->
 
-- [Introduction](#introduction)
-- [Laws](#laws)
-    - [90–9–1 Principle (1% Rule)](#9091-principle-1-rule)
-    - [Amdahl's Law](#amdahls-law)
-    - [The Broken Windows Theory](#the-broken-windows-theory)
-    - [Brooks' Law](#brooks-law)
-    - [CAP Theorem (Brewer's Theorem)](#cap-theorem-brewers-theorem)
-    - [Conway's Law](#conways-law)
-    - [Cunningham's Law](#cunninghams-law)
-    - [Dunbar's Number](#dunbars-number)
-    - [The Dunning-Kruger Effect](#the-dunning-kruger-effect)
-    - [Fitts' Law](#fitts-law)
-    - [Gall's Law](#galls-law)
-    - [Goodhart's Law](#goodharts-law)
-    - [Hanlon's Razor](#hanlons-razor)
-    - [Hick's Law (Hick-Hyman Law)](#hicks-law-hick-hyman-law)
-    - [Hofstadter's Law](#hofstadters-law)
-    - [Hutber's Law](#hutbers-law)
-    - [The Hype Cycle &amp; Amara's Law](#the-hype-cycle--amaras-law)
-    - [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
-    - [Kernighan's Law](#kernighans-law)
-    - [Linus's Law](#linuss-law)
-    - [Metcalfe's Law](#metcalfes-law)
-    - [Moore's Law](#moores-law)
-    - [Murphy's Law / Sod's Law](#murphys-law--sods-law)
-    - [Occam's Razor](#occams-razor)
-    - [Parkinson's Law](#parkinsons-law)
-    - [Premature Optimization Effect](#premature-optimization-effect)
-    - [Putt's Law](#putts-law)
-    - [Reed's Law](#reeds-law)
-    - [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
-    - [The Law of Demeter](#the-law-of-demeter)
-    - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
-    - [The Law of Triviality](#the-law-of-triviality)
-    - [The Unix Philosophy](#the-unix-philosophy)
-    - [The Scout Rule](#the-scout-rule)
-    - [The Spotify Model](#the-spotify-model)
-    - [The Two Pizza Rule](#the-two-pizza-rule)
-    - [Wadler's Law](#wadlers-law)
-    - [Wheaton's Law](#wheatons-law)
-- [Principles](#principles)
-    - [All Models Are Wrong (George Box's Law)](#all-models-are-wrong-george-boxs-law)
-    - [Chesterton's Fence](#chestertons-fence)
-    - [The Dead Sea Effect](#the-dead-sea-effect)
-    - [The Dilbert Principle](#the-dilbert-principle)
-    - [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
-    - [The Shirky Principle](#the-shirky-principle)
-    - [The Peter Principle](#the-peter-principle)
-    - [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
-    - [SOLID](#solid)
-    - [The Single Responsibility Principle](#the-single-responsibility-principle)
-    - [The Open/Closed Principle](#the-openclosed-principle)
-    - [The Liskov Substitution Principle](#the-liskov-substitution-principle)
-    - [The Interface Segregation Principle](#the-interface-segregation-principle)
-    - [The Dependency Inversion Principle](#the-dependency-inversion-principle)
-    - [The DRY Principle](#the-dry-principle)
-    - [The KISS principle](#the-kiss-principle)
+- [Wstęp](#introduction)
+- [Prawa](#laws)
+    - [Zasada 90-9-1 (zasada 1%)](#9091-principle-1-rule)
+    - [Prawo Amdahla](#amdahls-law)
+    - [Teoria zepsutych okien](#the-broken-windows-theory)
+    - [Prawo Brooksa](#brooks-law)
+    - [Twierdzenie CAP (Twierdzenie Brewera)](#cap-theorem-brewers-theorem)
+    - [Prawo Conwaya](#conways-law)
+    - [Prawo Cunninghama](#cunninghams-law)
+    - [Numer Dunbara](#dunbars-number)
+    - [Efekt Dunninga-Krugera](#the-dunning-kruger-effect)
+    - [Prawo Fittsa](#fitts-law)
+    - [Prawo Galla](#galls-law)
+    - [Prawo Goodharta](#goodharts-law)
+    - [Brzytwa Hanlona](#hanlons-razor)
+    - [Prawo Hicka (Prawo Hicka-Hymana)](#hicks-law-hick-hyman-law)
+    - [Prawo Hofstadtera](#hofstadters-law)
+    - [Prawo Hutbera](#hutbers-law)
+    - [Cykl szumu i prawo Amary](#the-hype-cycle--amaras-law)
+    - [Prawo Hyruma (prawo niejawnych interfejsów)](#hyrums-law-the-law-of-implicit-interfaces)
+    - [Prawo Kernighana](#kernighans-law)
+    - [Prawo Linusa](#linuss-law)
+    - [Prawo Metcalfego](#metcalfes-law)
+    - [prawo Moore'a](#moores-law)
+    - [Prawo Murphy'ego / Prawo Soda](#murphys-law--sods-law)
+    - [Brzytwa Ockhama](#occams-razor)
+    - [Prawo Parkinsona](#parkinsons-law)
+    - [Przedwczesny efekt optymalizacji](#premature-optimization-effect)
+    - [Prawo Putta](#putts-law)
+    - [Prawo Reeda](#reeds-law)
+    - [Prawo zachowania złożoności (prawo Teslera)](#the-law-of-conservation-of-complexity-teslers-law)
+    - [Prawo Demeter](#the-law-of-demeter)
+    - [Prawo nieszczelnych abstrakcji](#the-law-of-leaky-abstractions)
+    - [Prawo trywialności](#the-law-of-triviality)
+    - [Filozofia Uniksa](#the-unix-philosophy)
+    - [Zasada Skauta](#the-scout-rule)
+    - [Model Spotify](#the-spotify-model)
+    - [Zasada dwóch pizzy](#the-two-pizza-rule)
+    - [Prawo Wadlera](#wadlers-law)
+    - [Prawo Wheatona](#wheatons-law)
+- [Zasady](#principles)
+    - [Wszystkie modele są błędne (prawo George'a Boxa)](#all-models-are-wrong-george-boxs-law)
+    - [Płot Chestertona](#chestertons-fence)
+    - [Efekt Morza Martwego](#the-dead-sea-effect)
+    - [Zasada Dilberta](#the-dilbert-principle)
+    - [Zasada Pareto (Zasada 80/20)](#the-pareto-principle-the-8020-rule)
+    - [Zasada Shirky](#the-shirky-principle)
+    - [Zasada Piotra](#the-peter-principle)
+    - [Zasada solidności (prawo Postela)](#the-robustness-principle-postels-law)
+    - [SOLIDNY](#solid)
+    - [Zasada pojedynczej odpowiedzialności](#the-single-responsibility-principle)
+    - [Zasada otwarcia/zamknięcia](#the-openclosed-principle)
+    - [Zasada substytucji Liskov](#the-liskov-substitution-principle)
+    - [Zasada segregacji interfejsów](#the-interface-segregation-principle)
+    - [Zasada odwrócenia zależności](#the-dependency-inversion-principle)
+    - [Zasada SUSZENIA](#the-dry-principle)
+    - [Zasada KISS](#the-kiss-principle)
     - [YAGNI](#yagni)
-    - [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)
-- [Reading List](#reading-list)
-- [Online Resources](#online-resources)
-- [PDF eBook](#pdf-ebook)
+    - [Błędy przetwarzania rozproszonego](#the-fallacies-of-distributed-computing)
+- [Lista rzeczy do przeczytania](#reading-list)
+- [Zasoby online](#online-resources)
+- [eBook w formacie PDF](#pdf-ebook)
 - [Podcast](#podcast)
-- [Translations](#translations)
-- [Related Projects](#related-projects)
-- [Contributing](#contributing)
-- [TODO](#todo)
+- [Tłumaczenia](#translations)
+- [Powiązane projekty](#related-projects)
+- [Przyczynianie się](#contributing)
+- [DO ZROBIENIA](#todo)
 
 <!-- vim-markdown-toc -->
 
-## Introduction
+## Wstęp
 
-There are lots of laws which people discuss when talking about development. This repository is a reference and overview of some of the most common ones. Please share and submit PRs!
+Istnieje wiele praw, o których ludzie dyskutują, mówiąc o rozwoju. To repozytorium jest odniesieniem i przeglądem niektórych z najczęstszych. Podziel się i prześlij PR!
 
-❗: This repo contains an explanation of some laws, principles and patterns, but does not *advocate* for any of them. Whether they should be applied will always be a matter of debate, and greatly dependent on what you are working on.
+Odpowiedź: To repozytorium zawiera wyjaśnienie niektórych praw, zasad i wzorców, ale nie *zaleca* żadnego z nich. To, czy należy je zastosować, zawsze będzie kwestią dyskusyjną i w dużej mierze zależy od tego, nad czym pracujesz.
 
-## Laws
+## Prawa
 
 No to zaczynamy!
 
-### 90–9–1 Principle (1% Rule)
+### Zasada 90-9-1 (zasada 1%)
 
 [Reguła 1% na Wikipedii](https://en.wikipedia.org/wiki/1%25_rule_(Internet_culture))
 
-The 90-9-1 principle suggests that within an internet community such as a wiki, 90% of participants only consume content, 9% edit or modify content and 1% of participants add content.
+Zasada 90-9-1 sugeruje, że w społeczności internetowej, takiej jak wiki, 90% uczestników tylko korzysta z treści, 9% edytuje lub modyfikuje treść, a 1% uczestników dodaje treść.
 
-Real-world examples:
+Przykłady ze świata rzeczywistego:
 
-- A 2014 study of four digital health social networks found the top 1% created 73% of posts, the next 9% accounted for an average of ~25% and the remaining 90% accounted for an average of 2% ([Reference](https://www.jmir.org/2014/2/e33/))
+- Badanie z 2014 roku czterech cyfrowych portali społecznościowych poświęconych zdrowiu wykazało, że 1% najpopularniejszych tworzy 73% postów, kolejne 9% stanowiło średnio ~25%, a pozostałe 90% stanowiło średnio 2% ( [Odniesienie](https://www.jmir.org/2014/2/e33/) )
 
-See Also:
+Zobacz też:
 
-- [Pareto principle](#the-pareto-principle-the-8020-rule)
+- [Zasada Pareto](#the-pareto-principle-the-8020-rule)
 
-### Amdahl's Law
+### Prawo Amdahla
 
-[Amdahl's Law on Wikipedia](https://en.wikipedia.org/wiki/Amdahl%27s_law)
+[Prawo Amdahla na Wikipedii](https://pl.wikipedia.org/wiki/Prawo_Amdahla)
 
-> Amdahl's Law is a formula which shows the *potential speedup* of a computational task which can be achieved by increasing the resources of a system. Normally used in parallel computing, it can predict the actual benefit of increasing the number of processors, which is limited by the parallelisability of the program.
+> Prawo Amdahla to wzór pokazujący *potencjalne przyspieszenie* zadania obliczeniowego, które można osiągnąć zwiększając zasoby systemu. Zwykle używany w obliczeniach równoległych, może przewidzieć rzeczywiste korzyści ze zwiększenia liczby procesorów, co jest ograniczone przez możliwość równoległości programu.
 
-Best illustrated with an example. If a program is made up of two parts, part A, which must be executed by a single processor, and part B, which can be parallelised, then we see that adding multiple processors to the system executing the program can only have a limited benefit. It can potentially greatly improve the speed of part B - but the speed of part A will remain unchanged.
+Najlepiej zilustrowane przykładem. Jeśli program składa się z dwóch części, części A, która musi być wykonywana przez pojedynczy procesor, i części B, która może być zrównoleglona, to widzimy, że dodanie wielu procesorów do systemu wykonującego program może mieć tylko ograniczoną korzyść . Potencjalnie może znacznie poprawić prędkość części B - ale prędkość części A pozostanie niezmieniona.
 
-The diagram below shows some examples of potential improvements in speed:
+Poniższy diagram pokazuje kilka przykładów potencjalnej poprawy szybkości:
 
+<img width="480px" alt="Schemat: Prawo Amdahla" src="./images/amdahls_law.png">
 
-<img width="480px" alt="Diagram: Amdahl's Law" src="./images/amdahls_law.png">
+*(Odniesienie do obrazu: Daniels219 z angielskiej Wikipedii, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 
-*(Image Reference: By Daniels219 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
+Jak widać, nawet program, który można zrównoleglać w 50%, przyniesie niewiele korzyści poza 10 jednostkami przetwarzania, podczas gdy program, który można zrównolelizować w 95%, nadal może osiągnąć znaczną poprawę szybkości przy ponad tysiącu jednostek przetwarzania.
 
-As can be seen, even a program which is 50% parallelisable will benefit very little beyond 10 processing units, whereas a program which is 95% parallelisable can still achieve significant speed improvements with over a thousand processing units.
+Ponieważ [prawo Moore'a](#moores-law) zwalnia, a przyspieszenie szybkości poszczególnych procesorów zwalnia, równoległość jest kluczem do poprawy wydajności. Programowanie graficzne jest doskonałym przykładem - przy nowoczesnych obliczeniach opartych na Shader, pojedyncze piksele lub fragmenty mogą być renderowane równolegle - dlatego współczesne karty graficzne często mają wiele tysięcy rdzeni przetwarzających (GPU lub Shader Units).
 
-As [Moore's Law](#moores-law) slows, and the acceleration of individual processor speed slows, parallelisation is key to improving performance. Graphics programming is an excellent example - with modern Shader based computing, individual pixels or fragments can be rendered in parallel - this is why modern graphics cards often have many thousands of processing cores (GPUs or Shader Units).
+Zobacz też:
 
-See also:
+- [Prawo Brooksa](#brooks-law)
+- [prawo Moore'a](#moores-law)
 
-- [Brooks' Law](#brooks-law)
-- [Moore's Law](#moores-law)
-
-### The Broken Windows Theory
+### Teoria zepsutych okien
 
 [Teoria rozbitycg okien na Wikipedii](https://pl.wikipedia.org/wiki/Teoria_rozbitych_okien)
 
-The Broken Windows Theory suggests that visible signs of crime (or lack of care of an environment) lead to further and more serious crimes (or further deterioration of the environment).
+Teoria rozbitych okien sugeruje, że widoczne oznaki przestępczości (lub braku dbałości o środowisko) prowadzą do kolejnych i poważniejszych przestępstw (lub dalszego pogorszenia stanu środowiska).
 
-This theory has been applied to software development, suggesting that poor quality code (or [Technical Debt](#TODO)) can lead to a perception that efforts to improve quality may be ignored or undervalued, thus leading to further poor quality code. This effect cascades leading to a great decrease in quality over time.
+Teoria ta została zastosowana do rozwoju oprogramowania, co sugeruje, że kod niskiej jakości (lub [dług techniczny](#TODO) ) może prowadzić do przekonania, że wysiłki na rzecz poprawy jakości mogą być ignorowane lub niedoceniane, co prowadzi do dalszej złej jakości kodu. Ten efekt kaskadowo prowadzi do znacznego spadku jakości z biegiem czasu.
 
-See also:
+Zobacz też:
 
-- [Technical Debt](#TODO)
+- [Dług techniczny](#TODO)
 
-Examples:
+Przykłady:
 
-- [The Pragmatic Programming: Software Entropy](https://flylib.com/books/en/1.315.1.15/1/)
-- [Coding Horror: The Broken Window Theory](https://blog.codinghorror.com/the-broken-window-theory/)
-- [OpenSource: Joy of Programming - The Broken Window Theory](https://opensourceforu.com/2011/05/joy-of-programming-broken-window-theory/)
+- [Programowanie pragmatyczne: entropia oprogramowania](https://flylib.com/books/en/1.315.1.15/1/)
+- [Horror kodowania: teoria rozbitego okna](https://blog.codinghorror.com/the-broken-window-theory/)
+- [OpenSource: Radość z programowania — teoria rozbitego okna](https://opensourceforu.com/2011/05/joy-of-programming-broken-window-theory/)
 
-### Brooks' Law
+### Prawo Brooksa
 
-[Brooks' Law on Wikipedia](https://en.wikipedia.org/wiki/Brooks%27s_law)
+[Prawo Brooksa na Wikipedii](https://pl.wikipedia.org/wiki/Prawo_Brooksa)
 
-> Adding human resources to a late software development project makes it later.
+> Dodanie zasobów ludzkich do spóźnionego projektu rozwoju oprogramowania sprawia, że jest to później.
 
-This law suggests that in many cases, attempting to accelerate the delivery of a project which is already late, by adding more people, will make the delivery even later. Brooks is clear that this is an over-simplification, however, the general reasoning is that given the ramp up time of new resources and the communication overheads, in the immediate short-term velocity decreases. Also, many tasks may not be divisible, i.e. easily distributed between more resources, meaning the potential velocity increase is also lower.
+Prawo to sugeruje, że w wielu przypadkach próba przyspieszenia realizacji projektu, który jest już spóźniony, poprzez dodanie większej liczby osób, spowoduje, że realizacja będzie jeszcze późniejsza. Brooks nie ma wątpliwości, że jest to nadmierne uproszczenie, jednak ogólne rozumowanie jest takie, że biorąc pod uwagę czas narastania nowych zasobów i ogólne koszty komunikacji, w krótkim czasie prędkość spada. Ponadto wiele zadań może nie być podzielnych, tj. łatwo rozdzielonych między więcej zasobów, co oznacza, że potencjalny wzrost prędkości jest również mniejszy.
 
-The common phrase in delivery "Nine women can't make a baby in one month" relates to Brooks' Law, in particular, the fact that some kinds of work are not divisible or parallelisable.
+Powszechne zdanie przy porodzie „Dziewięć kobiet nie może spłodzić dziecka w ciągu jednego miesiąca” odnosi się do prawa Brooksa, w szczególności do faktu, że niektóre rodzaje pracy nie są podzielne ani równoległe.
 
 Jest to tematem przewodnim książki „ [Miesiąc mitycznego człowieka](#reading-list) ”.
 
-See also:
+Zobacz też:
 
-- [Death March](#todo)
-- [Reading List: The Mythical Man Month](#reading-list)
+- [Marsz śmierci](#todo)
+- [Lista lektur: Miesiąc Mitycznego Człowieka](#reading-list)
 
-### CAP Theorem (Brewer's Theorem)
+### Twierdzenie CAP (Twierdzenie Brewera)
 
-The CAP Theorem (defined by Eric Brewer) states that for a distributed data store only two out of the following three guarantees (at most) can be made:
+Twierdzenie CAP (zdefiniowane przez Erica Brewera) stwierdza, że w przypadku rozproszonego magazynu danych można uzyskać tylko dwie z trzech następujących gwarancji (co najwyżej):
 
-- Consistency: when reading data, every request receives the *most recent* data or an error is returned
-- Availability: when reading data, every request receives *a non error response*, without the guarantee that it is the *most recent* data
-- Partition Tolerance: when an arbitrary number of network requests between nodes fail, the system continues to operate as expected
+- Spójność: podczas odczytu danych każde żądanie otrzymuje *najnowsze* dane lub zwracany jest błąd
+- Dostępność: podczas odczytu danych każde żądanie otrzymuje *odpowiedź* bez błędu, bez gwarancji, że są to *najnowsze* dane
+- Tolerancja partycji: gdy dowolna liczba żądań sieciowych między węzłami nie powiedzie się, system nadal działa zgodnie z oczekiwaniami
 
-The core of the reasoning is as follows. It is impossible to guarantee that a network partition will not occur (see [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)). Therefore in the case of a partition we can either cancel the operation (increasing consistency and decreasing availability) or proceed (increasing availability but decreasing consistency).
+Sedno rozumowania jest następujące. Nie można zagwarantować, że partycja sieciowa nie wystąpi (zobacz [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing) ). Dlatego w przypadku partycji możemy albo anulować operację (zwiększając spójność i zmniejszając dostępność) albo kontynuować (zwiększając dostępność, ale zmniejszając spójność).
 
-The name comes from the first letters of the guarantees (Consistency, Availability, Partition Tolerance). Note that it is very important to be aware that this does *not* relate to [*ACID*](#TODO), which has a different definition of consistency. More recently, [PACELC](#TODO) theorem has been developed which adds constraints for latency and consistency when the network is *not* partitioned (i.e. when the system is operating as expected).
+Nazwa pochodzi od pierwszych liter gwarancji (spójność, dostępność, tolerancja partycji). Należy pamiętać, że bardzo ważne jest, aby mieć świadomość, że *nie* dotyczy to [*ACID*](#TODO) , który ma inną definicję spójności. Niedawno [opracowano](#TODO) twierdzenie PACELC, które dodaje ograniczenia dotyczące opóźnień i spójności, gdy sieć *nie* jest podzielona na partycje (tj. gdy system działa zgodnie z oczekiwaniami).
 
-Most modern database platforms acknowledge this theorem implicitly by offering the user of the database the option to choose between whether they want a highly available operation (which might include a 'dirty read') or a highly consistent operation (for example a 'quorum acknowledged write').
+Większość nowoczesnych platform bazodanowych potwierdza to twierdzenie pośrednio, oferując użytkownikowi bazy danych opcję wyboru między operacją o wysokiej dostępności (która może obejmować „brudny odczyt”) a operacją wysoce spójną (na przykład „zapis z potwierdzeniem kworum ').
 
-Real world examples:
+Przykłady ze świata rzeczywistego:
 
-- [Inside Google Cloud Spanner and the CAP Theorem](https://cloud.google.com/blog/products/gcp/inside-cloud-spanner-and-the-cap-theorem) - Goes into the details of how Cloud Spanner works, which appears at first to seem like a platform which has *all* of the guarantees of CAP, but under the hood is essentially a CP system.
+- [Wewnątrz Google Cloud Spanner i twierdzenia CAP](https://cloud.google.com/blog/products/gcp/inside-cloud-spanner-and-the-cap-theorem) – omawia szczegóły działania Cloud Spanner, które na pierwszy rzut oka wydaje się platformą, która ma *wszystkie* gwarancje CAP, ale pod maską jest zasadniczo system CP.
 
-See also:
+Zobacz też:
 
-- [ACID](#TODO)
-- [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)
+- [KWAS](#TODO)
+- [Błędy przetwarzania rozproszonego](#the-fallacies-of-distributed-computing)
 - [PACELC](#TODO)
 
-### Conway's Law
+### Prawo Conwaya
 
-[Conway's Law on Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
+[Prawo Conwaya na Wikipedii](https://en.wikipedia.org/wiki/Conway%27s_law)
 
-This law suggests that the technical boundaries of a system will reflect the structure of the organisation. It is commonly referred to when looking at organisation improvements, Conway's Law suggests that if an organisation is structured into many small, disconnected units, the software it produces will be. If an organisation is built more around 'verticals' which are orientated around features or services, the software systems will also reflect this.
+Prawo to sugeruje, że granice techniczne systemu będą odzwierciedlać strukturę organizacji. Często mówi się o tym, gdy patrzymy na ulepszenia organizacji. Prawo Conwaya sugeruje, że jeśli organizacja jest podzielona na wiele małych, niepowiązanych ze sobą jednostek, tak będzie tworzone oprogramowanie. Jeśli organizacja jest zbudowana bardziej wokół „branż”, które są zorientowane na funkcje lub usługi, systemy oprogramowania również to odzwierciedlą.
 
-See also:
+Zobacz też:
 
-- [The Spotify Model](#the-spotify-model)
+- [Model Spotify](#the-spotify-model)
 
-### Cunningham's Law
+### Prawo Cunninghama
 
-[Cunningham's Law on Wikipedia](https://en.wikipedia.org/wiki/Ward_Cunningham#Cunningham's_Law)
+[Prawo Cunninghama na Wikipedii](https://en.wikipedia.org/wiki/Ward_Cunningham#Cunningham's_Law)
 
-> The best way to get the right answer on the Internet is not to ask a question, it's to post the wrong answer.
+> Najlepszym sposobem na uzyskanie prawidłowej odpowiedzi w Internecie nie jest zadawanie pytań, ale zamieszczenie błędnej odpowiedzi.
 
-According to Steven McGeady, Ward Cunningham advised him in the early 1980s: "The best way to get the right answer on the Internet is not to ask a question, it's to post the wrong answer." McGeady dubbed this Cunningham's law, though Cunningham denies ownership calling it a "misquote." Although originally referring to interactions on Usenet, the law has been used to describe how other online communities work (e.g., Wikipedia, Reddit, Twitter, Facebook).
+Według Stevena McGeady'ego Ward Cunningham poradził mu na początku lat 80.: „Najlepszym sposobem na uzyskanie prawidłowej odpowiedzi w Internecie jest nie zadawanie pytań, ale zamieszczenie złej odpowiedzi”. McGeady nazwał to prawo Cunninghama, chociaż Cunningham zaprzecza własności, nazywając to „błędem”. Chociaż pierwotnie odnosiło się do interakcji w Usenecie, prawo zostało użyte do opisania działania innych społeczności internetowych (np. Wikipedia, Reddit, Twitter, Facebook).
 
-See also:
+Zobacz też:
 
-- [XKCD 386: "Duty Calls"](https://xkcd.com/386/)
+- [XKCD 386: „Wezwania do służby”](https://xkcd.com/386/)
 
-### Dunbar's Number
+### Numer Dunbara
 
-[Dunbar's Number on Wikipedia](https://en.wikipedia.org/wiki/Dunbar%27s_number)
+[Numer Dunbara na Wikipedii](https://en.wikipedia.org/wiki/Dunbar%27s_number)
 
-"Dunbar's number is a suggested cognitive limit to the number of people with whom one can maintain stable social relationships— relationships in which an individual knows who each person is and how each person relates to every other person." There is some disagreement to the exact number. "... [Dunbar] proposed that humans can comfortably maintain only 150 stable relationships." He put the number into a more social context, "the number of people you would not feel embarrassed about joining uninvited for a drink if you happened to bump into them in a bar." Estimates for the number generally lay between 100 and 250.
+„Liczba Dunbara jest sugerowanym limitem poznawczym liczby osób, z którymi można utrzymywać stabilne relacje społeczne – relacje, w których jednostka wie, kim jest każda osoba i jak każda osoba odnosi się do każdej innej osoby”. Istnieje pewna niezgodność co do dokładnej liczby. „... [Dunbar] zaproponował, że ludzie mogą wygodnie utrzymywać tylko 150 stabilnych związków”. Umieścił tę liczbę w bardziej społecznym kontekście, „liczbę osób, których nie czulibyście się zawstydzeni dołączeniem do nieproszonych drinków, gdybyście wpadli na nich w barze”. Szacunki dotyczące liczby wahają się od 100 do 250.
 
-Like stable relationships between individuals, a developer's relationship with a codebase takes effort to maintain. When faced with large complicated projects, or ownership of many projects we lean on convention, policy, and modeled procedure to scale. Dunbar's number is not only important to keep in mind as an office grows, but also when setting the scope for team efforts or deciding when a system should invest in tooling to assist in modeling and automating logistical overhead. Putting the number into an engineering context, it is the number of projects (or normalized complexity of a single project) for which you would feel confident in joining an on-call rotation to support.
+Podobnie jak w przypadku stabilnych relacji między jednostkami, utrzymanie relacji programisty z bazą kodu wymaga wysiłku. W obliczu dużych, skomplikowanych projektów lub posiadania wielu projektów opieramy się na konwencji, zasadach i modelowanych procedurach w celu skalowania. Liczba Dunbar jest ważna nie tylko w miarę rozwoju biura, ale także przy ustalaniu zakresu działań zespołu lub decydowaniu, kiedy system powinien zainwestować w narzędzia, które pomogą w modelowaniu i automatyzacji ogólnych kosztów logistycznych. Umieszczając liczbę w kontekście inżynierskim, jest to liczba projektów (lub znormalizowana złożoność pojedynczego projektu), w przypadku których możesz czuć się pewnie, dołączając do rotacji na wezwanie, aby wesprzeć.
 
-See also:
+Zobacz też:
 
-- [Conway's Law](#conways-law)
+- [Prawo Conwaya](#conways-law)
 
-### The Dunning-Kruger Effect
+### Efekt Dunninga-Krugera
 
-[The Dunning-Kruger Effect on Wikipedia](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)
+[Efekt Dunninga-Krugera na Wikipedii](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)
 
-> If you're incompetent, you can't know you're incompetent... The skills you need to produce a right answer are exactly the skills you need to recognize what a right answer is.
+> Jeśli jesteś niekompetentny, nie możesz wiedzieć, że jesteś niekompetentny... Umiejętności potrzebne do uzyskania prawidłowej odpowiedzi to dokładnie te umiejętności, których potrzebujesz, aby rozpoznać, jaka jest właściwa odpowiedź.
 >
-> ([David Dunning](https://en.wikipedia.org/wiki/David_Dunning))
+> ( [Dawid Dunning](https://en.wikipedia.org/wiki/David_Dunning) )
 
-The Dunning–Kruger effect is a theoretical cognitive bias which was described by David Dunning and Justin Kruger in a 1999 psychological study and paper. The study suggests that people with a low level of ability at a task are likely to overestimate their ability of the task. The proposed reason for this bias is that a sufficient *awareness* of the complexity of a problem or domain is required for a person to be able to make an informed opinion of their capability to work in that domain.
+Efekt Dunninga-Krugera to teoretyczne zniekształcenie poznawcze, które zostało opisane przez Davida Dunninga i Justina Krugera w badaniu psychologicznym i artykule z 1999 roku. Badanie sugeruje, że osoby o niskim poziomie umiejętności w zadaniu prawdopodobnie przeceniają swoją zdolność do zadania. Proponowaną przyczyną tego nastawienia jest to, że *wymagana jest wystarczająca świadomość* złożoności problemu lub dziedziny, aby osoba była w stanie wyrobić sobie świadomą opinię na temat swojej zdolności do pracy w tej dziedzinie.
 
-The Dunning-Kruger effect has sometimes been used to describe a related, but not necessarily implied effect which could be described as "The less a person understands a domain, the more they are likely to believe they can easily solve problems in that domain, as they are more likely to see the domain as *simple*". This more general effect is highly relevant in technology. It would suggest that people who are less familiar with a domain, such as non-technical team members or less experienced team members, are more likely to *underestimate* the effort required to solve a problem in this space.
+Efekt Dunninga-Krugera był czasami używany do opisania powiązanego, ale niekoniecznie dorozumianego efektu, który można opisać jako „Im mniej dana osoba rozumie daną dziedzinę, tym bardziej prawdopodobne jest, że uwierzy, że może łatwo rozwiązać problemy w tej dziedzinie, ponieważ są bardziej skłonni do postrzegania domeny jako *prostej* ”. Ten bardziej ogólny efekt jest bardzo istotny w technologii. Sugerowałoby to, że ludzie mniej zaznajomieni z daną domeną, na przykład nietechniczni członkowie zespołu lub mniej doświadczeni członkowie zespołu, częściej *nie doceniają* wysiłku wymaganego do rozwiązania problemu w tej przestrzeni.
 
-As a person's understanding and experience in a domain grows, they may well encounter another effect, which is that they tend to *overestimate* the ability of *others* or *underestimate* their own ability, as they are have become so experienced in the domain. In all cases these effects are *cognitive biases*. As with any bias, an understanding that it may be present will often be sufficient to help avoid the challenges - as when there is awareness of a bias more inputs and opinions can be included to attempt to eliminate these biases. A closely related is the bias of [Illusory superiority](https://en.wikipedia.org/wiki/Illusory_superiority).
+Wraz ze wzrostem zrozumienia i doświadczenia danej osoby w danej domenie, może ona napotkać inny efekt, który polega na tym, że mają tendencję do *przeceniania* zdolności *innych* lub *niedoceniania* własnych zdolności, ponieważ są tak doświadczeni w tej domenie. We wszystkich przypadkach skutki te są *zniekształceniami poznawczymi* . Podobnie jak w przypadku każdego uprzedzenia, zrozumienie, że może ono być obecne, często wystarczy, aby uniknąć wyzwań – ponieważ gdy istnieje świadomość uprzedzenia, można uwzględnić więcej danych wejściowych i opinii, aby spróbować wyeliminować te uprzedzenia. Ściśle pokrewnym jest nastawienie [iluzorycznej wyższości](https://pl.wikipedia.org/wiki/Z%C5%82udzenie_ponadprzeci%C4%99tno%C5%9Bci) .
 
-Real-world examples:
+Przykłady ze świata rzeczywistego:
 
-- [Apple vs. FBI: Why This Anti-Terror Hawk Switched Sides](https://fortune.com/2016/03/10/apple-fbi-lindsay-graham/) - In 2016 Senator Lindsey Graham changed his stance on Apple creating a 'backdoor' in their encryption of devices. Initially Graham had been critical of Apple challenging a request to create a 'backdoor', which he saw as necessary to investigate potential terrorist plots. However, by Graham's own admission, as he learned more about the technical complexity of the domain, he realised that he had assumed it to be far more simple than he had realised, and that such a backdoor could have serious negative consequences. This could potentially be considered an example of the Dunning-Kruger effect - a cyber-security expert would likely understand immediately how such a backdoor could be exploited, as they have deep understanding of the domain, a layperson might assume that phone security is more similar to *physical security* where the practice of having a 'master key' for law enforcement is possible, but this analogy does not apply sufficiently well to describe modern encryption in cyber-security.
+- [Apple kontra FBI: Dlaczego ten Anti-Terror Hawk zmienił strony](https://fortune.com/2016/03/10/apple-fbi-lindsay-graham/) – w 2016 roku senator Lindsey Graham zmienił swoje stanowisko wobec Apple, tworząc „tylne drzwi” w szyfrowaniu urządzeń. Początkowo Graham był krytyczny wobec Apple kwestionującego prośbę o stworzenie „tylnych drzwi”, które uważał za konieczne do zbadania potencjalnych spisków terrorystycznych. Jednak, jak sam przyznał Graham, gdy dowiedział się więcej o technicznej złożoności tej domeny, zdał sobie sprawę, że założył, iż jest ona o wiele prostsza, niż sądził, i że takie tylne drzwi mogą mieć poważne negatywne konsekwencje. Potencjalnie można to uznać za przykład efektu Dunninga-Krugera – ekspert ds. cyberbezpieczeństwa prawdopodobnie natychmiast zrozumie, w jaki sposób można wykorzystać takie tylne drzwi, ponieważ mają dogłębne zrozumienie domeny, laik może założyć, że zabezpieczenia telefonu są bardziej podobne do *bezpieczeństwa fizycznego,* gdzie praktyka posiadania „klucza głównego” dla organów ścigania jest możliwa, ale ta analogia nie ma wystarczającego zastosowania do opisania współczesnego szyfrowania w cyberbezpieczeństwie.
 
-### Fitts' Law
+### Prawo Fittsa
 
-[Fitts' Law on Wikipedia](https://en.wikipedia.org/wiki/Fitts%27s_law)
+[Prawo Fittsa na Wikipedii](https://pl.wikipedia.org/wiki/Prawo_Fittsa)
 
-Fitts' law predicts that the time required to move to a target area is a function of the distance to the target divided by the width of the target.
+Prawo Fittsa przewiduje, że czas potrzebny do przemieszczenia się do obszaru docelowego jest funkcją odległości do celu podzielonej przez szerokość celu.
 
+<img width="300px" alt="Schemat: Prawo dopasowania" src="./images/Fitts_Law.svg">
 
-<img width="300px" alt="Diagram: Fitts Law" src="./images/Fitts_Law.svg">
+*(Odniesienie do obrazu: Foobar628 z angielskiej Wikipedii, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/Fitts%27s_law#/media/File:Fitts_Law.svg)*
 
-*(Image Reference: By Foobar628 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/Fitts%27s_law#/media/File:Fitts_Law.svg)*
+Konsekwencje tego prawa nakazują, aby przy projektowaniu UX czy UI elementy interaktywne były jak największe, a odległość między obszarem uwagi użytkownika a elementem interaktywnym była jak najmniejsza. Ma to konsekwencje dla projektu, takie jak grupowanie zadań, które są często używane blisko siebie.
 
-The consequences of this law dictate that when designing UX or UI, interactive elements should be as large as possible and the distance between the users attention area and interactive element should be as small as possible. This has consequences on design, such as grouping tasks that are commonly used with one another close.
+Formalizuje również koncepcję „magicznych rogów”, rogów ekranu, do których użytkownik może „przesuwać” myszą, aby łatwo trafić – czyli tam, gdzie można umieścić kluczowe elementy interfejsu użytkownika. Przycisk Start systemu Windows znajduje się w magicznym rogu, co ułatwia wybór, a jako interesujący kontrast, przycisk „zamknij okno” systemu MacOS *nie* znajduje się w magicznym rogu, co utrudnia przypadkowe trafienie.
 
-It also formalises the concept of 'magic corners', the corners of the screen to which a user can 'sweep' their mouse to easily hit - which is where key UI elements can be placed. The Windows Start button is in a magic corner, making it easy to select, and as an interesting contrast, the MacOS 'close window' button is *not* in a magic corner, making it hard to hit by mistake.
+Zobacz też:
 
-See also:
+- [Zdolność informacyjna układu ruchu człowieka w sterowaniu amplitudą ruchu.](https://www.semanticscholar.org/paper/The-information-capacity-of-the-human-motor-system-Fitts/634c9fde5f1c411e4487658ac738dcf18d98ea8d)
 
-- [The information capacity of the human motor system in controlling the amplitude of movement.](https://www.semanticscholar.org/paper/The-information-capacity-of-the-human-motor-system-Fitts/634c9fde5f1c411e4487658ac738dcf18d98ea8d)
+### Prawo Galla
 
-### Gall's Law
+[Prawo Galla na Wikipedii](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
 
-[Gall's Law on Wikipedia](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
-
-> A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over with a working simple system.
+> Niezmiennie okazuje się, że złożony system, który działa, wyewoluował z prostego systemu, który działał. Złożony system zaprojektowany od podstaw nigdy nie działa i nie można go załatać, aby działał. Musisz zacząć od nowa z działającym prostym systemem.
 >
-> ([John Gall](https://en.wikipedia.org/wiki/John_Gall_(author)))
+> ( [John Gall](https://en.wikipedia.org/wiki/John_Gall_(author)) )
 
-Gall's Law implies that attempts to *design* highly complex systems are likely to fail. Highly complex systems are rarely built in one go, but evolve instead from more simple systems.
+Prawo Galla sugeruje, że próby *zaprojektowania* bardzo złożonych systemów mogą się nie powieść. Bardzo złożone systemy rzadko są budowane za jednym razem, ale zamiast tego ewoluują z prostszych systemów.
 
-The classic example is the world-wide-web. In its current state, it is a highly complex system. However, it was defined initially as a simple way to share content between academic institutions. It was very successful in meeting these goals and evolved to become more complex over time.
+Klasycznym przykładem jest sieć ogólnoświatowa. W obecnym stanie jest to bardzo złożony system. Jednak początkowo został zdefiniowany jako prosty sposób udostępniania treści między instytucjami akademickimi. Odniósł duży sukces w realizacji tych celów i z czasem ewoluował, by stać się bardziej złożony.
 
-See also:
+Zobacz też:
 
 - [KISS (Keep It Simple, Stupid)](#the-kiss-principle)
 
-### Goodhart's Law
+### Prawo Goodharta
 
-[The Goodhart's Law on Wikipedia](https://en.wikipedia.org/wiki/Goodhart's_law)
+[Prawo Goodharta na Wikipedii](https://en.wikipedia.org/wiki/Goodhart's_law)
 
-> Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes.
+> Jakakolwiek zaobserwowana prawidłowość statystyczna będzie miała tendencję do załamania się, gdy zostanie na nią nałożona presja w celach kontrolnych.
 >
-> *Charles Goodhart*
+> *Karola Goodharta*
 
-Also commonly referenced as:
+Również powszechnie określany jako:
 
-> When a measure becomes a target, it ceases to be a good measure.
+> Kiedy miara staje się celem, przestaje być dobrą miarą.
 >
 > *Marilyn Strathern*
 
-The law states that the measure-driven optimizations could lead to devaluation of the measurement outcome itself. Overly selective set of measures ([KPIs](https://en.wikipedia.org/wiki/Performance_indicator)) blindly applied to a process results in distorted effect. People tend to optimize locally by "gaming" the system in order to satisfy particular metrics instead of paying attention to holistic outcome of their actions.
+Prawo stanowi, że optymalizacje oparte na pomiarach mogą prowadzić do dewaluacji samego wyniku pomiaru. Nadmiernie selektywny zestaw miar ( [KPI](https://en.wikipedia.org/wiki/Performance_indicator) ) zastosowany na ślepo do procesu powoduje zniekształcony efekt. Ludzie mają tendencję do optymalizacji lokalnie, „ogrywając” system w celu spełnienia określonych wskaźników, zamiast zwracać uwagę na całościowy wynik swoich działań.
 
-Real-world examples:
+Przykłady ze świata rzeczywistego:
 
-- Assert-free tests satisfy the code coverage expectation, despite the fact that the metric intent was to create well-tested software.
-- Developer performance score indicated by the number of lines committed leads to unjustifiably bloated codebase.
+- Testy bez asertywności spełniają oczekiwania dotyczące pokrycia kodu, mimo że intencją metryki było stworzenie dobrze przetestowanego oprogramowania.
+- Wynik wydajności programisty wskazywany przez liczbę zatwierdzonych wierszy prowadzi do nieuzasadnionego rozdęcia bazy kodu.
 
-See also:
+Zobacz też:
 
-- [Goodhart’s Law: How Measuring The Wrong Things Drive Immoral Behaviour](https://coffeeandjunk.com/goodharts-campbells-law/)
-- [Dilbert on bug-free software](https://dilbert.com/strip/1995-11-13)
+- [Prawo Goodharta: jak mierzenie niewłaściwych rzeczy prowadzi do niemoralnych zachowań](https://coffeeandjunk.com/goodharts-campbells-law/)
+- [Dilbert o oprogramowaniu wolnym od błędów](https://dilbert.com/strip/1995-11-13)
 
-### Hanlon's Razor
+### Brzytwa Hanlona
 
-[Hanlon's Razor on Wikipedia](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
+[Brzytwa Hanlona na Wikipedii](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
 
-> Never attribute to malice that which is adequately explained by stupidity.
+> Nigdy nie przypisuj złośliwości tego, co adekwatnie tłumaczy się głupotą.
 >
 > Robert J. Hanlon
 
-This principle suggests that actions resulting in a negative outcome were not a result of ill will. Instead the negative outcome is more likely attributed to those actions and/or the impact being not fully understood.
+Zasada ta sugeruje, że działania prowadzące do negatywnych skutków nie były wynikiem złej woli. Zamiast tego negatywny wynik jest bardziej prawdopodobnie przypisywany tym działaniom i/lub wpływowi, który nie jest w pełni zrozumiały.
 
-### Hick's Law (Hick-Hyman Law)
+### Prawo Hicka (Prawo Hicka-Hymana)
 
-[Hick's law on Wikipedia](https://en.wikipedia.org/wiki/Hick%27s_law)
+[Prawo Hicka na Wikipedii](https://en.wikipedia.org/wiki/Hick%27s_law)
 
-> Decision time grows logarithmically with the number of options you can choose from.
+> Czas podejmowania decyzji rośnie logarytmicznie wraz z liczbą opcji do wyboru.
 >
-> William Edmund Hick and Ray Hyman
+> William Edmund Hick i Ray Hyman
 
-In the equation below, `T` is the time to make a decision, `n` is the number of options, and `b` is a constant which is determined by analysis of the data.
+W poniższym równaniu `T` to czas na podjęcie decyzji, `n` to liczba opcji, a `b` to stała określona na podstawie analizy danych.
 
-![Hicks law](./images/hicks_law.svg)
+![Prawo Hicksa](./images/hicks_law.svg)
 
-*(Image Reference: Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/Hick%27s_law)*
+*(Odniesienie do obrazu: Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/Hick%27s_law)*
 
-This law only applies when the number of options is *ordered*, for example, alphabetically. This is implied in the base two logarithm - which implies the decision maker is essentially performing a *binary search*. If the options are not well ordered, experiments show the time taken is linear.
+To prawo ma zastosowanie tylko wtedy, gdy liczba opcji jest *uporządkowana* , na przykład alfabetycznie. Jest to implikowane w logarytmie o podstawie dwa, co oznacza, że osoba podejmująca decyzje zasadniczo przeprowadza *wyszukiwanie binarne* . Jeśli opcje nie są dobrze uporządkowane, eksperymenty pokazują, że czas potrzebny jest liniowy.
 
-This is has significant impact in UI design; ensuring that users can easily search through options leads to faster decision making.
+Ma to znaczący wpływ na projektowanie interfejsu użytkownika; zapewnienie, że użytkownicy mogą łatwo przeszukiwać opcje, prowadzi do szybszego podejmowania decyzji.
 
-A correlation has also been shown in Hick's Law between IQ and reaction time as shown in [Speed of Information Processing: Developmental Change and Links to Intelligence](https://www.sciencedirect.com/science/article/pii/S0022440599000369).
+W prawie Hicka wykazano również korelację między IQ a czasem reakcji, jak pokazano w [Speed of Information Processing: Developmental Change and Links to Intelligence](https://www.sciencedirect.com/science/article/pii/S0022440599000369) .
 
-See also:
+Zobacz też:
 
-- [Fitts's Law](#fitts-law)
+- [Prawo Fittsa](#fitts-law)
 
-### Hofstadter's Law
+### Prawo Hofstadtera
 
-[Hofstadter's Law on Wikipedia](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
+[Prawo Hofstadtera na Wikipedii](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
 
-> It always takes longer than you expect, even when you take into account Hofstadter's Law.
+> Zawsze trwa to dłużej niż się spodziewasz, nawet biorąc pod uwagę prawo Hofstadtera.
 >
 > (Douglas Hofstadter)
 
-You might hear this law referred to when looking at estimates for how long something will take. It seems a truism in software development that we tend to not be very good at accurately estimating how long something will take to deliver.
+Możesz usłyszeć to prawo, o którym mowa, patrząc na szacunki, jak długo coś potrwa. Wydaje się truizmem w tworzeniu oprogramowania, że nie jesteśmy zbyt dobrzy w dokładnym szacowaniu, ile czasu zajmie dostarczenie czegoś.
 
-This is from the book '[Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)'.
+To jest z książki ' [Gödel, Escher, Bach: Wieczny złoty warkocz](#reading-list) '.
 
-See also:
+Zobacz też:
 
-- [Reading List: Gödel, Escher, Bach: An Eternal Golden Braid](#reading-list)
+- [Lista lektur: Gödel, Escher, Bach: wieczny złoty warkocz](#reading-list)
 
-### Hutber's Law
+### Prawo Hutbera
 
-[Hutber's Law on Wikipedia](https://en.wikipedia.org/wiki/Hutber%27s_law)
+[Prawo Hutbera na Wikipedii](https://en.wikipedia.org/wiki/Hutber%27s_law)
 
-> Improvement means deterioration.
+> Poprawa oznacza pogorszenie.
 >
-> ([Patrick Hutber](https://en.wikipedia.org/wiki/Patrick_Hutber))
+> ( [Patryk Hutber](https://en.wikipedia.org/wiki/Patrick_Hutber) )
 
-This law suggests that improvements to a system will lead to deterioration in other parts, or it will hide other deterioration, leading overall to a degradation from the current state of the system.
+To prawo sugeruje, że ulepszenia systemu doprowadzą do pogorszenia innych części lub ukryją inne pogorszenie, prowadząc ogólnie do degradacji obecnego stanu systemu.
 
-For example, a decrease in response latency for a particular end-point could cause increased throughput and capacity issues further along in a request flow, affecting an entirely different sub-system.
+Na przykład, zmniejszenie opóźnienia odpowiedzi dla określonego punktu końcowego może spowodować dalsze problemy z przepustowością i pojemnością w przepływie żądań, wpływając na zupełnie inny podsystem.
 
-### The Hype Cycle &amp; Amara's Law
+### Cykl szumu i prawo Amary
 
-[The Hype Cycle on Wikipedia](https://en.wikipedia.org/wiki/Hype_cycle)
+[Cykl szumu na Wikipedii](https://en.wikipedia.org/wiki/Hype_cycle)
 
-> We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.
+> Mamy tendencję do przeceniania wpływu technologii na krótką metę i niedoceniania jej na dłuższą metę.
 >
 > (Roy Amara)
 
-The Hype Cycle is a visual representation of the excitement and development of technology over time, originally produced by Gartner. It is best shown with a visual:
+Hype Cycle to wizualna reprezentacja ekscytacji i rozwoju technologii na przestrzeni czasu, pierwotnie wyprodukowana przez firmę Gartner. Najlepiej pokazać to za pomocą wizualizacji:
 
-![The Hype Cycle](./images/gartner_hype_cycle.png)
+![Cykl szumu](./images/gartner_hype_cycle.png)
 
-*(Image Reference: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
+*(Odniesienie do obrazu: Jeremykemp z angielskiej Wikipedii, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
 
-In short, this cycle suggests that there is typically a burst of excitement around new technology and its potential impact. Teams often jump into these technologies quickly, and sometimes find themselves disappointed with the results. This might be because the technology is not yet mature enough, or real-world applications are not yet fully realised. After a certain amount of time, the capabilities of the technology increase and practical opportunities to use it increase, and teams can finally become productive. Roy Amara's quote sums this up most succinctly - "We tend to overestimate the effect of a technology in the short run and underestimate in the long run".
+Krótko mówiąc, ten cykl sugeruje, że nowa technologia i jej potencjalny wpływ zwykle budzi ogromne zainteresowanie. Zespoły często szybko wskakują w te technologie i czasami są rozczarowane wynikami. Może to być spowodowane tym, że technologia nie jest jeszcze wystarczająco dojrzała lub aplikacje w świecie rzeczywistym nie są jeszcze w pełni zrealizowane. Po pewnym czasie zwiększają się możliwości technologii i praktyczne możliwości jej wykorzystania, a zespoły mogą wreszcie stać się produktywne. Cytat Roya Amary podsumowuje to w najbardziej zwięzły sposób: „Mamy tendencję do przeceniania wpływu technologii na krótką metę i niedoceniania na dłuższą metę".
 
-### Hyrum's Law (The Law of Implicit Interfaces)
+### Prawo Hyruma (prawo niejawnych interfejsów)
 
-[Hyrum's Law Online](http://www.hyrumslaw.com/)
+[Prawo Hyruma w Internecie](http://www.hyrumslaw.com/)
 
-> With a sufficient number of users of an API, it does not matter what you promise in the contract: all observable behaviours of your system will be depended on by somebody.
+> Przy wystarczającej liczbie użytkowników API nie ma znaczenia, co obiecujesz w kontrakcie: wszystkie obserwowalne zachowania Twojego systemu będą przez kogoś zależne.
 >
 > (Hyrum Wright)
 
-Hyrum's Law states that when you have a *large enough number of consumers* of an API, all behaviours of the API (even those not defined as part of a public contract) will eventually come to be depended on by someone. A trivial example may be non-functional elements such as the response time of an API. A more subtle example might be consumers who are relying on applying a regex to an error message to determine the *type* of error of an API. Even if the public contract of the API states nothing about the contents of the message, indicating users should use an associated error code, *some* users may use the message, and changing the message essentially breaks the API for those users.
+Prawo Hyrum stanowi, że gdy masz *wystarczająco dużą liczbę konsumentów* API, wszystkie zachowania API (nawet te, które nie są zdefiniowane jako część umowy publicznej) w końcu staną się przez kogoś zależne. Trywialnym przykładem mogą być elementy niefunkcjonalne, takie jak czas odpowiedzi API. Bardziej subtelnym przykładem mogą być konsumenci, którzy polegają na zastosowaniu wyrażenia regularnego do komunikatu o błędzie w celu określenia *typu* błędu interfejsu API. Nawet jeśli kontrakt publiczny interfejsu API nie mówi nic o zawartości komunikatu, wskazując, że użytkownicy powinni użyć powiązanego kodu błędu, *niektórzy* użytkownicy mogą korzystać z komunikatu, a zmiana komunikatu zasadniczo przerywa interfejs API dla tych użytkowników.
 
-See also:
+Zobacz też:
 
-- [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
+- [Prawo nieszczelnych abstrakcji](#the-law-of-leaky-abstractions)
 - [XKCD 1172](https://xkcd.com/1172/)
 
-### Kernighan's Law
+### Prawo Kernighana
 
-> Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.
+> Debugowanie jest dwa razy trudniejsze niż pisanie kodu. Dlatego, jeśli piszesz kod tak sprytnie, jak to tylko możliwe, z definicji nie jesteś wystarczająco sprytny, aby go debugować.
 >
 > (Brian Kernighan)
 
-Kernighan's Law is named for [Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan) and derived from a quote from Kernighan and Plauger's book [The Elements of Programming Style](https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style):
+Prawo Kernighana zostało nazwane na cześć [Briana Kernighana](https://en.wikipedia.org/wiki/Brian_Kernighan) i pochodzi z cytatu z książki Kernighana i Plaugera „ [Elementy stylu programowania”](https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style) :
 
-> Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?
+> Każdy wie, że debugowanie jest dwa razy trudniejsze niż pisanie programu. Więc jeśli jesteś tak sprytny, jak potrafisz, kiedy to piszesz, jak możesz to kiedykolwiek debugować?
 
-While hyperbolic, Kernighan's Law makes the argument that simple code is to be preferred over complex code, because debugging any issues that arise in complex code may be costly or even infeasible.
+Choć hiperboliczne, prawo Kernighana przedstawia argument, że prosty kod ma być lepszy od kodu złożonego, ponieważ debugowanie wszelkich problemów pojawiających się w kodzie złożonym może być kosztowne lub nawet niemożliwe.
 
-See also:
+Zobacz też:
 
-- [The KISS Principle](#the-kiss-principle)
-- [The Unix Philosophy](#the-unix-philosophy)
-- [Occam's Razor](#occams-razor)
+- [Zasada KISS](#the-kiss-principle)
+- [Filozofia Uniksa](#the-unix-philosophy)
+- [Brzytwa Ockhama](#occams-razor)
 
-### Linus's Law
+### Prawo Linusa
 
-[Linus's Law on Wikipedia](https://en.wikipedia.org/wiki/Linus%27s_law)
+[Prawo Linusa na Wikipedii](https://en.wikipedia.org/wiki/Linus%27s_law)
 
-> Given enough eyeballs, all bugs are shallow.
+> Biorąc pod uwagę wystarczającą liczbę gałek ocznych, wszystkie błędy są płytkie.
 >
 > *Eric S. Raymond*
 
-This law simply states that the more people who can see a problem, the higher the likelihood that someone will have seen and solved the problem before, or something very similar.
+To prawo po prostu mówi, że im więcej ludzi widzi problem, tym większe prawdopodobieństwo, że ktoś już wcześniej widział i rozwiązał problem lub coś bardzo podobnego.
 
-Although it was originally used to describe the value of open-source models for projects it can be accepted for any kind of software project. It can also be extended to processes - more code reviews, more static analysis and multi-disciplined test processes will make the problems more visible and easy to identify.
+Chociaż pierwotnie był używany do opisywania wartości modeli open-source dla projektów, może być zaakceptowany dla każdego rodzaju projektu oprogramowania. Można go również rozszerzyć na procesy - więcej przeglądów kodu, więcej statycznej analizy i wielobranżowe procesy testowe sprawią, że problemy będą bardziej widoczne i łatwiejsze do zidentyfikowania.
 
-A more formal statement can be:
+Bardziej formalnym oświadczeniem może być:
 
-> Given a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and can be solved by someone who has encountered a similar problem before.
+> Mając wystarczająco dużą bazę beta-testerów i programistów, prawie każdy problem zostanie szybko scharakteryzowany i może zostać rozwiązany przez kogoś, kto już wcześniej spotkał się z podobnym problemem.
 
-This law was named in honour of [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) in Eric S. Raymond's book "[The Cathedral and the Bazaar](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar)".
+Prawo to zostało nazwane na cześć [Linusa Torvaldsa](https://en.wikipedia.org/wiki/Linus_Torvalds) w książce Erica S. Raymonda „ [Katedra i bazar](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar) ”.
 
-### Metcalfe's Law
+### Prawo Metcalfego
 
-[Metcalfe's Law on Wikipedia](https://en.wikipedia.org/wiki/Metcalfe's_law)
+[Prawo Metcalfe'a na Wikipedii](https://en.wikipedia.org/wiki/Metcalfe's_law)
 
-> In network theory, the value of a system grows as approximately the square of the number of users of the system.
+> W teorii sieci wartość systemu rośnie w przybliżeniu do kwadratu liczby użytkowników systemu.
 
-This law is based on the number of possible pairwise connections within a system and is closely related to [Reed's Law](#reeds-law). Odlyzko and others have argued that both Reed's Law and Metcalfe's Law overstate the value of the system by not accounting for the limits of human cognition on network effects; see [Dunbar's Number](#dunbars-number).
+Prawo to opiera się na liczbie możliwych połączeń parami w systemie i jest ściśle związane [z prawem Reeda](#reeds-law) . Odlyzko i inni argumentowali, że zarówno prawo Reeda, jak i prawo Metcalfe'a zawyżają wartość systemu, nie uwzględniając granic ludzkiego poznania na efektach sieciowych; zobacz [Numer Dunbara](#dunbars-number) .
 
-See also:
+Zobacz też:
 
-- [Reed's Law](#reeds-law)
-- [Dunbar's Number](#dunbars-number)
+- [Prawo Reeda](#reeds-law)
+- [Numer Dunbara](#dunbars-number)
 
-### Moore's Law
+### prawo Moore'a
 
-[Moore's Law on Wikipedia](https://en.wikipedia.org/wiki/Moore%27s_law)
+[Prawo Moore'a na Wikipedii](https://en.wikipedia.org/wiki/Moore%27s_law)
 
-> The number of transistors in an integrated circuit doubles approximately every two years.
+> Liczba tranzystorów w układzie scalonym podwaja się mniej więcej co dwa lata.
 
-Often used to illustrate the sheer speed at which semiconductor and chip technology has improved, Moore's prediction has proven to be highly accurate over from the 1970s to the late 2000s. In more recent years, the trend has changed slightly, partly due to [physical limitations on the degree to which components can be miniaturised](https://en.wikipedia.org/wiki/Quantum_tunnelling). However, advancements in parallelisation, and potentially revolutionary changes in semiconductor technology and quantum computing may mean that Moore's Law could continue to hold true for decades to come.
+Prognozy Moore'a, często używane do zilustrowania szybkości, z jaką poprawiła się technologia półprzewodników i chipów, okazały się bardzo dokładne w okresie od lat 70. do późnych lat 2000. W ostatnich latach trend nieznacznie się zmienił, częściowo ze względu na [fizyczne ograniczenia dotyczące stopnia miniaturyzacji komponentów](https://en.wikipedia.org/wiki/Quantum_tunnelling) . Jednak postępy w zrównoleglaniu i potencjalnie rewolucyjne zmiany w technologii półprzewodnikowej i obliczeniach kwantowych mogą oznaczać, że prawo Moore'a może nadal obowiązywać przez dziesięciolecia.
 
-### Murphy's Law / Sod's Law
+### Prawo Murphy'ego / Prawo Soda
 
-[Murphy's Law on Wikipedia](https://en.wikipedia.org/wiki/Murphy%27s_law)
+[Prawo Murphy'ego na Wikipedii](https://en.wikipedia.org/wiki/Murphy%27s_law)
 
-> Anything that can go wrong will go wrong.
+> Wszystko, co może pójść nie tak, pójdzie nie tak.
 
-Related to [Edward A. Murphy, Jr](https://en.wikipedia.org/wiki/Edward_A._Murphy_Jr.) *Murphy's Law* states that if a thing can go wrong, it will go wrong.
+Powiązane z [Edwardem A. Murphym, Jr](https://en.wikipedia.org/wiki/Edward_A._Murphy_Jr.) *Murphy's Law* stwierdza, że jeśli coś może pójść nie tak, to pójdzie nie tak.
 
-This is a common adage among developers. Sometimes the unexpected happens when developing, testing or even in production. This can also be related to the (more common in British English) *Sod's Law*:
+To powszechne powiedzenie wśród programistów. Czasami nieoczekiwane dzieje się podczas tworzenia, testowania, a nawet produkcji. Może to być również związane z (bardziej powszechnym w brytyjskim angielskim) *Prawie Soda* :
 
-> If something can go wrong, it will, at the worst possible time.
+> Jeśli coś może pójść nie tak, to w najgorszym możliwym momencie.
 
-These 'laws' are generally used in a comic sense. However, phenomena such as [*Confirmation Bias*](#TODO) and [*Selection Bias*](#TODO) can lead people to perhaps over-emphasise these laws (the majority of times when things work, they go unnoticed, failures however are more noticeable and draw more discussion).
+Te „prawa” są na ogół używane w komicznym sensie. Jednak zjawiska takie jak błąd [*potwierdzenia*](#TODO) i błąd [*selekcji*](#TODO) mogą skłaniać ludzi do nadmiernego podkreślania tych praw (w większości przypadków, gdy coś działa, pozostają niezauważone, jednak niepowodzenia są bardziej zauważalne i wywołują więcej dyskusji).
 
-See Also:
+Zobacz też:
 
-- [Confirmation Bias](#TODO)
-- [Selection Bias](#TODO)
+- [Błąd potwierdzenia](#TODO)
+- [Odchylenie selekcji](#TODO)
 
-### Occam's Razor
+### Brzytwa Ockhama
 
-[Occam's Razor on Wikipedia](https://en.wikipedia.org/wiki/Occam's_razor)
+[Brzytwa Ockhama na Wikipedii](https://en.wikipedia.org/wiki/Occam's_razor)
 
-> Entities should not be multiplied without necessity.
+> Nie należy mnożyć jednostek bez konieczności.
 >
-> William of Ockham
+> Wilhelm z Ockhama
 
-Occam's razor says that among several possible solutions, the most likely solution is the one with the least number of concepts and assumptions. This solution is the simplest and solves only the given problem, without introducing accidental complexity and possible negative consequences.
+Brzytwa Ockhama mówi, że spośród kilku możliwych rozwiązań najbardziej prawdopodobnym rozwiązaniem jest to, które ma najmniejszą liczbę koncepcji i założeń. To rozwiązanie jest najprostsze i rozwiązuje tylko zadany problem, bez wprowadzania przypadkowych złożoności i ewentualnych negatywnych konsekwencji.
 
-See also:
+Zobacz też:
 
 - [YAGNI](#yagni)
-- [No Silver Bullet: Accidental Complexity and Essential Complexity](https://en.wikipedia.org/wiki/No_Silver_Bullet)
+- [Brak srebrnej kuli: przypadkowa złożoność i zasadnicza złożoność](https://en.wikipedia.org/wiki/No_Silver_Bullet)
 
-Example:
+Przykład:
 
-- [Lean Software Development: Eliminate Waste](https://en.wikipedia.org/wiki/Lean_software_development#Eliminate_waste)
+- [Rozwój oprogramowania szczupłego: eliminuj marnotrawstwo](https://en.wikipedia.org/wiki/Lean_software_development#Eliminate_waste)
 
-### Parkinson's Law
+### Prawo Parkinsona
 
-[Parkinson's Law on Wikipedia](https://en.wikipedia.org/wiki/Parkinson%27s_law)
+[Prawo Parkinsona na Wikipedii](https://en.wikipedia.org/wiki/Parkinson%27s_law)
 
-> Work expands so as to fill the time available for its completion.
+> Praca rozwija się tak, aby wypełnić czas dostępny na jej wykonanie.
 
-In its original context, this Law was based on studies of bureaucracies. It may be pessimistically applied to software development initiatives, the theory being that teams will be inefficient until deadlines near, then rush to complete work by the deadline, thus making the actual deadline somewhat arbitrary.
+W swoim pierwotnym kontekście ustawa ta opierała się na badaniach biurokracji. Można to pesymistycznie zastosować do inicjatyw rozwoju oprogramowania, zgodnie z teorią, że zespoły będą nieefektywne do czasu, gdy zbliżają się terminy, a następnie spieszą się, aby ukończyć pracę w terminie, co sprawia, że rzeczywisty termin jest nieco arbitralny.
 
-If this law were combined with [Hofstadter's Law](#hofstadters-law), an even more pessimistic viewpoint is reached - work will expand to fill the time available for its completion and *still take longer than expected*.
+Gdyby to prawo zostało połączone z prawem [Hofstadtera](#hofstadters-law) , osiągnięto jeszcze bardziej pesymistyczny punkt widzenia - praca rozszerzy się, aby wypełnić czas dostępny na jej ukończenie i *nadal będzie trwać dłużej niż oczekiwano* .
 
-See also:
+Zobacz też:
 
-- [Hofstadter's Law](#hofstadters-law)
+- [Prawo Hofstadtera](#hofstadters-law)
 
-### Premature Optimization Effect
+### Przedwczesny efekt optymalizacji
 
-[Premature Optimization on WikiWikiWeb](http://wiki.c2.com/?PrematureOptimization)
+[Przedwczesna optymalizacja na WikiWikiWeb](http://wiki.c2.com/?PrematureOptimization)
 
-> Premature optimization is the root of all evil.
+> Przedwcześnie optymalizacja jest źródłem wszelkiego zła.
 >
 > [(Donald Knuth)](https://twitter.com/realdonaldknuth?lang=en)
 
-In Donald Knuth's paper [Structured Programming With Go To Statements](http://wiki.c2.com/?StructuredProgrammingWithGoToStatements), he wrote: "Programmers waste enormous amounts of time thinking about, or worrying about, the speed of noncritical parts of their programs, and these attempts at efficiency actually have a strong negative impact when debugging and maintenance are considered. We should forget about small efficiencies, say about 97% of the time: **premature optimization is the root of all evil**. Yet we should not pass up our opportunities in that critical 3%."
+W artykule Donald Knuth's [Structured Programming with Go To Statements](http://wiki.c2.com/?StructuredProgrammingWithGoToStatements) napisał: „Programiści marnują ogromne ilości czasu na myślenie lub martwienie się o szybkość niekrytycznych części swoich programów, a te próby wydajności mają naprawdę silny negatywny wpływ podczas debugowania i konserwacja są brane pod uwagę. Powinniśmy zapomnieć o małych wydajnościach, powiedzmy w 97% przypadków: **przedwczesna optymalizacja jest źródłem wszelkiego zła** . Jednak nie powinniśmy przepuszczać naszych możliwości w tych krytycznych 3%.”
 
-However, *Premature Optimization* can be defined (in less loaded terms) as optimizing before we know that we need to.
+Jednak *przedwczesną optymalizację* można zdefiniować (w mniej obciążonych terminach) jako optymalizację, zanim zorientujemy się, że jest to konieczne.
 
-### Putt's Law
+### Prawo Putta
 
-[Putt's Law on Wikipedia](https://en.wikipedia.org/wiki/Putt%27s_Law_and_the_Successful_Technocrat)
+[Prawo Putta na Wikipedii](https://en.wikipedia.org/wiki/Putt%27s_Law_and_the_Successful_Technocrat)
 
-> Technology is dominated by two types of people, those who understand what they do not manage and those who manage what they do not understand.
+> Technologia jest zdominowana przez dwa typy ludzi, tych, którzy rozumieją to, czym nie zarządzają, i tych, którzy zarządzają tym, czego nie rozumieją.
 
-Putt's Law is often followed by Putt's Corollary:
+Po prawie Putta często następuje następstwo Putta:
 
-> Every technical hierarchy, in time, develops a competence inversion.
+> Każda hierarchia techniczna z czasem rozwija inwersję kompetencji.
 
-These statements suggest that due to various selection criteria and trends in how groups organise, there will be a number of skilled people at working levels of a technical organisations, and a number of people in managerial roles who are not aware of the complexities and challenges of the work they are managing. This can be due to phenomena such as [The Peter Principle](#the-peter-principle) or [The Dilbert Principle](#the-dilbert-principle).
+Stwierdzenia te sugerują, że ze względu na różne kryteria selekcji i trendy w organizacji grup, na szczeblach pracy organizacji technicznych znajdzie się pewna liczba wykwalifikowanych osób oraz pewna liczba osób na stanowiskach kierowniczych, które nie są świadome złożoności i wyzwań związanych z pracę, którą zarządzają. Może to być spowodowane zjawiskami takimi jak [Zasada Petera](#the-peter-principle) lub [Zasada Dilberta](#the-dilbert-principle) .
 
-However, it should be stressed that Laws such as this are vast generalisations and may apply to *some* types of organisations, and not apply to others.
+Należy jednak podkreślić, że takie przepisy są szerokimi uogólnieniami i mogą mieć zastosowanie do *niektórych* typów organizacji, a nie do innych.
 
-See also:
+Zobacz też:
 
-- [The Peter Principle](#the-peter-principle)
-- [The Dilbert Principle](#the-dilbert-principle)
+- [Zasada Piotra](#the-peter-principle)
+- [Zasada Dilberta](#the-dilbert-principle)
 
-### Reed's Law
+### Prawo Reeda
 
-[Reed's Law on Wikipedia](https://en.wikipedia.org/wiki/Reed's_law)
+[Prawo Reeda na Wikipedii](https://en.wikipedia.org/wiki/Reed's_law)
 
-> The utility of large networks, particularly social networks, scales exponentially with the size of the network.
+> Użyteczność dużych sieci, w szczególności sieci społecznościowych, rośnie wykładniczo wraz z rozmiarem sieci.
 
-This law is based on graph theory, where the utility scales as the number of possible sub-groups, which is faster than the number of participants or the number of possible pairwise connections. Odlyzko and others have argued that Reed's Law overstates the utility of the system by not accounting for the limits of human cognition on network effects; see [Dunbar's Number](#dunbars-number).
+Prawo to opiera się na teorii grafów, gdzie użyteczność skaluje się jako liczba możliwych podgrup, czyli szybciej niż liczba uczestników lub liczba możliwych połączeń parami. Odlyzko i inni argumentowali, że prawo Reeda zawyża użyteczność systemu, nie uwzględniając ograniczeń ludzkiego poznania w zakresie efektów sieciowych; zobacz [Numer Dunbara](#dunbars-number) .
 
-See also:
+Zobacz też:
 
-- [Metcalfe's Law](#metcalfes-law)
-- [Dunbar's Number](#dunbars-number)
+- [Prawo Metcalfego](#metcalfes-law)
+- [Numer Dunbara](#dunbars-number)
 
-### The Law of Conservation of Complexity (Tesler's Law)
+### Prawo zachowania złożoności (prawo Teslera)
 
-[The Law of Conservation of Complexity on Wikipedia](https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity)
+[Prawo zachowania złożoności na Wikipedii](https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity)
 
-This law states that there is a certain amount of complexity in a system which cannot be reduced.
+Prawo to mówi, że w systemie występuje pewna złożoność, której nie można zredukować.
 
-Some complexity in a system is 'inadvertent'. It is a consequence of poor structure, mistakes, or just bad modeling of a problem to solve. Inadvertent complexity can be reduced (or eliminated). However, some complexity is 'intrinsic' as a consequence of the complexity inherent in the problem being solved. This complexity can be moved, but not eliminated.
+Pewna złożoność systemu jest „nieumyślna”. Jest to konsekwencja złej struktury, błędów lub po prostu złego zamodelowania problemu do rozwiązania. Przypadkową złożoność można zmniejszyć (lub wyeliminować). Jednak pewna złożoność jest „wewnętrzna” jako konsekwencja złożoności nieodłącznie związanej z rozwiązywanym problemem. Tę złożoność można przenieść, ale nie można jej wyeliminować.
 
-One interesting element to this law is the suggestion that even by simplifying the entire system, the intrinsic complexity is not reduced, it is *moved to the user*, who must behave in a more complex way.
+Ciekawym elementem tego prawa jest sugestia, że nawet uproszczenie całego systemu nie zmniejsza wewnętrznej złożoności, lecz *przenosi się na użytkownika* , który musi zachowywać się w bardziej złożony sposób.
 
-### The Law of Demeter
+### Prawo Demeter
 
-[The Law of Demeter on Wikipedia](https://en.wikipedia.org/wiki/Law_of_Demeter)
+[Prawo Demeter na Wikipedii](https://en.wikipedia.org/wiki/Law_of_Demeter)
 
-> Don't talk to strangers.
+> Nie rozmawiaj z nieznajomymi.
 
-The Law of Demeter, also known as "The Principle of Least Knowledge" is a principle for software design, particularly relevant in object orientated languages.
+Prawo Demeter, znane również jako „zasada najmniejszej wiedzy”, jest zasadą projektowania oprogramowania, szczególnie istotną w językach obiektowych.
 
-It states that a unit of software should talk only to its immediate collaborators. An object `A` with a reference to object `B` can call its methods, but if `B` has a reference to object `C`, `A` should not call `C`s methods. So, if `C` has a `doThing()` method, `A` should not invoke it directly; `B.getC().doThis()`.
+Stwierdza, że jednostka oprogramowania powinna rozmawiać tylko ze swoimi bezpośrednimi współpracownikami. Obiekt `A` z odwołaniem do obiektu `B` może wywoływać swoje metody, ale jeśli `B` ma odwołanie do obiektu `C` , `A` nie powinien wywoływać `C` s. Tak więc, jeśli `C` ma `doThing()` , `A` nie powinien wywoływać jej bezpośrednio; `B.getC().doThis()` .
 
-Following this principal limits the scope of changes, making them easier and safer in future.
+Przestrzeganie tej zasady ogranicza zakres zmian, czyniąc je łatwiejszymi i bezpieczniejszymi w przyszłości.
 
-### The Law of Leaky Abstractions
+### Prawo nieszczelnych abstrakcji
 
-[The Law of Leaky Abstractions on Joel on Software](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
+[Prawo nieszczelnych abstrakcji dotyczących Joela na oprogramowaniu](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
 
-> All non-trivial abstractions, to some degree, are leaky.
+> Wszystkie nietrywialne abstrakcje są do pewnego stopnia nieszczelne.
 >
-> ([Joel Spolsky](https://twitter.com/spolsky))
+> ( [Joel Spolsky](https://twitter.com/spolsky) )
 
-This law states that abstractions, which are generally used in computing to simplify working with complicated systems, will in certain situations 'leak' elements of the underlying system, this making the abstraction behave in an unexpected way.
+Prawo to stanowi, że abstrakcje, które są zwykle używane w obliczeniach w celu uproszczenia pracy ze skomplikowanymi systemami, w pewnych sytuacjach „wyciekają” elementy systemu bazowego, co powoduje, że abstrakcja zachowuje się w nieoczekiwany sposób.
 
-An example might be loading a file and reading its contents. The file system APIs are an *abstraction* of the lower level kernel systems, which are themselves an abstraction over the physical processes relating to changing data on a magnetic platter (or flash memory for an SSD). In most cases, the abstraction of treating a file like a stream of binary data will work. However, for a magnetic drive, reading data sequentially will be *significantly* faster than random access (due to increased overhead of page faults), but for an SSD drive, this overhead will not be present. Underlying details will need to be understood to deal with this case (for example, database index files are structured to reduce the overhead of random access), the abstraction 'leaks' implementation details the developer may need to be aware of.
+Przykładem może być wczytanie pliku i odczytanie jego zawartości. Interfejsy API systemu plików są *abstrakcją* systemów jądra niższego poziomu, które same w sobie są abstrakcją fizycznych procesów związanych ze zmianą danych na talerzu magnetycznym (lub pamięci flash w przypadku dysku SSD). W większości przypadków zadziała abstrakcja traktowania pliku jako strumienia danych binarnych. Jednak w przypadku dysku magnetycznego sekwencyjny odczyt danych będzie *znacznie* szybszy niż dostęp losowy (ze względu na zwiększony narzut błędów stron), ale w przypadku dysku SSD ten narzut nie będzie obecny. Aby poradzić sobie z tym przypadkiem, należy zrozumieć podstawowe szczegóły (na przykład pliki indeksu bazy danych są skonstruowane tak, aby zmniejszyć obciążenie losowego dostępu), szczegóły implementacji „przecieków” abstrakcji, o których programista może być świadomy.
 
-The example above can become more complex when *more* abstractions are introduced. The Linux operating system allows files to be accessed over a network but represented locally as 'normal' files. This abstraction will 'leak' if there are network failures. If a developer treats these files as 'normal' files, without considering the fact that they may be subject to network latency and failures, the solutions will be buggy.
+Powyższy przykład może stać się bardziej złożony, gdy zostanie wprowadzonych *więcej abstrakcji.* System operacyjny Linux umożliwia dostęp do plików przez sieć, ale reprezentowane lokalnie jako „normalne” pliki. Ta abstrakcja „przecieka” w przypadku awarii sieci. Jeśli programista traktuje te pliki jako „normalne” pliki, nie biorąc pod uwagę faktu, że mogą one podlegać opóźnieniom i awariom sieci, rozwiązania będą zawierały błędy.
 
-The article describing the law suggests that an over-reliance on abstractions, combined with a poor understanding of the underlying processes, actually makes dealing with the problem at hand *more* complex in some cases.
+Artykuł opisujący prawo sugeruje, że nadmierne poleganie na abstrakcjach w połączeniu ze słabym zrozumieniem procesów leżących u ich podstaw w rzeczywistości sprawia, że radzenie sobie z danym problemem w niektórych przypadkach *staje się bardziej złożone.*
 
-See also:
+Zobacz też:
 
-- [Hyrum's Law](#hyrums-law-the-law-of-implicit-interfaces)
+- [Prawo Hyruma](#hyrums-law-the-law-of-implicit-interfaces)
 
-Real-world examples:
+Przykłady ze świata rzeczywistego:
 
-- [Photoshop Slow Startup](https://forums.adobe.com/thread/376152) - an issue I encountered in the past. Photoshop would be slow to startup, sometimes taking minutes. It seems the issue was that on startup it reads some information about the current default printer. However, if that printer is actually a network printer, this could take an extremely long time. The *abstraction* of a network printer being presented to the system similar to a local printer caused an issue for users in poor connectivity situations.
+- [Powolne uruchamianie programu Photoshop](https://forums.adobe.com/thread/376152) — problem, który napotkałem w przeszłości. Photoshop uruchamiałby się wolno, czasami zajmując kilka minut. Wydaje się, że problem polegał na tym, że podczas uruchamiania odczytuje informacje o bieżącej domyślnej drukarce. Jeśli jednak ta drukarka jest w rzeczywistości drukarką sieciową, może to zająć bardzo dużo czasu. *Abstrakcja* drukarki sieciowej prezentowanej systemowi podobnie do drukarki lokalnej powodowała problem dla użytkowników w sytuacjach słabej łączności.
 
-### The Law of Triviality
+### Prawo trywialności
 
-[The Law of Triviality on Wikipedia](https://en.wikipedia.org/wiki/Law_of_triviality)
+[Prawo trywialności na Wikipedii](https://en.wikipedia.org/wiki/Law_of_triviality)
 
-This law suggests that groups will give far more time and attention to trivial or cosmetic issues rather than serious and substantial ones.
+To prawo sugeruje, że grupy będą poświęcać znacznie więcej czasu i uwagi błahym lub kosmetycznym kwestiom niż poważnym i istotnym.
 
-The common fictional example used is that of a committee approving plans for nuclear power plant, who spend the majority of their time discussing the structure of the bike shed, rather than the far more important design for the power plant itself. It can be difficult to give valuable input on discussions about very large, complex topics without a high degree of subject matter expertise or preparation. However, people want to be seen to be contributing valuable input. Hence a tendency to focus too much time on small details, which can be reasoned about easily, but are not necessarily of particular importance.
+Powszechnie używanym fikcyjnym przykładem jest komitet zatwierdzający plany elektrowni jądrowej, który spędza większość czasu na omawianiu struktury szopy na rowery, a nie na znacznie ważniejszym projekcie samej elektrowni. Wniesienie wartościowego wkładu w dyskusje na bardzo duże, złożone tematy może być trudne bez wysokiego poziomu wiedzy merytorycznej lub przygotowania. Jednak ludzie chcą być postrzegani jako wnoszący cenny wkład. Stąd tendencja do skupiania zbyt dużej ilości czasu na drobnych szczegółach, które można łatwo wytłumaczyć, ale niekoniecznie mają one szczególne znaczenie.
 
-The fictional example above led to the usage of the term 'Bike Shedding' as an expression for wasting time on trivial details. A related term is '[Yak Shaving](https://en.wiktionary.org/wiki/yak_shaving),' which connotes a seemingly irrelevant activity that is part of a long chain of prerequisites to the main task.
+Powyższy fikcyjny przykład doprowadził do użycia terminu „Zrzucanie rowerów” jako wyrażenia marnowania czasu na błahe szczegóły. Pokrewnym terminem jest „ [golenie](https://en.wiktionary.org/wiki/yak_shaving) jaka”, które oznacza pozornie nieistotną czynność, która jest częścią długiego łańcucha warunków wstępnych do głównego zadania.
 
-### The Unix Philosophy
+### Filozofia Uniksa
 
-[The Unix Philosophy on Wikipedia](https://en.wikipedia.org/wiki/Unix_philosophy)
+[Filozofia Uniksa na Wikipedii](https://en.wikipedia.org/wiki/Unix_philosophy)
 
-The Unix Philosophy is that software components should be small, and focused on doing one specific thing well. This can make it easier to build systems by composing together small, simple, well-defined units, rather than using large, complex, multi-purpose programs.
+Filozofia Uniksa polega na tym, że komponenty oprogramowania powinny być małe i skoncentrowane na robieniu jednej konkretnej rzeczy dobrze. Może to ułatwić budowanie systemów poprzez komponowanie małych, prostych, dobrze zdefiniowanych jednostek, zamiast używania dużych, złożonych, wielozadaniowych programów.
 
-Modern practices like 'Microservice Architecture' can be thought of as an application of this law, where services are small, focused and do one specific thing, allowing complex behaviour to be composed of simple building blocks.
+Nowoczesne praktyki, takie jak „architektura mikrousług”, można traktować jako zastosowanie tego prawa, w którym usługi są małe, skoncentrowane i wykonują jedną konkretną rzecz, umożliwiając złożone zachowanie złożone z prostych elementów konstrukcyjnych.
 
-### The Scout Rule
+### Zasada Skauta
 
-[The Scout Rule on O'Reilly](https://www.oreilly.com/library/view/97-things-every/9780596809515/ch08.html)
+[Reguła Skauta na O'Reilly](https://www.oreilly.com/library/view/97-things-every/9780596809515/ch08.html)
 
-> Always leave the code better than you found it.
+> Zawsze zostawiaj kod lepszy, niż go znalazłeś.
 >
-> (Robert C. Martin (Uncle Bob))
+> (Robert C. Martin (Wujek Bob))
 
-Based on the "Scout Rule", which is "always leave the campground cleaner than you found it", the Scout Rule in programming is simply "always leave the code cleaner than you found it".
+Oparta na „Zasadze Zwiadowcy”, która mówi, że „zawsze zostawiaj pole kempingowe czystsze, niż go znalazłeś”, zasada zwiadu w programowaniu to po prostu „zawsze pozostawiaj kod czystszy, niż go znalazłeś”.
 
-This was introduced in the first chapter of the book [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code) by Bob Martin. The rule suggests that developers should perform 'optimistic refactoring', which means to endeavour to improve the overall quality of the code when you work on it. If you see a mistake, attempt to fix it or clean it up. However, when making changes to code which seems incorrect, it may be worth remembering [Chesterton's Fence](#chestertons-fence)!
+Zostało to wprowadzone w pierwszym rozdziale książki [Czysty kod](https://www.goodreads.com/book/show/3735293-clean-code) autorstwa Boba Martina. Reguła sugeruje, że programiści powinni przeprowadzać „optymistyczne refaktoryzację”, co oznacza dążenie do poprawy ogólnej jakości kodu podczas pracy nad nim. Jeśli zauważysz błąd, spróbuj go naprawić lub wyczyść. Jednak przy wprowadzaniu zmian w kodzie, który wydaje się niepoprawny, warto pamiętać [o płocie Chestertona](#chestertons-fence) !
 
-See also:
+Zobacz też:
 
-- [Reading List: Clean Code](#reading-list)
-- [Chesterton's Fence](#chestertons-fence)
-- [The Broken Windows Theory](#broken-windows-theory)
+- [Lista lektur: czysty kod](#reading-list)
+- [Płot Chestertona](#chestertons-fence)
+- [Teoria zepsutych okien](#broken-windows-theory)
 
 https://www.amazon.sg/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882
 
-### The Spotify Model
+### Model Spotify
 
-[The Spotify Model on Spotify Labs](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)
+[Model Spotify w Spotify Labs](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)
 
-The Spotify Model is an approach to team and organisation structure which has been popularised by 'Spotify'. In this model, teams are organised around features, rather than technologies.
+Model Spotify to podejście do struktury zespołu i organizacji spopularyzowane przez „Spotify”. W tym modelu zespoły są zorganizowane wokół funkcji, a nie technologii.
 
-The Spotify Model also popularises the concepts of Tribes, Guilds, Chapters, which are other components of their organisation structure.
+Model Spotify popularyzuje również koncepcje plemion, gildii, oddziałów, które są innymi elementami ich struktury organizacyjnej.
 
-Members of the organisation have described that the actual meaning of these groups changes, evolves and is an on-going experiment. The fact that the model is a *process in motion*, rather than a fixed model continues to lead to varying interpretations of the structure, which may be based on presentations given by employees at conferences. This means 'snapshots' may be 're-packaged' by third parties as a *fixed structure*, with the fact that the model is dynamic being lost.
+Członkowie organizacji opisali, że rzeczywiste znaczenie tych grup zmienia się, ewoluuje i jest ciągłym eksperymentem. Fakt, że model jest *procesem w ruchu* , a nie stałym modelem, nadal prowadzi do różnych interpretacji struktury, które mogą opierać się na prezentacjach wygłaszanych przez pracowników na konferencjach. Oznacza to, że „migawki” mogą być „przepakowywane” przez osoby trzecie w *stałą strukturę* , co powoduje utratę dynamiki modelu.
 
-### The Two Pizza Rule
+### Zasada dwóch pizzy
 
-> If you can't feed a team with two pizzas, it's too large.
+> Jeśli nie możesz nakarmić drużyny dwiema pizzami, jest za duża.
 >
 > (Jeff Bezos)
 
-This rule suggests that regardless of the size of the company, teams should be small enough to be fed by two pizzas. Attributed to Jeff Bezos and Amazon, this belief suggests that large teams are inherently inefficient. This is supported by the fact that as the team size increases linearly, the links between people increases quadratically; thus the cost of coordinating and communicating also grows quadratically. If this cost of coordination is essentially overhead, then smaller teams should be preferred.
+Ta zasada sugeruje, że niezależnie od wielkości firmy, zespoły powinny być na tyle małe, aby mogły je nakarmić dwie pizze. Przekonanie to, przypisywane Jeffowi Bezosowi i Amazonowi, sugeruje, że duże zespoły są z natury nieefektywne. Potwierdza to fakt, że wraz ze wzrostem liczebności zespołu liniowo, powiązania między ludźmi rosną kwadratowo; w ten sposób koszt koordynacji i komunikacji również rośnie kwadratowo. Jeśli ten koszt koordynacji jest zasadniczo kosztowny, należy preferować mniejsze zespoły.
 
-The number of links between people can be expressed as `n(n-1)/2` where n = number of people.
+Liczbę powiązań między ludźmi można wyrazić jako `n(n-1)/2` gdzie n = liczba osób.
 
+<img width="200px" alt="Kompletny wykres; Powiązania między ludźmi" src="./images/complete_graph.png">
 
-<img width="200px" alt="Complete graph; Links between people" src="./images/complete_graph.png">
+### Prawo Wadlera
 
-### Wadler's Law
+[Prawo Wadlera na wiki.haskell.org](https://wiki.haskell.org/Wadler's_Law)
 
-[Wadler's Law on wiki.haskell.org](https://wiki.haskell.org/Wadler's_Law)
-
-> In any language design, the total time spent discussing a feature in this list is proportional to two raised to the power of its position.
+> W każdym projekcie językowym całkowity czas poświęcony na omawianie funkcji z tej listy jest proporcjonalny do dwóch podniesionych do potęgi jej pozycji.
 >
-> 1. Semantics
-> 2. Syntax
-> 3. Lexical syntax
-> 4. Lexical syntax of comments
+> 1. Semantyka
+> 2. Składnia
+> 3. Składnia leksykalna
+> 4. Składnia leksykalna komentarzy
 >
-> (In short, for every hour spent on semantics, 8 hours will be spent on the syntax of comments).
+> (W skrócie, na każdą godzinę spędzoną na semantyce, 8 godzin zostanie poświęconych na składnię komentarzy).
 
-Similar to [The Law of Triviality](#the-law-of-triviality), Wadler's Law states what when designing a language, the amount of time spent on language structures is disproportionately high in comparison to the importance of those features.
+Podobnie jak [Prawo](#the-law-of-triviality) trywialności, Prawo Wadlera mówi, że przy projektowaniu języka ilość czasu poświęcanego na struktury językowe jest nieproporcjonalnie duża w porównaniu z wagą tych cech.
 
-See also:
+Zobacz też:
 
-- [The Law of Triviality](#the-law-of-triviality)
+- [Prawo trywialności](#the-law-of-triviality)
 
-### Wheaton's Law
+### Prawo Wheatona
 
-[The Link](http://www.wheatonslaw.com/)
+[Połączenie](http://www.wheatonslaw.com/)
 
-[The Official Day](https://dontbeadickday.com/)
+[Dzień Oficjalny](https://dontbeadickday.com/)
 
-> Don't be a dick.
+> Nie bądź kutasem.
 >
-> *Wil Wheaton*
+> *Wila Wheatona*
 
-Coined by Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), this simple, concise, and powerful law aims for an increase in harmony and respect within a professional organization. It can be applied when speaking with coworkers, performing code reviews, countering other points of view, critiquing, and in general, most professional interactions humans have with each other.
+Ukute przez Wila Wheatona (Star Trek: The Next Generation, The Big Bang Theory), to proste, zwięzłe i potężne prawo ma na celu zwiększenie harmonii i szacunku w profesjonalnej organizacji. Może być stosowany podczas rozmów ze współpracownikami, przeprowadzania przeglądów kodu, przeciwstawiania się innym punktom widzenia, krytykowania i ogólnie większości profesjonalnych interakcji między ludźmi.
 
-## Principles
+## Zasady
 
-Principles are generally more likely to be guidelines relating to design.
+Zasady są zazwyczaj bardziej prawdopodobne jako wytyczne dotyczące projektowania.
 
-### All Models Are Wrong (George Box's Law)
+### Wszystkie modele są złe (prawo George'a Boxa)
 
-[All Models Are Wrong](https://en.wikipedia.org/wiki/All_models_are_wrong)
+[Wszystkie modele są złe](https://en.wikipedia.org/wiki/All_models_are_wrong)
 
-> All models are wrong, but some are useful.
+> Wszystkie modele są błędne, ale niektóre są przydatne.
 >
 > *George Box*
 
-This principle suggests that all models of systems are flawed, but that as long as they are not *too* flawed they may be useful. This principle has its roots in statistics but applies to scientific and computing models as well.
+Zasada ta sugeruje, że wszystkie modele systemów są wadliwe, ale dopóki nie są *zbyt* wadliwe, mogą być użyteczne. Zasada ta ma swoje korzenie w statystyce, ale odnosi się również do modeli naukowych i obliczeniowych.
 
-A fundamental requirement of most software is to model a system of some kind. Regardless of whether the system being modeled is a computer network, a library, a graph of social connections or any other kind of system, the designer will have to decide an appropriate level of detail to model. Excessive detail may lead to too much complexity, too little detail may prevent the model from being functional.
+Podstawowym wymaganiem większości oprogramowania jest modelowanie pewnego rodzaju systemu. Niezależnie od tego, czy modelowany system jest siecią komputerową, biblioteką, wykresem powiązań społecznościowych czy jakimkolwiek innym systemem, projektant będzie musiał określić odpowiedni poziom szczegółowości modelowania. Nadmierna szczegółowość może prowadzić do zbyt dużej złożoności, zbyt mała szczegółowość może uniemożliwić funkcjonowanie modelu.
 
-See also:
+Zobacz też:
 
-- [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
+- [Prawo nieszczelnych abstrakcji](#the-law-of-leaky-abstractions)
 
-### Chesterton's Fence
+### Płot Chestertona
 
-[Chesterton's Fence on Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence)
+[Płot Chestertona na Wikipedii](https://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence)
 
-> Reforms should not be made until the reasoning behind the existing state of affairs is understood.
+> Nie należy przeprowadzać reform, dopóki nie zrozumie się uzasadnienia istniejącego stanu rzeczy.
 
-This principle is relevant in software engineering when removing technical debt. Each line of a program was originally written by someone for some reason. Chesterton's Fence suggests that one should try to understand the context and meaning of the code fully, before changing or removing it, even if at first glance it seems redundant or incorrect.
+Ta zasada jest istotna w inżynierii oprogramowania przy usuwaniu długu technicznego. Każda linia programu została z jakiegoś powodu napisana przez kogoś. Chesterton's Fence sugeruje, że należy starać się w pełni zrozumieć kontekst i znaczenie kodu przed jego zmianą lub usunięciem, nawet jeśli na pierwszy rzut oka wydaje się on zbyteczny lub niepoprawny.
 
-The name of this principle comes from a story by [G.K. Chesterton](https://en.wikipedia.org/wiki/G._K._Chesterton). A man comes across a fence crossing the middle of the road. He complains to the mayor that this useless fence is getting in the way, and asks to remove it. The mayor asks why the fence is there in the first place. When the man says he doesn't know, the mayor says, "If you don't know its purpose, I certainly won't let you remove it. Go and find out the use of it, and then I may let you destroy it."
+Nazwa tej zasady pochodzi od opowiadania [GK Chestertona](https://en.wikipedia.org/wiki/G._K._Chesterton) . Mężczyzna natrafia na płot przecinający środek drogi. Skarży się burmistrzowi, że to bezużyteczne ogrodzenie przeszkadza i prosi o jego usunięcie. Burmistrz pyta, dlaczego w ogóle jest tam ogrodzenie. Kiedy mężczyzna mówi, że nie wie, burmistrz mówi: „Jeśli nie znasz jego przeznaczenia, na pewno nie pozwolę ci go usunąć. to."
 
-### The Dead Sea Effect
+### Efekt Morza Martwego
 
-[The Dead Sea Effect on Bruce F. Webster](http://brucefwebster.com/2008/04/11/the-wetware-crisis-the-dead-sea-effect/)
+[Wpływ Morza Martwego na Bruce'a F. Webstera](http://brucefwebster.com/2008/04/11/the-wetware-crisis-the-dead-sea-effect/)
 
-> "... [T]he more talented and effective IT engineers are the ones most likely to leave - to evaporate ... [those who tend to] remain behind [are] the 'residue' — the least talented and effective IT engineers."
+> „... [Z]iętniej utalentowani i skuteczni inżynierowie IT najczęściej odchodzą – by wyparować… [ci, którzy mają tendencję do pozostawania] w tyle [są] „pozostałościami” — najmniej utalentowanymi i skutecznymi inżynierami IT ”.
 >
 > *Bruce F. Webster*
 
-The "Dead Sea Effect" suggests that in any organisation, the skills/talent/efficacy of engineers is often inversely proportional to their time in the company.
+„Efekt Morza Martwego” sugeruje, że w każdej organizacji umiejętności/talent/skuteczność inżynierów są często odwrotnie proporcjonalne do ich czasu w firmie.
 
-Typically, highly skilled engineers find it easy to gain employment elsewhere and are the first to do so. Engineers who have obsolete or weak skills will tend to remain with the company, as finding employment elsewhere is difficult. This is particularly pronounced if they have gained incremental pay rises over their time in the company, as it can be challenging to get equivalent remuneration elsewhere.
+Zazwyczaj wysoko wykwalifikowani inżynierowie łatwo znajdują zatrudnienie gdzie indziej i są to pierwsi. Inżynierowie, którzy mają przestarzałe lub słabe umiejętności, zwykle pozostają w firmie, ponieważ znalezienie pracy w innym miejscu jest trudne. Jest to szczególnie widoczne, jeśli w ciągu swojego czasu w firmie uzyskali dodatkowe podwyżki płac, ponieważ uzyskanie ekwiwalentnego wynagrodzenia w innym miejscu może być trudne.
 
-### The Dilbert Principle
+### Zasada Dilberta
 
-[The Dilbert Principle on Wikipedia](https://en.wikipedia.org/wiki/Dilbert_principle)
+[Zasada Dilberta na Wikipedii](https://en.wikipedia.org/wiki/Dilbert_principle)
 
-> Companies tend to systematically promote incompetent employees to management to get them out of the workflow.
+> Firmy mają tendencję do systematycznego awansowania niekompetentnych pracowników do kierownictwa, aby wydostać ich z przepływu pracy.
 >
 > *Scott Adams*
 
-A management concept developed by Scott Adams (creator of the Dilbert comic strip), the Dilbert Principle is inspired by [The Peter Principle](#the-peter-principle). Under the Dilbert Principle, employees who were never competent are promoted to management in order to limit the damage they can do. Adams first explained the principle in a 1995 Wall Street Journal article, and expanded upon it in his 1996 business book, [The Dilbert Principle](#reading-list).
+Koncepcja zarządzania opracowana przez Scotta Adamsa (twórcę komiksu Dilberta), Zasada Dilberta jest inspirowana [Zasadą Petera](#the-peter-principle) . Zgodnie z Zasadą Dilberta pracownicy, którzy nigdy nie byli kompetentni, są awansowani na stanowiska kierownicze w celu ograniczenia szkód, jakie mogą wyrządzić. Adams po raz pierwszy wyjaśnił tę zasadę w artykule Wall Street Journal z 1995 r., a następnie rozwinął ją w swojej książce biznesowej z 1996 r. [„Zasada Dilberta”](#reading-list) .
 
-See Also:
+Zobacz też:
 
-- [The Peter Principle](#the-peter-principle)
-- [Putt's Law](#putts-law)
+- [Zasada Piotra](#the-peter-principle)
+- [Prawo Putta](#putts-law)
 
-### The Pareto Principle (The 80/20 Rule)
+### Zasada Pareto (Zasada 80/20)
 
-[The Pareto Principle on Wikipedia](https://en.wikipedia.org/wiki/Pareto_principle)
+[Zasada Pareto na Wikipedii](https://en.wikipedia.org/wiki/Pareto_principle)
 
-> Most things in life are not distributed evenly.
+> Większość rzeczy w życiu nie jest rozłożona równomiernie.
 
-The Pareto Principle suggests that in some cases, the majority of results come from a minority of inputs:
+Zasada Pareto sugeruje, że w niektórych przypadkach większość wyników pochodzi z mniejszości danych wejściowych:
 
-- 80% of a certain piece of software can be written in 20% of the total allocated time (conversely, the hardest 20% of the code takes 80% of the time)
-- 20% of the effort produces 80% of the result
-- 20% of the work creates 80% of the revenue
-- 20% of the bugs cause 80% of the crashes
-- 20% of the features cause 80% of the usage
+- 80% określonego fragmentu oprogramowania można napisać w 20% całkowitego przydzielonego czasu (odwrotnie, najtrudniejsze 20% kodu zajmuje 80% czasu)
+- 20% wysiłku daje 80% rezultatu
+- 20% pracy tworzy 80% przychodów
+- 20% błędów powoduje 80% awarii
+- 20% funkcji powoduje 80% użytkowania
 
-In the 1940s American-Romanian engineer Dr. Joseph Juran, who is widely credited with being the father of quality control, [began to apply the Pareto principle to quality issues](https://en.wikipedia.org/wiki/Joseph_M._Juran).
+W latach czterdziestych amerykańsko-rumuński inżynier dr Joseph Juran, powszechnie uważany za ojca kontroli jakości, [zaczął stosować zasadę Pareto do kwestii jakości](https://en.wikipedia.org/wiki/Joseph_M._Juran) .
 
-This principle is also known as: The 80/20 Rule, The Law of the Vital Few, and The Principle of Factor Sparsity.
+Ta zasada jest również znana jako: Reguła 80/20, Prawo Niewielu Witalnych oraz Zasada Rzadkości Czynników.
 
-Real-world examples:
+Przykłady ze świata rzeczywistego:
 
-- In 2002 Microsoft reported that by fixing the top 20% of the most-reported bugs, 80% of the related errors and crashes in windows and office would become eliminated ([Reference](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)).
+- W 2002 roku Microsoft poinformował, że naprawienie 20% najczęściej zgłaszanych błędów pozwoli wyeliminować 80% powiązanych błędów i awarii w Windows i Office ( [Reference](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm) ).
 
-### The Shirky Principle
+### Zasada Shirky
 
-[The Shirky Principle explained](https://kk.org/thetechnium/the-shirky-prin/)
+[Wyjaśnienie zasady Shirky](https://kk.org/thetechnium/the-shirky-prin/)
 
-> Institutions will try to preserve the problem to which they are the solution.
+> Instytucje będą starały się zachować problem, którego są rozwiązaniem.
 >
-> *Clay Shirky*
+> *Glina Shirky*
 
-The Shirky Principle suggests that complex solutions - a company, an industry, or a technology - can become so focused on the problem that they are solving, that they can inadvertently perpetuate the problem itself. This may be deliberate (a company striving to find new nuances to a problem which justify continued development of a solution), or inadvertent (being unable or unwilling to accept or build a solution which solves the problem completely or obviates it).
+Zasada Shirky sugeruje, że złożone rozwiązania – firma, branża lub technologia – mogą być tak skoncentrowane na problemie, który rozwiązują, że mogą nieumyślnie utrwalać sam problem. Może to być celowe (firma dążąca do znalezienia nowych niuansów problemu, które uzasadniają dalsze opracowywanie rozwiązania) lub nieumyślne (niezdolność lub niechęć do zaakceptowania lub zbudowania rozwiązania, które całkowicie rozwiąże problem lub go ominie).
 
-Related to:
+Związany z:
 
-- Upton Sinclair's famous line, *"It is difficult to get a man to understand something, when his salary depends upon his not understanding it!"*
-- Clay Christensen's *The Innovator's Dilemma*
+- Słynny wiersz Uptona Sinclaira: *„Trudno jest sprawić, by człowiek coś zrozumiał, kiedy jego pensja zależy od tego, czy tego nie rozumie!”*
+- *Dylemat innowatora* Claya Christensena
 
-See also:
+Zobacz też:
 
-- [Pareto Principle](#the-pareto-principle-the-8020-rule)
+- [Zasada Pareto](#the-pareto-principle-the-8020-rule)
 
-### The Peter Principle
+### Zasada Piotra
 
-[The Peter Principle on Wikipedia](https://en.wikipedia.org/wiki/Peter_principle)
+[Zasada Piotra na Wikipedii](https://en.wikipedia.org/wiki/Peter_principle)
 
-> People in a hierarchy tend to rise to their "level of incompetence".
+> Ludzie w hierarchii mają tendencję do wznoszenia się do swojego „poziomu niekompetencji”.
 >
 > *Laurence J. Peter*
 
-A management concept developed by Laurence J. Peter, the Peter Principle observes that people who are good at their jobs are promoted, until they reach a level where they are no longer successful (their "level of incompetence"). At this point, as they are more senior, they are less likely to be removed from the organisation (unless they perform spectacularly badly) and will continue to reside in a role which they have few intrinsic skills at, as their original skills which made them successful are not necessarily the skills required for their new jobs.
+Koncepcja zarządzania opracowana przez Laurence'a J. Petera, Zasada Petera, wskazuje, że ludzie, którzy są dobrzy w swojej pracy, są awansowani, dopóki nie osiągną poziomu, na którym nie odnoszą już sukcesów (ich „poziom niekompetencji”). W tym momencie, ponieważ są bardziej starsi, jest mniej prawdopodobne, że zostaną usunięci z organizacji (chyba że osiągają spektakularnie złe wyniki) i nadal będą pełnić rolę, w której mają niewiele wrodzonych umiejętności, ponieważ ich oryginalne umiejętności, które ich uczyniły sukces niekoniecznie są umiejętnościami wymaganymi w nowej pracy.
 
-This is of particular interest to engineers - who initially start out in deeply technical roles, but often have a career path which leads to *managing* other engineers - which requires a fundamentally different skills-set.
+Jest to szczególnie interesujące dla inżynierów – którzy początkowo zaczynają od głęboko technicznych ról, ale często mają ścieżkę kariery, która prowadzi do *zarządzania* innymi inżynierami – co wymaga zasadniczo innego zestawu umiejętności.
 
-See Also:
+Zobacz też:
 
-- [The Dilbert Principle](#the-dilbert-principle)
-- [Putt's Law](#putts-law)
+- [Zasada Dilberta](#the-dilbert-principle)
+- [Prawo Putta](#putts-law)
 
-### The Robustness Principle (Postel's Law)
+### Zasada solidności (prawo Postela)
 
-[The Robustness Principle on Wikipedia](https://en.wikipedia.org/wiki/Robustness_principle)
+[Zasada solidności na Wikipedii](https://en.wikipedia.org/wiki/Robustness_principle)
 
-> Be conservative in what you do, be liberal in what you accept from others.
+> Bądź konserwatywny w tym, co robisz, bądź liberalny w tym, co akceptujesz od innych.
 
-Often applied in server application development, this principle states that what you send to others should be as minimal and conformant as possible, but you should aim to allow non-conformant input if it can be processed.
+Zasada ta, często stosowana w tworzeniu aplikacji serwerowych, mówi, że to, co wysyłasz do innych, powinno być jak najmniejsze i zgodne, ale powinieneś dążyć do umożliwienia niezgodnych danych wejściowych, jeśli można je przetworzyć.
 
-The goal of this principle is to build systems which are robust, as they can handle poorly formed input if the intent can still be understood. However, there are potentially security implications of accepting malformed input, particularly if the processing of such input is not well tested. These implications and other issues are described by Eric Allman in [The Robustness Principle Reconsidered](https://queue.acm.org/detail.cfm?id=1999945).
+Celem tej zasady jest zbudowanie systemów, które są solidne, ponieważ mogą poradzić sobie ze źle sformułowanymi danymi wejściowymi, jeśli intencje mogą być nadal zrozumiałe. Jednak akceptowanie zniekształconych danych wejściowych może wiązać się z potencjalnymi implikacjami bezpieczeństwa, szczególnie jeśli przetwarzanie takich danych wejściowych nie jest dobrze przetestowane. Te implikacje i inne kwestie zostały opisane przez Erica Allmana w [Reconsidered The Robustness Principle Reconsidered](https://queue.acm.org/detail.cfm?id=1999945) .
 
-Allowing non-conformant input, in time, may undermine the ability of protocols to evolve as implementors will eventually rely on this liberality to build their features.
+Dopuszczenie niezgodnych danych wejściowych z czasem może osłabić zdolność protokołów do ewolucji, ponieważ realizatorzy będą w końcu polegać na tej liberalności w budowaniu swoich funkcji.
 
-See Also:
+Zobacz też:
 
-- [Hyrum's Law](#hyrums-law-the-law-of-implicit-interfaces)
+- [Prawo Hyruma](#hyrums-law-the-law-of-implicit-interfaces)
 
-### SOLID
+### SOLIDNY
 
-This is an acronym, which refers to:
+To jest akronim, który odnosi się do:
 
-- S: [The Single Responsibility Principle](#the-single-responsibility-principle)
-- O: [The Open/Closed Principle](#the-openclosed-principle)
-- L: [The Liskov Substitution Principle](#the-liskov-substitution-principle)
-- I: [The Interface Segregation Principle](#the-interface-segregation-principle)
-- D: [The Dependency Inversion Principle](#the-dependency-inversion-principle)
+- S: [Zasada pojedynczej odpowiedzialności](#the-single-responsibility-principle)
+- O: [Zasada otwarcia/zamknięcia](#the-openclosed-principle)
+- L: [Zasada substytucji Liskov](#the-liskov-substitution-principle)
+- I: [Zasada segregacji interfejsów](#the-interface-segregation-principle)
+- D: [Zasada odwrócenia zależności](#the-dependency-inversion-principle)
 
-These are key principles in [Object-Oriented Programming](#todo). Design principles such as these should be able to aid developers build more maintainable systems.
+Są to kluczowe zasady [programowania zorientowanego obiektowo](#todo) . Zasady projektowania, takie jak te, powinny być w stanie pomóc programistom w tworzeniu systemów łatwiejszych w utrzymaniu.
 
-### The Single Responsibility Principle
+### Zasada pojedynczej odpowiedzialności
 
-[The Single Responsibility Principle on Wikipedia](https://en.wikipedia.org/wiki/Single_responsibility_principle)
+[Zasada pojedynczej odpowiedzialności na Wikipedii](https://en.wikipedia.org/wiki/Single_responsibility_principle)
 
-> Every module or class should have a single responsibility only.
+> Każdy moduł lub klasa powinna mieć tylko jedną odpowiedzialność.
 
-The first of the '[SOLID](#solid)' principles. This principle suggests that modules or classes should do one thing and one thing only. In more practical terms, this means that a single, small change to a feature of a program should require a change in one component only. For example, changing how a password is validated for complexity should require a change in only one part of the program.
+Pierwsza z zasad „ [SOLID](#solid) ”. Ta zasada sugeruje, że moduły lub klasy powinny robić jedną rzecz i tylko jedną rzecz. W bardziej praktycznym ujęciu oznacza to, że pojedyncza, niewielka zmiana w funkcji programu powinna wymagać zmiany tylko w jednym komponencie. Na przykład zmiana sposobu sprawdzania poprawności hasła pod kątem złożoności powinna wymagać zmiany tylko w jednej części programu.
 
-Theoretically, this should make the code more robust, and easier to change. Knowing that a component which is being changed has a single responsibility only means that *testing* that change should be easier. Using the earlier example, changing the password complexity component should only be able to affect the features which relate to password complexity. It can be much more difficult to reason about the impact of a change to a component which has many responsibilities.
+Teoretycznie powinno to sprawić, że kod będzie bardziej niezawodny i łatwiejszy do zmiany. Wiedza, że zmieniany komponent ma tylko jedną odpowiedzialność, oznacza tylko, że *testowanie* tej zmiany powinno być łatwiejsze. Korzystając z wcześniejszego przykładu, zmiana składnika złożoności hasła powinna mieć wpływ tylko na funkcje związane ze złożonością hasła. O wiele trudniejsze może być uzasadnienie wpływu zmiany na element, który ma wiele obowiązków.
 
-See also:
+Zobacz też:
 
-- [Object-Oriented Programming](#todo)
-- [SOLID](#solid)
+- [Programowanie obiektowe](#todo)
+- [SOLIDNY](#solid)
 
-### The Open/Closed Principle
+### Zasada otwarcia/zamknięcia
 
-[The Open/Closed Principle on Wikipedia](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
+[Zasada otwarcia/zamknięcia na Wikipedii](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
 
-> Entities should be open for extension and closed for modification.
+> Encje powinny być otwarte na rozszerzenie i zamknięte na modyfikację.
 
-The second of the '[SOLID](#solid)' principles. This principle states that entities (which could be classes, modules, functions and so on) should be able to have their behaviour *extended*, but that their *existing* behaviour should not be able to be modified.
+Druga z zasad „ [SOLID](#solid) ”. Zasada ta stwierdza, że encje (które mogą być klasami, modułami, funkcjami itd.) powinny mieć możliwość *rozszerzenia* ich zachowania, ale ich *istniejące* zachowanie nie powinno być modyfikowane.
 
-As a hypothetical example, imagine a module which is able to turn a Markdown document into HTML. Now imagine there is a new syntax added to the Markdown specification, which adds support for mathematical equations. The module should be *open to extension* to implement the new mathematics syntax. However, existing syntax implementations (like paragraphs, bullets, etc) should be *closed for modification*. They already work, we don't want people to change them.
+Jako hipotetyczny przykład wyobraź sobie moduł, który jest w stanie zamienić dokument Markdown w HTML. Teraz wyobraź sobie, że do specyfikacji Markdown dodano nową składnię, która dodaje obsługę równań matematycznych. Moduł powinien być *otwarty do rozbudowy w* celu wdrożenia nowej składni matematycznej. Jednak istniejące implementacje składni (takie jak akapity, punktory itp.) powinny zostać *zamknięte przed modyfikacją* . Już działają, nie chcemy, żeby ludzie je zmieniali.
 
-This principle has particular relevance for object-oriented programming, where we may design objects to be easily extended, but would avoid designing objects which can have their existing behaviour changed in unexpected ways.
+Ta zasada ma szczególne znaczenie w przypadku programowania obiektowego, w którym możemy projektować obiekty tak, aby można je było łatwo rozszerzać, ale unikamy projektowania obiektów, których istniejące zachowanie może zostać zmienione w nieoczekiwany sposób.
 
-See also:
+Zobacz też:
 
-- [Object-Oriented Programming](#todo)
-- [SOLID](#solid)
+- [Programowanie obiektowe](#todo)
+- [SOLIDNY](#solid)
 
-### The Liskov Substitution Principle
+### Zasada substytucji Liskov
 
-[The Liskov Substitution Principle on Wikipedia](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
+[Zasada substytucji Liskov na Wikipedii](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
 
-> It should be possible to replace a type with a subtype, without breaking the system.
+> Powinna istnieć możliwość zamiany typu na podtyp bez naruszania systemu.
 
-The third of the '[SOLID](#solid)' principles. This principle states that if a component relies on a type, then it should be able to use subtypes of that type, without the system failing or having to know the details of what that subtype is.
+Trzecia z zasad „ [SOLID](#solid) ”. Ta zasada mówi, że jeśli komponent opiera się na typie, powinien móc używać podtypów tego typu, bez awarii systemu lub konieczności poznania szczegółów tego podtypu.
 
-As an example, imagine we have a method which reads an XML document from a structure which represents a file. If the method uses a base type 'file', then anything which derives from 'file' should be able to be used in the function. If 'file' supports seeking in reverse, and the XML parser uses that function, but the derived type 'network file' fails when reverse seeking is attempted, then the 'network file' would be violating the principle.
+Jako przykład wyobraźmy sobie, że mamy metodę, która odczytuje dokument XML ze struktury reprezentującej plik. Jeśli metoda używa typu podstawowego „plik”, to wszystko, co pochodzi od „plik”, powinno być możliwe do użycia w funkcji. Jeśli „plik” obsługuje wyszukiwanie wsteczne, a parser XML korzysta z tej funkcji, ale typ pochodny „plik sieciowy” nie powiedzie się podczas próby wyszukiwania wstecznego, wówczas „plik sieciowy” narusza tę zasadę.
 
-This principle has particular relevance for object-oriented programming, where type hierarchies must be modeled carefully to avoid confusing users of a system.
+Zasada ta ma szczególne znaczenie w przypadku programowania obiektowego, w którym hierarchie typów muszą być starannie modelowane, aby uniknąć dezorientacji użytkowników systemu.
 
-See also:
+Zobacz też:
 
-- [Object-Oriented Programming](#todo)
-- [SOLID](#solid)
+- [Programowanie obiektowe](#todo)
+- [SOLIDNY](#solid)
 
-### The Interface Segregation Principle
+### Zasada segregacji interfejsów
 
-[The Interface Segregation Principle on Wikipedia](https://en.wikipedia.org/wiki/Interface_segregation_principle)
+[Zasada segregacji interfejsów w Wikipedii](https://en.wikipedia.org/wiki/Interface_segregation_principle)
 
-> No client should be forced to depend on methods it does not use.
+> Żaden klient nie powinien być zmuszany do polegania na metodach, których nie używa.
 
-The fourth of the '[SOLID](#solid)' principles. This principle states that consumers of a component should not depend on functions of that component which it doesn't actually use.
+Czwarta z zasad „ [SOLID](#solid) ”. Zasada ta stanowi, że konsumenci komponentu nie powinni zależeć od funkcji tego komponentu, z którego faktycznie nie korzysta.
 
-As an example, imagine we have a method which reads an XML document from a structure which represents a file. It only needs to read bytes, move forwards or move backwards in the file. If this method needs to be updated because an unrelated feature of the file structure changes (such as an update to the permissions model used to represent file security), then the principle has been invalidated. It would be better for the file to implement a 'seekable-stream' interface, and for the XML reader to use that.
+Jako przykład wyobraźmy sobie, że mamy metodę, która odczytuje dokument XML ze struktury reprezentującej plik. Musi tylko czytać bajty, przesuwać się do przodu lub do tyłu w pliku. Jeśli ta metoda wymaga aktualizacji z powodu zmiany niepowiązanej cechy struktury pliku (takiej jak aktualizacja modelu uprawnień używanego do reprezentowania bezpieczeństwa plików), zasada została unieważniona. Byłoby lepiej, gdyby plik zaimplementował interfejs „przeszukiwanego strumienia” i aby czytnik XML go używał.
 
-This principle has particular relevance for object-oriented programming, where interfaces, hierarchies and abstract types are used to [minimise the coupling](#todo) between different components. [Duck typing](#todo) is a methodology which enforces this principle by eliminating explicit interfaces.
+Zasada ta ma szczególne znaczenie dla programowania obiektowego, w którym interfejsy, hierarchie i typy abstrakcyjne są używane w celu [zminimalizowania sprzężenia](#todo) między różnymi komponentami. [Wpisywanie kaczki](#todo) to metodologia, która wymusza tę zasadę, eliminując jawne interfejsy.
 
-See also:
+Zobacz też:
 
-- [Object-Oriented Programming](#todo)
-- [SOLID](#solid)
-- [Duck Typing](#todo)
-- [Decoupling](#todo)
+- [Programowanie obiektowe](#todo)
+- [SOLIDNY](#solid)
+- [Pisanie kaczki](#todo)
+- [Oddzielenie](#todo)
 
-### The Dependency Inversion Principle
+### Zasada odwrócenia zależności
 
-[The Dependency Inversion Principle on Wikipedia](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
+[Zasada odwrócenia zależności na Wikipedii](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
 
-> High-level modules should not be dependent on low-level implementations.
+> Moduły wysokopoziomowe nie powinny być zależne od implementacji niskopoziomowych.
 
-The fifth of the '[SOLID](#solid)' principles. This principle states that higher level orchestrating components should not have to know the details of their dependencies.
+Piąta z zasad „ [SOLID](#solid) ”. Ta zasada stanowi, że komponenty orkiestrujące wyższego poziomu nie powinny znać szczegółów ich zależności.
 
-As an example, imagine we have a program which read metadata from a website. We would assume that the main component would have to know about a component to download the webpage content, then a component which can read the metadata. If we were to take dependency inversion into account, the main component would depend only on an abstract component which can fetch byte data, and then an abstract component which would be able to read metadata from a byte stream. The main component would not know about TCP/IP, HTTP, HTML, etc.
+Jako przykład wyobraź sobie, że mamy program, który odczytuje metadane ze strony internetowej. Przyjęlibyśmy, że główny komponent musiałby wiedzieć o komponencie, aby pobrać zawartość strony internetowej, a następnie komponent, który może odczytać metadane. Gdybyśmy wzięli pod uwagę inwersję zależności, główny składnik zależałby tylko od abstrakcyjnego komponentu, który może pobierać dane bajtowe, a następnie od abstrakcyjnego komponentu, który byłby w stanie odczytać metadane ze strumienia bajtów. Główny komponent nie wiedziałby o TCP/IP, HTTP, HTML itp.
 
-This principle is complex, as it can seem to 'invert' the expected dependencies of a system (hence the name). In practice, it also means that a separate orchestrating component must ensure the correct implementations of abstract types are used (e.g. in the previous example, *something* must still provide the metadata reader component a HTTP file downloader and HTML meta tag reader). This then touches on patterns such as [Inversion of Control](#todo) and [Dependency Injection](#todo).
+Ta zasada jest złożona, ponieważ może się wydawać, że „odwraca” oczekiwane zależności systemu (stąd nazwa). W praktyce oznacza to również, że oddzielny składnik orkiestracji musi zapewniać prawidłowe implementacje typów abstrakcyjnych (np. w poprzednim przykładzie *coś* musi nadal zapewniać składnik czytnika metadanych — narzędzie do pobierania plików HTTP i czytnik metatagów HTML). Następnie dotyka wzorców, takich jak [Inversion of Control](#todo) i [Dependency Injection](#todo) .
 
-See also:
+Zobacz też:
 
-- [Object-Oriented Programming](#todo)
-- [SOLID](#solid)
-- [Inversion of Control](#todo)
-- [Dependency Injection](#todo)
+- [Programowanie obiektowe](#todo)
+- [SOLIDNY](#solid)
+- [Odwrócenie sterowania](#todo)
+- [Wstrzykiwanie zależności](#todo)
 
-### The DRY Principle
+### Zasada SUSZENIA
 
-[The DRY Principle on Wikipedia](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+[Zasada DRY na Wikipedii](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 
-> Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
+> Każda wiedza musi mieć jedną, jednoznaczną, autorytatywną reprezentację w ramach systemu.
 
-DRY is an acronym for *Don't Repeat Yourself*. This principle aims to help developers reducing the repetition of code and keep the information in a single place and was cited in 1999 by Andrew Hunt and Dave Thomas in the book [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+DRY to akronim od *Don't Repeat Yourself* . Ta zasada ma na celu pomóc programistom w zmniejszeniu powtarzalności kodu i utrzymaniu informacji w jednym miejscu i została przytoczona w 1999 roku przez Andrew Hunta i Dave'a Thomasa w książce [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 
-> The opposite of DRY would be *WET* (Write Everything Twice or We Enjoy Typing).
+> Przeciwieństwem DRY byłoby *WET* (Write Everything Twice lub We Enjoy Typing).
 
-In practice, if you have the same piece of information in two (or more) different places, you can use DRY to merge them into a single one and reuse it wherever you want/need.
+W praktyce, jeśli masz tę samą informację w dwóch (lub więcej) różnych miejscach, możesz użyć DRY, aby połączyć je w jedną i ponownie wykorzystać w dowolnym miejscu.
 
-See also:
+Zobacz też:
 
-- [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+- [Pragmatyczny programista](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 
-### The KISS principle
+### Zasada KISS
 
-[KISS on Wikipedia](https://en.wikipedia.org/wiki/KISS_principle)
+[KISS na Wikipedii](https://en.wikipedia.org/wiki/KISS_principle)
 
-> Keep it simple, stupid
+> Niech to będzie możliwie proste
 
-The KISS principle states that most systems work best if they are kept simple rather than made complicated; therefore, simplicity should be a key goal in design, and unnecessary complexity should be avoided.  Originating in the U.S. Navy in 1960, the phrase has been associated with aircraft engineer Kelly Johnson.
+Zasada KISS stwierdza, że większość systemów działa najlepiej, jeśli są proste, a nie skomplikowane; dlatego prostota powinna być kluczowym celem w projektowaniu i należy unikać niepotrzebnej złożoności. Pochodzące z US Navy w 1960 r. wyrażenie kojarzone jest z inżynierem lotniczym Kelly Johnson.
 
-The principle is best exemplified by the story of Johnson handing a team of design engineers a handful of tools, with the challenge that the jet aircraft they were designing must be repairable by an average mechanic in the field under combat conditions with only these tools. Hence, the "stupid" refers to the relationship between the way things break and the sophistication of the tools available to repair them, not the capabilities of the engineers themselves.
+Zasadę tę najlepiej ilustruje historia Johnsona przekazującego zespołowi konstruktorów garść narzędzi, z wyzwaniem, że projektowany przez nich samolot odrzutowy musi być naprawiany przez przeciętnego mechanika w terenie w warunkach bojowych za pomocą tylko tych narzędzi. Stąd „głupia” odnosi się do związku między sposobem, w jaki rzeczy się psują, a wyrafinowaniem dostępnych narzędzi do ich naprawy, a nie możliwościami samych inżynierów.
 
-See also:
+Zobacz też:
 
-- [Gall's Law](#galls-law)
+- [Prawo Galla](#galls-law)
 
 ### YAGNI
 
-[YAGNI on Wikipedia](https://en.wikipedia.org/wiki/You_ain%27t_gonna_need_it)
+[YAGNI na Wikipedii](https://en.wikipedia.org/wiki/You_ain%27t_gonna_need_it)
 
-This is an acronym for ***Y**ou **A**in't **G**onna **N**eed **I**t*.
+Jest skrótem dla ***Y** Ou **A** in't **G** onna **N** Id **i** t.*
 
-> Always implement things when you actually need them, never when you just foresee that you need them.
+> Zawsze wdrażaj rzeczy, kiedy naprawdę ich potrzebujesz, nigdy tylko wtedy, gdy tylko przewidujesz, że ich potrzebujesz.
 >
-> ([Ron Jeffries](https://twitter.com/RonJeffries)) (XP co-founder and author of the book "Extreme Programming Installed")
+> ( [Ron Jeffries](https://twitter.com/RonJeffries) ) (współzałożyciel XP i autor książki „Zainstalowane programowanie ekstremalne”)
 
-This *Extreme Programming* (XP) principle suggests developers should only implement functionality that is needed for the immediate requirements, and avoid attempts to predict the future by implementing functionality that might be needed later.
+Ta *zasada Extreme Programming* (XP) sugeruje, że programiści powinni wdrażać tylko te funkcje, które są potrzebne do natychmiastowych wymagań i unikać prób przewidywania przyszłości poprzez implementację funkcji, które mogą być potrzebne później.
 
-Adhering to this principle should reduce the amount of unused code in the codebase, and avoid time and effort being wasted on functionality that brings no value.
+Przestrzeganie tej zasady powinno zmniejszyć ilość niewykorzystanego kodu w kodzie i uniknąć marnowania czasu i wysiłku na funkcjonalność, która nie przynosi żadnej wartości.
 
-See also:
+Zobacz też:
 
-- [Reading List: Extreme Programming Installed](#reading-list)
+- [Lista lektur: Zainstalowano ekstremalne programowanie](#reading-list)
 
-### The Fallacies of Distributed Computing
+### Błędy przetwarzania rozproszonego
 
-[The Fallacies of Distributed Computing on Wikipedia](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
+[Błędy przetwarzania rozproszonego na Wikipedii](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
 
-Also known as *Fallacies of Networked Computing*, the Fallacies are a list of conjectures (or beliefs) about distributed computing, which can lead to failures in software development. The assumptions are:
+Znane również jako *Błędy Przetwarzania w Sieci* , Błędy to lista przypuszczeń (lub przekonań) na temat przetwarzania rozproszonego, które mogą prowadzić do niepowodzeń w rozwoju oprogramowania. Założenia to:
 
-- The network is reliable
-- Latency is zero
-- Bandwidth is infinite
-- The network is secure
-- Topology doesn't change
-- There is one administrator
-- Transport cost is zero
-- The network is homogeneous
+- Sieć jest niezawodna
+- Opóźnienie wynosi zero
+- Przepustowość jest nieskończona
+- Sieć jest bezpieczna
+- Topologia się nie zmienia
+- Jest jeden administrator
+- Koszt transportu wynosi zero
+- Sieć jest jednorodna
 
-The first four items were listed by [Bill Joy](https://en.wikipedia.org/wiki/Bill_Joy) and [Tom Lyon](https://twitter.com/aka_pugs) around 1991 and first classified by [James Gosling](https://en.wikipedia.org/wiki/James_Gosling) as the "Fallacies of Networked Computing". [L. Peter Deutsch](https://en.wikipedia.org/wiki/L._Peter_Deutsch) added the 5th, 6th and 7th fallacies. In the late 90's Gosling added the 8th fallacy.
+Pierwsze cztery pozycje zostały wymienione przez [Billa Joya](https://en.wikipedia.org/wiki/Bill_Joy) i [Toma Lyona](https://twitter.com/aka_pugs) około 1991 roku i po raz pierwszy sklasyfikowane przez [Jamesa Goslinga](https://en.wikipedia.org/wiki/James_Gosling) jako „Fallacies of Networked Computing”. [L. Peter Deutsch](https://en.wikipedia.org/wiki/L._Peter_Deutsch) dodał błędy 5, 6 i 7. Pod koniec lat 90. Gosling dodał ósmy błąd.
 
-The group was inspired by what was happening at the time inside [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems).
+Grupa została zainspirowana tym, co działo się w tym czasie w [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems) .
 
-These fallacies should be considered carefully when designing code which is resilient; assuming any of these fallacies can lead to flawed logic which fails to deal with the realities and complexities of distributed systems.
+Te błędy powinny być uważnie brane pod uwagę podczas projektowania kodu, który jest odporny; zakładając, że którykolwiek z tych błędów może prowadzić do wadliwej logiki, która nie radzi sobie z rzeczywistością i złożonością systemów rozproszonych.
 
-See also:
+Zobacz też:
 
-- [Foraging for the Fallacies of Distributed Computing (Part 1) - Vaidehi Joshi on Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
+- [Poszukiwanie mitów rozproszonego przetwarzania (część 1) — Vaidehi Joshi na Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
 
-## Reading List
+## Lista rzeczy do przeczytania
 
-If you have found these concepts interesting, you may enjoy the following books.
+Jeśli te koncepcje Cię zainteresowały, mogą Ci się spodobać następujące książki.
 
-- [Clean Code - Robert C. Martin](https://www.goodreads.com/book/show/3735293-clean-code) - One of the most well respected books on how to write clean, maintainable code.
-- [Extreme Programming Installed - Ron Jeffries, Ann Anderson, Chet Hendrikson](https://www.goodreads.com/en/book/show/67834) - Covers the core principles of Extreme Programming.
-- [Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - This book is difficult to classify. [Hofstadter's Law](#hofstadters-law) is from the book.
-- [Structure and Interpretation of Computer Programs - Harold Abelson, Gerald Jay Sussman, Julie Sussman](https://www.goodreads.com/book/show/43713) - If you were a comp sci or electical engineering student at MIT or Cambridge this was your intro to programming. Widely reported as being a turning point in people's lives.
-- [The Cathedral and the Bazaar - Eric S. Raymond](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar) - a collection of essays on open source. This book was the source of [Linus's Law](#linuss-law).
-- [The Dilbert Principle - Scott Adams](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - A comic look at corporate America, from the author who created the [Dilbert Principle](#the-dilbert-principle).
-- [The Mythical Man Month - Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) - A classic volume on software engineering. [Brooks' Law](#brooks-law) is a central theme of the book.
-- [The Peter Principle - Lawrence J. Peter](https://www.goodreads.com/book/show/890728.The_Peter_Principle) - Another comic look at the challenges of larger organisations and people management, the source of [The Peter Principle](#the-peter-principle).
+- [Czysty kod - Robert C. Martin](https://www.goodreads.com/book/show/3735293-clean-code) - Jedna z najbardziej szanowanych książek o tym, jak pisać czysty, łatwy w utrzymaniu kod.
+- [Zainstalowane programowanie ekstremalne — Ron Jeffries, Ann Anderson, Chet Hendrikson](https://www.goodreads.com/en/book/show/67834) — Obejmuje podstawowe zasady programowania ekstremalnego.
+- [Gödel, Escher, Bach: wieczny złoty warkocz - Douglas R. Hofstadter.](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) - Ta książka jest trudna do sklasyfikowania. [Prawo Hofstadtera](#hofstadters-law) pochodzi z książki.
+- [Struktura i interpretacja programów komputerowych — Harold Abelson, Gerald Jay Sussman, Julie Sussman](https://www.goodreads.com/book/show/43713) — Jeśli byłeś studentem informatyki lub inżynierii elektrycznej na MIT lub Cambridge, było to twoje wprowadzenie do programowania. Powszechnie opisywany jako punkt zwrotny w życiu ludzi.
+- [Katedra i Bazar - Eric S. Raymond](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar) - zbiór esejów na temat open source. Ta książka była źródłem [Prawa Linusa](#linuss-law) .
+- [Zasada Dilberta — Scott Adams](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) — Komiczne spojrzenie na korporacyjną Amerykę autorstwa autora, który stworzył [Zasadę Dilberta](#the-dilbert-principle) .
+- [Miesiąc Mitycznego Człowieka — Frederick P. Brooks Jr.](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) — Klasyczny tom poświęcony inżynierii oprogramowania. [Prawo Brooksa](#brooks-law) jest centralnym tematem książki.
+- [Zasada Petera — Lawrence J. Peter](https://www.goodreads.com/book/show/890728.The_Peter_Principle) — Kolejne komiksowe spojrzenie na wyzwania większych organizacji i zarządzania ludźmi, źródło [Zasady Petera](#the-peter-principle) .
 
-## Online Resources
+## Zasoby online
 
-Some useful resources and reading.
+Kilka przydatnych zasobów i lektur.
 
-- [CB Insights: 8 Laws Driving Success In Tech: Amazon's 2-Pizza Rule, The 80/20 Principle, &amp; More](https://www.cbinsights.com/research/report/tech-laws-success-failure) - an interesting write up of some laws which have been highly influential in technology.
+- [CB Insights: 8 praw prowadzących do sukcesu w technologii: zasada 2 pizzy Amazona, zasada 80/20 i inne](https://www.cbinsights.com/research/report/tech-laws-success-failure) – interesujący opis niektórych praw, które miały duży wpływ na technologię.
 
-## PDF eBook
+## eBook w formacie PDF
 
-The project is available as a PDF eBook, [download the latest PDF eBook with this link](https://github.com/dwmkerr/hacker-laws/releases/latest/download/hacker-laws.pdf) or check the [release](https://github.com/dwmkerr/hacker-laws/releases) page for older versions.
+Projekt jest dostępny jako eBook PDF, [pobierz najnowszy eBook PDF za pomocą tego linku](https://github.com/dwmkerr/hacker-laws/releases/latest/download/hacker-laws.pdf) lub sprawdź [stronę wydania](https://github.com/dwmkerr/hacker-laws/releases) starszych wersji.
 
-A new version of the eBook is created automatically when a new version tag is pushed.
+Nowa wersja eBooka jest tworzona automatycznie po przekazaniu znacznika nowej wersji.
 
 ## Podcast
 
-Hacker Laws has been featured in [The Changelog](https://changelog.com/podcast/403), you can check out the Podcast episode with the link below:
+Hacker Laws pojawił się w [The Changelog](https://changelog.com/podcast/403) , możesz sprawdzić odcinek podcastu, korzystając z poniższego linku:
 
 <a href="https://changelog.com/podcast/403" target="_blank"></a>
 
-## Translations
+## Tłumaczenia
 
-Thanks to a number of wonderful contributors, Hacker Laws is available in a number of languages. Please consider sponsoring moderators!
+Dzięki wielu wspaniałym współpracownikom, Hacker Laws jest dostępny w wielu językach. Proszę rozważyć sponsorowanie moderatorów!
 
-Language | Moderator | Status
+Język | Moderator | Status
 --- | --- | ---
-[🇮🇩 Bahasa Indonesia / Indonesian](./translations/pt-BR.md) | [arywidiantara](https://github.com/arywidiantara) | [](https://gitlocalize.com/repo/2513/id?utm_source=badge)
-[🇧🇷 Brasileiro / Brazilian](./translations/pt-BR.md) | [Eugênio Moreira](https://github.com/eugenioamn), [Leonardo Costa](https://github.com/leofc97) | [](https://gitlocalize.com/repo/2513/pt-BR?utm_source=badge)
-[🇨🇳 中文 / Chinese](https://github.com/nusr/hacker-laws-zh) | [Steve Xu](https://github.com/nusr) | Partially complete
-[🇩🇪 Deutsch / German](./translations/de.md) | [Vikto](https://github.com/viktodergunov) | [](https://gitlocalize.com/repo/2513/de?utm_source=badge)
-[🇫🇷 Français / French](./translations/fr.md) | [Kevin Bockelandt](https://github.com/KevinBockelandt) | [](https://gitlocalize.com/repo/2513/fr?utm_source=badge)
-[🇬🇷 ελληνικά / Greek](./translations/el.md) | [Panagiotis Gourgaris](https://github.com/0gap) | [](https://gitlocalize.com/repo/2513/el?utm_source=badge)
-[🇮🇹 Italiano / Italian](https://github.com/csparpa/hacker-laws-it) | [Claudio Sparpaglione](https://github.com/csparpa) | Partially complete
-[🇯🇵 JP 日本語 / Japanese](./translations/jp.md) | [Fumikazu Fujiwara](https://github.com/freddiefujiwara) | [](https://gitlocalize.com/repo/2513/ja?utm_source=badge)
-[🇰🇷 한국어 / Korean](https://github.com/codeanddonuts/hacker-laws-kr) | [Doughnut](https://github.com/codeanddonuts) | Partially complete
-[🇱🇻 Latviešu Valoda / Latvian](./translations/lv.md) | [Arturs Jansons](https://github.com/iegik) | [](https://gitlocalize.com/repo/2513/lv?utm_source=badge)
+[🇮🇩 Bahasa Indonezja / indonezyjski](./translations/pt-BR.md) | [arywidiantara](https://github.com/arywidiantara) | [](https://gitlocalize.com/repo/2513/id?utm_source=badge)
+[🇧🇷 Brasileiro/Brazylijski](./translations/pt-BR.md) | [Eugênio Moreira](https://github.com/eugenioamn) , [Leonardo Costa](https://github.com/leofc97) | [](https://gitlocalize.com/repo/2513/pt-BR?utm_source=badge)
+[🇨🇳 中文 / chiński](https://github.com/nusr/hacker-laws-zh) | [Steve Xu](https://github.com/nusr) | Częściowo ukończony
+[🇩🇪 Niemiecki / Niemiecki](./translations/de.md) | [Wiktor](https://github.com/viktodergunov) | [](https://gitlocalize.com/repo/2513/de?utm_source=badge)
+[🇫🇷 francuski / francuski](./translations/fr.md) | [Kevin Bockelandt](https://github.com/KevinBockelandt) | [](https://gitlocalize.com/repo/2513/fr?utm_source=badge)
+[🇬🇷 ελληνικά / grecki](./translations/el.md) | [Panagiotis Gourgaris](https://github.com/0gap) | [](https://gitlocalize.com/repo/2513/el?utm_source=badge)
+[🇮🇹 Włoski/Włoski](https://github.com/csparpa/hacker-laws-it) | [Claudio Sparpaglione](https://github.com/csparpa) | Częściowo ukończony
+[🇯🇵 JP 日本語 / japoński](./translations/jp.md) | [Fumikazu Fujiwara](https://github.com/freddiefujiwara) | [](https://gitlocalize.com/repo/2513/ja?utm_source=badge)
+[🇰🇷 한국어 / koreański](https://github.com/codeanddonuts/hacker-laws-kr) | [Pączek](https://github.com/codeanddonuts) | Częściowo ukończony
+[🇱🇻 Latviešu Valoda / łotewski](./translations/lv.md) | [Artur Jansons](https://github.com/iegik) | [](https://gitlocalize.com/repo/2513/lv?utm_source=badge)
 [🇵🇱 Polski / Polish](./translations/pl.md) | [Mariusz Kogen](https://github.com/k0gen) | [](https://gitlocalize.com/repo/2513/pl?utm_source=badge)
-[🇷🇺 Русская версия / Russian](https://github.com/solarrust/hacker-laws) | [Alena Batitskaya](https://github.com/solarrust) | Partially complete
-[🇪🇸 Castellano / Spanish](./translations/es-ES.md) | [Manuel Rubio](https://github.com/manuel-rubio) ([Sponsor](https://github.com/sponsors/manuel-rubio)) | Partially complete
-[🇹🇷 Türkçe / Turkish](https://github.com/umutphp/hacker-laws-tr) | [Umut Işık](https://github.com/umutphp) | [](https://gitlocalize.com/repo/2513/tr?utm_source=badge)
-[🇺🇦 українська мова / Ukrainian](./translations/uk.md) | [Nazar](https://github.com/troyane), [Helga Lastivka](https://github.com/HelgaLastivka) | [](https://gitlocalize.com/repo/2513/uk?utm_source=badge)
+[🇷🇺 Русская версия / rosyjski](https://github.com/solarrust/hacker-laws) | [Alena Batitskaja](https://github.com/solarrust) | Częściowo ukończony
+[🇪🇸 Castellano / hiszpański](./translations/es-ES.md) | [Manuel Rubio](https://github.com/manuel-rubio) ( [Sponsor](https://github.com/sponsors/manuel-rubio) ) | Częściowo ukończony
+[🇹🇷 Turecki / Turecki](https://github.com/umutphp/hacker-laws-tr) | [Umut Işik](https://github.com/umutphp) | [](https://gitlocalize.com/repo/2513/tr?utm_source=badge)
+[🇺🇦 українська мова / ukraiński](./translations/uk.md) | [Nazar](https://github.com/troyane) , [Helga Łastiwka](https://github.com/HelgaLastivka) | [](https://gitlocalize.com/repo/2513/uk?utm_source=badge)
 
-If you would like to update a translation, follow the [Translators Contributor Guide](https://github.com/dwmkerr/hacker-laws/blob/main/.github/contributing.md#translations).
+Jeśli chcesz zaktualizować tłumaczenie, postępuj zgodnie z [Przewodnikiem dla współtwórców tłumaczy](https://github.com/dwmkerr/hacker-laws/blob/main/.github/contributing.md#translations) .
 
-## Related Projects
+## Powiązane projekty
 
-- [Tip of the Day](https://tips.darekkay.com/html/hacker-laws-en.html) - Receive a daily hacker law/principle.
-- [Hacker Laws CLI](https://github.com/umutphp/hacker-laws-cli) - List, view and see random laws from the terminal!
-- [Hacker Laws Action](https://github.com/marketplace/actions/hacker-laws-action) - Adds a random Hacker Law to a pull request as a small gift for the contributor, thanks [Umut Işık](https://github.com/umutphp)
+- [Porada dnia](https://tips.darekkay.com/html/hacker-laws-en.html) — otrzymuj codzienne przepisy/zasady hakerskie.
+- [Hacker Laws CLI](https://github.com/umutphp/hacker-laws-cli) - Lista, przeglądanie i oglądanie losowych przepisów z terminala!
+- [Działanie na podstawie przepisów hakerskich](https://github.com/marketplace/actions/hacker-laws-action) — dodaje losowe prawo hakerskie do żądania ściągnięcia jako drobny prezent dla współtwórcy, dzięki [Umut Işık](https://github.com/umutphp)
 
-## Contributing
+## Przyczynianie się
 
-Please do contribute! [Raise an issue](https://github.com/dwmkerr/hacker-laws/issues/new) if you'd like to suggest an addition or change, or [Open a pull request](https://github.com/dwmkerr/hacker-laws/compare) to propose your own changes.
+Prosimy o wkład! [Zgłoś problem,](https://github.com/dwmkerr/hacker-laws/issues/new) jeśli chcesz zasugerować dodanie lub zmianę, lub [Otwórz żądanie ściągnięcia,](https://github.com/dwmkerr/hacker-laws/compare) aby zaproponować własne zmiany.
 
-Please be sure to read the [Contributing Guidelines](./.github/contributing.md) for requirements on text, style and so on. Please be aware of the [Code of Conduct](./.github/CODE_OF_CONDUCT.md) when engaging in discussions on the project.
+[Koniecznie przeczytaj Wytyczne dotyczące wkładu](./.github/contributing.md) , aby poznać wymagania dotyczące tekstu, stylu i tak dalej. Prosimy o zapoznanie się z [Kodeksem postępowania](./.github/CODE_OF_CONDUCT.md) podczas dyskusji na temat projektu.
 
-## TODO
+## DO ZROBIENIA
 
-Hi! If you land here, you've clicked on a link to a topic I've not written up yet, sorry about this - this is work in progress!
+Cześć! Jeśli wylądujesz tutaj, kliknąłeś link do tematu, którego jeszcze nie napisałem, przepraszam za to - prace w toku!
 
-Feel free to [Raise an Issue](https://github.com/dwmkerr/hacker-laws/issues) requesting more details, or [Open a Pull Request](https://github.com/dwmkerr/hacker-laws/pulls) to submit your proposed definition of the topic.
+Możesz [zgłosić problem,](https://github.com/dwmkerr/hacker-laws/issues) prosząc o więcej szczegółów lub [otworzyć pull request,](https://github.com/dwmkerr/hacker-laws/pulls) aby przesłać proponowaną definicję tematu.

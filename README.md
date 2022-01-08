@@ -543,6 +543,15 @@ See also:
 - [Metcalfe's Law](#metcalfes-law)
 - [Dunbar's Number](#dunbars-number)
 
+### Ringelmann effect
+
+[Ringelmann effect on Wikipedia](https://en.wikipedia.org/wiki/Ringelmann_effect)
+
+The Ringelmann effect is the tendency for individual members of a group to become increasingly less productive as the size of their group increases. This effect, discovered by French agricultural engineer Maximilien Ringelmann (1861–1931), illustrates the inverse relationship that exists between the size of a group and the magnitude of group members’ individual contribution to the completion of a task.
+
+See also:
+- [Brooks' Law](#brooks-law)
+
 ### The Law of Conservation of Complexity (Tesler's Law)
 
 [The Law of Conservation of Complexity on Wikipedia](https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity)

@@ -548,7 +548,7 @@ See also:
 
 [Ringelmann effect on Wikipedia](https://en.wikipedia.org/wiki/Ringelmann_effect)
 
-The Ringelmann effect is the tendency for individual members of a group to become increasingly less productive as the size of their group increases. This effect, discovered by French agricultural engineer Maximilien Ringelmann (1861–1931), illustrates the inverse relationship that exists between the size of a group and the magnitude of group members’ individual contribution to the completion of a task.
+The Ringelmann effect is the tendency of an individual to become increasingly inefficient as more and more people are involved in a task. In other words, as more individuals are added to a team, the more the average individual performance decreases. Multiple causes are believed to be at work, including social loafing and loss of coordination.
 
 See also:
 - [Brooks' Law](#brooks-law)

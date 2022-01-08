@@ -114,7 +114,7 @@ Najlepiej zilustrowane przykładem. Jeśli program składa się z dwóch częśc
 
 Poniższy diagram pokazuje kilka przykładów potencjalnej poprawy szybkości:
 
-<img width="480px" alt="Schemat: Prawo Amdahla" src="./images/amdahls_law.png">
+<img width="480px" alt="Schemat: Prawo Amdahla" src="/images/amdahls_law.png" />
 
 *(Odniesienie do obrazu: Daniels219 z angielskiej Wikipedii, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 
@@ -244,7 +244,7 @@ Przykłady ze świata rzeczywistego:
 
 Prawo Fittsa przewiduje, że czas potrzebny do przemieszczenia się do obszaru docelowego jest funkcją odległości do celu podzielonej przez szerokość celu.
 
-<img width="300px" alt="Schemat: Prawo dopasowania" src="./images/Fitts_Law.svg">
+<img width="300px" alt="Schemat: Prawo dopasowania" src="/images/Fitts_Law.svg">
 
 *(Odniesienie do obrazu: Foobar628 z angielskiej Wikipedii, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/Fitts%27s_law#/media/File:Fitts_Law.svg)*
 
@@ -318,7 +318,7 @@ Zasada ta sugeruje, że działania prowadzące do negatywnych skutków nie były
 
 W poniższym równaniu `T` to czas na podjęcie decyzji, `n` to liczba opcji, a `b` to stała określona na podstawie analizy danych.
 
-![Prawo Hicksa](./images/hicks_law.svg)
+![Prawo Hicksa](/images/hicks_law.svg)
 
 *(Odniesienie do obrazu: Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/Hick%27s_law)*
 
@@ -370,7 +370,7 @@ Na przykład, zmniejszenie opóźnienia odpowiedzi dla określonego punktu końc
 
 Hype Cycle to wizualna reprezentacja ekscytacji i rozwoju technologii na przestrzeni czasu, pierwotnie wyprodukowana przez firmę Gartner. Najlepiej pokazać to za pomocą wizualizacji:
 
-![Cykl szumu](./images/gartner_hype_cycle.png)
+![Cykl szumu](/images/gartner_hype_cycle.png)
 
 *(Odniesienie do obrazu: Jeremykemp z angielskiej Wikipedii, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
 
@@ -648,7 +648,7 @@ Ta zasada sugeruje, że niezależnie od wielkości firmy, zespoły powinny być 
 
 Liczbę powiązań między ludźmi można wyrazić jako `n(n-1)/2` gdzie n = liczba osób.
 
-<img width="200px" alt="Kompletny wykres; Powiązania między ludźmi" src="./images/complete_graph.png">
+<img width="200px" alt="Kompletny wykres; Powiązania między ludźmi" src="/images/complete_graph.png">
 
 ### Prawo Wadlera
 

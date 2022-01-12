@@ -1,22 +1,22 @@
 # 💻📖 luật của hacker
 
-Laws, Theories, Principles and Patterns that developers will find useful.
+Những Luật, Lý thuyết, Nguyên tắc và Mẫu mà các nhà lập trình viên sẽ thấy hữu ích.
 
-[Translations](#translations): [🇮🇩](./translations/id.md) [🇧🇷](./translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇩🇪](./translations/de.md) [🇫🇷](./translations/fr.md) [🇬🇷](./translations/el.md) [🇮🇹](https://github.com/csparpa/hacker-laws-it) [🇱🇻](./translations/lv.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇪🇸](./translations/es-ES.md) [🇹🇷](https://github.com/umutphp/hacker-laws-tr) [🇯🇵](./translations/jp.md) [🇺🇦](./translations/uk.md)
+[Xem trong ngôn ngữ khác](#translations): [🇮🇩](./translations/id.md) [🇧🇷](./translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇩🇪](./translations/de.md) [🇫🇷](./translations/fr.md) [🇬🇷](./translations/el.md) [🇮🇹](https://github.com/csparpa/hacker-laws-it) [🇱🇻](./translations/lv.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇪🇸](./translations/es-ES.md) [🇹🇷](https://github.com/umutphp/hacker-laws-tr) [🇯🇵](./translations/jp.md) [🇺🇦](./translations/uk.md)
 
-Like this project? Please considering [sponsoring me](https://github.com/sponsors/dwmkerr) and the [translators](#translations). Also check out this podcast on [The Changelog - Laws for Hackers to Live By](https://changelog.com/podcast/403) to learn more about the project! You can also [download the latest PDF eBook](https://github.com/dwmkerr/hacker-laws/releases/latest/download/hacker-laws.pdf). Check the [Contributor Guide](./.github/contributing.md) if you are keen to contribute!
+Bạn thích dự án này không? Xin vui lòng cân nhắc [ủng hộ tôi](https://github.com/sponsors/dwmkerr) và [làm người phiên dịch](#translations). Cũng xem podcast này trên [The Changelog - Laws for Hackers to Live By](https://changelog.com/podcast/403) để tìm hiểu về dự án! Bạn cũng có thể [tải phiên bản PDF mới nhất của eBook](https://github.com/dwmkerr/hacker-laws/releases/latest/download/hacker-laws.pdf). Tìm hiểu [hướng dẫn đóng góp](./.github/contributing.md) nếu bạn muốn đóng góp cho dự án!
 
 ---
 
 <!-- vim-markdown-toc GFM -->
 
-- [Introduction](#introduction)
-- [Laws](#laws)
-    - [90–9–1 Principle (1% Rule)](#9091-principle-1-rule)
-    - [Amdahl's Law](#amdahls-law)
+- [Giới thiêu chung](#introduction)
+- [Các luật](#laws)
+    - [Lý thuyết 90–9–1 (1% Rule)](#9091-principle-1-rule)
+    - [Luật Amdahl's](#amdahls-law)
     - [Lý thuyết cửa sổ vỡ](#the-broken-windows-theory)
-    - [Brooks' Law](#brooks-law)
-    - [CAP Theorem (Brewer's Theorem)](#cap-theorem-brewers-theorem)
+    - [Luật Brooks](#brooks-law)
+    - [Định lý CAP (hoặc định lý Brewer)](#cap-theorem-brewers-theorem)
     - [Định luật Conway](#conways-law)
     - [Định luật Cunningham](#cunninghams-law)
     - [Dunbar's Number](#dunbars-number)

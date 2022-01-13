@@ -43,6 +43,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
     * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
     * [The Law of Demeter](#the-law-of-demeter)
     * [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
+    * [The Law of the Instrument](#the-law-of-the-instrument)
     * [The Law of Triviality](#the-law-of-triviality)
     * [The Unix Philosophy](#the-unix-philosophy)
     * [The Scout Rule](#the-scout-rule)
@@ -601,12 +602,12 @@ Real-world examples:
 >
 > _Abraham Maslow_
 
-In the context of computer programming, this law suggests that people tend to use tools that are familiar with, rather than the best possible tool. This over-reliance on a familiar tool is an anti-pattern referred to as the golden hammer.
+In the context of computer programming, this law suggests that people tend to use tools that are familiar with, rather than the best possible tool. This over-reliance on a familiar tool is an anti-pattern referred to as 'the golden hammer'.
 
 See also:
 
 - [Avoiding the law of the instrument](https://josemdev.com/avoiding-the-law-of-the-instrument/)
-- [AntiPattern Golden Hammer](https://archive.org/details/antipatternsrefa0000unse/page/111/mode/2up)
+- [Anti-Pattern - The Golden Hammer](https://archive.org/details/antipatternsrefa0000unse/page/111/mode/2up)
 
 ### The Law of Triviality
 

@@ -12,7 +12,7 @@ Podoba Ci się ten projekt? Proszę rozważyć [sponsorowanie mnie](https://gith
 
 - [Wstęp](#introduction)
 - [Prawa](#laws)
-    - [Zasada 90-9-1 (zasada 1%)](#9091-principle-1-rule)
+    - [Zasada 90-9-1 (zasada 1%)](#zasada-90-9-1-zasada-1)
     - [Prawo Amdahla](#amdahls-law)
     - [Teoria zepsutych okien](#the-broken-windows-theory)
     - [Prawo Brooksa](#brooks-law)

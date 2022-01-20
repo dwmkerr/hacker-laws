@@ -17,6 +17,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
     * [The Broken Windows Theory](#the-broken-windows-theory)
     * [Brooks' Law](#brooks-law)
     * [CAP Theorem (Brewer's Theorem)](#cap-theorem-brewers-theorem)
+    * [Clarke's three laws](#clarkes-three-laws)
     * [Conway's Law](#conways-law)
     * [Cunningham's Law](#cunninghams-law)
     * [Dunbar's Number](#dunbars-number)
@@ -186,6 +187,18 @@ See also:
 - [ACID](#TODO)
 - [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)
 - [PACELC](#TODO)
+
+### Clarke's three laws
+
+[Clarke's three laws on Wikipedia](https://en.wikipedia.org/wiki/Clarke's_three_laws)
+
+Arthur C. Clarke, an british science fiction writer, formulated three adages that are known as Clarke's three laws. The third law is the best known and most widely cited.  
+
+These so-called laws are:  
+- When a distinguished but elderly scientist states that something is possible, they are almost certainly right. When they state that something is impossible, they are very probably wrong.
+- The only way of discovering the limits of the possible is to venture a little way past them into the impossible.
+- Any sufficiently advanced technology is indistinguishable from magic.
+
 
 ### Conway's Law
 

@@ -813,4 +813,4 @@ KISSの原則は、ほとんどのシステムは複雑にするのではなく�
 
 こんにちは！あなたがここに来たということは、私がまだ書き上げていないトピックへのリンクをクリックしたことにですね。
 
-リクエストしたい場合は  [Raise an Issue](https://github.com/dwmkerr/hacker-laws/issues) rをクリックするか、トピックの定義案を提出したい場合は [Open a Pull Request](https://github.com/dwmkerr/hacker-laws/pulls) をクリックしてください。
+リクエストしたい場合は  [Raise an Issue](https://github.com/dwmkerr/hacker-laws/issues) をクリックするか、トピックの定義案を提出したい場合は [Open a Pull Request](https://github.com/dwmkerr/hacker-laws/pulls) をクリックしてください。

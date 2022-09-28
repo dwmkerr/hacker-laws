@@ -55,6 +55,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
 * [Principles](#principles)
     * [All Models Are Wrong (George Box's Law)](#all-models-are-wrong-george-boxs-law)
     * [Chesterton's Fence](#chestertons-fence)
+    * [Kerckhoffs's Principle](#kerckhoffs-principle)
     * [The Dead Sea Effect](#the-dead-sea-effect)
     * [The Dilbert Principle](#the-dilbert-principle)
     * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
@@ -742,6 +743,37 @@ See also:
 This principle is relevant in software engineering when removing technical debt. Each line of a program was originally written by someone for some reason. Chesterton's Fence suggests that one should try to understand the context and meaning of the code fully, before changing or removing it, even if at first glance it seems redundant or incorrect.
 
 The name of this principle comes from a story by [G.K. Chesterton](https://en.wikipedia.org/wiki/G._K._Chesterton). A man comes across a fence crossing the middle of the road. He complains to the mayor that this useless fence is getting in the way, and asks to remove it. The mayor asks why the fence is there in the first place. When the man says he doesn't know, the mayor says, "If you don't know its purpose, I certainly won't let you remove it. Go and find out the use of it, and then I may let you destroy it."
+
+### Kerckhoffs's principle
+
+[Kerckhoffs's principle on Wikipedia](https://en.wikipedia.org/wiki/Kerckhoffs%27s_principle)
+
+This principle of cryptography was an axiom created by cryptographer Auguste Kerckhoffs that stated, that a cryptosystem should be secure, even if everything about the system, except the key, is public knowledge. Not to be confused with _"security through obscurity"_.
+
+The six design principles are as follows: 
+
+1. The system must be practically, if not mathematically, indecipherable.
+2. **It must not be required to be secret, and it must be able to fall into the hands of the enemy without inconvenience.**
+3. Its key must be communicable and retainable without the help of written notes, and changeable or modifiable at the will of the correspondents.
+4. It must be applicable to telegraphic correspondence.
+5. Apparatus and documents must be portable, and its usage and function must not require the concourse of several people.
+6. Finally, it is necessary, given the circumstances that command its application, that the system be easy to use, requiring neither mental strain nor the knowledge of a long series of rules to observe.
+
+The second axiom is currently known as the Kerckhoff's principle. 
+
+The gold standard for any secret-keeping system is that implementation details should be pubically distributed, without sacrificing or compromising security of said system. The security relies on the system itself, not the secrecy of the system. Therefore, the core idea of Kerckhoffs' 2nd principle is still applicable today. The security of HTTPS, TLS and ciphers like AES or RSA rely on the _strength_ of the algorithm, not on keeping them secret.
+
+In modern hardware and software PKI (public key infrastructures) are implemented and publically disclosed because they are considered to be secure, thoroughly investigated and researched. 
+
+In other words: 
+
+> "...  design your system assuming that your opponents know it in detail."
+>
+> _Steven M. Bellovin_
+
+See also: 
+
+- [Shannon's Maxim](#shannons-maxim)
 
 ### The Dead Sea Effect
 

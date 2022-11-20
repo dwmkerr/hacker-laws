@@ -167,10 +167,10 @@ Xem thêm:
 Định lý CAP (do Eric Brewer định nghĩa) tuyên bố rằng đối với một kho lưu trữ dữ liệu phân tán, chỉ có thể thực hiện hai trong ba bảo đảm sau (nhiều nhất):
 
 - Tính đồng bộ (Consistency): khi đọc dữ liệu, mọi yêu cầu đều nhận được _dữ liệu gần đây nhất_ hoặc lỗi được trả về
-- Tính sẫn sàng (Availability): khi đọc dữ liệu, mọi yêu cầu đều nhận được _phản hồi không lỗi_ , mà không cần đảm bảo rằng đó là dữ liệu _mới nhất_
+- Tính sẵn sàng (Availability): khi đọc dữ liệu, mọi yêu cầu đều nhận được _phản hồi không lỗi_ , mà không cần đảm bảo rằng đó là dữ liệu _mới nhất_
 - Chịu lỗi(P-Partition Tolerance): khi một số lượng tùy ý yêu cầu mạng giữa các nút không thành công, hệ thống tiếp tục hoạt động như thiết kế.
 
-Cốt lõi của lý do là như sau. Không thể đảm bảo sai biệt cục bộ không xảy ra (xem [Sự sụp đổ của Máy tính Phân tán](#the-fallacies-of-distributed-computing) ). Do đó, trong trường hợp sai biệt cục bộ, chúng ta có thể hoặc ngưng công việc (tăng tính đồng bộ và giảm tính sẫn sàng) hoặc tiếp tục công việc (tăng tính sẫn sàng nhưng giảm tính đồng bộ).
+Cốt lõi của lý do là như sau. Không thể đảm bảo sai biệt cục bộ không xảy ra (xem [Sự sụp đổ của Máy tính Phân tán](#the-fallacies-of-distributed-computing) ). Do đó, trong trường hợp sai biệt cục bộ, chúng ta có thể hoặc ngưng công việc (tăng tính đồng bộ và giảm tính sẵn sàng) hoặc tiếp tục công việc (tăng tính sẵn sàng nhưng giảm tính đồng bộ).
 
 Tên gọi xuất phát từ các chữ cái đầu tiên (Consistency, Availability, Partition Tolerance). Lưu ý rằng điều rất quan trọng cần lưu ý là điều này _không_ liên quan đến [_ACID_](#TODO) , có định nghĩa khác về tính đồng bộ. Gần đây hơn, [định lý PACELC](#TODO) đã được phát triển để bổ sung các ràng buộc về độ trễ và tính đồng bộ khi mạng _không bị_ sai biệt cục bộ (tức là khi hệ thống đang hoạt động như mong đợi).
 

@@ -41,6 +41,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
     * [Premature Optimization Effect](#premature-optimization-effect)
     * [Putt's Law](#putts-law)
     * [Reed's Law](#reeds-law)
+    * [The Basic Laws of Human Stupidity](#the-basic-laws-of-human-stupidity)
     * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
     * [The Law of Demeter](#the-law-of-demeter)
     * [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
@@ -556,6 +557,20 @@ This law is based on graph theory, where the utility scales as the number of pos
 See also:
 - [Metcalfe's Law](#metcalfes-law)
 - [Dunbar's Number](#dunbars-number)
+
+### The Basic Laws of Human Stupidity
+
+[The Basic Laws of Human Stupidity on Wikipedia](https://en.wikipedia.org/wiki/Carlo_M._Cipolla#%22The_Basic_Laws_of_Human_Stupidity%22_(1976))
+
+These are Cipolla's five fundamental laws of stupidity:
+
+> Always and inevitably, everyone underestimates the number of stupid individuals in circulation.  
+> The probability that a certain person (will) be stupid is independent of any other characteristic of that person.  
+> A stupid person is a person who causes losses to another person or to a group of persons while himself deriving no gain and even possibly incurring losses.  
+> Non-stupid people always underestimate the damaging power of stupid individuals. In particular, non-stupid people constantly forget that at all times and places, and under any circumstances, to deal and/or associate with stupid people always turns out to be a costly mistake.  
+> A stupid person is the most dangerous type of person.  
+
+Corollary: a stupid person is more dangerous than a pillager.
 
 ### The Law of Conservation of Complexity (Tesler's Law)
 

@@ -1055,6 +1055,7 @@ Thanks to a number of wonderful contributors, Hacker Laws is available in a numb
 
 | Language | Moderator | Status |
 |----------|-----------|--------|
+| [AR Arabic / Arabic](./translations/ar-AR.md) | [Abdurrahman Rajab - a0m0rajab](https://github.com/a0m0rajab) | . |
 | [🇮🇩 Bahasa Indonesia / Indonesian](./translations/pt-BR.md) | [arywidiantara](https://github.com/arywidiantara) | [![gitlocalized ](https://gitlocalize.com/repo/2513/id/badge.svg)](https://gitlocalize.com/repo/2513/id?utm_source=badge) |
 | [🇧🇷 Brasileiro / Brazilian](./translations/pt-BR.md) | [Eugênio Moreira](https://github.com/eugenioamn), [Leonardo Costa](https://github.com/leofc97) | [![gitlocalized ](https://gitlocalize.com/repo/2513/pt-BR/badge.svg)](https://gitlocalize.com/repo/2513/pt-BR?utm_source=badge) |
 | [🇨🇳 中文 / Chinese](https://github.com/nusr/hacker-laws-zh) | [Steve Xu](https://github.com/nusr) | Partially complete |

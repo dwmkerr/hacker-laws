@@ -71,6 +71,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
     * [The KISS principle](#the-kiss-principle)
     * [YAGNI](#yagni)
     * [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)
+    * [The Principle of Least Astonishment](#the-principle-of-least-astonishment)
 * [Reading List](#reading-list)
 * [Online Resources](#online-resources)
 * [PDF eBook](#pdf-ebook)
@@ -844,7 +845,6 @@ See Also:
 
 - [Hyrum's Law](#hyrums-law-the-law-of-implicit-interfaces)
 
-
 ### SOLID
 
 This is an acronym, which refers to:
@@ -1017,6 +1017,22 @@ See also:
 
 - [Foraging for the Fallacies of Distributed Computing (Part 1) - Vaidehi Joshi
  on Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
+
+### The Principle of Least Astonishment
+
+[The Principle of Least Astonishment on Wikipedia](https://en.wikipedia.org/wiki/Principle_of_least_astonishment)
+
+> People are part of the system. The design should match the user's experience, expectations, and mental models.
+>
+> Frans Kaashoek
+
+This principle proposes that systems and interfaces should be designed in a way that features and functionality is easily discovered and matches users expectations. Features that 'surprise' users should be discouraged in favour of features that can be intuitively reasoned about based on existing patterns and practices.
+
+Many examples are present in user interfaces, such as a 'pull down' gesture on a mobile appliation to refresh content. Another example would be command line tools, where many standards exist for how parameters are named, common parameters that should be available and so on.
+
+See also:
+
+- [Convention Over Configuration](#todo)
 
 ## Reading List
 

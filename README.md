@@ -71,6 +71,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
     * [The KISS principle](#the-kiss-principle)
     * [YAGNI](#yagni)
     * [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)
+    * [The Principle of Least Astonishment](#the-principle-of-least-astonishment)
 * [Reading List](#reading-list)
 * [Online Resources](#online-resources)
 * [PDF eBook](#pdf-ebook)
@@ -844,7 +845,6 @@ See Also:
 
 - [Hyrum's Law](#hyrums-law-the-law-of-implicit-interfaces)
 
-
 ### SOLID
 
 This is an acronym, which refers to:
@@ -1017,6 +1017,22 @@ See also:
 
 - [Foraging for the Fallacies of Distributed Computing (Part 1) - Vaidehi Joshi
  on Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
+
+### The Principle of Least Astonishment
+
+[The Principle of Least Astonishment on Wikipedia](https://en.wikipedia.org/wiki/Principle_of_least_astonishment)
+
+> People are part of the system. The design should match the user's experience, expectations, and mental models.
+>
+> Frans Kaashoek
+
+This principle proposes that systems and interfaces should be designed in a way that features and functionality is intuitive and matches users expectations. Features that 'surprise' users should be discouraged, and features that can be intuitively reasoned about based on existing common patterns and practices should be encouraged.
+
+Examples are common in user interfaces, where a number of paradigms are common, such as a 'pull down' on a mobile app page to reload. Another example would be command line tools - where standard Unix and Linux tools have created a set of common expectations on how CLI tools can be expected to work, such as how command line flags are named.
+
+See also:
+
+- [Convention Over Configuration](#todo)
 
 ## Reading List
 

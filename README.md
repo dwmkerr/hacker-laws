@@ -1026,9 +1026,9 @@ See also:
 >
 > Frans Kaashoek
 
-This principle proposes that systems and interfaces should be designed in a way that features and functionality is intuitive and matches users expectations. Features that 'surprise' users should be discouraged, and features that can be intuitively reasoned about based on existing common patterns and practices should be encouraged.
+This principle proposes that systems and interfaces should be designed in a way that features and functionality is easily discovered and matches users expectations. Features that 'surprise' users should be discouraged in favour of features that can be intuitively reasoned about based on existing patterns and practices.
 
-Examples are common in user interfaces, where a number of paradigms are common, such as a 'pull down' on a mobile app page to reload. Another example would be command line tools - where standard Unix and Linux tools have created a set of common expectations on how CLI tools can be expected to work, such as how command line flags are named.
+Many examples are present in user interfaces, such as a 'pull down' gesture on a mobile appliation to refresh content. Another example would be command line tools, where many standards exist for how parameters are named, common parameters that should be available and so on.
 
 See also:
 

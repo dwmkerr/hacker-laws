@@ -59,7 +59,7 @@ Podoba Ci się ten projekt? Proszę rozważyć [sponsorowanie mnie](https://gith
     - [Zasada Shirky](#the-shirky-principle)
     - [Zasada Piotra](#the-peter-principle)
     - [Zasada solidności (prawo Postela)](#the-robustness-principle-postels-law)
-    - [SOLIDNY](#solid)
+    - [SOLID](#solid)
     - [Zasada pojedynczej odpowiedzialności](#the-single-responsibility-principle)
     - [Zasada otwarcia/zamknięcia](#the-openclosed-principle)
     - [Zasada substytucji Liskov](#the-liskov-substitution-principle)
@@ -812,7 +812,7 @@ Zobacz też:
 
 - [Prawo Hyruma](#hyrums-law-the-law-of-implicit-interfaces)
 
-### SOLIDNY
+### SOLID
 
 To jest akronim, który odnosi się do:
 
@@ -837,7 +837,7 @@ Teoretycznie powinno to sprawić, że kod będzie bardziej niezawodny i łatwiej
 Zobacz też:
 
 - [Programowanie obiektowe](#todo)
-- [SOLIDNY](#solid)
+- [SOLID](#solid)
 
 ### Zasada otwarcia/zamknięcia
 
@@ -854,7 +854,7 @@ Ta zasada ma szczególne znaczenie w przypadku programowania obiektowego, w któ
 Zobacz też:
 
 - [Programowanie obiektowe](#todo)
-- [SOLIDNY](#solid)
+- [SOLID](#solid)
 
 ### Zasada substytucji Liskov
 
@@ -871,7 +871,7 @@ Zasada ta ma szczególne znaczenie w przypadku programowania obiektowego, w któ
 Zobacz też:
 
 - [Programowanie obiektowe](#todo)
-- [SOLIDNY](#solid)
+- [SOLID](#solid)
 
 ### Zasada segregacji interfejsów
 
@@ -888,7 +888,7 @@ Zasada ta ma szczególne znaczenie dla programowania obiektowego, w którym inte
 Zobacz też:
 
 - [Programowanie obiektowe](#todo)
-- [SOLIDNY](#solid)
+- [SOLID](#solid)
 - [Pisanie kaczki](#todo)
 - [Oddzielenie](#todo)
 
@@ -907,7 +907,7 @@ Ta zasada jest złożona, ponieważ może się wydawać, że „odwraca” oczek
 Zobacz też:
 
 - [Programowanie obiektowe](#todo)
-- [SOLIDNY](#solid)
+- [SOLID](#solid)
 - [Odwrócenie sterowania](#todo)
 - [Wstrzykiwanie zależności](#todo)
 

@@ -517,7 +517,7 @@ See also:
 
 ### Premature Optimization Effect
 
-[Premature Optimization on WikiWikiWeb](http://wiki.c2.com/?PrematureOptimization)
+[Premature Optimization on WikiWeb](http://wiki.c2.com/?PrematureOptimization)
 
 > Premature optimization is the root of all evil.
 >

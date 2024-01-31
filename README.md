@@ -1034,6 +1034,21 @@ See also:
 
 - [Convention Over Configuration](#todo)
 
+### Input-Processing-Output is what it is all about
+
+[input–process–output (IPO) model](https://en.wikipedia.org/wiki/IPO_model)
+
+There are a thousand tools, programming languages, principles. Finally, it is all this simple pattern:
+
+1. The method/system/tool gets some input
+2. The method/system/tool does some processing
+3. The method/system/tool creates some output.
+
+Example: A HTTP request and the corresponding HTTP response are the perfect examples. Stateless has
+won, [CORBA](https://en.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture) is dead. If you use OOP does not matter much for the caller/client.
+
+
+
 ## Reading List
 
 If you have found these concepts interesting, you may enjoy the following books.

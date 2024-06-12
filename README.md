@@ -724,7 +724,7 @@ Coined by Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), thi
 >
 > Rich Sutton (2019)
 
-Scale, in terms of both data and computational power, has driven the most significant advancements in AI research, rather than the intricacies of the research methods themselves.
+The bitter lesson by [Rich Sutton](https://x.com/richardssutton) says that scale, in terms of both data and computational power, has driven the most significant advancements in AI research, rather than the intricacies of the research methods themselves.
 
 ## Principles
 

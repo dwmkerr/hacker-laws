@@ -52,6 +52,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
     * [The Two Pizza Rule](#the-two-pizza-rule)
     * [Wadler's Law](#wadlers-law)
     * [Wheaton's Law](#wheatons-law)
+    * [The Bitter Lesson](#the-bitter-lesson)
 * [Principles](#principles)
     * [All Models Are Wrong (George Box's Law)](#all-models-are-wrong-george-boxs-law)
     * [Chesterton's Fence](#chestertons-fence)
@@ -713,6 +714,17 @@ See also:
 > _Wil Wheaton_
 
 Coined by Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), this simple, concise, and powerful law aims for an increase in harmony and respect within a professional organization. It can be applied when speaking with coworkers, performing code reviews, countering other points of view, critiquing, and in general, most professional interactions humans have with each other.
+
+### The Bitter Lesson
+
+[PDF](https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf)
+[HTML](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
+
+> The biggest lesson that can be read from 70 years of AI research is that general methods that leverage computation are ultimately the most effective, and by a large margin.
+>
+> Rich Sutton (2019)
+
+Scale, in terms of both data and computational power, has driven the most significant advancements in AI research, rather than the intricacies of the research methods themselves.
 
 ## Principles
 

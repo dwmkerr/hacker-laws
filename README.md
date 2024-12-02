@@ -72,6 +72,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
     * [YAGNI](#yagni)
     * [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)
     * [The Principle of Least Astonishment](#the-principle-of-least-astonishment)
+    * [Planck's Principle](#plancks-principle)
 * [Reading List](#reading-list)
 * [Online Resources](#online-resources)
 * [PDF eBook](#pdf-ebook)
@@ -1033,6 +1034,19 @@ Many examples are present in user interfaces, such as a 'pull down' gesture on a
 See also:
 
 - [Convention Over Configuration](#todo)
+
+### Planck's Principle
+[Planck's Principle on Wikipedia](https://en.wikipedia.org/wiki/Planck%27s_principle)
+
+Planck's Principle is often paraphrased as 'Science progresses one funeral at a time'.  
+It was formulated by Max Planck in his autobiography:
+> A new scientific truth does not triumph by convincing its opponents and making them see the light, but rather because its opponents eventually die and a new generation grows up that is familiar with it ...
+> 
+> An important scientific innovation rarely makes its way by gradually winning over and converting its opponents: it rarely happens that Saul becomes Paul. What does happen is that its opponents gradually die out, and that the growing generation is familiarized with the ideas from the beginning: another instance of the fact that the future lies with the youth.
+> 
+>  Max Planck, Scientific autobiography, 1950, p. 33, 97
+
+Thus, scientific and technological development is limited by how long it takes established scientists/researchers/developers to change their minds or leave the field for good. This is an important reason why paradigm shifts are so hard to achieve and spread. It is related to [Clarke's First Law](#clarkes-three-laws).
 
 ## Reading List
 

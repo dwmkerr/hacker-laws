@@ -31,7 +31,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
     - [Hutber's Law](#hutbers-law)
     - [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
     - [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
-    - [Input-Processing-Output (IPO)](#input-processing-output-ipo)
+    - [Input-Process-Output (IPO)](#input-process-output-ipo)
     - [Kernighan's Law](#kernighans-law)
     - [Linus's Law](#linuss-law)
     - [Metcalfe's Law](#metcalfes-law)
@@ -408,7 +408,7 @@ See also:
 - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
 - [XKCD 1172](https://xkcd.com/1172/)
 
-### Input-Processing-Output (IPO)
+### Input-Process-Output (IPO)
 
 [Input–Process–Output on Wikipedia](https://en.wikipedia.org/wiki/IPO_model)
 

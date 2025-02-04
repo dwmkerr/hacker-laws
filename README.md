@@ -1,4 +1,7 @@
 # 💻📖 hacker-laws
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Laws, Theories, Principles and Patterns that developers will find useful.
 
@@ -1109,3 +1112,25 @@ Please be sure to read the [Contributing Guidelines](./.github/contributing.md) 
 Hi! If you land here, you've clicked on a link to a topic I've not written up yet, sorry about this - this is work in progress!
 
 Feel free to [Raise an Issue](https://github.com/dwmkerr/hacker-laws/issues) requesting more details, or [Open a Pull Request](https://github.com/dwmkerr/hacker-laws/pulls) to submit your proposed definition of the topic.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://www.thomas-guettler.de/"><img src="https://avatars.githubusercontent.com/u/414336?v=4?s=100" width="100px;" alt="Thomas Güttler"/><br /><sub><b>Thomas Güttler</b></sub></a><br /><a href="https://github.com/dwmkerr/hacker-laws/commits?author=guettli" title="Documentation">📖</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

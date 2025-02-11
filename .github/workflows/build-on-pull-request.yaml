@@ -36,7 +36,7 @@ jobs:
           name: hacker-laws.pdf
           path: hacker-laws.pdf
 
-      - name: Publish Intermiediate Markdown Artifact
+      - name: Publish Intermediate Markdown Artifact
         uses: actions/upload-artifact@master
         with:
           name: hacker-laws.md

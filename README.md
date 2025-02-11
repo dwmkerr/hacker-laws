@@ -42,7 +42,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
     - [Premature Optimization Effect](#premature-optimization-effect)
     - [Putt's Law](#putts-law)
     - [Reed's Law](#reeds-law)
-    - [The Ringelmann effect](#the-ringelmann-effect)
+    - [The Ringelmann Effect](#the-ringelmann-effect)
     - [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
     - [The Law of Demeter](#the-law-of-demeter)
     - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
@@ -578,11 +578,11 @@ See also:
 - [Metcalfe's Law](#metcalfes-law)
 - [Dunbar's Number](#dunbars-number)
 
-### The Ringelmann effect
+### The Ringelmann Effect
 
 [The Ringelmann effect on Wikipedia](https://en.wikipedia.org/wiki/Ringelmann_effect)
 
-The Ringelmann effect is the tendency of an individual to become increasingly inefficient as more and more people are involved in a task. In other words, as more individuals are added to a team, the more the average individual performance decreases. Multiple causes are believed to be at work, including loss of motivation ("[social loafing](https://en.wikipedia.org/wiki/Social_loafing)") and challenges related to coordination.
+The Ringelmann Effect is the tendency of an individual to become increasingly inefficient as more and more people are involved in a task. In other words, as more individuals are added to a team, the more the average individual performance decreases. Multiple causes are believed to be at work, including loss of motivation ("[social loafing](https://en.wikipedia.org/wiki/Social_loafing)") and challenges related to coordination.
 
 See also:
 - [Brooks' Law](#brooks-law)

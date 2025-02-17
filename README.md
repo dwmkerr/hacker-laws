@@ -52,6 +52,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
     - [The Scout Rule](#the-scout-rule)
     - [The Spotify Model](#the-spotify-model)
     - [The Two Pizza Rule](#the-two-pizza-rule)
+    - [Twyman's law](#twymans-law)
     - [Wadler's Law](#wadlers-law)
     - [Wheaton's Law](#wheatons-law)
 - [Principles](#principles)
@@ -711,6 +712,18 @@ This rule suggests that regardless of the size of the company, teams should be s
 The number of links between people can be expressed as `n(n-1)/2` where n = number of people.
 
 <img width="200px" alt="Complete graph; Links between people" src="./images/complete_graph.png" />
+
+### Twyman's law
+
+[Twyman's Law on Wikipedia](https://en.wikipedia.org/wiki/Twyman%27s_law)
+
+> The more unusual or interesting the data, the more likely they are to have been the result of an error of one kind or another.
+
+This law suggests that when there are particularly unusual data points, it is more likely that they are the result of errors or manipulation. For example, if a dataset of long-jump results from a sporting event showed a maximum value of 20 meters (more than twice the world record), it is more likely to be due to an error (such as recording a value in feet rather than meters) than due to an unusually long jump. It is also more likely in this case that the results could have been manipulated.
+
+See also:
+
+- [Sagan Standard](#TODO)
 
 ### Wadler's Law
 

@@ -96,6 +96,7 @@ There are lots of laws which people discuss when talking about development. This
 
 And here we go!
 
+
 ### 90–9–1 Principle (1% Rule)
 
 [1% Rule on Wikipedia](https://en.wikipedia.org/wiki/1%25_rule_(Internet_culture))
@@ -109,6 +110,14 @@ Real-world examples:
 See Also:
 
 - [Pareto principle](#the-pareto-principle-the-8020-rule)
+
+### Ninety–Ninety Rule
+
+> The first 90 percent of the code accounts for the first 90 percent of the development time. The remaining 10 percent of the code accounts for the other 90 percent of the development time.
+
+This adds up to 180%, making a wry allusion to the notoriety of software development projects significantly over-running their schedules.
+
+[Ninty-ninty Rule on Wikipedia](https://en.wikipedia.org/wiki/Ninety%E2%80%93ninety_rule)
 
 ### Amdahl's Law
 

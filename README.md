@@ -10,75 +10,79 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
 
 <!-- vim-markdown-toc GFM -->
 
-* [Introduction](#introduction)
-* [Laws](#laws)
-    * [90–9–1 Principle (1% Rule)](#9091-principle-1-rule)
-    * [Ninety–Ninety Rule](#ninetyninety-rule)
-    * [Amdahl's Law](#amdahls-law)
-    * [The Broken Windows Theory](#the-broken-windows-theory)
-    * [Brooks' Law](#brooks-law)
-    * [CAP Theorem (Brewer's Theorem)](#cap-theorem-brewers-theorem)
-    * [Conway's Law](#conways-law)
-    * [Cunningham's Law](#cunninghams-law)
-    * [Dunbar's Number](#dunbars-number)
-    * [The Dunning-Kruger Effect](#the-dunning-kruger-effect)
-    * [Fitts' Law](#fitts-law)
-    * [Gall's Law](#galls-law)
-    * [Goodhart's Law](#goodharts-law)
-    * [Hanlon's Razor](#hanlons-razor)
-    * [Hick's Law (Hick-Hyman Law)](#hicks-law-hick-hyman-law)
-    * [Hofstadter's Law](#hofstadters-law)
-    * [Hutber's Law](#hutbers-law)
-    * [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
-    * [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
-    * [Kernighan's Law](#kernighans-law)
-    * [Linus's Law](#linuss-law)
-    * [Metcalfe's Law](#metcalfes-law)
-    * [Moore's Law](#moores-law)
-    * [Murphy's Law / Sod's Law](#murphys-law--sods-law)
-    * [Occam's Razor](#occams-razor)
-    * [Parkinson's Law](#parkinsons-law)
-    * [Premature Optimization Effect](#premature-optimization-effect)
-    * [Putt's Law](#putts-law)
-    * [Reed's Law](#reeds-law)
-    * [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
-    * [The Law of Demeter](#the-law-of-demeter)
-    * [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
-    * [The Law of the Instrument](#the-law-of-the-instrument)
-    * [The Law of Triviality](#the-law-of-triviality)
-    * [The Unix Philosophy](#the-unix-philosophy)
-    * [The Scout Rule](#the-scout-rule)
-    * [The Spotify Model](#the-spotify-model)
-    * [The Two Pizza Rule](#the-two-pizza-rule)
-    * [Wadler's Law](#wadlers-law)
-    * [Wheaton's Law](#wheatons-law)
-* [Principles](#principles)
-    * [All Models Are Wrong (George Box's Law)](#all-models-are-wrong-george-boxs-law)
-    * [Chesterton's Fence](#chestertons-fence)
-    * [The Dead Sea Effect](#the-dead-sea-effect)
-    * [The Dilbert Principle](#the-dilbert-principle)
-    * [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
-    * [The Shirky Principle](#the-shirky-principle)
-    * [The Peter Principle](#the-peter-principle)
-    * [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
-    * [SOLID](#solid)
-    * [The Single Responsibility Principle](#the-single-responsibility-principle)
-    * [The Open/Closed Principle](#the-openclosed-principle)
-    * [The Liskov Substitution Principle](#the-liskov-substitution-principle)
-    * [The Interface Segregation Principle](#the-interface-segregation-principle)
-    * [The Dependency Inversion Principle](#the-dependency-inversion-principle)
-    * [The DRY Principle](#the-dry-principle)
-    * [The KISS principle](#the-kiss-principle)
-    * [YAGNI](#yagni)
-    * [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)
-* [Reading List](#reading-list)
-* [Online Resources](#online-resources)
-* [PDF eBook](#pdf-ebook)
-* [Podcast](#podcast)
-* [Translations](#translations)
-* [Related Projects](#related-projects)
-* [Contributing](#contributing)
-* [TODO](#todo)
+- [Introduction](#introduction)
+- [Laws](#laws)
+    - [90–9–1 Principle (1% Rule)](#9091-principle-1-rule)
+    - [Amdahl's Law](#amdahls-law)
+    - [The Broken Windows Theory](#the-broken-windows-theory)
+    - [Brooks' Law](#brooks-law)
+    - [CAP Theorem (Brewer's Theorem)](#cap-theorem-brewers-theorem)
+    - [Clarke's three laws](#clarkes-three-laws)
+    - [Conway's Law](#conways-law)
+    - [Cunningham's Law](#cunninghams-law)
+    - [Dunbar's Number](#dunbars-number)
+    - [The Dunning-Kruger Effect](#the-dunning-kruger-effect)
+    - [Fitts' Law](#fitts-law)
+    - [Gall's Law](#galls-law)
+    - [Goodhart's Law](#goodharts-law)
+    - [Hanlon's Razor](#hanlons-razor)
+    - [Hick's Law (Hick-Hyman Law)](#hicks-law-hick-hyman-law)
+    - [Hofstadter's Law](#hofstadters-law)
+    - [Hutber's Law](#hutbers-law)
+    - [The Hype Cycle & Amara's Law](#the-hype-cycle--amaras-law)
+    - [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
+    - [Input-Process-Output (IPO)](#input-process-output-ipo)
+    - [Kernighan's Law](#kernighans-law)
+    - [Linus's Law](#linuss-law)
+    - [Metcalfe's Law](#metcalfes-law)
+    - [Moore's Law](#moores-law)
+    - [Murphy's Law / Sod's Law](#murphys-law--sods-law)
+    - [Occam's Razor](#occams-razor)
+    - [Parkinson's Law](#parkinsons-law)
+    - [Premature Optimization Effect](#premature-optimization-effect)
+    - [Putt's Law](#putts-law)
+    - [Reed's Law](#reeds-law)
+    - [The Ringelmann Effect](#the-ringelmann-effect)
+    - [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
+    - [The Law of Demeter](#the-law-of-demeter)
+    - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
+    - [The Law of the Instrument](#the-law-of-the-instrument)
+    - [The Law of Triviality](#the-law-of-triviality)
+    - [The Unix Philosophy](#the-unix-philosophy)
+    - [The Scout Rule](#the-scout-rule)
+    - [The Spotify Model](#the-spotify-model)
+    - [The Two Pizza Rule](#the-two-pizza-rule)
+    - [Twyman's law](#twymans-law)
+    - [Wadler's Law](#wadlers-law)
+    - [Wheaton's Law](#wheatons-law)
+- [Principles](#principles)
+    - [All Models Are Wrong (George Box's Law)](#all-models-are-wrong-george-boxs-law)
+    - [Chesterton's Fence](#chestertons-fence)
+    - [The Dead Sea Effect](#the-dead-sea-effect)
+    - [The Dilbert Principle](#the-dilbert-principle)
+    - [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
+    - [The Shirky Principle](#the-shirky-principle)
+    - [The Peter Principle](#the-peter-principle)
+    - [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
+    - [SOLID](#solid)
+    - [The Single Responsibility Principle](#the-single-responsibility-principle)
+    - [The Open/Closed Principle](#the-openclosed-principle)
+    - [The Liskov Substitution Principle](#the-liskov-substitution-principle)
+    - [The Interface Segregation Principle](#the-interface-segregation-principle)
+    - [The Dependency Inversion Principle](#the-dependency-inversion-principle)
+    - [The DRY Principle](#the-dry-principle)
+    - [The KISS principle](#the-kiss-principle)
+    - [YAGNI](#yagni)
+    - [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)
+    - [The Principle of Least Astonishment](#the-principle-of-least-astonishment)
+- [Reading List](#reading-list)
+- [Online Resources](#online-resources)
+- [PDF eBook](#pdf-ebook)
+- [Podcast](#podcast)
+- [Translations](#translations)
+- [Related Projects](#related-projects)
+- [Contributing](#contributing)
+- [TODO](#todo)
 
 <!-- vim-markdown-toc -->
 
@@ -196,6 +200,18 @@ See also:
 - [ACID](#TODO)
 - [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)
 - [PACELC](#TODO)
+
+### Clarke's three laws
+
+[Clarke's three laws on Wikipedia](https://en.wikipedia.org/wiki/Clarke's_three_laws)
+
+Arthur C. Clarke, an british science fiction writer, formulated three adages that are known as Clarke's three laws. The third law is the best known and most widely cited.  
+
+These so-called laws are:  
+- When a distinguished but elderly scientist states that something is possible, they are almost certainly right. When they state that something is impossible, they are very probably wrong.
+- The only way of discovering the limits of the possible is to venture a little way past them into the impossible.
+- Any sufficiently advanced technology is indistinguishable from magic.
+
 
 ### Conway's Law
 
@@ -403,6 +419,24 @@ See also:
 - [The Law of Leaky Abstractions](#the-law-of-leaky-abstractions)
 - [XKCD 1172](https://xkcd.com/1172/)
 
+### Input-Process-Output (IPO)
+
+[Input–Process–Output on Wikipedia](https://en.wikipedia.org/wiki/IPO_model)
+
+Systems can be incredibly complex, but can typically be broken down into smaller parts that follow a simple pattern:
+
+1. Input is provided
+2. Some kind of processing or transformation is performed
+3. Output is returned
+
+A sort function in a programming language or system could be a classic example of the IPO pattern; where arbitrary input is sorted based on a predicate and returned back. A web server could be modelled as an IPO system, where HTTP requests are transformed into HTTP responses. A highly complex Generative AI system could likewise be modelled in this way, with user input being passed through a complex model and a response being generated.
+
+The IPO pattern is present in different forms across almost all technological domains, from [functional programming](https://en.wikipedia.org/wiki/Functional_programming) languages that explicitly follow IPO patterns to [The Unix Philosophy](#the-unix-philosophy), which suggests that highly complex systems can be built by chaining together many simple IPO programs.
+
+See also:
+
+- [The Unix Philosophy](#the-unix-philosophy)
+
 ### Kernighan's Law
 
 > Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.
@@ -513,7 +547,7 @@ See also:
 
 ### Premature Optimization Effect
 
-[Premature Optimization on WikiWikiWeb](http://wiki.c2.com/?PrematureOptimization)
+[Premature Optimization on WikiWeb](http://wiki.c2.com/?PrematureOptimization)
 
 > Premature optimization is the root of all evil.
 >
@@ -553,6 +587,15 @@ This law is based on graph theory, where the utility scales as the number of pos
 See also:
 - [Metcalfe's Law](#metcalfes-law)
 - [Dunbar's Number](#dunbars-number)
+
+### The Ringelmann Effect
+
+[The Ringelmann effect on Wikipedia](https://en.wikipedia.org/wiki/Ringelmann_effect)
+
+The Ringelmann Effect is the tendency of an individual to become increasingly inefficient as more and more people are involved in a task. In other words, as more individuals are added to a team, the more the average individual performance decreases. Multiple causes are believed to be at work, including loss of motivation ("[social loafing](https://en.wikipedia.org/wiki/Social_loafing)") and challenges related to coordination.
+
+See also:
+- [Brooks' Law](#brooks-law)
 
 ### The Law of Conservation of Complexity (Tesler's Law)
 
@@ -678,6 +721,18 @@ This rule suggests that regardless of the size of the company, teams should be s
 The number of links between people can be expressed as `n(n-1)/2` where n = number of people.
 
 <img width="200px" alt="Complete graph; Links between people" src="./images/complete_graph.png" />
+
+### Twyman's law
+
+[Twyman's Law on Wikipedia](https://en.wikipedia.org/wiki/Twyman%27s_law)
+
+> The more unusual or interesting the data, the more likely they are to have been the result of an error of one kind or another.
+
+This law suggests that when there are particularly unusual data points, it is more likely that they are the result of errors or manipulation. For example, if a dataset of long-jump results from a sporting event showed a maximum value of 20 meters (more than twice the world record), it is more likely to be due to an error (such as recording a value in feet rather than meters) than due to an unusually long jump. It is also more likely in this case that the results could have been manipulated.
+
+See also:
+
+- [Sagan Standard](#TODO)
 
 ### Wadler's Law
 
@@ -841,7 +896,6 @@ See Also:
 
 - [Hyrum's Law](#hyrums-law-the-law-of-implicit-interfaces)
 
-
 ### SOLID
 
 This is an acronym, which refers to:
@@ -947,7 +1001,7 @@ See also:
 
 > Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
 
-DRY is an acronym for _Don't Repeat Yourself_. This principle aims to help developers reducing the repetition of code and keep the information in a single place and was cited in 1999 by Andrew Hunt and Dave Thomas in the book [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+DRY is an acronym for _Don't Repeat Yourself_. This principle aims to help developers reducing the repetition of code and keep the information in a single place and was cited in 1999 by Andrew Hunt and Dave Thomas in the book [The Pragmatic Programmer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 
 > The opposite of DRY would be _WET_ (Write Everything Twice or We Enjoy Typing).
 
@@ -955,7 +1009,7 @@ In practice, if you have the same piece of information in two (or more) differen
 
 See also:
 
-- [The Pragmatic Developer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
+- [The Pragmatic Programmer](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 
 ### The KISS principle
 
@@ -1015,6 +1069,22 @@ See also:
 - [Foraging for the Fallacies of Distributed Computing (Part 1) - Vaidehi Joshi
  on Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
 
+### The Principle of Least Astonishment
+
+[The Principle of Least Astonishment on Wikipedia](https://en.wikipedia.org/wiki/Principle_of_least_astonishment)
+
+> People are part of the system. The design should match the user's experience, expectations, and mental models.
+>
+> Frans Kaashoek
+
+This principle proposes that systems and interfaces should be designed in a way that features and functionality is easily discovered and matches users expectations. Features that 'surprise' users should be discouraged in favour of features that can be intuitively reasoned about based on existing patterns and practices.
+
+Many examples are present in user interfaces, such as a 'pull down' gesture on a mobile appliation to refresh content. Another example would be command line tools, where many standards exist for how parameters are named, common parameters that should be available and so on.
+
+See also:
+
+- [Convention Over Configuration](#todo)
+
 ## Reading List
 
 If you have found these concepts interesting, you may enjoy the following books.
@@ -1052,6 +1122,7 @@ Thanks to a number of wonderful contributors, Hacker Laws is available in a numb
 
 | Language | Moderator | Status |
 |----------|-----------|--------|
+| [AR Arabic / Arabic](./translations/ar-AR.md) | [Abdurrahman Rajab - a0m0rajab](https://github.com/a0m0rajab) | . |
 | [🇮🇩 Bahasa Indonesia / Indonesian](./translations/pt-BR.md) | [arywidiantara](https://github.com/arywidiantara) | [![gitlocalized ](https://gitlocalize.com/repo/2513/id/badge.svg)](https://gitlocalize.com/repo/2513/id?utm_source=badge) |
 | [🇧🇷 Brasileiro / Brazilian](./translations/pt-BR.md) | [Eugênio Moreira](https://github.com/eugenioamn), [Leonardo Costa](https://github.com/leofc97) | [![gitlocalized ](https://gitlocalize.com/repo/2513/pt-BR/badge.svg)](https://gitlocalize.com/repo/2513/pt-BR?utm_source=badge) |
 | [🇨🇳 中文 / Chinese](https://github.com/nusr/hacker-laws-zh) | [Steve Xu](https://github.com/nusr) | Partially complete |
@@ -1062,6 +1133,7 @@ Thanks to a number of wonderful contributors, Hacker Laws is available in a numb
 | [🇯🇵 JP 日本語 / Japanese](./translations/jp.md) | [Fumikazu Fujiwara](https://github.com/freddiefujiwara)| [![gitlocalized ](https://gitlocalize.com/repo/2513/ja/badge.svg)](https://gitlocalize.com/repo/2513/ja?utm_source=badge) |
 | [🇰🇷 한국어 / Korean](https://github.com/codeanddonuts/hacker-laws-kr) | [Doughnut](https://github.com/codeanddonuts) | Partially complete |
 | [🇱🇻 Latviešu Valoda / Latvian](./translations/lv.md) | [Arturs Jansons](https://github.com/iegik) | [![gitlocalized ](https://gitlocalize.com/repo/2513/lv/badge.svg)](https://gitlocalize.com/repo/2513/lv?utm_source=badge) |
+| [🇮🇷 فارسی / Persian](./translations/fa.md) | [MohammadErfan Gooneh](https://github.com/MEgooneh) | . |
 | [🇵🇱 Polski / Polish](./translations/pl.md) | [Mariusz Kogen](https://github.com/k0gen) | [![gitlocalized ](https://gitlocalize.com/repo/2513/pl/badge.svg)](https://gitlocalize.com/repo/2513/pl?utm_source=badge) |
 | [🇷🇺 Русская версия / Russian](https://github.com/solarrust/hacker-laws) | [Alena Batitskaya](https://github.com/solarrust) | Partially complete |
 | [🇪🇸 Castellano / Spanish](./translations/es-ES.md) | [Manuel Rubio](https://github.com/manuel-rubio) ([Sponsor](https://github.com/sponsors/manuel-rubio)) | Partially complete |

@@ -499,7 +499,7 @@ Les principes sont généralement des lignes directrices liés à la conception.
 > Les entreprises tendent à promouvoir systématiquement les employés incompétents afin de les sortir du workflow.
 > *Scott Adams*
 
-Un concept de gestion inventé par Scott Adams (créateur du comic strip Dilbert) inspiré par le [principe de Peter](#principe-de-peter). Suivant le principe de Dilbert, les employés qui n'ont jamais montré de compétence dans leur travail sont promus à des postes de management afin de limité les dommages qu'ils peuvent causer. Adams expliqua initialement le principe dans un article du Wall Street Journal datant de 1995, et élabora le concept dans son livre de 1996: [The Dilbert Principle](#a-lire).
+Un concept de gestion inventé par Scott Adams (créateur du comic strip Dilbert) inspiré par le [principe de Peter](#principe-de-peter). Suivant le principe de Dilbert, les employés qui n'ont jamais montré de compétence dans leur travail sont promus à des postes de management afin de limiter les dommages qu'ils peuvent causer. Adams expliqua initialement le principe dans un article du Wall Street Journal datant de 1995, et élabora le concept dans son livre de 1996: [The Dilbert Principle](#a-lire).
 
 Voir aussi :
 

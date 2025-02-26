@@ -13,6 +13,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
 - [Introduction](#introduction)
 - [Laws](#laws)
     - [90–9–1 Principle (1% Rule)](#9091-principle-1-rule)
+    - [90–90 Rule](#9090-rule)
     - [Amdahl's Law](#amdahls-law)
     - [The Broken Windows Theory](#the-broken-windows-theory)
     - [Brooks' Law](#brooks-law)
@@ -111,13 +112,18 @@ See Also:
 
 - [Pareto principle](#the-pareto-principle-the-8020-rule)
 
-### Ninety–Ninety Rule
+### 90–90 Rule
+
+[90-90 Rule on Wikipedia](https://en.wikipedia.org/wiki/Ninety%E2%80%93ninety_rule)
 
 > The first 90 percent of the code accounts for the first 90 percent of the development time. The remaining 10 percent of the code accounts for the other 90 percent of the development time.
 
-This adds up to 180%, making a wry allusion to the notoriety of software development projects significantly over-running their schedules.
+A wry reinterpretation of the [Pareto Principe (or 80-20 rule)](#the-pareto-principle-the-8020-rule) that highlights the real-world challenges of completing engineering work. This sentiment is also echoed in [Hofstadter's Law](#hofstadters-law).
 
-[Ninty-ninty Rule on Wikipedia](https://en.wikipedia.org/wiki/Ninety%E2%80%93ninety_rule)
+See also:
+
+- [Hofstadter's Law](#hofstadters-law)
+- [The Pareto Principe](#the-pareto-principle-the-8020-rule)
 
 ### Amdahl's Law
 

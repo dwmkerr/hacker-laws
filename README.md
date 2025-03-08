@@ -11,7 +11,7 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
 <!-- vim-markdown-toc GFM -->
 
 - [Introduction](#introduction)
-- [Laws](#laws)
+- [Laws & Principles](#laws--principles)
     - [90–9–1 Principle (1% Rule)](#9091-principle-1-rule)
     - [90–90 Rule](#9090-rule)
     - [Amdahl's Law](#amdahls-law)
@@ -56,7 +56,6 @@ Like this project? Please considering [sponsoring me](https://github.com/sponsor
     - [Twyman's law](#twymans-law)
     - [Wadler's Law](#wadlers-law)
     - [Wheaton's Law](#wheatons-law)
-- [Principles](#principles)
     - [All Models Are Wrong (George Box's Law)](#all-models-are-wrong-george-boxs-law)
     - [Chesterton's Fence](#chestertons-fence)
     - [The Dead Sea Effect](#the-dead-sea-effect)
@@ -93,10 +92,9 @@ There are lots of laws which people discuss when talking about development. This
 
 ❗: This repo contains an explanation of some laws, principles and patterns, but does not _advocate_ for any of them. Whether they should be applied will always be a matter of debate, and greatly dependent on what you are working on.
 
-## Laws
+## Laws & Principles
 
 And here we go!
-
 
 ### 90–9–1 Principle (1% Rule)
 
@@ -770,10 +768,6 @@ See also:
 > _Wil Wheaton_
 
 Coined by Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), this simple, concise, and powerful law aims for an increase in harmony and respect within a professional organization. It can be applied when speaking with coworkers, performing code reviews, countering other points of view, critiquing, and in general, most professional interactions humans have with each other.
-
-## Principles
-
-Principles are generally more likely to be guidelines relating to design.
 
 ### All Models Are Wrong (George Box's Law)
 

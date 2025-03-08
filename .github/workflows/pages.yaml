@@ -3,7 +3,8 @@ name: Deploy to Pages
 on:
   # Runs on pushes targeting the default branch (or runs manually).
   push:
-    branches: [$default-branch]
+    # branches: [$default-branch]
+    branches: ['build/pages'] # we're deploying from a build branch for now.
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages

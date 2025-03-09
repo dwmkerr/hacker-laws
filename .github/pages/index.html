@@ -1,14 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <title>Hacker Laws</title>
-
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hacker Laws</title>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RGJ5TDHWY9"></script>
     <script>
@@ -18,11 +13,60 @@
 
       gtag('config', 'G-RGJ5TDHWY9');
     </script>
-  </head>
-  <body>
-    <h1>Hacker Laws</h1>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#top">Hacker Laws</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Effective Shell</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Sponsor</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Terminal AI</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-  </body>
+  <header class="container">
+    <h1>Hacker Laws</h1>
+    <p class="lead">Laws, Theories, Principles and Patterns that developers will find useful.</p>
+  </header>
+
+  <main class="container">
+    <section id="introduction" class="law-section">
+      <h2>
+        Introduction
+        <a href="#introduction" class="anchor"><i class="bi bi-link-45deg"></i></a>
+      </h2>
+      <p>There are lots of laws which people discuss when talking about development...</p>
+      <blockquote>“Any code of your own that you haven’t looked at for six or more months might as well have been written by someone else.” – Eagleson's Law</blockquote>
+      <ul>
+        <li><a href="#">Law of Demeter</a></li>
+        <li><a href="#">Pareto Principle</a></li>
+        <li><a href="#">Hofstadter's Law</a></li>
+      </ul>
+      <div class="social-sharing">
+        <a href="#" title="Share on Twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" title="Share on Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" title="Copy Link"><i class="bi bi-clipboard"></i></a>
+      </div>
+      <div class="back-to-top"><a href="#top">↑ Back to Top</a></div>
+    </section>
+  </main>
+
+  <footer class="container text-center my-4">
+    <p>&copy; 2025 Hacker Laws</p>
+  </footer>
+</body>
 </html>

@@ -1,3 +1,0 @@
-markdown
-jinja2
-watchdog

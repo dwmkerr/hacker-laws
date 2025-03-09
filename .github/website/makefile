@@ -19,7 +19,7 @@ install: # 📦 install dependencies
 build: #🔨 building static site
 	@echo "🔨 Building static site..."
 	TEMPLATE_FILE=$(TEMPLATE_FILE) MARKDOWN_FILE=$(MARKDOWN_FILE) OUTPUT_FILE=$(OUTPUT_FILE) TEMPLATE_DIR=$(TEMPLATE_DIR) \
-	python generate.py --build
+	python generate.py
 
 .PHONY: serve
 serve: # 🚀 start local server

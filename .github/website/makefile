@@ -29,7 +29,7 @@ serve: # 🚀 start local server
 .PHONY: watch
 watch: # 👀 Watch for changes...
 	@echo "👀 Watching for changes..."
-	watchmedo shell-command --patterns="$(MARKDOWN_FILE);*.py" --command="make build" .
+	watchmedo shell-command --patterns="$(MARKDOWN_FILE);*.py;./src/*.*" --command="make build" .
 
 .PHONY: clean
 clean: #🧹 Clean up generated files

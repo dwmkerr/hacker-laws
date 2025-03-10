@@ -5,10 +5,22 @@ import shutil
 from jinja2 import Environment, FileSystemLoader
 from bs4 import BeautifulSoup
 
-# Read environment variables with defaults
-TEMPLATE_FILE = os.getenv("TEMPLATE_FILE", "template.html")
-MARKDOWN_FILE = os.getenv("MARKDOWN_FILE", "laws.md")
-TEMPLATE_DIR = os.getenv("TEMPLATE_DIR", ".")  # Directory where template is stored
+
+def bisect_text(content: str, bisect_line: str) -> tuple[str, str]:
+    lines = content.splitlines()
+    head = []
+    tail = []
+    found = False
+    for line in lines:
+        if found is False and line == bisect_line:
+            found = True
+            continue
+        if found:
+            tail.append(line)
+        else:
+            head.append(line)
+
+    return ("\n".join(head), "\n".join(tail))
 
 
 def load_template():
@@ -17,12 +29,23 @@ def load_template():
     return env.get_template(TEMPLATE_FILE)
 
 
-def parse_markdown(md_file):
-    """Parse a Markdown file and return structured law sections."""
-    with open(md_file, "r", encoding="utf-8") as f:
-        md_content = f.read()
+def prepare_markdown(path: str) -> str:
+    """
+    Pre-process the README markdown by removing content we will not show in
+    the final website.
+    """
 
-    sections = md_content.split("\n## ")  # Split by Markdown headings
+    # Load the markdown content.
+    with open(path, "r", encoding="utf-8") as f:
+        content = f.read()
+    return content
+
+
+def parse_markdown(markdown_content: str):
+    (_, remains) = bisect_text(markdown_content, "<!-- vim-markdown-toc GFM -->")
+    (toc, content) = bisect_text(remains, "<!-- vim-markdown-toc -->")
+
+    sections = content.split("\n## ")  # Split by Markdown headings
     laws = []
     for section in sections:
         if section.strip():
@@ -32,11 +55,14 @@ def parse_markdown(md_file):
             law_id = title.lower().replace(" ", "-")
             laws.append({"title": title, "content": content, "id": law_id})
 
-    return laws
+    return (markdown.markdown(toc), laws)
 
 
 def extract_static_files(html_content, output_dir):
-    """Extract linked CSS, JS, and image files and copy them to the output directory."""
+    """
+    Extract linked CSS, JS, and image files and copy them to the output
+    directory.
+    """
     soup = BeautifulSoup(html_content, "html.parser")
     files_to_copy = []
 
@@ -73,20 +99,17 @@ def extract_static_files(html_content, output_dir):
     return files_to_copy
 
 
-def generate_site(output_dir):
+def generate_site(markdown_content: str, output_dir: str):
     """Generate the static HTML file from Markdown and Jinja2 template."""
-    print(f"📝 Loading template from: {TEMPLATE_DIR}/{TEMPLATE_FILE}")
-    print(f"📖 Loading markdown from: {MARKDOWN_FILE}")
-    print(f"💾 Outputting files to: {output_dir}")
 
     template = load_template()
-    laws = parse_markdown(MARKDOWN_FILE)
+    (toc, laws) = parse_markdown(markdown_content)
 
     # Ensure output directory exists
     os.makedirs(output_dir, exist_ok=True)
 
     # Render HTML
-    html_output = template.render(laws=laws)
+    html_output = template.render(toc=toc, laws=laws)
 
     # Save HTML to output directory
     output_file = os.path.join(output_dir, "index.html")
@@ -104,4 +127,18 @@ if __name__ == "__main__":
     parser.add_argument("-o", "--output-dir", default="build", help="Directory to save the generated site.")
     args = parser.parse_args()
 
-    generate_site(args.output_dir)
+    # Read environment variables with defaults
+    TEMPLATE_FILE = os.getenv("TEMPLATE_FILE", "template.html")
+    TEMPLATE_DIR = os.getenv("TEMPLATE_DIR", ".")
+    template_path = f"{TEMPLATE_DIR}/{TEMPLATE_FILE}"
+    markdown_path = os.getenv("MARKDOWN_FILE", "laws.md")
+    output_dir = args.output_dir
+    print(f"📝 Loading template from: {template_path}")
+    print(f"📖 Loading markdown from: {markdown_path}")
+    print(f"💾 Outputting files to: {output_dir}")
+
+    # First, extract that markdown that we want to process.
+    markdown_content = prepare_markdown(markdown_path)
+
+    # Generate the site from the markdown.
+    generate_site(markdown_content, args.output_dir)

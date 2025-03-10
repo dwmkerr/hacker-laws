@@ -44,25 +44,10 @@
     </header>
 
     <main class="container">
-      <section id="introduction" class="law-section">
-        <h2>
-          Introduction
-          <a href="#introduction" class="anchor"><i class="bi bi-link-45deg"></i></a>
-        </h2>
-        <p>There are lots of laws which people discuss when talking about development...</p>
-        <blockquote>“Any code of your own that you haven’t looked at for six or more months might as well have been written by someone else.” – Eagleson's Law</blockquote>
-        <ul>
-          <li><a href="#">Law of Demeter</a></li>
-          <li><a href="#">Pareto Principle</a></li>
-          <li><a href="#">Hofstadter's Law</a></li>
-        </ul>
-        <div class="social-sharing">
-          <a href="#" title="Share on Twitter"><i class="bi bi-twitter"></i></a>
-          <a href="#" title="Share on Facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" title="Copy Link"><i class="bi bi-clipboard"></i></a>
-        </div>
-        <div class="back-to-top"><a href="#top">↑ Back to Top</a></div>
-      </section>
+      <!-- The table of contents. -->
+      {{ toc }}
+
+      <!-- Each of the laws. -->
       {% for law in laws %}
       <section id="{{ law.id }}" class="law-section">
         <h2>

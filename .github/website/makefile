@@ -18,6 +18,7 @@ install: # 📦 install dependencies
 .PHONY: build
 build: #🔨 building static site
 	@echo "🔨 Building static site..."
+	cp -rf ../../images ./build
 	TEMPLATE_FILE=$(TEMPLATE_FILE) MARKDOWN_FILE=$(MARKDOWN_FILE) OUTPUT_FILE=$(OUTPUT_FILE) TEMPLATE_DIR=$(TEMPLATE_DIR) \
 	python generate.py
 

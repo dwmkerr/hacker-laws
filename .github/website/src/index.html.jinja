@@ -44,21 +44,18 @@
     </header>
 
     <main class="container">
-      <!-- The table of contents. -->
       {{ toc }}
 
-      <!-- Each of the laws. -->
-      {% for law in laws %}
-      <section id="{{ law.id }}" class="law-section">
-        <h2>
-          {{ law.title }}
-          <a href="#{{ law.id }}" class="anchor"><i class="bi bi-link-45deg"></i></a>
-        </h2>
-        {{ law.content | safe }}
+      <!-- The table of contents. -->
+
+      <!-- Each of the sections - most of which are laws. -->
+      {% for section in sections %}
+      <section id="{{ section.id }}" class="law-section">
+        {{ section.full_content | safe }}
         <div class="social-sharing">
-          <a href="https://twitter.com/share?url=#{{ law.id }}" title="Share on Twitter"><i class="bi bi-twitter"></i></a>
-          <a href="https://facebook.com/share?url=#{{ law.id }}" title="Share on Facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" onclick="navigator.clipboard.writeText(window.location.href + '#{{ law.id }}'); alert('Copied!');" title="Copy Link"><i class="bi bi-clipboard"></i></a>
+          <a href="https://twitter.com/share?url=#{{ section.id }}" title="Share on Twitter"><i class="bi bi-twitter"></i></a>
+          <a href="https://facebook.com/share?url=#{{ section.id }}" title="Share on Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" onclick="navigator.clipboard.writeText(window.location.href + '#{{ section.id }}'); alert('Copied!');" title="Copy Link"><i class="bi bi-clipboard"></i></a>
         </div>
         <div class="back-to-top"><a href="#top">↑ Back to Top</a></div>
       </section>
@@ -69,5 +66,8 @@
     <footer class="container text-center my-4">
       <p>&copy; 2025 Hacker Laws</p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -27,9 +27,9 @@ serve: # 🚀 start local server
 	python3 -m http.server 8000
 
 .PHONY: watch
-watch: # 👀 Watch for changes...
+watch: build # 👀 Watch for changes...
 	@echo "👀 Watching for changes..."
-	watchmedo shell-command --patterns="$(MARKDOWN_FILE);*.py;./src/*.*" --command="make build" .
+	watchmedo shell-command --patterns="$(MARKDOWN_FILE);*.py;src/*" --command="make build" .
 
 .PHONY: clean
 clean: #🧹 Clean up generated files

@@ -1,8 +1,9 @@
+"""Generate the Hacker Laws website from the Hacker Laws README"""
 import argparse
-import markdown
 import os
 import shutil
 from jinja2 import Environment, FileSystemLoader
+import markdown
 from bs4 import BeautifulSoup
 
 
@@ -43,19 +44,31 @@ def prepare_markdown(path: str) -> str:
 
 def parse_markdown(markdown_content: str):
     (_, remains) = bisect_text(markdown_content, "<!-- vim-markdown-toc GFM -->")
-    (toc, content) = bisect_text(remains, "<!-- vim-markdown-toc -->")
+    (_, content) = bisect_text(remains, "<!-- vim-markdown-toc -->")
 
-    sections = content.split("\n## ")  # Split by Markdown headings
+    md = markdown.Markdown(extensions=['toc'])
+    md.convert(content)
+    toc = md.toc
+
+    markdown_sections = content.split("\n#")  # Split by Markdown headings
+    sections = []
     laws = []
-    for section in sections:
-        if section.strip():
-            lines = section.split("\n", 1)
+    for markdown_section in markdown_sections:
+        if markdown_section.strip():
+            lines = markdown_section.split("\n", 1)
             title = lines[0].strip("# ").strip()
-            content = markdown.markdown(lines[1] if len(lines) > 1 else "")
-            law_id = title.lower().replace(" ", "-")
-            laws.append({"title": title, "content": content, "id": law_id})
+            content = md.convert(lines[1] if len(lines) > 1 else "")
+            full_content = md.convert(markdown_section)
+            id = title.lower().replace(" ", "-")
+            laws.append({"title": title, "content": content, "id": id})
+            sections.append({
+                "title": title,
+                "content": content,
+                "id": id,
+                "full_content": full_content
+            })
 
-    return (markdown.markdown(toc), laws)
+    return (sections, toc)
 
 
 def extract_static_files(html_content, output_dir):
@@ -103,13 +116,13 @@ def generate_site(markdown_content: str, output_dir: str):
     """Generate the static HTML file from Markdown and Jinja2 template."""
 
     template = load_template()
-    (toc, laws) = parse_markdown(markdown_content)
+    (sections, toc) = parse_markdown(markdown_content)
 
     # Ensure output directory exists
     os.makedirs(output_dir, exist_ok=True)
 
     # Render HTML
-    html_output = template.render(toc=toc, laws=laws)
+    html_output = template.render(toc=toc, sections=sections)
 
     # Save HTML to output directory
     output_file = os.path.join(output_dir, "index.html")

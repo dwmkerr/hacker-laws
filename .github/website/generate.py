@@ -1,4 +1,11 @@
 """Generate the Hacker Laws website from the Hacker Laws README"""
+
+# TODO:
+# - favicon
+# - test share links
+# - rubbish at bottom of pate
+# - crosslink ES/HL/TAI
+# - 'back to top' better text
 import argparse
 import os
 import shutil

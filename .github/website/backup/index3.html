@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hacker Laws</title>
+  <!-- Google Font for elegant serif fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <style>
+    /* Use an elegant serif font and a clean, minimal palette */
+    body {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      background-color: #fff;
+      color: #333;
+      padding-top: 70px; /* account for sticky navbar */
+    }
+    .container {
+      max-width: 800px;
+    }
+    /* Simplified Navbar */
+    .navbar-custom {
+      background-color: #fff;
+      border-bottom: 1px solid #e5e5e5;
+    }
+    .navbar-brand,
+    .nav-link {
+      font-weight: 700;
+    }
+    /* Centered, minimal header */
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p.lead {
+      font-size: 1.25rem;
+      color: #555;
+    }
+    /* Law section styling: simple borders instead of shadows */
+    .law-section {
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      background-color: #fff;
+      border-bottom: 1px solid #e5e5e5;
+    }
+    /* Social sharing icons remain the same */
+    .social-sharing a {
+      margin-right: 0.75rem;
+      font-size: 1.2rem;
+      color: #555;
+      text-decoration: none;
+    }
+    .social-sharing a:hover {
+      color: #000;
+    }
+    /* Back to top link styling */
+    .back-to-top a {
+      font-size: 0.9rem;
+      text-decoration: none;
+      color: #007bff;
+    }
+    .back-to-top a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body id="top">
+  <!-- Sticky Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#top">Hacker Laws</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="bi bi-book"></i> Effective Shell</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="bi bi-cup"></i> Sponsor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="bi bi-brain"></i> Terminal AI</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="bi bi-github"></i> GitHub</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="container my-4">
+    <h1>Hacker Laws</h1>
+    <p class="lead">Laws, Theories, Principles and Patterns that developers will find useful.</p>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+    <!-- Introduction Section -->
+    <section id="introduction" class="law-section">
+      <h2>Introduction</h2>
+      <p>There are lots of laws which people discuss when talking about development. This repository is a reference and overview of some of the most common ones. Please share and submit PRs!</p>
+      <p><strong>Note:</strong> This repo contains an explanation of some laws, principles and patterns, but does not <em>advocate</em> for any of them. Whether they should be applied will always be a matter of debate, and greatly dependent on what you are working on.</p>
+      
+      <!-- Social Sharing Icons -->
+      <div class="social-sharing">
+        <a href="#" title="Share on Twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" title="Share on Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" title="Share on LinkedIn"><i class="bi bi-linkedin"></i></a>
+      </div>
+      
+      <!-- Back to Top -->
+      <div class="back-to-top mt-2">
+        <a href="#top">↑ Top</a>
+      </div>
+    </section>
+
+    <!-- 90–9–1 Principle (1% Rule) Section -->
+    <section id="9091-principle" class="law-section">
+      <h2>90–9–1 Principle (1% Rule)</h2>
+      <p>The 90-9-1 principle suggests that within an internet community such as a wiki, 90% of participants only consume content, 9% edit or modify content and 1% of participants add content.</p>
+      <p>Real-world examples:</p>
+      <ul>
+        <li>A 2014 study of four digital health social networks found the top 1% created 73% of posts, the next 9% accounted for an average of ~25% and the remaining 90% accounted for an average of 2%.</li>
+      </ul>
+      <p>See Also: <a href="#the-pareto-principle-the-8020-rule">Pareto Principle</a></p>
+      
+      <!-- Social Sharing Icons -->
+      <div class="social-sharing">
+        <a href="#" title="Share on Twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" title="Share on Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" title="Share on LinkedIn"><i class="bi bi-linkedin"></i></a>
+      </div>
+      
+      <!-- Back to Top -->
+      <div class="back-to-top mt-2">
+        <a href="#top">↑ Top</a>
+      </div>
+    </section>
+
+    <!-- 90–90 Rule Section -->
+    <section id="9090-rule" class="law-section">
+      <h2>90–90 Rule</h2>
+      <p>The first 90 percent of the code accounts for the first 90 percent of the development time. The remaining 10 percent of the code accounts for the other 90 percent of the development time.</p>
+      <p>This is a wry reinterpretation of the <a href="#the-pareto-principle-the-8020-rule">Pareto Principle</a> (or 80-20 rule) that highlights the real-world challenges of completing engineering work. This sentiment is also echoed in <a href="#hofstadters-law">Hofstadter's Law</a>.</p>
+      
+      <!-- Social Sharing Icons -->
+      <div class="social-sharing">
+        <a href="#" title="Share on Twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" title="Share on Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" title="Share on LinkedIn"><i class="bi bi-linkedin"></i></a>
+      </div>
+      
+      <!-- Back to Top -->
+      <div class="back-to-top mt-2">
+        <a href="#top">↑ Top</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="container text-center my-4">
+    <p>&copy; 2025 Hacker Laws</p>
+  </footer>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Smooth scrolling for in-page links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetElem = document.querySelector(this.getAttribute('href'));
+        if (targetElem) {
+          targetElem.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
+

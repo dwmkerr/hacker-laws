@@ -1,10 +1,14 @@
-# 💻📖 hacker-laws
+<h1 align="center">hacker-laws 💻📖 </h1>
+<h4 align="center">🧠 Laws, Theories, Principles and Patterns that developers will find useful.</h4>
 
-Laws, Theories, Principles and Patterns that developers will find useful.
+---
 
-[Translations](#translations): [🇮🇩](./translations/id.md) [🇧🇷](./translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇩🇪](./translations/de.md) [🇫🇷](./translations/fr.md) [🇬🇷](./translations/el.md) [🇮🇹](https://github.com/csparpa/hacker-laws-it) [🇱🇻](./translations/lv.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇵🇱](./translations/pl.md) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇪🇸](./translations/es-ES.md) [🇹🇷](https://github.com/umutphp/hacker-laws-tr) [🇯🇵](./translations/jp.md) [🇺🇦](./translations/uk.md) [🇻🇳](./translations/vi.md)
-
-Like this project? Please considering [sponsoring me](https://github.com/sponsors/dwmkerr) and the [translators](#translations). Also check out this podcast on [The Changelog - Laws for Hackers to Live By](https://changelog.com/podcast/403) to learn more about the project! You can also [download the latest PDF eBook](https://github.com/dwmkerr/hacker-laws/releases/latest/download/hacker-laws.pdf). Check the [Contributor Guide](./.github/contributing.md) if you are keen to contribute!
+- 📖 Check out my new book [Effective Shell](https://effective-shell)
+- 🌍 Check out the website [hacker-laws.com](https://hacker-laws.com)
+- ☕️ Like this project? Consider [buying me a coffee with a one-off donation](https://github.com/sponsors/dwmkerr?frequency=one-time)
+- 🧠 Check out my new project [Terminal AI](https://github.com/terminal-ai)
+- 🎧 Try the podcast [The Changelog - Laws for Hackers to Live By](https://changelog.com/podcast/403)
+- 📖 Download the [PDF eBook](https://github.com/dwmkerr/hacker-laws/releases/latest/download/hacker-laws.pd)
 
 ---
 
@@ -95,8 +99,7 @@ There are lots of laws which people discuss when talking about development. This
 
 ## Laws
 
-And here we go!
-
+Laws can be opinions on inevitabilities in the world of software engineering, or wry observations on unavoidable realities.
 
 ### 90–9–1 Principle (1% Rule)
 

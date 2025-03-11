@@ -30,6 +30,13 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Build Website
+        run: |
+          cd .github/website
+          make install
+          make build
+          cp -r build/. '../pages'
+          ls -al "../pages"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -35,6 +35,7 @@ jobs:
         run: |
           cd .github/website
           make build
+          cp build/. '../pages'
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -1,11 +1,5 @@
 """Generate the Hacker Laws website from the Hacker Laws README"""
 
-# TODO:
-# - favicon
-# - test share links
-# - rubbish at bottom of pate
-# - crosslink ES/HL/TAI
-# - 'back to top' better text
 import argparse
 import os
 import shutil
@@ -50,10 +44,13 @@ def prepare_markdown(path: str) -> str:
 
 
 def parse_markdown(markdown_content: str):
-    (_, remains) = bisect_text(markdown_content, "<!-- vim-markdown-toc GFM -->")
+    (_, remains) = bisect_text(markdown_content, "---")
+    (links, remains) = bisect_text(remains, "---")
     (_, content) = bisect_text(remains, "<!-- vim-markdown-toc -->")
 
     md = markdown.Markdown(extensions=['toc'])
+    links = md.convert(links)
+    print(f"links: {links}")
     md.convert(content)
     toc = md.toc
 
@@ -75,7 +72,7 @@ def parse_markdown(markdown_content: str):
                 "full_content": full_content
             })
 
-    return (sections, toc)
+    return (links, toc, sections)
 
 
 def extract_static_files(html_content, output_dir):
@@ -123,13 +120,13 @@ def generate_site(markdown_content: str, output_dir: str):
     """Generate the static HTML file from Markdown and Jinja2 template."""
 
     template = load_template()
-    (sections, toc) = parse_markdown(markdown_content)
+    (links, toc, sections) = parse_markdown(markdown_content)
 
     # Ensure output directory exists
     os.makedirs(output_dir, exist_ok=True)
 
     # Render HTML
-    html_output = template.render(toc=toc, sections=sections)
+    html_output = template.render(links=links, toc=toc, sections=sections)
 
     # Save HTML to output directory
     output_file = os.path.join(output_dir, "index.html")

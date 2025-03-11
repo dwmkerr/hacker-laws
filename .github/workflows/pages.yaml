@@ -34,6 +34,7 @@ jobs:
       - name: Build Website
         run: |
           cd .github/website
+          make install
           make build
           cp build/. '../pages'
       - name: Upload artifact

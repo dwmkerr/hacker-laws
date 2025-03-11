@@ -36,7 +36,8 @@ jobs:
           cd .github/website
           make install
           make build
-          cp build/. '../pages'
+          cp -r build/. '../pages'
+          ls -al "../pages"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

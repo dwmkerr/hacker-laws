@@ -1,9 +1,9 @@
-<h1 align="center">hacker-laws 💻📖 </h1>
-<h4 align="center">🧠 Laws, Theories, Principles and Patterns that developers will find useful.</h4>
+<h1 align="center"><a href="https://hacker-laws.com" target="_blank">hacker-laws</a></h1>
+<h4 align="center">🧠 Laws, Theories, Principles and Patterns for developers and technologists.</h4>
 
 ---
 
-- 📖 Check out my new book [Effective Shell](https://effective-shell)
+- 📖 Check out my new book [Effective Shell](https://effective-shell) on [Amazon](https://amzn.to/4ho0F91)
 - 🌍 Check out the website [hacker-laws.com](https://hacker-laws.com)
 - ☕️ Like this project? Consider [buying me a coffee with a one-off donation](https://github.com/sponsors/dwmkerr?frequency=one-time)
 - 🧠 Check out my new project [Terminal AI](https://github.com/terminal-ai)

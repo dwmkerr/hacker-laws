@@ -809,7 +809,7 @@ The name of this principle comes from a story by [G.K. Chesterton](https://en.wi
 
 [Kerckhoffs's principle on Wikipedia](https://en.wikipedia.org/wiki/Kerckhoffs%27s_principle)
 
-> ...design your system assuming that your opponents know it in detail.
+> "...design your system assuming that your opponents know it in detail."
 >
 > _Steven M. Bellovin's formulation of Kerckhoff's Principle_
 

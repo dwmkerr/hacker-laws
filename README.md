@@ -92,21 +92,7 @@
 
 <!-- vim-markdown-toc -->
 
-## Introduction
-
-There are lots of laws which people discuss when talking about development. This repository is a reference and overview of some of the most common ones. Please share and submit PRs!
-
-❗: This repo contains an explanation of some laws, principles and patterns, but does not _advocate_ for any of them. Whether they should be applied will always be a matter of debate, and greatly dependent on what you are working on.
-
-## Laws
-
-Laws can be opinions on inevitabilities in the world of software engineering, or wry observations on unavoidable realities.
-
-### 90–9–1 Principle (1% Rule)
-
-[1% Rule on Wikipedia](https://en.wikipedia.org/wiki/1%25_rule_(Internet_culture))
-
-The 90-9-1 principle suggests that within an internet community such as a wiki, 90% of participants only consume content, 9% edit or modify content and 1% of participants add content.
+shifani
 
 Real-world examples:
 

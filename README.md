@@ -775,6 +775,17 @@ See also:
 
 Coined by Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), this simple, concise, and powerful law aims for an increase in harmony and respect within a professional organization. It can be applied when speaking with coworkers, performing code reviews, countering other points of view, critiquing, and in general, most professional interactions humans have with each other.
 
+### The Bitter Lesson
+
+[PDF](https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf)
+[HTML](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
+
+> The biggest lesson that can be read from 70 years of AI research is that general methods that leverage computation are ultimately the most effective, and by a large margin.
+>
+> Rich Sutton (2019)
+
+The bitter lesson by [Rich Sutton](https://x.com/richardssutton) says that scale, in terms of both data and computational power, has driven the most significant advancements in AI research, rather than the intricacies of the research methods themselves.
+
 ## Principles
 
 Principles are generally more likely to be guidelines relating to design.

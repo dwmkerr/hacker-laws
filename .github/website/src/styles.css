@@ -11,17 +11,24 @@ body {
 .container {
   max-width: 800px;
 }
+
 header {
   text-align: center;
   margin-bottom: 2rem;
   padding: 2rem 0;
   border-bottom: 1px solid #e5e5e5;
 }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Libre Baskerville', serif;
   /* Avoid scrolling under the sticky header. */
   scroll-margin-top: 80px;
 }
+
+blockquote {
+  font-style: italic;
+}
+  
 .law-section {
   margin-bottom: 2rem;
   padding: 1.5rem;

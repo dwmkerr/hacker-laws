@@ -15,4 +15,7 @@ $(document).ready(function() {
         // Append to the heading
         $heading.append($anchor);
     });
+
+    //  Bootstrap requires that blockquote elements have the 'blockquote' class.
+    $('blockquote').addClass('blockquote').addClass('.quote');
 });

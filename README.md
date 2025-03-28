@@ -4,10 +4,10 @@
 ---
 
 - 📖 Check out my new book [Effective Shell](https://effective-shell) on [Amazon](https://amzn.to/4ho0F91)
-- 🌍 Check out the website [hacker-laws.com](https://hacker-laws.com)
+- 🌍 Try [hacker-laws.com](https://hacker-laws.com)
+- 🧠 Experiment with my new project [Terminal AI](https://github.com/dwmkerr/terminal-ai)
 - ☕️ Like this project? Consider [buying me a coffee with a one-off donation](https://github.com/sponsors/dwmkerr?frequency=one-time)
-- 🧠 Check out my new project [Terminal AI](https://github.com/dwmkerr/terminal-ai)
-- 🎧 Try the podcast [The Changelog - Laws for Hackers to Live By](https://changelog.com/podcast/403)
+- 🎧 Listen to the podcast [The Changelog - Laws for Hackers to Live By](https://changelog.com/podcast/403)
 - 📖 Download the [PDF eBook](https://github.com/dwmkerr/hacker-laws/releases/latest/download/hacker-laws.pd)
 
 ---
@@ -47,6 +47,7 @@
     - [Premature Optimization Effect](#premature-optimization-effect)
     - [Putt's Law](#putts-law)
     - [Reed's Law](#reeds-law)
+    - [The Bitter Lesson](#the-bitter-lesson)
     - [The Ringelmann Effect](#the-ringelmann-effect)
     - [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
     - [The Law of Demeter](#the-law-of-demeter)
@@ -598,6 +599,18 @@ See also:
 - [Metcalfe's Law](#metcalfes-law)
 - [Dunbar's Number](#dunbars-number)
 
+### The Bitter Lesson
+
+[The Bitter Lesson by Richard S. Sutton](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
+
+> The biggest lesson that can be read from 70 years of AI research is that general methods that leverage computation are ultimately the most effective, and by a large margin.
+>
+> Richard S. Sutton (2019)
+
+The "Bitter Lesson", stated by [Rich S. Sutton](https://en.wikipedia.org/wiki/Richard_S._Sutton), says that scale (in terms of both data and computational power) has driven the most significant advancements in AI research, rather than the intricacies of the research methods themselves.
+
+He goes on to suggest that this indicates we should stop trying to build simplified (or even complex) models of the mind as history has shown that these have always in the long term been failures compared to (as an example) scaling the capacity of neural networks and applying existing methods such as convolution.
+
 ### The Ringelmann Effect
 
 [The Ringelmann effect on Wikipedia](https://en.wikipedia.org/wiki/Ringelmann_effect)
@@ -774,17 +787,6 @@ See also:
 > _Wil Wheaton_
 
 Coined by Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), this simple, concise, and powerful law aims for an increase in harmony and respect within a professional organization. It can be applied when speaking with coworkers, performing code reviews, countering other points of view, critiquing, and in general, most professional interactions humans have with each other.
-
-### The Bitter Lesson
-
-[PDF](https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf)
-[HTML](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
-
-> The biggest lesson that can be read from 70 years of AI research is that general methods that leverage computation are ultimately the most effective, and by a large margin.
->
-> Rich Sutton (2019)
-
-The bitter lesson by [Rich Sutton](https://x.com/richardssutton) says that scale, in terms of both data and computational power, has driven the most significant advancements in AI research, rather than the intricacies of the research methods themselves.
 
 ## Principles
 

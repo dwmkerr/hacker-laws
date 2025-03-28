@@ -1,42 +1,32 @@
 #!/usr/bin/env bash
-# This script prepares a `hacker-laws.md` file which is in a format ready to be
-# exported to PDF or other formats for an e-book.
+# This script prepares a `hacker-laws.md` file for export to PDF or e-book format.
 
-# Require that we provide the version number and get a date.
+# Require a version number and get the current date.
 version=$1
 date=$(date "+%Y-%m-%d")
 
-if [ -z $version ]; then
-    echo "version must be specified: ./prepare-markdown-for-ebook.sh <version>"
+if [ -z "$version" ]; then
+    echo "Usage: $0 <version>"
     exit 1
 fi
 
-# Create the frontmatter.
-cat << EOF > frontmatter.md
+# Create `hacker-laws.md` with frontmatter and README content in one step.
+cat << EOF > hacker-laws.md
 ---
 title: "Hacker Laws"
 author: "Dave Kerr, github.com/dwmkerr/hacker-laws"
-subtitle: "Laws, Theories, Principles and Patterns that developers will find useful. ${version}, ${date}."
+subtitle: "Laws, Theories, Principles, and Patterns that developers will find useful. ${version}, ${date}."
 ---
+
 EOF
+cat README.md >> hacker-laws.md
 
-# Combine the frontmatter and the laws.
-cat frontmatter.md README.md >> hacker-laws.md
+# Use a single `sed` command to clean up unwanted lines and emojis in one pass.
+sed -i'' -e '/💻📖.*/d' \
+         -e 's/❗/Warning/g' \
+         -e '/^\[Translations.*/d' \
+         -e '/\*.*/d' \
+         -e '/    \*.*/d' \
+         -e '/## Translations/,$d' hacker-laws.md
 
-# Remove the title - we have it in the front-matter of the doc, so it will
-# automatically be added to the PDF.
-sed -i'' '/💻📖.*/d' hacker-laws.md
-
-# We can't have emojis in the final content with the PDF generator we're using.
-sed -i'' 's/❗/Warning/' hacker-laws.md
-
-# Now rip out the translations line.
-sed -i'' '/^\[Translations.*/d' hacker-laws.md
-
-# # Now rip out any table of contents items.
-sed -i'' '/\*.*/d' hacker-laws.md
-sed -i'' '/    \*.*/d' hacker-laws.md
-
-# Delete everything from 'Translations' onwards (we don't need the translations
-# lists, related projects, etc).
-sed -i'' '/## Translations/,$d' hacker-laws.md
+echo "hacker-laws.md prepared successfully."

@@ -3,12 +3,13 @@
 
 ---
 
-- 📖 Check out my new book [Effective Shell](https://effective-shell) on [Amazon](https://amzn.to/4ho0F91)
+- 📖 My new book [Effective Shell](https://effective-shell) on [Amazon](https://amzn.to/4ho0F91)
 - 🌍 Try [hacker-laws.com](https://hacker-laws.com)
-- 🧠 Experiment with my new project [Terminal AI](https://github.com/dwmkerr/terminal-ai)
+- 🧠 Check out my new project [Terminal AI](https://github.com/dwmkerr/terminal-ai)
 - ☕️ Like this project? Consider [buying me a coffee with a one-off donation](https://github.com/sponsors/dwmkerr?frequency=one-time)
 - 🎧 Listen to the podcast [The Changelog - Laws for Hackers to Live By](https://changelog.com/podcast/403)
 - 📖 Download the [PDF eBook](https://github.com/dwmkerr/hacker-laws/releases/latest/download/hacker-laws.pd)
+- 🌏 See the [Translations](#translations)
 
 ---
 

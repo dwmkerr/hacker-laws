@@ -87,6 +87,8 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-24.04
+    needs: release
+    if: ${{ needs.release.outputs.released }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4

@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.2](https://github.com/dwmkerr/hacker-laws/compare/v0.3.1...v0.3.2) (2025-03-31)
+
+
+### Bug Fixes
+
+* update ebook download link ([4546562](https://github.com/dwmkerr/hacker-laws/commit/454656237d9508c8fadafffbc1c1286fc134f8cf))
+
 ## [0.3.1](https://github.com/dwmkerr/hacker-laws/compare/v0.3.0...v0.3.1) (2025-03-31)
 
 

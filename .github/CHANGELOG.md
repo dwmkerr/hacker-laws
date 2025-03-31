@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/dwmkerr/hacker-laws/compare/v0.2.1...v0.3.0) (2025-03-31)
+
+
+### Features
+
+* add Koomey's Law ([dcdcfdf](https://github.com/dwmkerr/hacker-laws/commit/dcdcfdfc25ee121b6bcb931a71e185fa7ffeedcd))
+
 ## [0.2.1](https://github.com/dwmkerr/hacker-laws/compare/v0.2.0...v0.2.1) (2025-03-31)
 
 

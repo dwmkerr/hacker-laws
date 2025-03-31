@@ -1,10 +1,3 @@
----
-title: "Hacker Laws"
-author: "Dave Kerr, github.com/dwmkerr/hacker-laws"
-subtitle: "Laws, Theories, Principles, and Patterns that developers will find useful. ${VERSION}, ${DATE}."
-version: ${VERSION}
----
-
 <h1 align="center"><a href="https://hacker-laws.com" target="_blank">hacker-laws</a></h1>
 <h4 align="center">🧠 Laws, Theories, Principles and Patterns for developers and technologists.</h4>
 

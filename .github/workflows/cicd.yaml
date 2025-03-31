@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
 
       - name: Test Website Build
         run: |
@@ -44,7 +44,7 @@ jobs:
     if: ${{ needs.release.outputs.released }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
 
       # Set a descriptive version. For PRs it'll be the short sha.
       - name: Check Version

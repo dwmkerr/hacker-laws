@@ -2,12 +2,13 @@
 
 <!-- vim-markdown-toc GFM -->
 
-* [Goal of the Project](#goal-of-the-project)
-* [Example Law: The Law of Leaky Abstractions](#example-law-the-law-of-leaky-abstractions)
-* [Translations](#translations)
-* [How do I know if a law is relevant?](#how-do-i-know-if-a-law-is-relevant)
-* [How do I know if a law is 'well known' enough?](#how-do-i-know-if-a-law-is-well-known-enough)
-* [Use of Images](#use-of-images)
+- [Goal of the Project](#goal-of-the-project)
+- [Example Law: The Law of Leaky Abstractions](#example-law-the-law-of-leaky-abstractions)
+- [Translations](#translations)
+- [How do I know if a law is relevant?](#how-do-i-know-if-a-law-is-relevant)
+- [How do I know if a law is 'well known' enough?](#how-do-i-know-if-a-law-is-well-known-enough)
+- [Use of Images](#use-of-images)
+- [Developer Guide](#developer-guide)
 
 <!-- vim-markdown-toc -->
 
@@ -87,3 +88,18 @@ A good test is 'If I search for it on Google, will I find it in the first few re
 ## Use of Images
 
 Please make sure to attribute images properly if you are referencing them. Also, include a white background, as some viewers will be viewing the site in 'Dark Mode' which can make images with a transparent background difficult to read.
+
+## Developer Guide
+
+Where possible, anything which is not the core `README.md` file is kept in the `.github/` folder to keep the landing page for the repository as clean as possible.
+
+To use the makefile, pass its path explicitly, e.g:
+
+```bash
+make -f .github/makefile
+```
+
+Or create an alias:
+
+```bash
+alias hlmake="make -f .github/makefile"

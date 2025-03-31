@@ -1,0 +1,18 @@
+{
+  "release-type": "simple",
+  "bump-minor-pre-major": true,
+  "packages": {
+    ".": {
+      "release-type": "simple",
+      "extra-files": [
+        {
+          "type": "generic",
+          "path": "README.md"
+        }
+      ],
+     "changelog-path": ".github/CHANGELOG.md"
+    }
+  }
+}
+
+

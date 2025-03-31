@@ -1,0 +1,80 @@
+name: CI/CD
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  test-website-build:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Test Website Build
+        run: |
+          cd .github/website
+          make install
+          make build
+          cp -r build/. '../pages'
+          ls -al "../pages"
+
+  release:
+    needs: test-website-build
+    runs-on: ubuntu-24.04
+    outputs:
+      released: ${{ steps.release-please.outputs.release_created }}
+      tag: ${{ steps.release-please.outputs.tag_name }}
+    steps:
+      - uses: googleapis/release-please-action@v4
+        id: release-please
+        with:
+          manifest-file: .github/release-please-manifest.json
+          config-file: .github/release-please-config.json
+
+  release-pdf:
+    runs-on: ubuntu-24.04
+    needs: release
+    if: ${{ needs.release.outputs.released }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      # Set a descriptive version. For PRs it'll be the short sha.
+      - name: Check Version
+        run: echo "${VERSION}"
+        env:
+          VERSION: ${{ needs.release.outputs.tag }}
+
+      # Set a descriptive version. For PRs it'll be the short sha.
+      - name: Prepare Markdown
+        run: |
+          # Set the env vars we use (version set for clarity).
+          export DATE=$(date +%F)
+          export VERSION="${VERSION}"
+          make prepare-markdown
+        env:
+          VERSION: ${{ needs.release.outputs.tag }}
+
+      # Create the PDF files.
+      - name: Create PDF
+        run: make create-pdf
+      
+      # Publish the PDF and intermediate markdown as an artifact.
+      # - name: Publish PDF Artifact
+      #   uses: actions/upload-artifact@3
+      #   with:
+      #     name: hacker-laws.pdf
+      #     path: hacker-laws.pdf
+
+      - name: Attach assets to GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release upload "${{ needs.release.outputs.tag }}" --clobber hacker-laws.pdf hacker-laws.md

@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/dwmkerr/hacker-laws/compare/v0.2.0...v0.2.1) (2025-03-31)
+
+
+### Bug Fixes
+
+* remove frontmatter ([2140429](https://github.com/dwmkerr/hacker-laws/commit/2140429b959a8284b452c3fa05e1c9fd03e5ebab))
+
 ## [0.2.0](https://github.com/dwmkerr/hacker-laws/compare/v0.1.0...v0.2.0) (2025-03-31)
 
 

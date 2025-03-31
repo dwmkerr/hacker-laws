@@ -39,6 +39,7 @@
     - [Hyrum's Law (The Law of Implicit Interfaces)](#hyrums-law-the-law-of-implicit-interfaces)
     - [Input-Process-Output (IPO)](#input-process-output-ipo)
     - [Kernighan's Law](#kernighans-law)
+    - [Koomey's Law](#koomeys-law)
     - [Linus's Law](#linuss-law)
     - [Metcalfe's Law](#metcalfes-law)
     - [Moore's Law](#moores-law)
@@ -457,6 +458,23 @@ See also:
 - [The Unix Philosophy](#the-unix-philosophy)
 - [Occam's Razor](#occams-razor)
 
+### Koomey's Law
+
+[Koomey's Law on Wikipedia](https://en.wikipedia.org/wiki/Koomey%27s_law)
+
+> ...at a fixed computing load, the amount of battery you need will fall by a factor of two every year and a half.
+>
+> (Jonathan Koomey)
+
+In 2010 Professor Jonathan Koomey discovered that the trend in number of computations per joule of energy dissipated had been remarkably stable. This trend became known as Koomey's Law - that the amount of battery needed for a given computing load would half each 2.5 years.
+
+Koomey performed a follow-up analysis in 2010 and found that this trend had slowed, similar to how [Moore's Law](#moores-law) had slowed. This seemed to be related to limitations around how small transistors can be made, as well as [Dennard Scaling](https://en.wikipedia.org/wiki/Dennard_scaling).
+
+See also:
+
+- [Moore's Law](#moores-law)
+- [Dennard Scaling](https://en.wikipedia.org/wiki/Dennard_scaling)
+
 ### Linus's Law
 
 [Linus's Law on Wikipedia](https://en.wikipedia.org/wiki/Linus%27s_law)
@@ -494,6 +512,10 @@ See also:
 > The number of transistors in an integrated circuit doubles approximately every two years.
 
 Often used to illustrate the sheer speed at which semiconductor and chip technology has improved, Moore's prediction has proven to be highly accurate over from the 1970s to the late 2000s. In more recent years, the trend has changed slightly, partly due to [physical limitations on the degree to which components can be miniaturised](https://en.wikipedia.org/wiki/Quantum_tunnelling). However, advancements in parallelisation, and potentially revolutionary changes in semiconductor technology and quantum computing may mean that Moore's Law could continue to hold true for decades to come.
+
+See also:
+
+- [Koomey's Law](#koomeys-law)
 
 ### Murphy's Law / Sod's Law
 

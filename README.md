@@ -3,7 +3,7 @@
 
 ---
 
-- 📖 My new book [Effective Shell](https://effective-shell) on [Amazon](https://amzn.to/4ho0F91)
+- 📖 My new book [Effective Shell (Online Version)](https://effective-shell.com) on [Amazon (Print/Kindle)](https://amzn.to/4ho0F91)
 - 🌍 Try [hacker-laws.com](https://hacker-laws.com)
 - 🧠 Check out my new project [Terminal AI](https://github.com/dwmkerr/terminal-ai)
 - ☕️ Like this project? Consider [buying me a coffee with a one-off donation](https://github.com/sponsors/dwmkerr?frequency=one-time)

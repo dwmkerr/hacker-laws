@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/dwmkerr/hacker-laws/compare/v0.3.0...v0.3.1) (2025-03-31)
+
+
+### Bug Fixes
+
+* effective shell links ([6353fe4](https://github.com/dwmkerr/hacker-laws/commit/6353fe4b8f044456d66dac0af950e41989c56c5a))
+
 ## [0.3.0](https://github.com/dwmkerr/hacker-laws/compare/v0.2.1...v0.3.0) (2025-03-31)
 
 

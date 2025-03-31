@@ -8,7 +8,7 @@
 - 🧠 Check out my new project [Terminal AI](https://github.com/dwmkerr/terminal-ai)
 - ☕️ Like this project? Consider [buying me a coffee with a one-off donation](https://github.com/sponsors/dwmkerr?frequency=one-time)
 - 🎧 Listen to the podcast [The Changelog - Laws for Hackers to Live By](https://changelog.com/podcast/403)
-- 📖 Download the [PDF eBook](https://github.com/dwmkerr/hacker-laws/releases/latest/download/hacker-laws.pd)
+- 📖 Download the [PDF eBook](https://github.com/dwmkerr/hacker-laws/releases/latest/download/hacker-laws.pdf)
 - 🌏 See the [Translations](#translations)
 
 ---

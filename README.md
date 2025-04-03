@@ -798,6 +798,16 @@ See also:
 
 Coined by Wil Wheaton (Star Trek: The Next Generation, The Big Bang Theory), this simple, concise, and powerful law aims for an increase in harmony and respect within a professional organization. It can be applied when speaking with coworkers, performing code reviews, countering other points of view, critiquing, and in general, most professional interactions humans have with each other.
 
+### Zawinski’s Law
+
+[Zawinski's Law On Wikipedia](https://en.wikipedia.org/wiki/Jamie_Zawinski#:~:text=Zawinski's%20Law,-Zawinski's%20Law%20of&text=Every%20program%20attempts%20to%20expand,software%20bloating%20with%20popular%20features._)
+
+> Every program attempts to expand until it can read mail. Those programs which cannot so expand are replaced by ones which can.
+>
+> Jamie Zawinski
+
+Zawinski’s Law says that software keeps growing until it includes an email feature—if not, another tool will take its place. This shows how software often adds more and more features over time, sometimes making it too complicated. A good example is web browsers, which started simple but now include email, password managers, and other extras.
+
 ## Principles
 
 Principles are generally more likely to be guidelines relating to design.

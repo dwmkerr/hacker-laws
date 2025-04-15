@@ -834,7 +834,7 @@ The name of this principle comes from a story by [G.K. Chesterton](https://en.wi
 
 [Kerckhoffs's principle on Wikipedia](https://en.wikipedia.org/wiki/Kerckhoffs%27s_principle)
 
-> "...design your system assuming that your opponents know it in detail."
+> ...design your system assuming that your opponents know it in detail.
 >
 > _Steven M. Bellovin's formulation of Kerckhoff's Principle_
 
@@ -844,7 +844,16 @@ The gold standard for any secret-keeping system is that implementation details s
 
 The history of cryptography has shown that open discussion and analysis of cryptographic systems leads to better and more secure systems - as researchers are able to test for and expose potential vulnerabilities.
 
+This is the third of five noteworthy design principles from [Protection and the Control of Information Sharing in Multics](https://dl.acm.org/doi/10.1145/361011.361067) (Saltzer, 1974), where it is noted for its value in the design process:
+
+> This principle is not new ... but its violation sent a surprising number of design proposals back to the drawing boards.
+>
+> Jerome H. Saltzer
+
+See also:
+
 - [Shannon's Maxim](#todo)
+- [The Principle of Least Privilege](#the-principle-of-least-privilege)
 
 ### The Dead Sea Effect
 
@@ -1136,7 +1145,7 @@ See also:
 
 > Every program and every privileged user of the system should operate using the least amount of privilege necessary to complete the job.
 >
-> Jerome H. Saltzer
+> _Jerome H. Saltzer_
 
 Also known as the **principle of least authority**, this principle requires components to be designed so that they need a minimum of privilege, authority, access, or permissions to accomplish their design goals.
 
@@ -1144,10 +1153,14 @@ A system designed with least privilege has a natural partitioning into isolated 
 
 This is the fourth of five noteworthy design principles from [Protection and the Control of Information Sharing in Multics](https://dl.acm.org/doi/10.1145/361011.361067) (Saltzer, 1974).
 
+See also:
+
+- [Kerckhoffs's principle](#kerckhoffss-principle)
+
 Real-world examples:
 
-* [Need-to-know policies](https://en.wikipedia.org/wiki/Need_to_know) in military organizations
-* [Capability-based security](https://en.wikipedia.org/wiki/Capability-based_security), where all privileges are idealized as unforgeable copyable references
+- [Need-to-know policies](https://en.wikipedia.org/wiki/Need_to_know) in military organizations
+- [Capability-based security](https://en.wikipedia.org/wiki/Capability-based_security), where all privileges are idealized as unforgeable copyable references
 
 ## Reading List
 

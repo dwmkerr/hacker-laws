@@ -226,7 +226,27 @@ These so-called laws are:
 
 [Conway's Law on Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 
-This law suggests that the technical boundaries of a system will reflect the structure of the organisation. It is commonly referred to when looking at organisation improvements, Conway's Law suggests that if an organisation is structured into many small, disconnected units, the software it produces will be. If an organisation is built more around 'verticals' which are oriented around features or services, the software systems will also reflect this.
+[Conway's Law on nLab](https://ncatlab.org/nlab/show/Conway's+law)
+
+> Speaking as a mathematician might, we would say that there is a homomorphism from the linear graph of a system to the linear graph of its design organization.
+>
+> ([Melvin Conway](https://en.wikipedia.org/wiki/Melvin_Conway))
+
+> Authorship is a functor from a system to its designers.
+>
+> Slogan, _nLab authors_
+
+In less mathematical language, this law says that whenever two components of a system interoperate, the designers of those components communicate. It comes with an important corollary:
+
+> To the extent that an organization is not completely flexible in its communication structure, that organization will stamp out an image of itself in every design it produces.
+>
+> _Melvin Conway_
+
+Another important corollary is the contrapositive implication: whenever two designers do not communicate, the components which they design do not interoperate.
+
+This law reflects the structure of the organisation into technical boundaries of a system. This can lead to deliberate reorganization of designers to influence the structure of systems.
+
+For example, Conway's Law implies that if an organisation is structured into many disconnected units, then the software it produces will also be disconnected. Also, if an organization only produces [vertically-integrated products](https://en.wikipedia.org/wiki/Vertical_integration), then its internal divisions are also vertically integrated.
 
 See also:
 

@@ -49,6 +49,7 @@
     - [Premature Optimization Effect](#premature-optimization-effect)
     - [Putt's Law](#putts-law)
     - [Reed's Law](#reeds-law)
+    - [Schrödinger's Documentation](#shrodingers-documentation)
     - [The Bitter Lesson](#the-bitter-lesson)
     - [The Ringelmann Effect](#the-ringelmann-effect)
     - [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
@@ -610,6 +611,19 @@ This law is based on graph theory, where the utility scales as the number of pos
 See also:
 - [Metcalfe's Law](#metcalfes-law)
 - [Dunbar's Number](#dunbars-number)
+
+### Shrödinger's Documentation
+
+[Schrödinger's cat on Wikipedia](https://en.wikipedia.org/wiki/Schr%C3%B6dinger's_cat)
+[Schrödinger's documentation on Twitter/X](https://x.com/MaritvanDijk77/status/1768529586860499434)
+[Schrodinger's documentation on Bluesky](https://bsky.app/profile/maritvandijk.bsky.social/post/3knsbtr2lck27)
+
+> If there is documentation, nobody will read it.
+> If there is no documentation, users will complain about the lack thereof.
+
+The irony of documentation is that is out of date the moment somebody thinks of a new feature. Thus maintaining accurate documentation takes a lot of time and effort. When there is accurate documentation, it is large and hard to navigate. Thus users don't read it and ask questions instead.
+
+Yet when there is no documentation, a user will complain that he has to ask questions because they can’t look up the answer.
 
 ### The Bitter Lesson
 

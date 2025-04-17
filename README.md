@@ -49,7 +49,7 @@
     - [Premature Optimization Effect](#premature-optimization-effect)
     - [Putt's Law](#putts-law)
     - [Reed's Law](#reeds-law)
-    - [Schrödinger's Documentation](#shrodingers-documentation)
+    - [Schrödinger's Documentation](#schrodingers-documentation)
     - [The Bitter Lesson](#the-bitter-lesson)
     - [The Ringelmann Effect](#the-ringelmann-effect)
     - [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
@@ -612,7 +612,7 @@ See also:
 - [Metcalfe's Law](#metcalfes-law)
 - [Dunbar's Number](#dunbars-number)
 
-### Shrödinger's Documentation
+### Schrödinger's Documentation
 
 [Schrödinger's cat on Wikipedia](https://en.wikipedia.org/wiki/Schr%C3%B6dinger's_cat)
 [Schrödinger's documentation on Twitter/X](https://x.com/MaritvanDijk77/status/1768529586860499434)

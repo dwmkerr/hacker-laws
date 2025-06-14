@@ -2,12 +2,7 @@
 
 Leggi, teorie, principi e pattern utili agli sviluppatori.
 
-- 🇨🇳 [中文 / Traduzione in Cinese](https://github.com/nusr/hacker-laws-zh) - grazie [Steve Xu](https://github.com/nusr)!
-- 🇮🇹 [Traduzione in Italiano](https://github.com/csparpa/hacker-laws-it) - grazie [Claudio Sparpaglione](https://github.com/csparpa)!
-- 🇰🇷 [한국어 / Traduzione in Coreano](https://github.com/codeanddonuts/hacker-laws-kr) - grazie [Doughnut](https://github.com/codeanddonuts)!
-- 🇷🇺 [Русская версия / Traduzione in Russo](https://github.com/solarrust/hacker-laws) - grazie [Alena Batitskaya](https://github.com/solarrust)!
-- 🇹🇷 [Türkçe / Traduzione in Turco](https://github.com/umutphp/hacker-laws-tr) - grazie [Umut Işık](https://github.com/umutphp)!
-- 🇺🇸 [Original English Version - Versione Originale in Inglese](https://github.com/dwmkerr/hacker-laws) - grazie [Dave Kerr](https://github.com/dwmkerr)!
+[traduzioni](#translations): [🇧🇷](./translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇫🇷](./translations/fr.md) [🇱🇻](./translations/lv.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇪🇸](./translations/es-ES.md) [🇹🇷](./translations/tr.md) [🇮🇩](./translations/id.md) [🇯🇵](./translations/jp.md) [🇵🇱](./translations/pl.md) [🇻🇳](./translations/vi.md)
 
 ---
 

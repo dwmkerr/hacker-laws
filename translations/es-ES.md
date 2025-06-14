@@ -2,13 +2,7 @@
 
 Leyes, Teorías, Principios y Patrones que los desarrolladores encontrarán útiles.
 
-- 🇨🇳 [中文 / Versión China](https://github.com/nusr/hacker-laws-zh) - thanks [Steve Xu](https://github.com/nusr)!
-- 🇮🇹 [Traduzione in Italiano](https://github.com/csparpa/hacker-laws-it) - grazie [Claudio Sparpaglione](https://github.com/csparpa)!
-- 🇰🇷 [한국어 / Versión Koreana](https://github.com/codeanddonuts/hacker-laws-kr) - thanks [Doughnut](https://github.com/codeanddonuts)!
-- 🇷🇺 [Русская версия / Versión Rusa](https://github.com/solarrust/hacker-laws) - thanks [Alena Batitskaya](https://github.com/solarrust)!
-- 🇹🇷 [Türkçe / Versión Turca](https://github.com/umutphp/hacker-laws-tr) - thanks [Umut Işık](https://github.com/umutphp)
-- 🇧🇷 [Brasileiro / Versión Brasileña](./translations/pt-BR.md) - thanks [Leonardo Costa](https://github.com/LeoFC97)
-- 🇺🇸 [Original English Version - Versión Original en Inglés](https://github.com/dwmkerr/hacker-laws) - grazie [Dave Kerr](https://github.com/dwmkerr)!
+[traducciones](#translations):  [🇧🇷](./translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇫🇷](./translations/fr.md) [🇮🇹](./translations/it-IT.md) [🇱🇻](./translations/lv.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇹🇷](./translations/tr.md) [🇮🇩](./translations/id.md) [🇯🇵](./translations/jp.md) [🇵🇱](./translations/pl.md) [🇻🇳](./translations/vi.md)
 
 ¿Te gusta este proyecto? Por favor, considera [Esponsorizarme](https://github.com/sponsors/dwmkerr)!
 

@@ -4,13 +4,7 @@
 
 Hukum, Teori, Prinsip dan Pola yang berguna bagi pengembang (developer).
 
-- 🇨🇳 [中文 / Chinese Version](https://github.com/nusr/hacker-laws-zh) - Terima kasih kepada [Steve Xu](https://github.com/nusr)!
-- 🇮🇹 [Traduzione in Italiano](https://github.com/dwmkerr/hacker-laws/blob/master/translations/it-IT.md) - Terima kasih kepada [Claudio Sparpaglione](https://github.com/csparpa)!
-- 🇰🇷 [한국어 / Korean Version](https://github.com/codeanddonuts/hacker-laws-kr) - Terima kasih kepada [Doughnut](https://github.com/codeanddonuts)!
-- 🇷🇺 [Русская версия / Russian Version](https://github.com/solarrust/hacker-laws) - Terima kasih kepada [Alena Batitskaya](https://github.com/solarrust)!
-- 🇹🇷 [Türkçe / Turkish Version](https://github.com/umutphp/hacker-laws-tr) - Terima kasih kepada [Umut Işık](https://github.com/umutphp)
-- 🇧🇷 [Brasileiro / Brazilian Version](./translations/pt-BR.md) - Terima kasih kepada [Leonardo Costa](https://github.com/LeoFC97)
-- 🇪🇸 [Castellano / Spanish Version](./translations/es-ES.md) - Terima kasih kepada [Manuel Rubio](https://github.com/manuel-rubio)
+[terjemahan](#translations):  [🇧🇷](./translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇫🇷](./translations/fr.md) [🇮🇹](./translations/it-IT.md) [🇱🇻](./translations/lv.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇪🇸](./translations/es-ES.md) [🇹🇷](./translations/tr.md) [🇯🇵](./translations/jp.md) [🇵🇱](./translations/pl.md) [🇻🇳](./translations/vi.md)
 
 Suka dengan project ini? Silahkan Mempertimbangkan untuk [Mensponsori saya](https://github.com/sponsors/dwmkerr)!
 

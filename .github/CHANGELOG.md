@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.3](https://github.com/dwmkerr/hacker-laws/compare/v0.3.2...v0.3.3) (2025-06-16)
+
+
+### Bug Fixes
+
+* correct mistranslation of Hyrum’s Law in Japanese ([ab076b3](https://github.com/dwmkerr/hacker-laws/commit/ab076b3c638460b1c792ef676b902ca74be3c763))
+
 ## [0.3.2](https://github.com/dwmkerr/hacker-laws/compare/v0.3.1...v0.3.2) (2025-03-31)
 
 

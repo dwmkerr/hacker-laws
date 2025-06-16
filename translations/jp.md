@@ -2,7 +2,7 @@
 
 開発者が役に立つと思う法則、理論、原則、パターン。
 
-[翻訳](#翻訳): [🇧🇷](../translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇩🇪](../translations/de.md) [🇫🇷](../translations/fr.md) [🇬🇷](../translations/el.md) [🇮🇹](https://github.com/csparpa/hacker-laws-it) [🇱🇻](../translations/lv.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇪🇸](../translations/es-ES.md) [🇹🇷](https://github.com/umutphp/hacker-laws-tr) [JP](../translations/jp.md)
+[翻訳](#翻訳): [🇧🇷](./translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇫🇷](./translations/fr.md) [🇮🇹](./translations/it-IT.md) [🇱🇻](./translations/lv.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇪🇸](./translations/es-ES.md) [🇹🇷](./translations/tr.md) [🇮🇩](./translations/id.md) [🇵🇱](./translations/pl.md) [🇻🇳](./translations/vi.md)
 
 このプロジェクトが気に入りましたか？ぜひ私と[翻訳者](#%E7%BF%BB%E8%A8%B3)を支援すること[ご検討ください。](https://github.com/sponsors/dwmkerr)
 

@@ -1,20 +1,10 @@
-# 💻 📖 hacker-laws
+# 💻📖 hacker-laws
 
 [![gitlocalized](https://gitlocalize.com/repo/2513/whole_project/badge.svg)](https://gitlocalize.com/repo/2513/whole_project?utm_source=badge)
 
 Likumi, teorijas, principi un apraksti, kas izstrādātājiem šķitīs noderīgi.
 
-- 🇨🇳 [中文/Chinese Version](https://github.com/nusr/hacker-laws-zh) - paldies [Steve Xu](https://github.com/nusr)!
-- 🇮🇹 [traduzione Italiano](https://github.com/dwmkerr/hacker-laws/blob/master/translations/it-IT.md) - paldies [Claudio Sparpaglione](https://github.com/csparpa)!
-- 🇰🇷 [한국어/korejiešu versija](https://github.com/codeanddonuts/hacker-law-kr) - paldies [Doughnut](https://github.com/codeanddonuts)!
-- 🇷🇺 [Русская версия/Krievijas versija](https://github.com/solarrust/hacker-laws) - paldies [Alena Batitskaya](https://github.com/solarrust)!
-- 🇹🇷 [türkçe/Turkish Version](https://github.com/umutphp/hacker-laws-tr) - paldies [Umut Işık](https://github.com/umutphp)
-- 🇧🇷 [Brasileiro/Brazīlijas versija](./translations/pt-BR.md) - paldies [Leonardo Costa](https://github.com/LeoFC97)
-- 🇪🇸 [Castellano/Spānijas versija](./translations/es-ES.md) - paldies [Manuel Rubio](https://github.com/manuel-rubio)
-- 🇱🇻 [Latvian/Latvijas versija](./translations/lv.md) - paldies [Artūrs Jansons](https://github.com/iegik)
-- 🇺🇸 [Original English Version - Oriģinālā angļu versija](https://github.com/dwmkerr/hacker-laws) - paldies [Dave Kerr](https://github.com/dwmkerr)!
-
-Kā šis projekts? Lūdzu, apsveriet iespēju [Sponsoring Me](https://github.com/sponsors/dwmkerr)!
+[tulkojumi](#translations): [🇧🇷](./translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇫🇷](./translations/fr.md) [🇮🇹](./translations/it-IT.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇪🇸](./translations/es-ES.md) [🇹🇷](./translations/tr.md) [🇮🇩](./translations/id.md) [🇯🇵](./translations/jp.md) [🇵🇱](./translations/pl.md) [🇻🇳](./translations/vi.md)
 
 ---
 

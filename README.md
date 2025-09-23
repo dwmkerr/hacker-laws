@@ -71,6 +71,7 @@
     - [Chesterton's Fence](#chestertons-fence)
     - [Kerckhoffs's principle](#kerckhoffss-principle)
     - [The Dead Sea Effect](#the-dead-sea-effect)
+    - [Datskovskiy's Principle](#datskovskiys-principle)
     - [The Dilbert Principle](#the-dilbert-principle)
     - [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
     - [The Shirky Principle](#the-shirky-principle)
@@ -859,6 +860,28 @@ The history of cryptography has shown that open discussion and analysis of crypt
 The "Dead Sea Effect" suggests that in any organisation, the skills/talent/efficacy of engineers is often inversely proportional to their time in the company.
 
 Typically, highly skilled engineers find it easy to gain employment elsewhere and are the first to do so. Engineers who have obsolete or weak skills will tend to remain with the company, as finding employment elsewhere is difficult. This is particularly pronounced if they have gained incremental pay rises over their time in the company, as it can be challenging to get equivalent remuneration elsewhere.
+
+### Datskovskiy's Principle
+
+[Original blog post coining the principle](https://www.loper-os.org/?p=69)
+
+> Employers much prefer that workers be fungible, rather than maximally productive.
+>
+> _Stanislav Datskovskiy_
+
+Originally used to discuss ideas and culture of the Lisp language family, this is a broad principle regarding software development for profit.
+
+It holds that the greatest thing capitalists want from their programmers is not productivity -- a belief supported by the rhetoric frequently used in the industry. Rather, the totality of incentives manifests in much subtler ways, and productivity takes a back seat to fungibility and control.
+
+This principle highlights the problem space that is being ignored in engineering process, team management, deployment strategy, collaboration workflows/"silos", hardware procurement, defect prioritization, and (as originally claimed) even programming language choices.
+
+For example, one might ask why [many companies treat Agile Development as a technique to manage waterfall](https://ludic.mataroa.blog/blog/i-will-fucking-haymaker-you-if-you-mention-agile-again/), rather than embracing its concepts to achieve the productivity it promises. This principle would argue it's because teams would become too unique as a cohesive unit, requiring a "reset" in productivity lost whenever one of their members is replaced.
+
+Similar ideas can be found in [Corey Doctorow's writings about Big Tech labor dynamics](https://pluralistic.net/2025/04/27/some-animals/#are-more-equal-than-others).
+
+See Also:
+
+- [The Dead Sea Effect](#the-dead-sea-effect)
 
 ### The Dilbert Principle
 

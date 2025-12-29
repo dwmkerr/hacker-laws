@@ -1,7 +1,4 @@
 <h1 align="center"><a href="https://hacker-laws.com" target="_blank">hacker-laws</a></h1>
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<a href="#contributors"><img src="https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square" alt="All Contributors" /></a>
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 <h4 align="center">🧠 Laws, Theories, Principles and Patterns for developers and technologists.</h4>
 
 ---

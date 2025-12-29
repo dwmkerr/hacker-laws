@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.4.0](https://github.com/dwmkerr/hacker-laws/compare/v0.3.2...v0.4.0) (2025-12-29)
+
+
+### Features
+
+* add The Stochastic Parrot ([bd1f1f9](https://github.com/dwmkerr/hacker-laws/commit/bd1f1f92d680dd355c993375cd71f81f81f9cfc6))
+* add The Stochastic Parrot ([286e57a](https://github.com/dwmkerr/hacker-laws/commit/286e57a0e6017845d811072d2e49b7b0c73619da))
+
+
+### Bug Fixes
+
+* correct mistranslation of Hyrum’s Law in Japanese ([ab076b3](https://github.com/dwmkerr/hacker-laws/commit/ab076b3c638460b1c792ef676b902ca74be3c763))
+
 ## [0.3.2](https://github.com/dwmkerr/hacker-laws/compare/v0.3.1...v0.3.2) (2025-03-31)
 
 

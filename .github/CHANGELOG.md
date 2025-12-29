@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.4.1](https://github.com/dwmkerr/hacker-laws/compare/v0.4.0...v0.4.1) (2025-12-29)
+
+
+### Bug Fixes
+
+* broken all-contributors badge link ([ff24778](https://github.com/dwmkerr/hacker-laws/commit/ff24778aa8e3fda0eb514b1355eaaf6cdee63c54))
+* convert badge to HTML for proper rendering ([f79f2c8](https://github.com/dwmkerr/hacker-laws/commit/f79f2c83c5886736e1de33714e2f4326bf71b2b7))
+* remove all-contributors badge ([872a758](https://github.com/dwmkerr/hacker-laws/commit/872a7588b9042b3ac80ae5a7cea0b8b1e4877f71))
+
 ## [0.4.0](https://github.com/dwmkerr/hacker-laws/compare/v0.3.2...v0.4.0) (2025-12-29)
 
 

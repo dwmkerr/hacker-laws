@@ -71,6 +71,7 @@
     - [The Dilbert Principle](#the-dilbert-principle)
     - [The Pareto Principle (The 80/20 Rule)](#the-pareto-principle-the-8020-rule)
     - [The Shirky Principle](#the-shirky-principle)
+    - [The Stochastic Parrot](#the-stochastic-parrot)
     - [The Peter Principle](#the-peter-principle)
     - [The Robustness Principle (Postel's Law)](#the-robustness-principle-postels-law)
     - [SOLID](#solid)
@@ -911,6 +912,23 @@ Related to:
 See also:
 
 - [Pareto Principle](#the-pareto-principle-the-8020-rule)
+
+### The Stochastic Parrot
+
+[On the Dangers of Stochastic Parrots - Bender, Gebru, et al. (2021)](https://dl.acm.org/doi/10.1145/3442188.3445922)
+
+> Contrary to how it may seem when we observe its output, an LM is a system for haphazardly stitching together sequences of linguistic forms it has observed in its vast training data, according to probabilistic information about how they combine, but without any reference to meaning: a stochastic parrot.
+>
+> _Emily M. Bender, Timnit Gebru, et al. (2021)_
+
+The term argues that Large Language Models (LLMs) produce statistically likely sequences of text based on training data, without genuine comprehension. Essentially - confident-sounding output is not evidence of correctness or understanding.
+
+Models can (and do) "hallucinate" - producing plausible sounding output or confidently making statements which are demonstrably wrong. This does not devalue these models, but highlights important characteristics which must be accounted for when using them.
+
+See also:
+
+- [The Bitter Lesson](#the-bitter-lesson)
+- [All Models Are Wrong (George Box's Law)](#all-models-are-wrong-george-boxs-law)
 
 ### The Peter Principle
 

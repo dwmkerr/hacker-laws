@@ -1,6 +1,6 @@
 <h1 align="center"><a href="https://hacker-laws.com" target="_blank">hacker-laws</a></h1>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <h4 align="center">🧠 Laws, Theories, Principles and Patterns for developers and technologists.</h4>
 
@@ -1182,7 +1182,7 @@ Hacker Laws has been featured in [The Changelog](https://changelog.com/podcast/4
 <a href="https://changelog.com/podcast/403" target="_blank"><img src="./images/changelog-podcast.png" width="800px" alt="Changelog Podcast Image" /></a>
 
 
-## Contributors ✨
+## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 

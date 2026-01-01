@@ -146,9 +146,11 @@ As can be seen, even a program which is 50% parallelisable will benefit very lit
 
 As [Moore's Law](#moores-law) slows, and the acceleration of individual processor speed slows, parallelisation is key to improving performance. Graphics programming is an excellent example - with modern Shader based computing, individual pixels or fragments can be rendered in parallel - this is why modern graphics cards often have many thousands of processing cores (GPUs or Shader Units).
 
+Amdahl's Law can be proven as a special case of Conway's Law; conversely, Conway's Law can be used to generalize Amdahl's Law to apply to arbitrary systems which happen to embed computation.
+
 See also:
 
-- [Brooks' Law](#brooks-law)
+- [Conway's Law](#conways-law)
 - [Moore's Law](#moores-law)
 
 ### The Broken Windows Theory
@@ -181,9 +183,15 @@ The common phrase in delivery "Nine women can't make a baby in one month" relate
 
 This is a central theme of the book '[The Mythical Man Month](#reading-list)'.
 
+Brook's Law can be formally proven as an instance of Conway's Law by considering a team where everybody communicates with everybody else, creating a [complete graph](https://en.wikipedia.org/wiki/Complete_graph). The number of edges between `n` people can be expressed as `n(n-1)/2`, which is quadratic in the team size.
+
+<img width="200px" alt="Complete graph; Links between people" src="./images/complete_graph.png" />
+
 See also:
 
+- [Conway's Law](#conways-law)
 - [Death March](#todo)
+- [The Two Pizza Rule](#the-two-pizza-rule)
 - [Reading List: The Mythical Man Month](#reading-list)
 
 ### CAP Theorem (Brewer's Theorem)
@@ -227,10 +235,35 @@ These so-called laws are:
 
 [Conway's Law on Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
 
-This law suggests that the technical boundaries of a system will reflect the structure of the organisation. It is commonly referred to when looking at organisation improvements, Conway's Law suggests that if an organisation is structured into many small, disconnected units, the software it produces will be. If an organisation is built more around 'verticals' which are oriented around features or services, the software systems will also reflect this.
+[Conway's Law on nLab](https://ncatlab.org/nlab/show/Conway's+law)
+
+> Speaking as a mathematician might, we would say that there is a homomorphism from the linear graph of a system to the linear graph of its design organization.
+>
+> ([Melvin Conway](https://en.wikipedia.org/wiki/Melvin_Conway))
+
+> Authorship is a functor from a system to its designers.
+>
+> Slogan, _nLab authors_
+
+In less mathematical language, this law says that whenever two components of a system interoperate, the designers of those components communicate. It comes with an important corollary:
+
+> To the extent that an organization is not completely flexible in its communication structure, that organization will stamp out an image of itself in every design it produces.
+>
+> _Melvin Conway_
+
+Another important corollary is the contrapositive implication: whenever two designers do not communicate, the components which they design do not interoperate.
+
+This law reflects the structure of the organisation into technical boundaries of a system. This can lead to deliberate reorganization of designers to influence the structure of systems.
+
+For example, Conway's Law implies that if an organisation is structured into many disconnected units, then the software it produces will also be disconnected. Also, if an organization only produces [vertically-integrated products](https://en.wikipedia.org/wiki/Vertical_integration), then its internal divisions are also vertically integrated.
+
+In the 2022 lecture [The Only Unbreakable Law](https://www.youtube.com/watch?v=5IUj1EZwpJY), Casey Muratori notes that several other laws can be formally proven from Conway's Law, including Amdahl's and Brooks' Laws.
 
 See also:
 
+- [Amdahl's Law](#amdahls-law)
+- [Brooks' Law](#brooks-law)
+- [The Two Pizza Rule](#the-two-pizza-rule)
 - [The Spotify Model](#the-spotify-model)
 
 ### Cunningham's Law
@@ -753,9 +786,11 @@ Members of the organisation have described that the actual meaning of these grou
 
 This rule suggests that regardless of the size of the company, teams should be small enough to be fed by two pizzas. Attributed to Jeff Bezos and Amazon, this belief suggests that large teams are inherently inefficient. This is supported by the fact that as the team size increases linearly, the links between people increases quadratically; thus the cost of coordinating and communicating also grows quadratically. If this cost of coordination is essentially overhead, then smaller teams should be preferred.
 
-The number of links between people can be expressed as `n(n-1)/2` where n = number of people.
+This rule operationalizes Brooks' Law by putting a hard limit on the number of links between people in a team.
 
-<img width="200px" alt="Complete graph; Links between people" src="./images/complete_graph.png" />
+See also:
+
+- [Brooks' Law](#brooks-law)
 
 ### Twyman's law
 

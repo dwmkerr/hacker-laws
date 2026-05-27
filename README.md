@@ -23,6 +23,7 @@
     - [The Broken Windows Theory](#the-broken-windows-theory)
     - [Brooks' Law](#brooks-law)
     - [CAP Theorem (Brewer's Theorem)](#cap-theorem-brewers-theorem)
+    - [Callback Hell](#callback-hell)
     - [Clarke's three laws](#clarkes-three-laws)
     - [Conway's Law](#conways-law)
     - [Cunningham's Law](#cunninghams-law)
@@ -211,6 +212,23 @@ See also:
 - [ACID](#TODO)
 - [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)
 - [PACELC](#TODO)
+
+### Callback Hell
+
+[Callback Hell on Wiktionary](https://en.wiktionary.org/wiki/callback_hell)
+
+> The situation where callbacks are nested within other callbacks several levels deep, potentially making it difficult to understand and maintain the code.
+
+Callback hell is a colloquial term most commonly associated with JavaScript, describing the anti-pattern of deeply nesting asynchronous callbacks. The resulting code forms a "pyramid of doom" that is difficult to read, reason about, and maintain. Each level of nesting adds cognitive load and makes error handling increasingly complex.
+
+The term belongs to a family of "hell" metaphors in software — alongside _DLL hell_ and _dependency hell_ — that describe situations where a normally manageable mechanism becomes unwieldy at scale.
+
+Modern language features such as Promises, `async`/`await`, and reactive streams were developed in direct response to this problem, illustrating how widespread pain points in developer experience can drive language-level changes.
+
+See also:
+
+- [The Law of Conservation of Complexity (Tesler's Law)](#the-law-of-conservation-of-complexity-teslers-law)
+- [Kernighan's Law](#kernighans-law)
 
 ### Clarke's three laws
 

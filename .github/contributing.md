@@ -3,12 +3,14 @@
 <!-- vim-markdown-toc GFM -->
 
 - [Goal of the Project](#goal-of-the-project)
+- [Editorial Process](#editorial-process)
 - [Example Law: The Law of Leaky Abstractions](#example-law-the-law-of-leaky-abstractions)
 - [Translations](#translations)
 - [How do I know if a law is relevant?](#how-do-i-know-if-a-law-is-relevant)
 - [How do I know if a law is 'well known' enough?](#how-do-i-know-if-a-law-is-well-known-enough)
 - [Use of Images](#use-of-images)
 - [Developer Guide](#developer-guide)
+- [Contributor Credit and a Possible Book](#contributor-credit-and-a-possible-book)
 
 <!-- vim-markdown-toc -->
 
@@ -33,11 +35,22 @@ Some other tips:
 - Do not advocate for the law, or aim to be opinionated on the correctness or incorrectness of the law, as this repository is simply the descriptions and links.
 - Avoid 'you' when writing. For example, prefer "This law suggests refactoring should be avoided when..." rather than "you should avoid refactoring when...". This keeps the style slightly more formal and avoids seeming like advocation of a law.
 
-An example law is shown below, which covers most of the key points:
+## Editorial Process
+
+Every contribution is edited, either before it is merged or shortly afterwards. In practice this means changes to style, tone, structure and length, a check that the description is correct and relevant, and a check that quotes and images are properly attributed.
+
+A law may therefore end up reading quite differently from the version that was submitted. This is not a comment on the quality of the contribution. The aim is to keep a long document in a single voice, and to keep every entry to the same shape and length.
+
+Two things make this much easier:
+
+- Do not copy and paste text from other sources, unless it is explicitly quoted and attributed. See [Use of Images](#use-of-images) for the equivalent point about pictures.
+- Include a link to the source for anything you reference, and the licence for any image.
 
 ---
 
 ## Example Law: The Law of Leaky Abstractions
+
+An example law is shown below, which covers most of the key points.
 
 [The Law of Leaky Abstractions on Joel on Software](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
 
@@ -87,19 +100,30 @@ A good test is 'If I search for it on Google, will I find it in the first few re
 
 ## Use of Images
 
-Please make sure to attribute images properly if you are referencing them. Also, include a white background, as some viewers will be viewing the site in 'Dark Mode' which can make images with a transparent background difficult to read.
+Original diagrams are strongly preferred. If you do reference an image from elsewhere, please include the source URL, the author and the licence in the pull request, so that it can be attributed properly. Images without a clear licence cannot be accepted, and images may later be redrawn to keep the artwork consistent.
+
+Also include a white background, as some viewers will be reading in 'Dark Mode', which can make images with a transparent background difficult to read.
 
 ## Developer Guide
 
 Where possible, anything which is not the core `README.md` file is kept in the `.github/` folder to keep the landing page for the repository as clean as possible.
 
-To use the makefile, pass its path explicitly, e.g:
+The website at [hacker-laws.com](https://hacker-laws.com) is built from `README.md`. To build and serve it locally:
 
 ```bash
-make -f .github/makefile
+cd .github/website
+make install
+make serve
 ```
 
-Or create an alias:
+Run `make` on its own to see the other targets.
 
-```bash
-alias hlmake="make -f .github/makefile"
+## Contributor Credit and a Possible Book
+
+This project may in time be turned into a book.
+
+If that happens, every contributor will be credited in an appendix. Contributors are listed by GitHub handle by default. If you would prefer to be credited by name, please say so in your pull request.
+
+By opening a pull request you grant the maintainer a permanent, worldwide, royalty-free and non-exclusive licence to use, edit, translate and publish your contribution in any format, including print and electronic editions which are sold. You keep the copyright in what you wrote, and remain free to use it elsewhere yourself.
+
+The repository stays under [CC BY-SA 4.0](../LICENSE) and will remain free to read.

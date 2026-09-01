@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 84" width="320" height="84" role="img" aria-label="Hick's Law: T equals b times log base 2 of n plus 1">
+  <title>Hick's Law: T equals b times log base 2 of n plus 1</title>
+  <rect x="0" y="0" width="320" height="84" fill="#ffffff"/>
+  <text x="160" y="54" font-family="Georgia, Times New Roman, serif" font-size="30" fill="#212529" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">T</tspan><tspan> = </tspan><tspan font-style="italic">b</tspan><tspan> &#183; log</tspan><tspan font-size="18" dy="7">2</tspan><tspan dy="-7">(</tspan><tspan font-style="italic">n</tspan><tspan> + 1)</tspan></text>
+</svg>

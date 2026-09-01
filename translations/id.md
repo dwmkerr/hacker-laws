@@ -84,7 +84,7 @@ Ilustrasikan terbaik dengan sebuah contoh. Jika suatu program terdiri dari dua b
 
 Diagram di bawah ini menunjukkan beberapa contoh peningkatan kecepatan potensial:
 
-<img width="480px" alt="Diagram: Amdahl's Law" src="./../images/amdahls_law.png" />
+<img width="480px" alt="Diagram: Amdahl's Law" src="./../images/amdahls-law.svg" />
 
 *(Gambar referensi: Oleh Daniels220 di Wikipedia Bahasa Inggris, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 
@@ -255,7 +255,7 @@ Sebagai contoh, penurunan latensi respons untuk titik akhir tertentu dapat menye
 
 Hype Siklus adalah representasi visual dari kegembiraan dan pengembangan teknologi dari waktu ke waktu, awalnya diproduksi oleh Gartner. Paling baik ditunjukkan dengan visual:
 
-![Siklus Hype](./../images/gartner_hype_cycle.png)
+![Siklus Hype](./../images/hype-cycle.svg)
 
 *(Referensi Gambar: Oleh Jeremykemp di bahasa inggris Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
 

@@ -100,7 +100,7 @@
 
 下記の図は、並列度増加と期待する速度改善の例を示しています。
 
-<img width="480px" alt="Diagram: Amdahl's Law" src="../images/amdahls_law.png">
+<img width="480px" alt="Diagram: Amdahl's Law" src="../images/amdahls-law.svg">
 
 *（画像参照：英語版ウィキペディアのDaniels220、クリエイティブコモンズの表示-継承3.0非移植、https：//en.wikipedia.org/wiki/File：AmdahlsLaw.svg）*
 
@@ -265,7 +265,7 @@
 
 ハイプ・サイクルは、元々はガートナー社によって作成された、時間をかけてテクノロジーの興奮と発展を視覚的に表現したものです。視覚的に表示するのが最適です。
 
-![The Hype Cycle](../images/gartner_hype_cycle.png)
+![The Hype Cycle](../images/hype-cycle.svg)
 
 *（画像参照：英語版ウィキペディアのJeremykemp著、CC BY-SA 3.0、https：//commons.wikimedia.org/w/index.php？curid = 10547051）*
 

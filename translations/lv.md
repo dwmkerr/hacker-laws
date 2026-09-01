@@ -82,7 +82,7 @@ Vislabāk ilustrēts ar piemēru. Ja programma sastāv no divām daļām, daļas
 
 Turpmāk redzamajā diagrammā ir parādīti daži iespējamo ātruma uzlabojumu piemēri.
 
-<img alt="Diagram: Amdahla likums" src="../images/amdahls_law.png" width="480px"/>
+<img alt="Diagram: Amdahla likums" src="../images/amdahls-law.svg" width="480px"/>
 
 *(Atsauce uz attēlu: Daniels220 angļu valodā Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 
@@ -253,7 +253,7 @@ Piemēram, atbildes latentuma samazināšanās konkrētā galapunktā varētu ra
 
 Hype Cycle ir Gārtnera sākotnēji ražotās tehnoloģijas saviļņojuma un attīstības vizuāls attēlojums laika gaitā. Vislabāk to rāda vizuāli:
 
-![The Hype Cycle](../images/gartner_hype_cycle.png)
+![The Hype Cycle](../images/hype-cycle.svg)
 
 *(Atsauce uz attēlu: angļu valodā Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
 

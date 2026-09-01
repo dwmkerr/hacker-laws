@@ -67,7 +67,7 @@ Ecco un esempio illustrativo. Se un programma è costituito da due parti - una p
 
 Il diagramma sotto riportato illustra gli andamenti nel tempo della velocità di esecuzione in alcuni casi:
 
-![Diagram: Amdahl's Law](./images/amdahls_law.png)
+![Diagram: Amdahl's Law](./images/amdahls-law.svg)
 
 *(Crediti Immagine: Daniels220 su Wikipedia in lingua inglese, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 
@@ -182,7 +182,7 @@ Per esempio, la diminuzione nella latenza di risposta di uno specifico end-point
 
 L'Hype Cycle è una rappresentazione visuale del clamore attorno allo sviluppo di una tecnologia nel tempo, originariamente ideata da Gartner. Un esempio:
 
-![The Hype Cycle](./images/gartner_hype_cycle.png)
+![The Hype Cycle](./images/hype-cycle.svg)
 
 *(Crediti Immagine: Jeremykemp su Wikipedia in lingua inglese, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
 

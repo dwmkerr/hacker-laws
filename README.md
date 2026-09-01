@@ -141,7 +141,7 @@ Best illustrated with an example. If a program is made up of two parts, part A, 
 
 The diagram below shows some examples of potential improvements in speed:
 
-<img width="480px" alt="Diagram: Amdahl's Law" src="./images/amdahls_law.png" />
+<img width="560px" alt="Diagram: Amdahl's Law, showing speedup against the number of processors for four different parallel portions" src="./images/amdahls-law.svg" />
 
 
 As can be seen, even a program which is 50% parallelisable will benefit very little beyond 10 processing units, whereas a program which is 95% parallelisable can still achieve significant speed improvements with over a thousand processing units.
@@ -283,7 +283,7 @@ Real-world examples:
 
 Fitts' law predicts that the time required to move to a target area is a function of the distance to the target divided by the width of the target.
 
-<img width="300px" alt="Diagram: Fitts Law" src="./images/Fitts_Law.svg" />
+<img width="420px" alt="Diagram: Fitts' Law, showing the distance D to a target and the width W of that target" src="./images/fitts-law.svg" />
 
 
 The consequences of this law dictate that when designing UX or UI, interactive elements should be as large as possible and the distance between the users attention area and interactive element should be as small as possible. This has consequences on design, such as grouping tasks that are commonly used with one another close.
@@ -354,7 +354,7 @@ This principle suggests that actions resulting in a negative outcome were not a 
 
 In the equation below, `T` is the time to make a decision, `n` is the number of options, and `b` is a constant which is determined by analysis of the data.
 
-![Hicks law](./images/hicks_law.svg)
+<img width="240px" alt="Equation: T equals b multiplied by the base two logarithm of n plus one" src="./images/hicks-law.svg" />
 
 
 This law only applies when the number of options is _ordered_, for example, alphabetically. This is implied in the base two logarithm - which implies the decision maker is essentially performing a _binary search_. If the options are not well ordered, experiments show the time taken is linear.
@@ -404,7 +404,7 @@ For example, a decrease in response latency for a particular end-point could cau
 
 The Hype Cycle is a visual representation of the excitement and development of technology over time, originally produced by Gartner. It is best shown with a visual:
 
-![The Hype Cycle](./images/gartner_hype_cycle.png)
+<img width="800px" alt="Diagram: The Hype Cycle, showing expectations over time through the technology trigger, peak of inflated expectations, trough of disillusionment, slope of enlightenment and plateau of productivity" src="./images/hype-cycle.svg" />
 
 
 In short, this cycle suggests that there is typically a burst of excitement around new technology and its potential impact. Teams often jump into these technologies quickly, and sometimes find themselves disappointed with the results. This might be because the technology is not yet mature enough, or real-world applications are not yet fully realised. After a certain amount of time, the capabilities of the technology increase and practical opportunities to use it increase, and teams can finally become productive. Roy Amara's quote sums this up most succinctly - "We tend to overestimate the effect of a technology in the short run and underestimate in the long run".
@@ -805,7 +805,7 @@ This rule suggests that regardless of the size of the company, teams should be s
 
 The number of links between people can be expressed as `n(n-1)/2` where n = number of people.
 
-<img width="200px" alt="Complete graph; Links between people" src="./images/complete_graph.png" />
+<img width="220px" alt="Diagram: a complete graph of seven nodes, showing a link between every pair of people" src="./images/complete-graph.svg" />
 
 ### Twyman's law
 

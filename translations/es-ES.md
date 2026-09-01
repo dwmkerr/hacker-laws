@@ -75,7 +75,7 @@ Mejor lo ilustramos con un ejemplo. Si un programa se compone de dos partes, la 
 
 El diagrama de abajo muestra algunos ejemplos de mejoras potenciales en velocidad:
 
-![Diagram: Amdahl's Law](./images/amdahls_law.png)
+![Diagram: Amdahl's Law](./images/amdahls-law.svg)
 
 *(Imagen de Referencia: Por Daniels220 en Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 
@@ -205,7 +205,7 @@ Por ejemplo, un decremento en la latencia de respuesta para un end-point particu
 
 El Ciclo de Sobreexpectación es una representación visual de la excitación y desarrollo de tecnología a lo largo del tiempo, originalmente producido por Gartner. Se explica mejor de forma visual:
 
-![El Cico de Sobreexpectación](./images/gartner_hype_cycle.png)
+![El Cico de Sobreexpectación](./images/hype-cycle.svg)
 
 *(Referencia de Imagen: Por Jeremykemp en Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
 

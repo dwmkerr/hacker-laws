@@ -104,7 +104,7 @@ En güzel şu örnekle anlatılabilir. Bir programın iki bölümden oluştuğun
 
 Aşağıdaki diyagram bazı olası hız geliştirmelerine örnekler içeriyor:
 
-<img width="480px" alt="Diagram: Amdahl's Law" src="../../../../images/amdahls_law.png">
+<img width="480px" alt="Diagram: Amdahl's Law" src="../../../../images/amdahls-law.svg">
 
 *(Diyagramın kaynağı: Daniels220 tarafından İngilizce Wikipedia'da, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 
@@ -216,9 +216,7 @@ Ek kaynaklar:
 
 Fitts yasası, bir hedef alana gitmek için gereken sürenin hesaplanmasında, hedefe olan mesafenin hedefin genişliğine bölünmesinin bir işlevi olduğunu öngörür.
 
-<img width="300px" alt="The Hype Cycle" src="./images/Fitts_Law.svg">
-
-*(Diagramın Kaynağı: By Foobar628 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/Fitts%27s_law#/media/File:Fitts_Law.svg)*
+<img width="300px" alt="The Hype Cycle" src="./images/fitts-law.svg">
 
 Bu yasanın sonuçları, UX veya UI tasarlanırken etkileşimli öğelerin mümkün olduğunca büyük olması ve kullanıcıların dikkat alanı ile etkileşimli öğe arasındaki mesafenin mümkün olduğunca küçük olması gerektiğini ortaya çıkarır. Bunun tasarım üzerinde sonuçları vardır, örneğin birbirleriyle yakın kullanılan işlevlerin gruplanması gibi.
 
@@ -285,7 +283,7 @@ Bu prensip, olumsuz sonuçlara yol açan eylemlerin, çoğunlukla kötü niyetin
 
 Aşağıdaki denklemde, `T` karar verme zamanıdır, `n` seçenek sayısıdır ve `b` verilerin analizi ile belirlenen bir sabittir.
 
-![Hicks law](./images/hicks_law.svg)
+![Hicks law](./images/hicks-law.svg)
 
 *(Diagramın Kaynağı: Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/Hick%27s_law)*
 
@@ -334,7 +332,7 @@ Bu yasa der ki; sistemde yapılan bir iyileştirme sistemin diğer taraflarında
 
 Hype Döngüsü bir teknolojinin zamanla yarattığı heyecan ve gelişiminin görsel olarak sunumudur ve Gartner tarafından ilk olarak oluşturulmuştur. En güzel anlatım aşağıdaki bir görsel ile yapılabilir:
 
-![The Hype Cycle](./images/gartner_hype_cycle.png)
+![The Hype Cycle](./images/hype-cycle.svg)
 
 *(Resmin Kaynağı: Jeremykemp tarafından İngilizce Wikipeda'da, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
 

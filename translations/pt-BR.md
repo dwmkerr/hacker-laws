@@ -99,7 +99,7 @@ Fica mais fácil de entender com um exemplo prático. Se um programa é feito de
 
 O diagrama abaixo mostra alguns exemplos de melhoria na velocidade:
 
-![Diagram: Lei de Amadhl](../images/amdahls_law.png)
+![Diagram: Lei de Amadhl](../images/amdahls-law.svg)
 
 *(Image Reference: By Daniels220 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 
@@ -260,7 +260,7 @@ Por exemplo, a diminuição na latência da resposta para um `end-point` particu
 > Roy Amara
 
 O Ciclo Hype é uma representação visual da empolgação e desenvolvimento da tecnologia ao longo do tempo, originalmente produzida por Gartner.
-![The Hype Cycle](../images/gartner_hype_cycle.png)
+![The Hype Cycle](../images/hype-cycle.svg)
 
 *(Image Reference: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
 

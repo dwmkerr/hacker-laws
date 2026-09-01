@@ -84,7 +84,7 @@ Prenons un exemple: si un programme est composé de 2 parties, la partie A devan
 
 Le diagramme ci-dessous montre quelques exemples de gain de vitesse potentiels :
 
-<img width="480px" alt="Diagram: Amdahl's Law" src="../images/amdahls_law.png">
+<img width="480px" alt="Diagram: Amdahl's Law" src="../images/amdahls-law.svg">
 
 *(Reference: par Daniels220 sur English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
 
@@ -249,7 +249,7 @@ Par exemple, un abaissement de la latence de réponse sur une route (end-point) 
 
 Le cycle du hype est une représentation visuelle de l'attrait et du développement d'une technologie au fil du temps. Initialement réalisé par Gartner, le concept est plus clair avec un diagramme :
 
-![The Hype Cycle](../images/gartner_hype_cycle.png)
+![The Hype Cycle](../images/hype-cycle.svg)
 
 *(Reference: par Jeremykemp sur English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)*
 

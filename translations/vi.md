@@ -114,7 +114,7 @@ Minh họa tốt nhất với một ví dụ. Nếu một chương trình có ha
 
 Sơ đồ dưới đây cho thấy một số ví dụ về những cải tiến tiềm năng về tốc độ:
 
-<img width="480px" src="./images/amdahls_law.png" alt="Diagram: Amdahl's Law">
+<img width="480px" src="./images/amdahls-law.svg" alt="Diagram: Amdahl's Law">
 
 _(Tham khảo hình ảnh: Bởi Daniels219 tại Wikipedia tiếng Anh, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)_
 
@@ -244,9 +244,7 @@ Ví dụ trong thế giới thực:
 
 Định luật Fitts dự đoán rằng thời gian cần thiết để di chuyển đến một khu vực mục tiêu là một hàm của khoảng cách đến mục tiêu chia cho chiều rộng của mục tiêu.
 
-<img width="300px" src="./images/Fitts_Law.svg" alt="Diagram: Fitts Law">
-
-_(Tham khảo hình ảnh: Bởi Foobar628 tại Wikipedia tiếng Anh, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/Fitts%27s_law#/media/File:Fitts_Law.svg)_
+<img width="300px" src="./images/fitts-law.svg" alt="Diagram: Fitts Law">
 
 Hệ quả của luật này quy định rằng khi thiết kế UX hoặc UI, các phần tử tương tác phải càng lớn càng tốt và khoảng cách giữa vùng chú ý của người dùng và phần tử tương tác phải càng nhỏ càng tốt. Điều này có hậu quả về thiết kế, chẳng hạn như nhóm các nhiệm vụ thường được sử dụng với nhau.
 
@@ -318,7 +316,7 @@ Nguyên tắc này gợi ý rằng những hành động dẫn đến một kế
 
 Trong phương trình dưới đây, `T` là thời gian để đưa ra quyết định, `n` là số lựa chọn và `b` là hằng số được xác định bằng phân tích dữ liệu.
 
-![Luật Hicks](./images/hicks_law.svg)
+![Luật Hicks](./images/hicks-law.svg)
 
 _(Hình ảnh tham khảo: Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/Hick%27s_law)_
 
@@ -370,7 +368,7 @@ Ví dụ: giảm độ trễ phản hồi cho một điểm cuối cụ thể c�
 
 Hype Cycle là hình ảnh đại diện cho sự sôi động và phát triển của công nghệ theo thời gian, ban đầu được sản xuất bởi Gartner. Nó được hiển thị tốt nhất bằng hình ảnh:
 
-![Chu kỳ Hype](./images/gartner_hype_cycle.png)
+![Chu kỳ Hype](./images/hype-cycle.svg)
 
 _(Tham khảo hình ảnh: Bởi Jeremykemp tại Wikipedia tiếng Anh, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)_
 
@@ -648,7 +646,7 @@ Quy tắc này cho thấy rằng bất kể quy mô của công ty, các đội 
 
 Số lượng liên kết giữa mọi người có thể được biểu thị bằng `n(n-1)/2` trong đó n = số người.
 
-<img width="200px" alt="Đồ thị hoàn chỉnh; Liên kết giữa mọi người" src="./images/complete_graph.png">
+<img width="200px" alt="Đồ thị hoàn chỉnh; Liên kết giữa mọi người" src="./images/complete-graph.svg">
 
 ### Luật Wadler
 

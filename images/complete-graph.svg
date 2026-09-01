@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="480" height="480" role="img" aria-label="A complete graph of seven nodes, with every node linked">
+  <title>A complete graph of seven nodes, with every node linked</title>
+  <rect x="0" y="0" width="480" height="480" fill="#ffffff"/>
+  <line x1="240.00" y1="44.00" x2="393.24" y2="117.80" stroke="#212529" stroke-width="1.5" stroke-opacity="0.55"/>
+  <line x1="240.00" y1="44.00" x2="431.09" y2="283.61" stroke="#212529" stroke-width="1.5" stroke-opacity="0.55"/>
+  <line x1="240.00" y1="44.00" x2="325.04" y2="416.59" stroke="#212529" stroke-width="1.5" stroke-opacity="0.55"/>
+  <line x1="240.00" y1="44.00" x2="154.96" y2="416.59" stroke="#212529" stroke-width="1.5" stroke-opacity="0.55"/>
+  <line x1="240.00" y1="44.00" x2="48.91" y2="283.61" stroke="#212529" stroke-width="1.5" stroke-opacity="0.55"/>
+  <line x1="240.00" y1="44.00" x2="86.76" y2="117.80" stroke="#212529" stroke-width="1.5" stroke-opacity="0.55"/>
+  <line x1="393.24" y1="117.80" x2="431.09" y2="283.61" stroke="#212529" stroke-width="1.5" stroke-opacity="0.55"/>
+  <line x1="393.24" y1="117.80" x2="325.04" y2="416.59" stroke="#212529" stroke-width="1.5" stroke-opacity="0.55"/>
+  <line x1="393.24" y1="117.80" x2="154.96" y2="416.59" stroke="#212529" stroke-width="1.5" stroke-opacity="0.55"/>
+  <line x1="393.24" y1="117.80" x2="48.91" y2="283.61" stroke="#212529" stroke-width="1.5" stroke-opacity="0.55"/>
+  <line x1="393.24" y1="117.80" x2="86.76" y2="117.80" stroke="#212529" stroke-width="1.5" stroke-opacity="0.55"/>
+  <line x1="431.09" y1="283.61" x2="325.04" y2="416.59" stroke="#212529" stroke-width="1.5" stroke-opacity="0.55"/>
+  <line x1="431.09" y1="283.61" x2="154.96" y2="416.59" stroke="#212529" stroke-width="1.5" stroke-opacity="0.55"/>
+  <line x1="431.09" y1="283.61" x2="48.91" y2="283.61" stroke="#212529" stroke-width="1.5" stroke-opacity="0.55"/>
+  <line x1="431.09" y1="283.61" x2="86.76" y2="117.80" stroke="#212529" stroke-width="1.5" stroke-opacity="0.55"/>
+  <line x1="325.04" y1="416.59" x2="154.96" y2="416.59" stroke="#212529" stroke-width="1.5" stroke-opacity="0.55"/>
+  <line x1="325.04" y1="416.59" x2="48.91" y2="283.61" stroke="#212529" stroke-width="1.5" stroke-opacity="0.55"/>
+  <line x1="325.04" y1="416.59" x2="86.76" y2="117.80" stroke="#212529" stroke-width="1.5" stroke-opacity="0.55"/>
+  <line x1="154.96" y1="416.59" x2="48.91" y2="283.61" stroke="#212529" stroke-width="1.5" stroke-opacity="0.55"/>
+  <line x1="154.96" y1="416.59" x2="86.76" y2="117.80" stroke="#212529" stroke-width="1.5" stroke-opacity="0.55"/>
+  <line x1="48.91" y1="283.61" x2="86.76" y2="117.80" stroke="#212529" stroke-width="1.5" stroke-opacity="0.55"/>
+  <circle cx="240.00" cy="44.00" r="15" fill="#1c7ed6" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="393.24" cy="117.80" r="15" fill="#1c7ed6" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="431.09" cy="283.61" r="15" fill="#1c7ed6" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="325.04" cy="416.59" r="15" fill="#1c7ed6" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="154.96" cy="416.59" r="15" fill="#1c7ed6" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="48.91" cy="283.61" r="15" fill="#1c7ed6" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="86.76" cy="117.80" r="15" fill="#1c7ed6" stroke="#ffffff" stroke-width="3"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Fitts' Law: distance to a target and the width of the target">
+  <title>Fitts' Law: distance to a target and the width of the target</title>
+  <rect x="0" y="0" width="640" height="400" fill="#ffffff"/>
+  <rect x="424" y="150" width="128" height="120" rx="3" fill="#e7f5ff" stroke="#1c7ed6" stroke-width="3"/>
+  <text x="488" y="216" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="18" fill="#212529" text-anchor="middle" font-weight="bold">Target</text>
+  <path d="M 104,226 l 0,-44 l 31,31 l -12,2 l 9,18 l -8,4 l -9,-18 z" fill="#212529"/>
+  <line x1="424" y1="150" x2="424" y2="96" stroke="#868e96" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="552" y1="150" x2="552" y2="96" stroke="#868e96" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="424" y1="108" x2="552" y2="108" stroke="#212529" stroke-width="2"/>
+  <path d="M 424,108 l 7,-7 M 424,108 l 7,7" stroke="#212529" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 552,108 l -7,-7 M 552,108 l -7,7" stroke="#212529" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="488" y="88" font-family="Georgia, Times New Roman, serif" font-size="20" fill="#212529" text-anchor="middle" font-style="italic">W</text>
+  <line x1="104" y1="232" x2="104" y2="322" stroke="#868e96" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="488.0" y1="270" x2="488.0" y2="322" stroke="#868e96" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="104" y1="310" x2="488.0" y2="310" stroke="#212529" stroke-width="2"/>
+  <path d="M 104,310 l 7,-7 M 104,310 l 7,7" stroke="#212529" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 488.0,310 l -7,-7 M 488.0,310 l -7,7" stroke="#212529" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="296" y="348" font-family="Georgia, Times New Roman, serif" font-size="20" fill="#212529" text-anchor="middle" font-style="italic">D</text>
+</svg>

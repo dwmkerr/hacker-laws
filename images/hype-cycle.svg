@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 600" width="1024" height="600" role="img" aria-label="The hype cycle: expectations against time">
+  <title>The hype cycle: expectations against time</title>
+  <rect x="0" y="0" width="1024" height="600" fill="#ffffff"/>
+  <line x1="56" y1="556" x2="984" y2="556" stroke="#868e96" stroke-width="2"/>
+  <line x1="56" y1="556" x2="56" y2="30" stroke="#868e96" stroke-width="2"/>
+  <path d="M 62,548 C 150,540 178,96 212,92 C 246,88 264,300 302,392 C 332,464 356,476 392,476 C 434,476 474,428 524,368 C 584,296 664,260 762,253 C 834,248 902,247 968,246" fill="none" stroke="#d1495b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="66" y="584" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#212529" text-anchor="start">Technology trigger</text>
+  <text x="238" y="92" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#212529" text-anchor="start">Peak of inflated expectations</text>
+  <text x="392" y="522" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#212529" text-anchor="middle">Trough of disillusionment</text>
+  <text x="566" y="420" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#212529" text-anchor="start">Slope of enlightenment</text>
+  <text x="700" y="224" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" fill="#212529" text-anchor="start">Plateau of productivity</text>
+  <text x="48" y="26" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" fill="#868e96" text-anchor="start" font-weight="bold">Expectations</text>
+  <text x="984" y="582" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" fill="#868e96" text-anchor="end" font-weight="bold">Time</text>
+</svg>

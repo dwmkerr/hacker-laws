@@ -8,7 +8,6 @@
 - 🧠 Check out my new project [Terminal AI](https://github.com/dwmkerr/terminal-ai)
 - ☕️ Like this project? Consider [buying me a coffee with a one-off donation](https://github.com/sponsors/dwmkerr?frequency=one-time)
 - 🎧 Listen to the podcast [The Changelog - Laws for Hackers to Live By](https://changelog.com/podcast/403)
-- 📖 Download the [PDF eBook](https://github.com/dwmkerr/hacker-laws/releases/latest/download/hacker-laws.pdf)
 - 🌏 See the Translations: [🇧🇷](./translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇫🇷](./translations/fr.md) [🇮🇹](./translations/it-IT.md) [🇱🇻](./translations/lv.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇪🇸](./translations/es-ES.md) [🇹🇷](./translations/tr.md) [🇮🇩](./translations/id.md) [🇯🇵](./translations/jp.md) [🇵🇱](./translations/pl.md) [🇻🇳](./translations/vi.md)
 
 ---
@@ -87,7 +86,6 @@
     - [The Principle of Least Astonishment](#the-principle-of-least-astonishment)
 - [Reading List](#reading-list)
 - [Online Resources](#online-resources)
-- [PDF eBook](#pdf-ebook)
 - [Podcast](#podcast)
 
 <!-- vim-markdown-toc -->
@@ -95,6 +93,8 @@
 ## Introduction
 
 There are lots of laws which people discuss when talking about development. This repository is a reference and overview of some of the most common ones. Please share and submit PRs!
+
+This project may in time be turned into a book. If it is, all contributors will be credited in an appendix, listed by GitHub handle, or by name if requested in the pull request. See the [Contributing Guidelines](.github/contributing.md) for details.
 
 Warning: This repo contains an explanation of some laws, principles and patterns, but does not _advocate_ for any of them. Whether they should be applied will always be a matter of debate, and greatly dependent on what you are working on.
 
@@ -1165,12 +1165,6 @@ If you have found these concepts interesting, you may enjoy the following books.
 Some useful resources and reading.
 
 - [CB Insights: 8 Laws Driving Success In Tech: Amazon's 2-Pizza Rule, The 80/20 Principle, & More](https://www.cbinsights.com/research/report/tech-laws-success-failure) - an interesting write up of some laws which have been highly influential in technology.
-
-## PDF eBook
-
-The project is available as a PDF eBook, [download the latest PDF eBook with this link](https://github.com/dwmkerr/hacker-laws/releases/latest/download/hacker-laws.pdf) or check the [release](https://github.com/dwmkerr/hacker-laws/releases) page for older versions.
-
-A new version of the eBook is created automatically when a new version tag is pushed.
 
 ## Podcast
 

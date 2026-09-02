@@ -10,7 +10,7 @@
 - [How do I know if a law is 'well known' enough?](#how-do-i-know-if-a-law-is-well-known-enough)
 - [Use of Images](#use-of-images)
 - [Developer Guide](#developer-guide)
-- [Contributor Credit and a Possible Book](#contributor-credit-and-a-possible-book)
+- [Contributions and a Possible Book](#contributions-and-a-possible-book)
 
 <!-- vim-markdown-toc -->
 
@@ -118,12 +118,14 @@ make serve
 
 Run `make` on its own to see the other targets.
 
-## Contributor Credit and a Possible Book
+## Contributions and a Possible Book
 
 This project may in time be turned into a book.
 
-If that happens, every contributor will be credited in an appendix. Contributors are listed by GitHub handle by default. If you would prefer to be credited by name, please say so in your pull request.
+Contributions are treated as proposals and source material for the reference. The maintainer edits and may substantially rewrite accepted material to keep the final text accurate, concise and in a consistent voice.
 
-By opening a pull request you grant the maintainer a permanent, worldwide, royalty-free and non-exclusive licence to use, edit, translate and publish your contribution in any format, including print and electronic editions which are sold. You keep the copyright in what you wrote, and remain free to use it elsewhere yourself.
+By opening a pull request you grant the maintainer a permanent, worldwide, royalty-free and non-exclusive licence to reproduce, use, edit, adapt, translate, distribute, sublicense and publish your contribution in any format, including commercial print and electronic editions.
+
+The maintainer will acknowledge contributions where reasonably practical, but individual attribution cannot be guaranteed for every edited entry, version, format or edition.
 
 The repository stays under [CC BY-SA 4.0](../LICENSE) and will remain free to read.

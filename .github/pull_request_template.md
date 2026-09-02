@@ -2,11 +2,11 @@
 
 Please double check the items below!
 
-- [ ] I have read the [Contributor Guidelines](https://github.com/dwmkerr/hacker-laws/blob/master/.github/contributing.md).
+- [ ] I have read and agree to the contribution licence in the [Contributor Guidelines](https://github.com/dwmkerr/hacker-laws/blob/main/.github/contributing.md).
 - [ ] I have not directly copied text from another location (unless explicitly indicated as a quote) or violated copyright.
 - [ ] I have linked to the original Law.
-- [ ] I have quote the law (if possible) and the author's name (if possible).
-- [ ] I am happy to have my changes merged, so that I appear as a contributor, but also the text altered if required to keep the language consistent in the project.
+- [ ] I have quoted the law (if possible) and the author's name (if possible).
+- [ ] I am happy for my contribution to be merged and substantially rewritten to keep the language consistent across the project.
 
 And don't forget:
 

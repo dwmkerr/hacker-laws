@@ -1,10 +1,10 @@
-<h1 align="center"><a href="https://hacker-laws.com" target="_blank">hacker-laws</a></h1>
+<h1 align="center"><a href="https://hackerlaws.dev" target="_blank">hacker-laws</a></h1>
 <h4 align="center">🧠 Laws, Theories, Principles and Patterns for developers and technologists.</h4>
 
 ---
 
 - 📖 My new book [Effective Shell (Online Version)](https://effective-shell.com) on [Amazon (Print/Kindle)](https://amzn.to/4ho0F91)
-- 🌍 Try [hacker-laws.com](https://hacker-laws.com)
+- 🌍 Try [hackerlaws.dev](https://hackerlaws.dev)
 - 🧠 Check out my new project [Terminal AI](https://github.com/dwmkerr/terminal-ai)
 - ☕️ Like this project? Consider [buying me a coffee with a one-off donation](https://github.com/sponsors/dwmkerr?frequency=one-time)
 - 🎧 Listen to the podcast [The Changelog - Laws for Hackers to Live By](https://changelog.com/podcast/403)
@@ -96,7 +96,7 @@
 
 There are lots of laws which people discuss when talking about development. This repository is a reference and overview of some of the most common ones. Please share and submit PRs!
 
-This project may in time be turned into a book. If it is, all contributors will be credited in an appendix, listed by GitHub handle, or by name if requested in the pull request. See the [Contributing Guidelines](.github/contributing.md) for details.
+This project may in time be turned into a book. Contributions will be acknowledged where reasonably practical. See the [Contributing Guidelines](.github/contributing.md) for details.
 
 Warning: This repo contains an explanation of some laws, principles and patterns, but does not _advocate_ for any of them. Whether they should be applied will always be a matter of debate, and greatly dependent on what you are working on.
 
@@ -124,12 +124,12 @@ See Also:
 
 > The first 90 percent of the code accounts for the first 90 percent of the development time. The remaining 10 percent of the code accounts for the other 90 percent of the development time.
 
-A wry reinterpretation of the [Pareto Principe (or 80-20 rule)](#the-pareto-principle-the-8020-rule) that highlights the real-world challenges of completing engineering work. This sentiment is also echoed in [Hofstadter's Law](#hofstadters-law).
+A wry reinterpretation of the [Pareto Principle (or 80-20 rule)](#the-pareto-principle-the-8020-rule) that highlights the real-world challenges of completing engineering work. This sentiment is also echoed in [Hofstadter's Law](#hofstadters-law).
 
 See also:
 
 - [Hofstadter's Law](#hofstadters-law)
-- [The Pareto Principe](#the-pareto-principle-the-8020-rule)
+- [The Pareto Principle](#the-pareto-principle-the-8020-rule)
 
 ### Amdahl's Law
 
@@ -332,7 +332,7 @@ Real-world examples:
 
 See also:
 - [Goodhart’s Law: How Measuring The Wrong Things Drive Immoral Behaviour](https://coffeeandjunk.com/goodharts-campbells-law/)
-- [Dilbert on bug-free software](https://dilbert.com/strip/1995-11-13)
+- [Dilbert on bug-free software](https://web.archive.org/web/20220101185323/https://dilbert.com/strip/1995-11-13)
 
 ### Hanlon's Razor
 
@@ -701,7 +701,7 @@ See also:
 
 Real-world examples:
 
-- [Photoshop Slow Startup](https://forums.adobe.com/thread/376152) - an issue I encountered in the past. Photoshop would be slow to startup, sometimes taking minutes. It seems the issue was that on startup it reads some information about the current default printer. However, if that printer is actually a network printer, this could take an extremely long time. The _abstraction_ of a network printer being presented to the system similar to a local printer caused an issue for users in poor connectivity situations.
+- Photoshop Slow Startup - an issue I encountered in the past. Photoshop would be slow to startup, sometimes taking minutes. It seems the issue was that on startup it reads some information about the current default printer. However, if that printer is actually a network printer, this could take an extremely long time. The _abstraction_ of a network printer being presented to the system similar to a local printer caused an issue for users in poor connectivity situations.
 
 ### The Law of the Instrument
 
@@ -719,7 +719,7 @@ In the context of computer programming, this law suggests that people tend to us
 
 See also:
 
-- [Avoiding the law of the instrument](https://josemdev.com/avoiding-the-law-of-the-instrument/)
+- [Avoiding the law of the instrument](https://web.archive.org/web/20210224172007/https://josemdev.com/avoiding-the-law-of-the-instrument/)
 - [Anti-Pattern - The Golden Hammer](https://archive.org/details/antipatternsrefa0000unse/page/111/mode/2up)
 
 ### The Law of Triviality

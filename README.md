@@ -756,7 +756,7 @@ See also:
 
 - [Reading List: Clean Code](#reading-list)
 - [Chesterton's Fence](#chestertons-fence)
-- [The Broken Windows Theory](#broken-windows-theory)
+- [The Broken Windows Theory](#the-broken-windows-theory)
 
 https://www.amazon.sg/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882
 

@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.7.0](https://github.com/dwmkerr/hacker-laws/compare/v0.6.0...v0.7.0) (2026-11-07)
+
+
+### Features
+
+* replace diagrams with original SVG artwork ([a6899f2](https://github.com/dwmkerr/hacker-laws/commit/a6899f29a6bea5f95a1bfc047c727f09e43e30ca))
+* replace diagrams with original SVG artwork ([9515642](https://github.com/dwmkerr/hacker-laws/commit/951564206697682e6d009a34f801589f1c45bc8f))
+
+
+### Bug Fixes
+
+* backfill the complete contributor list ([3bc7a05](https://github.com/dwmkerr/hacker-laws/commit/3bc7a054f5aeec1aa6f2f17b76a59c435893763e))
+* backfill the complete contributor list ([36cd098](https://github.com/dwmkerr/hacker-laws/commit/36cd0988521cee56b58069e92d9d2f566cd2e422))
+* correct Broken Windows Theory anchor ([#483](https://github.com/dwmkerr/hacker-laws/issues/483)) ([03cdbc6](https://github.com/dwmkerr/hacker-laws/commit/03cdbc692b67e1d480de578f54c20b1ef143faf9))
+
 ## [0.6.0](https://github.com/dwmkerr/hacker-laws/compare/v0.5.0...v0.6.0) (2026-05-19)
 
 

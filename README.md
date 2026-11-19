@@ -1,11 +1,12 @@
 <h1 align="center"><a href="https://hackerlaws.dev" target="_blank">hacker-laws</a></h1>
 <h4 align="center">🧠 Laws, Theories, Principles and Patterns for developers and technologists.</h4>
-<p align="center"><a href="https://github.com/sponsors/dwmkerr/sponsorships?frequency=one-time&amount=5"><img src="https://img.shields.io/badge/thanks-donate-ea4aaa?logo=githubsponsors&logoColor=white" alt="Donate"></a></p>
+<p align="center"><a href="https://github.com/sponsors/dwmkerr/sponsorships?frequency=one-time&amount=5"><img src="https://img.shields.io/badge/thanks-donate-ea4aaa?logo=githubsponsors&logoColor=white" alt="Donate"></a> <a href="https://humanbookproject.com/try/hacker-laws?utm_source=hacker-laws-github&utm_medium=badge"><img src="https://img.shields.io/badge/Human_Book-read_%C2%B7_listen_%C2%B7_ask-9d562a" alt="Read on Human Book"></a></p>
 
 ---
 
 - 📖 My new book [Effective Shell (Online Version)](https://effective-shell.com) on [Amazon (Print/Kindle)](https://amzn.to/4ho0F91)
 - 🌍 Try [hackerlaws.dev](https://hackerlaws.dev)
+- 🎧 Read, listen to and ask about Hacker Laws on [Human Book](https://humanbookproject.com/try/hacker-laws?utm_source=hacker-laws-github&utm_medium=badge)
 - 🧠 Check out my new project [Terminal AI](https://github.com/dwmkerr/terminal-ai)
 - 🎧 Listen to the podcast [The Changelog - Laws for Hackers to Live By](https://changelog.com/podcast/403)
 - 🌏 See the Translations: [🇧🇷](./translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇫🇷](./translations/fr.md) [🇮🇹](./translations/it-IT.md) [🇱🇻](./translations/lv.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇪🇸](./translations/es-ES.md) [🇹🇷](./translations/tr.md) [🇮🇩](./translations/id.md) [🇯🇵](./translations/jp.md) [🇵🇱](./translations/pl.md) [🇻🇳](./translations/vi.md)

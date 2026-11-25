@@ -30,6 +30,8 @@ jobs:
 
   release:
     needs: test-website-build
+    # Release Please only acts on main; running it for pull requests just adds API calls that can flake.
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-24.04
     outputs:
       released: ${{ steps.release-please.outputs.release_created }}

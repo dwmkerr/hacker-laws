@@ -30,6 +30,8 @@ jobs:
 
   release:
     needs: test-website-build
+    # Release Please only acts on main; running it for pull requests just adds API calls that can flake.
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-24.04
     outputs:
       released: ${{ steps.release-please.outputs.release_created }}
@@ -41,13 +43,11 @@ jobs:
           manifest-file: .github/release-please-manifest.json
           config-file: .github/release-please-config.json
 
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build-pages:
     runs-on: ubuntu-24.04
     needs: release
-    if: ${{ needs.release.outputs.released }}
+    # Manual runs let a release be redeployed when a Pages deploy fails.
+    if: ${{ needs.release.outputs.released || github.event_name == 'workflow_dispatch' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -64,6 +64,15 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: './.github/pages'
+
+  # Deploy in its own job: in the same job the artifact is not always listed yet, so deploy-pages fails to find it.
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-24.04
+    needs: build-pages
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

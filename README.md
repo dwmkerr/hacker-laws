@@ -8,7 +8,7 @@
 - 🌍 Try [hackerlaws.dev](https://hackerlaws.dev)
 - 🎧 Read, listen to and ask about Hacker Laws on [Human Book](https://humanbookproject.com/try/hacker-laws?utm_source=hacker-laws-github&utm_medium=badge)
 - 🧠 Check out my new project [Terminal AI](https://github.com/dwmkerr/terminal-ai)
-- 🎧 Listen to the podcast [The Changelog - Laws for Hackers to Live By](https://changelog.com/podcast/403)
+- 🎧 Listen to the new podcast [The Changelog - We now have Kerr's Law](https://changelog.com/podcast/689) (and the original, [Laws for Hackers to Live By](https://changelog.com/podcast/403))
 - 🌏 See the Translations: [🇧🇷](./translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇫🇷](./translations/fr.md) [🇮🇹](./translations/it-IT.md) [🇱🇻](./translations/lv.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇪🇸](./translations/es-ES.md) [🇹🇷](./translations/tr.md) [🇮🇩](./translations/id.md) [🇯🇵](./translations/jp.md) [🇵🇱](./translations/pl.md) [🇻🇳](./translations/vi.md)
 
 ---
@@ -40,6 +40,7 @@
     - [Jevons' Paradox](#jevons-paradox)
     - [Input-Process-Output (IPO)](#input-process-output-ipo)
     - [Kernighan's Law](#kernighans-law)
+    - [Kerr's Law](#kerrs-law)
     - [Koomey's Law](#koomeys-law)
     - [Linus's Law](#linuss-law)
     - [Metcalfe's Law](#metcalfes-law)
@@ -485,6 +486,19 @@ See also:
 - [The KISS Principle](#the-kiss-principle)
 - [The Unix Philosophy](#the-unix-philosophy)
 - [Occam's Razor](#occams-razor)
+
+### Kerr's Law
+
+> A team's ability to scale is limited by its ability to keep a shared mental model in sync with the system it builds.
+>
+> (Dave Kerr)
+
+Named on [The Changelog #689](https://changelog.com/podcast/689). When agents write much of the code, output stops being the constraint and shared understanding becomes it. Code review is one way to deliberately slow down and keep that model in sync.
+
+See also:
+
+- [Brooks' Law](#brooks-law)
+- [Conway's Law](#conways-law)
 
 ### Koomey's Law
 
@@ -1219,7 +1233,7 @@ Some useful resources and reading.
 
 ## Podcast
 
-Hacker Laws has been featured in [The Changelog](https://changelog.com/podcast/403), you can check out the Podcast episode with the link below:
+Hacker Laws has been featured in [The Changelog](https://changelog.com/podcast/403), and again in [We now have Kerr's Law](https://changelog.com/podcast/689). You can check out the original episode with the link below:
 
 <a href="https://changelog.com/podcast/403" target="_blank"><img src="./images/changelog-podcast.png" width="800px" alt="Changelog Podcast Image" /></a>
 

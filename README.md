@@ -105,6 +105,23 @@ Warning: This repo contains an explanation of some laws, principles and patterns
 
 Laws can be opinions on inevitabilities in the world of software engineering, or wry observations on unavoidable realities.
 
+### 10x/9 Rule
+
+[10x/9 Rule on Alex Ewerlöf Notes](https://blog.alexewerlof.com/p/10x9)
+
+> Every 9 added to the SLO, increases the cost of reliability by 10x.
+>
+> (Alex Ewerlöf)
+
+The rule, read as 'ten exes per nine', observes that each added nine divides the permitted error budget, and therefore the allowed unreliability, by a factor of ten, while the cost of reaching that level rises by roughly the same factor.
+
+Reliability is a socio-technical concern, so the cost is not only technical: rearchitecting, refactoring, adding observability, redundancy and failover all demand effort, and cutting handovers may require reorganising teams (all of which takes time and can impact velocity).
+
+See also:
+
+- [Goodhart's Law](#goodharts-law)
+- [Amdahl's Law](#amdahls-law)
+
 ### 90–9–1 Principle (1% Rule)
 
 [1% Rule on Wikipedia](https://en.wikipedia.org/wiki/1%25_rule_(Internet_culture))
@@ -153,6 +170,7 @@ See also:
 
 - [Brooks' Law](#brooks-law)
 - [Moore's Law](#moores-law)
+- [10x/9 Rule](#10x9-rule)
 
 ### The Broken Windows Theory
 
@@ -334,6 +352,7 @@ Real-world examples:
 See also:
 - [Goodhart’s Law: How Measuring The Wrong Things Drive Immoral Behaviour](https://coffeeandjunk.com/goodharts-campbells-law/)
 - [Dilbert on bug-free software](https://web.archive.org/web/20220101185323/https://dilbert.com/strip/1995-11-13)
+- [10x/9 Rule](#10x9-rule)
 
 ### Hanlon's Razor
 
